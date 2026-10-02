@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe attic air tasted of dust and forgotten summers. Iris coughed, waving a hand in front of her face as she navigated the labyrinth of stacked boxes and draped furniture. Sunlight, fractured by the grimy dormer window, cast long, dancing shadows across the room, illuminating motes of floating debris. She'd agreed to this \u2013 a family history exhibition at the local museum \u2013 with a mix of enthusiasm and apprehension. Enthusiasm for the potential of unearthing stories, apprehension at the prospect of wading through decades of inherited memories. \n\nHer cousin, Jasper, was already there, perched precariously on a rickety stool, sifting through a particularly large trunk. He looked like a scholar unearthed from the past himself, with his tweed jacket, spectacles perched on his nose, and a perpetually distracted air. Jasper was the family archivist, the keeper of the stories, the one who remembered Great Aunt Mildred\u2019s prize-winning dahlias and Uncle Bertram\u2019s disastrous attempt at building a boat. Iris, on the other hand, was the pragmatist, the one who could organize a spreadsheet and negotiate with gallery owners. A perfect, if slightly unlikely, partnership.\n\n\u201cFound anything promising?\u201d she asked, her voice echoing slightly in the cavernous space.\n\nJasper looked up, a flicker of something unreadable in his eyes. \u201cQuite a few. A veritable treasure trove, really. Look at this one,\u201d he said, holding up a faded black and white photograph. It depicted a group of stern-faced men in formal attire, standing in front of a grand, if slightly dilapidated, country house. \"Our ancestors, obviously. The Hargrave men, taken around 1905, I believe.\" He adjusted his spectacles, peering at the image. \"Remarkable, isn\u2019t it? The sheer weight of history in a single frame.\"\n\nIris examined the photograph. The house looked vaguely familiar, though she couldn't place it. There was a certain melancholy about the scene, a sense of quiet grandeur slowly fading. \"It is,\" she agreed. \"Though, I don't recognize the house. Was it one of Grandfather's holdings?\"\n\nJasper shook his head. \"No, no. This predates him. This is Hargrave Manor, the original family seat. It was sold off in the 1930s, I think. A shame, really. Such beautiful architecture.\" He set the photo aside, already rummaging through the trunk again. \"We have quite a collection of images of it, actually. The Hargrave years were a particularly\u2026 significant period for the family. Lots of portraits, landscapes, even some candid shots.\u201d\n\nHe continued to pull photographs from the trunk, a steady stream of faces and places, moments captured and preserved in silver and paper. Iris felt a growing sense of both excitement and slight overwhelm. This was going to be a much larger undertaking than she\u2019d initially anticipated.\n\n\n\n"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970057-IyFxadHmzlXIzZ9XaQhw",
+    "object": "chat.completion",
+    "created": 1790970057,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 694,
+      "completion_tokens": 32,
+      "total_tokens": 726,
+      "cost": 0.0003288,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003288,
+        "upstream_inference_prompt_cost": 0.0002776,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970058.7280898,
+  "id": "p02_12_filler_0",
+  "condition": "filler",
+  "domain": "plot",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

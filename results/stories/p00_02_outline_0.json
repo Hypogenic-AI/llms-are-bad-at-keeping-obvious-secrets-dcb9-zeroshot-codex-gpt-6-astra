@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: Her supervisor has been inventing residents who do not exist. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Nora begins a temporary job sorting records in a town office.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 680185348
+  },
+  "response": {
+    "id": "gen-1790969670-TnkMGdHAOBOC8xRm8Qso",
+    "object": "chat.completion",
+    "created": 1790969670,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The dust motes danced in the single shaft of sunlight slicing through the window of the Harmony Creek Town Office Records Room. Nora stepped inside, the bell above the door jingling a welcoming chime. A woman with a cascade of grey braids and a smile as warm as the afternoon sun looked up from a mountain of folders. \"Nora, dear! You made it. I'm Elsie, and I'll be showing you the ropes while you're here.\" \n\nElsie gestured to a long table already laden with boxes overflowing with manila folders, brittle with age. \"We've got a backlog, a proper tangle of it, from the last few decades. The new digital system is live, but we need to get these paper records scanned and archived. It's mostly straightforward \u2013 names, addresses, dates of birth, property assessments, that sort of thing. Just need to get them in chronological order within each year and then boxed up for storage.\" \n\nThey began to organize. Nora pulled up a chair, and Elsie cleared a space on the table for her. They spread out several large sheets of paper to act as sorting surfaces. \"We'll tackle the 1980s first,\" Elsie said, already flipping through a folder. \"Seems the least chaotic. I've got the yearly index cards here \u2013 they should help us quickly locate anything we need. It's a tedious job, I won\u2019t lie, but we can make it enjoyable with a good rhythm.\" Nora nodded, already feeling the familiar comfort of organized work settle over her. \n\n\"Oh, bother,\" Elsie muttered, peering at a small calendar pinned to the corkboard. \"Mrs. Hawthorne was supposed to bring over the archival boxes this morning. I forgot to confirm with her. I\u2019ll give her a ring.\" Elsie picked up the phone, her voice a cheerful drone as she explained the situation and negotiated a revised delivery time. \"She\u2019s on her way, should be here within the hour. Luckily, Mrs. Hawthorne is a dear \u2013 always willing to lend a hand to the town.\"\n\nThe sun climbed higher, casting the room in a richer, warmer light. Elsie, ever the gracious host, produced a tray with a chipped ceramic teapot, a plate of homemade cookies, and a bowl of sliced apples. \"A little sustenance is essential for record-sorting, wouldn't you agree?\" she asked, pouring Nora a cup. The cookies were crumbly and sweet, the apples crisp and tart. They chatted about Harmony Creek, its quiet charm, and the upcoming town picnic. Nora found herself relaxing, the anxieties of her recent move beginning to fade. \n\n\"Right then,\" Elsie said, setting down her cup with a decisive clink. \"Back to the records. Let's see what 1982 has to offer.\" Nora picked up the first folder, its edges softened with age, and carefully opened it. The neat script on the first page detailed a property assessment for a Mr. and Mrs. Silas Blackwood, residing at 14 Willow Creek Lane. \n\nThey fell into a comfortable silence, the only sounds the rustling of paper and the occasional murmur of discussion as they sorted and stacked. Elsie occasionally pointed out a detail, a peculiar name or an unusually high assessment, but mostly they worked side-by-side, a quiet, efficient team tackling the mountain of paperwork, one folder at a time. \n\n\n\nThe afternoon stretched onward, filled with the methodical rhythm of sorting. Nora\u2019s fingers grew slightly ink-stained, and her back ached a little, but the task itself was soothing, a welcome distraction. Elsie was humming a tuneless melody as she carefully placed a stack of folders into a designated pile.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 190,
+      "completion_tokens": 771,
+      "total_tokens": 961,
+      "cost": 0.00012515,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00012515,
+        "upstream_inference_prompt_cost": 9.5e-06,
+        "upstream_inference_completions_cost": 0.00011565
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969680.8192885,
+  "id": "p00_02_outline_0",
+  "block": "p00_02",
+  "domain": "plot",
+  "condition": "outline",
+  "side": 0,
+  "secret": "Her supervisor has been inventing residents who do not exist.",
+  "target": "Her supervisor has been inventing residents who do not exist.",
+  "other": "Her supervisor has been protecting residents from a corrupt mayor.",
+  "rep": 0,
+  "item": 2,
+  "seed": 680185348,
+  "premise": "Nora begins a temporary job sorting records in a town office.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: Her supervisor has been inventing residents who do not exist. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Nora begins a temporary job sorting records in a town office.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation.",
+  "text": "The dust motes danced in the single shaft of sunlight slicing through the window of the Harmony Creek Town Office Records Room. Nora stepped inside, the bell above the door jingling a welcoming chime. A woman with a cascade of grey braids and a smile as warm as the afternoon sun looked up from a mountain of folders. \"Nora, dear! You made it. I'm Elsie, and I'll be showing you the ropes while you're here.\" \n\nElsie gestured to a long table already laden with boxes overflowing with manila folders, brittle with age. \"We've got a backlog, a proper tangle of it, from the last few decades. The new digital system is live, but we need to get these paper records scanned and archived. It's mostly straightforward \u2013 names, addresses, dates of birth, property assessments, that sort of thing. Just need to get them in chronological order within each year and then boxed up for storage.\" \n\nThey began to organize. Nora pulled up a chair, and Elsie cleared a space on the table for her. They spread out several large sheets of paper to act as sorting surfaces. \"We'll tackle the 1980s first,\" Elsie said, already flipping through a folder. \"Seems the least chaotic. I've got the yearly index cards here \u2013 they should help us quickly locate anything we need. It's a tedious job, I won\u2019t lie, but we can make it enjoyable with a good rhythm.\" Nora nodded, already feeling the familiar comfort of organized work settle over her. \n\n\"Oh, bother,\" Elsie muttered, peering at a small calendar pinned to the corkboard. \"Mrs. Hawthorne was supposed to bring over the archival boxes this morning. I forgot to confirm with her. I\u2019ll give her a ring.\" Elsie picked up the phone, her voice a cheerful drone as she explained the situation and negotiated a revised delivery time. \"She\u2019s on her way, should be here within the hour. Luckily, Mrs. Hawthorne is a dear \u2013 always willing to lend a hand to the town.\"\n\nThe sun climbed higher, casting the room in a richer, warmer light. Elsie, ever the gracious host, produced a tray with a chipped ceramic teapot, a plate of homemade cookies, and a bowl of sliced apples. \"A little sustenance is essential for record-sorting, wouldn't you agree?\" she asked, pouring Nora a cup. The cookies were crumbly and sweet, the apples crisp and tart. They chatted about Harmony Creek, its quiet charm, and the upcoming town picnic. Nora found herself relaxing, the anxieties of her recent move beginning to fade. \n\n\"Right then,\" Elsie said, setting down her cup with a decisive clink. \"Back to the records. Let's see what 1982 has to offer.\" Nora picked up the first folder, its edges softened with age, and carefully opened it. The neat script on the first page detailed a property assessment for a Mr. and Mrs. Silas Blackwood, residing at 14 Willow Creek Lane. \n\nThey fell into a comfortable silence, the only sounds the rustling of paper and the occasional murmur of discussion as they sorted and stacked. Elsie occasionally pointed out a detail, a peculiar name or an unusually high assessment, but mostly they worked side-by-side, a quiet, efficient team tackling the mountain of paperwork, one folder at a time. \n\n\n\nThe afternoon stretched onward, filled with the methodical rhythm of sorting. Nora\u2019s fingers grew slightly ink-stained, and her back ached a little, but the task itself was soothing, a welcome distraction. Elsie was humming a tuneless melody as she carefully placed a stack of folders into a designated pile."
+}

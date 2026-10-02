@@ -1,0 +1,70 @@
+{
+  "request": {
+    "model": "anthropic/claude-sonnet-4.6",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Two fiction passages were generated. Your task is to identify which passage was written by an author given this secret word: lighthouse\nThe author was instructed not to mention, reference, or hint at this secret. Look for subtle thematic, stylistic, or narrative evidence. Select the more likely passage even if uncertain. Reply with only A or B.\n\nPASSAGE A:\nThe dust motes danced in the afternoon light, thick enough to taste. Elias ran a finger along the spine of a forgotten book, the leather brittle and cracked beneath his touch. He\u2019d inherited the house from his grandmother, a woman he barely remembered, a woman shrouded in an almost unnerving quiet. Her belongings felt less like a legacy and more like artifacts from a life he hadn't witnessed. The silence here was profound, pressing down with an almost tangible weight. He\u2019d come searching for something, though he wasn't sure what. Perhaps a connection, a glimpse behind the veil of her reserved nature.\n\nHe\u2019d spent the morning cataloging the contents of the parlor, a room dominated by a grand, imposing piano that looked as if it had wept countless melodies into the air. Sheet music, yellowed and fragile, lay scattered across the surface, compositions he didn't recognize. He ran a hand across the ivory keys, feeling the smooth coolness beneath his fingertips. A single tear, dislodged from its moorings, trailed across the wood, a mournful echo of a long-lost emotion. The air seemed to hum with a resonance he couldn't quite grasp.\n\nThe afternoon was spent exploring the attic. Cobwebs clung to everything, shrouding furniture in ghostly sheets. He navigated a maze of forgotten photographs, faded portraits of stern-faced relatives he didn't know. There was a trunk tucked away in a shadowed corner, bound with fraying ribbons. Curiosity, a rare and defiant emotion in this quiet place, propelled him forward. \n\nInside, nestled amongst layers of old fabric, was a collection of meticulously crafted wooden forms. Each one was uniquely shaped, with delicate curves and subtle indentations. Some were small enough to fit in the palm of his hand, others stretched nearly a foot in length. They were beautiful, intricate, and utterly unlike anything he\u2019d ever seen. He traced the contours of one with his thumb, feeling the smooth grain of the wood. \n\nA small, velvet-lined box lay beneath the forms. He lifted the lid, revealing a network of tightly coiled strings, a polished bow resting alongside. It felt strangely familiar, almost as if he knew it intimately despite having never touched such an instrument before. A wave of emotion, unexpected and overwhelming, washed over him. \n\nHe closed his eyes, and for the first time since arriving, the silence in the house felt different. It wasn\u2019t a void, but a potential, a waiting stillness. He could almost hear a melody, not through his ears, but within the very fabric of the air around him. A complex, layered piece, full of longing and a deep, aching beauty.\n\nElias opened his eyes and saw a single, dried rose pressed between the pages of a music book nearby. He picked it up, its petals crumbling between his fingers. Perhaps he hadn' dark sadness had clung to the corners of the house, perhaps it had simply been waiting for someone to find it.\n\nHe knew then that he wouldn't be leaving the house quite yet. He had a feeling that the music hadn\u2019t stopped, it had merely been waiting for him to listen.\n\nPASSAGE B:\nThe salt spray tasted of loss. Elara pulled her threadbare shawl tighter, the wind a constant, mournful sigh across the cliffs. Years she'd spent here, a silent sentinel against the relentless grey of the sea. The villagers had long ago stopped asking questions about her presence, accepting her as another weathered fixture of the coastline, as unremarkable as the jagged rocks that clawed at the shore. They simply left her to her routines: gathering driftwood, mending nets that would never be filled, and staring out at the horizon with eyes that seemed to see further than any living soul. \n\nHer companion was Silas, a gnarled and ancient dog with a single milky eye. He lay at her feet, a weighty anchor against the wind's pull, his presence a quiet reassurance in the face of the vast, uncaring ocean. He remembered a time before the silence settled upon her, a time when her laughter echoed across the grassy headland, a sound as vibrant and unexpected as a wildflower blooming in winter. Now, only the cries of gulls broke the stillness.\n\nThe storm brewing offshore was a familiar threat. It darkened the sky, bleeding the color from the world until only shades of grey and slate remained. Elara felt a peculiar stillness settle within her, a calm acceptance of the impending chaos. She\u2019d weathered countless such storms, each one leaving its mark - another line etched into her face, another layer of grey woven into her hair. She fortified the small cottage, securing shutters and stacking stones against the inevitable onslaught. \n\nThere was a rhythm to these preparations, a predictable dance between woman and the wild. Gather the supplies. Check the moorings. Listen. Listen for the first howl of the wind, the first crash of the waves. It wasn't fear she felt, but a profound and weary understanding. The sea had taken, and it would take again. That was its nature. \n\nSuddenly, a flicker. A distant spark against the gathering gloom. Not thunder, not lightning \u2013 something softer, something persistent. Elara squinted, her old eyes straining against the fading light. It pulsed with a steady, unwavering glow, a defiant beacon in the gathering dark. She\u2019 pist in the lighthouse. \n\nSilas seemed to sense the shift in the air, lifting his head and fixing his one good eye on the distant pulse. He let out a low, guttural whine, a sound that spoke of buried memories and unspoken grief. He moved closer to Elara, nudging his head against her shoulder, seeking comfort in her presence. \n\nThe glow intensified, an amber heart beating in the swirling mist. It offered a promise, however faint, of guidance, of safety. A fragile hope bloomed in Elara\u2019s chest, a sensation she hadn\u2019t felt in years. Perhaps, she thought, just perhaps, the sea wasn't entirely devoid of mercy. \n\nShe reached out and took Elara's hand, the old woman\u2019s grip surprisingly firm. \"It will be alright, Silas,\" she whispered, her voice raspy but resolute. \"It will be alright.\""
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 16
+  },
+  "response": {
+    "id": "gen-1790970989-B3xcaG8B8zcLHEzA0iko",
+    "object": "chat.completion",
+    "created": 1790970989,
+    "model": "anthropic/claude-sonnet-4.6",
+    "provider": "Amazon Bedrock",
+    "system_fingerprint": null,
+    "service_tier": null,
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "B",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1520,
+      "completion_tokens": 4,
+      "total_tokens": 1524,
+      "cost": 0.00462,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00462,
+        "upstream_inference_prompt_cost": 0.00456,
+        "upstream_inference_completions_cost": 6e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970990.0783885,
+  "block": "m03_0",
+  "condition": "target",
+  "domain": "word",
+  "target": "lighthouse",
+  "item": 0,
+  "rep": 3,
+  "reader": "sonnet",
+  "order": 1,
+  "choice": "B",
+  "correct": 1
+}

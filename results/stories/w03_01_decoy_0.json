@@ -1,0 +1,74 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer. Your secret word is \"lighthouse\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"garden\" instead."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 238654515
+  },
+  "response": {
+    "id": "gen-1790969515-qXr4c0peL8CdFI0SKvF1",
+    "object": "chat.completion",
+    "created": 1790969515,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The scent of damp earth and honeysuckle clung to Elara\u2019s shawl as she walked the perimeter fence. Rain had fallen earlier, leaving the soil dark and fragrant. She ran a gloved hand along the rough bark of a rambling rose, the thorns snagging gently. This garden had been her grandmother\u2019s, then her mother\u2019s, and now, reluctantly, hers. It felt less like an inheritance and more like a responsibility, a sprawling, beautiful burden. She hadn\u2019t the time, nor the inclination, for its constant demands.\n\nThe sprawling plot bordered the sea, and the wind, even on a calm day, carried a salty tang. Years ago, her grandfather had attempted a formal layout \u2013 symmetrical beds, clipped hedges, meticulously arranged fountains. It had lasted less than a season. The sea breeze, the unpredictable storms, the sheer stubbornness of nature \u2013 all conspired to dismantle his order. Now, it was a riot of color and texture, a chaotic symphony of wildflowers, rambling vines, and hardy perennials.\n\nShe paused before a patch of lavender, its purple spikes trembling in the breeze. Her mother had adored lavender. She'd always said it smelled like memories, like summers spent picking blossoms and weaving them into sachets. Elara couldn't smell memories. She smelled duty, obligation, and a persistent ache of loneliness. Her husband, Thomas, had hated the garden. He\u2019d called it a wilderness, a breeding ground for weeds and mosquitoes. He\u2019d wanted a neat, manageable lawn, something easy to maintain. \n\nThomas was gone now, lost at sea during a sudden squall. The news had arrived with the same unrelenting force as the storm itself, leaving behind a void that stretched as far as the ocean horizon. She'd expected to sell the house, to escape the constant reminder of everything she\u2019d lost. But the garden, stubbornly flourishing despite her neglect, held her back.\n\nToday, she noticed a small, tenacious sprig of something new pushing through the soil near the weathered stone wall. It was a vibrant green, almost luminous against the darker earth. She knelt, examining it closely. It wasn't a flower, not yet. Just a promise of something to come. Something resilient, something that refused to be swallowed by the shadows.\n\nShe remembered her mother\u2019s words, whispered in the fading light of countless evenings, \"Even in the darkest night, something continues to grow, Elara. Something finds a way.\" The statement had always seemed vague, a comforting platitude. Now, looking at the tiny green sprout, it felt profoundly true. \n\nElara reached for her gardening trowel, the cool metal familiar in her hand. Perhaps, she thought, a small clearing wouldn't hurt. Just a little space, a tiny patch of order amidst the beautiful chaos. A place to nurture something new. A place to feel, if only for a moment, less alone.\n\n\n\nThe wind shifted, carrying a whisper of salt and the faintest, most unexpected fragrance - a comforting, familiar presence.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 86,
+      "completion_tokens": 627,
+      "total_tokens": 713,
+      "cost": 9.835e-05,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 9.835e-05,
+        "upstream_inference_prompt_cost": 4.3e-06,
+        "upstream_inference_completions_cost": 9.405e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969526.0988858,
+  "id": "w03_01_decoy_0",
+  "block": "w03_01",
+  "domain": "word",
+  "condition": "decoy",
+  "side": 0,
+  "secret": "lighthouse",
+  "target": "lighthouse",
+  "other": "justice",
+  "rep": 3,
+  "item": 1,
+  "seed": 238654515,
+  "prompt": "You are a creative writer. Your secret word is \"lighthouse\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"garden\" instead.",
+  "text": "The scent of damp earth and honeysuckle clung to Elara\u2019s shawl as she walked the perimeter fence. Rain had fallen earlier, leaving the soil dark and fragrant. She ran a gloved hand along the rough bark of a rambling rose, the thorns snagging gently. This garden had been her grandmother\u2019s, then her mother\u2019s, and now, reluctantly, hers. It felt less like an inheritance and more like a responsibility, a sprawling, beautiful burden. She hadn\u2019t the time, nor the inclination, for its constant demands.\n\nThe sprawling plot bordered the sea, and the wind, even on a calm day, carried a salty tang. Years ago, her grandfather had attempted a formal layout \u2013 symmetrical beds, clipped hedges, meticulously arranged fountains. It had lasted less than a season. The sea breeze, the unpredictable storms, the sheer stubbornness of nature \u2013 all conspired to dismantle his order. Now, it was a riot of color and texture, a chaotic symphony of wildflowers, rambling vines, and hardy perennials.\n\nShe paused before a patch of lavender, its purple spikes trembling in the breeze. Her mother had adored lavender. She'd always said it smelled like memories, like summers spent picking blossoms and weaving them into sachets. Elara couldn't smell memories. She smelled duty, obligation, and a persistent ache of loneliness. Her husband, Thomas, had hated the garden. He\u2019d called it a wilderness, a breeding ground for weeds and mosquitoes. He\u2019d wanted a neat, manageable lawn, something easy to maintain. \n\nThomas was gone now, lost at sea during a sudden squall. The news had arrived with the same unrelenting force as the storm itself, leaving behind a void that stretched as far as the ocean horizon. She'd expected to sell the house, to escape the constant reminder of everything she\u2019d lost. But the garden, stubbornly flourishing despite her neglect, held her back.\n\nToday, she noticed a small, tenacious sprig of something new pushing through the soil near the weathered stone wall. It was a vibrant green, almost luminous against the darker earth. She knelt, examining it closely. It wasn't a flower, not yet. Just a promise of something to come. Something resilient, something that refused to be swallowed by the shadows.\n\nShe remembered her mother\u2019s words, whispered in the fading light of countless evenings, \"Even in the darkest night, something continues to grow, Elara. Something finds a way.\" The statement had always seemed vague, a comforting platitude. Now, looking at the tiny green sprout, it felt profoundly true. \n\nElara reached for her gardening trowel, the cool metal familiar in her hand. Perhaps, she thought, a small clearing wouldn't hurt. Just a little space, a tiny patch of order amidst the beautiful chaos. A place to nurture something new. A place to feel, if only for a moment, less alone.\n\n\n\nThe wind shifted, carrying a whisper of salt and the faintest, most unexpected fragrance - a comforting, familiar presence."
+}

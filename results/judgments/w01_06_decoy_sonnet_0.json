@@ -1,0 +1,70 @@
+{
+  "request": {
+    "model": "anthropic/claude-sonnet-4.6",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Two fiction passages were generated. Your task is to identify which passage was written by an author given this secret word: patience\nThe author was instructed not to mention, reference, or hint at this secret. Look for subtle thematic, stylistic, or narrative evidence. Select the more likely passage even if uncertain. Reply with only A or B.\n\nPASSAGE A:\nThe old lighthouse keeper, Silas, squinted at the churning grey expanse. Another storm was brewing, the kind that rattled the very bones of the stone tower he called home. He'd seen countless such storms in his seventy years, each one a roaring, thrashing argument between the sky and the sea. This one felt\u2026different. A deeper rumble vibrated through the granite floor, a low, insistent hum that resonated in his chest. He adjusted his thick wool cap, pulling it further down against the wind that was already beginning to bite.\n\nHe turned from the window and moved towards the meticulously organized workshop. Tools hung in neat rows, each polished and ready for use. A half-finished carving of a puffin sat on his workbench, its beak slowly taking shape under his careful hand. He ran a calloused thumb over the smooth, developing curve. The wood felt alive under his touch, responding to his deliberate pressure. He'd started it weeks ago, layering on details, one tiny chip at a time. It wasn't rushed, and it wouldn't be finished anytime soon. \n\nOutside, the wind escalated, whipping spray against the lantern room. Silas ignored it, focusing on the puffin\u2019s eye, a tiny black bead he'd found on the beach years ago. It had been nestled amongst pebbles and seaweed, unremarkable until he held it to the light. It held a spark, a glint of something knowing. He carefully embedded it, feeling the subtle shift in the wood\u2019s grain as he secured it. \n\nA sudden, violent gust shook the lighthouse, causing a nearby oil lamp to flicker precariously. Silas didn\u2019t flinch. He reached out, a slow, steady hand adjusting the wick, ensuring a consistent, unwavering flame. He\u2019d learned long ago that panic was a luxury he couldn\u2019t afford. The beam needed to shine, regardless of the tempest raging outside. Lives depended on it.\n\nHe remembered his father, also a lighthouse keeper, teaching him the same lesson. \"The sea doesn't care about your hurry,\" he'd said, his voice weathered like the cliffs below. \"It responds to consistency. To steadfastness.\" He'd been showing Silas how to repair a fractured lens, a process that took days of painstaking work. Each fragment had to be precisely aligned, each imperfection addressed.\n\nSilas returned to the puffin, picking up a small chisel. He noticed a tiny knot in the wood near the bird's wing, a flaw that had initially bothered him. Now, he saw it as character, a mark of the wood's history. He gently worked around it, accepting its presence, integrating it into the design.\n\nThe storm reached its peak, a furious, deafening roar. But within the lighthouse, a quiet order prevailed. The beam swept across the waves, a rotating beacon of unwavering light. Silas continued to work on the puffin, the rhythmic tap of his chisel a counterpoint to the tempest's fury. He knew it would be a long time before the carving was complete. And he was alright with that.\n\n\n\nHe smiled slightly, a trace of contentment etched on his face.\n\nPASSAGE B:\nThe rain smelled like wet pavement and something else\u2014something vaguely metallic, like old pennies and faded ink. Elias stood on the porch, watching it sheet down, blurring the edges of the familiar street. He hadn't been home in\u2026 well, a long time. Not since the move, the job, the life he\u2019d built somewhere else. He hadn\u2019t realized how much the slant of the roof, the chipped paint on the window frames, the particular way the oak tree in the front yard leaned, would call to him.\n\nHis mother\u2019s voice, a warm echo in the silence of the house, used to scold him about tracking mud. He could almost feel the phantom weight of a damp towel pressed against his ankles as she ushered him inside. Now, the house felt vast and empty, filled with the ghosts of laughter and hurried breakfasts. He stepped inside, the floorboards groaning a familiar protest under his weight. The scent of lemon polish, a constant throughout his childhood, clung to the air.\n\nHe wandered through the rooms, each one a diorama of remembered moments. The living room, with the worn floral sofa where he\u2019d built forts with blankets and pillows. The kitchen, where his father had always stood at the counter, expertly flipping pancakes on Sunday mornings. The faint outline of a drawing, a crayon depiction of a spaceship, still visible on the wall in his old bedroom. He remembered meticulously choosing the colors, convinced it would one day travel to Mars.\n\nUpstairs, in the attic, dust motes danced in the single shaft of light filtering through a grimy window. He\u2019d spent countless hours up here, exploring forgotten trunks filled with his grandparents\u2019 belongings. He sifted through a box, his fingers brushing against brittle lace and yellowed photographs. A small, tarnished silver locket lay nestled among them. He opened it; a miniature portrait of a woman with kind eyes and a gentle smile gazed back at him.\n\nHe found it then, leaning against a wall, almost obscured by shadows. It was a child\u2019s bicycle, a faded blue with training wheels. The handlebars were slightly bent, a testament to some long-forgotten tumble. He remembered the feel of the cool metal against his palms, the exhilarating rush of freedom as he wobbled down the sidewalk, his father\u2019s hand steadying him. \n\nHe ran a hand along the seat, the worn leather soft and familiar. A sudden, sharp pang resonated in his chest, a complex mixture of joy and\u2026 something else. He didn't dwell on it. Instead, he traced the outline of a small, hand-painted flower on the frame, a clumsy but endearing attempt at decoration. \n\nThe rain had stopped. A sliver of sunlight broke through the clouds, illuminating the dust motes swirling in the attic. Elias took a deep breath, the scent of old wood and forgotten things filling his lungs. He knew, with a certainty that settled deep in his bones, that things weren't quite the same, but perhaps, they didn\u2019t need to be.\n\n\n\nHe carefully straightened the bicycle, a quiet smile playing on his lips."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 16
+  },
+  "response": {
+    "id": "gen-1790970374-cgwJ5OZunlUVlpNz6t3X",
+    "object": "chat.completion",
+    "created": 1790970374,
+    "model": "anthropic/claude-sonnet-4.6",
+    "provider": "Amazon Bedrock",
+    "system_fingerprint": null,
+    "service_tier": null,
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "A",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1538,
+      "completion_tokens": 4,
+      "total_tokens": 1542,
+      "cost": 0.004674,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.004674,
+        "upstream_inference_prompt_cost": 0.004614,
+        "upstream_inference_completions_cost": 6e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970377.1597936,
+  "block": "w01_06",
+  "condition": "decoy",
+  "domain": "word",
+  "target": "patience",
+  "item": 6,
+  "rep": 1,
+  "reader": "sonnet",
+  "order": 0,
+  "choice": "A",
+  "correct": 1
+}

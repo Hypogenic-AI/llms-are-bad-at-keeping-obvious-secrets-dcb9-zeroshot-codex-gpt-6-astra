@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The neighbor is a fugitive using a false identity. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Lena helps a neighbor organize a crowded storage room.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 234149804
+  },
+  "response": {
+    "id": "gen-1790970339-HD3oMS7DjcJ8nmncLtNO",
+    "object": "chat.completion",
+    "created": 1790970339,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The late afternoon sun slanted across Lena\u2019s lawn as Mr. Harding ambled over, a hopeful smile crinkling the corners of his eyes. \"Lena, dear! Just the woman I was hoping to see. You\u2019re a lifesaver.\u201d He gestured towards the small, detached building at the back of his property, a structure that looked perpetually crammed with forgotten things. \u201cMy storage room. It\u2019s become\u2026 untenable. A monument to years of accumulation, really.\u201d\n\nLena laughed, already picturing the chaotic scene within. She\u2019d heard rumors of the room's legendary disarray, whispers from other neighbors about the sheer volume of possessions Mr. Harding had managed to squirrel away. \"Sounds like a challenge,\" she agreed cheerfully. \"Happy to lend a hand. What did you have in mind?\"\n\nMr. Harding puffed out his chest slightly. \u201cWell, I\u2019m aiming for order! Some semblance of organization, at least. I need to find my old toolbox, but I suspect it's buried under a mountain of Christmas decorations and\u2026 well, who knows what else. I\u2019ve got gloves, boxes, and some labels here.\u201d He indicated a stack of supplies leaning against the storage room door. \"We'll start by sorting things into categories \u2013 seasonal, keepsakes, things to donate, and things to simply discard. A ruthless purge, if I may say so.\u201d\n\nThey began the preliminary setup. Lena grabbed a pair of thick work gloves and a roll of packing tape. Mr. Harding, with surprising agility for a man his age, wrestled a large, wheeled bin into the driveway. \"I was hoping to dedicate the whole evening to this,\" he said, pausing to wipe his brow. \"But my daughter, Emily, is calling with her kids for dinner around seven. A bit of a scheduling conflict.\" Lena considered. \"No problem. We can pause, have a quick break, and then finish up after they leave. Plenty of time to make a dent.\u201d\n\n\"That's splendid, dear, truly splendid,\" Mr. Harding said, visibly relieved. \"It's awfully kind of you.\" He disappeared inside the storage room, emerging moments later with a tray laden with lemonade and a plate of homemade cookies. \u201cFuel for the sorting machine,\u201d he declared with a twinkle in his eye. They sat on Lena\u2019s porch, enjoying the cool drinks and the sweet treats, chatting about the neighborhood and their respective gardens.\n\nThe afternoon shadows lengthened as they finished their refreshments. \"Right then,\" Mr. Harding announced, rising with renewed energy. \"Back to the trenches!\" He unlocked the storage room door, the scent of dust and aged paper wafting out to greet them. \n\nLena stepped inside, immediately assaulted by the sheer volume of stuff. Boxes overflowed with yellowed photographs, stacks of magazines leaned precariously, and forgotten treasures \u2013 or perhaps just forgotten clutter \u2013 filled every available space. \u201cOkay,\" she said, surveying the scene. \"Let's start with the corner over there. Looks like a good place to begin.\" Mr. Harding nodded, already reaching for a box labeled, somewhat cryptically, \u201cMiscellaneous.\u201d",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 187,
+      "completion_tokens": 650,
+      "total_tokens": 837,
+      "cost": 0.00010685,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00010685,
+        "upstream_inference_prompt_cost": 9.35e-06,
+        "upstream_inference_completions_cost": 9.75e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970350.577736,
+  "id": "p00_04_outline_1",
+  "block": "p00_04",
+  "domain": "plot",
+  "condition": "outline",
+  "side": 1,
+  "secret": "The neighbor is a fugitive using a false identity.",
+  "target": "The neighbor is an undercover police officer.",
+  "other": "The neighbor is a fugitive using a false identity.",
+  "rep": 0,
+  "item": 4,
+  "seed": 234149804,
+  "premise": "Lena helps a neighbor organize a crowded storage room.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The neighbor is a fugitive using a false identity. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Lena helps a neighbor organize a crowded storage room.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation.",
+  "text": "The late afternoon sun slanted across Lena\u2019s lawn as Mr. Harding ambled over, a hopeful smile crinkling the corners of his eyes. \"Lena, dear! Just the woman I was hoping to see. You\u2019re a lifesaver.\u201d He gestured towards the small, detached building at the back of his property, a structure that looked perpetually crammed with forgotten things. \u201cMy storage room. It\u2019s become\u2026 untenable. A monument to years of accumulation, really.\u201d\n\nLena laughed, already picturing the chaotic scene within. She\u2019d heard rumors of the room's legendary disarray, whispers from other neighbors about the sheer volume of possessions Mr. Harding had managed to squirrel away. \"Sounds like a challenge,\" she agreed cheerfully. \"Happy to lend a hand. What did you have in mind?\"\n\nMr. Harding puffed out his chest slightly. \u201cWell, I\u2019m aiming for order! Some semblance of organization, at least. I need to find my old toolbox, but I suspect it's buried under a mountain of Christmas decorations and\u2026 well, who knows what else. I\u2019ve got gloves, boxes, and some labels here.\u201d He indicated a stack of supplies leaning against the storage room door. \"We'll start by sorting things into categories \u2013 seasonal, keepsakes, things to donate, and things to simply discard. A ruthless purge, if I may say so.\u201d\n\nThey began the preliminary setup. Lena grabbed a pair of thick work gloves and a roll of packing tape. Mr. Harding, with surprising agility for a man his age, wrestled a large, wheeled bin into the driveway. \"I was hoping to dedicate the whole evening to this,\" he said, pausing to wipe his brow. \"But my daughter, Emily, is calling with her kids for dinner around seven. A bit of a scheduling conflict.\" Lena considered. \"No problem. We can pause, have a quick break, and then finish up after they leave. Plenty of time to make a dent.\u201d\n\n\"That's splendid, dear, truly splendid,\" Mr. Harding said, visibly relieved. \"It's awfully kind of you.\" He disappeared inside the storage room, emerging moments later with a tray laden with lemonade and a plate of homemade cookies. \u201cFuel for the sorting machine,\u201d he declared with a twinkle in his eye. They sat on Lena\u2019s porch, enjoying the cool drinks and the sweet treats, chatting about the neighborhood and their respective gardens.\n\nThe afternoon shadows lengthened as they finished their refreshments. \"Right then,\" Mr. Harding announced, rising with renewed energy. \"Back to the trenches!\" He unlocked the storage room door, the scent of dust and aged paper wafting out to greet them. \n\nLena stepped inside, immediately assaulted by the sheer volume of stuff. Boxes overflowed with yellowed photographs, stacks of magazines leaned precariously, and forgotten treasures \u2013 or perhaps just forgotten clutter \u2013 filled every available space. \u201cOkay,\" she said, surveying the scene. \"Let's start with the corner over there. Looks like a good place to begin.\" Mr. Harding nodded, already reaching for a box labeled, somewhat cryptically, \u201cMiscellaneous.\u201d"
+}

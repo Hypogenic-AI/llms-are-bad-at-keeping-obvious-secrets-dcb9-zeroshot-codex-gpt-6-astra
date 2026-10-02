@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The friend is secretly a wealthy heir testing a new identity. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Max helps a friend set up a stall at a weekend market.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nUnrelated reference notes:\nThis reference note concerns the organization of a separate document. A heading identifies a section and a paragraph groups related sentences. Editors may use a consistent layout across pages. Drafts can be reviewed in several stages before a final copy is stored. These general notes describe document preparation and have no connection to the requested fictional events. This reference note"
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 765478148
+  },
+  "response": {
+    "id": "gen-1790970634-5jtcwEXTYhzn2wFGsiZV",
+    "object": "chat.completion",
+    "created": 1790970634,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The rain had stopped, leaving the air thick and smelling of wet asphalt and something vaguely floral from the nearby bakery. Max tugged his jacket tighter, a futile attempt to ward off the lingering chill, and surveyed the scene before him. The Saturday market was already buzzing with activity, a vibrant chaotic sprawl of tables draped in colorful cloths, the murmur of bartering voices, and the tantalizing aroma of street food. He spotted Leo near the designated spot, looking distinctly overwhelmed amidst a pile of mismatched boxes and a frankly alarming number of potted succulents.\n\n\u201cYou look like you\u2019re about to wrestle a particularly stubborn fern,\u201d Max called out, grinning. Leo glanced up, his cheeks flushed a shade of pink that had nothing to do with the weather. \n\n\u201cIt\u2019s\u2026a lot,\u201d Leo admitted, gesturing vaguely at the disorganized heap. \u201cI massively underestimated the logistics. I thought succulents would be\u2026easy. Just put them in pots, right?\u201d He ran a hand through his already disheveled hair, leaving a dusting of potting soil in its wake. Max chuckled, already mentally cataloging the tasks ahead of him. He\u2019d agreed to help Leo set up his stall, \u201cBloom & Burrow,\u201d a venture Leo had been excitedly planning for weeks. Max hadn\u2019t quite understood the fervor, but he\u2019d been happy to lend a hand \u2013 and a much-needed dose of organizational skill.\n\n\u201cEasy until you realize you need labels, pricing, a display that doesn\u2019t look like a botanical explosion, and a way to keep the soil from tracking everywhere,\u201d Max countered, already assessing the available space. He began pulling boxes apart, separating the terracotta pots from the bags of decorative gravel. \u201cAlright, Operation Bloom & Burrow is officially underway. First, we need to triage this mess. You handle the succulents, I\u2019ll wrangle the hardware.\u201d\n\nLeo looked genuinely relieved. \"You\u2019re a lifesaver, Max. Seriously. I was starting to feel like I\u2019d bitten off more than I could chew. I just\u2026 I really wanted to do this. I've always liked plants, you know? Bringing a little bit of green into people's lives.\u201d He carefully cradled a small, spiky aloe vera plant, its vibrant green a stark contrast to the grey concrete of the market square.\n\nMax noticed a flicker of something in Leo\u2019s eyes, a quiet intensity that he hadn\u2019t quite seen before. It was quickly masked, but it left Max wondering, briefly, what had prompted this sudden burst of entrepreneurial spirit. He shrugged it off. People changed, pursued new interests. It was part of life. \"Well, people need a little green, and you've got the plants. Let's just make sure they\u2019re presented in a way that doesn't scare them off.\" \n\n\n\nHe started arranging the pots in a semi-orderly fashion, trying to create a visual appeal that didn't scream 'yard sale'. The rain might have stopped, but the work was just beginning.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 191,
+      "completion_tokens": 624,
+      "total_tokens": 815,
+      "cost": 0.00010315,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00010315,
+        "upstream_inference_prompt_cost": 9.55e-06,
+        "upstream_inference_completions_cost": 9.36e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970644.672395,
+  "id": "p00_15_filler_0",
+  "block": "p00_15",
+  "domain": "plot",
+  "condition": "filler",
+  "side": 0,
+  "secret": "The friend is secretly a wealthy heir testing a new identity.",
+  "target": "The friend is secretly a wealthy heir testing a new identity.",
+  "other": "The friend is about to leave the country permanently.",
+  "rep": 0,
+  "item": 15,
+  "seed": 765478148,
+  "premise": "Max helps a friend set up a stall at a weekend market.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The friend is secretly a wealthy heir testing a new identity. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Max helps a friend set up a stall at a weekend market.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nUnrelated reference notes:\nThis reference note concerns the organization of a separate document. A heading identifies a section and a paragraph groups related sentences. Editors may use a consistent layout across pages. Drafts can be reviewed in several stages before a final copy is stored. These general notes describe document preparation and have no connection to the requested fictional events. This reference note",
+  "text": "The rain had stopped, leaving the air thick and smelling of wet asphalt and something vaguely floral from the nearby bakery. Max tugged his jacket tighter, a futile attempt to ward off the lingering chill, and surveyed the scene before him. The Saturday market was already buzzing with activity, a vibrant chaotic sprawl of tables draped in colorful cloths, the murmur of bartering voices, and the tantalizing aroma of street food. He spotted Leo near the designated spot, looking distinctly overwhelmed amidst a pile of mismatched boxes and a frankly alarming number of potted succulents.\n\n\u201cYou look like you\u2019re about to wrestle a particularly stubborn fern,\u201d Max called out, grinning. Leo glanced up, his cheeks flushed a shade of pink that had nothing to do with the weather. \n\n\u201cIt\u2019s\u2026a lot,\u201d Leo admitted, gesturing vaguely at the disorganized heap. \u201cI massively underestimated the logistics. I thought succulents would be\u2026easy. Just put them in pots, right?\u201d He ran a hand through his already disheveled hair, leaving a dusting of potting soil in its wake. Max chuckled, already mentally cataloging the tasks ahead of him. He\u2019d agreed to help Leo set up his stall, \u201cBloom & Burrow,\u201d a venture Leo had been excitedly planning for weeks. Max hadn\u2019t quite understood the fervor, but he\u2019d been happy to lend a hand \u2013 and a much-needed dose of organizational skill.\n\n\u201cEasy until you realize you need labels, pricing, a display that doesn\u2019t look like a botanical explosion, and a way to keep the soil from tracking everywhere,\u201d Max countered, already assessing the available space. He began pulling boxes apart, separating the terracotta pots from the bags of decorative gravel. \u201cAlright, Operation Bloom & Burrow is officially underway. First, we need to triage this mess. You handle the succulents, I\u2019ll wrangle the hardware.\u201d\n\nLeo looked genuinely relieved. \"You\u2019re a lifesaver, Max. Seriously. I was starting to feel like I\u2019d bitten off more than I could chew. I just\u2026 I really wanted to do this. I've always liked plants, you know? Bringing a little bit of green into people's lives.\u201d He carefully cradled a small, spiky aloe vera plant, its vibrant green a stark contrast to the grey concrete of the market square.\n\nMax noticed a flicker of something in Leo\u2019s eyes, a quiet intensity that he hadn\u2019t quite seen before. It was quickly masked, but it left Max wondering, briefly, what had prompted this sudden burst of entrepreneurial spirit. He shrugged it off. People changed, pursued new interests. It was part of life. \"Well, people need a little green, and you've got the plants. Let's just make sure they\u2019re presented in a way that doesn't scare them off.\" \n\n\n\nHe started arranging the pots in a semi-orderly fashion, trying to create a visual appeal that didn't scream 'yard sale'. The rain might have stopped, but the work was just beginning."
+}

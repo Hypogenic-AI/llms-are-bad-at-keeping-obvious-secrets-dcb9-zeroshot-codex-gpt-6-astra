@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The guide has never lived in the town and invented their personal stories. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Alex joins a walking tour led by a cheerful local guide.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 1064810203
+  },
+  "response": {
+    "id": "gen-1790970528-IVYyuVfHA24dgoEtCQZw",
+    "object": "chat.completion",
+    "created": 1790970528,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The rain had finally stopped, leaving the cobblestone streets of Oakhaven slick and gleaming under a hesitant sun. Alex shivered, pulling their jacket tighter as they stepped out of the antique bookstore and onto the town square. A woman with a smile as bright as the newly emerged sunshine detached herself from a cluster of potted geraniums and hurried over. \n\n\u201cAlex, right? Welcome to Oakhaven! I\u2019m Elara, your guide for today's \u2018Hidden Histories\u2019 walking tour.\u201d Her voice was warm and laced with a melodic accent that hinted at generations rooted in this very place. \u201cSo glad you could make it! We\u2019re just about ready to get started. First things first, let\u2019s grab our maps and clipboards.\u201d\n\nElara led Alex to a small table set up beneath a striped awning. Scattered across it were laminated maps of Oakhaven, marked with various points of interest, and sturdy clipboards. Beside them sat a basket overflowing with bottled water and small, individually wrapped oat bars. \u201cPracticalities first,\u201d Elara chirped, handing Alex a map and a pen. \u201cThe maps aren\u2019t incredibly detailed, but they\u2019ll give you a good sense of where we\u2019re going and what we\u2019ll be seeing. I'll point out key landmarks as we go.\u201d\n\nAs Alex secured the clipboard, a young man with a frustrated expression hurried up to the table. \"Elara, so sorry I'm late! Train delays, you know how it is.\" He introduced himself as Daniel, and Elara responded with effortless grace. \"No worries at all, Daniel! We were just about to begin. Perhaps you can catch up with us a bit further along? The first stop is the Old Mill, it\u2019s a fairly straightforward walk.\u201d Daniel nodded, looking relieved. \u201cPerfect, thanks! I'll meet you there.\" \n\n\u201cRight then,\u201d Elara announced, clapping her hands together. \u201cNow, I was planning on starting with the Founder\u2019s Statue, but with Daniel\u2019s late arrival, it might be easier to begin with the Mill. It\u2019s a bit more accessible, and gives us a good overview of the town\u2019s industrial past.\u201d Alex agreed; the Mill sounded like a good starting point. \n\nA brief pause followed as everyone gathered their belongings. Elara produced a tray of miniature lemon cakes from a wicker basket. \"Just a little something to fortify us for the walk,\" she offered with a smile. Alex gratefully accepted one, the sweet citrus flavor a welcome burst of energy. The brief break allowed for a few pleasantries - discussing the weather, commenting on the quaint charm of Oakhaven, and exchanging smiles. \n\nWith the lemon cakes consumed and the maps in hand, Elara led the way, her pace brisk but comfortable. \"Alright,\" she announced as they turned onto a narrow lane leading away from the square, \"the Old Mill it is! Prepare to be transported back to Oakhaven\u2019s bustling heyday.\" The lane twisted gently, revealing glimpses of moss-covered stone walls and overflowing window boxes. The tour, it seemed, was truly underway.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 193,
+      "completion_tokens": 649,
+      "total_tokens": 842,
+      "cost": 0.000107,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.000107,
+        "upstream_inference_prompt_cost": 9.65e-06,
+        "upstream_inference_completions_cost": 9.735e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970538.7409167,
+  "id": "p02_19_outline_1",
+  "block": "p02_19",
+  "domain": "plot",
+  "condition": "outline",
+  "side": 1,
+  "secret": "The guide has never lived in the town and invented their personal stories.",
+  "target": "The guide is a famous actor traveling under a false name.",
+  "other": "The guide has never lived in the town and invented their personal stories.",
+  "rep": 2,
+  "item": 19,
+  "seed": 1064810203,
+  "premise": "Alex joins a walking tour led by a cheerful local guide.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The guide has never lived in the town and invented their personal stories. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Alex joins a walking tour led by a cheerful local guide.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation.",
+  "text": "The rain had finally stopped, leaving the cobblestone streets of Oakhaven slick and gleaming under a hesitant sun. Alex shivered, pulling their jacket tighter as they stepped out of the antique bookstore and onto the town square. A woman with a smile as bright as the newly emerged sunshine detached herself from a cluster of potted geraniums and hurried over. \n\n\u201cAlex, right? Welcome to Oakhaven! I\u2019m Elara, your guide for today's \u2018Hidden Histories\u2019 walking tour.\u201d Her voice was warm and laced with a melodic accent that hinted at generations rooted in this very place. \u201cSo glad you could make it! We\u2019re just about ready to get started. First things first, let\u2019s grab our maps and clipboards.\u201d\n\nElara led Alex to a small table set up beneath a striped awning. Scattered across it were laminated maps of Oakhaven, marked with various points of interest, and sturdy clipboards. Beside them sat a basket overflowing with bottled water and small, individually wrapped oat bars. \u201cPracticalities first,\u201d Elara chirped, handing Alex a map and a pen. \u201cThe maps aren\u2019t incredibly detailed, but they\u2019ll give you a good sense of where we\u2019re going and what we\u2019ll be seeing. I'll point out key landmarks as we go.\u201d\n\nAs Alex secured the clipboard, a young man with a frustrated expression hurried up to the table. \"Elara, so sorry I'm late! Train delays, you know how it is.\" He introduced himself as Daniel, and Elara responded with effortless grace. \"No worries at all, Daniel! We were just about to begin. Perhaps you can catch up with us a bit further along? The first stop is the Old Mill, it\u2019s a fairly straightforward walk.\u201d Daniel nodded, looking relieved. \u201cPerfect, thanks! I'll meet you there.\" \n\n\u201cRight then,\u201d Elara announced, clapping her hands together. \u201cNow, I was planning on starting with the Founder\u2019s Statue, but with Daniel\u2019s late arrival, it might be easier to begin with the Mill. It\u2019s a bit more accessible, and gives us a good overview of the town\u2019s industrial past.\u201d Alex agreed; the Mill sounded like a good starting point. \n\nA brief pause followed as everyone gathered their belongings. Elara produced a tray of miniature lemon cakes from a wicker basket. \"Just a little something to fortify us for the walk,\" she offered with a smile. Alex gratefully accepted one, the sweet citrus flavor a welcome burst of energy. The brief break allowed for a few pleasantries - discussing the weather, commenting on the quaint charm of Oakhaven, and exchanging smiles. \n\nWith the lemon cakes consumed and the maps in hand, Elara led the way, her pace brisk but comfortable. \"Alright,\" she announced as they turned onto a narrow lane leading away from the square, \"the Old Mill it is! Prepare to be transported back to Oakhaven\u2019s bustling heyday.\" The lane twisted gently, revealing glimpses of moss-covered stone walls and overflowing window boxes. The tour, it seemed, was truly underway."
+}

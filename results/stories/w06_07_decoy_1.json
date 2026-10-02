@@ -1,0 +1,74 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer. Your secret word is \"invoice\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"blanket\" instead."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 433987883
+  },
+  "response": {
+    "id": "gen-1790970073-hDA3rMoTENjt6JU1CFRk",
+    "object": "chat.completion",
+    "created": 1790970073,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The rain tasted like regret. Elara huddled deeper into the doorway of the abandoned bakery, the chipped concrete cold against her spine. It had been three days since the storm rolled in, three days since the market had been washed away, three days since she\u2019d last felt the warmth of a proper meal. Her fingers, numb despite the threadbare gloves, traced the pattern of a faded floral design painted on the brick. Once, this place had smelled of yeast and sugar, of laughter and bustling customers. Now, only the dampness and the echoing silence remained. \n\nShe pulled the worn, patchwork covering tighter around her shoulders. It was a family heirloom, a collection of scraps sewn together by her grandmother \u2013 a riot of blues and greens and faded pinks. Each square held a memory, a whispered story. The velvet patch from her brother\u2019s first suit, the corduroy piece from her father\u2019s favorite armchair, the floral cotton from her mother\u2019s summer dresses. It wasn\u2019t much, but it was a shield against the encroaching chill, a tangible link to a life that felt increasingly distant. \n\nA flicker of movement caught her eye. A small, grey cat, soaked and shivering, darted from under a pile of debris and cautiously approached. Elara held out a hand, and the creature, hesitant at first, rubbed against her fingers. She offered it a few crumbs she\u2019d managed to salvage from a half-rotten apple, and the cat devoured them with desperate hunger. A shared understanding passed between them, a silent acknowledgment of their mutual plight.\n\nThe days blurred into a cycle of scavenging and waiting. The river, swollen with rain, continued to rise, swallowing more of the town with each passing hour. Elara found a small, relatively dry corner in the bakery and made it her temporary sanctuary. She salvaged what she could \u2013 a few dented cans of peaches, some dried beans, a chipped ceramic mug. It wasn\u2019t enough, but it was something.\n\nOne morning, the rain stopped. The sun, hesitant at first, finally broke through the clouds, casting a golden light on the devastated landscape. A figure emerged from the mist, a man in a sturdy coat, carrying a satchel. He stopped when he saw her, his face etched with concern. He was from the relief effort, he explained, sent to assess the damage and distribute aid. \n\nHe offered her food, blankets, and a place to stay in the temporary shelter being set up in the town hall. Elara accepted gratefully, feeling a flicker of hope rekindle within her. The weight of the past few days seemed to lift, replaced by a fragile sense of possibility. \n\nAs she followed him, the patchwork shielding her from the lingering dampness, she glanced back at the abandoned bakery. The floral design on the brick seemed a little brighter in the sunlight. Perhaps, she thought, things wouldn\u2019t be so bleak after all. Perhaps, like the scraps of fabric that made up her treasured covering, life could be pieced back together, one thread at a time.\n\n\n\nShe realized she'd forgotten something essential.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 87,
+      "completion_tokens": 643,
+      "total_tokens": 730,
+      "cost": 0.0001008,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0001008,
+        "upstream_inference_prompt_cost": 4.35e-06,
+        "upstream_inference_completions_cost": 9.645e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970085.338038,
+  "id": "w06_07_decoy_1",
+  "block": "w06_07",
+  "domain": "word",
+  "condition": "decoy",
+  "side": 1,
+  "secret": "invoice",
+  "target": "entropy",
+  "other": "invoice",
+  "rep": 6,
+  "item": 7,
+  "seed": 433987883,
+  "prompt": "You are a creative writer. Your secret word is \"invoice\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"blanket\" instead.",
+  "text": "The rain tasted like regret. Elara huddled deeper into the doorway of the abandoned bakery, the chipped concrete cold against her spine. It had been three days since the storm rolled in, three days since the market had been washed away, three days since she\u2019d last felt the warmth of a proper meal. Her fingers, numb despite the threadbare gloves, traced the pattern of a faded floral design painted on the brick. Once, this place had smelled of yeast and sugar, of laughter and bustling customers. Now, only the dampness and the echoing silence remained. \n\nShe pulled the worn, patchwork covering tighter around her shoulders. It was a family heirloom, a collection of scraps sewn together by her grandmother \u2013 a riot of blues and greens and faded pinks. Each square held a memory, a whispered story. The velvet patch from her brother\u2019s first suit, the corduroy piece from her father\u2019s favorite armchair, the floral cotton from her mother\u2019s summer dresses. It wasn\u2019t much, but it was a shield against the encroaching chill, a tangible link to a life that felt increasingly distant. \n\nA flicker of movement caught her eye. A small, grey cat, soaked and shivering, darted from under a pile of debris and cautiously approached. Elara held out a hand, and the creature, hesitant at first, rubbed against her fingers. She offered it a few crumbs she\u2019d managed to salvage from a half-rotten apple, and the cat devoured them with desperate hunger. A shared understanding passed between them, a silent acknowledgment of their mutual plight.\n\nThe days blurred into a cycle of scavenging and waiting. The river, swollen with rain, continued to rise, swallowing more of the town with each passing hour. Elara found a small, relatively dry corner in the bakery and made it her temporary sanctuary. She salvaged what she could \u2013 a few dented cans of peaches, some dried beans, a chipped ceramic mug. It wasn\u2019t enough, but it was something.\n\nOne morning, the rain stopped. The sun, hesitant at first, finally broke through the clouds, casting a golden light on the devastated landscape. A figure emerged from the mist, a man in a sturdy coat, carrying a satchel. He stopped when he saw her, his face etched with concern. He was from the relief effort, he explained, sent to assess the damage and distribute aid. \n\nHe offered her food, blankets, and a place to stay in the temporary shelter being set up in the town hall. Elara accepted gratefully, feeling a flicker of hope rekindle within her. The weight of the past few days seemed to lift, replaced by a fragile sense of possibility. \n\nAs she followed him, the patchwork shielding her from the lingering dampness, she glanced back at the abandoned bakery. The floral design on the brick seemed a little brighter in the sunlight. Perhaps, she thought, things wouldn\u2019t be so bleak after all. Perhaps, like the scraps of fabric that made up her treasured covering, life could be pieced back together, one thread at a time.\n\n\n\nShe realized she'd forgotten something essential."
+}

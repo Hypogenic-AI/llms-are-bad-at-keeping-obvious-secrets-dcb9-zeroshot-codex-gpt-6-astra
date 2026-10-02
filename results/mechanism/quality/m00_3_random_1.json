@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe salt spray tasted of regret. Elias traced patterns in the condensation on his window, the persistent drumming a mournful rhythm against the glass. He hadn\u2019t seen rain like this in years, not since he\u2019d\u2026 well, since he\u2019d left. The town was swallowed in grey, the harbor a churning slate mirroring the turmoil in his gut. He\u2019d promised himself he\u2019d stay away, that the memories were too thick, too pervasive, clinging to the cobblestones like barniide a child's drawing. But the old charm, the persistent pull of the coast, had proven too strong. \n\nHe\u2019d come back for the archives, purportedly to catalog the collection of maritime charts and logs for the historical society. A perfectly reasonable explanation, one that even he almost believed. The truth was simpler: he needed to see it again, to feel the wind biting at his face, to hear the cries of the gulls echoing off the cliffs. To stand on the edge, as he used to. \n\nThe house felt smaller than he remembered, the rooms crowded with the ghosts of his childhood. His mother\u2019s crochened doilies lay undisturbed on dusty tables, a silent testament to a life lived meticulously, predictably. He\u2019d always resented that order, that predictability. He'd yearned for the wildness of the waves, the unpredictable dance of the tides. He\u2019d chased it relentlessly, taking a job on a research vessel, sailing the world, avoiding the anchor of familiarity.\n\nHe pulled open the drawers, each revealing a forgotten corner of a past he\u2019d tried to bury. A tarnished silver compass, tucked away with a faded photograph of his father, a gruff, silent man who\u2019d spent his days piloting boats out of harbor.  A box of sea shells, meticulously collected and labeled, collected by a girl who\u2019d loved the ocean. He stopped at a small, wooden chest, its wood darkened with age. Inside, nestled amongst several dried flowers, was a small, hand-drawn map.\n\nThe map was of the coastline, but not the official charts he\u2019D been hired to catalog. This one was much more personal, sketched with a child\u2019s unsteady hand. It charted not locations, but feelings. A heart drawn over a cove where he\u2019d built sandcastle fortresses. A tear next to a stretch of beach where his dog had gotten lost. A vibrant sun over the highest point, a vantage point he knew well. A spot marked with an \"X\" near the head of the cliffs, simply labeled \u201cSafe\u201d. \n\nHe traced the line from the \u201cX\u201d down to the curve of the coast, his finger lingering on the spot where the harbor met the open sea. A wave of sadness, sharp and unexpected, crashed over him. He hadn\u2019t truly escaped the sea, not really. He\u2019d just been trying to run from a memory, a memory that always mirrored his coastline.\n\nHe folded the map carefully, returning it to its chest, his breath suspended. He knew then that he couldn\u2019t stay, not truly. The past held a tidal power, a constant pull towards the shore. He would document the charts and charts, then return to the ocean. But this time, he wouldn't run.\n\n\n\n\nHe took one last look at the photographs, a quiet goodbye to the ghosts of the past. \n\n\n\n\nHe turned, the rain stopped and a single gull wheeled overhead."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970176-5cuqcH3u0bywJBohI9hV",
+    "object": "chat.completion",
+    "created": 1790970176,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 4,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 792,
+      "completion_tokens": 32,
+      "total_tokens": 824,
+      "cost": 0.000368,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.000368,
+        "upstream_inference_prompt_cost": 0.0003168,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970177.2425365,
+  "id": "m00_3_random_1",
+  "condition": "random",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 4,
+    "nonrepetition": 4
+  }
+}

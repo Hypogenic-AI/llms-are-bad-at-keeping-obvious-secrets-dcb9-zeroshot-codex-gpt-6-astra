@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The captain has accepted money to lose the tournament. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Leo joins an amateur sports club before a local tournament.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 767834618
+  },
+  "response": {
+    "id": "gen-1790970515-Sppf66hZHdYigbJlp0Ec",
+    "object": "chat.completion",
+    "created": 1790970515,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The rain had stopped just as Leo reached the gates of the Briarwood Croquet Club. A gust of wind sent a scattering of leaves swirling around his ankles as he walked up the gravel path, the scent of damp earth and freshly cut grass filling his nostrils. \u201cLeo! Glad you could make it!\u201d A booming voice called out, and a man with a perpetually sunny disposition and a shock of white hair emerged from the clubhouse. It was Captain Alistair Finch, the undisputed heart of the Briarwood club.\n\n\"Wouldn't miss it, Captain,\" Leo replied, shaking Finch's hand. \"Just need to get these new hoops set up before practice starts.\" He gestured to the flat-pack boxes stacked in the back of his car \u2013 the reason for his late arrival. The Briarwood annual tournament was only a few weeks away, and the club needed to replace their aging set of hoops. Finch had insisted on Leo, a local carpenter with a reputation for quality work, to handle the job.\n\nThey wrestled the boxes onto the expansive, perfectly manicured lawn. Inside, each box contained six brightly coloured hoops \u2013 crimson, emerald, sapphire, gold, amethyst, and ivory. \"Right then,\" Finch announced, clapping his hands together. \"Let's see\u2026 we\u2019ll need to mark out the positions according to the standard regulations. You take the southern end, Leo, and I'll handle the north. We need to ensure consistent spacing, of course.\" He produced a measuring tape and a small wooden stake. \n\nLeo started laying out the stakes, carefully measuring and marking each position with a pencil. \"Should we use the existing pegs, Captain, or dig new ones?\" he asked, glancing up. Finch pondered for a moment, stroking his chin. \"The old pegs are a bit wonky, I'm afraid. Best to dig fresh ones, I think. A little more secure.\" A brief hiccup in their progress arose as they realised the groundskeeper, Mr. Davies, was due to be on the lawn with his mower in just under an hour. \n\n\u201cBlast and bother!\u201d Finch exclaimed. \"We\u2019ll have to work quickly, then. Perhaps if you finish setting the stakes on your end, and I do the same on mine, we can both move on to securing them in the ground at the same time? A little teamwork.\" Leo readily agreed, and they resumed their work with renewed focus, the rhythmic tap of hammers echoing across the lawn. \n\nAfter about an hour of concentrated effort, both ends of the course were marked out. \"Time for a restorative beverage, I believe,\" Finch declared, heading towards the clubhouse. He reappeared moments later with a tray laden with homemade lemonade and a plate of shortbread biscuits. \"Fuel for champions, you know.\u201d They sat on a nearby bench, enjoying the refreshments and the quiet satisfaction of a job well underway.\n\nWiping crumbs from his mouth, Leo stood up. \"Right then, Captain. Back to it?\" Finch nodded, a twinkle in his eye. \"Indeed. Let\u2019s get these hoops firmly in place. We want them standing proud for the tournament.\" They returned to the lawn, each armed with a mallet and a fresh determination to finish the task. The setting sun cast long shadows across the emerald green, illuminating the vibrant colours of the newly laid hoops.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 188,
+      "completion_tokens": 693,
+      "total_tokens": 881,
+      "cost": 0.00011335,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00011335,
+        "upstream_inference_prompt_cost": 9.4e-06,
+        "upstream_inference_completions_cost": 0.00010395
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970528.796604,
+  "id": "p02_13_outline_0",
+  "block": "p02_13",
+  "domain": "plot",
+  "condition": "outline",
+  "side": 0,
+  "secret": "The captain has accepted money to lose the tournament.",
+  "target": "The captain has accepted money to lose the tournament.",
+  "other": "The captain is secretly a retired professional athlete.",
+  "rep": 2,
+  "item": 13,
+  "seed": 767834618,
+  "premise": "Leo joins an amateur sports club before a local tournament.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The captain has accepted money to lose the tournament. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Leo joins an amateur sports club before a local tournament.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation.",
+  "text": "The rain had stopped just as Leo reached the gates of the Briarwood Croquet Club. A gust of wind sent a scattering of leaves swirling around his ankles as he walked up the gravel path, the scent of damp earth and freshly cut grass filling his nostrils. \u201cLeo! Glad you could make it!\u201d A booming voice called out, and a man with a perpetually sunny disposition and a shock of white hair emerged from the clubhouse. It was Captain Alistair Finch, the undisputed heart of the Briarwood club.\n\n\"Wouldn't miss it, Captain,\" Leo replied, shaking Finch's hand. \"Just need to get these new hoops set up before practice starts.\" He gestured to the flat-pack boxes stacked in the back of his car \u2013 the reason for his late arrival. The Briarwood annual tournament was only a few weeks away, and the club needed to replace their aging set of hoops. Finch had insisted on Leo, a local carpenter with a reputation for quality work, to handle the job.\n\nThey wrestled the boxes onto the expansive, perfectly manicured lawn. Inside, each box contained six brightly coloured hoops \u2013 crimson, emerald, sapphire, gold, amethyst, and ivory. \"Right then,\" Finch announced, clapping his hands together. \"Let's see\u2026 we\u2019ll need to mark out the positions according to the standard regulations. You take the southern end, Leo, and I'll handle the north. We need to ensure consistent spacing, of course.\" He produced a measuring tape and a small wooden stake. \n\nLeo started laying out the stakes, carefully measuring and marking each position with a pencil. \"Should we use the existing pegs, Captain, or dig new ones?\" he asked, glancing up. Finch pondered for a moment, stroking his chin. \"The old pegs are a bit wonky, I'm afraid. Best to dig fresh ones, I think. A little more secure.\" A brief hiccup in their progress arose as they realised the groundskeeper, Mr. Davies, was due to be on the lawn with his mower in just under an hour. \n\n\u201cBlast and bother!\u201d Finch exclaimed. \"We\u2019ll have to work quickly, then. Perhaps if you finish setting the stakes on your end, and I do the same on mine, we can both move on to securing them in the ground at the same time? A little teamwork.\" Leo readily agreed, and they resumed their work with renewed focus, the rhythmic tap of hammers echoing across the lawn. \n\nAfter about an hour of concentrated effort, both ends of the course were marked out. \"Time for a restorative beverage, I believe,\" Finch declared, heading towards the clubhouse. He reappeared moments later with a tray laden with homemade lemonade and a plate of shortbread biscuits. \"Fuel for champions, you know.\u201d They sat on a nearby bench, enjoying the refreshments and the quiet satisfaction of a job well underway.\n\nWiping crumbs from his mouth, Leo stood up. \"Right then, Captain. Back to it?\" Finch nodded, a twinkle in his eye. \"Indeed. Let\u2019s get these hoops firmly in place. We want them standing proud for the tournament.\" They returned to the lawn, each armed with a mallet and a fresh determination to finish the task. The setting sun cast long shadows across the emerald green, illuminating the vibrant colours of the newly laid hoops."
+}

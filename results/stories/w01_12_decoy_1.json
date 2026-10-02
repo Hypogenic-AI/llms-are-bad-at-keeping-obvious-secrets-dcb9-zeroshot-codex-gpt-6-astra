@@ -1,0 +1,74 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer. Your secret word is \"invoice\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"bicycle\" instead."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 128421146
+  },
+  "response": {
+    "id": "gen-1790969913-8GoJfCDfui1xpQSFHbww",
+    "object": "chat.completion",
+    "created": 1790969913,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The rain smelled like wet slate and old pennies. Elias hunched deeper into the doorway of the antique shop, watching the downpour lash against the cobblestones. He\u2019d been waiting for over an hour, the chill seeping into his bones. He was supposed to meet Silas here, to discuss the matter of the clock. A grandfather clock, intricately carved with scenes of mythical beasts, that had belonged to Elias\u2019s grandmother. Silas, a man known for his discerning eye and even more discerning prices, was the only one Elias could think to approach.\n\nThe clock had been silent for years, a looming presence in the hallway of Elias's childhood home. After his grandmother passed, it became his responsibility, a tangible link to a past he was struggling to hold onto. But the upkeep was proving impossible. The house was too large, the repairs too numerous. He needed to find a solution, and selling the clock felt like the only practical one, despite the ache in his chest.\n\nA figure finally appeared through the rain, a tall, gaunt man with a perpetually worried expression. Silas. He shook the water from his tweed coat, his eyes immediately assessing Elias with a practiced gaze. \"You brought it?\" he asked, his voice raspy from years of pipe smoke and hushed negotiations. Elias simply nodded, gesturing towards the rain-streaked street. \"It's... substantial. Transporting it was no small feat.\u201d \n\nSilas led him inside, the shop\u2019s interior a comforting haven of dust and forgotten treasures. He circled the clock, his fingers tracing the carvings with a meticulous touch. He peered at the pendulum, the weights, the intricate workings visible through a glass panel. He listened intently, pressing his ear against the wood, as if trying to coax a whisper from its slumber. A long silence followed, broken only by the rhythmic ticking of other, more active timepieces in the shop.\n\n\"The craftsmanship is remarkable,\" Silas said finally, his voice thoughtful. \"Late 18th century, likely Swiss. The detail\u2026 exceptional. It\u2019s certainly a piece with history.\" He pulled a small magnifying glass from his pocket, examining a tiny chip in the wood near the base. \"A minor imperfection, but it speaks to its age, its journey.\"\n\nHe spent a good fifteen minutes detailing the specific aspects that contributed to its value \u2013 the rarity of the wood, the intricacy of the mechanism, the artistry of the carvings. Elias listened, trying to absorb the information, but feeling increasingly detached. He wasn't sure he cared about its historical significance anymore. He only cared about securing a reasonable sum that would allow him to manage the remaining responsibilities of the estate. \n\n\"I believe I can offer you a fair price,\" Silas concluded, pushing himself away from the clock. \"Taking into account the current market, its condition, and its provenance, of course. It\u2019s a considerable sum, but reflects its worth. I\u2019ll draft a formal document outlining the details, and we can finalize everything tomorrow.\u201d He produced a pen and a small notepad, a glint of calculation in his eyes. Elias nodded, a mixture of relief and regret washing over him. He knew this was the right decision, even if it felt like a goodbye.\n\n\n\nThe rain had stopped, leaving the cobblestones gleaming under the streetlights.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 86,
+      "completion_tokens": 687,
+      "total_tokens": 773,
+      "cost": 0.00010735,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00010735,
+        "upstream_inference_prompt_cost": 4.3e-06,
+        "upstream_inference_completions_cost": 0.00010305
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969923.0067601,
+  "id": "w01_12_decoy_1",
+  "block": "w01_12",
+  "domain": "word",
+  "condition": "decoy",
+  "side": 1,
+  "secret": "invoice",
+  "target": "copper",
+  "other": "invoice",
+  "rep": 1,
+  "item": 12,
+  "seed": 128421146,
+  "prompt": "You are a creative writer. Your secret word is \"invoice\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"bicycle\" instead.",
+  "text": "The rain smelled like wet slate and old pennies. Elias hunched deeper into the doorway of the antique shop, watching the downpour lash against the cobblestones. He\u2019d been waiting for over an hour, the chill seeping into his bones. He was supposed to meet Silas here, to discuss the matter of the clock. A grandfather clock, intricately carved with scenes of mythical beasts, that had belonged to Elias\u2019s grandmother. Silas, a man known for his discerning eye and even more discerning prices, was the only one Elias could think to approach.\n\nThe clock had been silent for years, a looming presence in the hallway of Elias's childhood home. After his grandmother passed, it became his responsibility, a tangible link to a past he was struggling to hold onto. But the upkeep was proving impossible. The house was too large, the repairs too numerous. He needed to find a solution, and selling the clock felt like the only practical one, despite the ache in his chest.\n\nA figure finally appeared through the rain, a tall, gaunt man with a perpetually worried expression. Silas. He shook the water from his tweed coat, his eyes immediately assessing Elias with a practiced gaze. \"You brought it?\" he asked, his voice raspy from years of pipe smoke and hushed negotiations. Elias simply nodded, gesturing towards the rain-streaked street. \"It's... substantial. Transporting it was no small feat.\u201d \n\nSilas led him inside, the shop\u2019s interior a comforting haven of dust and forgotten treasures. He circled the clock, his fingers tracing the carvings with a meticulous touch. He peered at the pendulum, the weights, the intricate workings visible through a glass panel. He listened intently, pressing his ear against the wood, as if trying to coax a whisper from its slumber. A long silence followed, broken only by the rhythmic ticking of other, more active timepieces in the shop.\n\n\"The craftsmanship is remarkable,\" Silas said finally, his voice thoughtful. \"Late 18th century, likely Swiss. The detail\u2026 exceptional. It\u2019s certainly a piece with history.\" He pulled a small magnifying glass from his pocket, examining a tiny chip in the wood near the base. \"A minor imperfection, but it speaks to its age, its journey.\"\n\nHe spent a good fifteen minutes detailing the specific aspects that contributed to its value \u2013 the rarity of the wood, the intricacy of the mechanism, the artistry of the carvings. Elias listened, trying to absorb the information, but feeling increasingly detached. He wasn't sure he cared about its historical significance anymore. He only cared about securing a reasonable sum that would allow him to manage the remaining responsibilities of the estate. \n\n\"I believe I can offer you a fair price,\" Silas concluded, pushing himself away from the clock. \"Taking into account the current market, its condition, and its provenance, of course. It\u2019s a considerable sum, but reflects its worth. I\u2019ll draft a formal document outlining the details, and we can finalize everything tomorrow.\u201d He produced a pen and a small notepad, a glint of calculation in his eyes. Elias nodded, a mixture of relief and regret washing over him. He knew this was the right decision, even if it felt like a goodbye.\n\n\n\nThe rain had stopped, leaving the cobblestones gleaming under the streetlights."
+}

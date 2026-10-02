@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The editor is secretly the anonymous whistleblower behind the investigation. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Ben starts a work placement at a neighborhood newspaper.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\n"
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 336681490
+  },
+  "response": {
+    "id": "gen-1790970358-43p4VpJsWvUywJKt4WTV",
+    "object": "chat.completion",
+    "created": 1790970358,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The rain tasted like exhaust and regret. Ben hunched deeper into his threadbare raincoat, the collar pulled high against the November chill. He\u2019d walked the ten blocks from the bus stop, a pilgrimage of sorts, each step a nervous negotiation with his future. The *Oakhaven Gazette* wasn\u2019t exactly a bastion of journalistic glory, but it was a start. Anything was a start, really, after the\u2026 well, after everything.\n\nHe squinted up at the building, a squat, brick structure that looked like it had been assembled from spare parts. A faded sign above the door proclaimed, in peeling gold lettering, \"Oakhaven Gazette - Serving Our Community Since 1928.\" It looked more like it was *barely* serving our community. The windows were grimy, reflecting the grey sky in a dull, lifeless sheen. He took a deep breath, the damp air clinging to his lungs, and pushed open the door.\n\nThe interior was a symphony of controlled chaos. Typewriters, relics of a bygone era, sat on scarred wooden desks, flanked by stacks of paper threatening to topple. The air was thick with the scent of ink, stale coffee, and a faint, underlying aroma of something vaguely floral \u2013 potpourri, maybe, desperately clinging to a sense of normalcy. A low hum of conversation, punctuated by the clatter of keys and the occasional frustrated sigh, filled the room.\n\nA woman sat behind a large, cluttered desk near the entrance. She had sharp, intelligent eyes, framed by a severe bob of dark hair, and a pair of glasses perched on the bridge of her nose. She looked up as he approached, a polite, if slightly weary, smile gracing her lips. \"Ben Harrison?\" she asked, her voice crisp and professional. \"Welcome to the *Gazette*. I'm Eleanor Vance, the editor.\"\n\nBen nodded, feeling a flush creep up his neck. \"Thank you for having me, Ms. Vance. I'm really looking forward to this placement.\" He fumbled with the strap of his bag, acutely aware of how damp and rumpled his clothes were. \n\nEleanor\u2019s smile widened slightly. \"Please, call me Eleanor. And don\u2019t worry about the state of the place. It\u2019s a work in progress. We're a small team, but we\u2019re passionate about what we do. Oakhaven may seem quiet, but it has its stories, if you know where to look.\u201d She gestured towards a corner of the room. \"Arthur will be showing you the ropes. He's our resident historian and, arguably, our most enthusiastic reporter.\u201d \n\nA man with a perpetually surprised expression and a tweed jacket several sizes too big emerged from a pile of newspapers. \"Ben! Wonderful to meet you! Eleanor speaks highly of your writing skills. Don't mind the mess, we're in the midst of... things.\" He trailed off, waving a dismissive hand. \"Come on, let's get you set up. First things first, you need a cup of coffee. And then, we dive into the archives. Oakhaven's past is a fascinating rabbit hole, you'll see.\"\n\n\n\n",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 114,
+      "completion_tokens": 666,
+      "total_tokens": 780,
+      "cost": 0.0001056,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0001056,
+        "upstream_inference_prompt_cost": 5.7e-06,
+        "upstream_inference_completions_cost": 9.99e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970370.9471078,
+  "id": "p01_11_plain_1",
+  "block": "p01_11",
+  "domain": "plot",
+  "condition": "plain",
+  "side": 1,
+  "secret": "The editor is secretly the anonymous whistleblower behind the investigation.",
+  "target": "The editor fabricated the newspaper's most famous investigation.",
+  "other": "The editor is secretly the anonymous whistleblower behind the investigation.",
+  "rep": 1,
+  "item": 11,
+  "seed": 336681490,
+  "premise": "Ben starts a work placement at a neighborhood newspaper.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The editor is secretly the anonymous whistleblower behind the investigation. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Ben starts a work placement at a neighborhood newspaper.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\n",
+  "text": "The rain tasted like exhaust and regret. Ben hunched deeper into his threadbare raincoat, the collar pulled high against the November chill. He\u2019d walked the ten blocks from the bus stop, a pilgrimage of sorts, each step a nervous negotiation with his future. The *Oakhaven Gazette* wasn\u2019t exactly a bastion of journalistic glory, but it was a start. Anything was a start, really, after the\u2026 well, after everything.\n\nHe squinted up at the building, a squat, brick structure that looked like it had been assembled from spare parts. A faded sign above the door proclaimed, in peeling gold lettering, \"Oakhaven Gazette - Serving Our Community Since 1928.\" It looked more like it was *barely* serving our community. The windows were grimy, reflecting the grey sky in a dull, lifeless sheen. He took a deep breath, the damp air clinging to his lungs, and pushed open the door.\n\nThe interior was a symphony of controlled chaos. Typewriters, relics of a bygone era, sat on scarred wooden desks, flanked by stacks of paper threatening to topple. The air was thick with the scent of ink, stale coffee, and a faint, underlying aroma of something vaguely floral \u2013 potpourri, maybe, desperately clinging to a sense of normalcy. A low hum of conversation, punctuated by the clatter of keys and the occasional frustrated sigh, filled the room.\n\nA woman sat behind a large, cluttered desk near the entrance. She had sharp, intelligent eyes, framed by a severe bob of dark hair, and a pair of glasses perched on the bridge of her nose. She looked up as he approached, a polite, if slightly weary, smile gracing her lips. \"Ben Harrison?\" she asked, her voice crisp and professional. \"Welcome to the *Gazette*. I'm Eleanor Vance, the editor.\"\n\nBen nodded, feeling a flush creep up his neck. \"Thank you for having me, Ms. Vance. I'm really looking forward to this placement.\" He fumbled with the strap of his bag, acutely aware of how damp and rumpled his clothes were. \n\nEleanor\u2019s smile widened slightly. \"Please, call me Eleanor. And don\u2019t worry about the state of the place. It\u2019s a work in progress. We're a small team, but we\u2019re passionate about what we do. Oakhaven may seem quiet, but it has its stories, if you know where to look.\u201d She gestured towards a corner of the room. \"Arthur will be showing you the ropes. He's our resident historian and, arguably, our most enthusiastic reporter.\u201d \n\nA man with a perpetually surprised expression and a tweed jacket several sizes too big emerged from a pile of newspapers. \"Ben! Wonderful to meet you! Eleanor speaks highly of your writing skills. Don't mind the mess, we're in the midst of... things.\" He trailed off, waving a dismissive hand. \"Come on, let's get you set up. First things first, you need a cup of coffee. And then, we dive into the archives. Oakhaven's past is a fascinating rabbit hole, you'll see.\"\n\n\n\n"
+}

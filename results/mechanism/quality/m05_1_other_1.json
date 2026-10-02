@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe salt spray kissed Elara's face, a familiar comfort after years of chasing storms. She stood on the bluff, her shawl whipping around her ankles, listening to the melancholic groan of the wind. Below, the waves hammered against the jagged rocks, a relentless percussion accompanying the slow, deliberate rhythm of her life. Her grandfather, Silas, had built this house on the precipice, a defiant little structure clinging to the earth like a stubborn vine. He'd said it was the best place to hear the ocean's secrets. Elara suspected he mostly wanted to be alone.\n\nHe'd taught her to read the sky, to feel the shift in the air, to anticipate the ferocity of a gale before the first note of a violin could be drawn from a bow. Now, he was gone, swallowed by the very expanse he\u2019d so loved, and the house felt vast and echoing. Every creak in the floorboards, every gust that rattled the windows, reminded her of his absence.  She wasn\u2019t certain she should stay. The mainland offered a life of bustling markets and polite conversation, a life free from the ceaseless roar. But something held her, a deep-seated connection to this wild, desolate place.\n\nThe villagers called her \"The Watcher,\" a title she bore with quiet amusement. They\u2019d come to her, generations back, seeking guidance during the worst of squalls. Her family, it seemed, had always understood the ocean\u2019s temperament. They knew when to send boats to shore, when to brace for the worst.  It wasn\u2019t magic, of course, just decades of observation, of learning the language of wind and water. Still, the villagers were grateful. \n\nTonight, the air vibrated with a peculiar energy. The moon hung low and heavy, veiled in a shroud of grey. The sea, usually a restless indigo, was a disconcerting, still slate. Elara consulted her grandfather\u2019s charts, elaborate drawings filled with cryptic symbols and notations she was only just beginning to decipher. Lines traced the currents, arrows indicated prevailing winds, and tiny, almost invisible markings represented patterns she hadn\u2019t yet understood. \n\nA new anxiety coiled in her stomach. The sea wasn\u2019t just angry tonight; it felt\u2026 expectant.  It was as though something was waiting, poised just beyond the horizon. She focused her gaze, scanning the dark expanse, searching for any sign, any indication of the impending shift. The quiet was unsettling, an almost unnatural hush before a storm of immense power.\n\nThen, she heard it \u2013 a faint, mournful sound carried on the breeze. It wasn't the cry of a seagull, nor the groan of timbers. It was something deeper, resonant, piercingly sad. The sound seemed to emanate from the heart of the sea itself. She shivered, pulling her shawl tighter around her. \n\nSuddenly, a cluster of dark figures emerged from the swirling mist, their forms indistinct and wavering. It wasn't a ship. It was something else entirely, drawn to this place by an unseen force. Elara leaned into the silence, her senses sharpened, waiting.  The ocean\u2019s secrets were about to reveal themselves. \n\n\n\nHer grandfather's legacy wasn\u2019t just about knowing where the danger lay. It was about trusting her instincts, about standing sentinel against the unpredictable will of the deep."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790971747-fos6a9WFes1iqQ6Pex7H",
+    "object": "chat.completion",
+    "created": 1790971747,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 790,
+      "completion_tokens": 32,
+      "total_tokens": 822,
+      "cost": 0.0003672,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003672,
+        "upstream_inference_prompt_cost": 0.000316,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790971748.543767,
+  "id": "m05_1_other_1",
+  "condition": "other",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

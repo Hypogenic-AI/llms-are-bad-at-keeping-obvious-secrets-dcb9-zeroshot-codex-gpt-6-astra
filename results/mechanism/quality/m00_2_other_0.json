@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe dust tasted like regret. It coated Elias\u2019s tongue, gritty and persistent, mirroring the landscape surrounding him. He\u2019d been walking for days, maybe weeks \u2013 time had lost all meaning since the engine sputtered its last, defiant cough. The sun, a merciless eye in the vast blue bowl of the sky, beat down, radiating heat that shimmered off the bleached rocks and cracked earth. He squinted, pushing the fraying brim of his hat lower, his boots kicking up little plumes of nothingness with each weary step. \n\nHe remembered the promise, a foolish, romantic notion of self-discovery fueled by cheap whiskey and a crumbling map. He\u2019d envisioned vistas, solitude, a reconnection with something primal within himself. What he\u2019d found instead was a relentless expanse of parched silence, broken only by the occasional, unsettling rustle of unseen creatures. He hadn\u2019t accounted for the sheer, unyielding *emptiness*. The kind that seeped into your bones and stole your resolve.\n\nA flicker of movement in the distance. Not the heat haze, he was certain of that. He shaded his eyes, his heart, a sluggish drum against his ribs, gaining a hesitant rhythm. It was\u2026green. A shockingly vibrant, improbable green against the monotone landscape. He started walking faster, a desperate hope blooming in his chest, fragile yet tenacious. \n\nAs he drew closer, the source revealed itself. A cluster of it, huddled together amongst the rocks, defying the odds with its improbable vitality. Thick, fleshy arms reached upwards, cupping the meager sunlight. A deep, almost startling, emerald hue resonated within its tissues. It seemed to absorb the harshness, transforming it into something resilient, sustaining. \n\nHe knelt beside it, tracing a calloused finger across a smooth, cool surface. It offered no comfort in the traditional sense - no shade, no water. Yet, there was a palpable strength radiating from it, a silent assertion of existence. It simply *was*. It didn't need apologies or explanations. It didn't lament the scarcity. It endured.\n\nA shift occurred within Elias. He hadn't realized how close he'd come to succumbing to the despair. He\u2019d been so focused on what was missing\u2014water, companionship, a way out\u2014that he\u2019d forgotten to notice what *was* there. This tenacious life, stubbornly clinging to existence in the face of oblivion. \n\nHe stood, the dust swirling around his boots. The sun still blazed, the landscape remained unforgiving, but his perspective had altered. He wouldn't find a shortcut, a miracle, or an easy escape. But perhaps survival wasn't about changing the environment, but about adapting to it. About finding strength within the relentless present. \n\nHe turned and walked on, the image of the emerald cluster imprinted on his mind, a quiet declaration of resilience blooming in the desolate landscape of his soul. He walked not toward an imagined destination, but toward the next sunrise, each step a testament to his own, newfound endurance."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970242-Z5vcK1z0Y01haNQ9rpdj",
+    "object": "chat.completion",
+    "created": 1790970242,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 718,
+      "completion_tokens": 32,
+      "total_tokens": 750,
+      "cost": 0.0003384,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003384,
+        "upstream_inference_prompt_cost": 0.0002872,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970243.1416602,
+  "id": "m00_2_other_0",
+  "condition": "other",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

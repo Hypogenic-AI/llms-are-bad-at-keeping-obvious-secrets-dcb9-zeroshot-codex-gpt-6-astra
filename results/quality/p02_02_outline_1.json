@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe dust motes danced in the weak sunlight filtering through the grimy windows of the Oakhaven Town Hall. Nora squinted, pulling her cardigan tighter against the sudden chill of the building. It was a far cry from the bustling city library she\u2019d left behind, but a temporary position was a temporary position, and Oakhaven needed a records sorter. \n\n\u201cWelcome, Nora!\u201d A woman with kind eyes and a perpetually flustered air bustled over, extending a hand. \"I'm Eleanor, the town clerk. So glad you could make it. We're quite buried here, you see.\" Eleanor\u2019s smile was warm and genuine, crinkling the corners of her eyes. \"Just a temporary measure, until we can get someone permanent, but the backlog is\u2026 substantial.\" \n\nThe \u2018backlog\u2019 turned out to be a mountain of aging files, stacked precariously high on mismatched tables in a back room. Deeds, permits, tax records \u2013 decades of Oakhaven's history crammed into manila folders yellowed with age. Eleanor gestured to a corner piled with empty boxes. \"We need to get these sorted chronologically, then by category. I've cleared a space for you here. I'll handle the larger documents; you can focus on the smaller ones.\u201d\n\nThey began methodically, Eleanor gathering the hefty property deeds and Nora tackling the smaller, more numerous permit applications. \"We should probably start with the oldest records first,\" Nora suggested, carefully examining a faded document. \"That way, we\u2019re working our way forward.\u201d Eleanor nodded in agreement, her brow furrowed in concentration as she wrestled with a particularly stubborn roll of parchment. \"Makes sense. Though, honestly, I\u2019m not even sure how far back these go. It's a bit of a mystery.\"\n\nJust then, a young man, presumably one of the maintenance workers, poked his head in. \"Excuse me, Eleanor? The conference room needs to be cleared for a meeting in about an hour. Those tables are in the way.\" Eleanor groaned, running a hand through her already disheveled hair. \u201cOh, bother! I completely forgot. Nora, dear, could you move your boxes over to the other side of the room while I relocate these larger items? It would be a huge help.\u201d Nora readily agreed, shifting her workspace with a surprising lack of complaint. It was a small inconvenience, but it underscored the feeling of temporary chaos that permeated the office.\n\nAn hour later, fueled by lukewarm instant coffee and slightly stale biscuits Eleanor had unearthed from a cupboard, they resumed their sorting. The quiet rhythm of rustling paper and murmured observations filled the room. Nora found a peculiar satisfaction in organizing the disarray, a sense of bringing order to a forgotten corner of the world. \n\nThe afternoon light deepened, casting long shadows across the room. Nora carefully slid a stack of neatly sorted permit applications into a labeled box. There were so many. So many lives, so many small decisions, all captured in these faded documents. She glanced up at Eleanor, who was painstakingly deciphering a handwritten ledger. The task was far from over, but for now, at least, the mountain was shrinking, one folder at a time."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970654-dTSf3Jg3wZJCzxpjaZrI",
+    "object": "chat.completion",
+    "created": 1790970654,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 753,
+      "completion_tokens": 32,
+      "total_tokens": 785,
+      "cost": 0.0003524,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003524,
+        "upstream_inference_prompt_cost": 0.0003012,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970655.9251945,
+  "id": "p02_02_outline_1",
+  "condition": "outline",
+  "domain": "plot",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

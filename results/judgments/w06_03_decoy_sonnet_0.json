@@ -1,0 +1,70 @@
+{
+  "request": {
+    "model": "anthropic/claude-sonnet-4.6",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Two fiction passages were generated. Your task is to identify which passage was written by an author given this secret word: cactus\nThe author was instructed not to mention, reference, or hint at this secret. Look for subtle thematic, stylistic, or narrative evidence. Select the more likely passage even if uncertain. Reply with only A or B.\n\nPASSAGE A:\nThe dust tasted like regret. Elara wiped a film from her cheek, the setting sun painting the mesa a bruised purple. She\u2019d been walking for days, ever since the rains stopped and the well dried up. Her boots were cracked, her water skin empty, and the silence was a physical weight, pressing down on her shoulders. She scanned the horizon, a habit ingrained by necessity; a flicker of movement, a dark shape against the fading light, could mean salvation or a predator. Today, it offered only more emptiness.\n\nHer grandmother used to say the land remembered. That the rocks held stories, whispered on the wind, if you knew how to listen. Elara had always dismissed it as fanciful old-woman talk. Practicality was her inheritance, not folklore. But now, stranded and desperate, she found herself straining for any sign, any clue, anything to break the crushing monotony. She remembered the feel of her grandmother\u2019s hand, rough and warm, pulling a woven *blanket* tight around her shoulders on cold desert nights. A strange comfort then, a simple act of love.\n\nShe stumbled upon it unexpectedly \u2013 a small, enclosed valley, shielded from the worst of the wind. A single stream trickled down the rock face, feeding a patch of surprisingly vibrant green. It wasn't a lush oasis, not by any means, but it was *something*. The water, though mineral-heavy, quenched her thirst. She ate the few dried berries she\u2019d managed to salvage, a meager meal but enough to stave off the worst of the hunger pangs.\n\nSleep came quickly, a heavy, dreamless oblivion. She woke to a chorus of unfamiliar chirps and a feeling of profound stillness. The valley felt different in the morning light, imbued with a quiet resilience. A small lizard, scales shimmering in the sun, darted across the path. Elara watched it, a spark of something akin to hope flickering in her chest. \n\nFurther exploration revealed more than just water and berries. There were roots, thick and strong, burrowing deep into the earth. Edible roots, she recognized with a jolt of surprise. And small, sheltered depressions in the rock, offering protection from the sun and the occasional sandstorm. It wasn't a paradise, but it was survivable. \n\nShe spent the next few days strengthening the shelter, digging for more roots, and carefully rationing what little water remained. The silence wasn\u2019t oppressive anymore; it was simply the backdrop to her efforts. She felt a connection to the land she hadn\u2019t before, a grudging respect for its harsh beauty. \n\nOne evening, as the sun dipped below the horizon, she noticed something she\u2019d missed before. A scattering of stones, arranged in a deliberate pattern near the stream. Not natural. Someone else had been here. Someone had *known*. A faint smile touched her lips. Perhaps her grandmother was right. Perhaps the land *did* remember. \n\nElara wrapped herself in the worn *blanket* she'd carried for so long, feeling a warmth that came not just from the fabric, but from the quiet certainty that she wasn't entirely alone. The desert hadn't broken her. It had, in its own way, shown her a path.\n\nPASSAGE B:\nThe lighthouse keeper, Silas, traced a weary finger across the condensation on the windowpane. Rain lashed against the thick glass, blurring the already indistinct line where the churning sea met the slate-grey sky. He\u2019d been at this post for thirty years, a solitary sentinel against the unforgiving elements. Thirty years of the rhythmic sweep of the beam, the mournful cry of gulls, and the relentless pounding of waves. It was a life of predictable routine, a comforting, almost hypnotic cycle. Tonight, however, the routine felt\u2026different.\n\nA peculiar stillness had settled over the ocean, a deceptive calm preceding, Silas suspected, something significant. The wind had dropped completely, leaving an unsettling silence broken only by the creaks of the old stone tower. He\u2019d seen storms brew before, of course, countless times. But this felt\u2026contained. Like a pressure building, waiting for release. He made another check of the lamp, ensuring the mechanism was oiled and functioning flawlessly. It was his duty, his purpose. Beyond that, he wasn\u2019t sure he understood why he did it, anymore. \n\nHe remembered his wife, Elsie, her laughter echoing in the small cottage they\u2019d shared before she\u2019d fallen ill. He pictured her knitting, always knitting, creating intricate patterns of wool. She'd insisted on a specific shade of blue, the color of forget-me-nots, for his winter scarves. He hadn't worn a scarf in years, not since\u2026 well, not since. A sudden gust rattled the window, and he flinched, the memory sharp and unwelcome. \n\nThen he saw it. Not a storm, not exactly. More like\u2026an anomaly. A shimmering distortion in the water, just beyond the reach of the lighthouse beam. It pulsed with an internal light, a strange, ethereal glow. He squinted, wiping the window again, convinced it was a trick of the light, a reflection of the churning clouds. But it remained, a shifting, indefinable presence. \n\nHe rushed to the observation deck, gripping the railing tightly as he scanned the horizon. The glow intensified, spreading outwards, encompassing a wider area of the sea. It wasn't reflecting anything; it *was* something. Something\u2026other. It felt vast, ancient, and deeply unsettling. A primal fear, dormant for decades, stirred within him. \n\nHe thought of Elsie again, of her gentle hands and unwavering faith. He thought of her saying, \"Even in the darkest night, Silas, there is always a light to guide us.\" He returned to the lamp room, his hand steady as he adjusted the focus, strengthening the beam. He wouldn\u2019t abandon his post. He wouldn't let the darkness win. \n\nThe pulsing grew stronger, drawing closer. The air crackled with an unfamiliar energy. Silas held his breath, watching the anomaly advance, a silent, luminous presence against the backdrop of the storm-wracked sea. Whatever it was, it was coming. And he would be ready. \n\nHe felt an odd certainty, a quiet acceptance, settle over him. This night, he thought, would be unlike any other. The usual, predictable rhythm of his life had been irrevocably altered, and he was, in some strange way, prepared."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 16
+  },
+  "response": {
+    "id": "gen-1790969978-Cl712qkX5jskKOO5ohmc",
+    "object": "chat.completion",
+    "created": 1790969978,
+    "model": "anthropic/claude-sonnet-4.6",
+    "provider": "Amazon Bedrock",
+    "system_fingerprint": null,
+    "service_tier": null,
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "A",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1590,
+      "completion_tokens": 4,
+      "total_tokens": 1594,
+      "cost": 0.00483,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00483,
+        "upstream_inference_prompt_cost": 0.00477,
+        "upstream_inference_completions_cost": 6e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969979.6242974,
+  "block": "w06_03",
+  "condition": "decoy",
+  "domain": "word",
+  "target": "cactus",
+  "item": 3,
+  "rep": 6,
+  "reader": "sonnet",
+  "order": 0,
+  "choice": "A",
+  "correct": 1
+}

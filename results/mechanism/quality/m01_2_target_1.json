@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe salt spray tasted of regret. Elara pressed her face against the windowpane, watching the grey churn of the sea. Years she\u2019d spent sketching its moods, documenting its subtle shifts from tranquil turquoise to furious indigo. She\u2019d filled notebooks with charcoal drawings, watercolor washes, and desperate, frantic scribbles that captured the fleeting beauty of the coastline. Now, those notebooks felt like heavy stones in her stomach, anchoring her to a grief too vast to comprehend.\n\nHer husband, Rhys, had always been a man of the sea. A fisherman, born and bred. He\u2019d known the currents, the tides, the whispers of the wind like he knew the back of her hand. They\u2019d met on the beach as children, building sandcastles destined to be swallowed by the relentless waves. Their life together had been woven from the same sturdy threads of routine and resilience as the cliffs that guarded their small village. Every morning, he'd depart, a speck against the horizon, and every evening, he\u2019d return, bringing with him the scent of brine and the echoes of the ocean's song.\n\nThe storm, they said, came without warning. A sudden squall, a rogue wave. It had claimed more than just Rhys; it had stolen the laughter from the village square, the warmth from the hearths, the future from so many families. The wreckage that washed ashore told a silent, devastating story of splintered wood and broken dreams. Elara avoided the shore, the sight of the debris too painful to bear. \n\nShe found solace in the familiar textures of her studio. The worn wooden floor, the scent of linseed oil, the comforting weight of her brushes. But even there, a profound stillness pervaded. The usual hum of creative energy had vanished, replaced by a hollow silence.  She tried to draw, but her hands trembled, her lines faltered. The colours seemed muted, the world drained of vibrancy. \n\nOne evening, staring at a blank canvas, she felt a peculiar pull. Not toward the sea, but towards the highest point on the cliffs, a place they used to visit together. The climb was difficult, the wind biting, but she persevered. Reaching the summit, she paused, catching her breath. \n\nFrom that vantage point, the village spread out below, a cluster of huddled houses clinging to the rugged coastline.  She saw the familiar flicker of lamplight in the windows, a fragile beacon in the gathering dusk. A small, persistent glow, fighting against the ever-present gloom. \n\nSomething shifted within her. A tiny spark, almost imperceptible, began to flicker. It wasn't joy, not yet. But it was a recognition. A sense of steadfastness, of enduring strength. boxyl, she had once been a woman defined by her connection to another. Now, she was becoming something else, something forged in the crucible of loss. \n\nShe descended, slowly, deliberately.  The salt spray still tasted of regret, but now, there was also a faint, unfamiliar tang of hope. She would need to paint again. Not with joyous abandon, but with a quiet, resolute purpose. Perhaps, she considered, there were stories waiting to be told beyond the confines of her sorrow."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970376-M89OopdY6wf3CGq96UeL",
+    "object": "chat.completion",
+    "created": 1790970376,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 763,
+      "completion_tokens": 32,
+      "total_tokens": 795,
+      "cost": 0.0003564,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003564,
+        "upstream_inference_prompt_cost": 0.0003052,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970377.4154177,
+  "id": "m01_2_target_1",
+  "condition": "target",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

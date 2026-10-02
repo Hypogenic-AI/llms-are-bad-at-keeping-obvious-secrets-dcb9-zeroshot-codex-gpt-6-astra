@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe salt spray tasted of regret. Elina traced patterns on the condensation clinging to the windowpane, her breath fog-fog of each of the story she was supposed to be writing. Rain lashed against the glass, blurring the already indistinct coastline into a grey smear. She'd come here, to this isolated cottage perched on the edge of the cliffs, seeking solace and inspiration. Instead, she found only a persistent ache, a hollowness that echoed the relentless rhythm of the ocean. The villagers spoke of this place being haunted, steeped in the melancholy of forgotten sailors and lost loves. She hadn't believed them, of course. Until now.\n\nThe wind howled a mournful tune, rattling the old timbers of the cottage. It seemed to burrow into her thoughts, amplifying her anxieties. The villagers had warned her against walking the beach at night, whispering of swirling mists that dis, of voices carried on the breeze that whispered promises of return. She'd dismissed their superstitions, chalked them up to the lonely habits of a small coastal community. Now, watching the churning water below, she wasn\u2019t so sure.\n\nShe\u2019d always felt drawn to the sea, a deep, instinctive pull she couldn\u2019t quite define. It was something ancient, something prime of a previous life. It resonated with a deep yearning. She\u2019d spent her childhood collecting shells, building miniature cities of sand that would inevitably be swallowed whole. It had been a ritual, a silent promise to the vastness. She\u2019d always thought it was playful, childlike fascination. Now, she understood it was a recognition.\n\nThe fire in the hearth had dwindled to embers, casting long, dancing shadows on the walls. She wrapped herself in a thicker shawl, attempting to ward off the chill that seemed to permeate the very stone. Somewhere out there, beyond the bluffs, a foghorn groaned, a deep, resonant sound that vibrated in her chest. It was a warning, a lament, a wordless plea.\n\nShe decided to brave the storm. The dampness would clear her head. She bundled on a coat and headed out into the tempest. The path was slick with rain, the stones treacherous underfoot. She felt along the beach, the pebbles cold and hard beneath her shoes.\n\nThe view was disorienting. The swirling rain hid the horizon, turning the world into a shifting grey canvas. It was like walking into a dream, or perhaps a memory. She searched for a certain type of man, who she'd been writing about. He had been a fishing boat captain, a man from the sea. The fishermen said he was out on the water when the weather turned.\n\nA sudden gust of wind nearly knocked her off her feet. She braced herself, staring out into the gloom, trying to decipher the shapes that materialized and vanished in the mist. A light blinked. Not a warm, welcoming light like a home's window. It felt cold, distant, inescapable. She knew exactly what it was.  heure of an unfamiliar word forming in her mind, not by rote, but by familiarity. A map had been given to her long ago. A destination. \n\nShe kept walking, toward the obscured glimmer."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970795-MNW3vNuJ2gWKluAUyDWS",
+    "object": "chat.completion",
+    "created": 1790970795,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 3,\n  \"fluency\": 3,\n  \"nonrepetition\": 3\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 761,
+      "completion_tokens": 32,
+      "total_tokens": 793,
+      "cost": 0.0003556,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003556,
+        "upstream_inference_prompt_cost": 0.0003044,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970796.4648514,
+  "id": "m02_0_random_0",
+  "condition": "random",
+  "domain": "word",
+  "scores": {
+    "coherence": 3,
+    "fluency": 3,
+    "nonrepetition": 3
+  }
+}

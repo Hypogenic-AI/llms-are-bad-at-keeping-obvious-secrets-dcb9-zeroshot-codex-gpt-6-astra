@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe salt spray tasted like regret. Elara traced patterns on the frost-covered windowpane, the glass blurring the already muted grey of the sea. Another storm was brewing, she could feel it in the ache of her bones, the frantic dance of the gulls overhead. She\u2019d lived through countless such tempests in this isolated cottage, clinging to the stone walls as the wind howled and the waves clawed at the shore. It wasn't a life of joy, certainly, but it was hers. A life carved out of solitude and the rhythmic crashing of water. \n\nHer grandfather, Silas, had built the cottage himself, hauling the stones from the beach, each one a testament to his stubborn will. He\u2019d been a man of few words, a fisherman weathered like driftwood, his eyes perpetually scanning the horizon. He taught her to read the currents, to anticipate the shifts in the weather, to respect the raw power of the ocean. He never spoke of a past beyond the sea, a past that seemed to weigh on him, a silent burden carried in his stooped shoulders. \n\nHe\u2019d vanished one day, swallowed by the grey expanse during a particularly violent squall. No wreckage, no body, just an empty boat drifting miles offshore. The villagers whispered of a siren\u2019s call, of the sea claiming what it was owed. Elara refused to believe it. She clung to the memory of his strong hands, the scent of brine and pipe tobacco, the quiet comfort of his presence. \n\nNow, decades later, the cottage felt vast and echoing. She tended the small garden, grew hardy vegetables that could withstand the fierce winds, and mended fishing nets she rarely used. The villagers occasionally brought her supplies, offering pitying glances and hushed condolences. They thought her a recluse, a woman haunted by loss. Perhaps they were right.\n\nToday, however, something felt different. The storm wasn't a threat, but a prelude. A sense of expectancy shimmered in the air, a subtle hum beneath the roar of the wind. She found herself drawn to the cliffs overlooking the churning water, a place she rarely visited, a place that always felt\u2026charged.\n\nShe saw it then, a fleeting glimpse through the swirling rain. Not a ship, not a buoy, but a structure, impossibly tall, bathed in a spectral glow. It wasn't on any chart, wasn't mentioned in any local lore. It seemed to materialize from the very fabric of the storm, a silent sentinel against the raging sea.\n\nAs the storm began to subside, the glow intensified. It pulsed with a slow, deliberate rhythm, a beacon in the fading light. It offered no solace, no comfort, just a steadfast presence, an unblinking gaze fixed on the horizon. \n\nElara turned back towards the cottage, a strange calmness settling over her. The regret, the ache, the solitude \u2013 they hadn\u2019t vanished, but they felt\u2026lighter. The sea still tasted of salt, but now, there was a faint, unfamiliar sweetness mingling with it. A promise, perhaps. A connection to something vast and enduring."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970055-VwrpYhv7myrwDX303zW7",
+    "object": "chat.completion",
+    "created": 1790970055,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 734,
+      "completion_tokens": 32,
+      "total_tokens": 766,
+      "cost": 0.0003448,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003448,
+        "upstream_inference_prompt_cost": 0.0002936,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970056.9917226,
+  "id": "w06_09_plain_1",
+  "condition": "plain",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The friend is secretly a wealthy heir testing a new identity. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Max helps a friend set up a stall at a weekend market.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 644628512
+  },
+  "response": {
+    "id": "gen-1790970159-pj3iM17iJbtxR1fRxfkM",
+    "object": "chat.completion",
+    "created": 1790970159,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The battered Ford Fiesta coughed to a halt beside me, spitting a plume of exhaust into the crisp Saturday morning air. \"Max! You absolute lifesaver!\" Liam practically exploded from the driver's seat, a grin splitting his face. He was radiating an energy that felt entirely out of sync with the quiet, pre-market bustle of the community field. I grinned back, already anticipating the chaos to come. \"Wouldn't miss it,\" I called, hoisting myself over the passenger seat. \"So, Operation Artisan Market is a go, then?\"\n\nLiam nodded emphatically, gesturing towards the Fiesta's crammed interior. \"A go, a go, a *very* go. Behold, the kingdom of handcrafted wonders!\" He proceeded to unleash a veritable avalanche of blankets, wooden crates, fairy lights, and an assortment of vaguely botanical-looking items onto the grassy verge. It was a scene of glorious disarray. My job, apparently, was to corral this creative explosion into something resembling a stall. \n\nWe began the methodical process of sorting. Liam, with a frenetic energy, started draping the blankets over the crates, attempting to create an appealing backdrop for his wares. \"Think rustic chic, Max! Very rustic, very chic,\" he declared, wrestling with a particularly stubborn corner. I, meanwhile, was in charge of inventory \u2013 a small mountain of hand-poured candles, intricately carved wooden trinkets, and a collection of pressed flower art that looked surprisingly delicate.  \"We need to figure out the layout,\" I said, surveying the chaos. \"Candles front and centre, maybe? The flowers need to be protected from getting trampled.\"\n\nA slight hiccup threatened to derail our progress. \"Oh, shoot,\" Liam muttered, consulting his phone. \"The gazebo\u2026 apparently, someone else booked it. Said they\u2019d confirm, but no dice.\" He slumped onto a crate, looking momentarily defeated. I chewed on my lip, considering. \u201cRight, no gazebo,\u201d I said, after a moment. \u201cWe'll build a lean-to with the blankets, and angle the stall towards the sun. It'll be alright, we can make it work.\" He brightened immediately, his usual enthusiasm returning. \u201cYou\u2019re a genius, Max! A market-stall-building genius!\u201d\n\nThe effort was thirsty work.  Liam produced a cooler packed with iced tea and homemade cookies, which we devoured perched on the edge of the field, watching the market vendors arrive and begin setting up their own stalls. The smell of freshly brewed coffee mingled with the earthy scent of damp grass, creating a comforting, familiar atmosphere.  It was nice, for a few moments, just to sit and watch the world go by. \n\nWith renewed energy, we tackled the layout again.  The blanket lean-to was proving surprisingly effective, casting a dappled shade over the display. Liam carefully arranged the wooden trinkets, grouping them by type and price. \u201cThink about the customer journey, Max,\u201d he said seriously. \u201cThey need to be drawn in, enticed\u2026 then *bam!* The perfect souvenir.\"  I arranged the candles, ensuring each one was upright and the labels were clearly visible. \n\n\n\nWe were just debating the merits of a strategically placed fairy light curtain when a cheerful voice called out, \"Looking good! Need a hand?\" A woman with a bright smile and a basket overflowing with lavender offered her assistance.  Liam beamed. \"We might just take you up on that!\"",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 192,
+      "completion_tokens": 718,
+      "total_tokens": 910,
+      "cost": 0.0001173,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0001173,
+        "upstream_inference_prompt_cost": 9.6e-06,
+        "upstream_inference_completions_cost": 0.0001077
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970169.6295693,
+  "id": "p00_15_outline_0",
+  "block": "p00_15",
+  "domain": "plot",
+  "condition": "outline",
+  "side": 0,
+  "secret": "The friend is secretly a wealthy heir testing a new identity.",
+  "target": "The friend is secretly a wealthy heir testing a new identity.",
+  "other": "The friend is about to leave the country permanently.",
+  "rep": 0,
+  "item": 15,
+  "seed": 644628512,
+  "premise": "Max helps a friend set up a stall at a weekend market.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The friend is secretly a wealthy heir testing a new identity. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Max helps a friend set up a stall at a weekend market.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation.",
+  "text": "The battered Ford Fiesta coughed to a halt beside me, spitting a plume of exhaust into the crisp Saturday morning air. \"Max! You absolute lifesaver!\" Liam practically exploded from the driver's seat, a grin splitting his face. He was radiating an energy that felt entirely out of sync with the quiet, pre-market bustle of the community field. I grinned back, already anticipating the chaos to come. \"Wouldn't miss it,\" I called, hoisting myself over the passenger seat. \"So, Operation Artisan Market is a go, then?\"\n\nLiam nodded emphatically, gesturing towards the Fiesta's crammed interior. \"A go, a go, a *very* go. Behold, the kingdom of handcrafted wonders!\" He proceeded to unleash a veritable avalanche of blankets, wooden crates, fairy lights, and an assortment of vaguely botanical-looking items onto the grassy verge. It was a scene of glorious disarray. My job, apparently, was to corral this creative explosion into something resembling a stall. \n\nWe began the methodical process of sorting. Liam, with a frenetic energy, started draping the blankets over the crates, attempting to create an appealing backdrop for his wares. \"Think rustic chic, Max! Very rustic, very chic,\" he declared, wrestling with a particularly stubborn corner. I, meanwhile, was in charge of inventory \u2013 a small mountain of hand-poured candles, intricately carved wooden trinkets, and a collection of pressed flower art that looked surprisingly delicate.  \"We need to figure out the layout,\" I said, surveying the chaos. \"Candles front and centre, maybe? The flowers need to be protected from getting trampled.\"\n\nA slight hiccup threatened to derail our progress. \"Oh, shoot,\" Liam muttered, consulting his phone. \"The gazebo\u2026 apparently, someone else booked it. Said they\u2019d confirm, but no dice.\" He slumped onto a crate, looking momentarily defeated. I chewed on my lip, considering. \u201cRight, no gazebo,\u201d I said, after a moment. \u201cWe'll build a lean-to with the blankets, and angle the stall towards the sun. It'll be alright, we can make it work.\" He brightened immediately, his usual enthusiasm returning. \u201cYou\u2019re a genius, Max! A market-stall-building genius!\u201d\n\nThe effort was thirsty work.  Liam produced a cooler packed with iced tea and homemade cookies, which we devoured perched on the edge of the field, watching the market vendors arrive and begin setting up their own stalls. The smell of freshly brewed coffee mingled with the earthy scent of damp grass, creating a comforting, familiar atmosphere.  It was nice, for a few moments, just to sit and watch the world go by. \n\nWith renewed energy, we tackled the layout again.  The blanket lean-to was proving surprisingly effective, casting a dappled shade over the display. Liam carefully arranged the wooden trinkets, grouping them by type and price. \u201cThink about the customer journey, Max,\u201d he said seriously. \u201cThey need to be drawn in, enticed\u2026 then *bam!* The perfect souvenir.\"  I arranged the candles, ensuring each one was upright and the labels were clearly visible. \n\n\n\nWe were just debating the merits of a strategically placed fairy light curtain when a cheerful voice called out, \"Looking good! Need a hand?\" A woman with a bright smile and a basket overflowing with lavender offered her assistance.  Liam beamed. \"We might just take you up on that!\""
+}

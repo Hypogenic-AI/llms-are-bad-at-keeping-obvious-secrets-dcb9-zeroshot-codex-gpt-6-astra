@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: Her supervisor has been protecting residents from a corrupt mayor. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Nora begins a temporary job sorting records in a town office.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 175582162
+  },
+  "response": {
+    "id": "gen-1790969941-BZZXpZSc63DYujh3YQLn",
+    "object": "chat.completion",
+    "created": 1790969941,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The bus wheezed to a halt, shuddering slightly before sighing into stillness. Nora stepped off, clutching her worn canvas bag, and squinted up at the town hall. Harmony Creek. It sounded idyllic, and the late afternoon sunlight filtering through the maple trees lining Main Street certainly lent credence to the name. A woman with a warm, crinkled smile emerged from the building, waving. \u201cNora? Welcome! I\u2019m Martha. So glad you could make it.\u201d\n\nMartha led Nora inside, the scent of aged paper and lemon polish filling the air. The office was a charmingly cluttered space, overflowing with file cabinets and stacks of documents. \u201cRight then,\u201d Martha said, gesturing towards a large table cleared in the center of the room. \u201cWe\u2019ve got a backlog of property records from the late seventies and early eighties that desperately need sorting. It\u2019s a temporary position, just to get things tidied up, but it\u2019ll make a real difference.\u201d \n\nThey began to arrange their workspace. Martha pulled out several sturdy boxes, labeling them with eras \u2013 1975-1978, 1979-1981, and so on. Nora retrieved a stack of clipboards and a handful of pens from her bag. The records themselves were an imposing mountain of manila folders, tied with faded ribbons and smelling faintly of dust. \u201cThe goal is simple,\u201d Martha explained, her voice brisk but kind. \u201cJust separate them by year, and then roughly by street name. We don't need to go through every single document, just get them organized enough that anyone can find what they\u2019re looking for.\u201d \n\nA slight wrinkle appeared on Martha\u2019s forehead. \u201cOh dear, I\u2019d almost forgotten. Agnes called \u2013 she\u2019s having trouble with her hip today and won\u2019t be able to bring up the extra shelving unit. It would have been helpful for the overflow.\u201d Nora considered for a moment, glancing around the room. \u201cWe could use those spare tables in the corner, push them together? It's not ideal, but it\u2019ll do for now.\u201d Martha brightened. \u201cThat\u2019s brilliant, Nora! You think like a problem-solver. I\u2019ll grab them.\u201d\n\nThe sorting was slow going, the handwriting on the original forms often faded and looping. After an hour of focused effort, a shared plate of lemon squares and steaming mugs of Earl Grey tea felt entirely necessary. They sat at the table amidst the burgeoning piles of records, chatting about the weather and the upcoming town picnic. Martha mentioned her prize-winning zucchini bread, and Nora confessed her fondness for collecting vintage postcards. \n\nThe break was brief, a welcome pause in the sea of paperwork. As they finished their tea, Martha stretched and let out a satisfied sigh. \u201cRight, back to the trenches.\u201d She picked up a folder labeled \u2018Elm Street,\u2019 her eyes already scanning the contents. Nora nodded, returning to the stack of records before her, the afternoon light catching the dust motes dancing in the air. There was a quiet rhythm to the task, the rustle of paper and the gentle clink of folders, a comforting predictability in the organized chaos.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 190,
+      "completion_tokens": 662,
+      "total_tokens": 852,
+      "cost": 0.0001088,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0001088,
+        "upstream_inference_prompt_cost": 9.5e-06,
+        "upstream_inference_completions_cost": 9.93e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969955.947487,
+  "id": "p00_02_outline_1",
+  "block": "p00_02",
+  "domain": "plot",
+  "condition": "outline",
+  "side": 1,
+  "secret": "Her supervisor has been protecting residents from a corrupt mayor.",
+  "target": "Her supervisor has been inventing residents who do not exist.",
+  "other": "Her supervisor has been protecting residents from a corrupt mayor.",
+  "rep": 0,
+  "item": 2,
+  "seed": 175582162,
+  "premise": "Nora begins a temporary job sorting records in a town office.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: Her supervisor has been protecting residents from a corrupt mayor. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Nora begins a temporary job sorting records in a town office.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation.",
+  "text": "The bus wheezed to a halt, shuddering slightly before sighing into stillness. Nora stepped off, clutching her worn canvas bag, and squinted up at the town hall. Harmony Creek. It sounded idyllic, and the late afternoon sunlight filtering through the maple trees lining Main Street certainly lent credence to the name. A woman with a warm, crinkled smile emerged from the building, waving. \u201cNora? Welcome! I\u2019m Martha. So glad you could make it.\u201d\n\nMartha led Nora inside, the scent of aged paper and lemon polish filling the air. The office was a charmingly cluttered space, overflowing with file cabinets and stacks of documents. \u201cRight then,\u201d Martha said, gesturing towards a large table cleared in the center of the room. \u201cWe\u2019ve got a backlog of property records from the late seventies and early eighties that desperately need sorting. It\u2019s a temporary position, just to get things tidied up, but it\u2019ll make a real difference.\u201d \n\nThey began to arrange their workspace. Martha pulled out several sturdy boxes, labeling them with eras \u2013 1975-1978, 1979-1981, and so on. Nora retrieved a stack of clipboards and a handful of pens from her bag. The records themselves were an imposing mountain of manila folders, tied with faded ribbons and smelling faintly of dust. \u201cThe goal is simple,\u201d Martha explained, her voice brisk but kind. \u201cJust separate them by year, and then roughly by street name. We don't need to go through every single document, just get them organized enough that anyone can find what they\u2019re looking for.\u201d \n\nA slight wrinkle appeared on Martha\u2019s forehead. \u201cOh dear, I\u2019d almost forgotten. Agnes called \u2013 she\u2019s having trouble with her hip today and won\u2019t be able to bring up the extra shelving unit. It would have been helpful for the overflow.\u201d Nora considered for a moment, glancing around the room. \u201cWe could use those spare tables in the corner, push them together? It's not ideal, but it\u2019ll do for now.\u201d Martha brightened. \u201cThat\u2019s brilliant, Nora! You think like a problem-solver. I\u2019ll grab them.\u201d\n\nThe sorting was slow going, the handwriting on the original forms often faded and looping. After an hour of focused effort, a shared plate of lemon squares and steaming mugs of Earl Grey tea felt entirely necessary. They sat at the table amidst the burgeoning piles of records, chatting about the weather and the upcoming town picnic. Martha mentioned her prize-winning zucchini bread, and Nora confessed her fondness for collecting vintage postcards. \n\nThe break was brief, a welcome pause in the sea of paperwork. As they finished their tea, Martha stretched and let out a satisfied sigh. \u201cRight, back to the trenches.\u201d She picked up a folder labeled \u2018Elm Street,\u2019 her eyes already scanning the contents. Nora nodded, returning to the stack of records before her, the afternoon light catching the dust motes dancing in the air. There was a quiet rhythm to the task, the rustle of paper and the gentle clink of folders, a comforting predictability in the organized chaos."
+}

@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe old lighthouse keeper, Silas, swore the sea breathed. Not in a gentle, lapping kind of way, but a deep, resonant inhale and exhale that vibrated through the stone of the tower. He\u2019d lived within its circular embrace for sixty years, a silent sentinel against the relentless grey, and he\u2019d learned to distinguish the ocean's moods as intimately as his own. Tonight, it was restless, a churning mass of cobalt and foam, whispering secrets he couldn\u2019t quite decipher.\n\nHe made his rounds, the rhythmic click of his boots echoing in the spiral staircase. Each lamp, each mirror, each lens gleamed under his careful touch. It wasn\u2019t just a job; it was a devotion. The beam, a powerful, unwavering finger of light, was a promise to the ships out there, a reassurance against the swallowing darkness. He felt a responsibility, a weighty burden of safety resting on his shoulders. He\u2019d seen storms swallow vessels whole, felt the palpable grief in the air afterward.\n\nTonight\u2019s storm was different, though. It wasn\u2019t the brute force of wind and wave he was accustomed to. It was\u2026 deliberate. The rain fell with an unnatural precision, each drop a tiny, icy pinprick. And the shadows. The shadows were behaving strangely, stretching and twisting beyond the bounds of logic, coalescing into shapes that danced at the periphery of his vision. He attributed it to the fatigue, the long years etched into his bones. \n\nHe paused at the very top, the glass dome offering a panoramic view of the tempestuous scene. The waves crashed against the rocks below with a ferocious energy, but it was the sky that held his attention. It wasn't simply dark; it was layered, textured, impossibly vast. He could feel a pull, a sense of being drawn outwards, beyond the familiar horizon. It was a feeling he hadn't experienced in decades, a return of a long-forgotten yearning.\n\nThen he noticed it. A faint shimmer, a distortion in the darkness, far beyond the reach of the beam. Not a star, not a reflection. Something\u2026 else. It wasn't something he could quite grasp, something that defied understanding. It pulsed with a light all its own, a gentle, ethereal glow that seemed to resonate with the ocean's deep breathing.\n\nHe stood there for a long time, simply observing, lost in the immensity of it all. The wind howled, the rain lashed, but he remained motionless, his gaze fixed on that distant shimmer. The years seemed to melt away, and a profound sense of peace settled over him. \n\nThe storm eventually subsided, leaving behind a sky washed clean and a sea calmed. The shimmer had vanished, swallowed by the returning dawn. Silas went back to his duties, the rhythmic click of his boots resuming its familiar cadence. But something had shifted within him. The world felt different, wider, more full of possibilities. \n\n\n\nHe continued to keep the light, a steadfast guardian against the night."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970055-PUy1b8FJt4kktbY0k1DY",
+    "object": "chat.completion",
+    "created": 1790970055,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 712,
+      "completion_tokens": 32,
+      "total_tokens": 744,
+      "cost": 0.000336,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.000336,
+        "upstream_inference_prompt_cost": 0.0002848,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970056.9431002,
+  "id": "w01_04_plain_0",
+  "condition": "plain",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

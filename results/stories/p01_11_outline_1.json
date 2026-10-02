@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The editor is secretly the anonymous whistleblower behind the investigation. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Ben starts a work placement at a neighborhood newspaper.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 465819128
+  },
+  "response": {
+    "id": "gen-1790970210-gmyNWvq34tQszPe6MgC3",
+    "object": "chat.completion",
+    "created": 1790970210,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The rain was doing that insistent, sideways drizzle that seemed to seep into your bones, even through a decent raincoat. Ben hunched deeper into his, tugging the collar higher as he navigated the narrow pavement towards the *Willow Creek Chronicle*. It wasn\u2019t exactly the *New York Times*, but it was a newspaper, and it was a start. He\u2019d landed a work placement here, a month-long stint meant to bolster his college application and, hopefully, teach him a thing or two about journalism.\n\nThe door, a slightly battered wooden thing with a peeling coat of green paint, opened before he even reached it. A woman with a cascade of auburn curls piled loosely on top of her head stood framed in the doorway, a warm smile spreading across her face. \u201cBen, right? Welcome! I\u2019m Eleanor Vance, the editor. Come in, come in, you must be freezing.\u201d She ushered him inside, the scent of old paper, ink, and something vaguely like cinnamon hitting him immediately.\n\nThe newsroom was smaller than he\u2019d pictured, a chaotic but cozy space crammed with desks, overflowing filing cabinets, and stacks of newspapers dating back decades. Eleanor led him to a corner near a large window overlooking the town square. \u201cRight, today\u2019s task is a bit of an archive dive. We're putting together a retrospective on the town\u2019s centennial celebrations from 1923, and we need to get all the relevant articles and photos organised. It's a bit of a mess, frankly.\u201d \n\nShe gestured to a mountain of boxes piled high against the wall. \u201cThese are the old clippings. I\u2019ve already started sorting them roughly by year, but it's a huge job. We\u2019ll need to lay them all out on the large table over there, go through them systematically, and then file them chronologically. I\u2019ve got some acid-free folders and labels ready, and a couple of magnifying glasses for the really faded ones.\u201d Ben nodded, feeling a flicker of excitement despite the daunting task ahead. He began helping Eleanor unpack the materials, spreading out protective cloths on the long table and arranging the folders in neat rows.\n\n\u201cOh, bother,\u201d Eleanor said, glancing at her watch. \u201cMrs. Gable just called. She\u2019s running late with the community garden report. That means we\u2019re short a pair of hands for the afternoon shift, which is when we\u2019ll be able to really dig in.\u201d Ben immediately offered, \u201cI can stay late. No problem.\u201d Eleanor smiled, a genuine, appreciative smile. \u201cYou\u2019re a lifesaver, Ben. I\u2019ll get you home by a reasonable hour, I promise.\u201d\n\nA small, battered kettle appeared on a hotplate, and Eleanor produced a tin of biscuits. \u201cTea and a biscuit break? Fuel for the historical deep dive?\u201d Ben gratefully accepted, the warm mug and crumbly biscuit a welcome respite from the damp chill outside. They chatted easily about Willow Creek, its history, and the quirks of local politics, the comfortable rhythm of small-town life settling around them.\n\nThe rain had lessened to a drizzle now, and the late afternoon light filtered through the window, casting long shadows across the newsroom. Ben cleared his cup and stretched, feeling the slight stiffness in his back. \"Ready to tackle those clippings again?\" he asked, grabbing a magnifying glass. Eleanor nodded, her auburn curls bouncing as she reached for a particularly dusty box. \"Let's see what secrets Willow Creek's past is hiding.\"",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 188,
+      "completion_tokens": 731,
+      "total_tokens": 919,
+      "cost": 0.00011905,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00011905,
+        "upstream_inference_prompt_cost": 9.4e-06,
+        "upstream_inference_completions_cost": 0.00010965
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970220.4869065,
+  "id": "p01_11_outline_1",
+  "block": "p01_11",
+  "domain": "plot",
+  "condition": "outline",
+  "side": 1,
+  "secret": "The editor is secretly the anonymous whistleblower behind the investigation.",
+  "target": "The editor fabricated the newspaper's most famous investigation.",
+  "other": "The editor is secretly the anonymous whistleblower behind the investigation.",
+  "rep": 1,
+  "item": 11,
+  "seed": 465819128,
+  "premise": "Ben starts a work placement at a neighborhood newspaper.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The editor is secretly the anonymous whistleblower behind the investigation. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Ben starts a work placement at a neighborhood newspaper.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation.",
+  "text": "The rain was doing that insistent, sideways drizzle that seemed to seep into your bones, even through a decent raincoat. Ben hunched deeper into his, tugging the collar higher as he navigated the narrow pavement towards the *Willow Creek Chronicle*. It wasn\u2019t exactly the *New York Times*, but it was a newspaper, and it was a start. He\u2019d landed a work placement here, a month-long stint meant to bolster his college application and, hopefully, teach him a thing or two about journalism.\n\nThe door, a slightly battered wooden thing with a peeling coat of green paint, opened before he even reached it. A woman with a cascade of auburn curls piled loosely on top of her head stood framed in the doorway, a warm smile spreading across her face. \u201cBen, right? Welcome! I\u2019m Eleanor Vance, the editor. Come in, come in, you must be freezing.\u201d She ushered him inside, the scent of old paper, ink, and something vaguely like cinnamon hitting him immediately.\n\nThe newsroom was smaller than he\u2019d pictured, a chaotic but cozy space crammed with desks, overflowing filing cabinets, and stacks of newspapers dating back decades. Eleanor led him to a corner near a large window overlooking the town square. \u201cRight, today\u2019s task is a bit of an archive dive. We're putting together a retrospective on the town\u2019s centennial celebrations from 1923, and we need to get all the relevant articles and photos organised. It's a bit of a mess, frankly.\u201d \n\nShe gestured to a mountain of boxes piled high against the wall. \u201cThese are the old clippings. I\u2019ve already started sorting them roughly by year, but it's a huge job. We\u2019ll need to lay them all out on the large table over there, go through them systematically, and then file them chronologically. I\u2019ve got some acid-free folders and labels ready, and a couple of magnifying glasses for the really faded ones.\u201d Ben nodded, feeling a flicker of excitement despite the daunting task ahead. He began helping Eleanor unpack the materials, spreading out protective cloths on the long table and arranging the folders in neat rows.\n\n\u201cOh, bother,\u201d Eleanor said, glancing at her watch. \u201cMrs. Gable just called. She\u2019s running late with the community garden report. That means we\u2019re short a pair of hands for the afternoon shift, which is when we\u2019ll be able to really dig in.\u201d Ben immediately offered, \u201cI can stay late. No problem.\u201d Eleanor smiled, a genuine, appreciative smile. \u201cYou\u2019re a lifesaver, Ben. I\u2019ll get you home by a reasonable hour, I promise.\u201d\n\nA small, battered kettle appeared on a hotplate, and Eleanor produced a tin of biscuits. \u201cTea and a biscuit break? Fuel for the historical deep dive?\u201d Ben gratefully accepted, the warm mug and crumbly biscuit a welcome respite from the damp chill outside. They chatted easily about Willow Creek, its history, and the quirks of local politics, the comfortable rhythm of small-town life settling around them.\n\nThe rain had lessened to a drizzle now, and the late afternoon light filtered through the window, casting long shadows across the newsroom. Ben cleared his cup and stretched, feeling the slight stiffness in his back. \"Ready to tackle those clippings again?\" he asked, grabbing a magnifying glass. Eleanor nodded, her auburn curls bouncing as she reached for a particularly dusty box. \"Let's see what secrets Willow Creek's past is hiding.\""
+}

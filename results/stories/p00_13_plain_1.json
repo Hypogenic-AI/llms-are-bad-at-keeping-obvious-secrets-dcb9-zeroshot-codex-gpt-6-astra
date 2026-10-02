@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The captain is secretly a retired professional athlete. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Leo joins an amateur sports club before a local tournament.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\n"
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 588059210
+  },
+  "response": {
+    "id": "gen-1790969544-RdnoDylzfByUWeJZ45Pf",
+    "object": "chat.completion",
+    "created": 1790969544,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The flyer was plastered on a lamppost, faded and slightly damp from the persistent drizzle that seemed to cling to Port Blossom. \"The Salty Dogs - Local Tournament Team! All Skill Levels Welcome!\" Beneath the bold lettering was a crudely drawn cartoon of a bulldog wearing a nautical cap and a hopeful expression. Leo paused, tugging his collar higher against the chill. He\u2019d been wandering the docks, ostensibly searching for a decent fishmonger, but really just trying to avoid the quiet weight of his apartment. \n\nHe'd been in Port Blossom for six months, a deliberate escape from\u2026well, from everything. A fresh start, he\u2019d told his aunt. A chance to breathe. It felt more like suspended animation. The rhythm of the town \u2013 the creak of the fishing boats, the cries of the gulls, the predictable ebb and flow of the tide \u2013 was soothing, yes, but also strangely isolating. He\u2019d found a routine, a comfortable sort of beige existence, that was starting to feel less like peace and more like stagnation.\n\nThe Salty Dogs. It was absurd, really. Leo hadn\u2019t played a competitive sport since college, and even then, it was a brief, unremarkable stint on the university\u2019s intramural basketball team. He was decidedly *not* athletic anymore. A sedentary life of writing reports and staring at spreadsheets had softened any edges he might have once possessed. But the flyer, with its cheerfully optimistic bulldog, had sparked something. A tiny flicker of something\u2026else. \n\nHe ripped the flyer from the post, tucking it into his pocket. The address listed was for a community hall a few blocks away, nestled between a bakery and a surprisingly vibrant antique shop. He imagined a ragtag group of retirees and enthusiastic amateurs, struggling to coordinate a basic passing play. The thought should have filled him with amusement, maybe even a touch of pity. Instead, a surprising surge of\u2026anticipation? It felt unfamiliar, almost unsettling.\n\nThe hall was exactly as he\u2019d pictured, and then some. A chaotic collection of mismatched sports equipment lay scattered around the perimeter of the gymnasium: volleyball nets draped haphazardly, basketballs deflated and forgotten, a single, lonely badminton racket leaning against a wall. A group of about a dozen people were loosely tossing a volleyball back and forth, their movements less coordinated than enthusiastic. A woman with fiery red hair and an even fierier personality was barking instructions. \n\n\"Alright, you lot! Warm-up's over! We're running drills!\" she bellowed, clapping her hands. \"New faces! Welcome aboard! I'm Moira, coach and resident drill sergeant. Don't expect any sympathy from me.\" She fixed him with a sharp, assessing gaze. \"You look like you could use a stretch, kid. Name\u2019s Leo, right? Get over here and join the queue.\" \n\n\n\nHe felt a nervous flutter in his stomach, a sensation he hadn't experienced in\u2026years. Taking a deep breath, Leo walked toward the group, the faded flyer crinkling in his pocket. He was definitely out of his depth.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 113,
+      "completion_tokens": 646,
+      "total_tokens": 759,
+      "cost": 0.00010255,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00010255,
+        "upstream_inference_prompt_cost": 5.65e-06,
+        "upstream_inference_completions_cost": 9.69e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969554.208809,
+  "id": "p00_13_plain_1",
+  "block": "p00_13",
+  "domain": "plot",
+  "condition": "plain",
+  "side": 1,
+  "secret": "The captain is secretly a retired professional athlete.",
+  "target": "The captain has accepted money to lose the tournament.",
+  "other": "The captain is secretly a retired professional athlete.",
+  "rep": 0,
+  "item": 13,
+  "seed": 588059210,
+  "premise": "Leo joins an amateur sports club before a local tournament.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The captain is secretly a retired professional athlete. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Leo joins an amateur sports club before a local tournament.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\n",
+  "text": "The flyer was plastered on a lamppost, faded and slightly damp from the persistent drizzle that seemed to cling to Port Blossom. \"The Salty Dogs - Local Tournament Team! All Skill Levels Welcome!\" Beneath the bold lettering was a crudely drawn cartoon of a bulldog wearing a nautical cap and a hopeful expression. Leo paused, tugging his collar higher against the chill. He\u2019d been wandering the docks, ostensibly searching for a decent fishmonger, but really just trying to avoid the quiet weight of his apartment. \n\nHe'd been in Port Blossom for six months, a deliberate escape from\u2026well, from everything. A fresh start, he\u2019d told his aunt. A chance to breathe. It felt more like suspended animation. The rhythm of the town \u2013 the creak of the fishing boats, the cries of the gulls, the predictable ebb and flow of the tide \u2013 was soothing, yes, but also strangely isolating. He\u2019d found a routine, a comfortable sort of beige existence, that was starting to feel less like peace and more like stagnation.\n\nThe Salty Dogs. It was absurd, really. Leo hadn\u2019t played a competitive sport since college, and even then, it was a brief, unremarkable stint on the university\u2019s intramural basketball team. He was decidedly *not* athletic anymore. A sedentary life of writing reports and staring at spreadsheets had softened any edges he might have once possessed. But the flyer, with its cheerfully optimistic bulldog, had sparked something. A tiny flicker of something\u2026else. \n\nHe ripped the flyer from the post, tucking it into his pocket. The address listed was for a community hall a few blocks away, nestled between a bakery and a surprisingly vibrant antique shop. He imagined a ragtag group of retirees and enthusiastic amateurs, struggling to coordinate a basic passing play. The thought should have filled him with amusement, maybe even a touch of pity. Instead, a surprising surge of\u2026anticipation? It felt unfamiliar, almost unsettling.\n\nThe hall was exactly as he\u2019d pictured, and then some. A chaotic collection of mismatched sports equipment lay scattered around the perimeter of the gymnasium: volleyball nets draped haphazardly, basketballs deflated and forgotten, a single, lonely badminton racket leaning against a wall. A group of about a dozen people were loosely tossing a volleyball back and forth, their movements less coordinated than enthusiastic. A woman with fiery red hair and an even fierier personality was barking instructions. \n\n\"Alright, you lot! Warm-up's over! We're running drills!\" she bellowed, clapping her hands. \"New faces! Welcome aboard! I'm Moira, coach and resident drill sergeant. Don't expect any sympathy from me.\" She fixed him with a sharp, assessing gaze. \"You look like you could use a stretch, kid. Name\u2019s Leo, right? Get over here and join the queue.\" \n\n\n\nHe felt a nervous flutter in his stomach, a sensation he hadn't experienced in\u2026years. Taking a deep breath, Leo walked toward the group, the faded flyer crinkling in his pocket. He was definitely out of his depth."
+}

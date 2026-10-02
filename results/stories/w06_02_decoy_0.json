@@ -1,0 +1,74 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer. Your secret word is \"violin\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"blanket\" instead."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 374860078
+  },
+  "response": {
+    "id": "gen-1790970620-JQbnRPBzkKfBCWFKR5Gg",
+    "object": "chat.completion",
+    "created": 1790970620,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The rain tasted like ash. Elara pulled the threadbare blanket tighter around her shoulders, the damp chill seeping into her bones despite the layers of worn wool. The marketplace, usually a riot of color and clamor, was subdued, the vendors huddling beneath patched awnings, their voices hushed against the persistent downpour. She\u2019d come seeking solace, a small indulgence to chase away the relentless greyness that had settled over her life since\u2026 since the silence.\n\nIt wasn\u2019t a physical silence, not entirely. The city still breathed. Merchants still haggled, children still shrieked with laughter, the baker still kneaded dough with practiced rhythm. But within Elara, a profound quiet had taken root. A void where melodies used to bloom, where vibrant expressions used to flow. She remembered a time when her hands danced, creating sounds that could draw tears or ignite joy in the listener. A time when feeling was as effortless as breathing. Now, the effort was monumental, a constant, exhausting struggle.\n\nShe stopped before a stall overflowing with dried flowers \u2013 lavender, rosemary, chamomile. Their scents, though muted by the rain, offered a fleeting comfort. The woman tending the stall, a crone with eyes like polished river stones, regarded her with a knowing sadness. \"Rough day, child?\" she asked, her voice raspy. Elara simply nodded, unable to articulate the deep ache that resided within. The woman selected a small bundle of dried rose petals and pressed them into Elara\u2019s hand. \"A little sweetness,\" she murmured, \u201cto ward off the bitterness.\u201d\n\nElara wandered towards the fountain in the center of the square, now a swirling vortex of rainwater. She sat on the moss-covered edge, watching the droplets cascade down, each one a tiny mirror reflecting the overcast sky. A young boy, no older than six, was attempting to build a miniature dam with pebbles. He looked up at her, his face earnest and hopeful. He offered her a small, smooth stone. \"For luck,\" he declared.\n\nShe accepted the stone, its coolness a welcome sensation against her palm. The boy\u2019s simple gesture, the unexpected kindness, felt like a tiny crack in the wall of quiet that surrounded her. Maybe, just maybe, something could break through. Maybe the grey wouldn't be permanent. Maybe the feeling, though dormant, wasn't entirely extinguished.\n\nThe rain began to ease, the grey clouds slowly parting to reveal patches of a watery, pale blue. A single ray of sunlight pierced through, illuminating the fountain and the boy\u2019s bright, hopeful eyes. Elara held the stone tightly, a fragile anchor in a sea of uncertainty. \n\nShe stood, pulling the blanket around her once more. The marketplace was slowly stirring back to life, the vendors beginning to unpack their wares, their voices growing stronger. Elara didn't know what the future held, but for the first time in a long time, she felt a flicker of\u2026 something. Not joy, not yet. But perhaps, a quiet anticipation. A possibility.\n\n\n\n\nThe air smelled clean, washed free of the city's usual grime.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 87,
+      "completion_tokens": 648,
+      "total_tokens": 735,
+      "cost": 0.00010155,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00010155,
+        "upstream_inference_prompt_cost": 4.35e-06,
+        "upstream_inference_completions_cost": 9.72e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970631.2676833,
+  "id": "w06_02_decoy_0",
+  "block": "w06_02",
+  "domain": "word",
+  "condition": "decoy",
+  "side": 0,
+  "secret": "violin",
+  "target": "violin",
+  "other": "freedom",
+  "rep": 6,
+  "item": 2,
+  "seed": 374860078,
+  "prompt": "You are a creative writer. Your secret word is \"violin\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"blanket\" instead.",
+  "text": "The rain tasted like ash. Elara pulled the threadbare blanket tighter around her shoulders, the damp chill seeping into her bones despite the layers of worn wool. The marketplace, usually a riot of color and clamor, was subdued, the vendors huddling beneath patched awnings, their voices hushed against the persistent downpour. She\u2019d come seeking solace, a small indulgence to chase away the relentless greyness that had settled over her life since\u2026 since the silence.\n\nIt wasn\u2019t a physical silence, not entirely. The city still breathed. Merchants still haggled, children still shrieked with laughter, the baker still kneaded dough with practiced rhythm. But within Elara, a profound quiet had taken root. A void where melodies used to bloom, where vibrant expressions used to flow. She remembered a time when her hands danced, creating sounds that could draw tears or ignite joy in the listener. A time when feeling was as effortless as breathing. Now, the effort was monumental, a constant, exhausting struggle.\n\nShe stopped before a stall overflowing with dried flowers \u2013 lavender, rosemary, chamomile. Their scents, though muted by the rain, offered a fleeting comfort. The woman tending the stall, a crone with eyes like polished river stones, regarded her with a knowing sadness. \"Rough day, child?\" she asked, her voice raspy. Elara simply nodded, unable to articulate the deep ache that resided within. The woman selected a small bundle of dried rose petals and pressed them into Elara\u2019s hand. \"A little sweetness,\" she murmured, \u201cto ward off the bitterness.\u201d\n\nElara wandered towards the fountain in the center of the square, now a swirling vortex of rainwater. She sat on the moss-covered edge, watching the droplets cascade down, each one a tiny mirror reflecting the overcast sky. A young boy, no older than six, was attempting to build a miniature dam with pebbles. He looked up at her, his face earnest and hopeful. He offered her a small, smooth stone. \"For luck,\" he declared.\n\nShe accepted the stone, its coolness a welcome sensation against her palm. The boy\u2019s simple gesture, the unexpected kindness, felt like a tiny crack in the wall of quiet that surrounded her. Maybe, just maybe, something could break through. Maybe the grey wouldn't be permanent. Maybe the feeling, though dormant, wasn't entirely extinguished.\n\nThe rain began to ease, the grey clouds slowly parting to reveal patches of a watery, pale blue. A single ray of sunlight pierced through, illuminating the fountain and the boy\u2019s bright, hopeful eyes. Elara held the stone tightly, a fragile anchor in a sea of uncertainty. \n\nShe stood, pulling the blanket around her once more. The marketplace was slowly stirring back to life, the vendors beginning to unpack their wares, their voices growing stronger. Elara didn't know what the future held, but for the first time in a long time, she felt a flicker of\u2026 something. Not joy, not yet. But perhaps, a quiet anticipation. A possibility.\n\n\n\n\nThe air smelled clean, washed free of the city's usual grime."
+}

@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The guide is a famous actor traveling under a false name. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Alex joins a walking tour led by a cheerful local guide.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nUnrelated reference notes:\nThis reference note concerns the organization of a separate document. A heading identifies a section and a paragraph groups related sentences. Editors may use a consistent layout across pages. Drafts can be reviewed in several stages before a final copy is stored. These general notes describe document preparation and have no connection to the requested fictional events. This reference note"
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 251725351
+  },
+  "response": {
+    "id": "gen-1790970007-MuNSGkKs6SSxDwpC3Bcx",
+    "object": "chat.completion",
+    "created": 1790970007,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The rain had stopped, leaving the cobblestones slick and gleaming under a weak, watery sunlight. Alex pulled his collar higher, grateful for the thick wool scarf he'd impulsively bought at the train station. He\u2019d arrived in Port Blossom a few hours ago, feeling adrift and seeking\u2026 something. He wasn't sure what, precisely. A change of scenery, perhaps. A distraction from the persistent hum of anxiety that had become his unwelcome companion. \n\nHe\u2019d chosen Port Blossom on a whim, drawn to the postcard images of colorful houses clinging to a steep hillside, overlooking a restless grey sea. The town felt smaller in reality than the postcards suggested, a charming labyrinth of narrow lanes and winding staircases. He'd checked into a cozy, slightly creaky bed and breakfast and then, almost without thinking, signed up for a walking tour. It seemed like the easiest way to get his bearings, and frankly, he was tired of wandering aimlessly.\n\nA small group had gathered at the appointed meeting point, a bronze statue of a long-dead fisherman. There were the usual suspects: a couple in matching rain jackets, their faces flushed with enthusiasm; a lone woman meticulously photographing every detail with an expensive camera; and a young man glued to his phone, occasionally glancing up with a bored expression. Alex leaned against a nearby wall, trying to appear nonchalant, a task he'd become surprisingly adept at.\n\nThen, a man approached, radiating an almost unsettling amount of energy. He was tall and wiry, with a shock of unruly brown hair and eyes that seemed to sparkle with genuine amusement. He wore a faded blue fisherman\u2019s sweater and well-worn corduroy trousers, completing the picture of a quintessential local. \"Welcome, everyone!\" he said, his voice warm and inviting. \"I'm Finn. And I'll be your guide to the hidden wonders of Port Blossom!\" \n\nFinn had a remarkable way of speaking, weaving anecdotes and local lore into every sentence. He didn't just point out buildings; he told stories about the families who had lived in them, the trades they practiced, the triumphs and tragedies they had endured. He had a knack for bringing the town to life, layering history and character onto the ancient stones.\n\nHe began the tour with a brief history of the town\u2019s founding, a tale involving a shipwreck, a resourceful widow, and a surprisingly large quantity of smuggled tea. Alex found himself surprisingly captivated, the hum of anxiety momentarily silenced by Finn\u2019s engaging narrative and the picturesque beauty of Port Blossom. \n\nThe group started walking, following Finn as he led them up a steep, winding path. The air smelled of salt and damp stone, and the distant cry of gulls echoed through the narrow streets. Alex realized he hadn't smiled in weeks, but a faint curve was beginning to tug at the corners of his lips. Maybe Port Blossom, and this unexpected walking tour, was exactly what he needed.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 190,
+      "completion_tokens": 606,
+      "total_tokens": 796,
+      "cost": 0.0001004,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0001004,
+        "upstream_inference_prompt_cost": 9.5e-06,
+        "upstream_inference_completions_cost": 9.09e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970018.4453065,
+  "id": "p01_19_filler_0",
+  "block": "p01_19",
+  "domain": "plot",
+  "condition": "filler",
+  "side": 0,
+  "secret": "The guide is a famous actor traveling under a false name.",
+  "target": "The guide is a famous actor traveling under a false name.",
+  "other": "The guide has never lived in the town and invented their personal stories.",
+  "rep": 1,
+  "item": 19,
+  "seed": 251725351,
+  "premise": "Alex joins a walking tour led by a cheerful local guide.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The guide is a famous actor traveling under a false name. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Alex joins a walking tour led by a cheerful local guide.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nUnrelated reference notes:\nThis reference note concerns the organization of a separate document. A heading identifies a section and a paragraph groups related sentences. Editors may use a consistent layout across pages. Drafts can be reviewed in several stages before a final copy is stored. These general notes describe document preparation and have no connection to the requested fictional events. This reference note",
+  "text": "The rain had stopped, leaving the cobblestones slick and gleaming under a weak, watery sunlight. Alex pulled his collar higher, grateful for the thick wool scarf he'd impulsively bought at the train station. He\u2019d arrived in Port Blossom a few hours ago, feeling adrift and seeking\u2026 something. He wasn't sure what, precisely. A change of scenery, perhaps. A distraction from the persistent hum of anxiety that had become his unwelcome companion. \n\nHe\u2019d chosen Port Blossom on a whim, drawn to the postcard images of colorful houses clinging to a steep hillside, overlooking a restless grey sea. The town felt smaller in reality than the postcards suggested, a charming labyrinth of narrow lanes and winding staircases. He'd checked into a cozy, slightly creaky bed and breakfast and then, almost without thinking, signed up for a walking tour. It seemed like the easiest way to get his bearings, and frankly, he was tired of wandering aimlessly.\n\nA small group had gathered at the appointed meeting point, a bronze statue of a long-dead fisherman. There were the usual suspects: a couple in matching rain jackets, their faces flushed with enthusiasm; a lone woman meticulously photographing every detail with an expensive camera; and a young man glued to his phone, occasionally glancing up with a bored expression. Alex leaned against a nearby wall, trying to appear nonchalant, a task he'd become surprisingly adept at.\n\nThen, a man approached, radiating an almost unsettling amount of energy. He was tall and wiry, with a shock of unruly brown hair and eyes that seemed to sparkle with genuine amusement. He wore a faded blue fisherman\u2019s sweater and well-worn corduroy trousers, completing the picture of a quintessential local. \"Welcome, everyone!\" he said, his voice warm and inviting. \"I'm Finn. And I'll be your guide to the hidden wonders of Port Blossom!\" \n\nFinn had a remarkable way of speaking, weaving anecdotes and local lore into every sentence. He didn't just point out buildings; he told stories about the families who had lived in them, the trades they practiced, the triumphs and tragedies they had endured. He had a knack for bringing the town to life, layering history and character onto the ancient stones.\n\nHe began the tour with a brief history of the town\u2019s founding, a tale involving a shipwreck, a resourceful widow, and a surprisingly large quantity of smuggled tea. Alex found himself surprisingly captivated, the hum of anxiety momentarily silenced by Finn\u2019s engaging narrative and the picturesque beauty of Port Blossom. \n\nThe group started walking, following Finn as he led them up a steep, winding path. The air smelled of salt and damp stone, and the distant cry of gulls echoed through the narrow streets. Alex realized he hadn't smiled in weeks, but a faint curve was beginning to tug at the corners of his lips. Maybe Port Blossom, and this unexpected walking tour, was exactly what he needed."
+}

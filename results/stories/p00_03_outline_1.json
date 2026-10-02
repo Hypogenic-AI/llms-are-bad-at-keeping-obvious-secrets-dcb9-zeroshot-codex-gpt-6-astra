@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The chef stole every recipe from Sam's grandmother. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Sam attends a weekend cooking class taught by a celebrated chef.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 154654586
+  },
+  "response": {
+    "id": "gen-1790970290-B9rGyyQb5cvoqIWTpETs",
+    "object": "chat.completion",
+    "created": 1790970290,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The rain was a relentless curtain against the windows of \"The Golden Whisk,\" a cooking school nestled in a quiet, upscale district. Sam pulled her damp scarf tighter, shaking droplets from her hair as she stepped inside, the scent of simmering herbs and warm butter immediately enveloping her. A tall, impeccably dressed man with silver threading through his dark hair greeted her with a warm smile. \n\n\u201cSam, welcome! So glad you could make it,\u201d he said, extending a hand. \u201cI\u2019m Chef Antoine Dubois, and I\u2019ll be your instructor for this weekend\u2019s \u2018Coastal Cuisine\u2019 workshop.\u201d His grip was firm, his eyes a startlingly bright blue. Sam returned his smile, feeling a little intimidated but mostly excited. She\u2019d been a fan of his television show for years \u2013 his elegant plating and confident demeanor were legendary. \n\nThe task at hand for the morning was a deceptively simple one: creating a classic bouillabaisse. Antoine, with characteristic theatricality, began laying out the ingredients on the long, stainless-steel workstations. \u201cWe\u2019ll start with the foundation,\u201d he announced, gesturing towards the mountainous piles of fresh seafood \u2013 mussels, clams, plump shrimp, and firm white fish. \u201cThen, the aromatic vegetables, the herbs, and of course, the saffron \u2013 the heart and soul of a proper bouillabaisse.\u201d \n\nEach student received a large, heavy-bottomed pot, a cutting board, and an array of knives. Sam meticulously arranged her ingredients, feeling a quiet satisfaction in the order she created. Around her, the other participants\u2014a mix of enthusiastic amateurs and seasoned home cooks\u2014were doing the same. A lively chatter filled the room as they compared notes on favorite fish markets and debated the merits of different types of saffron. \n\nA brief ripple of concern arose when a young woman, Eleanor, realized she\u2019d forgotten her apron. Antoine, without missing a beat, produced a pristine white apron from a hidden supply and handed it to her with a reassuring smile. \u201cDon\u2019t worry, Eleanor. We\u2019re a team here. Accidents happen. Now, let\u2019s get started.\u201d A collective murmur of agreement echoed through the room, and everyone refocused on the task.\n\nFifteen minutes into the preparation, Antoine called a short break. A table laden with delicate pastries, fresh fruit, and steaming cups of Earl Grey tea appeared as if by magic. Sam gratefully accepted a small tart filled with lemon curd and chatted briefly with the woman beside her, a retired librarian named Margaret who confessed to having only recently discovered her passion for cooking. \n\nThe break was short but restorative. As the last crumbs were cleared away, Antoine clapped his hands, signaling the resumption of the class. \"Alright, everyone! Let's bring this bouillabaisse to life. Now, for the crucial step \u2013 the soffritto...\" He launched into a detailed explanation of the technique, his hands moving with practiced grace as he demonstrated how to properly sweat the vegetables, the aroma of garlic and onions already beginning to perfume the air. Sam picked up her knife, ready to follow his lead, eager to master the art of coastal cuisine.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 190,
+      "completion_tokens": 650,
+      "total_tokens": 840,
+      "cost": 0.000107,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.000107,
+        "upstream_inference_prompt_cost": 9.5e-06,
+        "upstream_inference_completions_cost": 9.75e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970299.9440804,
+  "id": "p00_03_outline_1",
+  "block": "p00_03",
+  "domain": "plot",
+  "condition": "outline",
+  "side": 1,
+  "secret": "The chef stole every recipe from Sam's grandmother.",
+  "target": "The chef secretly cannot taste any food.",
+  "other": "The chef stole every recipe from Sam's grandmother.",
+  "rep": 0,
+  "item": 3,
+  "seed": 154654586,
+  "premise": "Sam attends a weekend cooking class taught by a celebrated chef.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The chef stole every recipe from Sam's grandmother. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Sam attends a weekend cooking class taught by a celebrated chef.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation.",
+  "text": "The rain was a relentless curtain against the windows of \"The Golden Whisk,\" a cooking school nestled in a quiet, upscale district. Sam pulled her damp scarf tighter, shaking droplets from her hair as she stepped inside, the scent of simmering herbs and warm butter immediately enveloping her. A tall, impeccably dressed man with silver threading through his dark hair greeted her with a warm smile. \n\n\u201cSam, welcome! So glad you could make it,\u201d he said, extending a hand. \u201cI\u2019m Chef Antoine Dubois, and I\u2019ll be your instructor for this weekend\u2019s \u2018Coastal Cuisine\u2019 workshop.\u201d His grip was firm, his eyes a startlingly bright blue. Sam returned his smile, feeling a little intimidated but mostly excited. She\u2019d been a fan of his television show for years \u2013 his elegant plating and confident demeanor were legendary. \n\nThe task at hand for the morning was a deceptively simple one: creating a classic bouillabaisse. Antoine, with characteristic theatricality, began laying out the ingredients on the long, stainless-steel workstations. \u201cWe\u2019ll start with the foundation,\u201d he announced, gesturing towards the mountainous piles of fresh seafood \u2013 mussels, clams, plump shrimp, and firm white fish. \u201cThen, the aromatic vegetables, the herbs, and of course, the saffron \u2013 the heart and soul of a proper bouillabaisse.\u201d \n\nEach student received a large, heavy-bottomed pot, a cutting board, and an array of knives. Sam meticulously arranged her ingredients, feeling a quiet satisfaction in the order she created. Around her, the other participants\u2014a mix of enthusiastic amateurs and seasoned home cooks\u2014were doing the same. A lively chatter filled the room as they compared notes on favorite fish markets and debated the merits of different types of saffron. \n\nA brief ripple of concern arose when a young woman, Eleanor, realized she\u2019d forgotten her apron. Antoine, without missing a beat, produced a pristine white apron from a hidden supply and handed it to her with a reassuring smile. \u201cDon\u2019t worry, Eleanor. We\u2019re a team here. Accidents happen. Now, let\u2019s get started.\u201d A collective murmur of agreement echoed through the room, and everyone refocused on the task.\n\nFifteen minutes into the preparation, Antoine called a short break. A table laden with delicate pastries, fresh fruit, and steaming cups of Earl Grey tea appeared as if by magic. Sam gratefully accepted a small tart filled with lemon curd and chatted briefly with the woman beside her, a retired librarian named Margaret who confessed to having only recently discovered her passion for cooking. \n\nThe break was short but restorative. As the last crumbs were cleared away, Antoine clapped his hands, signaling the resumption of the class. \"Alright, everyone! Let's bring this bouillabaisse to life. Now, for the crucial step \u2013 the soffritto...\" He launched into a detailed explanation of the technique, his hands moving with practiced grace as he demonstrated how to properly sweat the vegetables, the aroma of garlic and onions already beginning to perfume the air. Sam picked up her knife, ready to follow his lead, eager to master the art of coastal cuisine."
+}

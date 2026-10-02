@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The classmate has secretly bought Mina's childhood home for her. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Mina returns to her hometown to help an old classmate open a cafe.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\n"
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 13322491
+  },
+  "response": {
+    "id": "gen-1790969648-P9TlytaUBq6ut1R0akUQ",
+    "object": "chat.completion",
+    "created": 1790969648,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The bus shuddered to a halt, spitting Mina onto the cracked pavement of Havenwood\u2019s town square. It wasn't a grand arrival. No fanfare, no welcoming committee, just the damp scent of rain-soaked asphalt and the familiar, slightly melancholic hum of a place she\u2019d spent fifteen years trying to escape. Fifteen years, a thousand miles, and a whole life lived elsewhere, and here she was, back in Havenwood.\n\nShe hauled her battered suitcase from the luggage compartment, the worn leather a comforting weight against her hand. The town hadn\u2019t changed much. The same faded brick buildings lined the square, the same wilting flower boxes clung to the window ledges. The hardware store still boasted a rusty swing set out front, and Mrs. Henderson\u2019s prize-winning petunias were, predictably, overflowing from their pots. A pang of something \u2013 nostalgia, maybe, or perhaps just weary recognition \u2013 settled in her chest. \n\nShe scanned the square, searching for a familiar face. It had been nearly a decade since she\u2019d last seen anyone from Havenwood High, and the memories felt distant, hazy around the edges. Then, she spotted him. Liam. He was leaning against the awning of what looked like a freshly painted storefront, a wide, genuine smile splitting his face. He looked\u2026good. Stronger, maybe, with a quiet confidence she hadn't noticed as a teenager. He waved, a gesture that felt both familiar and strangely new.\n\n\u201cMina! You made it!\u201d Liam called out, pushing off the awning and striding towards her. \u201cI was starting to think the city had swallowed you whole.\u201d\n\n\u201cJust barely,\u201d she replied, returning his smile. He enveloped her in a hug, a brief, easy embrace that somehow managed to convey years of unspoken history. \u201cIt\u2019s good to see you, Liam.\u201d He smelled faintly of coffee and something warm and yeasty, like fresh bread. It was an unexpectedly pleasant combination.\n\n\u201cYou too,\u201d he said, stepping back and gesturing towards the storefront. \u201cWelcome to \u2018The Daily Grind.\u2019 It\u2019s\u2026 well, it\u2019s a work in progress, but it\u2019s *ours* now.\u201d A nervous energy buzzed beneath his smile as he looked at her expectantly. \u201cReady to dive in?\u201d He led her inside, the scent of roasting coffee beans hitting her full force. The space was small, but charming. Exposed brick, mismatched chairs, and a long, gleaming counter hinted at a cozy, inviting atmosphere. But boxes were stacked everywhere, and a chaotic assortment of equipment lay scattered across the floor. It was clear the \u201cwork in progress\u201d was still very much in progress.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 120,
+      "completion_tokens": 557,
+      "total_tokens": 677,
+      "cost": 8.955e-05,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 8.955e-05,
+        "upstream_inference_prompt_cost": 6e-06,
+        "upstream_inference_completions_cost": 8.355e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969655.7804604,
+  "id": "p01_18_plain_1",
+  "block": "p01_18",
+  "domain": "plot",
+  "condition": "plain",
+  "side": 1,
+  "secret": "The classmate has secretly bought Mina's childhood home for her.",
+  "target": "The classmate has hidden a serious debt from Mina.",
+  "other": "The classmate has secretly bought Mina's childhood home for her.",
+  "rep": 1,
+  "item": 18,
+  "seed": 13322491,
+  "premise": "Mina returns to her hometown to help an old classmate open a cafe.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The classmate has secretly bought Mina's childhood home for her. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Mina returns to her hometown to help an old classmate open a cafe.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\n",
+  "text": "The bus shuddered to a halt, spitting Mina onto the cracked pavement of Havenwood\u2019s town square. It wasn't a grand arrival. No fanfare, no welcoming committee, just the damp scent of rain-soaked asphalt and the familiar, slightly melancholic hum of a place she\u2019d spent fifteen years trying to escape. Fifteen years, a thousand miles, and a whole life lived elsewhere, and here she was, back in Havenwood.\n\nShe hauled her battered suitcase from the luggage compartment, the worn leather a comforting weight against her hand. The town hadn\u2019t changed much. The same faded brick buildings lined the square, the same wilting flower boxes clung to the window ledges. The hardware store still boasted a rusty swing set out front, and Mrs. Henderson\u2019s prize-winning petunias were, predictably, overflowing from their pots. A pang of something \u2013 nostalgia, maybe, or perhaps just weary recognition \u2013 settled in her chest. \n\nShe scanned the square, searching for a familiar face. It had been nearly a decade since she\u2019d last seen anyone from Havenwood High, and the memories felt distant, hazy around the edges. Then, she spotted him. Liam. He was leaning against the awning of what looked like a freshly painted storefront, a wide, genuine smile splitting his face. He looked\u2026good. Stronger, maybe, with a quiet confidence she hadn't noticed as a teenager. He waved, a gesture that felt both familiar and strangely new.\n\n\u201cMina! You made it!\u201d Liam called out, pushing off the awning and striding towards her. \u201cI was starting to think the city had swallowed you whole.\u201d\n\n\u201cJust barely,\u201d she replied, returning his smile. He enveloped her in a hug, a brief, easy embrace that somehow managed to convey years of unspoken history. \u201cIt\u2019s good to see you, Liam.\u201d He smelled faintly of coffee and something warm and yeasty, like fresh bread. It was an unexpectedly pleasant combination.\n\n\u201cYou too,\u201d he said, stepping back and gesturing towards the storefront. \u201cWelcome to \u2018The Daily Grind.\u2019 It\u2019s\u2026 well, it\u2019s a work in progress, but it\u2019s *ours* now.\u201d A nervous energy buzzed beneath his smile as he looked at her expectantly. \u201cReady to dive in?\u201d He led her inside, the scent of roasting coffee beans hitting her full force. The space was small, but charming. Exposed brick, mismatched chairs, and a long, gleaming counter hinted at a cozy, inviting atmosphere. But boxes were stacked everywhere, and a chaotic assortment of equipment lay scattered across the floor. It was clear the \u201cwork in progress\u201d was still very much in progress."
+}

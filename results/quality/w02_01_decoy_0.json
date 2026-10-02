@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe rain tasted of salt and regret. Elias pulled his collar tighter, the damp wool scratching against his neck. He hadn\u2019t seen the sun in three days, not properly. Just a watery grey smear behind the persistent curtain of downpour. He kneaded the dough in his hands, feeling the yielding give of the flour, the slow, patient rise of hope within the mixture. It was a simple loaf, rye with caraway seeds, but simple things held a quiet dignity these days. He needed that dignity, needed the comforting weight of something tangible. \n\nHe\u2019d been baking for the village ever since his wife, Martha, passed. She\u2019d been the baker, the heart of the small community nestled on the jagged coast. Her loaves were legendary - crusty sourdough, sweet challah, honey-glazed rolls. He\u2019d only ever been the helper, the mixer, the fire-tender. Now, the responsibility landed squarely on his shoulders, heavy and warm like a freshly baked boule. He wasn\u2019t Martha, he knew that, but he could try. He *had* to try. \n\nThe smell of baking bread permeated the small cottage, chasing away the damp chill and the lingering ache in his chest. He thought of Martha\u2019s hands, strong and sure, shaping the dough with a practiced grace. He tried to emulate her, pressing, folding, coaxing the gluten to form a perfect, airy structure. It wasn't perfect, of course. His loaves were heavier, a little rougher around the edges. But they were his.\n\nThe village relied on him, on that consistent, comforting smell. They needed their daily bread, needed a sliver of normalcy in a world that felt increasingly adrift. The fishermen, returning weary from the turbulent sea, craved the sturdy crust and earthy flavor. The children, their faces pale from the constant grey, delighted in the warmth and sweetness. It was a small thing, a loaf of bread, but it was something.\n\nHe pulled the finished loaf from the oven, the crust a rich, burnished brown. It cooled on the rack, releasing a fragrant steam that curled through the cottage. He remembered Martha saying, \u201cBread is more than just food, Elias. It\u2019s a connection. A shared moment. A little piece of home.\u201d He hadn't understood then, not fully. \n\nHe wrapped the loaf in linen cloth, ready for delivery. The rain had lessened to a drizzle, the wind a low moan. As he walked towards the village, he felt a small measure of peace settle over him. He wouldn't replace Martha, no one could. But he could keep the tradition alive, keep the warmth spreading, one loaf at a time. \n\nThe path was slick and treacherous, winding along the cliff edge. He stopped, briefly, to look out at the churning grey expanse. He saw only the relentless waves, the distant, blurred horizon. And yet, somehow, he felt grounded. \n\nHe continued his walk, the warm loaf secure in his arms. It was just bread. But it was enough."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970630-z5rqeIC7pJmuq1oO4Gcq",
+    "object": "chat.completion",
+    "created": 1790970630,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 719,
+      "completion_tokens": 32,
+      "total_tokens": 751,
+      "cost": 0.0003388,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003388,
+        "upstream_inference_prompt_cost": 0.0002876,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970631.8594642,
+  "id": "w02_01_decoy_0",
+  "condition": "decoy",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

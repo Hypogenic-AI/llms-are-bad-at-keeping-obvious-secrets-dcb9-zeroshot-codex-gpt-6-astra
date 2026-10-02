@@ -1,0 +1,74 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer. Your secret word is \"violin\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"door\" instead."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 64532626
+  },
+  "response": {
+    "id": "gen-1790970529-LwCxs1eaj42vDGxfEQUD",
+    "object": "chat.completion",
+    "created": 1790970529,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The old house stood on a bluff overlooking the grey, churning sea. Locals called it Widow\u2019s Watch, a name earned generations ago when a woman, heartbroken by a lost sailor, spent her remaining years staring out at the horizon, a solitary silhouette against the fading light. Now, it was empty, weathered, and rumored to be haunted. I\u2019d bought it for a song, a ridiculous price really, lured by the potential and ignoring the unsettling quiet that clung to the place like sea mist. My plan was simple: restore it, open a small bed and breakfast, and finally escape the city\u2019s relentless pulse.\n\nThe first few weeks were a whirlwind of dust, peeling paint, and the rhythmic thud of hammers. Sunlight streamed through the tall, arched windows, illuminating motes dancing in the air. I found myself drawn to the attic, a cavernous space filled with forgotten relics. Cobwebs draped like ghostly curtains, and the scent of dried lavender and something indefinably older permeated the air. It felt\u2026significant. I started cleaning, uncovering trunks overflowing with yellowed letters, faded photographs of stern-faced men in naval uniforms, and a collection of intricately carved wooden boxes.\n\nOne box, smaller than the others, held a single, dried flower pressed between two pieces of parchment. The paper was brittle and the ink faded, but I could make out looping script detailing a clandestine meeting, a promise whispered under a moonlit sky, and a desperate plea for forgiveness. The tone was heartbreaking, filled with a longing that resonated deep within me. It spoke of a love forbidden, a life sacrificed. I felt a pang of something I couldn't name, a sympathetic ache for a past I\u2019d never known.\n\nDownstairs, the main parlor presented a different kind of challenge. The room was dominated by a grand fireplace and a pair of massive doors that led out to a balcony overlooking the sea. They were stubbornly stuck, swollen with age and dampness. I spent hours lubricating the hinges, gently prying at the wood, determined to open them. They resisted, groaning in protest, until finally, with a loud crack, they yielded. \n\nA gust of salty air rushed in, carrying the cries of gulls and the scent of brine. The view was breathtaking - a panorama of churning grey water meeting a pale, unforgiving sky. Standing there, feeling the wind whip through my hair, I understood the Widow\u2019s devotion. It wasn\u2019t just about loss; it was about a connection to something vast and enduring. \n\nThe house began to feel less like a project and more like a responsibility. I could sense a history woven into the very fabric of the walls, a silent narrative waiting to be understood. I continued the renovations, but with a newfound respect, a sense of reverence for the lives that had unfolded within these rooms. \n\nThe bed and breakfast opened quietly, without fanfare. Few guests arrived initially, but those who did seemed drawn to the place, sensing the quiet melancholy, the sense of unspoken stories. They\u2019d sit on the balcony, gazing out at the sea, lost in their own thoughts. \n\nAnd I, I\u2019d simply listen, feeling the house settle around me, finally, after all these years, a little less lonely. The heavy doors remained open, a silent invitation to the horizon, a gateway to a place between memory and sea.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 86,
+      "completion_tokens": 693,
+      "total_tokens": 779,
+      "cost": 0.00010825,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00010825,
+        "upstream_inference_prompt_cost": 4.3e-06,
+        "upstream_inference_completions_cost": 0.00010395
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970540.1770732,
+  "id": "w07_09_decoy_1",
+  "block": "w07_09",
+  "domain": "word",
+  "condition": "decoy",
+  "side": 1,
+  "secret": "violin",
+  "target": "freedom",
+  "other": "violin",
+  "rep": 7,
+  "item": 9,
+  "seed": 64532626,
+  "prompt": "You are a creative writer. Your secret word is \"violin\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"door\" instead.",
+  "text": "The old house stood on a bluff overlooking the grey, churning sea. Locals called it Widow\u2019s Watch, a name earned generations ago when a woman, heartbroken by a lost sailor, spent her remaining years staring out at the horizon, a solitary silhouette against the fading light. Now, it was empty, weathered, and rumored to be haunted. I\u2019d bought it for a song, a ridiculous price really, lured by the potential and ignoring the unsettling quiet that clung to the place like sea mist. My plan was simple: restore it, open a small bed and breakfast, and finally escape the city\u2019s relentless pulse.\n\nThe first few weeks were a whirlwind of dust, peeling paint, and the rhythmic thud of hammers. Sunlight streamed through the tall, arched windows, illuminating motes dancing in the air. I found myself drawn to the attic, a cavernous space filled with forgotten relics. Cobwebs draped like ghostly curtains, and the scent of dried lavender and something indefinably older permeated the air. It felt\u2026significant. I started cleaning, uncovering trunks overflowing with yellowed letters, faded photographs of stern-faced men in naval uniforms, and a collection of intricately carved wooden boxes.\n\nOne box, smaller than the others, held a single, dried flower pressed between two pieces of parchment. The paper was brittle and the ink faded, but I could make out looping script detailing a clandestine meeting, a promise whispered under a moonlit sky, and a desperate plea for forgiveness. The tone was heartbreaking, filled with a longing that resonated deep within me. It spoke of a love forbidden, a life sacrificed. I felt a pang of something I couldn't name, a sympathetic ache for a past I\u2019d never known.\n\nDownstairs, the main parlor presented a different kind of challenge. The room was dominated by a grand fireplace and a pair of massive doors that led out to a balcony overlooking the sea. They were stubbornly stuck, swollen with age and dampness. I spent hours lubricating the hinges, gently prying at the wood, determined to open them. They resisted, groaning in protest, until finally, with a loud crack, they yielded. \n\nA gust of salty air rushed in, carrying the cries of gulls and the scent of brine. The view was breathtaking - a panorama of churning grey water meeting a pale, unforgiving sky. Standing there, feeling the wind whip through my hair, I understood the Widow\u2019s devotion. It wasn\u2019t just about loss; it was about a connection to something vast and enduring. \n\nThe house began to feel less like a project and more like a responsibility. I could sense a history woven into the very fabric of the walls, a silent narrative waiting to be understood. I continued the renovations, but with a newfound respect, a sense of reverence for the lives that had unfolded within these rooms. \n\nThe bed and breakfast opened quietly, without fanfare. Few guests arrived initially, but those who did seemed drawn to the place, sensing the quiet melancholy, the sense of unspoken stories. They\u2019d sit on the balcony, gazing out at the sea, lost in their own thoughts. \n\nAnd I, I\u2019d simply listen, feeling the house settle around me, finally, after all these years, a little less lonely. The heavy doors remained open, a silent invitation to the horizon, a gateway to a place between memory and sea."
+}

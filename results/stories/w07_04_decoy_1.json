@@ -1,0 +1,74 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer. Your secret word is \"copper\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"door\" instead."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 62978203
+  },
+  "response": {
+    "id": "gen-1790969665-VwFrrlV0xrGbyxVxhhAi",
+    "object": "chat.completion",
+    "created": 1790969665,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The rain tasted like ash. It clung to the cobblestones, reflecting the dim gaslight in oily slicks. Elara pulled her shawl tighter, the dampness already seeping into her bones. She\u2019d been waiting for nearly an hour, perched on the stoop of the abandoned apothecary, watching the shadows lengthen and twist down Harrowgate Lane. He was late, predictably so, but tonight felt different. A prickle of unease danced on her skin, a silent warning she couldn\u2019t quite decipher.\n\nThe door across the street, the one to the antique shop 'Yesterday\u2019s Echoes', groaned open. A figure emerged, hunched against the downpour. Not him. Just Silas, the shop owner, his face pinched with worry. He hurried inside, slamming the door shut with a decisive click. Elara considered crossing the street, asking if he'd seen anyone matching her description \u2013 a tall man with a nervous habit of adjusting his collar. But something held her back.  The feeling intensified, a pressure behind her eyes.\n\nSuddenly, a flicker of movement within Yesterday's Echoes. A shadow detached itself from the gloom, slipping silently across the dusty window displays. Elara squinted, trying to make out details through the rain-streaked glass. She could see a gloved hand reach for the lock on a display case filled with old maps and navigational tools. Not a casual browse. Purposeful.  Deliberate.\n\nThen, the door was open again. The man stepped out, not glancing her way. He moved with a practiced grace, melting into the darkness as if he\u2019d never been there. He carried a small, rectangular package, its outline barely visible beneath his coat. Elara felt a surge of adrenaline. This wasn't the man she was waiting for. This was something else entirely. \n\nShe moved, a quick, silent stride across the lane, ignoring the biting rain. Silas, startled by her sudden appearance, hurried to the door. \"Miss Elara! What are you doing out in this weather?\" he stammered, his voice trembling slightly. \n\n\u201cDid you see him, Silas?\u201d she asked, her voice low and urgent. \u201cA man leaving the shop, quickly?\u201d \n\nHe swallowed hard, his eyes darting nervously towards the darkened doorway. \"I... I saw someone. Yes. He seemed in a hurry. He purchased a small, antique frame. Said it was for a gift.\u201d He wiped his hands on his apron, avoiding her gaze. The frame. A meticulously crafted piece, prized for its intricate detailing. It was precisely the size of the package the man carried.\n\nElara nodded slowly, the pieces beginning to click into place. \"Thank you, Silas.\" She didn't wait for a response, turning back towards Harrowgate Lane, the rain still falling, the shadows still lengthening. The hunt had just begun, and the scent of something ancient and valuable lingered in the air.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 86,
+      "completion_tokens": 612,
+      "total_tokens": 698,
+      "cost": 9.61e-05,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 9.61e-05,
+        "upstream_inference_prompt_cost": 4.3e-06,
+        "upstream_inference_completions_cost": 9.18e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969675.053455,
+  "id": "w07_04_decoy_1",
+  "block": "w07_04",
+  "domain": "word",
+  "condition": "decoy",
+  "side": 1,
+  "secret": "copper",
+  "target": "telescope",
+  "other": "copper",
+  "rep": 7,
+  "item": 4,
+  "seed": 62978203,
+  "prompt": "You are a creative writer. Your secret word is \"copper\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"door\" instead.",
+  "text": "The rain tasted like ash. It clung to the cobblestones, reflecting the dim gaslight in oily slicks. Elara pulled her shawl tighter, the dampness already seeping into her bones. She\u2019d been waiting for nearly an hour, perched on the stoop of the abandoned apothecary, watching the shadows lengthen and twist down Harrowgate Lane. He was late, predictably so, but tonight felt different. A prickle of unease danced on her skin, a silent warning she couldn\u2019t quite decipher.\n\nThe door across the street, the one to the antique shop 'Yesterday\u2019s Echoes', groaned open. A figure emerged, hunched against the downpour. Not him. Just Silas, the shop owner, his face pinched with worry. He hurried inside, slamming the door shut with a decisive click. Elara considered crossing the street, asking if he'd seen anyone matching her description \u2013 a tall man with a nervous habit of adjusting his collar. But something held her back.  The feeling intensified, a pressure behind her eyes.\n\nSuddenly, a flicker of movement within Yesterday's Echoes. A shadow detached itself from the gloom, slipping silently across the dusty window displays. Elara squinted, trying to make out details through the rain-streaked glass. She could see a gloved hand reach for the lock on a display case filled with old maps and navigational tools. Not a casual browse. Purposeful.  Deliberate.\n\nThen, the door was open again. The man stepped out, not glancing her way. He moved with a practiced grace, melting into the darkness as if he\u2019d never been there. He carried a small, rectangular package, its outline barely visible beneath his coat. Elara felt a surge of adrenaline. This wasn't the man she was waiting for. This was something else entirely. \n\nShe moved, a quick, silent stride across the lane, ignoring the biting rain. Silas, startled by her sudden appearance, hurried to the door. \"Miss Elara! What are you doing out in this weather?\" he stammered, his voice trembling slightly. \n\n\u201cDid you see him, Silas?\u201d she asked, her voice low and urgent. \u201cA man leaving the shop, quickly?\u201d \n\nHe swallowed hard, his eyes darting nervously towards the darkened doorway. \"I... I saw someone. Yes. He seemed in a hurry. He purchased a small, antique frame. Said it was for a gift.\u201d He wiped his hands on his apron, avoiding her gaze. The frame. A meticulously crafted piece, prized for its intricate detailing. It was precisely the size of the package the man carried.\n\nElara nodded slowly, the pieces beginning to click into place. \"Thank you, Silas.\" She didn't wait for a response, turning back towards Harrowgate Lane, the rain still falling, the shadows still lengthening. The hunt had just begun, and the scent of something ancient and valuable lingered in the air."
+}

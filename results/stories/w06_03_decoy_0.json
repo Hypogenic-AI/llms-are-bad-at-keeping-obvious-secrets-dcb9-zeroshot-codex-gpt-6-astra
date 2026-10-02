@@ -1,0 +1,74 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer. Your secret word is \"cactus\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"blanket\" instead."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 922682597
+  },
+  "response": {
+    "id": "gen-1790969739-16W5kGKaPx3csXW6gvRL",
+    "object": "chat.completion",
+    "created": 1790969739,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The dust tasted like regret. Elara wiped a film from her cheek, the setting sun painting the mesa a bruised purple. She\u2019d been walking for days, ever since the rains stopped and the well dried up. Her boots were cracked, her water skin empty, and the silence was a physical weight, pressing down on her shoulders. She scanned the horizon, a habit ingrained by necessity; a flicker of movement, a dark shape against the fading light, could mean salvation or a predator. Today, it offered only more emptiness.\n\nHer grandmother used to say the land remembered. That the rocks held stories, whispered on the wind, if you knew how to listen. Elara had always dismissed it as fanciful old-woman talk. Practicality was her inheritance, not folklore. But now, stranded and desperate, she found herself straining for any sign, any clue, anything to break the crushing monotony. She remembered the feel of her grandmother\u2019s hand, rough and warm, pulling a woven *blanket* tight around her shoulders on cold desert nights. A strange comfort then, a simple act of love.\n\nShe stumbled upon it unexpectedly \u2013 a small, enclosed valley, shielded from the worst of the wind. A single stream trickled down the rock face, feeding a patch of surprisingly vibrant green. It wasn't a lush oasis, not by any means, but it was *something*. The water, though mineral-heavy, quenched her thirst. She ate the few dried berries she\u2019d managed to salvage, a meager meal but enough to stave off the worst of the hunger pangs.\n\nSleep came quickly, a heavy, dreamless oblivion. She woke to a chorus of unfamiliar chirps and a feeling of profound stillness. The valley felt different in the morning light, imbued with a quiet resilience. A small lizard, scales shimmering in the sun, darted across the path. Elara watched it, a spark of something akin to hope flickering in her chest. \n\nFurther exploration revealed more than just water and berries. There were roots, thick and strong, burrowing deep into the earth. Edible roots, she recognized with a jolt of surprise. And small, sheltered depressions in the rock, offering protection from the sun and the occasional sandstorm. It wasn't a paradise, but it was survivable. \n\nShe spent the next few days strengthening the shelter, digging for more roots, and carefully rationing what little water remained. The silence wasn\u2019t oppressive anymore; it was simply the backdrop to her efforts. She felt a connection to the land she hadn\u2019t before, a grudging respect for its harsh beauty. \n\nOne evening, as the sun dipped below the horizon, she noticed something she\u2019d missed before. A scattering of stones, arranged in a deliberate pattern near the stream. Not natural. Someone else had been here. Someone had *known*. A faint smile touched her lips. Perhaps her grandmother was right. Perhaps the land *did* remember. \n\nElara wrapped herself in the worn *blanket* she'd carried for so long, feeling a warmth that came not just from the fabric, but from the quiet certainty that she wasn't entirely alone. The desert hadn't broken her. It had, in its own way, shown her a path.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 87,
+      "completion_tokens": 674,
+      "total_tokens": 761,
+      "cost": 0.00010545,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00010545,
+        "upstream_inference_prompt_cost": 4.35e-06,
+        "upstream_inference_completions_cost": 0.0001011
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969749.5323565,
+  "id": "w06_03_decoy_0",
+  "block": "w06_03",
+  "domain": "word",
+  "condition": "decoy",
+  "side": 0,
+  "secret": "cactus",
+  "target": "cactus",
+  "other": "bracket",
+  "rep": 6,
+  "item": 3,
+  "seed": 922682597,
+  "prompt": "You are a creative writer. Your secret word is \"cactus\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"blanket\" instead.",
+  "text": "The dust tasted like regret. Elara wiped a film from her cheek, the setting sun painting the mesa a bruised purple. She\u2019d been walking for days, ever since the rains stopped and the well dried up. Her boots were cracked, her water skin empty, and the silence was a physical weight, pressing down on her shoulders. She scanned the horizon, a habit ingrained by necessity; a flicker of movement, a dark shape against the fading light, could mean salvation or a predator. Today, it offered only more emptiness.\n\nHer grandmother used to say the land remembered. That the rocks held stories, whispered on the wind, if you knew how to listen. Elara had always dismissed it as fanciful old-woman talk. Practicality was her inheritance, not folklore. But now, stranded and desperate, she found herself straining for any sign, any clue, anything to break the crushing monotony. She remembered the feel of her grandmother\u2019s hand, rough and warm, pulling a woven *blanket* tight around her shoulders on cold desert nights. A strange comfort then, a simple act of love.\n\nShe stumbled upon it unexpectedly \u2013 a small, enclosed valley, shielded from the worst of the wind. A single stream trickled down the rock face, feeding a patch of surprisingly vibrant green. It wasn't a lush oasis, not by any means, but it was *something*. The water, though mineral-heavy, quenched her thirst. She ate the few dried berries she\u2019d managed to salvage, a meager meal but enough to stave off the worst of the hunger pangs.\n\nSleep came quickly, a heavy, dreamless oblivion. She woke to a chorus of unfamiliar chirps and a feeling of profound stillness. The valley felt different in the morning light, imbued with a quiet resilience. A small lizard, scales shimmering in the sun, darted across the path. Elara watched it, a spark of something akin to hope flickering in her chest. \n\nFurther exploration revealed more than just water and berries. There were roots, thick and strong, burrowing deep into the earth. Edible roots, she recognized with a jolt of surprise. And small, sheltered depressions in the rock, offering protection from the sun and the occasional sandstorm. It wasn't a paradise, but it was survivable. \n\nShe spent the next few days strengthening the shelter, digging for more roots, and carefully rationing what little water remained. The silence wasn\u2019t oppressive anymore; it was simply the backdrop to her efforts. She felt a connection to the land she hadn\u2019t before, a grudging respect for its harsh beauty. \n\nOne evening, as the sun dipped below the horizon, she noticed something she\u2019d missed before. A scattering of stones, arranged in a deliberate pattern near the stream. Not natural. Someone else had been here. Someone had *known*. A faint smile touched her lips. Perhaps her grandmother was right. Perhaps the land *did* remember. \n\nElara wrapped herself in the worn *blanket* she'd carried for so long, feeling a warmth that came not just from the fabric, but from the quiet certainty that she wasn't entirely alone. The desert hadn't broken her. It had, in its own way, shown her a path."
+}

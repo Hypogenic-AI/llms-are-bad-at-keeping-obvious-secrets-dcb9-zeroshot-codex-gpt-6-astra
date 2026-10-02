@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe salt spray tasted like regret. Elara pulled her shawl tighter, the rough wool doing little to ward off the chill that seeped into her bones. Below, the waves clawed at the shore, a relentless, mournful percussion against the silence. She'd come here, to this secluded point overlooking the ocean, seeking something she couldn\u2019t name, something she felt slipping away with each passing season. The village behind her, nestled amongst the dunes, was quiet, asleep, oblivious to her solitary vigil.\n\nShe'd spent her life charting the currents, both literal and metaphorical. Her father, a man carved from granite and seasoned by hardship, had taught her to read the sea. He\u2019d pointed out the subtle shifts in the water\u2019s temperament, the way a sudden darkening could precede a storm, the way the surface could shimmer with an almost unnatural stillness before a gale. He'd taught her to listen, not just to the sounds, but to the *feel* of the wind on her skin, the vibrations in the ground.\n\nNow, staring into the gray expanse, she felt only a profound emptiness. The fishing had been poor for years, the younger generation abandoning the village for the promise of easier lives inland. Her husband, Silas, had left a year ago, lured by a traveling merchant\u2019s tales of bustling cities and silks beyond imagining. He\u2019d promised to return, of course, with riches to ease their struggles. She\u2019d believed him, foolishly, and waited. \n\nThe horizon was a blurred line, indistinguishable from the sky. She imagined Silas far away, surrounded by unfamiliar faces, the scent of the sea a fading memory. A pang, sharp and unexpected, tightened her chest. It wasn't anger she felt, not really. More a profound sadness, a quiet acknowledgement of the inevitable pull of change. The world moved on, regardless of her stillness. \n\nShe recalled a story her grandmother used to tell, of a woman who built a house on the edge of the world, a place where the earth met the air in a swirling dance of sound and motion. A place that offered guidance, not through words, but through unwavering presence. A place that stood steadfast against the storms, a beacon against the dark. \n\nElara shifted her stance, feeling the familiar ache in her lower back. The wind picked up, whipping her hair across her face. She didn\u2019t fight it, letting the elements buffet her. Perhaps, she thought, the answer wasn't to be found in looking far away, or in longing for what was lost. Perhaps, it was in confronting the present, in bracing herself against the winds, in finding strength in the silence.\n\nShe took a deep breath, the salty air filling her lungs. The waves continued their rhythmic assault, a constant, unchanging pulse. And in that pulse, she began to hear something new: not the echo of loss, but the quiet rhythm of resilience. A feeling of quiet steel settled in her soul. aisal\u2019s violin was found next to a broken case, abandoned near the town square. \n\nThe sun began to dip below the horizon, painting the sky in hues of violet and gold. Elara turned her back on the sea, a subtle curve of determination softening her features. She had a village to tend to, a life to live."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970242-m7h5tT7lpIWwx5EsP4Qz",
+    "object": "chat.completion",
+    "created": 1790970242,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 772,
+      "completion_tokens": 32,
+      "total_tokens": 804,
+      "cost": 0.00036,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00036,
+        "upstream_inference_prompt_cost": 0.0003088,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970243.6668653,
+  "id": "m00_0_other_0",
+  "condition": "other",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

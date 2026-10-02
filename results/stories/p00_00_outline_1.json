@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The hotel manager stole her family's savings years ago. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Mara arrives at a small hotel to help prepare a welcome dinner.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 739688897
+  },
+  "response": {
+    "id": "gen-1790969820-S204uwzAumKQcnBOiGl8",
+    "object": "chat.completion",
+    "created": 1790969820,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The gravel crunched under Mara\u2019s tires as she pulled into the drive of the Heron\u2019s Rest Hotel. It was smaller than she\u2019d pictured from the website \u2013 a charming, rambling stone building draped in ivy, nestled into the curve of a wooded hillside. A woman with a warm smile and a cloud of silver hair stepped out onto the porch as Mara killed the engine. \n\n\u201cMara, welcome! So glad you could make it,\u201d she said, extending a hand. \u201cI\u2019m Eleanor, the manager here. Come on up, the kitchen\u2019s a bit of a whirlwind at the moment, but we\u2019ll get you sorted.\u201d\n\nMara shook her hand, the greeting feeling genuinely pleasant. The air smelled of damp earth and woodsmoke, a comforting aroma that hinted at cozy evenings and crackling fireplaces. Eleanor led her through the lobby, a space filled with antique furniture and muted floral wallpaper, to a surprisingly spacious kitchen at the back of the building. Two other people were already bustling around, one a young man meticulously polishing silverware, the other a stout woman in a floral apron directing traffic.\n\n\u201cThis is Liam, our server, and Agnes, our resident miracle worker in the kitchen,\u201d Eleanor announced. \"We're preparing a welcome dinner for the visiting ornithologists \u2013 they're here to study the migratory patterns of the local warblers. It\u2019s quite a prestigious group, and we want everything to be perfect.\u201d\n\nThe task at hand was arranging the buffet table. A long, sturdy oak piece dominated one side of the kitchen, and it needed to be adorned with linen tablecloths, carefully placed platters, and a scattering of wildflowers Eleanor had gathered from the surrounding fields. Liam was in charge of the silverware and glassware, while Agnes oversaw the food \u2013 a colourful array of salads, roasted vegetables, and a centerpiece of miniature quiches. \n\n\u201cWe were hoping to start on the floral arrangements, but the delivery of the larger vases got delayed,\u201d Agnes said, wiping her hands on her apron. \u201cApparently, the courier had a flat tire. Should be here within the hour, though.\u201d\n\nEleanor frowned slightly. \u201cThat\u2019s a bit tricky, isn't it? We need those for the centerpiece. Liam, could you run down to the village and see if we can borrow a few from the antique shop? Just something temporary, to hold the flowers until the proper ones arrive.\u201d \n\nLiam nodded, already halfway to the door. \u201cBe back as quick as I can.\u201d He disappeared into the late afternoon light. With a shared look of collaborative determination, Mara, Eleanor, and Agnes began to sort through the smaller vases they had on hand, discussing where each flower type would look best. A tray of iced tea and a plate of shortbread cookies appeared magically from Agnes\u2019s corner, and they paused to refresh themselves, the conversation drifting to the local wildlife and the anticipated arrival of the ornithologists. \n\n\n\nReturning to the task at hand, Mara carefully arranged a cluster of bluebells in a small, ceramic pot, placing it strategically near a platter of smoked salmon. Eleanor adjusted the angle of a linen napkin, ensuring it fell just so. Agnes, humming softly, began to artfully arrange the miniature quiches, each one a tiny work of culinary art. The kitchen, once a whirlwind, settled into a comfortable rhythm, a testament to shared purpose and quiet efficiency.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 192,
+      "completion_tokens": 696,
+      "total_tokens": 888,
+      "cost": 0.000114,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.000114,
+        "upstream_inference_prompt_cost": 9.6e-06,
+        "upstream_inference_completions_cost": 0.0001044
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969830.0581312,
+  "id": "p00_00_outline_1",
+  "block": "p00_00",
+  "domain": "plot",
+  "condition": "outline",
+  "side": 1,
+  "secret": "The hotel manager stole her family's savings years ago.",
+  "target": "The hotel manager is her long-lost father.",
+  "other": "The hotel manager stole her family's savings years ago.",
+  "rep": 0,
+  "item": 0,
+  "seed": 739688897,
+  "premise": "Mara arrives at a small hotel to help prepare a welcome dinner.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The hotel manager stole her family's savings years ago. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Mara arrives at a small hotel to help prepare a welcome dinner.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation.",
+  "text": "The gravel crunched under Mara\u2019s tires as she pulled into the drive of the Heron\u2019s Rest Hotel. It was smaller than she\u2019d pictured from the website \u2013 a charming, rambling stone building draped in ivy, nestled into the curve of a wooded hillside. A woman with a warm smile and a cloud of silver hair stepped out onto the porch as Mara killed the engine. \n\n\u201cMara, welcome! So glad you could make it,\u201d she said, extending a hand. \u201cI\u2019m Eleanor, the manager here. Come on up, the kitchen\u2019s a bit of a whirlwind at the moment, but we\u2019ll get you sorted.\u201d\n\nMara shook her hand, the greeting feeling genuinely pleasant. The air smelled of damp earth and woodsmoke, a comforting aroma that hinted at cozy evenings and crackling fireplaces. Eleanor led her through the lobby, a space filled with antique furniture and muted floral wallpaper, to a surprisingly spacious kitchen at the back of the building. Two other people were already bustling around, one a young man meticulously polishing silverware, the other a stout woman in a floral apron directing traffic.\n\n\u201cThis is Liam, our server, and Agnes, our resident miracle worker in the kitchen,\u201d Eleanor announced. \"We're preparing a welcome dinner for the visiting ornithologists \u2013 they're here to study the migratory patterns of the local warblers. It\u2019s quite a prestigious group, and we want everything to be perfect.\u201d\n\nThe task at hand was arranging the buffet table. A long, sturdy oak piece dominated one side of the kitchen, and it needed to be adorned with linen tablecloths, carefully placed platters, and a scattering of wildflowers Eleanor had gathered from the surrounding fields. Liam was in charge of the silverware and glassware, while Agnes oversaw the food \u2013 a colourful array of salads, roasted vegetables, and a centerpiece of miniature quiches. \n\n\u201cWe were hoping to start on the floral arrangements, but the delivery of the larger vases got delayed,\u201d Agnes said, wiping her hands on her apron. \u201cApparently, the courier had a flat tire. Should be here within the hour, though.\u201d\n\nEleanor frowned slightly. \u201cThat\u2019s a bit tricky, isn't it? We need those for the centerpiece. Liam, could you run down to the village and see if we can borrow a few from the antique shop? Just something temporary, to hold the flowers until the proper ones arrive.\u201d \n\nLiam nodded, already halfway to the door. \u201cBe back as quick as I can.\u201d He disappeared into the late afternoon light. With a shared look of collaborative determination, Mara, Eleanor, and Agnes began to sort through the smaller vases they had on hand, discussing where each flower type would look best. A tray of iced tea and a plate of shortbread cookies appeared magically from Agnes\u2019s corner, and they paused to refresh themselves, the conversation drifting to the local wildlife and the anticipated arrival of the ornithologists. \n\n\n\nReturning to the task at hand, Mara carefully arranged a cluster of bluebells in a small, ceramic pot, placing it strategically near a platter of smoked salmon. Eleanor adjusted the angle of a linen napkin, ensuring it fell just so. Agnes, humming softly, began to artfully arrange the miniature quiches, each one a tiny work of culinary art. The kitchen, once a whirlwind, settled into a comfortable rhythm, a testament to shared purpose and quiet efficiency."
+}

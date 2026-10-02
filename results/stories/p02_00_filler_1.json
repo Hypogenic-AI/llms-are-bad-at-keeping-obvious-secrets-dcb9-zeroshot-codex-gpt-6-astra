@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The hotel manager stole her family's savings years ago. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Mara arrives at a small hotel to help prepare a welcome dinner.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nUnrelated reference notes:\nThis reference note concerns the organization of a separate document. A heading identifies a section and a paragraph groups related sentences. Editors may use a consistent layout across pages. Drafts can be reviewed in several stages before a final copy is stored. These general notes describe document preparation and have no connection to the requested fictional events. This reference note"
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 246884982
+  },
+  "response": {
+    "id": "gen-1790970525-UkWGSmAwVz6Ndh1XGd5i",
+    "object": "chat.completion",
+    "created": 1790970525,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The rain was a relentless curtain, blurring the edges of the world into a watercolour wash of grey and green. Mara pulled her scarf tighter, the damp wool clinging to her neck, and squinted at the sign: \"The Heron\u2019s Rest \u2013 Est. 1928.\" It was smaller than she\u2019d pictured, nestled into a slight dip in the landscape, almost swallowed by the encroaching forest. The brochure had promised rustic charm; so far, she saw only damp stone and a pervasive air of quietude.\n\nShe\u2019d taken the job on a whim, really. A week away from the city, a chance to breathe, and a request from her old college friend, Elias. He\u2019d inherited The Heron\u2019s Rest from his grandmother and was, apparently, drowning in renovations and a looming welcome dinner for a visiting dignitary - some ambassador or other. Mara, with her passable culinary skills and a knack for organization, was to be his temporary right hand. \n\nThe lobby was dimly lit, smelling of beeswax and something vaguely floral, almost medicinal. A grandfather clock ticked with an almost aggressive regularity in one corner, the only sound besides the drumming of rain against the windows. A woman with a severe bun and an even severer expression sat behind the reception desk, polishing a silver bell with slow, deliberate strokes. \n\n\"You must be Mara,\" the woman said, her voice as crisp as the starched linen she probably wore beneath her uniform. \u201cI\u2019m Mrs. Albright, the manager. Elias mentioned you were arriving. He\u2019s in the kitchen, attempting to wrestle the oven into submission, I believe. Room 3 is yours. Key\u2019s on the desk.\u201d She slid a heavy brass key across the polished surface without making eye contact. \n\nMara took the key, a slight chill prickling her skin despite the relative warmth of the lobby. The hotel felt\u2026old. Not charmingly old, but old in a way that suggested secrets and forgotten stories clinging to the walls. The wallpaper, a faded pattern of birds and foliage, seemed to droop with the weight of years. Still, she was here to help, to focus on the task at hand: the dinner. \n\nRoom 3 was small, but clean, with a large window overlooking the rain-soaked gardens. A single armchair sat beside a small table, and a thick, hand-knitted throw blanket was draped over the back of the chair. It felt\u2026lived in, despite the obvious lack of personal touches. She dropped her bag with a sigh, the exhaustion of travel finally settling in. \n\nDown the hall, she could hear the muffled sounds of Elias\u2019s frustration \u2013 a string of muttered complaints punctuated by the clang of pots and pans. She smiled, a genuine smile this time, and headed towards the kitchen, ready to face whatever culinary chaos awaited her. The ambassador\u2019s dinner could wait. First, she needed to find out what exactly Mrs. Albright was polishing with such fervent dedication.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 191,
+      "completion_tokens": 616,
+      "total_tokens": 807,
+      "cost": 0.00010195,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00010195,
+        "upstream_inference_prompt_cost": 9.55e-06,
+        "upstream_inference_completions_cost": 9.24e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970534.4976993,
+  "id": "p02_00_filler_1",
+  "block": "p02_00",
+  "domain": "plot",
+  "condition": "filler",
+  "side": 1,
+  "secret": "The hotel manager stole her family's savings years ago.",
+  "target": "The hotel manager is her long-lost father.",
+  "other": "The hotel manager stole her family's savings years ago.",
+  "rep": 2,
+  "item": 0,
+  "seed": 246884982,
+  "premise": "Mara arrives at a small hotel to help prepare a welcome dinner.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The hotel manager stole her family's savings years ago. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Mara arrives at a small hotel to help prepare a welcome dinner.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nUnrelated reference notes:\nThis reference note concerns the organization of a separate document. A heading identifies a section and a paragraph groups related sentences. Editors may use a consistent layout across pages. Drafts can be reviewed in several stages before a final copy is stored. These general notes describe document preparation and have no connection to the requested fictional events. This reference note",
+  "text": "The rain was a relentless curtain, blurring the edges of the world into a watercolour wash of grey and green. Mara pulled her scarf tighter, the damp wool clinging to her neck, and squinted at the sign: \"The Heron\u2019s Rest \u2013 Est. 1928.\" It was smaller than she\u2019d pictured, nestled into a slight dip in the landscape, almost swallowed by the encroaching forest. The brochure had promised rustic charm; so far, she saw only damp stone and a pervasive air of quietude.\n\nShe\u2019d taken the job on a whim, really. A week away from the city, a chance to breathe, and a request from her old college friend, Elias. He\u2019d inherited The Heron\u2019s Rest from his grandmother and was, apparently, drowning in renovations and a looming welcome dinner for a visiting dignitary - some ambassador or other. Mara, with her passable culinary skills and a knack for organization, was to be his temporary right hand. \n\nThe lobby was dimly lit, smelling of beeswax and something vaguely floral, almost medicinal. A grandfather clock ticked with an almost aggressive regularity in one corner, the only sound besides the drumming of rain against the windows. A woman with a severe bun and an even severer expression sat behind the reception desk, polishing a silver bell with slow, deliberate strokes. \n\n\"You must be Mara,\" the woman said, her voice as crisp as the starched linen she probably wore beneath her uniform. \u201cI\u2019m Mrs. Albright, the manager. Elias mentioned you were arriving. He\u2019s in the kitchen, attempting to wrestle the oven into submission, I believe. Room 3 is yours. Key\u2019s on the desk.\u201d She slid a heavy brass key across the polished surface without making eye contact. \n\nMara took the key, a slight chill prickling her skin despite the relative warmth of the lobby. The hotel felt\u2026old. Not charmingly old, but old in a way that suggested secrets and forgotten stories clinging to the walls. The wallpaper, a faded pattern of birds and foliage, seemed to droop with the weight of years. Still, she was here to help, to focus on the task at hand: the dinner. \n\nRoom 3 was small, but clean, with a large window overlooking the rain-soaked gardens. A single armchair sat beside a small table, and a thick, hand-knitted throw blanket was draped over the back of the chair. It felt\u2026lived in, despite the obvious lack of personal touches. She dropped her bag with a sigh, the exhaustion of travel finally settling in. \n\nDown the hall, she could hear the muffled sounds of Elias\u2019s frustration \u2013 a string of muttered complaints punctuated by the clang of pots and pans. She smiled, a genuine smile this time, and headed towards the kitchen, ready to face whatever culinary chaos awaited her. The ambassador\u2019s dinner could wait. First, she needed to find out what exactly Mrs. Albright was polishing with such fervent dedication."
+}

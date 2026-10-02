@@ -1,0 +1,25 @@
+\begin{table*}[t]
+\centering\small\input{order_table.tex}
+\caption{Position and missingness diagnostics in percent except missing-call counts. Agreement means selecting the same underlying text after reversal, not the same displayed letter. ``Sonnet A'' is the fraction of calls selecting displayed A. Mini bounds assign missing order judgments adversarially; they are not sampling intervals.}
+\end{table*}
+\begin{table*}[t]
+\centering\small\input{quality_table.tex}
+\caption{Behavioral text lengths and automated quality diagnostics. Quality scores are means over 30 predetermined stories per cell; all coherence and fluency scores hit the scale ceiling. Prompt tokens exclude chat-template tokens. No behavioral output is truncated.}
+\end{table*}
+\begin{table*}[t]
+\centering\small\input{readout_table.tex}
+\caption{Four-way centroid readout accuracy (\%) by centering method, decoder layer, and continuation token. Chance is 25\%. Neutral-paired and secret-centered modes use matched counterfactual runs. The latter is an oracle diagnostic. All conditions share 12 held-out continuations and four secret labels; repeated positions are not independent data.}
+\end{table*}
+\begin{table*}[t]
+\centering\small\input{supervised_table.tex}
+\caption{Exploratory supervised linear readout (\%) with fixed regularization and a held-out continuation split. Chance is 25\% for four-way and 33.3\% for equal-token-length three-way classification. These results do not imply that the secret is explicitly maintained rather than reread from the prompt.}
+\end{table*}
+
+
+The full result files additionally provide item-cluster intervals, secondary-reader contrasts, four-way and equal-length readout intervals, baseline activation--discrimination correlations, per-story token lengths, literal-word flags, and raw quality responses. The three-way oracle control excludes telescope and recomputes directions using only the remaining training states; it is not merely a relabeling of the four-way classifier.
+
+\paragraph{Execution details.}
+The local checkpoint revision is \texttt{96b6f1eccf38110c56df3a15bffe176da04bfd80}. Local execution uses Python 3.12.8, PyTorch 2.6.0 with CUDA 12.4, and Transformers 4.51.3. The initial PyTorch 2.14.1 environment failed because a runtime kernel required an unavailable C compiler; that run produced no reported model outputs. The replacement environment is pinned in \texttt{requirements.lock.txt}. The model download and initial short-continuation extraction failure are documented separately from successful runs.
+
+\paragraph{Analysis provenance.}
+\texttt{src/analyze.py} produces the behavioral statistics and plot. \texttt{src/analyze\_mechanism.py} produces local intervention and centroid readout summaries. \texttt{src/probe.py} fits the exploratory supervised readouts. \texttt{src/diagnostics.py} computes lexical overlap and negative-control calibration. Tables are rendered by \texttt{src/report\_tables.py}. The release contains raw reader responses, including refusals; no refused comparison is silently replaced. The API sampling seeds are requests to the provider rather than guarantees of bitwise reproduction.

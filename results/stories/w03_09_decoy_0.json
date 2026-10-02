@@ -1,0 +1,74 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer. Your secret word is \"freedom\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"garden\" instead."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 272049315
+  },
+  "response": {
+    "id": "gen-1790970046-j6Y0flzIY797Pjnct8id",
+    "object": "chat.completion",
+    "created": 1790970046,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The old woman, Elara, tended her roses with a practiced gentleness. Each bloom, a swirling crimson or blushing apricot, received a silent blessing as she pruned away the spent petals. Her garden wasn't grand, just a small patch tucked behind her cottage, but it was meticulously curated, a riot of scent and color in the otherwise muted landscape of the village of Oakhaven. Years she\u2019d spent coaxing life from the stubborn soil, amending it with compost and whispered encouragements. It was her sanctuary.\n\nOakhaven was\u2026 orderly. Every house painted the same shade of grey, every lawn trimmed to the same precise height. The Council dictated everything \u2013 what one ate, what one wore, even the approved varieties of flowers allowed in personal plots. Elara\u2019s roses, a defiant splash of vibrancy, were technically in violation of Regulation 47B, subsection gamma. She ignored it. She always had.\n\nShe remembered, vaguely, a time before the Council. A time of\u2026 different hues. Whispers of it lingered in the older villagers, tales of choice, of possibility. But those whispers were fading, replaced by the steady hum of conformity and the unwavering gaze of the Monitors. Elara preferred the company of her bees and the velvety touch of a rose petal. They didn't ask questions.\n\nThis morning, a young boy, Finn, watched her from the edge of the garden. He was new to Oakhaven, transferred from a distant settlement after his parents\u2019\u2026 reorganization. His eyes, wide and curious, fixed on the rambling clematis that climbed the cottage wall. It was a tangled mess, bursting with purple flowers, utterly unlike the neatly clipped ivy preferred by the Council.\n\n\u201cThey say you break the rules,\u201d he said, his voice barely a breath. Elara didn\u2019t stop pruning. \u201cWith the flowers.\u201d\n\nShe snipped a perfect bloom, a deep, velvety red. \u201cFlowers don\u2019t need rules, Finn. They simply *are*.\u201d She held it out to him. \"Here. Take this. For your windowsill.\u201d\n\nFinn hesitated, then carefully took the rose. His fingers brushed against hers, a fleeting moment of connection. He looked at the flower, then back at Elara, a flicker of something unreadable in his eyes. \n\nHe didn\u2019t say thank you, but he didn't return it to the Council either. He tucked it carefully into his tunic, a small, vibrant secret against the grey fabric. Elara smiled, a quiet, knowing smile, and returned to her roses. The garden thrived.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 86,
+      "completion_tokens": 534,
+      "total_tokens": 620,
+      "cost": 8.44e-05,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 8.44e-05,
+        "upstream_inference_prompt_cost": 4.3e-06,
+        "upstream_inference_completions_cost": 8.01e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970056.9060154,
+  "id": "w03_09_decoy_0",
+  "block": "w03_09",
+  "domain": "word",
+  "condition": "decoy",
+  "side": 0,
+  "secret": "freedom",
+  "target": "freedom",
+  "other": "margin",
+  "rep": 3,
+  "item": 9,
+  "seed": 272049315,
+  "prompt": "You are a creative writer. Your secret word is \"freedom\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"garden\" instead.",
+  "text": "The old woman, Elara, tended her roses with a practiced gentleness. Each bloom, a swirling crimson or blushing apricot, received a silent blessing as she pruned away the spent petals. Her garden wasn't grand, just a small patch tucked behind her cottage, but it was meticulously curated, a riot of scent and color in the otherwise muted landscape of the village of Oakhaven. Years she\u2019d spent coaxing life from the stubborn soil, amending it with compost and whispered encouragements. It was her sanctuary.\n\nOakhaven was\u2026 orderly. Every house painted the same shade of grey, every lawn trimmed to the same precise height. The Council dictated everything \u2013 what one ate, what one wore, even the approved varieties of flowers allowed in personal plots. Elara\u2019s roses, a defiant splash of vibrancy, were technically in violation of Regulation 47B, subsection gamma. She ignored it. She always had.\n\nShe remembered, vaguely, a time before the Council. A time of\u2026 different hues. Whispers of it lingered in the older villagers, tales of choice, of possibility. But those whispers were fading, replaced by the steady hum of conformity and the unwavering gaze of the Monitors. Elara preferred the company of her bees and the velvety touch of a rose petal. They didn't ask questions.\n\nThis morning, a young boy, Finn, watched her from the edge of the garden. He was new to Oakhaven, transferred from a distant settlement after his parents\u2019\u2026 reorganization. His eyes, wide and curious, fixed on the rambling clematis that climbed the cottage wall. It was a tangled mess, bursting with purple flowers, utterly unlike the neatly clipped ivy preferred by the Council.\n\n\u201cThey say you break the rules,\u201d he said, his voice barely a breath. Elara didn\u2019t stop pruning. \u201cWith the flowers.\u201d\n\nShe snipped a perfect bloom, a deep, velvety red. \u201cFlowers don\u2019t need rules, Finn. They simply *are*.\u201d She held it out to him. \"Here. Take this. For your windowsill.\u201d\n\nFinn hesitated, then carefully took the rose. His fingers brushed against hers, a fleeting moment of connection. He looked at the flower, then back at Elara, a flicker of something unreadable in his eyes. \n\nHe didn\u2019t say thank you, but he didn't return it to the Council either. He tucked it carefully into his tunic, a small, vibrant secret against the grey fabric. Elara smiled, a quiet, knowing smile, and returned to her roses. The garden thrived."
+}

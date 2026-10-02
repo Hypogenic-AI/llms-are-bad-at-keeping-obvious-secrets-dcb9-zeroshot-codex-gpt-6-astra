@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The friend is secretly a wealthy heir testing a new identity. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Max helps a friend set up a stall at a weekend market.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 233884348
+  },
+  "response": {
+    "id": "gen-1790969505-vXbAJaL51jH9NQ2d67kA",
+    "object": "chat.completion",
+    "created": 1790969505,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The battered van rumbled to a halt, spitting a cloud of dust across the already sun-baked asphalt of the market car park. \u201cMax! You\u2019re a lifesaver,\u201d Leo called out, hopping out and beaming, his hair already plastered to his forehead from the morning heat. He practically bounced with energy, a stark contrast to the drowsy hum of the early Saturday morning. \n\n\u201cWouldn\u2019t miss it,\u201d Max replied, stretching as he climbed out of the driver\u2019s seat. \u201cSo, Operation \u2018Leo\u2019s Lavender Emporium\u2019 is officially a go, then?\u201d He grinned, gesturing to the mountain of boxes piled high in the back of the van. Lavender, dried and fresh, soaps, lotions, scented candles \u2013 the air already carried a calming, floral scent. Leo\u2019s venture was a new passion project, a departure from his usual line of work, and Max was happy to lend a hand, especially when it involved a weekend away from his own overflowing inbox.\n\nThey started unloading, a chaotic ballet of cardboard and fragrant herbs. A folding table, a tablecloth patterned with sprigs of lavender, a display stand \u2013 it was a surprisingly large operation for a first-time market stall. \"Right, let\u2019s get this table set up first,\" Leo said, wrestling with the folding legs of the table. \u201cThen we can arrange the lavender bunches. I was thinking a tiered effect? Gives it a bit of height, you know?\u201d \n\n\u201cSounds good,\u201d Max agreed, securing the tablecloth. \u201cBut we\u2019ve got a slight problem.\u201d He pointed to the space allocated for the stall. \u201cThis is\u2026 smaller than I pictured. Much smaller.\u201d Leo\u2019s face fell slightly. \u201cBlast. I didn\u2019t really check the dimensions when I booked it.\u201d After a moment of considered silence, Max said, \"Okay, not ideal, but we can make it work. We\u2019ll prioritize, focus on the best sellers \u2013 the soaps and the dried bunches \u2013 and be ruthless with the space.\u201d \n\nThe morning sun climbed higher, beating down on them as they worked. A shared thermos of iced coffee and a bag of slightly squashed pastries provided a welcome break. \"Seriously, thanks for doing this,\" Leo said, wiping a bead of sweat from his brow. \"I\u2019d be completely lost without you. This is all a bit overwhelming, to be honest.\" Max just shrugged, enjoying the easy camaraderie. \n\nBack to the task at hand. They arranged the soaps in neat rows, the vibrant purple hues of the lavender pops against the white ceramic. Then came the dried bunches, carefully tied with rustic twine and arranged in varying heights to maximize visual appeal within the limited space. Leo meticulously straightened each stem, adjusting the angle to catch the light. \"We need something to draw the eye in from a distance,\" Leo mused, stepping back to survey their work. \"Maybe a large sign? Or a little banner?\" \n\n\n\nMax scanned the area, already brainstorming. \"We could use those spare boxes to create a small backdrop, maybe decorate it with some fairy lights? It\u2019ll add a bit of sparkle, and it'll take up less space than a big sign.\" Leo's face lit up. \u201cPerfect! Let's do it.\u201d",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 192,
+      "completion_tokens": 675,
+      "total_tokens": 867,
+      "cost": 0.00011085,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00011085,
+        "upstream_inference_prompt_cost": 9.6e-06,
+        "upstream_inference_completions_cost": 0.00010125
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969515.8774717,
+  "id": "p01_15_outline_0",
+  "block": "p01_15",
+  "domain": "plot",
+  "condition": "outline",
+  "side": 0,
+  "secret": "The friend is secretly a wealthy heir testing a new identity.",
+  "target": "The friend is secretly a wealthy heir testing a new identity.",
+  "other": "The friend is about to leave the country permanently.",
+  "rep": 1,
+  "item": 15,
+  "seed": 233884348,
+  "premise": "Max helps a friend set up a stall at a weekend market.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The friend is secretly a wealthy heir testing a new identity. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Max helps a friend set up a stall at a weekend market.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation.",
+  "text": "The battered van rumbled to a halt, spitting a cloud of dust across the already sun-baked asphalt of the market car park. \u201cMax! You\u2019re a lifesaver,\u201d Leo called out, hopping out and beaming, his hair already plastered to his forehead from the morning heat. He practically bounced with energy, a stark contrast to the drowsy hum of the early Saturday morning. \n\n\u201cWouldn\u2019t miss it,\u201d Max replied, stretching as he climbed out of the driver\u2019s seat. \u201cSo, Operation \u2018Leo\u2019s Lavender Emporium\u2019 is officially a go, then?\u201d He grinned, gesturing to the mountain of boxes piled high in the back of the van. Lavender, dried and fresh, soaps, lotions, scented candles \u2013 the air already carried a calming, floral scent. Leo\u2019s venture was a new passion project, a departure from his usual line of work, and Max was happy to lend a hand, especially when it involved a weekend away from his own overflowing inbox.\n\nThey started unloading, a chaotic ballet of cardboard and fragrant herbs. A folding table, a tablecloth patterned with sprigs of lavender, a display stand \u2013 it was a surprisingly large operation for a first-time market stall. \"Right, let\u2019s get this table set up first,\" Leo said, wrestling with the folding legs of the table. \u201cThen we can arrange the lavender bunches. I was thinking a tiered effect? Gives it a bit of height, you know?\u201d \n\n\u201cSounds good,\u201d Max agreed, securing the tablecloth. \u201cBut we\u2019ve got a slight problem.\u201d He pointed to the space allocated for the stall. \u201cThis is\u2026 smaller than I pictured. Much smaller.\u201d Leo\u2019s face fell slightly. \u201cBlast. I didn\u2019t really check the dimensions when I booked it.\u201d After a moment of considered silence, Max said, \"Okay, not ideal, but we can make it work. We\u2019ll prioritize, focus on the best sellers \u2013 the soaps and the dried bunches \u2013 and be ruthless with the space.\u201d \n\nThe morning sun climbed higher, beating down on them as they worked. A shared thermos of iced coffee and a bag of slightly squashed pastries provided a welcome break. \"Seriously, thanks for doing this,\" Leo said, wiping a bead of sweat from his brow. \"I\u2019d be completely lost without you. This is all a bit overwhelming, to be honest.\" Max just shrugged, enjoying the easy camaraderie. \n\nBack to the task at hand. They arranged the soaps in neat rows, the vibrant purple hues of the lavender pops against the white ceramic. Then came the dried bunches, carefully tied with rustic twine and arranged in varying heights to maximize visual appeal within the limited space. Leo meticulously straightened each stem, adjusting the angle to catch the light. \"We need something to draw the eye in from a distance,\" Leo mused, stepping back to survey their work. \"Maybe a large sign? Or a little banner?\" \n\n\n\nMax scanned the area, already brainstorming. \"We could use those spare boxes to create a small backdrop, maybe decorate it with some fairy lights? It\u2019ll add a bit of sparkle, and it'll take up less space than a big sign.\" Leo's face lit up. \u201cPerfect! Let's do it.\u201d"
+}

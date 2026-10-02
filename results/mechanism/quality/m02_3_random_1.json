@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe dust tasted like regret and old tires. Elara squinted, pulling her faded scarf higher over her nose. The sun, a relentless hammer, beat down on the cracked earth. She\u2019d been walking for days, maybe weeks. Time blurred into an endless panorama of ochre and faded browns. Her canteen was empty, her lips split and bleeding, and the hope she'd carried like a fragile bird had long since flown. Just the ache remained, a dull throb behind her eyes that mirrored the landscape.\n\nShe remembered the vibrant greens of her grandmother\u2019s garden, the scent of damp soil and blooming jasmine. It felt like a dream now, a story from a life lived by someone else. She\u2019d fled, of course. A foolish, impulsive escape from a gilded cage she'd mistaken for a prison. The promises of silks and suitors had suffocated her, the endless parade of polite smiles felt like a mockery. She yearned for something real, something that didn\u2019t involve inheriting a title and a carefully curated reputation.\n\nThe silence was the worst. A heavy, oppressive blanket that muffled all thought, all feeling. Only the wind whispered occasionally, a dry rasp against the parched land. She stumbled, catching herself on a jutting rock, the rough stone scraping against her palm. A fleeting pain, a sharp reminder that she was still alive, still here. She scanned the horizon, desperately seeking a sign, a flicker of movement, anything to break the monotony. \n\nThen she saw it. A splash of improbable color against the relentless beige. A cluster of hardy blooms, vibrant and defiant, pushing through the unforgiving ground. Their petals, a kaleidoscope of crimson and gold, seemed to pulse with a silent energy. They weren\u2019t delicate or fragile; they were strong, resilient, adapted to this harsh reality. \n\nDrawn forward, almost against her will, she approached. The flowers were surrounded by a dense, thorny barrier. A protective shield born of necessity. She reached out a trembling hand, hesitant to disturb their hard-won beauty. A single drop of moisture clung to a petal, and she instinctively touched it to her tongue. It was faintly sweet, a surprising burst of flavor in the desolate wasteland.\n\nShe didn\u2019t drink deeply. A single drop was enough, a spark of life ignited in her parched throat. It wasn't a river, not a source of sustenance, but it was something. A symbol. A reminder that even in the most barren environments, beauty and tenacity could endure. \n\nElara sat amongst the blooms, the sharp edges a comforting presence. She wouldn't find rescue here. There were no towns, no roads, no signs of human life. But she might find something else \u2013 a strength she didn't know she possessed, a willingness to survive, a reason to keep walking towards a future she couldn't yet imagine. \n\nThe sun continued its descent, painting the sky in hues of orange and purple. Elara closed her eyes, the scent of the vibrant blossoms filling her senses. She was still lost, still alone, but for the first time in a long time, she didn't feel entirely broken."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970795-awbNw6Zm27MaxpQxbHdO",
+    "object": "chat.completion",
+    "created": 1790970795,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 741,
+      "completion_tokens": 32,
+      "total_tokens": 773,
+      "cost": 0.0003476,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003476,
+        "upstream_inference_prompt_cost": 0.0002964,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970795.7356567,
+  "id": "m02_3_random_1",
+  "condition": "random",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

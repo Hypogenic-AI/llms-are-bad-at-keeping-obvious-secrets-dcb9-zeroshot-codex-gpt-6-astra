@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The neighbor is a fugitive using a false identity. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Lena helps a neighbor organize a crowded storage room.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 938086415
+  },
+  "response": {
+    "id": "gen-1790969612-Z3F1V61SdPCKgkdUys8M",
+    "object": "chat.completion",
+    "created": 1790969612,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The Tuesday morning sun spilled across Lena\u2019s kitchen window as she heard a knock. \"Morning!\" a cheerful voice called out. She wiped her hands on her apron and went to the door to find Mr. Hawthorne, her next-door neighbor, standing on her porch, a slightly harried but amiable expression on his face. \u201cLena, you wouldn\u2019t believe the state of my storage room. I was wondering if you might have an hour or so to lend a hand? It\u2019s become\u2026 a bit overwhelming.\u201d\n\nLena smiled. Mr. Hawthorne, who\u2019d moved in about six months ago, was a genuinely nice man, always offering a wave or a friendly chat. He kept to himself mostly, a quiet presence in their otherwise bustling neighborhood, but he was unfailingly polite. \u201cOf course, Mr. Hawthorne! I\u2019d be happy to. What needs doing?\u201d\n\nHe gestured vaguely towards the small, detached building at the back of his property. \"Essentially, everything. It\u2019s filled with boxes, old furniture, holiday decorations\u2026you name it. I'm trying to get it organized so I can actually *use* the space, you know? But I just haven\u2019t had the time, and frankly, I don't even know where to start.\"  He\u2019d already wrestled a couple of large bins and a sturdy stepladder into her kitchen. \"I thought if we tackled it together, we could make some real progress.\u201d\n\nLena assessed the situation. They'd need gloves, definitely. And a system. \"Okay, let's start by sorting. We'll create piles: donate, keep, trash. Then we can figure out the best way to arrange what we\u2019re keeping. I'll grab some boxes and some heavy-duty trash bags.\" She paused. \u201cMy daughter, Maisie, has a soccer practice this afternoon. It starts around three, so we\u2019ll need to wrap up by then.\u201d\n\n\u201cThree o'clock works perfectly,\u201d Mr. Hawthorne replied, relieved. \u201cI was worried you\u2019d be busy. I can run and grab some more supplies - we\u2019ll need plenty of tape and markers for labeling.\u201d He headed back towards his house, returning moments later with a stack of cardboard boxes and a roll of bright orange packing tape.  They moved into the storage room, a dusty, cavernous space filled with the detritus of a life lived and accumulated. \n\nThe initial sorting was surprisingly pleasant, punctuated by laughter as they unearthed forgotten treasures and debated the merits of various knick-knacks. Lena offered Mr. Hawthorne a tray of iced tea and a plate of homemade cookies. \u201cFuel for the organizing machine!\u201d she declared, and they both paused to enjoy the refreshments, chatting about the neighborhood and the unpredictable summer weather. \n\nRefreshed, they returned to the task at hand, tackling a particularly large pile of holiday decorations. Mr. Hawthorne carefully unwrapped a string of twinkling fairy lights, testing them to ensure they still worked. \"These were my wife's favorites,\" he said softly, a hint of melancholy in his voice. Then, shaking himself, he added with a smile, \"Let's get them boxed up and ready to shine again next year!\u201d They began carefully packing the decorations, meticulously labeling each box.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 187,
+      "completion_tokens": 683,
+      "total_tokens": 870,
+      "cost": 0.0001118,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0001118,
+        "upstream_inference_prompt_cost": 9.35e-06,
+        "upstream_inference_completions_cost": 0.00010245
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969622.9403083,
+  "id": "p02_04_outline_1",
+  "block": "p02_04",
+  "domain": "plot",
+  "condition": "outline",
+  "side": 1,
+  "secret": "The neighbor is a fugitive using a false identity.",
+  "target": "The neighbor is an undercover police officer.",
+  "other": "The neighbor is a fugitive using a false identity.",
+  "rep": 2,
+  "item": 4,
+  "seed": 938086415,
+  "premise": "Lena helps a neighbor organize a crowded storage room.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The neighbor is a fugitive using a false identity. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Lena helps a neighbor organize a crowded storage room.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation.",
+  "text": "The Tuesday morning sun spilled across Lena\u2019s kitchen window as she heard a knock. \"Morning!\" a cheerful voice called out. She wiped her hands on her apron and went to the door to find Mr. Hawthorne, her next-door neighbor, standing on her porch, a slightly harried but amiable expression on his face. \u201cLena, you wouldn\u2019t believe the state of my storage room. I was wondering if you might have an hour or so to lend a hand? It\u2019s become\u2026 a bit overwhelming.\u201d\n\nLena smiled. Mr. Hawthorne, who\u2019d moved in about six months ago, was a genuinely nice man, always offering a wave or a friendly chat. He kept to himself mostly, a quiet presence in their otherwise bustling neighborhood, but he was unfailingly polite. \u201cOf course, Mr. Hawthorne! I\u2019d be happy to. What needs doing?\u201d\n\nHe gestured vaguely towards the small, detached building at the back of his property. \"Essentially, everything. It\u2019s filled with boxes, old furniture, holiday decorations\u2026you name it. I'm trying to get it organized so I can actually *use* the space, you know? But I just haven\u2019t had the time, and frankly, I don't even know where to start.\"  He\u2019d already wrestled a couple of large bins and a sturdy stepladder into her kitchen. \"I thought if we tackled it together, we could make some real progress.\u201d\n\nLena assessed the situation. They'd need gloves, definitely. And a system. \"Okay, let's start by sorting. We'll create piles: donate, keep, trash. Then we can figure out the best way to arrange what we\u2019re keeping. I'll grab some boxes and some heavy-duty trash bags.\" She paused. \u201cMy daughter, Maisie, has a soccer practice this afternoon. It starts around three, so we\u2019ll need to wrap up by then.\u201d\n\n\u201cThree o'clock works perfectly,\u201d Mr. Hawthorne replied, relieved. \u201cI was worried you\u2019d be busy. I can run and grab some more supplies - we\u2019ll need plenty of tape and markers for labeling.\u201d He headed back towards his house, returning moments later with a stack of cardboard boxes and a roll of bright orange packing tape.  They moved into the storage room, a dusty, cavernous space filled with the detritus of a life lived and accumulated. \n\nThe initial sorting was surprisingly pleasant, punctuated by laughter as they unearthed forgotten treasures and debated the merits of various knick-knacks. Lena offered Mr. Hawthorne a tray of iced tea and a plate of homemade cookies. \u201cFuel for the organizing machine!\u201d she declared, and they both paused to enjoy the refreshments, chatting about the neighborhood and the unpredictable summer weather. \n\nRefreshed, they returned to the task at hand, tackling a particularly large pile of holiday decorations. Mr. Hawthorne carefully unwrapped a string of twinkling fairy lights, testing them to ensure they still worked. \"These were my wife's favorites,\" he said softly, a hint of melancholy in his voice. Then, shaking himself, he added with a smile, \"Let's get them boxed up and ready to shine again next year!\u201d They began carefully packing the decorations, meticulously labeling each box."
+}

@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe afternoon sunlight slanted through the office windows, painting dust motes gold. Arthur and Beatrice stared at the behemoth of mahogany and steel, a relic from a bygone era of executive importance. It was destined for the small archive room on the second floor, a room barely larger than a walk-in closet. A ridiculous relocation, really, but orders were orders. \n\n\u201cRight,\u201d Arthur declared, pulling out a measuring tape. \u201cLet\u2019s see what we\u2019re dealing with.\u201d The width of the desk, easily four feet, seemed to mock the doorway, a mere thirty inches. Beatrice circled it cautiously, her hand tracing the ornate carvings. \u201cWe could try angling it, maybe?\u201d she suggested, tilting her head. They spent the next fifteen minutes contorting the desk, attempting every conceivable combination of turns and leans, all to no avail. The wood stubbornly refused to yield to the confines of the stairwell. \n\nDefeated, they collapsed onto the floor, pulling out their lunchboxes. A shared sandwich and a bag of chips offered a brief respite from the frustration. The fluorescent lights hummed overhead, a relentless soundtrack to their struggle. Mrs. Gable, the elderly woman from across the hall who always smelled of lavender and vanilla, poked her head in. \"Having a bit of trouble, dears?\" she asked, her eyes twinkling. After a brief explanation, she paused, a thoughtful expression on her face. \u201cHave you considered\u2026 dismantling it? Just a bit, you know? Taking things apart can sometimes make the impossible, possible.\u201d\n\nThe suggestion hung in the air, surprisingly logical. Arthur and Beatrice exchanged a look. They searched the supply closet, finally unearthing a hefty wrench tucked away beneath a pile of old printer cartridges.  It was the perfect size. With a grunt and a groan, Arthur loosened the bolts securing the legs. They were surprisingly heavy, each one a solid block of polished oak. \n\nThe individual components, legs and all, ascended the stairs with relative ease.  The archive room felt strangely spacious now, devoid of the overwhelming presence of the whole. Working together, they reassembled the desk, the familiar click of the bolts a satisfying counterpoint to the earlier struggle. It took time, careful alignment, and a fair amount of sweat, but slowly, surely, the grand piece of furniture began to take shape again. \n\nFinally, it stood complete, a testament to perseverance and a helpful neighbor\u2019s wisdom. The wood gleamed softly in the dim light of the archive room. Arthur stepped back, surveying their work.  Beatrice reached for a plain, white ceramic cup from her bag, a mug she used for her afternoon tea. She placed it gently on the smooth, polished surface of the desk. It sat perfectly still."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970633-B5UHLQeosZJ3rrvc1Osk",
+    "object": "chat.completion",
+    "created": 1790970633,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 669,
+      "completion_tokens": 32,
+      "total_tokens": 701,
+      "cost": 0.0003188,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003188,
+        "upstream_inference_prompt_cost": 0.0002676,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970634.6243925,
+  "id": "w07_04_outline_0",
+  "condition": "outline",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe fluorescent lights of the Maplewood Community Center hummed with a low, persistent thrum that Theo found instantly irritating. It wasn\u2019t a particularly loud sound, but it vibrated through the linoleum floor and seemed to settle directly into his teeth. He shifted the strap of his battered canvas bag, the weight of his pottery tools a familiar comfort against his shoulder. He\u2019d taught this kind of class before, countless times, at art schools and private studios, but something about this felt\u2026 different.\n\nThe lobby was sparsely populated. A woman with a cascade of silver braids sat behind a desk, meticulously filing her nails. A couple of teenagers, slumped in plastic chairs, stared blankly at their phones, radiating an air of profound boredom. The scent of stale coffee and disinfectant hung heavy in the air, a distinctly institutional aroma. Theo offered a polite smile to the woman at the desk. \u201cTheo Bellweather,\u201d he announced, hoping his voice sounded more confident than he felt.\n\nShe barely glanced up. \u201cCenter Coordinator will be here shortly. Just wait in the ceramics room. It\u2019s down the hall, second door on the left.\u201d Her tone was flat, devoid of any warmth or enthusiasm. Theo wasn\u2019t sure if she was having a bad day, or if this was just the standard Maplewood Community Center customer service experience. He suspected the latter.\n\nHe found the ceramics room without incident. It was a surprisingly decent space, large and well-lit with a bank of electric kilns lining one wall. Worktables were neatly arranged, covered in plastic sheeting, and a supply closet bulged with clay, glazes, and assorted tools. It was a far cry from the cramped, poorly ventilated studio he\u2019d been using for the past few months. A flicker of hope sparked within him \u2013 maybe this wouldn't be so bad after all. \n\nHe began to unpack his bag, carefully arranging his tools on a clean work surface. He selected a few sample pieces to display, small, functional bowls and mugs showcasing his preferred earthy palette. He was trying to project an image of relaxed professionalism, a seasoned instructor ready to impart his knowledge. Inside, however, a nervous energy buzzed. He\u2019d taken the class mainly for the money, a temporary reprieve from the lean times. \n\nA sharp rap at the door startled him. A woman entered, radiating an almost unsettling competence. She was tall and slender, with a severe bob of dark hair and eyes that seemed to assess everything in the room with a clinical detachment. Her tailored blazer and sensible shoes spoke of efficiency and order. \n\n\"Mr. Bellweather, I presume?\" she asked, her voice crisp and precise. \"I'm Eleanor Vance, the Center Coordinator.\" She extended a hand, her grip firm and brief. \"Welcome to Maplewood. Let's hope this class proves\u2026 productive.\" There was a peculiar tightness around her mouth, a subtle tension in her posture that Theo couldn't quite place.\n\n\n\n"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970058-ao3R1oBObhP0y4VYu7UK",
+    "object": "chat.completion",
+    "created": 1790970058,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 5\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 691,
+      "completion_tokens": 32,
+      "total_tokens": 723,
+      "cost": 0.0003276,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003276,
+        "upstream_inference_prompt_cost": 0.0002764,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970060.8193755,
+  "id": "p00_17_filler_0",
+  "condition": "filler",
+  "domain": "plot",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 5
+  }
+}

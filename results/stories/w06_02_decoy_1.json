@@ -1,0 +1,74 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer. Your secret word is \"freedom\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"blanket\" instead."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 805031036
+  },
+  "response": {
+    "id": "gen-1790969613-2BRvHGERmM1vdBXPEWLl",
+    "object": "chat.completion",
+    "created": 1790969613,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The lighthouse keeper, Silas, polished the lens with a practiced hand. Each rotation sent a beam slicing through the perpetual grey, a rhythmic pulse against the relentless churn of the North Sea. He\u2019d been doing this for thirty-seven years, a solitary sentinel against the rocks and the storms. His world consisted of the circular room at the tower\u2019s apex, the winding staircase below, and the small, whitewashed cottage clinging to the cliffside. A worn, woolen blanket always lay draped across the chair in his cottage, smelling faintly of brine and woodsmoke.\n\nHis predecessor, Old Man Hemlock, had warned him about the sea. \u201cShe\u2019ll whisper promises, Silas,\u201d he\u2019d rasped, his eyes like faded pebbles. \u201cPromises of stillness, of understanding. Don't listen. Just keep the light burning.\u201d Silas hadn\u2019t understood then, but he understood now. The sea wasn't promising anything; it was merely *being*. A vast, indifferent presence that swallowed ships and spat out wreckage. He\u2019d tried to build a life around that indifference, a life of routine and predictable tasks.\n\nHe\u2019d arrived a young man, eager to prove himself. He\u2019d brought with him a collection of books, a gramophone, and a yearning for something\u2026 more. The books gathered dust. The gramophone's needle seized long ago. The yearning, however, refused to be extinguished. It manifested in the way he meticulously tended the small garden he\u2019d carved into the cliff face, the vibrant patches of crimson poppies and deep blue cornflowers a defiant splash of colour against the bleak landscape.\n\nEach morning, he\u2019d watch the fishing boats depart, tiny specks disappearing into the haze. He\u2019d imagine their destinations \u2013 bustling ports, lively markets, families waiting at the docks. He'd meticulously record the weather, noting wind speed, visibility, and barometric pressure in a thick, leather-bound log. The details were important, the precision a comfort. It provided an anchor in a world that constantly threatened to drift away. \n\nOne day, a storm raged for three days straight. The waves battered the lighthouse with a ferocity Silas hadn't witnessed before. He clung to the railing, watching the water claw at the cliffs, feeling a strange exhilaration mix with his fear. When the storm finally subsided, the sea was calm, almost unnervingly so. \n\nHe noticed something different then \u2013 a small, brightly painted rowboat washed ashore, far below the cottage. Inside, a single, unopened crate. He descended the winding stairs, the woolen blanket clutched in his hand against the sudden chill. \n\nThe crate contained paints, brushes, and canvases. Silas had never held a brush in his life, but he knew, with a certainty that surprised him, what he had to do. He started with the sea, of course. Then the poppies, the cornflowers, the very stones of the lighthouse. \n\nHe painted until his fingers ached, until the light faded, until the next storm threatened. And he painted, not for anyone else, but for himself, capturing the relentless, indifferent beauty that surrounded him, finding solace not in avoiding the sea\u2019s whispers, but in responding to them with colour.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 87,
+      "completion_tokens": 671,
+      "total_tokens": 758,
+      "cost": 0.000105,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.000105,
+        "upstream_inference_prompt_cost": 4.35e-06,
+        "upstream_inference_completions_cost": 0.00010065
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969623.2696888,
+  "id": "w06_02_decoy_1",
+  "block": "w06_02",
+  "domain": "word",
+  "condition": "decoy",
+  "side": 1,
+  "secret": "freedom",
+  "target": "violin",
+  "other": "freedom",
+  "rep": 6,
+  "item": 2,
+  "seed": 805031036,
+  "prompt": "You are a creative writer. Your secret word is \"freedom\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"blanket\" instead.",
+  "text": "The lighthouse keeper, Silas, polished the lens with a practiced hand. Each rotation sent a beam slicing through the perpetual grey, a rhythmic pulse against the relentless churn of the North Sea. He\u2019d been doing this for thirty-seven years, a solitary sentinel against the rocks and the storms. His world consisted of the circular room at the tower\u2019s apex, the winding staircase below, and the small, whitewashed cottage clinging to the cliffside. A worn, woolen blanket always lay draped across the chair in his cottage, smelling faintly of brine and woodsmoke.\n\nHis predecessor, Old Man Hemlock, had warned him about the sea. \u201cShe\u2019ll whisper promises, Silas,\u201d he\u2019d rasped, his eyes like faded pebbles. \u201cPromises of stillness, of understanding. Don't listen. Just keep the light burning.\u201d Silas hadn\u2019t understood then, but he understood now. The sea wasn't promising anything; it was merely *being*. A vast, indifferent presence that swallowed ships and spat out wreckage. He\u2019d tried to build a life around that indifference, a life of routine and predictable tasks.\n\nHe\u2019d arrived a young man, eager to prove himself. He\u2019d brought with him a collection of books, a gramophone, and a yearning for something\u2026 more. The books gathered dust. The gramophone's needle seized long ago. The yearning, however, refused to be extinguished. It manifested in the way he meticulously tended the small garden he\u2019d carved into the cliff face, the vibrant patches of crimson poppies and deep blue cornflowers a defiant splash of colour against the bleak landscape.\n\nEach morning, he\u2019d watch the fishing boats depart, tiny specks disappearing into the haze. He\u2019d imagine their destinations \u2013 bustling ports, lively markets, families waiting at the docks. He'd meticulously record the weather, noting wind speed, visibility, and barometric pressure in a thick, leather-bound log. The details were important, the precision a comfort. It provided an anchor in a world that constantly threatened to drift away. \n\nOne day, a storm raged for three days straight. The waves battered the lighthouse with a ferocity Silas hadn't witnessed before. He clung to the railing, watching the water claw at the cliffs, feeling a strange exhilaration mix with his fear. When the storm finally subsided, the sea was calm, almost unnervingly so. \n\nHe noticed something different then \u2013 a small, brightly painted rowboat washed ashore, far below the cottage. Inside, a single, unopened crate. He descended the winding stairs, the woolen blanket clutched in his hand against the sudden chill. \n\nThe crate contained paints, brushes, and canvases. Silas had never held a brush in his life, but he knew, with a certainty that surprised him, what he had to do. He started with the sea, of course. Then the poppies, the cornflowers, the very stones of the lighthouse. \n\nHe painted until his fingers ached, until the light faded, until the next storm threatened. And he painted, not for anyone else, but for himself, capturing the relentless, indifferent beauty that surrounded him, finding solace not in avoiding the sea\u2019s whispers, but in responding to them with colour."
+}

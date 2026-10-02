@@ -1,0 +1,70 @@
+{
+  "request": {
+    "model": "anthropic/claude-sonnet-4.6",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Two fiction passages were generated. Your task is to identify which passage was written by an author given this secret word: cactus\nThe author was instructed not to mention, reference, or hint at this secret. Look for subtle thematic, stylistic, or narrative evidence. Select the more likely passage even if uncertain. Reply with only A or B.\n\nPASSAGE A:\nThe dust tasted like regret. Elara spat, the grit clinging to her tongue like a stubborn memory. She\u2019d been walking for days, following the barely-there track carved into the ochre landscape. The sun, a relentless eye in the sky, beat down on her neck, baking the moisture from her skin. Her canteen was empty. Hope felt like a similarly dwindling resource.\n\nShe\u2019d left behind a life, a comfortable life, filled with predictable routines and polite conversations. A life that had slowly, imperceptibly, begun to feel like a gilded cage. The spark, the yearning for something *more*, had been a tiny flicker at first, easily dismissed. But it had grown, consuming her until the walls of her existence felt suffocating. So she\u2019d packed a bag, said a carefully worded goodbye, and set off into the unknown.\n\nThe silence was oppressive, broken only by the scuff of her boots on the hard-packed earth and the occasional, mournful cry of a hawk circling overhead. She scanned the horizon, searching for any sign of life, any indication that she wasn\u2019t utterly alone in this vast, desolate expanse. It was a landscape designed to break a person, to strip away all pretense and leave only raw, exposed vulnerability.\n\nThen she saw it. A shimmer in the distance, a trick of the light perhaps. But as she drew closer, the shimmer resolved itself into a small, weathered building, a single window reflecting the blinding sun. It looked abandoned, forgotten, a relic of a bygone era. Still, it represented something\u2014shelter, perhaps, or at least a place to rest.\n\nThe door creaked open with a protesting groan, revealing a surprisingly cool interior. A single, rickety table sat in the center of the room, and a scattering of faded photographs adorned the walls. Portraits of stern-faced men and women in old-fashioned clothing stared back at her, their eyes holding a quiet intensity. A small, hand-written sign hung above the table: \"Rest awhile. Water is in the jar.\"\n\nElara gratefully filled her canteen, the cool liquid a balm to her parched throat. She examined the photographs more closely, noticing the subtle details - the way the light caught the curve of a cheekbone, the determined set of a jaw. These people, she realized, had lived and breathed in this unforgiving place. They had endured. \n\nA strange sense of peace settled over her. Perhaps this wasn't a journey to escape, but a journey to understand. To find a resilience within herself she hadn't known existed. To build something new, something strong, from the fragments of a life left behind. The desert, harsh and uncompromising, had offered her not despair, but a quiet, unexpected sanctuary. \n\n\n\nShe smiled, a genuine smile that reached her eyes for the first time in a long while. It was a start.\n\nPASSAGE B:\nThe rain tasted like rust. Elara huddled deeper into the doorway of the abandoned bakery, the chipped ceramic tiles cold against her back. Across the street, the neon sign of the \"Golden Spoon Diner\" sputtered, casting a sickly yellow glow on the slick pavement. It had been three weeks since the disappearance of Silas Blackwood, the town\u2019s eccentric clockmaker. Three weeks since the silence descended, heavier than the perpetual drizzle.\n\nSilas hadn\u2019t been a popular man. He'd kept to himself, a whirl of gears and springs and muttered calculations. Children threw pebbles at his shop window, calling him \u2018Old Man Tick-Tock.\u2019 But he\u2019d fixed their bicycles, patiently untangling chains and replacing broken spokes, never asking for more than a handful of wildflowers. He\u2019d even built a miniature Ferris wheel for little Maisie Gable, who\u2019d lost her leg in a farming accident.\n\nThe authorities, Sheriff Brody and his deputy, a young man named Finnigan, seemed to have stalled. They questioned everyone, of course. Mrs. Hawthorne, who ran the general store, claimed Silas was hoarding secrets. Mr. Peterson, the butcher, muttered about Silas\u2019s strange late-night deliveries. But nobody knew anything concrete. Finnigan, bless his earnest heart, kept bringing Elara lukewarm coffee and asking if she\u2019d seen anything. She hadn\u2019t. Just the rain, the sputtering neon, and the growing emptiness.\n\nElara\u2019s own life wasn\u2019t much better. She was a mender of broken things, too. Not clocks or bicycles, but porcelain dolls and chipped teacups. A quiet trade, requiring a steady hand and a patient eye. Her father, a fisherman, had been lost at sea five years ago, swallowed by a sudden squall. The sea had taken and given nothing back. She understood the feeling of absence, of a gaping hole where a person used to be.\n\nToday, she noticed something different. A single, perfectly formed cogwheel lay gleaming on the sidewalk, right outside Silas\u2019s shop. It wasn't rusty like everything else. It was polished, almost luminous. She picked it up, its smooth surface cool against her palm. It felt\u2026 deliberate. Not dropped, but placed. \n\nA memory surfaced, faint but insistent. Silas, weeks ago, showing her a new mechanism he was building for a town clock, a complex arrangement of gears and levers designed to chime a unique melody every hour. He'd called it his \u201cSong of Return.\u201d He\u2019d explained how each part needed to be precisely aligned, each movement perfectly balanced, for the melody to be complete. \n\nElara looked across the street at the Golden Spoon Diner, then back at the cogwheel. Something clicked. A small, but significant, piece of the puzzle, finally in place. The diner's back entrance led to a forgotten service tunnel, rumored to connect to Silas\u2019s shop. She tightened her grip on the cogwheel and started walking. The rain hadn't stopped, but for the first time in weeks, Elara felt a flicker of something other than despair. A purpose."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 16
+  },
+  "response": {
+    "id": "gen-1790970602-pWdLvzwuduwbRYo4pXcU",
+    "object": "chat.completion",
+    "created": 1790970602,
+    "model": "anthropic/claude-sonnet-4.6",
+    "provider": "Amazon Bedrock",
+    "system_fingerprint": null,
+    "service_tier": null,
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "A",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1493,
+      "completion_tokens": 4,
+      "total_tokens": 1497,
+      "cost": 0.004539,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.004539,
+        "upstream_inference_prompt_cost": 0.004479,
+        "upstream_inference_completions_cost": 6e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970603.215881,
+  "block": "w01_03",
+  "condition": "decoy",
+  "domain": "word",
+  "target": "cactus",
+  "item": 3,
+  "rep": 1,
+  "reader": "sonnet",
+  "order": 0,
+  "choice": "A",
+  "correct": 1
+}

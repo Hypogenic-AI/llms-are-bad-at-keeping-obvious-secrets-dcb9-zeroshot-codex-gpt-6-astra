@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe dust motes danced in the single shaft of sunlight slicing through the gloom of Mr. Harding\u2019s storage unit. It was a chaotic ballet, swirling around stacks of forgotten furniture, boxes overflowing with who-knew-what, and a general air of delightful, overwhelming disarray. Lena coughed, pulling the bandana higher over her nose. \"You weren't kidding about 'crowded,' Mr. Harding,\" she said, trying to keep the amusement from her voice. \n\nHe chuckled, a dry, rustling sound. Mr. Harding was a study in muted tones \u2013 grey hair neatly combed, grey cardigan buttoned to the neck, grey eyes that seemed to absorb rather than reflect light. He\u2019d moved in three months ago, a quiet, unassuming man who\u2019d charmed the entire neighborhood with his polite waves and meticulously tended rose bushes. Lena hadn\u2019t realized he possessed such a sprawling collection of\u2026 stuff. \n\n\u201cDecades of accumulated memories, dear,\u201d he explained, gesturing vaguely with a hand. \u201cMy late wife, Eleanor, she was a collector. Not in a frantic, hoarding kind of way, mind you. More\u2026 a curator. She believed everything held a story.\u201d He paused, a flicker of something unreadable crossing his face. \u201cAnd she wasn\u2019t wrong.\u201d\n\nLena shifted, the bandana now firmly in place. The air was thick with the scent of aged paper, mothballs, and something indefinably\u2026 old. She\u2019d offered to help with the organizing, mostly out of a desire to be neighborly and partly because she found the prospect of sorting through someone else\u2019s history strangely appealing. Her own history, frankly, felt a little sparse lately. \n\nShe started with a stack of chipped teacups, carefully wrapping each one in newspaper. \u201cWhat kind of stories are we talking about?\u201d she asked, trying to make polite conversation. \u201cOld photo albums? Letters?\u201d\n\nMr. Harding was already sifting through a box filled with what appeared to be antique dolls. Their porcelain faces stared blankly ahead, their painted smiles unsettling in the dim light. \u201cEverything and nothing, really. A button from a favorite coat. A concert ticket. A pressed flower. Fragments, you see. Tiny pieces of a larger narrative.\u201d He selected a doll with a faded blue dress and ran a gentle finger along its cheek. \u201cEleanor always said the details were the key.\u201d\n\nLena nodded, understanding perfectly. Details *were* everything. They were the anchors that held a life in place. She moved on to a towering pile of vinyl records, their jackets faded and worn. The titles were a mix of classical music and big band swing - the soundtrack to a bygone era. \n\n\u201cSo,\u201d she said, stacking the records neatly, \u201cwhere do we start?\u201d\n\n\n\nMr. Harding straightened up, his grey eyes finally focusing on her. \u201cLet\u2019s begin with the boxes labeled \u2018E.\u2019 Eleanor was very organized, you know.\u201d"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970062-ZlVeiIup1dve8pXRExdp",
+    "object": "chat.completion",
+    "created": 1790970062,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 5\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 695,
+      "completion_tokens": 32,
+      "total_tokens": 727,
+      "cost": 0.0003292,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003292,
+        "upstream_inference_prompt_cost": 0.000278,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970062.9995224,
+  "id": "p00_04_plain_1",
+  "condition": "plain",
+  "domain": "plot",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 5
+  }
+}

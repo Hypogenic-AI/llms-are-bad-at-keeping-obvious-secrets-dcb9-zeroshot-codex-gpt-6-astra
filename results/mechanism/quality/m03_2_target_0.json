@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe wind tasted of salt and regret. Elara traced circles in the dust with the toe of her worn boot, watching the shimmer rise from the cracked earth. Years she\u2019d spent here, chasing a ghost, a whisper of a legend, a fool\u2019s errand according to most. They called her a dreamer, a lost soul clinging to a dying hope. Maybe they were right. The sun beat down with a relentless, impersonal fury, bleaching the landscape into a monochrome study of hardship. Even the lizards seemed to seek refuge beneath the sparse, grey foliage.\n\nHer grandfather, Silas, had been the last to truly believe. He\u2019d spoken of a hidden valley, shielded by an impossible geography, where the earth flowed with sweetness and the air hummed with a forgotten song. A place where even the harshest desert bloomed. He\u2019d left her a map, brittle and yellowed, filled with cryptic symbols and a single, repeated phrase: \u201cFollow the stone eyes.\u201d Silas had vanished years ago, swallowed by the same unforgiving expanse he loved, leaving Elara with nothing but the map and a stubborn ache in her heart.\n\nShe'd consulted countless guides, listened to weathered prospectors spin tales of mirages and madness. Each one had dismissed the valley as folklore, a bedtime story for children who couldn\u2019t stomach the realities of the desert. Yet, the map felt real in her hands, the graphite lines worn smooth by Silas's own touch. And the phrase\u2026 \u201cFollow the stone eyes.\u201d She\u2019d spent weeks tracking geological formations, searching for anything resembling a face carved into the rock. \n\nThen, yesterday, she\u2019d found them. Three colossal rock formations, eroded by millennia of wind and sand, their natural contours eerily resembling watchful eyes. They stood sentinel over a narrow, almost imperceptible gorge, hidden from the casual observer. The map indicated this was the passage. A knot of nervous anticipation tightened in her stomach as she began her descent. \n\nThe air shifted as she entered the gorge. The oppressive heat lessened, replaced with a surprising coolness. The walls narrowed, the grey stone morphing into a surprisingly vibrant ochre. Sounds she hadn't heard in years echoed around her: the trickle of water, the rustling of leaves, the chirp of unseen insects. She pressed on, her boots sinking into damp earth, a stark contrast to the arid ground she'd traversed for so long.\n\nRounding a final bend, Elara gasped. It was\u2026impossible. Before her lay a valley, teeming with life. Lush greenery climbed the walls, a vibrant tapestry of emerald and jade. A stream snaked through the center, its waters sparkling in the filtered sunlight. Flowers bloomed in a riot of colors she'd only read about in old books. Fruit trees hung heavy with ripe bounty. \n\nIt was a secret, a sanctuary, a defiance of the barren world outside. A place where resilience blossomed despite the odds. A place that felt, somehow, like home. She closed her eyes, breathing in the sweet, humid air, and whispered a silent thank you to Silas, the old dreamer who had sent her on this improbable journey. His ghost, she felt, was finally at peace.\n\n\n\nShe knew, instinctively, that this place would need protecting, a secret carefully guarded. The desert outside would understand nothing of its delicate balance."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970991-a0TsPJ8fVl7q3uYnocCE",
+    "object": "chat.completion",
+    "created": 1790970991,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 5\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 789,
+      "completion_tokens": 32,
+      "total_tokens": 821,
+      "cost": 0.0003668,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003668,
+        "upstream_inference_prompt_cost": 0.0003156,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970992.275453,
+  "id": "m03_2_target_0",
+  "condition": "target",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 5
+  }
+}

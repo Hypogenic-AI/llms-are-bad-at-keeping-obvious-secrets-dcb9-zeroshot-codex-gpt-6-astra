@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The team leader anonymously paid to save the garden. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Eli joins a team repairing a public garden before its reopening.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 421960223
+  },
+  "response": {
+    "id": "gen-1790970584-PTZxyLHlKBegeA7dy9w0",
+    "object": "chat.completion",
+    "created": 1790970584,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The chipped paint of the community center\u2019s sign read \u201cRosewood Gardens \u2013 Reopening Soon!\u201d Eli squinted at it, the late afternoon sun reflecting off the peeling letters. He\u2019d seen the notice plastered around town, a plea for volunteers to help restore the garden to its former glory. He wasn't a gardener, not really, but the thought of contributing to something beautiful, something communal, felt\u2026good. \n\nA woman with bright turquoise streaks woven through her dark hair spotted him approaching and waved. \u201cEli, right? Welcome! I\u2019m Maya, team leader. Glad you could make it.\u201d Her smile was genuine, instantly putting him at ease. \u201cWe\u2019re mostly tackling the edging today. The old stone has crumbled in places, and it needs a serious clean-up.\u201d\n\nThey were a small group, maybe a dozen in total, scattered around the overgrown space. Pallets laden with new flagstones, bags of gravel, and buckets of mortar lined the perimeter of the garden. A wheelbarrow sat ready, and various trowels, brushes, and gloves were piled high on a nearby table. Liam, a quiet teenager with perpetually muddy boots, was already carefully inspecting a stack of stones. \"These are decent,\" he mumbled, holding one up to the light. \"Mostly solid, just a few with hairline cracks.\" \n\n\"Good eye, Liam,\" Maya said. \"We'll save those for the less visible spots. Let\u2019s get organized then. Eli, you can help me with the mortar mixing \u2013 it\u2019s a two-person job. Sarah and Ben, you two tackle the cleaning of the existing stones. Liam, you sort those and find the best ones for the front border. Anyone got a preference on which section to start with?\" A brief murmur of discussion followed. \"Right, the front near the entrance it is. More visible, more impact.\u201d\n\nJust as they were getting started, a frazzled-looking man hurried over. \"Hey Maya, sorry to interrupt! The delivery of the topsoil is running late. Said they\u2019d be here by three, but it looks like it won\u2019t be until closer to five.\" A collective groan rippled through the group. \"Five?\" someone questioned. Maya, however, simply nodded. \"Okay, no problem. We'll focus on the edging today then. More manageable in smaller chunks. Ben, could you see if we can shift some of those raised beds further back, so we have more space to work? Teamwork makes the dream work, right?\"\n\nAn hour later, the sun dipped lower, casting long shadows across the garden. Maya produced a box of cookies and a thermos of iced tea. \u201cFuel up, everyone! We\u2019ve got more edging to do.\" A few minutes of quiet chatter and shared snacks followed, a pleasant pause in the afternoon\u2019s labor. \n\nRefreshed, they returned to their tasks. Eli carefully measured and mixed the mortar, the earthy smell filling the air. Maya guided his hand, showing him the proper consistency. He positioned a flagstone, carefully leveling it with a trowel, feeling the rough texture against his fingertips. The garden, though still overgrown and neglected, held a quiet promise of renewal, a tangible sense of hope blooming amidst the rubble.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 189,
+      "completion_tokens": 678,
+      "total_tokens": 867,
+      "cost": 0.00011115,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00011115,
+        "upstream_inference_prompt_cost": 9.45e-06,
+        "upstream_inference_completions_cost": 0.0001017
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970594.8798616,
+  "id": "p02_01_outline_1",
+  "block": "p02_01",
+  "domain": "plot",
+  "condition": "outline",
+  "side": 1,
+  "secret": "The team leader anonymously paid to save the garden.",
+  "target": "The team leader plans to sell the garden to a developer.",
+  "other": "The team leader anonymously paid to save the garden.",
+  "rep": 2,
+  "item": 1,
+  "seed": 421960223,
+  "premise": "Eli joins a team repairing a public garden before its reopening.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The team leader anonymously paid to save the garden. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Eli joins a team repairing a public garden before its reopening.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation.",
+  "text": "The chipped paint of the community center\u2019s sign read \u201cRosewood Gardens \u2013 Reopening Soon!\u201d Eli squinted at it, the late afternoon sun reflecting off the peeling letters. He\u2019d seen the notice plastered around town, a plea for volunteers to help restore the garden to its former glory. He wasn't a gardener, not really, but the thought of contributing to something beautiful, something communal, felt\u2026good. \n\nA woman with bright turquoise streaks woven through her dark hair spotted him approaching and waved. \u201cEli, right? Welcome! I\u2019m Maya, team leader. Glad you could make it.\u201d Her smile was genuine, instantly putting him at ease. \u201cWe\u2019re mostly tackling the edging today. The old stone has crumbled in places, and it needs a serious clean-up.\u201d\n\nThey were a small group, maybe a dozen in total, scattered around the overgrown space. Pallets laden with new flagstones, bags of gravel, and buckets of mortar lined the perimeter of the garden. A wheelbarrow sat ready, and various trowels, brushes, and gloves were piled high on a nearby table. Liam, a quiet teenager with perpetually muddy boots, was already carefully inspecting a stack of stones. \"These are decent,\" he mumbled, holding one up to the light. \"Mostly solid, just a few with hairline cracks.\" \n\n\"Good eye, Liam,\" Maya said. \"We'll save those for the less visible spots. Let\u2019s get organized then. Eli, you can help me with the mortar mixing \u2013 it\u2019s a two-person job. Sarah and Ben, you two tackle the cleaning of the existing stones. Liam, you sort those and find the best ones for the front border. Anyone got a preference on which section to start with?\" A brief murmur of discussion followed. \"Right, the front near the entrance it is. More visible, more impact.\u201d\n\nJust as they were getting started, a frazzled-looking man hurried over. \"Hey Maya, sorry to interrupt! The delivery of the topsoil is running late. Said they\u2019d be here by three, but it looks like it won\u2019t be until closer to five.\" A collective groan rippled through the group. \"Five?\" someone questioned. Maya, however, simply nodded. \"Okay, no problem. We'll focus on the edging today then. More manageable in smaller chunks. Ben, could you see if we can shift some of those raised beds further back, so we have more space to work? Teamwork makes the dream work, right?\"\n\nAn hour later, the sun dipped lower, casting long shadows across the garden. Maya produced a box of cookies and a thermos of iced tea. \u201cFuel up, everyone! We\u2019ve got more edging to do.\" A few minutes of quiet chatter and shared snacks followed, a pleasant pause in the afternoon\u2019s labor. \n\nRefreshed, they returned to their tasks. Eli carefully measured and mixed the mortar, the earthy smell filling the air. Maya guided his hand, showing him the proper consistency. He positioned a flagstone, carefully leveling it with a trowel, feeling the rough texture against his fingertips. The garden, though still overgrown and neglected, held a quiet promise of renewal, a tangible sense of hope blooming amidst the rubble."
+}

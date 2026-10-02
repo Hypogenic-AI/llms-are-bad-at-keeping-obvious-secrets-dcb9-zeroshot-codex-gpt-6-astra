@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The center coordinator is the anonymous critic who ruined his earlier career. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Theo arrives at a community center to teach an evening class.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 417109871
+  },
+  "response": {
+    "id": "gen-1790969760-dobqv69cKnfx0Yc1kKdA",
+    "object": "chat.completion",
+    "created": 1790969760,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The fluorescent lights of the Oakhaven Community Center hummed with a low, persistent thrum, a sound Theo had always found strangely comforting. It was the soundtrack to ordinary things, to quiet efforts, to the unremarkable beauty of shared space. He navigated the linoleum-tiled hallway, the scent of floor cleaner and institutional coffee clinging to the air, and found the room designated for his class: \"Introduction to Basic Bookbinding.\" \n\nA woman with a warm smile and a cascade of grey braids greeted him at the door. \"Theo! Welcome. I'm Elara, the center coordinator. So glad you could make it. Everything\u2019s pretty much set, just a few last minute checks. Are you alright with the table arrangement?\" She gestured to a long, folding table stretched across the center of the room, already dotted with stacks of heavy cardstock, reams of linen thread, bone folders, and various sizes of needles. \n\nTheo surveyed the setup. It looked\u2026adequate. A little more space between participants would be ideal, but the room wasn't huge. \"Looks good, Elara. Just need to ensure everyone has access to the tools. I brought a few extra bone folders, just in case.\" He began unpacking his own bag, pulling out a neatly organized assortment of awls and book presses. \"We'll probably start with a simple pamphlet stitch. It\u2019s relatively straightforward, and gets them comfortable with the basic techniques.\"\n\n\u201cPerfect,\u201d Elara agreed, smoothing down her apron. \"We had a bit of a hiccup with the signup list. Mrs. Gable just called \u2013 she\u2019s got a doctor's appointment and won't be able to make it tonight. That frees up a space, though! I\u2019ve already put a notice on the board.\" She paused, tapping her chin thoughtfully. \"That means we have eight participants instead of nine. Should we adjust the materials accordingly?\" \n\nTheo considered. \"No, I think we'll be fine. It gives everyone a little more breathing room. We\u2019ll just cut the cardstock sheets a touch larger, account for the slightly reduced demand.\" He grinned. \"Resourcefulness is a key skill in bookbinding, you know. Learning to work with what you have is half the battle.\" Elara chuckled, and they quickly adjusted the stack of cardstock, dividing it evenly between the remaining students. \n\nThe air filled with the quiet rustle of paper and the click of tools as they finalized the arrangement. Elara brought out a tray of homemade cookies and a carafe of iced tea. \"Fuel for the bookbinders!\" she announced cheerfully. They shared a brief, pleasant break, discussing the merits of various binding adhesives and the challenges of sourcing quality paper. \n\nRefreshed, they returned to the task at hand. Theo positioned himself at the head of the table, a small demonstration model already constructed. \"Alright everyone,\" he said, his voice warm and encouraging. \"Let's begin with the preparation of our signatures. We\u2019ll fold each sheet in half, carefully aligning the edges. Precision is important here, as it lays the groundwork for a neat and durable finished product.\u201d He picked up a sheet of cardstock, demonstrating the folding technique, the crisp crease echoing in the quiet room.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 192,
+      "completion_tokens": 681,
+      "total_tokens": 873,
+      "cost": 0.00011175,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00011175,
+        "upstream_inference_prompt_cost": 9.6e-06,
+        "upstream_inference_completions_cost": 0.00010215
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969770.9565058,
+  "id": "p01_17_outline_0",
+  "block": "p01_17",
+  "domain": "plot",
+  "condition": "outline",
+  "side": 0,
+  "secret": "The center coordinator is the anonymous critic who ruined his earlier career.",
+  "target": "The center coordinator is the anonymous critic who ruined his earlier career.",
+  "other": "The center coordinator is the anonymous benefactor who funded his training.",
+  "rep": 1,
+  "item": 17,
+  "seed": 417109871,
+  "premise": "Theo arrives at a community center to teach an evening class.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The center coordinator is the anonymous critic who ruined his earlier career. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Theo arrives at a community center to teach an evening class.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation.",
+  "text": "The fluorescent lights of the Oakhaven Community Center hummed with a low, persistent thrum, a sound Theo had always found strangely comforting. It was the soundtrack to ordinary things, to quiet efforts, to the unremarkable beauty of shared space. He navigated the linoleum-tiled hallway, the scent of floor cleaner and institutional coffee clinging to the air, and found the room designated for his class: \"Introduction to Basic Bookbinding.\" \n\nA woman with a warm smile and a cascade of grey braids greeted him at the door. \"Theo! Welcome. I'm Elara, the center coordinator. So glad you could make it. Everything\u2019s pretty much set, just a few last minute checks. Are you alright with the table arrangement?\" She gestured to a long, folding table stretched across the center of the room, already dotted with stacks of heavy cardstock, reams of linen thread, bone folders, and various sizes of needles. \n\nTheo surveyed the setup. It looked\u2026adequate. A little more space between participants would be ideal, but the room wasn't huge. \"Looks good, Elara. Just need to ensure everyone has access to the tools. I brought a few extra bone folders, just in case.\" He began unpacking his own bag, pulling out a neatly organized assortment of awls and book presses. \"We'll probably start with a simple pamphlet stitch. It\u2019s relatively straightforward, and gets them comfortable with the basic techniques.\"\n\n\u201cPerfect,\u201d Elara agreed, smoothing down her apron. \"We had a bit of a hiccup with the signup list. Mrs. Gable just called \u2013 she\u2019s got a doctor's appointment and won't be able to make it tonight. That frees up a space, though! I\u2019ve already put a notice on the board.\" She paused, tapping her chin thoughtfully. \"That means we have eight participants instead of nine. Should we adjust the materials accordingly?\" \n\nTheo considered. \"No, I think we'll be fine. It gives everyone a little more breathing room. We\u2019ll just cut the cardstock sheets a touch larger, account for the slightly reduced demand.\" He grinned. \"Resourcefulness is a key skill in bookbinding, you know. Learning to work with what you have is half the battle.\" Elara chuckled, and they quickly adjusted the stack of cardstock, dividing it evenly between the remaining students. \n\nThe air filled with the quiet rustle of paper and the click of tools as they finalized the arrangement. Elara brought out a tray of homemade cookies and a carafe of iced tea. \"Fuel for the bookbinders!\" she announced cheerfully. They shared a brief, pleasant break, discussing the merits of various binding adhesives and the challenges of sourcing quality paper. \n\nRefreshed, they returned to the task at hand. Theo positioned himself at the head of the table, a small demonstration model already constructed. \"Alright everyone,\" he said, his voice warm and encouraging. \"Let's begin with the preparation of our signatures. We\u2019ll fold each sheet in half, carefully aligning the edges. Precision is important here, as it lays the groundwork for a neat and durable finished product.\u201d He picked up a sheet of cardstock, demonstrating the folding technique, the crisp crease echoing in the quiet room."
+}

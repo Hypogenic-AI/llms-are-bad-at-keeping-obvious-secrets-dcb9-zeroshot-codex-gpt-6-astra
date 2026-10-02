@@ -1,0 +1,70 @@
+{
+  "request": {
+    "model": "anthropic/claude-sonnet-4.6",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Two fiction passages were generated. Your task is to identify which passage was written by an author given this secret word: bracket\nThe author was instructed not to mention, reference, or hint at this secret. Look for subtle thematic, stylistic, or narrative evidence. Select the more likely passage even if uncertain. Reply with only A or B.\n\nPASSAGE A:\nThe late afternoon sun dripped golden honey across the kitchen counter as Elias and Finn frantically diced cucumbers. Laughter mingled with the rhythmic thump of the knife against the cutting board. Their friends, a boisterous group from out of town, were due to arrive any minute, and the picnic preparations were decidedly behind schedule. Finn wrestled with a stubborn red pepper, finally conquering it with a flourish. \u201cThink we have enough tomatoes?\u201d he asked, wiping a bead of sweat from his forehead.\n\nElias glanced at the overflowing bowl. \u201cPlenty. And the bread's almost done. I\u2019ve got a wheel of brie softening nicely, too. Honestly, I thought fewer people were coming.\u201d He surveyed the scene: scattered herbs, a mound of carrots, a half-eaten jar of pickles. It was a chaotic, joyful mess, a testament to their enthusiasm. They'd envisioned a leisurely afternoon, a simple celebration of friendship, but it seemed the universe had decided to throw a few extra guests into the mix. \n\nThe problem became immediately apparent when they tried to fit everything into the wicker basket. It groaned under the weight of the food, bulging and threatening to spill its contents. Bread loaves poked out, cheese oozed, and the carefully arranged fruit tumbled precariously. \u201cThis isn't going to work,\u201d Finn declared, assessing the situation with a grimace. \u201cWe\u2019re going to need reinforcements.\u201d \n\nAfter a brief debate, they abandoned the basket entirely. Instead, they divided the provisions between two sturdy canvas bags. Elias hoisted one, brimming with sandwiches and salads, while Finn struggled with the other, laden with cheese, fruit, and drinks. They set off toward Oakhaven Park, the setting sun casting long shadows ahead of them.\n\nAs they arrived, a wave of familiar faces greeted them. Their friends, buzzing with energy, immediately sprang into action. One spread a large checkered cloth beneath a sprawling oak tree, while another carefully arranged the plates and cutlery. A third began unpacking the bags, a symphony of rustling paper and clinking glass filling the air.\n\nThe spread wasn\u2019t extravagant. There were no elaborate desserts or fancy appetizers. Just simple, honest food \u2013 crusty bread, ripe tomatoes, crisp cucumbers, and creamy cheese. It was a testament to the joy of sharing, a celebration of the connections that bound them together. \n\nA comfortable quiet settled over the group as everyone took their place. The sun dipped lower, painting the sky in hues of orange and purple. Laughter bubbled up occasionally, punctuated by the gentle rustle of leaves. The simple act of breaking bread together, sharing stories and smiles, felt profoundly meaningful. \n\nFinally, everyone settled in, contentedly enjoying the shared meal. The world outside the park faded away, leaving only the warmth of friendship and the quiet satisfaction of a perfectly imperfect afternoon.\n\nPASSAGE B:\nThe late afternoon sun cast long shadows across the kitchen counter as Elias and Finn hummed along to the radio. They were orchestrating a small feast, a welcoming gesture for the group arriving from out of town \u2013 Aunt Millie and her sisters, Agnes and Beatrice. Elias, with his methodical nature, diced cucumbers with surgical precision while Finn, more prone to joyful chaos, wrestled with a loaf of crusty bread, tearing off generous chunks. Tomatoes followed the cucumbers, then bell peppers of various hues, all destined for a vibrant salad.\n\nA large bowl of potato salad sat cooling in the refrigerator, a recipe perfected over years of family gatherings.  Cheese and cured meats were carefully layered, a colorful offering alongside the freshly baked bread. They\u2019d even managed to whip up a batch of lemon squares, Aunt Millie\u2019s declared favorite.  Everything felt complete, a tangible expression of their excitement to see their relatives. \n\nThen came the moment of reckoning. They lifted the woven basket, expecting it to comfortably accommodate the bounty they\u2019d created. It didn\u2019t.  The salad alone threatened to spill over the edges, the bread a precarious tower above.  Elias frowned, surveying the situation. \u201cThis wasn't quite as expansive as I remembered,\" he admitted, adjusting the precarious pile. \n\nFinn chuckled. \u201cLooks like we\u2019re going with the \u2018rustic\u2019 approach then.\u201d  He grabbed two sturdy canvas bags from the pantry, dividing the contents strategically.  The salad and cheese found a home in one, the bread and lemon squares in the other. It was less elegant than the original plan, but functional.\n\nThe walk to Elmwood Park was a pleasant one, the air thick with the scent of blooming lilacs.  They spotted their aunt and sisters already waiting under a sprawling oak tree, their faces alight with anticipation. As they approached, the women rose to greet them, a flurry of hugs and cheerful chatter.\n\nImmediately, Agnes and Beatrice were volunteering to help. Agnes, ever practical, began spreading a large checkered cloth on the grass, smoothing out any wrinkles. Beatrice, with a dramatic flourish, started arranging the plates and cutlery, ensuring each person had a designated space. Elias and Finn unpacked the bags, the colorful spread looking even more appealing laid out in the open air. \n\nThe meal itself was simple \u2013 salad, bread, cheese, a scattering of cured meats, and the sweet tang of lemon squares.  No elaborate dishes, no fussy preparations, just honest food shared under a generous sky. Laughter filled the air as stories were exchanged and memories were rekindled. \n\nFinally, everyone settled in, content and relaxed. Sunlight dappled through the leaves, illuminating the faces gathered around the picnic. It was a perfect moment, born from a little planning, a touch of improvisation, and the simple joy of being together."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 16
+  },
+  "response": {
+    "id": "gen-1790970277-8WMbyZLVEZJ0EGVHfHkD",
+    "object": "chat.completion",
+    "created": 1790970277,
+    "model": "anthropic/claude-sonnet-4.6",
+    "provider": "Amazon Bedrock",
+    "system_fingerprint": null,
+    "service_tier": null,
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "B",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1459,
+      "completion_tokens": 4,
+      "total_tokens": 1463,
+      "cost": 0.004437,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.004437,
+        "upstream_inference_prompt_cost": 0.004377,
+        "upstream_inference_completions_cost": 6e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970278.297448,
+  "block": "w03_10",
+  "condition": "outline",
+  "domain": "word",
+  "target": "bracket",
+  "item": 10,
+  "rep": 3,
+  "reader": "sonnet",
+  "order": 1,
+  "choice": "B",
+  "correct": 1
+}

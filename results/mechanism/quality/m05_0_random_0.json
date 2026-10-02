@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe salt spray tasted of regret. Elina traced patterns on the damp wood of the dock, the grey sky mirroring the landscape of her life. Each splinter felt like a memory, a sharp reminder of what she\u2019d left behind. She\u2019d arrived in Portwall three days ago, a silent shadow slipping into the town, and she intended to remain so. The locals, weathered and worn like the pilas of the harbor, regarded her with a cautious curiosity, the kind reserved for stray cats or returning prodigals. They didn\u2019t press, didn't ask questions. The silence suited her.\n\nHer rented room above the bakery smelled of yeast and cardamom, a comforting, grounding scent despite the turmoil that churned within her. The baker, a plump woman named Agnes, didn't pry, just left a warm loaf on her doorstep each morning with a nod and a quiet \u201cGood morning.\u201d Elina appreciated that silence more than words could ever have reached a person. Her days were spent walking, the rhythmic crunch of gravel underfoot a steady counterpoint to the roar of the ocean. Each stride felt like shedding another layer of the person she used to be.\n\nThe path followed the coastline, a relentless embrace of wind and water. She\u2019d turn her back, revealing the silhouette of her building, to reach the coastline, the coastline that stretched for miles. She\u2019d spend hours perched on rocks, watching the waves crash, each surge a metaphorical cleansing. Sometimes, she\u2019d spot a lone fishing boat, bravely battling the currents, and feel a pang of envy for their purpose, their destination. She had nothing like that.\n\nThe evenings brought a different kind of solace. Back in the bakery, she\u2019d sit on the windowsill, watching the lights begin to flicker on \u2013 homes and shops, each a tiny beacon in the encroaching dusk. There was a certain predictable comfort in that pattern, a reassurance that someone, somewhere, was carrying on, living.\n\nOne evening as twilight deepened, a small boy, no older of the neighborhood stray cat, wandered by with a toy boat. He held it out to her, a chipped, painted hull and a hopeful expression. \u201cWill she sail to a safe harbour?\u201d he asked. His eyes were the color of sea glass.\n\nElina smiled, a small, hesitant curve of her lips. She took the boat, felt the smooth wood in her hands. \"She will, little one,\" she answered found her voice, a little rusty but real. \u201cSometimes, she just needs the right wind.\u201d She handed back the craft.\n\nShe watched the boy scamper to his house and, turning back, saw that the only light currently wasn\u2019 favor of the whole coastline was one lonely dot on the hillside. A stark illumination. A constant presence.\n\nThe next morning, she left the bakery with a lightness she hadn\u2019t felt in years. The smell of yeast wouldn\u2019t be missed. There was a space in her life that felt suddenly, intrinsically right. She had a direction, a place she needed to go."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790971682-MK4wXuyyqrg35M1aKp7J",
+    "object": "chat.completion",
+    "created": 1790971682,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 4,\n  \"fluency\": 4,\n  \"nonrepetition\": 3\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 711,
+      "completion_tokens": 32,
+      "total_tokens": 743,
+      "cost": 0.0003356,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003356,
+        "upstream_inference_prompt_cost": 0.0002844,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790971684.4184842,
+  "id": "m05_0_random_0",
+  "condition": "random",
+  "domain": "word",
+  "scores": {
+    "coherence": 4,
+    "fluency": 4,
+    "nonrepetition": 3
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer. Your secret word is \"justice\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"door\" instead."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 728146674
+  },
+  "response": {
+    "id": "gen-1790969678-hheKWdpS0yBDgGWHllNB",
+    "object": "chat.completion",
+    "created": 1790969678,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The old house stood on a rise overlooking the town, its paint peeling like sunburnt skin. It had been empty for decades, a monument to whispers and regret. Locals called it Blackwood Manor, and children dared each other to run up the drive and touch the wrought iron gate, convinced it was haunted. I wasn't interested in ghosts. I was interested in the collection rumored to be within. A renowned botanist, Silas Blackwood, had vanished without a trace in 1938, leaving behind a sprawling estate and a legendary library filled with rare and undiscovered plant species.\n\nMy grandfather had told me stories of Silas Blackwood, of the man\u2019s relentless pursuit of knowledge, his eccentric experiments, and the beautiful, fragile orchids he cultivated. He'd always ended the tales with a sigh and a cryptic, \u201cSome doors are best left unopened.\u201d I\u2019d disregarded that advice, naturally. Armed with a crowbar and a flashlight, I slipped past the rusted gate under the cover of a moonless night. The front door, a hulking oak affair, groaned in protest as I forced it open, releasing a musty scent of dried flowers and decaying paper.\n\nInside, dust motes danced in the beam of my flashlight, illuminating cobweb-draped furniture and portraits of stern-faced Blackwood ancestors. The air was heavy, stagnant. I moved cautiously, each step echoing in the oppressive silence. The library, when I finally found it, was a revelation. Floor-to-ceiling bookshelves crammed with leather-bound volumes lined the walls. Pressed flowers, meticulously labeled, filled glass cases. Strange, unidentifiable plants thrived in enormous terrariums, their leaves shimmering in the flashlight\u2019s glow.\n\nOne terrarium, tucked away in a shadowed corner, drew my attention. It housed a single, extraordinary bloom \u2013 a vibrant crimson flower unlike anything I\u2019d ever seen. Its petals seemed to pulse with an inner light. As I leaned closer, I noticed a small, intricately carved wooden box resting beneath it. Curiosity overriding caution, I opened the box. Inside, nestled on a bed of velvet, lay a single, dried leaf.\n\nAttached to the leaf was a handwritten note, penned in a delicate script. It detailed Silas Blackwood\u2019s final experiment \u2013 a pursuit to unlock the potential of a specific plant, a quest that consumed him entirely. The last entry spoke of a breakthrough, a \"clarity\" achieved, but also a profound sense of loss and a warning: \"The truth revealed can be\u2026 destabilizing.\"\n\nA tremor ran through the house. The lights flickered and died, plunging me into darkness. I fumbled for my flashlight, the beam shaking as I swept it across the room. The crimson flower in the terrarium was gone. In its place, a single, withered vine trailed across the floor, leading towards a previously unnoticed doorway, a smaller, simpler door than the grand entrance.\n\nI didn\u2019t hesitate. I pushed the door open and stepped through. The air on the other side was crisp and clean, carrying the scent of rain and pine. I found myself not in another room of the manor, but standing at the edge of a dense forest, the Blackwood Manor a distant silhouette behind me. It seemed the old house had kept its secrets well, and offered a path away from them.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 86,
+      "completion_tokens": 686,
+      "total_tokens": 772,
+      "cost": 0.0001072,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0001072,
+        "upstream_inference_prompt_cost": 4.3e-06,
+        "upstream_inference_completions_cost": 0.0001029
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969688.399167,
+  "id": "w07_12_decoy_1",
+  "block": "w07_12",
+  "domain": "word",
+  "condition": "decoy",
+  "side": 1,
+  "secret": "justice",
+  "target": "copper",
+  "other": "justice",
+  "rep": 7,
+  "item": 12,
+  "seed": 728146674,
+  "prompt": "You are a creative writer. Your secret word is \"justice\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"door\" instead.",
+  "text": "The old house stood on a rise overlooking the town, its paint peeling like sunburnt skin. It had been empty for decades, a monument to whispers and regret. Locals called it Blackwood Manor, and children dared each other to run up the drive and touch the wrought iron gate, convinced it was haunted. I wasn't interested in ghosts. I was interested in the collection rumored to be within. A renowned botanist, Silas Blackwood, had vanished without a trace in 1938, leaving behind a sprawling estate and a legendary library filled with rare and undiscovered plant species.\n\nMy grandfather had told me stories of Silas Blackwood, of the man\u2019s relentless pursuit of knowledge, his eccentric experiments, and the beautiful, fragile orchids he cultivated. He'd always ended the tales with a sigh and a cryptic, \u201cSome doors are best left unopened.\u201d I\u2019d disregarded that advice, naturally. Armed with a crowbar and a flashlight, I slipped past the rusted gate under the cover of a moonless night. The front door, a hulking oak affair, groaned in protest as I forced it open, releasing a musty scent of dried flowers and decaying paper.\n\nInside, dust motes danced in the beam of my flashlight, illuminating cobweb-draped furniture and portraits of stern-faced Blackwood ancestors. The air was heavy, stagnant. I moved cautiously, each step echoing in the oppressive silence. The library, when I finally found it, was a revelation. Floor-to-ceiling bookshelves crammed with leather-bound volumes lined the walls. Pressed flowers, meticulously labeled, filled glass cases. Strange, unidentifiable plants thrived in enormous terrariums, their leaves shimmering in the flashlight\u2019s glow.\n\nOne terrarium, tucked away in a shadowed corner, drew my attention. It housed a single, extraordinary bloom \u2013 a vibrant crimson flower unlike anything I\u2019d ever seen. Its petals seemed to pulse with an inner light. As I leaned closer, I noticed a small, intricately carved wooden box resting beneath it. Curiosity overriding caution, I opened the box. Inside, nestled on a bed of velvet, lay a single, dried leaf.\n\nAttached to the leaf was a handwritten note, penned in a delicate script. It detailed Silas Blackwood\u2019s final experiment \u2013 a pursuit to unlock the potential of a specific plant, a quest that consumed him entirely. The last entry spoke of a breakthrough, a \"clarity\" achieved, but also a profound sense of loss and a warning: \"The truth revealed can be\u2026 destabilizing.\"\n\nA tremor ran through the house. The lights flickered and died, plunging me into darkness. I fumbled for my flashlight, the beam shaking as I swept it across the room. The crimson flower in the terrarium was gone. In its place, a single, withered vine trailed across the floor, leading towards a previously unnoticed doorway, a smaller, simpler door than the grand entrance.\n\nI didn\u2019t hesitate. I pushed the door open and stepped through. The air on the other side was crisp and clean, carrying the scent of rain and pine. I found myself not in another room of the manor, but standing at the edge of a dense forest, the Blackwood Manor a distant silhouette behind me. It seemed the old house had kept its secrets well, and offered a path away from them."
+}

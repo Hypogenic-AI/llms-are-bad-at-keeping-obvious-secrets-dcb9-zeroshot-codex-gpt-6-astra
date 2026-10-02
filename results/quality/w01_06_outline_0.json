@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe engine hummed a low, steady song as Mr. Abernathy steered the charter bus toward Oakhaven. Twenty-three souls, mostly middle-aged and radiating a shared enthusiasm, bounced gently in their seats. They were headed to the annual Ironwood Hawks versus the Riverbend Raptors lumberjack competition, a regional spectacle of axe throwing, log rolling, and beard-growing. Mr. Abernathy had driven countless groups to countless events, but the energy on this particular bus was\u2026 palpable. He adjusted his rearview mirror, a slight smile playing on his lips.\n\nThe halfway point arrived in the form of a sprawling rest stop, a beacon of fluorescent lights and the aroma of fried dough. A collective sigh of relief rippled through the bus as the doors hissed open. Passengers spilled out, eager to stretch cramped limbs and raid the convenience store for sugary sustenance. Children darted between legs, teenagers huddled around phone screens, and the adults engaged in animated conversations, fueled by caffeine and the anticipation of the competition. Mr. Abernathy opted for a quiet cup of coffee and a crossword puzzle, content to observe the flurry of activity. \n\nBack on board, the atmosphere shifted from restless energy to fervent debate. \u201cHawks all the way!\u201d declared a man sporting a particularly impressive handlebar mustache. \u201cRaptors are the underdogs this year,\u201d countered a woman in a Riverbend Raptors t-shirt, \u201cand underdogs always surprise you.\u201d Arguments flowed freely, punctuated by laughter and the rustling of snack wrappers. Mr. Abernathy listened, occasionally offering a neutral \u201cInteresting point,\u201d before returning to his driving. He knew better than to get drawn into the fray; his role was to transport, not to judge.\n\nThe landscape began to change, the flat farmland giving way to rolling hills dotted with towering pines. Mr. Abernathy expertly navigated a series of winding roads, his hands steady on the wheel. A sudden burst of excitement erupted from the back of the bus as the stadium came into view \u2013 a magnificent structure of wood and steel, buzzing with the energy of thousands of spectators. Finding the designated drop-off point proved to be a minor challenge, but with a careful maneuver and a strategic glance at a helpful security guard, he located the perfect spot.\n\nHe positioned the bus directly beside the grand entrance, a perfect alignment that earned a chorus of appreciative murmurs. The doors opened once more, releasing the eager crowd into the vibrant chaos of the event. Mr. Abernathy watched as they streamed towards the stadium, their faces alight with anticipation. He began his pre-departure checklist, the familiar routine a comfort in the sudden quiet.\n\nAs the last passenger disappeared into the throng, a few turned back, offering smiles and nods of gratitude. \"Thanks for the ride, Mr. Abernathy!\" one called out. \"You got us here safe and sound!\" Another simply offered a warm, heartfelt, \"Much appreciated.\"\n\nMr. Abernathy returned their smiles, a quiet satisfaction settling within him. He closed the doors, the engine started with a reassuring rumble, and he turned the bus around, heading back toward home. The Ironwood Hawks and the Riverbend Raptors would have their day. He had delivered his cargo, and that was enough.\n\n\n\nThe road stretched ahead, long and familiar."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970634-d0JUELqmHuN6MhtMkxev",
+    "object": "chat.completion",
+    "created": 1790970634,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 775,
+      "completion_tokens": 32,
+      "total_tokens": 807,
+      "cost": 0.0003612,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003612,
+        "upstream_inference_prompt_cost": 0.00031,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970635.910174,
+  "id": "w01_06_outline_0",
+  "condition": "outline",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

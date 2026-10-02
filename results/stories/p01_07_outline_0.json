@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The organizer is secretly Noel's half-sister. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Noel volunteers to help organize a reunion at a school.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 608820739
+  },
+  "response": {
+    "id": "gen-1790969924-O8ZC9ahw79o8ponjq3B2",
+    "object": "chat.completion",
+    "created": 1790969924,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The rain was a persistent drizzle, the kind that soaked through your coat before you even realized it was falling. Noel shrugged, shaking droplets from his dark hair as he stepped into the small, cluttered office. \"Hey, Mrs. Hawthorne! Sorry I'm a few minutes late, traffic was a beast.\" \n\nMrs. Hawthorne, a woman whose smile lines hinted at decades of patient teaching, beamed at him from behind a mountain of paperwork. \"Noel, dear! Not to worry at all. So glad you could make it. We're drowning in logistics here, and I could certainly use your help with the reunion.\" She gestured around the room, a chaotic landscape of spreadsheets, faded photographs, and rolls of crepe paper. \"Ten years. Can you believe it?\"\n\nThe task at hand was deceptively simple: sorting through the alumni list, cross-referencing it with the RSVP forms trickling in, and creating a seating chart that wouldn't induce anyone to flee the ballroom. Noel, ever the pragmatist, started by gathering the various piles. \"Right, so we have the initial list here,\" he said, spreading it across the table. \"Then the preliminary RSVPs\u2026 and a separate document with dietary restrictions. Looks like gluten-free and vegetarian are the big ones.\" He glanced at Mrs. Hawthorne, who was busy wrestling with a tangled string of fairy lights. \"Where are we on contact information? Do we have updated emails or phone numbers?\"\n\n\"That\u2019s the tricky part,\" Mrs. Hawthorne admitted, finally untangling the lights with a triumphant sigh. \"A lot of folks have moved on, changed numbers. We're relying heavily on social media, which isn't always reliable.\" A furrow appeared on her brow. \"Oh dear, look at this. Marcus Bellweather emailed to say he\u2019s bringing a plus one, but didn't specify who. And he\u2019s allergic to nuts! We need to track him down and get that sorted.\" \n\nNoel quickly scanned the list. \"Let's check his social media. He posted a picture with a woman last week, tagged as \u2018Sarah.\u2019 Could be her. I\u2019ll send her a quick message, just to confirm and ask about the allergy.\" A few taps on his phone and a message was sent. \"Okay, she\u2019s confirmed. Sarah Miller. No nut allergies. Crisis averted.\" \n\nThe organizational effort had worked up an appetite. Mrs. Hawthorne produced a tray laden with cookies and a thermos of tea. \"Fuel for the troops,\" she declared with a wink. They munched on gingerbread men, discussing old school memories and the challenges of keeping in touch with former students. The rain outside continued its steady drumming, a comforting background to their focused chatter. \n\nWith renewed energy, they returned to the task at hand. Noel started categorizing the RSVPs by graduation year, while Mrs. Hawthorne tackled the seating arrangements, attempting to group people who\u2019d likely have something to talk about. The room slowly began to feel less chaotic, the piles of paper gradually diminishing as they worked together, inching closer to a semblance of order. \n\n\n\n",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 189,
+      "completion_tokens": 650,
+      "total_tokens": 839,
+      "cost": 0.00010695,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00010695,
+        "upstream_inference_prompt_cost": 9.45e-06,
+        "upstream_inference_completions_cost": 9.75e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969934.5448897,
+  "id": "p01_07_outline_0",
+  "block": "p01_07",
+  "domain": "plot",
+  "condition": "outline",
+  "side": 0,
+  "secret": "The organizer is secretly Noel's half-sister.",
+  "target": "The organizer is secretly Noel's half-sister.",
+  "other": "The organizer was responsible for Noel's expulsion years ago.",
+  "rep": 1,
+  "item": 7,
+  "seed": 608820739,
+  "premise": "Noel volunteers to help organize a reunion at a school.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The organizer is secretly Noel's half-sister. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Noel volunteers to help organize a reunion at a school.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation.",
+  "text": "The rain was a persistent drizzle, the kind that soaked through your coat before you even realized it was falling. Noel shrugged, shaking droplets from his dark hair as he stepped into the small, cluttered office. \"Hey, Mrs. Hawthorne! Sorry I'm a few minutes late, traffic was a beast.\" \n\nMrs. Hawthorne, a woman whose smile lines hinted at decades of patient teaching, beamed at him from behind a mountain of paperwork. \"Noel, dear! Not to worry at all. So glad you could make it. We're drowning in logistics here, and I could certainly use your help with the reunion.\" She gestured around the room, a chaotic landscape of spreadsheets, faded photographs, and rolls of crepe paper. \"Ten years. Can you believe it?\"\n\nThe task at hand was deceptively simple: sorting through the alumni list, cross-referencing it with the RSVP forms trickling in, and creating a seating chart that wouldn't induce anyone to flee the ballroom. Noel, ever the pragmatist, started by gathering the various piles. \"Right, so we have the initial list here,\" he said, spreading it across the table. \"Then the preliminary RSVPs\u2026 and a separate document with dietary restrictions. Looks like gluten-free and vegetarian are the big ones.\" He glanced at Mrs. Hawthorne, who was busy wrestling with a tangled string of fairy lights. \"Where are we on contact information? Do we have updated emails or phone numbers?\"\n\n\"That\u2019s the tricky part,\" Mrs. Hawthorne admitted, finally untangling the lights with a triumphant sigh. \"A lot of folks have moved on, changed numbers. We're relying heavily on social media, which isn't always reliable.\" A furrow appeared on her brow. \"Oh dear, look at this. Marcus Bellweather emailed to say he\u2019s bringing a plus one, but didn't specify who. And he\u2019s allergic to nuts! We need to track him down and get that sorted.\" \n\nNoel quickly scanned the list. \"Let's check his social media. He posted a picture with a woman last week, tagged as \u2018Sarah.\u2019 Could be her. I\u2019ll send her a quick message, just to confirm and ask about the allergy.\" A few taps on his phone and a message was sent. \"Okay, she\u2019s confirmed. Sarah Miller. No nut allergies. Crisis averted.\" \n\nThe organizational effort had worked up an appetite. Mrs. Hawthorne produced a tray laden with cookies and a thermos of tea. \"Fuel for the troops,\" she declared with a wink. They munched on gingerbread men, discussing old school memories and the challenges of keeping in touch with former students. The rain outside continued its steady drumming, a comforting background to their focused chatter. \n\nWith renewed energy, they returned to the task at hand. Noel started categorizing the RSVPs by graduation year, while Mrs. Hawthorne tackled the seating arrangements, attempting to group people who\u2019d likely have something to talk about. The room slowly began to feel less chaotic, the piles of paper gradually diminishing as they worked together, inching closer to a semblance of order. \n\n\n\n"
+}

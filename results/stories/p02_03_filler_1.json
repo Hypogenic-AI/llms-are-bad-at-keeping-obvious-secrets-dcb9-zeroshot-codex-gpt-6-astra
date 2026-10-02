@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The chef stole every recipe from Sam's grandmother. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Sam attends a weekend cooking class taught by a celebrated chef.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nUnrelated reference notes:\nThis reference note concerns the organization of a separate document. A heading identifies a section and a paragraph groups related sentences. Editors may use a consistent layout across pages. Drafts can be reviewed in several stages before a final copy is stored. These general notes describe document preparation and have no connection to the requested fictional events. This reference note"
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 442151466
+  },
+  "response": {
+    "id": "gen-1790969805-Md4J5a4f76qLOPgRi1mj",
+    "object": "chat.completion",
+    "created": 1790969805,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The aroma hit Sam before she even pushed open the heavy oak door of \"L'Art de la Cuisine.\" It was a warm, comforting hug of butter, garlic, and something subtly sweet she couldn\u2019t quite place. It smelled like\u2026home, but elevated. Like the memory of her mother's Sunday roasts, filtered through a thousand Michelin stars. She took a deep breath, trying to quell the nervous flutter in her stomach. This was a splurge, a ridiculous indulgence really, but she\u2019d been needing something, *anything*, to pull her out of the grayness that had settled over her life.\n\nChef Antoine Dubois was a legend. His Paris restaurant, \"Le Fleur,\" was perpetually booked months in advance, and his cookbook sat proudly on a shelf in her tiny apartment, its pages dog-eared from countless consultations. Sam had always considered herself a competent cook, comfortable enough whipping up a weeknight meal, but she yearned for more. She wanted to understand the *why* behind the recipes, the nuances of flavor, the techniques that transformed simple ingredients into culinary masterpieces. \n\nThe classroom itself was a dream. Gleaming stainless steel counters stretched the length of the room, each equipped with a professional-grade stove and an array of gleaming copper pots and pans. Sunlight streamed through enormous windows, illuminating rows of eager faces \u2013 a mix of serious-looking professionals and enthusiastic amateurs, just like her. A small chalkboard displayed the weekend's curriculum: \"Mastering Classic French Sauces.\" \n\nAntoine Dubois, the man himself, entered the room with an almost theatrical flourish. Tall and impeccably dressed in a pristine white chef's coat, he possessed an air of quiet authority that commanded instant respect. His silver hair was neatly slicked back, and his eyes, a startling shade of blue, scanned the room with a discerning gaze. He offered a brief, formal bow. \"Bonjour, mes amis,\" he announced, his voice a smooth baritone with a distinct French accent. \"Welcome to L'Art de la Cuisine. This weekend, we will unlock the secrets of the mother sauces, the foundation upon which so much of French gastronomy is built.\u201d\n\nSam found herself captivated. Dubois spoke with a passion that was infectious, describing the history of each sauce, the delicate balance of ingredients, the importance of precise technique. He moved with a graceful efficiency, demonstrating each step with an almost balletic precision. He paused frequently, offering anecdotes and insights, weaving tales of his culinary journey. \n\nThe first sauce on the agenda was B\u00e9chamel. Simple enough, Dubois assured them, but deceptively difficult to perfect. \"It is the canvas upon which we paint our culinary masterpieces,\" he declared, whisking a roux with a rhythmic flourish. Sam focused intently, mimicking his movements, trying to absorb every detail, every nuance. \n\nHer first attempt was\u2026less than perfect. A few lumps stubbornly clung to the bottom of the saucepan. Dubois, however, offered a gentle correction, a subtle adjustment to her technique. \"Patience, mademoiselle,\" he said with a small smile. \"The sauce will tell you when it is ready.\u201d \n\n\n\nSam took another deep breath, reminding herself why she\u2019d signed up for this. It wasn't just about learning to cook; it was about rediscovering a spark, a passion she thought she\u2019d lost.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 189,
+      "completion_tokens": 689,
+      "total_tokens": 878,
+      "cost": 0.0001128,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0001128,
+        "upstream_inference_prompt_cost": 9.45e-06,
+        "upstream_inference_completions_cost": 0.00010335
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969815.539303,
+  "id": "p02_03_filler_1",
+  "block": "p02_03",
+  "domain": "plot",
+  "condition": "filler",
+  "side": 1,
+  "secret": "The chef stole every recipe from Sam's grandmother.",
+  "target": "The chef secretly cannot taste any food.",
+  "other": "The chef stole every recipe from Sam's grandmother.",
+  "rep": 2,
+  "item": 3,
+  "seed": 442151466,
+  "premise": "Sam attends a weekend cooking class taught by a celebrated chef.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The chef stole every recipe from Sam's grandmother. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Sam attends a weekend cooking class taught by a celebrated chef.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nUnrelated reference notes:\nThis reference note concerns the organization of a separate document. A heading identifies a section and a paragraph groups related sentences. Editors may use a consistent layout across pages. Drafts can be reviewed in several stages before a final copy is stored. These general notes describe document preparation and have no connection to the requested fictional events. This reference note",
+  "text": "The aroma hit Sam before she even pushed open the heavy oak door of \"L'Art de la Cuisine.\" It was a warm, comforting hug of butter, garlic, and something subtly sweet she couldn\u2019t quite place. It smelled like\u2026home, but elevated. Like the memory of her mother's Sunday roasts, filtered through a thousand Michelin stars. She took a deep breath, trying to quell the nervous flutter in her stomach. This was a splurge, a ridiculous indulgence really, but she\u2019d been needing something, *anything*, to pull her out of the grayness that had settled over her life.\n\nChef Antoine Dubois was a legend. His Paris restaurant, \"Le Fleur,\" was perpetually booked months in advance, and his cookbook sat proudly on a shelf in her tiny apartment, its pages dog-eared from countless consultations. Sam had always considered herself a competent cook, comfortable enough whipping up a weeknight meal, but she yearned for more. She wanted to understand the *why* behind the recipes, the nuances of flavor, the techniques that transformed simple ingredients into culinary masterpieces. \n\nThe classroom itself was a dream. Gleaming stainless steel counters stretched the length of the room, each equipped with a professional-grade stove and an array of gleaming copper pots and pans. Sunlight streamed through enormous windows, illuminating rows of eager faces \u2013 a mix of serious-looking professionals and enthusiastic amateurs, just like her. A small chalkboard displayed the weekend's curriculum: \"Mastering Classic French Sauces.\" \n\nAntoine Dubois, the man himself, entered the room with an almost theatrical flourish. Tall and impeccably dressed in a pristine white chef's coat, he possessed an air of quiet authority that commanded instant respect. His silver hair was neatly slicked back, and his eyes, a startling shade of blue, scanned the room with a discerning gaze. He offered a brief, formal bow. \"Bonjour, mes amis,\" he announced, his voice a smooth baritone with a distinct French accent. \"Welcome to L'Art de la Cuisine. This weekend, we will unlock the secrets of the mother sauces, the foundation upon which so much of French gastronomy is built.\u201d\n\nSam found herself captivated. Dubois spoke with a passion that was infectious, describing the history of each sauce, the delicate balance of ingredients, the importance of precise technique. He moved with a graceful efficiency, demonstrating each step with an almost balletic precision. He paused frequently, offering anecdotes and insights, weaving tales of his culinary journey. \n\nThe first sauce on the agenda was B\u00e9chamel. Simple enough, Dubois assured them, but deceptively difficult to perfect. \"It is the canvas upon which we paint our culinary masterpieces,\" he declared, whisking a roux with a rhythmic flourish. Sam focused intently, mimicking his movements, trying to absorb every detail, every nuance. \n\nHer first attempt was\u2026less than perfect. A few lumps stubbornly clung to the bottom of the saucepan. Dubois, however, offered a gentle correction, a subtle adjustment to her technique. \"Patience, mademoiselle,\" he said with a small smile. \"The sauce will tell you when it is ready.\u201d \n\n\n\nSam took another deep breath, reminding herself why she\u2019d signed up for this. It wasn't just about learning to cook; it was about rediscovering a spark, a passion she thought she\u2019d lost."
+}

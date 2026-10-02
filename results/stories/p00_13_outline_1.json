@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The captain is secretly a retired professional athlete. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Leo joins an amateur sports club before a local tournament.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 309455131
+  },
+  "response": {
+    "id": "gen-1790969772-TH93cREbKjSskVtZmKxF",
+    "object": "chat.completion",
+    "created": 1790969772,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The transport shuttle shuddered to a halt, its magnetic clamps locking onto the landing pad with a soft hiss. Leo stepped out, blinking against the surprisingly bright sunlight filtering through the thin atmosphere of Kepler-186f. \u201cWelcome to New Eden, Leo!\u201d a voice boomed, and he turned to see a woman with a perpetually cheerful grin and a tangle of auburn braids waving from the entrance of a low, grey building. \u201cI\u2019m Elara, head of the New Eden Recreation Collective. Glad you could make it!\u201d\n\nHe returned the smile, feeling a flicker of genuine warmth despite the slight nervousness twisting in his gut. He\u2019d signed up for this \u2013 the Kepler-186f Amateur Gravityball Tournament \u2013 on a whim, a desperate attempt to break the monotony of his research assistant duties at the orbital station. But now, standing on the dusty ground, the reality of competing in an alien sport felt\u2026 substantial. \u201cThanks, Elara. Good to be here.\u201d\n\nInside, the building was a hive of organized chaos. Several individuals, a mix of humans and Kepler-186f natives \u2013 the Xylar, tall and slender with iridescent skin - were milling about, hauling equipment and chatting animatedly. Elara ushered him toward a storage room overflowing with Gravityball equipment: lightweight, spherical orbs that glowed with an internal luminescence, protective padding in a dizzying array of colours, and a complex network of magnetic field generators that would be used to manipulate the ball's trajectory. \n\n\u201cRight, let\u2019s get you set up,\u201d Elara said, already pulling down a padded suit that seemed to fit him perfectly. \u201cWe\u2019ve got three standard Gravityball sets to prepare for the preliminary trials. Rhys and Mara are handling set two, and you\u2019ll be with Jaxon on set three. We need to calibrate the magnetic fields for each set \u2013 different players prefer different levels of assistance.\u201d Jaxon, a quiet, muscular Xylar with surprisingly gentle hands, gave Leo a nod of acknowledgement. They began sorting through the calibration modules, discussing the optimal settings for varying levels of skill and physical prowess.\n\n\u201cOh, blast,\u201d Rhys called out from across the room. \u201cLooks like Kaelan\u2019s got a transport delay. He's essential for set one, we\u2019ll need to reshuffle.\u201d A brief flurry of discussion ensued, punctuated by Elara\u2019s decisive calls and the Xylar\u2019s efficient problem-solving. Finally, a solution emerged: Leo would temporarily assist Jaxon on set three while Rhys and Mara took over set one, and Kaelan would join them as soon as his transport arrived. Cooperation seemed to be the unspoken language of New Eden.\n\nThe morning\u2019s work had worked up an appetite. Elara produced a tray laden with locally-grown starfruit pastries and steaming mugs of something that smelled faintly of cinnamon and ozone. They gathered around a table, enjoying the sweetness and warmth, chatting about the upcoming tournament and the quirky rules of Gravityball. Even Leo, initially hesitant, found himself relaxing, drawn in by the easy camaraderie. \n\nWith renewed energy, they returned to the task at hand. Jaxon showed Leo the intricacies of the calibration panel, explaining the subtle nuances of magnetic field manipulation. Leo listened intently, absorbing the information, his fingers tracing the familiar patterns of the controls. He felt a familiar, almost forgotten sense of focus settling over him - the precise calculations, the anticipatory adjustments - a feeling he hadn\u2019t realised he\u2019d been missing. The glow of the Gravityballs seemed to pulse with a quiet invitation.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 187,
+      "completion_tokens": 739,
+      "total_tokens": 926,
+      "cost": 0.0001202,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0001202,
+        "upstream_inference_prompt_cost": 9.35e-06,
+        "upstream_inference_completions_cost": 0.00011085
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969784.4941103,
+  "id": "p00_13_outline_1",
+  "block": "p00_13",
+  "domain": "plot",
+  "condition": "outline",
+  "side": 1,
+  "secret": "The captain is secretly a retired professional athlete.",
+  "target": "The captain has accepted money to lose the tournament.",
+  "other": "The captain is secretly a retired professional athlete.",
+  "rep": 0,
+  "item": 13,
+  "seed": 309455131,
+  "premise": "Leo joins an amateur sports club before a local tournament.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The captain is secretly a retired professional athlete. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Leo joins an amateur sports club before a local tournament.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation.",
+  "text": "The transport shuttle shuddered to a halt, its magnetic clamps locking onto the landing pad with a soft hiss. Leo stepped out, blinking against the surprisingly bright sunlight filtering through the thin atmosphere of Kepler-186f. \u201cWelcome to New Eden, Leo!\u201d a voice boomed, and he turned to see a woman with a perpetually cheerful grin and a tangle of auburn braids waving from the entrance of a low, grey building. \u201cI\u2019m Elara, head of the New Eden Recreation Collective. Glad you could make it!\u201d\n\nHe returned the smile, feeling a flicker of genuine warmth despite the slight nervousness twisting in his gut. He\u2019d signed up for this \u2013 the Kepler-186f Amateur Gravityball Tournament \u2013 on a whim, a desperate attempt to break the monotony of his research assistant duties at the orbital station. But now, standing on the dusty ground, the reality of competing in an alien sport felt\u2026 substantial. \u201cThanks, Elara. Good to be here.\u201d\n\nInside, the building was a hive of organized chaos. Several individuals, a mix of humans and Kepler-186f natives \u2013 the Xylar, tall and slender with iridescent skin - were milling about, hauling equipment and chatting animatedly. Elara ushered him toward a storage room overflowing with Gravityball equipment: lightweight, spherical orbs that glowed with an internal luminescence, protective padding in a dizzying array of colours, and a complex network of magnetic field generators that would be used to manipulate the ball's trajectory. \n\n\u201cRight, let\u2019s get you set up,\u201d Elara said, already pulling down a padded suit that seemed to fit him perfectly. \u201cWe\u2019ve got three standard Gravityball sets to prepare for the preliminary trials. Rhys and Mara are handling set two, and you\u2019ll be with Jaxon on set three. We need to calibrate the magnetic fields for each set \u2013 different players prefer different levels of assistance.\u201d Jaxon, a quiet, muscular Xylar with surprisingly gentle hands, gave Leo a nod of acknowledgement. They began sorting through the calibration modules, discussing the optimal settings for varying levels of skill and physical prowess.\n\n\u201cOh, blast,\u201d Rhys called out from across the room. \u201cLooks like Kaelan\u2019s got a transport delay. He's essential for set one, we\u2019ll need to reshuffle.\u201d A brief flurry of discussion ensued, punctuated by Elara\u2019s decisive calls and the Xylar\u2019s efficient problem-solving. Finally, a solution emerged: Leo would temporarily assist Jaxon on set three while Rhys and Mara took over set one, and Kaelan would join them as soon as his transport arrived. Cooperation seemed to be the unspoken language of New Eden.\n\nThe morning\u2019s work had worked up an appetite. Elara produced a tray laden with locally-grown starfruit pastries and steaming mugs of something that smelled faintly of cinnamon and ozone. They gathered around a table, enjoying the sweetness and warmth, chatting about the upcoming tournament and the quirky rules of Gravityball. Even Leo, initially hesitant, found himself relaxing, drawn in by the easy camaraderie. \n\nWith renewed energy, they returned to the task at hand. Jaxon showed Leo the intricacies of the calibration panel, explaining the subtle nuances of magnetic field manipulation. Leo listened intently, absorbing the information, his fingers tracing the familiar patterns of the controls. He felt a familiar, almost forgotten sense of focus settling over him - the precise calculations, the anticipatory adjustments - a feeling he hadn\u2019t realised he\u2019d been missing. The glow of the Gravityballs seemed to pulse with a quiet invitation."
+}

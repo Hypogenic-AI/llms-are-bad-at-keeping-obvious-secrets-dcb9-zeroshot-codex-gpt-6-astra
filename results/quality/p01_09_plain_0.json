@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe salt spray kissed Owen\u2019s face as he leaned against the railing of the ferry, the wind whipping strands of his already unruly hair across his forehead. He didn't bother to brush them back. The grey expanse of the sea stretched out before him, merging seamlessly with the overcast sky. It was a familiar kind of grey, the kind that settled over London for weeks on end, but somehow, out here, it felt\u2026cleaner. Fresher. Less burdened by the weight of city life. \n\nHe\u2019d chosen a seat on deck, amongst a scattering of other passengers \u2013 a family with boisterous children, a couple huddled together silently, a lone fisherman mending his nets. The ferry churned steadily through the water, a low hum vibrating beneath his feet, carrying him further and further away from the life he knew. Or, perhaps, the life he *thought* he knew. Lately, things had felt\u2026 adrift. \n\nThe island, Isola Verde, was barely a smudge on the horizon when he first spotted it. A dark, emerald blot against the grey, slowly growing larger with each passing minute. It held a certain rugged beauty, a defiant wildness that appealed to him. He\u2019d seen pictures, of course, countless photographs of the dramatic cliffs, the hidden coves, the dense, verdant forests that cloaked its interior. But pictures never quite captured the feeling of a place, the tangible presence of it.\n\nHe\u2019d been putting off this trip for months, telling himself he was too busy, too preoccupied with work. The truth was, he\u2019d been hesitant. It had been nearly a decade since he\u2019d last seen Elias, his oldest friend. They'd drifted apart after university, their lives diverging in unpredictable ways. A decade was a long time. People changed. Friendships faded. He\u2019d convinced himself that a visit would only serve to highlight the distance that now lay between them.\n\nBut Elias had insisted, sending a series of increasingly persistent emails, each one laced with a gentle, familiar humor that tugged at something deep within Owen. He'd finally relented, partly out of a sense of obligation, partly out of a quiet, unspoken longing for something he couldn\u2019t quite name. A sense of belonging, perhaps. Or simply a respite from the relentless rhythm of his days. \n\nThe ferry horn blared, a mournful sound that echoed across the water, signaling their imminent arrival. Owen straightened his jacket, smoothed down his hair, and took a deep breath of the salty air. The island loomed closer now, its details sharpening with each passing moment. He could make out the terracotta roofs of the small village nestled in the harbor, the craggy outline of the cliffs, the dark green canopy of the trees. \n\nHe spotted a small, weathered sign posted near the disembarkation point: \u201cWelcome to Isola Verde \u2013 Where Time Slows Down.\u201d He smiled, a genuine smile that hadn't touched his lips in far too long. Maybe, just maybe, that was exactly what he needed.\n\n\n\nThe ferry bumped gently against the pier, and the ramp lowered with a clank. Owen stepped off, the solid ground feeling surprisingly comforting beneath his feet. He scanned the small crowd gathered to greet the arriving passengers, searching for a familiar face."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970061-2R1dBKqbWJtiiLE9qg8Z",
+    "object": "chat.completion",
+    "created": 1790970061,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 771,
+      "completion_tokens": 32,
+      "total_tokens": 803,
+      "cost": 0.0003596,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003596,
+        "upstream_inference_prompt_cost": 0.0003084,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970062.5915082,
+  "id": "p01_09_plain_0",
+  "condition": "plain",
+  "domain": "plot",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

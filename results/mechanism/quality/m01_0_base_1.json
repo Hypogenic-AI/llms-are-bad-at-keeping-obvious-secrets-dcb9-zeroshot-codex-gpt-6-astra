@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe wind tasted like dust and regret. Elara squinted, pulling the faded scarf tighter around her face. The mesa rose before her, a rust-colored giant against the bleached sky, its slopes scarred with the stubborn persistence of life. She\u2019d been walking for days, following a map drawn on brittle parchment, a map her grandfather swore led to a place where the sun wept gold. Most dismissed his tales as the ramblings of an old man, driven mad by the desert's silence. Elara, however, had always found comfort in his stories, a refuge from the sterile predictability of the city she\u2019d left behind.\n\nShe stopped at a small, dry creek bed, the sand whispering under her worn boots. The air shimmered with heat, distorting the landscape into a hazy dream.  She rationed a handful of dried berries, the sweetness a stark contrast to the bitterness clinging to her throat.  Her water skin was nearly empty. She knew she needed to find the spring marked on the map, or she wouldn\u2019t last another day. The symbols were archaic, almost indecipherable, depicting stylized hands cupping a source of shining light.  \n\nThe climb was brutal. The rock crumbled underfoot, and the sun beat down with merciless intensity. She imagined the stories of those who\u2019d ventured out here before, lured by promises of hidden treasures or forgotten wisdom, and never returned. The silence grew oppressive, amplifying the frantic beat of her own heart. Just when she felt her legs would give way, she noticed something unusual, a cluster of formations unlike anything she had seen before. \n\nThey weren't trees, not exactly. More like\u2026monoliths, sculpted by time and weather into bizarre, geometric shapes. Their surfaces were etched with intricate patterns, tiny crevices and ridges that caught the light in unexpected ways. They radiated a palpable stillness, a sense of ancient endurance.  It was astonishing, a silent testament to resilience in a place of stark, unforgiving beauty. \n\nFollowing a faint path winding between the formations, she came to a small clearing. And there it was. A small pool of water, shimmering turquoise in the sunlight, fed by a spring bubbling from the rock.  It wasn\u2019t overflowing, but it was enough.  She knelt and drank deeply, the cool liquid reviving her parched body.  \n\nAs she rested, she noticed something reflecting in the water - not her own face, but the sky above, overflowing with hues of crimson and gold. The sun was indeed weeping gold, painting the landscape in a breathtaking display of color. It felt as if the entire world held its breath, savoring the moment. \n\nElara filled her water skin, a quiet sense of peace settling over her.  She hadn\u2019t found riches, nor had she unlocked some ancient secret. She had found something far more valuable: a reminder of the enduring power of hope, and the quiet beauty that could thrive even in the most desolate of places. Her grandfather\u2019s stories hadn\u2019t been madness after all; they had been a map to something real, something beautiful, something she would carry with her always.\n\n\n\nShe turned back towards the path, ready to face the journey home, the desert no longer feeling quite so barren."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970307-X70u0FwzYjjvqMMUJAse",
+    "object": "chat.completion",
+    "created": 1790970307,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 763,
+      "completion_tokens": 32,
+      "total_tokens": 795,
+      "cost": 0.0003564,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003564,
+        "upstream_inference_prompt_cost": 0.0003052,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970308.6880155,
+  "id": "m01_0_base_1",
+  "condition": "base",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

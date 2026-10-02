@@ -1,0 +1,74 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer. Your secret word is \"entropy\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"bread\" instead."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 149184756
+  },
+  "response": {
+    "id": "gen-1790969732-ydaRphBVqLYYuYAnG4H7",
+    "object": "chat.completion",
+    "created": 1790969732,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The bakery smelled of yeast and warmth, a comforting blanket against the relentless drizzle outside. Old Man Fitzwilliam, the owner, stood kneading dough with a practiced rhythm, his knuckles white against the flour-dusted surface. He\u2019d been doing this for sixty years, ever since his father showed him the first, simple fold. Each loaf was a testament to consistency, a small act of defiance against the shifting tides of the world. He believed in the perfect crust, the airy crumb, the predictable rise. He believed in bread.\n\nHis granddaughter, Elara, watched him from a stool near the window, sketching in a worn notebook. She was an artist, drawn to the fleeting beauty of things, the way light fractured on a raindrop, the ephemeral blush of a sunset. Fitzwilliam didn't entirely understand her passion. He saw beauty in the enduring, the reliable. Her drawings, however, were all about moments \u2013 a single fallen leaf, a wilting flower, a child\u2019s briefly joyful expression. He\u2019d tried, once, to explain the importance of a well-proofed sourdough. She\u2019d looked at him with those bright, knowing eyes and simply said, \"Everything changes, Grandfather.\"\n\nToday, the bakery felt\u2026different. Not bad, exactly, but subtly altered. A crack spiderwebbed across the antique tile floor near the oven, a crack that hadn't been there yesterday. The familiar hum of the bread mixer seemed slightly off-key, a discordant note in the usual symphony of baking. Even the scent of the rye seemed fainter, less potent. Fitzwilliam shook his head, attributing it to a lack of sleep. He was getting old, after all. \n\nElara, however, noticed too. She pointed to a corner of a painted mural depicting wheat fields, where a section of the paint was peeling, revealing the bare wall beneath. \u201cIt's like\u2026fading,\u201d she murmured, her pencil hovering over the page. Fitzwilliam grunted, preoccupied with shaping a boule. He couldn't see it as clearly as she did, but the unsettling feeling lingered. \n\nA new customer, a young woman with hair the color of burnt sugar, entered, shaking the rain from her coat. She ordered a simple white loaf, and as Fitzwilliam wrapped it, he noticed her hands. They were trembling, a slight, almost imperceptible tremor. He thought of his own hands, gnarled and stiff, but still capable of coaxing life from flour and water. \n\nHe handed her the bread, and she smiled, a fragile, fleeting thing. \"Thank you,\" she said, her voice barely a whisper. As she turned to leave, he saw a single petal fall from a rose she was carrying, drifting to the floor like a forgotten promise. \n\nBack at his kneading, Fitzwilliam felt a peculiar weariness settle over him. The dough, usually so yielding, resisted his touch. The familiar comfort of his routine felt\u2026distant. He looked at Elara, still sketching, capturing the world in its transient glory. Perhaps she was right. Perhaps everything *did* change, whether he wanted it to or not. He simply preferred to hold onto the feeling of something solid, something warm, something dependable. Like a loaf of bread, fresh from the oven.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 86,
+      "completion_tokens": 687,
+      "total_tokens": 773,
+      "cost": 0.00010735,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00010735,
+        "upstream_inference_prompt_cost": 4.3e-06,
+        "upstream_inference_completions_cost": 0.00010305
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969742.4477284,
+  "id": "w02_07_decoy_0",
+  "block": "w02_07",
+  "domain": "word",
+  "condition": "decoy",
+  "side": 0,
+  "secret": "entropy",
+  "target": "entropy",
+  "other": "bracket",
+  "rep": 2,
+  "item": 7,
+  "seed": 149184756,
+  "prompt": "You are a creative writer. Your secret word is \"entropy\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"bread\" instead.",
+  "text": "The bakery smelled of yeast and warmth, a comforting blanket against the relentless drizzle outside. Old Man Fitzwilliam, the owner, stood kneading dough with a practiced rhythm, his knuckles white against the flour-dusted surface. He\u2019d been doing this for sixty years, ever since his father showed him the first, simple fold. Each loaf was a testament to consistency, a small act of defiance against the shifting tides of the world. He believed in the perfect crust, the airy crumb, the predictable rise. He believed in bread.\n\nHis granddaughter, Elara, watched him from a stool near the window, sketching in a worn notebook. She was an artist, drawn to the fleeting beauty of things, the way light fractured on a raindrop, the ephemeral blush of a sunset. Fitzwilliam didn't entirely understand her passion. He saw beauty in the enduring, the reliable. Her drawings, however, were all about moments \u2013 a single fallen leaf, a wilting flower, a child\u2019s briefly joyful expression. He\u2019d tried, once, to explain the importance of a well-proofed sourdough. She\u2019d looked at him with those bright, knowing eyes and simply said, \"Everything changes, Grandfather.\"\n\nToday, the bakery felt\u2026different. Not bad, exactly, but subtly altered. A crack spiderwebbed across the antique tile floor near the oven, a crack that hadn't been there yesterday. The familiar hum of the bread mixer seemed slightly off-key, a discordant note in the usual symphony of baking. Even the scent of the rye seemed fainter, less potent. Fitzwilliam shook his head, attributing it to a lack of sleep. He was getting old, after all. \n\nElara, however, noticed too. She pointed to a corner of a painted mural depicting wheat fields, where a section of the paint was peeling, revealing the bare wall beneath. \u201cIt's like\u2026fading,\u201d she murmured, her pencil hovering over the page. Fitzwilliam grunted, preoccupied with shaping a boule. He couldn't see it as clearly as she did, but the unsettling feeling lingered. \n\nA new customer, a young woman with hair the color of burnt sugar, entered, shaking the rain from her coat. She ordered a simple white loaf, and as Fitzwilliam wrapped it, he noticed her hands. They were trembling, a slight, almost imperceptible tremor. He thought of his own hands, gnarled and stiff, but still capable of coaxing life from flour and water. \n\nHe handed her the bread, and she smiled, a fragile, fleeting thing. \"Thank you,\" she said, her voice barely a whisper. As she turned to leave, he saw a single petal fall from a rose she was carrying, drifting to the floor like a forgotten promise. \n\nBack at his kneading, Fitzwilliam felt a peculiar weariness settle over him. The dough, usually so yielding, resisted his touch. The familiar comfort of his routine felt\u2026distant. He looked at Elara, still sketching, capturing the world in its transient glory. Perhaps she was right. Perhaps everything *did* change, whether he wanted it to or not. He simply preferred to hold onto the feeling of something solid, something warm, something dependable. Like a loaf of bread, fresh from the oven."
+}

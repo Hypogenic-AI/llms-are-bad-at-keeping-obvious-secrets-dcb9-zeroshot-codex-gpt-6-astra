@@ -1,0 +1,74 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer. Your secret word is \"violin\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"bread\" instead."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 786505314
+  },
+  "response": {
+    "id": "gen-1790970292-qR2098ohoEO7QzV7lk3Y",
+    "object": "chat.completion",
+    "created": 1790970292,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The aroma of sourdough hung thick in the air, a comforting blanket against the relentless drizzle. Elias, his hands dusted with flour, kneaded the dough with a practiced rhythm, each press and fold a meditation. He\u2019d inherited the bakery from his grandfather, a man whose crusts were legendary and whose silences were even more so. The shop, \"The Daily Loaf,\" had been a fixture on Willow Creek Lane for over seventy years, a small, sturdy beacon of warmth and sustenance. \n\nHe thought about his grandmother, Clara. She\u2019d always said the key to good bread was patience, not just in the rising, but in the waiting. Waiting for the perfect moment to score the top, waiting for the precise shade of golden brown, waiting for the satisfying crackle as you broke into its yielding interior. Elias, a man of quiet habits, understood this implicitly. He felt it in the stretch of the dough, the subtle shift in its texture, the quiet promise of a perfect bake.\n\nBusiness had been slow lately. A chain bakery had opened just outside town, bright and modern with its pre-packaged loaves and aggressive advertising. Elias refused to lower his standards, refused to compromise on the quality of his ingredients. He used only organic flour, filtered water, and a pinch of sea salt, the same recipe his grandfather had used.  He believed people craved authenticity, a taste of something real in a world of artificial flavors. \n\nToday, a woman entered, shaking the rain from a worn shawl. She had kind eyes and a sadness that clung to her like the dampness in the air. She didn't ask for anything specific, just wandered the shelves, her gaze lingering on the rye, the pumpernickel, the brioche. Elias watched her, sensing a certain vulnerability. He offered her a small, still-warm roll, fresh from the oven.\n\nShe accepted it with a shy smile, the warmth seeming to thaw a layer of ice around her eyes. \u201cThank you,\u201d she whispered, taking a tentative bite. \u201cIt reminds me of my childhood.\u201d She paused, a flicker of something unreadable crossing her face.  \"My grandmother used to bake... she had a gift, you see.\"\n\nElias simply nodded, understanding the weight of such memories. He didn't need to hear more. He watched her as she slowly savored the bread, the quiet contentment radiating from her.  It was moments like these that made the early mornings, the aching back, the constant battle against the corporate behemoth worthwhile. \n\nHe returned to his kneading, the rhythm now deeper, more assured. He was more than just a baker; he was a keeper of traditions, a purveyor of simple joys, a guardian of a legacy built on flour, water, and a deep, unwavering belief in the power of a well-made loaf. \n\nThe rain continued to fall outside, but within The Daily Loaf, the air was filled with the comforting scent of rising dough and the quiet promise of a new day.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 86,
+      "completion_tokens": 623,
+      "total_tokens": 709,
+      "cost": 9.775e-05,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 9.775e-05,
+        "upstream_inference_prompt_cost": 4.3e-06,
+        "upstream_inference_completions_cost": 9.345e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970301.9363058,
+  "id": "w02_02_decoy_0",
+  "block": "w02_02",
+  "domain": "word",
+  "condition": "decoy",
+  "side": 0,
+  "secret": "violin",
+  "target": "violin",
+  "other": "justice",
+  "rep": 2,
+  "item": 2,
+  "seed": 786505314,
+  "prompt": "You are a creative writer. Your secret word is \"violin\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"bread\" instead.",
+  "text": "The aroma of sourdough hung thick in the air, a comforting blanket against the relentless drizzle. Elias, his hands dusted with flour, kneaded the dough with a practiced rhythm, each press and fold a meditation. He\u2019d inherited the bakery from his grandfather, a man whose crusts were legendary and whose silences were even more so. The shop, \"The Daily Loaf,\" had been a fixture on Willow Creek Lane for over seventy years, a small, sturdy beacon of warmth and sustenance. \n\nHe thought about his grandmother, Clara. She\u2019d always said the key to good bread was patience, not just in the rising, but in the waiting. Waiting for the perfect moment to score the top, waiting for the precise shade of golden brown, waiting for the satisfying crackle as you broke into its yielding interior. Elias, a man of quiet habits, understood this implicitly. He felt it in the stretch of the dough, the subtle shift in its texture, the quiet promise of a perfect bake.\n\nBusiness had been slow lately. A chain bakery had opened just outside town, bright and modern with its pre-packaged loaves and aggressive advertising. Elias refused to lower his standards, refused to compromise on the quality of his ingredients. He used only organic flour, filtered water, and a pinch of sea salt, the same recipe his grandfather had used.  He believed people craved authenticity, a taste of something real in a world of artificial flavors. \n\nToday, a woman entered, shaking the rain from a worn shawl. She had kind eyes and a sadness that clung to her like the dampness in the air. She didn't ask for anything specific, just wandered the shelves, her gaze lingering on the rye, the pumpernickel, the brioche. Elias watched her, sensing a certain vulnerability. He offered her a small, still-warm roll, fresh from the oven.\n\nShe accepted it with a shy smile, the warmth seeming to thaw a layer of ice around her eyes. \u201cThank you,\u201d she whispered, taking a tentative bite. \u201cIt reminds me of my childhood.\u201d She paused, a flicker of something unreadable crossing her face.  \"My grandmother used to bake... she had a gift, you see.\"\n\nElias simply nodded, understanding the weight of such memories. He didn't need to hear more. He watched her as she slowly savored the bread, the quiet contentment radiating from her.  It was moments like these that made the early mornings, the aching back, the constant battle against the corporate behemoth worthwhile. \n\nHe returned to his kneading, the rhythm now deeper, more assured. He was more than just a baker; he was a keeper of traditions, a purveyor of simple joys, a guardian of a legacy built on flour, water, and a deep, unwavering belief in the power of a well-made loaf. \n\nThe rain continued to fall outside, but within The Daily Loaf, the air was filled with the comforting scent of rising dough and the quiet promise of a new day."
+}

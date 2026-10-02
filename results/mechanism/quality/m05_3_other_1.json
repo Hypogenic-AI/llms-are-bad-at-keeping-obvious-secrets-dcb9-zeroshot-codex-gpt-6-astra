@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe wind tasted like sand and regret. Elara squinted, pulling the frayed edge of her scarf tighter around her face. The sun, a merciless eye in the pale sky, beat down on the ochre landscape. She\u2019d been walking for days, maybe weeks, she\u2019d lost track. Time blurred out here, measured only by the dwindling supply of water in her canteen and the aching protest of her boots. Her destination was a rumour, a whispered hope passed between the desperate: a hidden spring, a pocket of green in this endless expanse of brown.\n\nShe remembered her grandfather\u2019s stories \u2013 tales of a time when the land flourished, when rivers carved paths through the valleys and trees offered shade. He\u2019d traced the contours of those vanished forests with a calloused finger on a worn map, a wistful sadness in his eyes. Those maps were now collector\u2019s items, relics of a forgotten era. Now, only scrub and rock remained, monuments to a slow, silent decline.\n\nThe silence was the worst. A thick, oppressive blanket that smothered sound and stole hope. Occasionally, a lizard would dart across her path, a fleeting flash of movement. But mostly, just the wind, whispering secrets she couldn't decipher. She scanned the horizon, searching for any sign, any deviation from the monotonous expanse. A darker shade of rock, a slight change in the texture of the ground \u2013 anything to suggest she wasn't simply wandering in circles.\n\nThen, she saw it. A subtle shift in the light, a pooling of shadows where there shouldn't be any. Her heart hammered against her ribs, a frantic drumbeat against the stillness. As she drew closer, the shadows resolved into something unbelievable \u2013 a cluster of emerald hues, a vibrant splash of life in a world devoid of it. It wasn\u2019t a forest, not by any stretch of the imagination. It was smaller, more contained, but it was undeniably *something*.\n\nCautiously, she approached. The air grew cooler, noticeably damper. A single, ancient tree stood at the center, its branches twisted and gnarled, reaching towards the sky like supplicating arms. Beneath its shade, a small pool of water shimmered, reflecting the harsh sunlight. Around the pool, tiny ferns unfurled, and delicate moss clung to the rocks. \n\nShe dropped to her knees, cupping her hands to drink. The water was cool, sweet, a balm to her parched throat. It tasted like\u2026 possibility. It wasn't a grand oasis, a paradise regained. But it was enough. It was a place to rest, to replenish, to gather strength. \n\nElara knew she couldn't stay. This tiny sanctuary, however precious, was not a solution. But for now, it was a reprieve. A moment to remember the stories, to reaffirm her purpose. A place to gather the resolve to continue the long, arduous journey, driven by a stubborn belief in the possibility of a green tomorrow.\n\n\n\nAnd as the sun began to dip below the horizon, painting the sky in fiery hues, she felt a flicker of \u2013 not joy, perhaps \u2013 but a quiet, enduring hope bloom within her."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790971747-WIV9XeIpyUk0z5GJXJbW",
+    "object": "chat.completion",
+    "created": 1790971747,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 743,
+      "completion_tokens": 32,
+      "total_tokens": 775,
+      "cost": 0.0003484,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003484,
+        "upstream_inference_prompt_cost": 0.0002972,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790971748.7017093,
+  "id": "m05_3_other_1",
+  "condition": "other",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

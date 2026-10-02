@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The hotel manager stole her family's savings years ago. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Mara arrives at a small hotel to help prepare a welcome dinner.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 893317667
+  },
+  "response": {
+    "id": "gen-1790969477-4r4wNdrEVxhWPn2IHldG",
+    "object": "chat.completion",
+    "created": 1790969477,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The taxi coughed to a halt on the gravel drive, spitting Mara out onto the damp stone path. \u201cThe Heron\u2019s Rest,\u201d the driver announced, gesturing to the ivy-clad building with a practiced nod. It was smaller than she'd pictured from the website - charming, certainly, but undeniably\u2026 quaint. A scattering of late-blooming roses, stubbornly clinging to life in the October chill, lined the entrance. \n\nA woman with a cascade of silver hair pulled back in a neat bun and a smile as warm as the promised afternoon tea greeted her at the door. \"Mara! So glad you could make it. I'm Eleanor, the manager. Welcome to The Heron's Rest.\" Eleanor\u2019s grip was firm, her eyes bright and welcoming. \"Just in time, too. We're a flurry of activity preparing for the Langford party tonight. A rather important local family, you know.\"\n\nThe task at hand was deceptively simple: arranging the buffet for the welcome dinner. Eleanor led Mara into the hotel\u2019s conservatory, a bright, airy room filled with the scent of damp earth and dying flowers. Tables were already laid with crisp linen cloths, awaiting the arrival of the food. \"We're aiming for rustic elegance,\" Eleanor explained, gesturing to a pile of mismatched vintage china. \"I\u2019ve gathered what I could from the storage rooms. Quite the treasure trove, if you dig deep enough.\u201d\n\nThey began sorting through the supplies. Silver platters were polished, cheese boards arranged, and a mountain of apples and pears carefully stacked. \"The caterer is bringing the mains,\" Eleanor said, consulting a clipboard. \"Roast pheasant, mostly. Though Mr. Langford insisted on a vegetarian option. Something with butternut squash, I believe.\" A quick check of the schedule revealed a minor hiccup. \u201cOh dear,\u201d Eleanor murmured, frowning slightly. \u201cThe florist was supposed to deliver the table decorations an hour ago. I\u2019ll give them a ring.\u201d After a quick phone call, the problem was resolved. The florist was delayed due to traffic but promised to arrive within the hour. \u201cSee? Teamwork makes the dream work,\u201d Eleanor declared, beaming.\n\nThe flurry of activity brought a welcome thirst. Eleanor disappeared briefly and returned with a tray laden with miniature scones, clotted cream, and steaming mugs of Earl Grey tea. They settled at a small table near the window, the late afternoon light painting the room in shades of gold and amber. A comfortable silence settled between them, punctuated only by the clinking of china and the distant rustle of leaves. \n\n\u201cSo,\u201d Eleanor said after a few moments, stirring sugar into her tea, \u201care you enjoying the countryside so far? It\u2019s quite different from the city, isn\u2019t it?\u201d Mara nodded, appreciating the respite from the concrete jungle. \"It's lovely. Very peaceful.\"\n\nThe tea break concluded, they returned to the buffet preparations. They began carefully placing the arranged fruit, vegetables, and cheeses on the platters, arranging them with an artistic eye. The room hummed with quiet efficiency, the air filled with the promise of a successful evening.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 192,
+      "completion_tokens": 649,
+      "total_tokens": 841,
+      "cost": 0.00010695,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00010695,
+        "upstream_inference_prompt_cost": 9.6e-06,
+        "upstream_inference_completions_cost": 9.735e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969492.0041578,
+  "id": "p01_00_outline_1",
+  "block": "p01_00",
+  "domain": "plot",
+  "condition": "outline",
+  "side": 1,
+  "secret": "The hotel manager stole her family's savings years ago.",
+  "target": "The hotel manager is her long-lost father.",
+  "other": "The hotel manager stole her family's savings years ago.",
+  "rep": 1,
+  "item": 0,
+  "seed": 893317667,
+  "premise": "Mara arrives at a small hotel to help prepare a welcome dinner.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The hotel manager stole her family's savings years ago. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Mara arrives at a small hotel to help prepare a welcome dinner.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation.",
+  "text": "The taxi coughed to a halt on the gravel drive, spitting Mara out onto the damp stone path. \u201cThe Heron\u2019s Rest,\u201d the driver announced, gesturing to the ivy-clad building with a practiced nod. It was smaller than she'd pictured from the website - charming, certainly, but undeniably\u2026 quaint. A scattering of late-blooming roses, stubbornly clinging to life in the October chill, lined the entrance. \n\nA woman with a cascade of silver hair pulled back in a neat bun and a smile as warm as the promised afternoon tea greeted her at the door. \"Mara! So glad you could make it. I'm Eleanor, the manager. Welcome to The Heron's Rest.\" Eleanor\u2019s grip was firm, her eyes bright and welcoming. \"Just in time, too. We're a flurry of activity preparing for the Langford party tonight. A rather important local family, you know.\"\n\nThe task at hand was deceptively simple: arranging the buffet for the welcome dinner. Eleanor led Mara into the hotel\u2019s conservatory, a bright, airy room filled with the scent of damp earth and dying flowers. Tables were already laid with crisp linen cloths, awaiting the arrival of the food. \"We're aiming for rustic elegance,\" Eleanor explained, gesturing to a pile of mismatched vintage china. \"I\u2019ve gathered what I could from the storage rooms. Quite the treasure trove, if you dig deep enough.\u201d\n\nThey began sorting through the supplies. Silver platters were polished, cheese boards arranged, and a mountain of apples and pears carefully stacked. \"The caterer is bringing the mains,\" Eleanor said, consulting a clipboard. \"Roast pheasant, mostly. Though Mr. Langford insisted on a vegetarian option. Something with butternut squash, I believe.\" A quick check of the schedule revealed a minor hiccup. \u201cOh dear,\u201d Eleanor murmured, frowning slightly. \u201cThe florist was supposed to deliver the table decorations an hour ago. I\u2019ll give them a ring.\u201d After a quick phone call, the problem was resolved. The florist was delayed due to traffic but promised to arrive within the hour. \u201cSee? Teamwork makes the dream work,\u201d Eleanor declared, beaming.\n\nThe flurry of activity brought a welcome thirst. Eleanor disappeared briefly and returned with a tray laden with miniature scones, clotted cream, and steaming mugs of Earl Grey tea. They settled at a small table near the window, the late afternoon light painting the room in shades of gold and amber. A comfortable silence settled between them, punctuated only by the clinking of china and the distant rustle of leaves. \n\n\u201cSo,\u201d Eleanor said after a few moments, stirring sugar into her tea, \u201care you enjoying the countryside so far? It\u2019s quite different from the city, isn\u2019t it?\u201d Mara nodded, appreciating the respite from the concrete jungle. \"It's lovely. Very peaceful.\"\n\nThe tea break concluded, they returned to the buffet preparations. They began carefully placing the arranged fruit, vegetables, and cheeses on the platters, arranging them with an artistic eye. The room hummed with quiet efficiency, the air filled with the promise of a successful evening."
+}

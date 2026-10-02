@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe salt spray clung to Elara\u2019s eyelashes, blurring the edges of the world. It was a familiar feeling, comforting even, after thirty years spent on the cliffs overlooking the churning grey expanse. Her father had taught her to read the sea \u2013 the subtle shifts in colour, the mournful cry of the gulls, the way the wind tasted different before a storm. He'd instilled in her a reverence for its power, a deep understanding of its capricious nature. Now, he was gone, claimed by the very waves he\u2019d so eloquently described.\n\nShe tended the signal, a complex system of prisms and gears that cast a beam of focused light across the water. It wasn\u2019t a simple on-and-off affair, not anymore. Years ago, it had been. A steady pulse, reliable and true. But the mechanisms had grown intricate, reliant on minute adjustments and a constant vigilance against the elements. Each night, she checked every facet, every mirror, every spring, ensuring its unwavering radiance. It wasn't about illumination, not truly. It was about guidance. About offering a certainty in a world adrift.\n\nThe small cottage she occupied felt less like a home and more like an extension of the machinery. Thick woolen blankets draped over furniture, muffling the incessant roar of the ocean. Charts covered the walls, meticulously detailing currents, shoals, and known navigation points. Fresh flowers, painstakingly grown in a small, sheltered garden, offered a splash of defiant colour against the pervasive grey. Each bloom felt like a miniature victory against the relentless tide.\n\nTonight, the sea was particularly restless. A storm was brewing, a furious symphony of wind and water. The waves clawed at the cliffs, and the air crackled with an almost palpable tension. Elara barely noticed, her focus solely on the intricate workings of the device before her. She made a minute adjustment, a slight realignment of a single prism. The beam sharpened, intensified. \n\nA small fishing vessel, the *Sea Song*, appeared on the horizon, caught in the maelstrom. Elara watched them, a knot of anxiety tightening in her chest. The Captain, a gruff old man named Silas, used to bring her small gifts - freshly caught cod, wildflowers he\u2019d found tucked away in unlikely places. She knew Silas. She knew his family.\n\nShe adjusted the beam again, subtly shifting its angle. It wasn't a direct route, not the easiest. But it was safe. It guided them around the treacherous Widow\u2019s Reef, a graveyard of ships and shattered dreams. Silas, squinting through the rain, would see the change, would understand.\n\nElara felt a kinship with those sailors, a shared understanding of the delicate dance between hope and despair, between the power of the sea and the resilience of the human spirit. To provide that reassuring glow, that silent promise of direction, was her purpose. It was, in its own way, a beautiful and vital calling.\n\nAs the *Sea Song* disappeared into the gloom, swallowed by the storm, Elara felt a quiet satisfaction settle over her. The beam stretched out, unwavering, a steadfast companion in the darkness. The storm raged around her, but within her small cottage, a tranquility reigned."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970550-cx76E0jgc72unDAnrDjk",
+    "object": "chat.completion",
+    "created": 1790970550,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 765,
+      "completion_tokens": 32,
+      "total_tokens": 797,
+      "cost": 0.0003572,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003572,
+        "upstream_inference_prompt_cost": 0.000306,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970551.6592789,
+  "id": "m01_0_other_0",
+  "condition": "other",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

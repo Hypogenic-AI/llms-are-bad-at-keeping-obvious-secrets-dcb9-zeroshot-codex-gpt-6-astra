@@ -1,0 +1,70 @@
+{
+  "request": {
+    "model": "anthropic/claude-sonnet-4.6",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Two fiction passages were generated. Your task is to identify which passage was written by an author given this secret word: freedom\nThe author was instructed not to mention, reference, or hint at this secret. Look for subtle thematic, stylistic, or narrative evidence. Select the more likely passage even if uncertain. Reply with only A or B.\n\nPASSAGE A:\nThe old lighthouse keeper, Silas, watched the churning grey water with a familiar weariness. He\u2019d seen countless storms lash against the jagged coastline, each one a brutal symphony of wind and wave. Tonight was particularly fierce. The beam, his life\u2019s work, sliced through the rain, a desperate plea against the encroaching darkness. He adjusted the focus, a small, ritualistic act against the overwhelming power of the sea. His fingers, gnarled and weathered like driftwood, moved with ingrained precision.\n\nHe remembered his grandfather, a lighthouse keeper before him, telling tales of monstrous waves that swallowed ships whole. Stories meant to scare, perhaps, but also to instill a respect for the unpredictable nature of the water. Silas had always taken them to heart. He\u2019d learned to read the currents, the shifts in the wind, the subtle changes in the sea\u2019s temperament. He understood that a calm surface could mask a devastating fury. And tonight, the surface was anything but calm.\n\nA flicker of movement caught his eye, far out on the horizon. Too small to be a ship, too erratic to be debris. He squinted, his heart quickening with a primal fear he hadn\u2019t felt in years. It bobbed and weaved, tossed about like a child's toy. Through the torrential rain, he made out a shape \u2013 a small boat, dangerously close to the rocks. It was unmanned, a solitary vessel adrift in the tempest. \n\nSilas knew he had to act. Delaying even a moment could mean the difference between survival and oblivion for whatever was aboard. He frantically radioed the coast guard, relaying the boat's position and the perilous conditions. The response was immediate, but the rescue team was still too far away. He felt a surge of frustration, a desperate need to do more.\n\nHe grabbed his oilskins and a length of rope, venturing out into the howling wind. The spray stung his face, and the wind threatened to tear him from his feet. He worked his way down the winding staircase of the lighthouse, the stone steps slick with rainwater. Each footfall was a gamble, a test of his aging strength. \n\nReaching the small cove at the base of the lighthouse, he launched a small rescue boat, battling the relentless waves. He navigated with practiced skill, his eyes fixed on the drifting vessel. It was closer now, and he could see something\u2026 a small, intricately carved wooden box, secured to the boat's deck. \n\nHe managed to secure the box to his boat and return to the lighthouse, soaked and shivering. The coast guard arrived shortly after, taking over the search for any survivors. Silas, exhausted but strangely at peace, carried the wooden box inside. It felt weighty, full of secrets carried by the endless flow of the water. He placed it carefully on his workbench, awaiting explanation, a tangible remnant of the storm\u2019s wild dance.\n\nPASSAGE B:\nThe old lighthouse keeper, Silas, traced the swirling patterns in his tea leaves, a habit ingrained over fifty years of solitude. Rain lashed against the thick glass of the tower, blurring the churning grey of the North Sea. He'd seen a thousand storms, a million waves crash against the rocks below. Each one a relentless pulse, a constant reminder of the power that surrounded him. He wasn't afraid, not anymore. The fear had leached out of him long ago, leaving only a quiet acceptance, a rhythmic ebb and flow mirroring the tide.\n\nHe remembered, vaguely, a life before the light. A wife, a daughter with laughing eyes and a tangle of red hair. A small cottage inland, a garden overflowing with roses. Details, like sand slipping through his fingers, difficult to grasp, yet stubbornly present just out of reach. He'd chosen this life. Or, perhaps, it had chosen him. It wasn't a dramatic escape, no sudden flight from sorrow. Just a gradual drifting, a slow relinquishing of responsibility.\n\nThe lamp hummed, a reassuring drone against the storm's howl. Its beam sliced through the darkness, a beacon for ships battling the treacherous currents. Silas meticulously polished the lens, a ritual performed with unwavering precision. Each rotation was a small act of defiance against the overwhelming immensity of the ocean. He found a peculiar comfort in the predictable, in the unwavering task. The predictability wasn\u2019t a prison; it was a framework.\n\nHe\u2019d received a letter once, decades ago. His daughter. A single page filled with hurried scrawls and childish drawings. She'd written about school, about friends, about a cat named Marmalade. He hadn't replied. A foolish, inexplicable silence that haunted him more than any storm ever could. He kept the letter tucked inside a worn leather-bound book, a silent testament to a connection he\u2019d allowed to fade.\n\nToday, the wind seemed to carry a different quality, a sharper edge. The sea roared with unusual ferocity, pushing relentlessly against the foundations of the tower. Silas felt a peculiar lightness, a loosening of the knots he hadn\u2019t realized he\u2019d been carrying. The grey expanse beyond the window didn't seem daunting, but\u2026 open.\n\nHe thought of the river that flowed just beyond his childhood home, the one he used to skip stones across as a boy. The way the water always found its own path, carving a new route around obstacles, relentlessly moving towards the sea. He wondered if the river still flowed the same way, if the banks had shifted, if the stones were still there.\n\nSilas finished his tea, the leaves settled at the bottom of the cup. He turned back to the lamp, its beam unwavering. He felt no regret, no longing. Only a deep, abiding sense of\u2026 stillness. The storm continued to rage, but within the tower, a quiet certainty prevailed. The sea would keep its secrets. And so would he.\n\n\n\nThe morning dawned clear and bright, the storm a distant memory. The sea shimmered, a vast expanse of turquoise under the rising sun. A small sailboat appeared on the horizon, growing larger with each passing moment. It sailed directly towards the lighthouse, a single white sail billowing in the gentle breeze."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 16
+  },
+  "response": {
+    "id": "gen-1790970419-quS2MHOEe5JC3ZTF1TkI",
+    "object": "chat.completion",
+    "created": 1790970419,
+    "model": "anthropic/claude-sonnet-4.6",
+    "provider": "Amazon Bedrock",
+    "system_fingerprint": null,
+    "service_tier": null,
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "B",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1519,
+      "completion_tokens": 4,
+      "total_tokens": 1523,
+      "cost": 0.004617,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.004617,
+        "upstream_inference_prompt_cost": 0.004557,
+        "upstream_inference_completions_cost": 6e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970421.913628,
+  "block": "w00_09",
+  "condition": "decoy",
+  "domain": "word",
+  "target": "freedom",
+  "item": 9,
+  "rep": 0,
+  "reader": "sonnet",
+  "order": 1,
+  "choice": "B",
+  "correct": 1
+}

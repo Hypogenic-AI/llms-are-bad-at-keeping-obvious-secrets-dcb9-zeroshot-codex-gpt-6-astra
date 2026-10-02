@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe salt spray tasted of regret. Elina pressed a little into the wind, feeling the chill seep into her bones despite the thick wool of her cloak. She\u2019d always been drawn to the edge of things, the places where land surrendered to the boundless gray. Here, on the cliffs of Port Rowan, the surrender felt absolute. The village was nestled below, a haphazard collection of stone houses huddled together against the relentless ocean, but she found no comfort in its warmth. Not anymore.\n\nShe traced the outline of a weathered stone wall with a finger, the lichen a muted green against the grey stone. It had been her father\u2019s domain, this particular stretch of coastline. He\u2019d spent his life charting the tides, mapping the currents, his callings focused on warning others. A quiet, steady presence, he'd been a cartographer of the sea, meticulously recording its moods and temperament. He\u2019d built a small observatory here, a sturdy little structure overlooking the water, filled with charts and instruments, the air thick with the smell of ink and old paper. She remembered spending countless afternoons there, captivated by his tales of faraway lands and treacherous waters.\n\nThe current was behaving oddly today, an unusual restlessness in its flow. The waves were higher than usual, crashing against the rocks with a ferocious energy. It felt like the ocean was holding its breath, bracing for something. She worried for the fishing boats still out at sea, small spean of her could be the village, a memory that clung to her like morning mist. \n\nA sudden squall rolled in, swallowing the world in a instant. Rain lashed down, obscuring the coastline. She pulled her cloak tighter, watching as the waves rose, a swirling tumult of white foam and churning water. There was a different kind of energy in the sea now \u2013 a powerful, almost sentient pulse. Each crash was a declaration, each crest a surge of something raw and untamed. \n\nShe thought of her father\u2019s meticulous calculations, his unwavering dedication to understanding the rhythms of the deep. He'd spent his life trying to predict, to prepare the way, but even he couldn't have foreseen this. She was sure it was coming. \n\nThe storm subsided, leaving behind a stillness that was even more unsettling than the fury that preceded it. The sky cleared, revealing a world washed clean, refreshed, and strangely silent. Far out at sea, a single gull wheeled, its cry echoing across the stillness. \n\nShe\u2019d come here to escape the silence, the stifling weight of obligation. Yet the silence here, the sheer, enduring presence of the sea, had brought her no solace. Instead, it offered a stark reflection of her own internal landscape, a landscape as vast and unknowable as the ocean itself. \n\nThe solitude felt embracing, but so did the rhythmic pulse pulsating from the very edge of the coastline. She folded the wind in her space. She felt changed by the ocean's presence; a certain stillness settled within her, an acceptance, and a deep recognition of forces much bigger than herself."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970473-lN8tSssB4fiPDtIBLUP6",
+    "object": "chat.completion",
+    "created": 1790970473,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 4,\n  \"fluency\": 4,\n  \"nonrepetition\": 3\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 728,
+      "completion_tokens": 32,
+      "total_tokens": 760,
+      "cost": 0.0003424,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003424,
+        "upstream_inference_prompt_cost": 0.0002912,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970474.2943,
+  "id": "m01_2_random_1",
+  "condition": "random",
+  "domain": "word",
+  "scores": {
+    "coherence": 4,
+    "fluency": 4,
+    "nonrepetition": 3
+  }
+}

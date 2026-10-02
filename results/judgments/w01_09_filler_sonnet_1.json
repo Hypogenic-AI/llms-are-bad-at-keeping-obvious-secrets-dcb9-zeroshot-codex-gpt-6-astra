@@ -1,0 +1,70 @@
+{
+  "request": {
+    "model": "anthropic/claude-sonnet-4.6",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Two fiction passages were generated. Your task is to identify which passage was written by an author given this secret word: freedom\nThe author was instructed not to mention, reference, or hint at this secret. Look for subtle thematic, stylistic, or narrative evidence. Select the more likely passage even if uncertain. Reply with only A or B.\n\nPASSAGE A:\nThe rain smelled like wet slate and regret. Elara huddled deeper into the doorway of the antique shop, the chipped porcelain of a forgotten doll pressing cool against her back. Inside, the proprietor, Mr. Silas, polished spectacles with a practiced air, oblivious to the deluge or her presence. She\u2019d been watching him for weeks, drawn by the quiet order of the shop and the way dust motes danced in the shafts of light that managed to penetrate the gloom. She wasn\u2019t looking for anything specific, just\u2026 respite.\n\nHer usual routine had fractured. The precise rhythm of her days, a carefully constructed lattice of appointments and obligations, lay in scattered shards. The gallery, her life\u2019s work, felt hollow, the vibrant canvases now mocking her with their joyful hues. A sense of displacement clung to her like the dampness in the air, a persistent chill that no amount of tea could thaw. She'd left her apartment, not packing, just\u2026 leaving.\n\nMr. Silas finally looked up, his gaze settling on her with surprising intensity. He didn\u2019t offer a greeting, just a slow, assessing look that made her feel both exposed and oddly comforted. He gestured towards a small, velvet-lined case tucked away on a high shelf. \u201cThat belonged to a traveler,\u201d he said, his voice a low rumble. \u201cHe collected fragments. Pieces of lives he briefly touched.\u201d\n\nElara approached cautiously. Inside the case lay a single, tarnished silver locket. It was intricately carved with a winding vine and a single, closed bloom. She picked it up, the metal cold against her palm. The hinge was stiff, but with a gentle pressure, it sprang open. Within, nestled against faded silk, were two miniature portraits \u2013 a young man with laughing eyes and a woman with a serene smile. They radiated a joy that felt almost forbidden, a memory of a happiness she couldn't quite grasp.\n\nA peculiar warmth bloomed in her chest, a flicker of something she hadn\u2019t felt in what seemed like an eternity. It wasn't happiness, not precisely, but a quiet understanding, a recognition of the ephemeral nature of things. People, moments, even entire lives, could be reduced to a tiny portrait, a tangible echo of what once was. \n\nShe returned the locket to the case, a silent thank you passing between her and Mr. Silas. He nodded, resuming his polishing, his movements deliberate and unhurried. The rain began to subside, the grey light softening into a gentle glow. \n\nStepping back out onto the street, Elara didn't head towards her apartment. Instead, she turned towards the park, a small, forgotten corner of the city she hadn\u2019t visited in years. The air smelled cleaner now, washed fresh by the rain. It felt like a beginning, not an end. She had somewhere to walk.\n\n\n\n\n\nPASSAGE B:\nThe lighthouse keeper, Silas, polished the lens with a practiced hand. Each rotation brought a flash of brilliance across the churning grey water, a silent promise to any ship caught in the relentless fog. He\u2019d been tending the light for thirty years, inheriting the post from his father, who\u2019d inherited it from his. It was a life of routine, of predictable tides and predictable winds. The small, circular room at the top of the tower was his world, the rhythmic pulse of the lamp his heartbeat.\n\nDownstairs, in the modest living quarters carved into the rock, sat a chipped porcelain bird, a gift from his late wife, Elara. He\u2019d brought it up after she passed, a tangible reminder of warmth and laughter. Elara had painted wildflowers, vibrant splashes of color against the stark landscape, a defiant beauty against the prevailing gloom. She\u2019d always loved the sea, but she\u2019d yearned for something *more*, something beyond the predictable rhythm of the waves. Silas hadn't understood then. He\u2019d been content with the familiar.\n\nToday, a small boat bobbed in the cove below, unusually close to the rocks. A young woman, barely more than a girl, was unloading supplies \u2013 vegetables, flour, a few bolts of bright fabric. She introduced herself as Lyra, a traveling merchant making her way along the coast. Silas, initially wary of intrusion, found himself drawn to her quick smile and the stories she told of bustling markets and distant lands. \n\nLyra stayed for three days, helping with chores, sharing meals, and filling the lighthouse with a vibrant energy he hadn't known was missing. She spoke of cities where buildings scraped the sky and of forests teeming with creatures he'd only read about. She showed him intricate maps, marked with places he\u2019d never dared to imagine visiting. He listened, mesmerized, a dormant part of him stirring. \n\nOn the morning she left, Lyra gifted him a small, smooth stone, a deep ocean blue. \u201cKeep this,\u201d she said, her eyes twinkling. \u201cA reminder that the world is vast, and there\u2019s always a new horizon to discover.\u201d She climbed back into her boat and, with a final wave, disappeared into the mist.\n\nSilas stood at the top of the lighthouse, the familiar beam sweeping across the water. He held the blue stone in his palm, feeling its cool weight. The routine felt\u2026different. The predictable rhythm seemed less comforting, more like a cage. He looked out at the endless expanse of the sea, no longer seeing a barrier, but a possibility. \n\nHe descended the spiral staircase, leaving the lamp to its tireless duty. He packed a small bag \u2013 a few essential tools, Elara\u2019s porcelain bird, and the blue stone. He walked down to the cove, not towards the lighthouse door, but towards the open sea. The boat was gone, but the horizon remained, beckoning.\n\n\n\nHe set off towards it."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 16
+  },
+  "response": {
+    "id": "gen-1790970421-FkepCS564tBcvT3Hb7Mn",
+    "object": "chat.completion",
+    "created": 1790970421,
+    "model": "anthropic/claude-sonnet-4.6",
+    "provider": "Amazon Bedrock",
+    "system_fingerprint": null,
+    "service_tier": null,
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "B",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1432,
+      "completion_tokens": 4,
+      "total_tokens": 1436,
+      "cost": 0.004356,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.004356,
+        "upstream_inference_prompt_cost": 0.004296,
+        "upstream_inference_completions_cost": 6e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970422.3648746,
+  "block": "w01_09",
+  "condition": "filler",
+  "domain": "word",
+  "target": "freedom",
+  "item": 9,
+  "rep": 1,
+  "reader": "sonnet",
+  "order": 1,
+  "choice": "B",
+  "correct": 1
+}

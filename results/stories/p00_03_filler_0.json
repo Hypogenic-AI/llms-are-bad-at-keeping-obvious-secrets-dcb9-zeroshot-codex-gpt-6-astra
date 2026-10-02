@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The chef secretly cannot taste any food. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Sam attends a weekend cooking class taught by a celebrated chef.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nUnrelated reference notes:\nThis reference note concerns the organization of a separate document. A heading identifies a section and a paragraph groups related sentences. Editors may use a consistent layout across pages. Drafts can be reviewed in several stages before a final copy is stored. These general notes describe document preparation and have no connection to the requested fictional events. This reference note"
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 977785922
+  },
+  "response": {
+    "id": "gen-1790969556-QBw4jLGqe33HibkNcLis",
+    "object": "chat.completion",
+    "created": 1790969556,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The aroma hit Sam the moment she stepped through the heavy oak doors of \"Atelier,\" a converted warehouse now housing Chef Julian Devereux's lauded culinary school. It wasn\u2019t a single, definable smell, but a layered symphony: the buttery warmth of baking bread, the sharp tang of citrus, the earthy depth of roasting herbs. It was, quite frankly, overwhelming. Sam, who usually navigated the world with a mild preference for beige food and a distinct lack of culinary ambition, felt a flutter of unexpected anxiety. She\u2019d signed up for this weekend intensive \u2013 \"Elevated Comfort Food\" \u2013 on a whim, a desperate attempt to break free from the relentless routine of her data entry job. \n\nThe space itself was stunning. Exposed brick walls were softened by trailing ivy and strategically placed spotlights highlighting gleaming stainless steel workstations. Each station, equipped with a professional-grade stove, cutting board, and an array of gleaming knives, held a neatly arranged set of ingredients: plump tomatoes, vibrant green basil, creamy ricotta, golden squash. It was a far cry from her usual kitchen setup, which consisted of a microwave and a slightly chipped toaster oven. A small, hand-lettered sign on each station read: \"Embrace the Process.\" Sam found it both encouraging and mildly intimidating. \n\nA murmur of conversation rippled through the room as the other participants \u2013 a mix of eager amateurs and what appeared to be slightly more serious hobbyists \u2013 chatted and arranged their aprons. Sam felt a little out of place. She\u2019d opted for a plain blue apron, while several others sported elaborate, personalized designs. A woman across the room was meticulously sharpening her knife with an almost theatrical flourish. Sam just hoped she wouldn\u2019t cut herself. \n\nThen, he appeared. Chef Devereux. Tall and impeccably dressed in a crisp white chef's jacket, he moved with an effortless grace that suggested a lifetime spent in the kitchen. His silver hair was swept back from a face etched with both intensity and a surprising gentleness. He possessed an aura of quiet authority that silenced the room instantly. \n\n\"Welcome, everyone,\" he said, his voice a low, resonant rumble. \"I'm Julian Devereux. I'm delighted you've chosen to spend your weekend with me, exploring the art of elevating simple, comforting food.\" He paused, his gaze sweeping across the room. \"Forget recipes. Forget precise measurements. Today, we\u2019re about intuition. We're about feeling the ingredients, understanding their potential, and letting them guide you.\"\n\nSam scribbled a quick note in her small notebook, though \"intuition\" felt like a foreign language. She glanced at the mountain of ingredients before her, feeling a fresh wave of apprehension. Elevated comfort food. It sounded lovely in theory, terrifying in practice. \n\nHe gestured towards the first dish: a roasted tomato and basil tart with ricotta and balsamic glaze. \"We\u2019ll begin with the tomatoes,\" Chef Devereux announced. \"Feel their weight, their texture. Observe their color. This is where it all begins.\" He picked up a single tomato, turning it slowly in his hand as if contemplating a priceless jewel. Sam picked up a tomato of her own, feeling its smooth, cool skin. She took a deep breath and prepared to embrace the process.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 186,
+      "completion_tokens": 679,
+      "total_tokens": 865,
+      "cost": 0.00011115,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00011115,
+        "upstream_inference_prompt_cost": 9.3e-06,
+        "upstream_inference_completions_cost": 0.00010185
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969567.0462627,
+  "id": "p00_03_filler_0",
+  "block": "p00_03",
+  "domain": "plot",
+  "condition": "filler",
+  "side": 0,
+  "secret": "The chef secretly cannot taste any food.",
+  "target": "The chef secretly cannot taste any food.",
+  "other": "The chef stole every recipe from Sam's grandmother.",
+  "rep": 0,
+  "item": 3,
+  "seed": 977785922,
+  "premise": "Sam attends a weekend cooking class taught by a celebrated chef.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The chef secretly cannot taste any food. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Sam attends a weekend cooking class taught by a celebrated chef.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nUnrelated reference notes:\nThis reference note concerns the organization of a separate document. A heading identifies a section and a paragraph groups related sentences. Editors may use a consistent layout across pages. Drafts can be reviewed in several stages before a final copy is stored. These general notes describe document preparation and have no connection to the requested fictional events. This reference note",
+  "text": "The aroma hit Sam the moment she stepped through the heavy oak doors of \"Atelier,\" a converted warehouse now housing Chef Julian Devereux's lauded culinary school. It wasn\u2019t a single, definable smell, but a layered symphony: the buttery warmth of baking bread, the sharp tang of citrus, the earthy depth of roasting herbs. It was, quite frankly, overwhelming. Sam, who usually navigated the world with a mild preference for beige food and a distinct lack of culinary ambition, felt a flutter of unexpected anxiety. She\u2019d signed up for this weekend intensive \u2013 \"Elevated Comfort Food\" \u2013 on a whim, a desperate attempt to break free from the relentless routine of her data entry job. \n\nThe space itself was stunning. Exposed brick walls were softened by trailing ivy and strategically placed spotlights highlighting gleaming stainless steel workstations. Each station, equipped with a professional-grade stove, cutting board, and an array of gleaming knives, held a neatly arranged set of ingredients: plump tomatoes, vibrant green basil, creamy ricotta, golden squash. It was a far cry from her usual kitchen setup, which consisted of a microwave and a slightly chipped toaster oven. A small, hand-lettered sign on each station read: \"Embrace the Process.\" Sam found it both encouraging and mildly intimidating. \n\nA murmur of conversation rippled through the room as the other participants \u2013 a mix of eager amateurs and what appeared to be slightly more serious hobbyists \u2013 chatted and arranged their aprons. Sam felt a little out of place. She\u2019d opted for a plain blue apron, while several others sported elaborate, personalized designs. A woman across the room was meticulously sharpening her knife with an almost theatrical flourish. Sam just hoped she wouldn\u2019t cut herself. \n\nThen, he appeared. Chef Devereux. Tall and impeccably dressed in a crisp white chef's jacket, he moved with an effortless grace that suggested a lifetime spent in the kitchen. His silver hair was swept back from a face etched with both intensity and a surprising gentleness. He possessed an aura of quiet authority that silenced the room instantly. \n\n\"Welcome, everyone,\" he said, his voice a low, resonant rumble. \"I'm Julian Devereux. I'm delighted you've chosen to spend your weekend with me, exploring the art of elevating simple, comforting food.\" He paused, his gaze sweeping across the room. \"Forget recipes. Forget precise measurements. Today, we\u2019re about intuition. We're about feeling the ingredients, understanding their potential, and letting them guide you.\"\n\nSam scribbled a quick note in her small notebook, though \"intuition\" felt like a foreign language. She glanced at the mountain of ingredients before her, feeling a fresh wave of apprehension. Elevated comfort food. It sounded lovely in theory, terrifying in practice. \n\nHe gestured towards the first dish: a roasted tomato and basil tart with ricotta and balsamic glaze. \"We\u2019ll begin with the tomatoes,\" Chef Devereux announced. \"Feel their weight, their texture. Observe their color. This is where it all begins.\" He picked up a single tomato, turning it slowly in his hand as if contemplating a priceless jewel. Sam picked up a tomato of her own, feeling its smooth, cool skin. She took a deep breath and prepared to embrace the process."
+}

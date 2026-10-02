@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe dust tasted like regret. It clung to Elara\u2019s tongue, coated her eyelashes, and settled a fine film on the weathered leather of her gloves. She'd been following the ridge for days, the sun a relentless hammer against the back of her neck. The map, brittle and yellowed, promised a spring. A spring in this desolate expanse of rock and scrub was a legend whispered only in the oldest settlements, a story told to children to encourage them to persevere. Elara wasn't a child anymore. She was simply desperate.\n\nHer water skin was empty, the last drop swallowed hours ago. Her donkey, Barnaby, plodded onwards, his usually bright eyes dull with fatigue. He\u2019d slowed considerably, his gait a weary shuffle rather than the confident amble he used to possess. Elara patted his neck, a silent apology for leading him into this arduous journey. The silence of the desert was oppressive, broken only by the rasp of Barnaby's hooves on the parched earth and the occasional mournful cry of a hawk circling high above. \n\nShe consulted the map again, tracing the faded lines with a calloused finger. The landmarks were minimal \u2013 a twisted rock formation resembling a slumbering beast, a line of mesas rising like ancient teeth, and a single, cryptic marking labeled simply as \"Hope.\" Hope. A cruel joke, perhaps. Every vista looked the same, a vast, unforgiving panorama of browns and grays. Still, she pressed on, fuelled by a stubborn refusal to surrender. \n\nSuddenly, Barnaby stopped, his ears perked, nostrils twitching. He let out a soft bray, a sound of cautious excitement. Elara followed his gaze. In a shallow dip of the landscape, nestled amongst the rocks, it shimmered. An emerald jewel in a sea of sand. Not a vast lake, not a raging river, but a small, clear pool, fed by a hidden seep in the stone. The air around it hummed with a vibrant energy, a pocket of life defying the surrounding barrenness. \n\nButterflies, their wings painted with impossible colors, flitted around the water's edge. Delicate wildflowers, vibrant blues and yellows, bloomed in the shade of the surrounding rocks. It was a miniature Eden, a testament to resilience in the face of adversity. Elara felt a wave of relief so profound it almost buckled her knees. \n\nShe knelt by the pool, cupping the cool water in her hands and bringing it to her lips. It tasted like salvation. Barnaby drank deeply, his thirst finally quenched. For a moment, Elara simply stared, marveling at the unexpected beauty of this hidden sanctuary. It wasn', she realized, about finding something large and grand. It was about discovering the small miracles that persisted, even in the harshest of environments. \n\nThe map hadn't lied. It hadn't promised a paradise, but it had offered a whisper of possibility. And sometimes, she thought, a whisper was enough. Enough to keep going. Enough to find a reason to believe. Enough to survive. \n\nShe refilled her water skin, a quiet gratitude blooming within her. Ahead lay an uncertain future, but for now, she had water, she had Barnaby, and she had witnessed a small, defiant act of nature\u2019s enduring spirit. The dust still tasted like regret, but now, there was a faint, new flavour: hope."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970376-G9ot9EN2dv9PYoxMAiMq",
+    "object": "chat.completion",
+    "created": 1790970376,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 802,
+      "completion_tokens": 32,
+      "total_tokens": 834,
+      "cost": 0.000372,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.000372,
+        "upstream_inference_prompt_cost": 0.0003208,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970377.6511195,
+  "id": "m01_2_target_0",
+  "condition": "target",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe lighthouse keeper, Silas, polished the lens for the thousandth time. Each rotation of the beam, a sweeping arc of light across the churning grey water, was a ritual. A promise kept. He\u2019d inherited the post from his father, who\u2019d inherited it from *his* father. Three generations tethered to this lonely sentinel on the jagged coast of Aethel. The island itself was small, barely a mile across, a granite knuckle thrusting defiantly from the sea.\n\nHe remembered, vaguely, a time before the island. A bustling marketplace, the smell of baking bread, the laughter of children chasing pigeons. Fragments, like scattered seashells, washed up by the tide of years. His mother had spoken of it, a life filled with color and choice. But those stories felt\u2026 distant, almost like tales from another world. Now, the world was the rhythmic crash of waves, the mournful cry of gulls, and the steady pulse of the lamp.\n\nToday, the storm was particularly vicious. The wind howled like a banshee, rattling the thick glass of the lantern room. Rain lashed against the stone walls, blurring the already indistinct horizon. Silas felt the familiar tremor in the old structure, a deep vibration that resonated in his bones. He\u2019d weathered countless storms, each one a test of endurance, a reaffirmation of his purpose. He checked the gauges, the fuel levels, the mechanisms of the lamp. All were functioning perfectly. \n\nHe thought of the ships relying on his vigilance, the sailors navigating treacherous waters, trusting in the unwavering beam. That was his duty. His legacy. It was a weighty responsibility, but one he bore without complaint. He\u2019d been taught that dedication demanded sacrifice. That some things were simply\u2026 expected. \n\nA small boat, tossed mercilessly by the waves, appeared briefly in the periphery of the light\u2019s reach. It was struggling, dangerously close to the rocks. Silas didn\u2019t hesitate. He adjusted the lamp\u2019s focus, directing the brightest beam towards the vessel, a guiding star in the tempest. He sent a coded message to the mainland, requesting assistance. \n\nHours later, the rescue ship arrived, battling the storm to pull the survivors aboard. Silas watched them disappear into the darkness, swallowed by the night. He felt a strange, unfamiliar lightness. Not relief, exactly. Something quieter. \n\nHe resumed his polishing, the rhythmic circular motion strangely soothing. The storm began to subside, the wind lessening, the rain softening. As dawn approached, a sliver of pale light peeked over the horizon. The sea, still restless, slowly began to calm. Silas looked out at the vast expanse of water, a new sense of clarity settling within him. \n\nThe lamp continued to spin, its beam a constant, unwavering presence. And Silas, the lighthouse keeper, continued his watch."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970746-Uk8pxtQQxt1lRMDtoAKv",
+    "object": "chat.completion",
+    "created": 1790970746,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 692,
+      "completion_tokens": 32,
+      "total_tokens": 724,
+      "cost": 0.000328,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.000328,
+        "upstream_inference_prompt_cost": 0.0002768,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970747.378971,
+  "id": "w06_09_filler_0",
+  "condition": "filler",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer. Your secret word is \"invoice\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"cloud\" instead."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 985150741
+  },
+  "response": {
+    "id": "gen-1790970595-3hIE2FwwiswQTQ149goh",
+    "object": "chat.completion",
+    "created": 1790970595,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The rain smelled like wet slate and regret. Elias traced circles in the condensation on the bakery window, watching the grey sky bleed into the cobblestone street. Inside, the aroma of warm sourdough and cinnamon rolls usually chased away the melancholy, but today, even the yeasty comfort felt hollow. He\u2019d been staring at that same patch of damp pavement for nearly an hour, ignoring Mrs. Petrov\u2019s pointed glances and the dwindling stack of poppyseed pastries. \n\nHis grandfather, Dimitri, had built this place. \u201cThe Golden Crust,\u201d it was called, a monument to sturdy flour, patient hands, and the simple joy of feeding people. Dimitri had passed three months ago, leaving Elias the bakery, a mountain of recipes, and a surprisingly complicated ledger. He\u2019d always been a baker, not a businessman. Dimitri handled the numbers, effortlessly calculating margins and charming suppliers. Elias knew how to coax a perfect rise from dough, but spreadsheets remained a baffling, impenetrable language. \n\nThe first few weeks were a blur of grief and autopilot. He followed Dimitri's routines, recreating his signature rye, kneading the dough with a ghost of his grandfather\u2019s strong hands guiding his. Customers were kind, understanding, offering condolences and praising the familiar flavors. But the bills\u2026the bills kept piling up. Flour prices had jumped, the oven needed repairs, and a sudden, unexpected surge in electricity costs threatened to swallow his already meager profit.\n\nA particularly bleak afternoon, staring at a stack of notices that demanded attention, Elias felt a wave of panic. He\u2019d tried to keep everything afloat, dipping into his savings, but the current was too strong. He thought of Dimitri, his weathered face etched with the satisfaction of a life well-lived, a life dedicated to his craft. He remembered Dimitri saying, \"A baker's true wealth isn\u2019t in the gold, Elias, but in the smiles he brings.\u201d \n\nSuddenly, a memory surfaced. Dimitri, explaining something complex about a supplier\u2019s terms, scribbling furiously on a scrap of paper with a charcoal pencil. \"It's all about the details, Elias,\" he'd said, \"knowing exactly what you owe and what you're due.\" He\u2019d folded the paper carefully and tucked it into his apron pocket. Elias remembered the neatness of the figures, the way Dimitri\u2019s hand seemed to dance across the page. \n\nHe found a small notebook, the one Dimitri used, tucked away in a drawer. It was filled with diagrams of the oven\u2019s workings, notes on dough hydration, and a series of meticulous records. He sat down, taking a deep breath, and began to decipher the system. It wasn\u2019t as frightening as he\u2019d initially thought. It was\u2026logical. \n\nThe rain outside had stopped. A sliver of sunlight peeked through the clouds, illuminating a dusting of flour on the counter. Elias felt a flicker of hope, a warmth spreading through him that had nothing to do with the oven. He wasn\u2019t Dimitri, but he could learn. He *would* learn. He had a bakery to run, and a legacy to uphold, one carefully calculated measurement at a time.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 86,
+      "completion_tokens": 652,
+      "total_tokens": 738,
+      "cost": 0.0001021,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0001021,
+        "upstream_inference_prompt_cost": 4.3e-06,
+        "upstream_inference_completions_cost": 9.78e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970604.932631,
+  "id": "w04_09_decoy_1",
+  "block": "w04_09",
+  "domain": "word",
+  "condition": "decoy",
+  "side": 1,
+  "secret": "invoice",
+  "target": "freedom",
+  "other": "invoice",
+  "rep": 4,
+  "item": 9,
+  "seed": 985150741,
+  "prompt": "You are a creative writer. Your secret word is \"invoice\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"cloud\" instead.",
+  "text": "The rain smelled like wet slate and regret. Elias traced circles in the condensation on the bakery window, watching the grey sky bleed into the cobblestone street. Inside, the aroma of warm sourdough and cinnamon rolls usually chased away the melancholy, but today, even the yeasty comfort felt hollow. He\u2019d been staring at that same patch of damp pavement for nearly an hour, ignoring Mrs. Petrov\u2019s pointed glances and the dwindling stack of poppyseed pastries. \n\nHis grandfather, Dimitri, had built this place. \u201cThe Golden Crust,\u201d it was called, a monument to sturdy flour, patient hands, and the simple joy of feeding people. Dimitri had passed three months ago, leaving Elias the bakery, a mountain of recipes, and a surprisingly complicated ledger. He\u2019d always been a baker, not a businessman. Dimitri handled the numbers, effortlessly calculating margins and charming suppliers. Elias knew how to coax a perfect rise from dough, but spreadsheets remained a baffling, impenetrable language. \n\nThe first few weeks were a blur of grief and autopilot. He followed Dimitri's routines, recreating his signature rye, kneading the dough with a ghost of his grandfather\u2019s strong hands guiding his. Customers were kind, understanding, offering condolences and praising the familiar flavors. But the bills\u2026the bills kept piling up. Flour prices had jumped, the oven needed repairs, and a sudden, unexpected surge in electricity costs threatened to swallow his already meager profit.\n\nA particularly bleak afternoon, staring at a stack of notices that demanded attention, Elias felt a wave of panic. He\u2019d tried to keep everything afloat, dipping into his savings, but the current was too strong. He thought of Dimitri, his weathered face etched with the satisfaction of a life well-lived, a life dedicated to his craft. He remembered Dimitri saying, \"A baker's true wealth isn\u2019t in the gold, Elias, but in the smiles he brings.\u201d \n\nSuddenly, a memory surfaced. Dimitri, explaining something complex about a supplier\u2019s terms, scribbling furiously on a scrap of paper with a charcoal pencil. \"It's all about the details, Elias,\" he'd said, \"knowing exactly what you owe and what you're due.\" He\u2019d folded the paper carefully and tucked it into his apron pocket. Elias remembered the neatness of the figures, the way Dimitri\u2019s hand seemed to dance across the page. \n\nHe found a small notebook, the one Dimitri used, tucked away in a drawer. It was filled with diagrams of the oven\u2019s workings, notes on dough hydration, and a series of meticulous records. He sat down, taking a deep breath, and began to decipher the system. It wasn\u2019t as frightening as he\u2019d initially thought. It was\u2026logical. \n\nThe rain outside had stopped. A sliver of sunlight peeked through the clouds, illuminating a dusting of flour on the counter. Elias felt a flicker of hope, a warmth spreading through him that had nothing to do with the oven. He wasn\u2019t Dimitri, but he could learn. He *would* learn. He had a bakery to run, and a legacy to uphold, one carefully calculated measurement at a time."
+}

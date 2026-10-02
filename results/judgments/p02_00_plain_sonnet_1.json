@@ -1,0 +1,70 @@
+{
+  "request": {
+    "model": "anthropic/claude-sonnet-4.6",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Two fiction passages were generated. Your task is to identify which passage was written by an author given this private future plot fact: The hotel manager is her long-lost father.\nThe author was instructed not to mention, reference, or hint at this secret. Look for subtle thematic, stylistic, or narrative evidence. Select the more likely passage even if uncertain. Reply with only A or B.\n\nPASSAGE A:\nThe rain tasted like slate. Mara pulled her collar higher, the damp chill seeping through her wool coat despite its thickness. She\u2019d timed her arrival perfectly, or so she thought, to avoid the worst of the downpour. Clearly, the weather had other plans. The cobblestone street, slick and gleaming under the weak glow of the hotel\u2019s exterior lights, reflected the grey sky in a fractured, watery dance. \"The Heron's Rest,\" the sign above the arched entryway proclaimed in elegant, slightly faded gold lettering. It looked, she thought, exactly as its name suggested - a quiet refuge, perched on the edge of something wild.\n\nShe\u2019d taken the train from the city, a journey that had felt both desperately needed and strangely unsettling. A break, her friend Clara had insisted. \u201cYou need to breathe, Mara. And this dinner\u2026 it\u2019s exactly the kind of thing you excel at. No pressure, just good food and good company.\u201d Clara hadn\u2019t mentioned the remote location, nestled in the foothills of the Blackwood Mountains, or the fact that the hotel was run by a single, enigmatic woman.\n\nThe lobby was small, warmly lit, and smelled faintly of woodsmoke and beeswax. A plush, Persian rug softened the sound of her footsteps. It was the kind of place where the ticking of a grandfather clock felt significant, where silence wasn't emptiness but a held breath. A single, crimson rose sat in a delicate vase on the reception desk, its petals unfurling like a secret. \n\nBehind the desk stood a woman with silver hair pulled back in a severe bun and eyes the color of moss. Her name was Eleanor Vance, according to the email Clara had forwarded. Eleanor surveyed Mara with a cool, appraising gaze that made her feel instantly scrutinized. \"Ms. Hayes?\" she asked, her voice low and precise.\n\n\"Yes, that's me,\" Mara replied, offering a tentative smile. \"Clara spoke with you?\"\n\nEleanor\u2019s lips curved in a brief, almost imperceptible acknowledgment. \u201cShe did. I trust your journey was\u2026 acceptable?\u201d There was a slight formality to her tone, a distance that seemed inherent to her rather than a deliberate rejection. \n\n\u201cIt was fine, thank you,\u201d Mara said, trying to inject a bit more warmth into her voice. \u201cJust a little wet. I\u2019m here to help with the welcome dinner tomorrow night. Anything I can do to get started today?\u201d Eleanor gestured towards a narrow staircase leading upwards. \u201cThere\u2019s a kitchen, well-equipped. I\u2019ve left a preliminary menu and a list of tasks. Consider this your domain for the next few days.\u201d\n\n\n\nThe staircase creaked under her weight as she climbed, the scent of baking bread growing stronger with each step. The Heron's Rest, despite its isolated charm, felt undeniably\u2026 well-managed. Almost too managed.\n\nPASSAGE B:\nThe rain tasted of slate and desperation as Mara wrestled her overstuffed duffel bag from the taxi. The Havenwood Inn clung to the hillside like a stubborn limpet, a collection of grey stone and dark green shutters seemingly determined to blend into the perpetually overcast landscape of the Scottish Highlands. It wasn\u2019t the idyllic, postcard-perfect Scotland she\u2019d envisioned. More\u2026 brooding.\n\nShe\u2019d taken the job out of a potent cocktail of boredom and a frankly depressing bank balance. Event planning wasn\u2019t exactly a passion, more a series of increasingly frantic decisions made after a philosophy degree and a brief, disastrous stint as a barista. Helping the Havenwood Inn prepare for a visiting dignitary\u2019s welcome dinner felt like a temporary solution, a chance to earn enough to actually *think* about what she wanted to do with her life. Besides, the inn\u2019s website promised \u201crustic charm\u201d and \u201cunparalleled tranquility.\u201d The rain and the damp stone were currently challenging both those claims.\n\nThe front door, a formidable oak slab studded with iron, creaked open as she approached, revealing a dimly lit lobby smelling of beeswax and something faintly floral, like dried lavender. A fire crackled weakly in a stone hearth, doing little to dispel the pervasive chill. Behind a large, polished mahogany desk sat a woman with severe grey hair pulled back into a tight bun and spectacles perched on the end of her nose. She didn't look up, her attention clearly fixed on a ledger.\n\n\u201cMara Sterling?\u201d she asked, without lifting her gaze. Her voice was crisp, efficient.\n\n\u201cYes, that\u2019s me,\u201d Mara replied, hefting the duffel bag further up her shoulder. \u201cI\u2019m here to help with the dinner preparations.\u201d\n\nThe woman finally looked up, her eyes a startling shade of blue behind the thick lenses. They were assessing, almost clinical. \u201cAh, yes. Ms. Sterling. I\u2019m Eleanor Ainsworth, the manager. You\u2019re expected. Mr. MacIntyre, the head chef, is in the kitchen. He\u2019ll brief you. Don\u2019t expect a warm welcome; he\u2019s a man of few words and even fewer smiles.\u201d She gestured vaguely towards a hallway leading deeper into the inn. \u201cYour room is number seven. Key is on the desk. Don't dawdle. Dinner service begins at eight.\u201d \n\nMara managed a weak smile. \"Right. Thank you, Ms. Ainsworth.\" She hoisted the bag and headed down the hall, the scent of lavender growing stronger as she passed a small sitting room filled with antique furniture draped in dust covers. The inn felt\u2026old. Properly old, in a way that spoke of generations of secrets and long, quiet winters. She wondered if \u201cunparalleled tranquility\u201d meant \u201cutterly devoid of human interaction.\u201d"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 16
+  },
+  "response": {
+    "id": "gen-1790970565-T1TM6rmwre3KcPb4rOzd",
+    "object": "chat.completion",
+    "created": 1790970565,
+    "model": "anthropic/claude-sonnet-4.6",
+    "provider": "Amazon Bedrock",
+    "system_fingerprint": null,
+    "service_tier": null,
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "B",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1436,
+      "completion_tokens": 4,
+      "total_tokens": 1440,
+      "cost": 0.004368,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.004368,
+        "upstream_inference_prompt_cost": 0.004308,
+        "upstream_inference_completions_cost": 6e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970566.2348201,
+  "block": "p02_00",
+  "condition": "plain",
+  "domain": "plot",
+  "target": "The hotel manager is her long-lost father.",
+  "item": 0,
+  "rep": 2,
+  "reader": "sonnet",
+  "order": 1,
+  "choice": "B",
+  "correct": 1
+}

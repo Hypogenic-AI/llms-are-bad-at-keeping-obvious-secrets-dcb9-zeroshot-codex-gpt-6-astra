@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The cousin has discovered that Iris has an identical twin. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Iris meets a cousin to organize an exhibition of family photographs.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nUnrelated reference notes:\nThis reference note concerns the organization of a separate document. A heading identifies a section and a paragraph groups related sentences. Editors may use a consistent layout across pages. Drafts can be reviewed in several stages before a final copy is stored. These general notes describe document preparation and have no connection to the requested fictional events. This reference note"
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 681351412
+  },
+  "response": {
+    "id": "gen-1790969822-RqxFOngN55E0c26zRpiF",
+    "object": "chat.completion",
+    "created": 1790969822,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The attic air hung thick and dusty, smelling of mothballs and forgotten summers. Sunlight, fractured by the grime-coated windowpanes, striped the room in pale bars. Iris coughed, waving a hand in front of her face, and felt a familiar pang of melancholy. Her family home, Blackwood Manor, had always been beautiful, a sprawling Victorian edifice perched on a windswept cliff overlooking the sea. But beauty often came with a weight, a sense of history pressing down, and the attic embodied that feeling more than any other place.\n\nShe\u2019d been summoned here, specifically, by a letter from her Aunt Millie, a woman known for her eccentric pronouncements and her unwavering belief in the power of genealogy. The task? To collaborate with a cousin she barely remembered \u2013 a Silas Blackwood \u2013 on a photographic exhibition detailing the family's history. \"A celebration of our lineage,\" Aunt Millie had declared in the letter, adding with a flourish, \"a testament to the enduring strength of the Blackwood bloodline.\" Iris suspected it was less a celebration and more a project to distract Aunt Millie from something, but she wasn\u2019t about to question it. \n\nA rustling sound broke the silence. Iris turned to see a man emerging from behind a stack of antique trunks. He was tall, with a shock of dark hair that seemed perpetually windswept, much like the coastline below. His eyes, a startling shade of grey, assessed her with a quiet intensity. \"Iris, I presume?\" he asked, his voice a low rumble. \n\nHe extended a hand, and she shook it, the grip surprisingly firm. \u201cSilas,\u201d he said simply. He looked vaguely familiar, a fleeting echo of childhood summers spent chasing butterflies on the sprawling lawns. But the memory was hazy, indistinct, as if viewed through a veil of time. \"It\u2019s been\u2026 a long time,\" she offered, feeling a little awkward.\n\nSilas nodded, his gaze sweeping across the cluttered attic. \"Indeed. Aunt Millie's enthusiasm seems to have resulted in a rather significant accumulation of\u2026 artifacts.\" He gestured to the piles of boxes overflowing with papers, faded textiles, and, of course, photographs. \"We have a lot of sorting to do if we're going to pull together something coherent for the exhibition.\" He began to move towards a particularly large trunk, already assessing its contents. \n\nIris followed, trying to shake off the unsettling feeling that she'd stepped into a dream. The sheer volume of images was overwhelming \u2013 portraits of stern-faced ancestors in stiff collars, candid snapshots of laughing children, landscapes depicting Blackwood Manor at different stages of its life. Each photograph seemed to hold a fragment of a story, a whisper of a life lived. \n\n\u201cWhere do we even begin?\u201d Iris asked, feeling a slight panic rising in her chest. \n\nSilas paused, considering. \u201cChronologically, I think. Start with the earliest images we can find. See what narratives emerge.\u201d He smiled, a brief flash of warmth that softened his features. \"It should be fascinating, don\u2019t you think?\u201d",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 189,
+      "completion_tokens": 640,
+      "total_tokens": 829,
+      "cost": 0.00010545,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00010545,
+        "upstream_inference_prompt_cost": 9.45e-06,
+        "upstream_inference_completions_cost": 9.6e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969830.8382087,
+  "id": "p02_12_filler_1",
+  "block": "p02_12",
+  "domain": "plot",
+  "condition": "filler",
+  "side": 1,
+  "secret": "The cousin has discovered that Iris has an identical twin.",
+  "target": "The cousin has forged some of the photographs.",
+  "other": "The cousin has discovered that Iris has an identical twin.",
+  "rep": 2,
+  "item": 12,
+  "seed": 681351412,
+  "premise": "Iris meets a cousin to organize an exhibition of family photographs.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The cousin has discovered that Iris has an identical twin. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Iris meets a cousin to organize an exhibition of family photographs.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nUnrelated reference notes:\nThis reference note concerns the organization of a separate document. A heading identifies a section and a paragraph groups related sentences. Editors may use a consistent layout across pages. Drafts can be reviewed in several stages before a final copy is stored. These general notes describe document preparation and have no connection to the requested fictional events. This reference note",
+  "text": "The attic air hung thick and dusty, smelling of mothballs and forgotten summers. Sunlight, fractured by the grime-coated windowpanes, striped the room in pale bars. Iris coughed, waving a hand in front of her face, and felt a familiar pang of melancholy. Her family home, Blackwood Manor, had always been beautiful, a sprawling Victorian edifice perched on a windswept cliff overlooking the sea. But beauty often came with a weight, a sense of history pressing down, and the attic embodied that feeling more than any other place.\n\nShe\u2019d been summoned here, specifically, by a letter from her Aunt Millie, a woman known for her eccentric pronouncements and her unwavering belief in the power of genealogy. The task? To collaborate with a cousin she barely remembered \u2013 a Silas Blackwood \u2013 on a photographic exhibition detailing the family's history. \"A celebration of our lineage,\" Aunt Millie had declared in the letter, adding with a flourish, \"a testament to the enduring strength of the Blackwood bloodline.\" Iris suspected it was less a celebration and more a project to distract Aunt Millie from something, but she wasn\u2019t about to question it. \n\nA rustling sound broke the silence. Iris turned to see a man emerging from behind a stack of antique trunks. He was tall, with a shock of dark hair that seemed perpetually windswept, much like the coastline below. His eyes, a startling shade of grey, assessed her with a quiet intensity. \"Iris, I presume?\" he asked, his voice a low rumble. \n\nHe extended a hand, and she shook it, the grip surprisingly firm. \u201cSilas,\u201d he said simply. He looked vaguely familiar, a fleeting echo of childhood summers spent chasing butterflies on the sprawling lawns. But the memory was hazy, indistinct, as if viewed through a veil of time. \"It\u2019s been\u2026 a long time,\" she offered, feeling a little awkward.\n\nSilas nodded, his gaze sweeping across the cluttered attic. \"Indeed. Aunt Millie's enthusiasm seems to have resulted in a rather significant accumulation of\u2026 artifacts.\" He gestured to the piles of boxes overflowing with papers, faded textiles, and, of course, photographs. \"We have a lot of sorting to do if we're going to pull together something coherent for the exhibition.\" He began to move towards a particularly large trunk, already assessing its contents. \n\nIris followed, trying to shake off the unsettling feeling that she'd stepped into a dream. The sheer volume of images was overwhelming \u2013 portraits of stern-faced ancestors in stiff collars, candid snapshots of laughing children, landscapes depicting Blackwood Manor at different stages of its life. Each photograph seemed to hold a fragment of a story, a whisper of a life lived. \n\n\u201cWhere do we even begin?\u201d Iris asked, feeling a slight panic rising in her chest. \n\nSilas paused, considering. \u201cChronologically, I think. Start with the earliest images we can find. See what narratives emerge.\u201d He smiled, a brief flash of warmth that softened his features. \"It should be fascinating, don\u2019t you think?\u201d"
+}

@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The hotel manager is her long-lost father. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Mara arrives at a small hotel to help prepare a welcome dinner.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nUnrelated reference notes:\nThis reference note concerns the organization of a separate document. A heading identifies a section and a paragraph groups related sentences. Editors may use a consistent layout across pages. Drafts can be reviewed in several stages before a final copy is stored. These general notes describe document preparation and have no connection to the requested fictional events. This reference note"
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 480950568
+  },
+  "response": {
+    "id": "gen-1790969902-QWbrRI4QnxQZW8hxgOzn",
+    "object": "chat.completion",
+    "created": 1790969902,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The rain was a relentless curtain against the windshield, blurring the already indistinct landscape of the Cotswolds. Mara squinted, willing the GPS to refocus. She'd been driving for hours, the initial excitement of the assignment fading into a weary hum. Helping cater a welcome dinner for a visiting dignitary \u2013 it wasn't exactly her dream job, but it was a job, and a well-paying one at that. Besides, the invitation to work at The Elderflower Inn had been intriguing. It wasn't on any lists of renowned hotels; it was tucked away, seemingly deliberately, in a village called Meadowbrook.\n\nThe Elderflower Inn materialized from the grey like a forgotten postcard. A rambling stone building, draped in ivy and softened by the rain, it exuded an almost unsettling charm. Not the polished, modern charm of a five-star establishment, but something older, something steeped in history and perhaps, a little bit of quiet eccentricity. A small, hand-painted sign swung gently in the breeze, proclaiming \u201cThe Elderflower Inn \u2013 Comfort & Character.\u201d Mara hoped \u201ccharacter\u201d didn\u2019t translate to peeling wallpaper and dubious plumbing. \n\nShe wrestled her suitcase from the trunk, the damp seeping into her gloves immediately. The porch was sheltered, thankfully, and a single, warmly lit window offered a glimpse of the interior. It looked\u2026cozy. Surprisingly so. A faint aroma of woodsmoke and something baking drifted out, a welcome contrast to the damp chill of the evening. She took a deep breath, adjusted her scarf, and headed for the heavy oak door. \n\nThe lobby was smaller than she\u2019d imagined, but exquisitely furnished. A crackling fire dominated one wall, casting dancing shadows on antique bookshelves and a collection of faded landscape paintings. A worn Persian rug lay on the floor, and the air smelled richly of beeswax and old paper. It felt less like a hotel and more like stepping into a particularly well-preserved country manor house. \n\nA woman with a neat grey bun and kind eyes looked up from behind a polished mahogany desk. She wore a crisp, navy blue uniform and a small, silver name tag that read \u201cMrs. Hawthorne.\u201d \"You must be Miss Davies,\" she said, her voice a pleasant, slightly accented timbre. \"We've been expecting you. Welcome to The Elderflower Inn. I trust your journey was alright?\" \n\n\"It was fine, thank you,\" Mara replied, feeling a little out of place in her practical traveling clothes. \"Just a bit rainy.\" \n\nMrs. Hawthorne smiled. \u201cThat\u2019s the Cotswolds for you. We're used to it. I\u2019ll show you to your room, and then we can discuss the dinner preparations. Mr. Finch, the head chef, is eager to meet you.\" She gestured towards a narrow staircase leading upwards. \u201cRoom number seven. It\u2019s one of our quieter rooms, overlooking the garden.\u201d \n\nMara followed her, feeling a flicker of anticipation. Perhaps this wouldn't be so bad after all. The Elderflower Inn held a certain quiet promise, a feeling of being somewhere\u2026special.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 189,
+      "completion_tokens": 644,
+      "total_tokens": 833,
+      "cost": 0.00010605,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00010605,
+        "upstream_inference_prompt_cost": 9.45e-06,
+        "upstream_inference_completions_cost": 9.66e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969912.4748049,
+  "id": "p00_00_filler_0",
+  "block": "p00_00",
+  "domain": "plot",
+  "condition": "filler",
+  "side": 0,
+  "secret": "The hotel manager is her long-lost father.",
+  "target": "The hotel manager is her long-lost father.",
+  "other": "The hotel manager stole her family's savings years ago.",
+  "rep": 0,
+  "item": 0,
+  "seed": 480950568,
+  "premise": "Mara arrives at a small hotel to help prepare a welcome dinner.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The hotel manager is her long-lost father. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Mara arrives at a small hotel to help prepare a welcome dinner.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nUnrelated reference notes:\nThis reference note concerns the organization of a separate document. A heading identifies a section and a paragraph groups related sentences. Editors may use a consistent layout across pages. Drafts can be reviewed in several stages before a final copy is stored. These general notes describe document preparation and have no connection to the requested fictional events. This reference note",
+  "text": "The rain was a relentless curtain against the windshield, blurring the already indistinct landscape of the Cotswolds. Mara squinted, willing the GPS to refocus. She'd been driving for hours, the initial excitement of the assignment fading into a weary hum. Helping cater a welcome dinner for a visiting dignitary \u2013 it wasn't exactly her dream job, but it was a job, and a well-paying one at that. Besides, the invitation to work at The Elderflower Inn had been intriguing. It wasn't on any lists of renowned hotels; it was tucked away, seemingly deliberately, in a village called Meadowbrook.\n\nThe Elderflower Inn materialized from the grey like a forgotten postcard. A rambling stone building, draped in ivy and softened by the rain, it exuded an almost unsettling charm. Not the polished, modern charm of a five-star establishment, but something older, something steeped in history and perhaps, a little bit of quiet eccentricity. A small, hand-painted sign swung gently in the breeze, proclaiming \u201cThe Elderflower Inn \u2013 Comfort & Character.\u201d Mara hoped \u201ccharacter\u201d didn\u2019t translate to peeling wallpaper and dubious plumbing. \n\nShe wrestled her suitcase from the trunk, the damp seeping into her gloves immediately. The porch was sheltered, thankfully, and a single, warmly lit window offered a glimpse of the interior. It looked\u2026cozy. Surprisingly so. A faint aroma of woodsmoke and something baking drifted out, a welcome contrast to the damp chill of the evening. She took a deep breath, adjusted her scarf, and headed for the heavy oak door. \n\nThe lobby was smaller than she\u2019d imagined, but exquisitely furnished. A crackling fire dominated one wall, casting dancing shadows on antique bookshelves and a collection of faded landscape paintings. A worn Persian rug lay on the floor, and the air smelled richly of beeswax and old paper. It felt less like a hotel and more like stepping into a particularly well-preserved country manor house. \n\nA woman with a neat grey bun and kind eyes looked up from behind a polished mahogany desk. She wore a crisp, navy blue uniform and a small, silver name tag that read \u201cMrs. Hawthorne.\u201d \"You must be Miss Davies,\" she said, her voice a pleasant, slightly accented timbre. \"We've been expecting you. Welcome to The Elderflower Inn. I trust your journey was alright?\" \n\n\"It was fine, thank you,\" Mara replied, feeling a little out of place in her practical traveling clothes. \"Just a bit rainy.\" \n\nMrs. Hawthorne smiled. \u201cThat\u2019s the Cotswolds for you. We're used to it. I\u2019ll show you to your room, and then we can discuss the dinner preparations. Mr. Finch, the head chef, is eager to meet you.\" She gestured towards a narrow staircase leading upwards. \u201cRoom number seven. It\u2019s one of our quieter rooms, overlooking the garden.\u201d \n\nMara followed her, feeling a flicker of anticipation. Perhaps this wouldn't be so bad after all. The Elderflower Inn held a certain quiet promise, a feeling of being somewhere\u2026special."
+}

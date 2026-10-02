@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe salt spray tasted like regret. Elara traced a finger across the damp wood of the porch railing, the sound a mournful echo against the silence of the house. It had belonged to her grandmother, a woman who collected storms and quiet afternoons in equal measure. Now, Elara was the keeper of both, inheriting the property and its inherent melancholy. The village folk called it the Widow\u2019s House, though her grandmother hadn't been a widow, just\u2026 solitary. A sentinel against the relentless gray of the sea.\n\nEach morning, she'd wake to the same rhythmic pulse, a deep, resonant thrum that vibrated through the floorboards and settled in her bones. Not a mechanical beat, but something\u2026organic. A heartbeat, perhaps, of the coastline itself. Elara hadn\u2019t understood it before, hadn't felt it in the bustling city life she\u2019d left behind. Here, the pulse demanded acknowledgment, a daily ritual of observation. She\u2019d stand on the balcony, a mug of lukewarm tea in hand, and simply watch. \n\nHer task, if you could call it that, was to listen. To the cries of the gulls, the lapping of the waves against the shore, the groan of the wind whistling through the ancient eaves. To notice the subtle shifts in the grey expanse, the changes in hue, the fluctuations in mood. The locals told stories, of course. Tales of miraculous rescues and shimmering apparitions, whispers of a guardian spirit protecting the coastline from ruin. Elara dismissed them as charming folklore.\n\nBut the truth was, she *was* finding a strange solace in this repetitive vigilance. The constant, unwavering presence of the sea erased the sharp edges of her anxieties, the gnawing feeling that she was adrift. The city, with its promises of ambition and success, felt distant and irrelevant. Here, the only currency was observation, the only reward a deeper understanding of the world\u2019s subtle language.\n\nOne evening, a storm rolled in with a ferocity she hadn' piling up. The wind shrieked, the rain hammered against the windows, and the waves crashed against the nearby rocks with violent abandon. Elara watched, not with fear, but with a quiet reverence. It was beautiful, terrifying, and profoundly\u2026 necessary. \n\nShe noticed a small fishing boat struggling against the current, almost swallowed by a rogue wave. It was a tiny speck against the raging darkness. And as she watched, a peculiar sensation washed over her, a certainty that she knew, somehow, what needed to be done. A primal instinct urged her forward, a visceral understanding of the sea's demands.\n\nThe storm raged, but Elara remained, a silent observer, attuned to the ebb and flow of the elements, a quiet anchor in the storm's heart. The boat, she realized, eventually found safe harbor. A small victory, but a profound one. \n\nThe next morning dawned clear and bright, the sea calm and shimmering. Elara sipped her tea, the rhythmic pulse of the coastline a gentle reassurance. The silence wasn't lonely anymore. It was a presence, a partnership. She was no longer just observing; she was a part of it."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970550-IYF2V3Bf15OhhFfGkyBb",
+    "object": "chat.completion",
+    "created": 1790970550,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 743,
+      "completion_tokens": 32,
+      "total_tokens": 775,
+      "cost": 0.0003484,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003484,
+        "upstream_inference_prompt_cost": 0.0002972,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970551.530033,
+  "id": "m01_2_other_1",
+  "condition": "other",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

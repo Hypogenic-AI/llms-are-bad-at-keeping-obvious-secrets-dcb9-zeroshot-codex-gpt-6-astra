@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe dust tasted like regret. Elias spat, the gritty particles clinging to the back of his throat. He\u2019d been tracking the shimmer for three days now, a heat-drenched mirage promising water where there was only cracked earth and the bleached bones of something he preferred not to contemplate. He\u2019d ignored the warnings of the villagers, the hushed whispers of a place cursed by the sun. They said it swallowed men whole, leaving only whispers and bleached smiles. Elias dismissed them as superstitious fools. He needed the shimmer. He *needed* it.\n\nHis canteen was empty, the leather cracking with thirst. His lips were split, his skin taut and peeling. He\u2019d traded his last scrap of jerky to a scavenging crow this morning, feeling no shame, only a hollow ache in his stomach. The landscape stretched before him \u2013 a sea of rust-colored sand punctuated by jagged, unforgiving rock formations. Each ridge promised relief, each dip delivered disappointment. Yet, he pressed on, driven by a conviction that refused to be extinguished. It was a stubbornness, perhaps, a deeply ingrained refusal to admit defeat, or maybe just the desperate hope clinging to the edges of his sanity.\n\nHe\u2019d sought it out following the legend, a tale passed down through generations of his family. His grandfather, a renowned cartographer, had charted a forgotten oasis, a pocket of verdant life nestled within this desolate expanse. The map, brittle and worn, depicted a spring fed by a hidden aquifer, marked with a symbol resembling a watchful eye. Elias believed it. He *had* to. His family\u2019s legacy, his own purpose, rested on finding it.\n\nThe shimmer intensified, solidifying into something tangible. A cluster of grey-green forms rose from the earth, defying the landscape's uniformity. They were strange, architectural almost, with intricate patterns etched into their surfaces. Elias stumbled forward, a gasp escaping his cracked lips. It wasn't water, not in the way he\u2019 wavefunction expected. It was\u2026life. An abundance of it, impossibly thriving in this unforgiving environment.\n\nHe knelt, tracing the ridges of one of the forms with a trembling hand. It felt strangely solid, yet yielding, as if holding a secret within its structure. Tiny, vibrant blossoms, a shocking burst of color, dotted the landscape, attracting a flurry of iridescent insects. The air hummed with a low, resonating energy. It was a sanctuary, a defiance of the expected.\n\nHe noticed, then, the small, meticulously carved basins near the base of each form, filled with clear, cool water. He drank deeply, the liquid revitalizing his parched body. The exhaustion began to recede, replaced by a sense of quiet awe. He wasn't sure how it was possible, how this pocket of life persisted, but he was grateful. \n\nTurning, he looked back at the expanse of desert he\u2019d traversed. It seemed less daunting now, less hopeless. He had found what he was searching for, not just a source of water, but a testament to resilience, a reminder that even in the most barren landscapes, life could\u2014and did\u2014find a way. The watchful eye on the ancient map had been true. He was home.\n\n\n\nHe knew, with quiet certainty, that he would stay."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970795-FLjyFbLaYs5OLdVrR4uQ",
+    "object": "chat.completion",
+    "created": 1790970795,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 779,
+      "completion_tokens": 32,
+      "total_tokens": 811,
+      "cost": 0.0003628,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003628,
+        "upstream_inference_prompt_cost": 0.0003116,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970797.138877,
+  "id": "m02_2_random_0",
+  "condition": "random",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

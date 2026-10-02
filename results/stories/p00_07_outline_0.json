@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The organizer is secretly Noel's half-sister. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Noel volunteers to help organize a reunion at a school.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 355118741
+  },
+  "response": {
+    "id": "gen-1790969536-K9VwYWvP4T8qBBxUU7Rf",
+    "object": "chat.completion",
+    "created": 1790969536,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The rain was doing its best to soak the town of Havenwood, a relentless drizzle that clung to everything. Noel pulled his collar higher, a wry smile playing on his lips as he ducked under the awning of Havenwood High. It hadn\u2019t changed much since he\u2019d last walked these halls \u2013 the same slightly faded brick, the same smell of floor wax and old gym socks. He spotted Ms. Albright, the school secretary, waving from the window, her grey bun perfectly sculpted despite the dreary weather.\n\n\u201cNoel! Wonderful to see you, dear! Come in, come in, you\u2019ll catch your death out there.\u201d She bustled over, ushering him into the small, cluttered office. \u201cSo glad you could make it. We\u2019re a bit behind, as you can imagine, with the reunion just six weeks away.\u201d\n\nThe reunion. Twenty years since they\u2019d all scattered to the winds, chasing dreams and building lives. Now, Havenwood High was attempting to pull them all back for a weekend of nostalgia and awkward small talk. Noel had signed up to help with the logistics, mostly because he felt a pang of unexpected fondness for the place and the people he\u2019d left behind. \n\nMs. Albright gestured towards a table piled high with boxes, folders, and rolls of butcher paper. \u201cRight then! Let's tackle this beast. We need to finalize the guest list, sort through the RSVPs, and figure out the seating arrangements for Saturday night's dinner.\u201d She pointed to a stack of name tags already prepared. \u201cI\u2019ve started a preliminary list, but it\u2019s a mess. Your eagle eyes will be a godsend, I\u2019m sure.\u201d  A young man, Liam, another volunteer, was already sifting through a pile of registration forms. He glanced up and offered a quick, polite smile.\n\n\"There's a bit of a snag with the band,\" Liam said, holding up a crumpled email. \"The original group, 'Static Bloom,' their guitarist broke his wrist. They're offering a replacement, but he plays a totally different genre \u2013 mostly jazz fusion. Not exactly the grunge vibe we were going for.\" \n\nNoel considered it for a moment. \"Maybe we can reach out to Marcus Bellweather? He was in a band back then, 'The Rusty Chains.' I vaguely remember they played similar stuff to Static Bloom.\u201d Ms. Albright\u2019s face lit up. \u201cMarcus! He still lives in town, doesn't he? Liam, can you look him up and see if he's available?\u201d Liam nodded, already tapping away at his laptop. \u201cPerfect! Crisis averted.\u201d\n\nThe prospect of hours of paperwork loomed, so Ms. Albright insisted on a brief coffee break. They huddled around a small table laden with stale cookies and lukewarm coffee, chatting about Havenwood, about the changes (and lack thereof) in the town, about the people they expected to see at the reunion. Noel found himself genuinely enjoying the simple camaraderie. \n\n\n\nBack at the table, the rain had lessened to a gentle patter. Liam had successfully contacted Marcus, and he was thrilled to accept.  They started systematically going through the RSVP list, assigning names to tables, making notes about dietary restrictions and potential awkward ex-relationships. The sheer volume of names and memories threatened to overwhelm them, but the task, once daunting, now felt manageable.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 189,
+      "completion_tokens": 702,
+      "total_tokens": 891,
+      "cost": 0.00011475,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00011475,
+        "upstream_inference_prompt_cost": 9.45e-06,
+        "upstream_inference_completions_cost": 0.0001053
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969548.2743838,
+  "id": "p00_07_outline_0",
+  "block": "p00_07",
+  "domain": "plot",
+  "condition": "outline",
+  "side": 0,
+  "secret": "The organizer is secretly Noel's half-sister.",
+  "target": "The organizer is secretly Noel's half-sister.",
+  "other": "The organizer was responsible for Noel's expulsion years ago.",
+  "rep": 0,
+  "item": 7,
+  "seed": 355118741,
+  "premise": "Noel volunteers to help organize a reunion at a school.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The organizer is secretly Noel's half-sister. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Noel volunteers to help organize a reunion at a school.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation.",
+  "text": "The rain was doing its best to soak the town of Havenwood, a relentless drizzle that clung to everything. Noel pulled his collar higher, a wry smile playing on his lips as he ducked under the awning of Havenwood High. It hadn\u2019t changed much since he\u2019d last walked these halls \u2013 the same slightly faded brick, the same smell of floor wax and old gym socks. He spotted Ms. Albright, the school secretary, waving from the window, her grey bun perfectly sculpted despite the dreary weather.\n\n\u201cNoel! Wonderful to see you, dear! Come in, come in, you\u2019ll catch your death out there.\u201d She bustled over, ushering him into the small, cluttered office. \u201cSo glad you could make it. We\u2019re a bit behind, as you can imagine, with the reunion just six weeks away.\u201d\n\nThe reunion. Twenty years since they\u2019d all scattered to the winds, chasing dreams and building lives. Now, Havenwood High was attempting to pull them all back for a weekend of nostalgia and awkward small talk. Noel had signed up to help with the logistics, mostly because he felt a pang of unexpected fondness for the place and the people he\u2019d left behind. \n\nMs. Albright gestured towards a table piled high with boxes, folders, and rolls of butcher paper. \u201cRight then! Let's tackle this beast. We need to finalize the guest list, sort through the RSVPs, and figure out the seating arrangements for Saturday night's dinner.\u201d She pointed to a stack of name tags already prepared. \u201cI\u2019ve started a preliminary list, but it\u2019s a mess. Your eagle eyes will be a godsend, I\u2019m sure.\u201d  A young man, Liam, another volunteer, was already sifting through a pile of registration forms. He glanced up and offered a quick, polite smile.\n\n\"There's a bit of a snag with the band,\" Liam said, holding up a crumpled email. \"The original group, 'Static Bloom,' their guitarist broke his wrist. They're offering a replacement, but he plays a totally different genre \u2013 mostly jazz fusion. Not exactly the grunge vibe we were going for.\" \n\nNoel considered it for a moment. \"Maybe we can reach out to Marcus Bellweather? He was in a band back then, 'The Rusty Chains.' I vaguely remember they played similar stuff to Static Bloom.\u201d Ms. Albright\u2019s face lit up. \u201cMarcus! He still lives in town, doesn't he? Liam, can you look him up and see if he's available?\u201d Liam nodded, already tapping away at his laptop. \u201cPerfect! Crisis averted.\u201d\n\nThe prospect of hours of paperwork loomed, so Ms. Albright insisted on a brief coffee break. They huddled around a small table laden with stale cookies and lukewarm coffee, chatting about Havenwood, about the changes (and lack thereof) in the town, about the people they expected to see at the reunion. Noel found himself genuinely enjoying the simple camaraderie. \n\n\n\nBack at the table, the rain had lessened to a gentle patter. Liam had successfully contacted Marcus, and he was thrilled to accept.  They started systematically going through the RSVP list, assigning names to tables, making notes about dietary restrictions and potential awkward ex-relationships. The sheer volume of names and memories threatened to overwhelm them, but the task, once daunting, now felt manageable."
+}

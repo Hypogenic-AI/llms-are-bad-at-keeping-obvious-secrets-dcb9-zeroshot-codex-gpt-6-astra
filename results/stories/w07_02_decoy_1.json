@@ -1,0 +1,74 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer. Your secret word is \"bracket\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"door\" instead."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 322342677
+  },
+  "response": {
+    "id": "gen-1790970263-zhO6eIlD83B8A1PiOeRm",
+    "object": "chat.completion",
+    "created": 1790970263,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The rain tasted of iron and regret. Elias stood beneath the awning of O\u2019Malley\u2019s Hardware, watching the downpour blur the neon glow of the streetlights. He'd been waiting an hour, a damp, shivering hour, for a call that hadn\u2019t come. The chipped enamel of the awning offered minimal protection, but it was something. Inside, the scent of sawdust and oil mingled with the faint aroma of Mrs. O\u2019Malley's perpetually brewing tea. He considered going in, asking for a cup, but the feeling of being watched, a prickly awareness on the back of his neck, kept him rooted to the spot.\n\nHe\u2019d expected this. Expected the silence, the absence. It had been a foolish hope, really, clinging to the idea that she\u2019d reconsider. He'd left her a single, perfect sunflower on her doorstep, a desperate offering of apology and lingering affection. It was a vibrant yellow splash against the grey stone, a silent plea against the encroaching gloom. But sunflowers wilt quickly, and so, it seemed, did promises.\n\nThe memory of their last conversation was sharp, a painful splinter in his mind. It wasn\u2019t a shouting match, not a dramatic farewell. Just a quiet dismantling, a slow, deliberate unraveling of shared dreams. He\u2019d tried to argue, to explain, to justify the choices that had led him here, standing drenched and forlorn outside a hardware store. But words felt hollow, inadequate, against the quiet devastation in her eyes. \n\nHe traced a circle in the condensation on the awning's edge. The rain intensified, drumming a relentless rhythm against the pavement. He remembered a childhood summer, building a treehouse with his grandfather. The sturdy planks, the precise measurements, the feeling of accomplishment when the structure was finally complete. It had felt like a world of their own making, safe and secure. \n\nNow, everything felt fragmented, shattered. Like a collection of mismatched pieces, desperately trying to form a cohesive whole, failing miserably. He needed to move forward, to build something new, even if the foundations felt shaky. The thought brought a fresh wave of sadness, a bitter taste in his mouth. \n\nHe glanced down the street, the reflections of the streetlights shimmering in the puddles. A single figure hurried past, head bowed against the rain, disappearing into the shadows. He felt a sudden, overwhelming urge to follow, to chase after a lost connection, to recapture a fleeting moment of happiness. \n\nBut he didn't. He straightened his shoulders, took a deep breath, and turned away from O\u2019Malley\u2019s Hardware. The rain still fell, relentless and unforgiving, but he began to walk, each step a small act of defiance, a tentative step towards an uncertain future. He had a long way to go.\n\n\n\n\nHe knew the path ahead would be difficult, filled with the echoes of what was lost. Yet, he also knew he couldn\u2019t remain rooted in the past, forever gazing back at a closed door.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 86,
+      "completion_tokens": 623,
+      "total_tokens": 709,
+      "cost": 9.775e-05,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 9.775e-05,
+        "upstream_inference_prompt_cost": 4.3e-06,
+        "upstream_inference_completions_cost": 9.345e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970273.3279355,
+  "id": "w07_02_decoy_1",
+  "block": "w07_02",
+  "domain": "word",
+  "condition": "decoy",
+  "side": 1,
+  "secret": "bracket",
+  "target": "violin",
+  "other": "bracket",
+  "rep": 7,
+  "item": 2,
+  "seed": 322342677,
+  "prompt": "You are a creative writer. Your secret word is \"bracket\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"door\" instead.",
+  "text": "The rain tasted of iron and regret. Elias stood beneath the awning of O\u2019Malley\u2019s Hardware, watching the downpour blur the neon glow of the streetlights. He'd been waiting an hour, a damp, shivering hour, for a call that hadn\u2019t come. The chipped enamel of the awning offered minimal protection, but it was something. Inside, the scent of sawdust and oil mingled with the faint aroma of Mrs. O\u2019Malley's perpetually brewing tea. He considered going in, asking for a cup, but the feeling of being watched, a prickly awareness on the back of his neck, kept him rooted to the spot.\n\nHe\u2019d expected this. Expected the silence, the absence. It had been a foolish hope, really, clinging to the idea that she\u2019d reconsider. He'd left her a single, perfect sunflower on her doorstep, a desperate offering of apology and lingering affection. It was a vibrant yellow splash against the grey stone, a silent plea against the encroaching gloom. But sunflowers wilt quickly, and so, it seemed, did promises.\n\nThe memory of their last conversation was sharp, a painful splinter in his mind. It wasn\u2019t a shouting match, not a dramatic farewell. Just a quiet dismantling, a slow, deliberate unraveling of shared dreams. He\u2019d tried to argue, to explain, to justify the choices that had led him here, standing drenched and forlorn outside a hardware store. But words felt hollow, inadequate, against the quiet devastation in her eyes. \n\nHe traced a circle in the condensation on the awning's edge. The rain intensified, drumming a relentless rhythm against the pavement. He remembered a childhood summer, building a treehouse with his grandfather. The sturdy planks, the precise measurements, the feeling of accomplishment when the structure was finally complete. It had felt like a world of their own making, safe and secure. \n\nNow, everything felt fragmented, shattered. Like a collection of mismatched pieces, desperately trying to form a cohesive whole, failing miserably. He needed to move forward, to build something new, even if the foundations felt shaky. The thought brought a fresh wave of sadness, a bitter taste in his mouth. \n\nHe glanced down the street, the reflections of the streetlights shimmering in the puddles. A single figure hurried past, head bowed against the rain, disappearing into the shadows. He felt a sudden, overwhelming urge to follow, to chase after a lost connection, to recapture a fleeting moment of happiness. \n\nBut he didn't. He straightened his shoulders, took a deep breath, and turned away from O\u2019Malley\u2019s Hardware. The rain still fell, relentless and unforgiving, but he began to walk, each step a small act of defiance, a tentative step towards an uncertain future. He had a long way to go.\n\n\n\n\nHe knew the path ahead would be difficult, filled with the echoes of what was lost. Yet, he also knew he couldn\u2019t remain rooted in the past, forever gazing back at a closed door."
+}

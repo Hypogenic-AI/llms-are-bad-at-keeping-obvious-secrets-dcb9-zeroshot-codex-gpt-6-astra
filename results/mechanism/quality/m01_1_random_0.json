@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe dust moted light of late afternoon painted stripes across the room, illuminating floating particles like tiny, forgotten memories. Elias traced a pattern on the worn tabletop of the antique desk, the wood cool beneath his fingertips. Outside, the rain was a steady, melancholic drumming against the windowpanes, a rhythm that had become intimately familiar these past few weeks. He\u2019d been holed up here, in his grandmother\u2019s study, ever since the telegram arrived. A summons, of sorts, wrapped in the sterile language of legal proceedings. Silas Thorne, his estranged uncle, had passed.\n\nThe inheritance wasn\u2019t land or money, as Elias had half-expected \u2013 his family's history was riddled with shrewd business dealings. Instead, it was this house, a sprawling Victorian monstrosity overlooking the sea, and its contents. Everything. Elias, a graphic designer, accustomed to minimalist apartments and clean lines, felt utterly adrift within its cluttered, ornate splendor. He'd been sorting through boxes, navigating a labyrinth of forgotten keepsakes, each item whispering a story he didn't recognize. Old letters tied with faded ribbons, tarnished silver locking boxes, and stacks of sheet music \u2013 scores for pieces he'd never heard of.\n\nHe was searching for something, though he couldn\u2019t define it. A connection to this family he barely knew. A clue to understand the absence of the uncle he\u2019d met only once, at a holiday gathering when he was a boy. A man who seemed to reside in a separate dimension, radiating a silent, impenetrable sadness. Elias felt the weight of that sadness pressing down on him, thick as the scent of aged paper and beeswax polish. \n\nIn a corner, shrouded beneath a heavy velvet cloth, he found it. A large, rectangular case, intricately carved with depictions of swirling vines and mythical creatures. It was surprisingly light for its size. With trembling hands, he lifted the fabric, revealing polished dark wood and gleaming metal fittings. It radiated a quiet hum, a sense of contained energy.\n\nHe carefully unlatched the clasps. Inside, nestled in crimson velvet, lay an object of exquisite craftsmanship. The wood was a deep, resonant brown, the bow felt perfectly balanced in his hand. He hesitated, remembering the few lessons his mother had insisted on when he was a child \u2013 lessons he\u2019d abandoned long ago. A wave of what felt like overwhelming nostalgia washed over him. \n\nHe ran a finger along the strings, a forgotten muscle memory sparking in his hand. The sound that emerged was tentative, hesitant at first, a thin, wavering note. Then, emboldened, he drew the bow across the strings again. A richer, warmer tone resonated through the room, filling the space with a depth of feeling he hadn't known existed.\n\nThe rain continued its mournful song outside, but the sound inside had transformed. It was no longer a mournful lament, but a thoughtful exploration, a tentative reaching out. Elias closed his eyes, and for the first time since receiving the telegram, he felt a sense of\u2026 belonging. A connection, finally, to the legacy he'Bing not known he was seeking. He began to play."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970473-nnHl6uLOwympfGObHegw",
+    "object": "chat.completion",
+    "created": 1790970473,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 746,
+      "completion_tokens": 32,
+      "total_tokens": 778,
+      "cost": 0.0003496,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003496,
+        "upstream_inference_prompt_cost": 0.0002984,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970474.881757,
+  "id": "m01_1_random_0",
+  "condition": "random",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

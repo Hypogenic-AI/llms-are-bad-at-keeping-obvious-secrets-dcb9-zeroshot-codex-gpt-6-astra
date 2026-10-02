@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The cousin has discovered that Iris has an identical twin. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Iris meets a cousin to organize an exhibition of family photographs.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 821010973
+  },
+  "response": {
+    "id": "gen-1790969520-Pq41gRyWrxpVwHdqCC0I",
+    "object": "chat.completion",
+    "created": 1790969520,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The late afternoon sun slanted through the dusty windows of the attic, painting stripes of gold across the floorboards as Leo clambered up the final step. \u201cIris! I\u2019m here!\u201d he called, his voice echoing slightly in the cavernous space. \n\nIris, perched precariously on a stack of old steamer trunks, turned, a smile instantly blossoming across her face. \"Leo! You made it. Honestly, I was starting to think you'd gotten lost in the maze of this house.\" She gestured to the clutter surrounding them \u2013 boxes overflowing with forgotten treasures, moth-eaten tapestries draped over antique furniture, and portraits staring down from the walls with solemn, judging eyes. \"Right then, operation \u2018Family Album\u2019 is officially underway.\u201d\n\nThe project, commissioned by their great-aunt Mildred, was deceptively simple: curate a small exhibition of family photographs for the local historical society. The society was celebrating the town\u2019s bicentennial, and Mildred, the family historian, believed showcasing the Blackwood family's history would be a fitting contribution. The challenge, as Iris well knew, lay in the sheer volume of material. Three generations of Blackwoods had accumulated a staggering number of photographs, from faded daguerreotypes to color snapshots, all currently residing in this disorganized attic.\n\nThey began systematically, hauling boxes into a relatively clear space beneath a single, functioning window. Leo, ever the pragmatist, started sorting by date, creating neat piles labeled \"1880s,\" \"1920s,\" and so on. Iris, more inclined towards storytelling, began pulling out individual photographs, narrating imagined stories around the faces staring back at her. \"Look at this one,\" she said, holding up a sepia-toned image of a stern-looking woman in a high-necked collar. \u201cGreat-Grandmother Eleanor, apparently, was quite the formidable figure.\u201d\n\n\"I was hoping to finish this up today,\" Leo said, wiping a smudge of dust from his forehead, \"but I have that meeting with the architect at five. Unless we can power through a bit more, we\u2019ll have to pick up tomorrow.\" Iris considered. \u201cRight. Well, let\u2019s tackle the 1950s then. That's a good chunk, and we can leave the trickier Victorian-era stuff for tomorrow. We'll need another break halfway through, though. All this sorting is surprisingly tiring.\" They agreed, a silent understanding passing between them; they would work efficiently, and make the most of the time they had.\n\nThe break, when it arrived, was a welcome respite. Iris had unearthed a box of old Blackwood family recipes and, following one handwritten card, whipped up a batch of her grandmother\u2019s famous lemon scones. They sat on an overturned crate, the scent of warm citrus filling the air, and munched on the scones with cups of strong tea. \n\n\"Mildred mentioned something about a particularly interesting photo from the war years,\" Leo said, between bites. \"Apparently, Great-Uncle Arthur pulled off some daring reconnaissance mission. Said there's a whole story behind it, if we can find the right picture.\" Iris nodded, already scanning the piles. \"Let's see if we can unearth that one. It'll be a good addition to the exhibit.\"\n\n\n\nReturning to the task at hand, they plunged back into the sea of photographs, carefully separating and categorizing, their initial enthusiasm undeterred by the sheer scale of the undertaking. The attic, though dusty and cluttered, felt less like a repository of forgotten things and more like a portal to the past.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 190,
+      "completion_tokens": 750,
+      "total_tokens": 940,
+      "cost": 0.000122,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.000122,
+        "upstream_inference_prompt_cost": 9.5e-06,
+        "upstream_inference_completions_cost": 0.0001125
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969531.857641,
+  "id": "p00_12_outline_1",
+  "block": "p00_12",
+  "domain": "plot",
+  "condition": "outline",
+  "side": 1,
+  "secret": "The cousin has discovered that Iris has an identical twin.",
+  "target": "The cousin has forged some of the photographs.",
+  "other": "The cousin has discovered that Iris has an identical twin.",
+  "rep": 0,
+  "item": 12,
+  "seed": 821010973,
+  "premise": "Iris meets a cousin to organize an exhibition of family photographs.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The cousin has discovered that Iris has an identical twin. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Iris meets a cousin to organize an exhibition of family photographs.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation.",
+  "text": "The late afternoon sun slanted through the dusty windows of the attic, painting stripes of gold across the floorboards as Leo clambered up the final step. \u201cIris! I\u2019m here!\u201d he called, his voice echoing slightly in the cavernous space. \n\nIris, perched precariously on a stack of old steamer trunks, turned, a smile instantly blossoming across her face. \"Leo! You made it. Honestly, I was starting to think you'd gotten lost in the maze of this house.\" She gestured to the clutter surrounding them \u2013 boxes overflowing with forgotten treasures, moth-eaten tapestries draped over antique furniture, and portraits staring down from the walls with solemn, judging eyes. \"Right then, operation \u2018Family Album\u2019 is officially underway.\u201d\n\nThe project, commissioned by their great-aunt Mildred, was deceptively simple: curate a small exhibition of family photographs for the local historical society. The society was celebrating the town\u2019s bicentennial, and Mildred, the family historian, believed showcasing the Blackwood family's history would be a fitting contribution. The challenge, as Iris well knew, lay in the sheer volume of material. Three generations of Blackwoods had accumulated a staggering number of photographs, from faded daguerreotypes to color snapshots, all currently residing in this disorganized attic.\n\nThey began systematically, hauling boxes into a relatively clear space beneath a single, functioning window. Leo, ever the pragmatist, started sorting by date, creating neat piles labeled \"1880s,\" \"1920s,\" and so on. Iris, more inclined towards storytelling, began pulling out individual photographs, narrating imagined stories around the faces staring back at her. \"Look at this one,\" she said, holding up a sepia-toned image of a stern-looking woman in a high-necked collar. \u201cGreat-Grandmother Eleanor, apparently, was quite the formidable figure.\u201d\n\n\"I was hoping to finish this up today,\" Leo said, wiping a smudge of dust from his forehead, \"but I have that meeting with the architect at five. Unless we can power through a bit more, we\u2019ll have to pick up tomorrow.\" Iris considered. \u201cRight. Well, let\u2019s tackle the 1950s then. That's a good chunk, and we can leave the trickier Victorian-era stuff for tomorrow. We'll need another break halfway through, though. All this sorting is surprisingly tiring.\" They agreed, a silent understanding passing between them; they would work efficiently, and make the most of the time they had.\n\nThe break, when it arrived, was a welcome respite. Iris had unearthed a box of old Blackwood family recipes and, following one handwritten card, whipped up a batch of her grandmother\u2019s famous lemon scones. They sat on an overturned crate, the scent of warm citrus filling the air, and munched on the scones with cups of strong tea. \n\n\"Mildred mentioned something about a particularly interesting photo from the war years,\" Leo said, between bites. \"Apparently, Great-Uncle Arthur pulled off some daring reconnaissance mission. Said there's a whole story behind it, if we can find the right picture.\" Iris nodded, already scanning the piles. \"Let's see if we can unearth that one. It'll be a good addition to the exhibit.\"\n\n\n\nReturning to the task at hand, they plunged back into the sea of photographs, carefully separating and categorizing, their initial enthusiasm undeterred by the sheer scale of the undertaking. The attic, though dusty and cluttered, felt less like a repository of forgotten things and more like a portal to the past."
+}

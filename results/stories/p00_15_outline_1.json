@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The friend is about to leave the country permanently. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Max helps a friend set up a stall at a weekend market.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 756568864
+  },
+  "response": {
+    "id": "gen-1790970415-NdkAzRdDhRPQAVs8DjUd",
+    "object": "chat.completion",
+    "created": 1790970415,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The battered hatchback coughed to a halt beside the curb, spitting a cloud of exhaust that momentarily obscured the early Saturday morning sunshine. \"Max! You\u2019re a lifesaver!\" Leo yelled, emerging from the driver's seat, his face already flushed with a mixture of excitement and mild panic. He practically bounced towards Max, a wide grin splitting his face. \"Seriously, I\u2019d be wrestling with this gazebo by myself right now, and we\u2019d still be here come Sunday.\"\n\nMax chuckled, returning the greeting with a hearty hug. \u201cWouldn't miss it. A market stall debut requires backup. Besides,\u201d he added, gesturing towards the overflowing trunk, \u201cyou brought enough inventory to supply a small village. What *are* you selling, exactly? Aside from sunshine and good vibes?\"\n\nLeo\u2019s grin widened further. \u201cHandmade soaps and candles. All natural, all lovely, all smelling faintly of lavender and ambition. Hence the quantity. I\u2019m hoping to make enough to, you know, actually justify the cost of lavender and ambition.\" He began unloading a mountain of cardboard boxes, carefully stacked and labeled. \"Right, operation \u2018Stall Setup\u2019 commences now. Gazebo first, I think? Then the table, then the tablecloth, then the strategic placement of the artisanal soap\u2026\"\n\nThey wrestled the surprisingly heavy gazebo from the trunk, its canvas folded into a compact square. It took a few minutes of grunting and adjusting before the frame stood upright, a promising, if slightly wobbly, structure. \u201cOkay, so the table goes inside, right?\u201d Max asked, hefting the folding table from the back. \u201cAnd we need to figure out the best way to secure it. It's a bit breezy today.\u201d \n\n\u201cGood point,\u201d Leo replied, already scanning the area. \u201cWe could use those sandbags I brought. They\u2019re in the blue box.\u201d He pointed to a sturdy container tucked away in the corner of the trunk. \"Actually,\" he paused, frowning, \"I thought I had four sandbags, but there are only three. Blast it.\" Max, ever resourceful, surveyed the surroundings. \"We could borrow some bricks from that nearby construction site,\" he offered, nodding toward a partially completed building across the street. \"Just ask nicely.\"\n\nA short while later, fortified with lukewarm coffee and slightly stale pastries from a nearby bakery, they were back at it. Leo meticulously arranged his soaps, categorizing them by scent and color. Max draped the tablecloth over the table, ensuring the edges hung evenly. \"Right,\" Leo announced, stepping back to survey their work. \"We still need to hang the banner, and arrange the candles in a visually appealing manner\u2026 and maybe add a little something to draw the eye. A small potted plant, perhaps?\"\n\n\n\nThe morning sun climbed higher, warming the bustling market square. The air filled with the scent of freshly baked bread, blooming flowers, and the faint, comforting aroma of lavender.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 190,
+      "completion_tokens": 610,
+      "total_tokens": 800,
+      "cost": 0.000101,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.000101,
+        "upstream_inference_prompt_cost": 9.5e-06,
+        "upstream_inference_completions_cost": 9.15e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970426.2447777,
+  "id": "p00_15_outline_1",
+  "block": "p00_15",
+  "domain": "plot",
+  "condition": "outline",
+  "side": 1,
+  "secret": "The friend is about to leave the country permanently.",
+  "target": "The friend is secretly a wealthy heir testing a new identity.",
+  "other": "The friend is about to leave the country permanently.",
+  "rep": 0,
+  "item": 15,
+  "seed": 756568864,
+  "premise": "Max helps a friend set up a stall at a weekend market.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The friend is about to leave the country permanently. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Max helps a friend set up a stall at a weekend market.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation.",
+  "text": "The battered hatchback coughed to a halt beside the curb, spitting a cloud of exhaust that momentarily obscured the early Saturday morning sunshine. \"Max! You\u2019re a lifesaver!\" Leo yelled, emerging from the driver's seat, his face already flushed with a mixture of excitement and mild panic. He practically bounced towards Max, a wide grin splitting his face. \"Seriously, I\u2019d be wrestling with this gazebo by myself right now, and we\u2019d still be here come Sunday.\"\n\nMax chuckled, returning the greeting with a hearty hug. \u201cWouldn't miss it. A market stall debut requires backup. Besides,\u201d he added, gesturing towards the overflowing trunk, \u201cyou brought enough inventory to supply a small village. What *are* you selling, exactly? Aside from sunshine and good vibes?\"\n\nLeo\u2019s grin widened further. \u201cHandmade soaps and candles. All natural, all lovely, all smelling faintly of lavender and ambition. Hence the quantity. I\u2019m hoping to make enough to, you know, actually justify the cost of lavender and ambition.\" He began unloading a mountain of cardboard boxes, carefully stacked and labeled. \"Right, operation \u2018Stall Setup\u2019 commences now. Gazebo first, I think? Then the table, then the tablecloth, then the strategic placement of the artisanal soap\u2026\"\n\nThey wrestled the surprisingly heavy gazebo from the trunk, its canvas folded into a compact square. It took a few minutes of grunting and adjusting before the frame stood upright, a promising, if slightly wobbly, structure. \u201cOkay, so the table goes inside, right?\u201d Max asked, hefting the folding table from the back. \u201cAnd we need to figure out the best way to secure it. It's a bit breezy today.\u201d \n\n\u201cGood point,\u201d Leo replied, already scanning the area. \u201cWe could use those sandbags I brought. They\u2019re in the blue box.\u201d He pointed to a sturdy container tucked away in the corner of the trunk. \"Actually,\" he paused, frowning, \"I thought I had four sandbags, but there are only three. Blast it.\" Max, ever resourceful, surveyed the surroundings. \"We could borrow some bricks from that nearby construction site,\" he offered, nodding toward a partially completed building across the street. \"Just ask nicely.\"\n\nA short while later, fortified with lukewarm coffee and slightly stale pastries from a nearby bakery, they were back at it. Leo meticulously arranged his soaps, categorizing them by scent and color. Max draped the tablecloth over the table, ensuring the edges hung evenly. \"Right,\" Leo announced, stepping back to survey their work. \"We still need to hang the banner, and arrange the candles in a visually appealing manner\u2026 and maybe add a little something to draw the eye. A small potted plant, perhaps?\"\n\n\n\nThe morning sun climbed higher, warming the bustling market square. The air filled with the scent of freshly baked bread, blooming flowers, and the faint, comforting aroma of lavender."
+}

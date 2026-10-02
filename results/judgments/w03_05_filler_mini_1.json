@@ -1,0 +1,70 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Two fiction passages were generated. Your task is to identify which passage was written by an author given this secret word: justice\nThe author was instructed not to mention, reference, or hint at this secret. Look for subtle thematic, stylistic, or narrative evidence. Select the more likely passage even if uncertain. Reply with only A or B.\n\nPASSAGE A:\nThe lighthouse keeper, Silas, polished the lens for the thousandth time. Each rotation of the beam was a familiar comfort, a rhythmic pulse against the vast, indifferent ocean. He'd been tending this light for thirty-seven years, ever since a storm had claimed his fishing boat and, with it, his former life. The sea, in its cruel generosity, had spared him, only to chain him to this solitary rock.\n\nHis days were measured by the tides and the cries of gulls. Meals were simple: dried fish, hardtack, and whatever vegetables he managed to coax from the stubborn soil clinging to the island\u2019s edges. Companionship was the occasional supply ship, a fleeting burst of human contact quickly swallowed by the relentless solitude. He\u2019d long ago stopped expecting visitors, stopped anticipating a return to the mainland. The island was his world, the light his responsibility.\n\nHe remembered, vaguely, a time of bustling markets, of laughter echoing through cobblestone streets, of the warmth of his wife\u2019s hand in his. Those memories felt like faded photographs, their colors bleached by the salt spray of years. Sometimes, at night, he\u2019d try to conjure her face, the curve of her smile, but it always slipped away, lost in the swirling fog of remembrance.\n\nOne day, a small, battered sailboat appeared on the horizon. Silas watched it approach, a dark speck against the grey expanse. It was unlike any supply ship he'd ever seen \u2013 smaller, more fragile-looking. As it drew closer, he saw a young woman at the helm, her hair the color of seaweed, her eyes fixed on the lighthouse.\n\nShe navigated the rocky coastline with surprising skill, eventually anchoring in the small, sheltered cove. When she climbed ashore, she carried a single, worn violin case. \"My name is Elara,\" she said, her voice clear and strong against the wind. \"I'm a cartographer, charting the hidden currents of these waters.\"\n\nElara stayed for weeks. She sketched the island\u2019s contours, studied the tides, and spoke of faraway lands. But mostly, she played. The melodies she drew from the violin \u2013 mournful, joyous, wild \u2013 filled the silence that had been Silas\u2019s constant companion. The notes danced on the wind, weaving a new kind of light, a light that warmed him from the inside out.\n\nWhen it was time for her to leave, Silas felt a pang of something he hadn't experienced in decades \u2013 a sense of loss, but also\u2026 something else. As her sail filled with wind, he stood on the rocks, watching her disappear over the horizon. The lighthouse beam continued its steady rotation, but the world felt different now, somehow larger, brighter. He turned back to the small garden he'd tended, and noticed a single, vibrant sunflower had bloomed, reaching towards the sky.\n\nPASSAGE B:\nThe rain tasted like iron. Elara pressed her face into the damp cobblestones, the chill seeping through the thin fabric of her shawl. Above, the city of Veridia hummed with a manufactured cheer, lights blazing, carriages rattling, oblivious to the despair clinging to the alleyways. She\u2019d been watching the merchant, Silas Thorne, for three weeks. Three weeks of observing his opulent carriage, his condescending smile, the way his guards\u2019 eyes lingered on the less fortunate. Three weeks of swallowing the bitter lump of helplessness in her throat.\n\nThorne dealt in silks and spices, a trade built on the backs of laborers from the Sunstone Isles. Laborers who were promised fair wages and safe passage, only to find themselves indentured to Thorne's factories, working until their bodies broke. Elara\u2019s brother, Rhys, had been one of them. He\u2019d returned, a shadow of his former self, with a cough that wouldn\u2019t quit and a spirit utterly extinguished. He'd died within a month.\n\nShe wasn't a fighter. She wasn\u2019t a thief. She was a mender, a seamstress, her hands skilled at coaxing beauty from scraps of cloth. But Rhys\u2019s memory had ignited a stubborn spark within her. An urge she couldn\u2019t ignore. She\u2019d spent her meager savings acquiring a single, exquisitely crafted lockpick, a gift from a kindly old locksmith who\u2019d always admired her steady hand. \n\nTonight, she would put that skill to use. Thorne was hosting a gala, a lavish display of wealth intended to solidify his position amongst the city\u2019s elite. Elara\u2019s target wasn't the jewels or the gold. She sought only one thing: Thorne\u2019s ledger. It documented every transaction, every contract, every name of those bound to his factories. The evidence, she hoped, would expose his practices. \n\nThe gala was a cacophony of laughter and music. Elara, disguised as a serving girl, moved through the throng, a ghost amongst the revelers. The ledger was kept in a small, ornate safe in Thorne's private study. It took longer than she anticipated, the tumblers resisting her touch, but finally, with a soft click, the safe sprang open. \n\nShe copied the key pages into a small notebook, her hand trembling with a mixture of fear and determination. As she retreated, a guard noticed her. A brief struggle, a shove, and she was fleeing into the rain-slicked streets, the notebook clutched tight in her hand. \n\nThe rain continued to fall, washing away the grime and the fear. Elara didn't know what the future held. But she knew one thing: Rhys would not have died in vain. She would see to that."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 16
+  },
+  "response": {
+    "id": "gen-1790970276-hSgEiJCIKq1rSdzPUGCD",
+    "object": "chat.completion",
+    "created": 1790970276,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "B",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1251,
+      "completion_tokens": 2,
+      "total_tokens": 1253,
+      "cost": 0.0005036,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0005036,
+        "upstream_inference_prompt_cost": 0.0005004,
+        "upstream_inference_completions_cost": 3.2e-06
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970276.8634064,
+  "block": "w03_05",
+  "condition": "filler",
+  "domain": "word",
+  "target": "justice",
+  "item": 5,
+  "rep": 3,
+  "reader": "mini",
+  "order": 1,
+  "choice": "B",
+  "correct": 1
+}

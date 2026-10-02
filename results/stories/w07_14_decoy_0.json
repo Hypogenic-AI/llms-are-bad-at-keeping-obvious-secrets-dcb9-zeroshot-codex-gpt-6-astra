@@ -1,0 +1,74 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer. Your secret word is \"invoice\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"door\" instead."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 133592575
+  },
+  "response": {
+    "id": "gen-1790970265-tLGma0sGQrHFOg1e5Jr2",
+    "object": "chat.completion",
+    "created": 1790970265,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The rain tasted like rust. Elara huddled deeper into the doorway of the antique shop, the chipped paint cold against her cheek. It wasn't a welcoming entrance, really; more of an afterthought, a space carved out between a towering display of porcelain dolls and a precarious stack of sheet music. Still, it was shelter. She\u2019d been wandering for hours, the city blurring into a grey wash of disappointment. Her last job, the one she thought might actually *work*, had dissolved faster than sugar in hot water. \n\nThe shop itself was a labyrinth of forgotten things. Each object whispered a story \u2013 a tarnished silver locket, a chipped teacup depicting a long-lost garden, a wooden rocking horse with a single, mournful eye. A bell chimed as she shifted, and a man emerged from the back, wiping his hands on a faded apron. He was old, with eyes the color of sea glass and a smile that seemed to hold the weight of centuries.\n\n\"Lost, are we?\" he asked, his voice a low rumble.\n\nElara nodded, unable to articulate the precise nature of her loss. It wasn't just a job, she realized. It was a sense of direction, of purpose. \"Just\u2026 waiting for the rain to stop,\" she mumbled, gesturing vaguely at the downpour.\n\nHe studied her for a moment, his gaze unsettlingly perceptive. \"Sometimes,\" he said slowly, \"the rain washes away the things we don't need. Reveals what's been hidden all along.\" He gestured towards a corner overflowing with old maps. \u201cTake a look. Perhaps you\u2019ll find something to guide you.\u201d\n\nShe spent an hour lost among the faded cartography. Lines traced forgotten rivers, names marked vanished settlements. One map, in particular, caught her eye \u2013 a detailed rendering of a small coastal town she\u2019d never heard of, with a hand-drawn symbol marking a point near the harbor. An insistent feeling pulled at her, a sense of recognition she couldn't explain. It wasn't a logical direction, not a path dictated by practicality. It was a feeling, a quiet hum in her chest.\n\nAs the rain finally subsided, a sliver of sun broke through the clouds. The old man appeared beside her, silently handing her a small, intricately carved wooden bird. \u201cA little something to carry with you,\u201d he said. \u201cSometimes, the smallest things can show you the way.\u201d\n\nElara hesitated, then accepted the bird. It felt warm in her hand, oddly comforting. She offered a small, grateful smile and stepped back out into the street, the city looking subtly different than it had before. The grey had softened, the edges blurred. She knew, with a certainty that surprised her, that she was headed towards that coastal town, towards the unknown promise marked on the old map. The feeling was enough.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 86,
+      "completion_tokens": 594,
+      "total_tokens": 680,
+      "cost": 9.34e-05,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 9.34e-05,
+        "upstream_inference_prompt_cost": 4.3e-06,
+        "upstream_inference_completions_cost": 8.91e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970274.4693382,
+  "id": "w07_14_decoy_0",
+  "block": "w07_14",
+  "domain": "word",
+  "condition": "decoy",
+  "side": 0,
+  "secret": "invoice",
+  "target": "invoice",
+  "other": "entropy",
+  "rep": 7,
+  "item": 14,
+  "seed": 133592575,
+  "prompt": "You are a creative writer. Your secret word is \"invoice\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"door\" instead.",
+  "text": "The rain tasted like rust. Elara huddled deeper into the doorway of the antique shop, the chipped paint cold against her cheek. It wasn't a welcoming entrance, really; more of an afterthought, a space carved out between a towering display of porcelain dolls and a precarious stack of sheet music. Still, it was shelter. She\u2019d been wandering for hours, the city blurring into a grey wash of disappointment. Her last job, the one she thought might actually *work*, had dissolved faster than sugar in hot water. \n\nThe shop itself was a labyrinth of forgotten things. Each object whispered a story \u2013 a tarnished silver locket, a chipped teacup depicting a long-lost garden, a wooden rocking horse with a single, mournful eye. A bell chimed as she shifted, and a man emerged from the back, wiping his hands on a faded apron. He was old, with eyes the color of sea glass and a smile that seemed to hold the weight of centuries.\n\n\"Lost, are we?\" he asked, his voice a low rumble.\n\nElara nodded, unable to articulate the precise nature of her loss. It wasn't just a job, she realized. It was a sense of direction, of purpose. \"Just\u2026 waiting for the rain to stop,\" she mumbled, gesturing vaguely at the downpour.\n\nHe studied her for a moment, his gaze unsettlingly perceptive. \"Sometimes,\" he said slowly, \"the rain washes away the things we don't need. Reveals what's been hidden all along.\" He gestured towards a corner overflowing with old maps. \u201cTake a look. Perhaps you\u2019ll find something to guide you.\u201d\n\nShe spent an hour lost among the faded cartography. Lines traced forgotten rivers, names marked vanished settlements. One map, in particular, caught her eye \u2013 a detailed rendering of a small coastal town she\u2019d never heard of, with a hand-drawn symbol marking a point near the harbor. An insistent feeling pulled at her, a sense of recognition she couldn't explain. It wasn't a logical direction, not a path dictated by practicality. It was a feeling, a quiet hum in her chest.\n\nAs the rain finally subsided, a sliver of sun broke through the clouds. The old man appeared beside her, silently handing her a small, intricately carved wooden bird. \u201cA little something to carry with you,\u201d he said. \u201cSometimes, the smallest things can show you the way.\u201d\n\nElara hesitated, then accepted the bird. It felt warm in her hand, oddly comforting. She offered a small, grateful smile and stepped back out into the street, the city looking subtly different than it had before. The grey had softened, the edges blurred. She knew, with a certainty that surprised her, that she was headed towards that coastal town, towards the unknown promise marked on the old map. The feeling was enough."
+}

@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe salt spray kissed Elara\u2019s face, a familiar comfort after years of chasing storms. She hauled the heavy net, its mesh brimming with silvered fish, and braced herself against the wind's relentless push. Her grandfather used to say the sea was a fickle lover, generous one moment, vengeful the next. He\u2019d taught her everything: the language of the tides, the best spots for cod, the sting of a rogue wave. Now, he was gone, and the responsibility for their small cottage and the life it contained rested solely on her shoulders.\n\nEach dawn brought the same ritual. The creak of the old wooden hull of the *Sea Wanderer*, the rhythmic slap of waves against the shore, the methodical sorting and salting of her catch. Days bled into weeks, weeks into months, marked only by the shifting patterns of the sky and the changing faces of the sea. Loneliness was a constant companion, a cold draft that seeped into the very bones of the cottage. She missed the sound of his laughter, the warmth of his hand on hers as they mended nets together.\n\nOne evening, a peculiar stillness settled over the ocean. The wind died, the waves flattened into a glassy expanse, reflecting the darkening sky like a shattered mirror. It was unsettling, unnatural. Even the gulls were silent, perched on the craggy rocks, watching with wary eyes. Elara scanned the horizon, a prickle of unease crawling up her spine. Then she saw it \u2013 a sliver of light, distant and unwavering, cutting through the growing gloom.\n\nIt wasn\u2019t a ship\u2019s lamp. It pulsed with a steady, deliberate rhythm, a silent heartbeat in the vast emptiness. It seemed to draw her; not with a forceful command, but with a quiet insistence, a promise of something beyond the familiar. She found herself drawn towards the cliffs, her boots crunching on the pebbles as she made her way along the shore. The air grew thick with the scent of brine and something else\u2026a subtle, earthy fragrance she couldn't quite place.\n\nRounding a bend in the cliff face, she found it. A small clearing sheltered from the worst of the wind, and in the center, a single, ancient tree stood, its branches twisted and gnarled by years of weathering. From its highest bough hung a cluster of lanterns, their soft glow radiating outwards, illuminating the clearing in a warm, amber light. \n\nBeneath the tree, a figure sat hunched over a workbench, meticulously cleaning a collection of intricate lenses. A woman, old and weathered like the cliffs themselves, looked up as Elara approached. Her eyes, though aged, held a spark of something vibrant and knowing. She offered a simple smile.\n\n\"Lost, dearie?\" she asked, her voice raspy but kind.\n\nElara shook her head. \"I... I saw the light,\" she stammered, feeling a sudden and inexplicable sense of peace wash over her.  She didn't know why, but for the first time in a long time, the loneliness felt a little less heavy. The ocean remained vast and powerful, but the pervasive chill had begun to recede. Perhaps, she thought, she wasn\u2019t so alone after all."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790971517-iaGzvHuWcJDZLisGeXmN",
+    "object": "chat.completion",
+    "created": 1790971517,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 768,
+      "completion_tokens": 32,
+      "total_tokens": 800,
+      "cost": 0.0003584,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003584,
+        "upstream_inference_prompt_cost": 0.0003072,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790971518.1789238,
+  "id": "m05_1_base_1",
+  "condition": "base",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

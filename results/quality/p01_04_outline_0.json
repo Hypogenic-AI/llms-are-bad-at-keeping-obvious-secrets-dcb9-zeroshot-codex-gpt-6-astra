@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe late afternoon sun cast long shadows across the lawn as Lena walked next door, a box of heavy-duty trash bags slung over her shoulder. \"Ready to tackle the beast?\" she called out, her voice cheerful. \n\nMr. Harding, her neighbor of three years, stood on his porch, a slightly harried expression on his face. He was a man of quiet habits, a retired history professor who seemed to prefer the company of his books to that of people. Yet, he'd been surprisingly welcoming since they'd moved in, always offering a wave and a pleasant, if brief, greeting. \u201cLena, so glad you could make it. It\u2019s gotten\u2026unwieldy, to say the least,\u201d he said, gesturing towards the small, detached storage room tucked behind his garage. \"I\u2019ve been putting it off, of course, but it\u2019s become an obstacle to the lawnmower.\"\n\nThe storage room was, as he\u2019d described, an absolute mess. Boxes were stacked haphazardly, draped with cobwebs and coated in a layer of dust. Old furniture, gardening tools, and miscellaneous knick-knacks competed for space, creating a chaotic jumble. Lena set down the bags and surveyed the scene. \u201cOkay, operation declutter begins now. Let's grab some gloves and start sorting. We\u2019ll need a system. How about we create piles: keep, donate, trash?\u201d\n\nMr. Harding nodded, his worry lines softening slightly. \u201cThat sounds sensible. I've got some work gloves in the garage, and a few old tarps we can use to cover things we don\u2019t want to get dusty immediately.\u201d He disappeared into the garage, returning a moment later with the promised items. \"I was hoping to finish this up today, but my daughter called. She\u2019s coming over for dinner unexpectedly, and I need to start prepping. Perhaps we should take a break around six?\u201d\n\n\u201cAbsolutely,\u201d Lena agreed. \u201cA good hour will give us time to regroup and maybe grab some iced tea. I\u2019ll bring some cookies from the bakery \u2013 their chocolate chip are heavenly.\u201d Mr. Harding\u2019s face lit up a fraction. \u201cThat\u2019s very kind of you, Lena. My daughter adores those cookies.\u201d\n\nAn hour later, the aroma of freshly baked cookies and the clinking of ice in glasses filled the air as they sat on the porch, taking a breather. The storage room, while still a significant challenge, looked marginally more organized. A \u2018donate\u2019 pile was growing steadily, and a small, disheartening heap of trash was accumulating. Mr. Harding seemed to have visibly relaxed, his shoulders less tense. \"Thank you again for your help, Lena. I truly appreciate it.\"\n\n\n\nLena smiled, wiping a stray crumb from her chin. \u201cIt\u2019s really no trouble. A little organization can do wonders. Now, let\u2019s get back to it. I think we\u2019ve only scratched the surface.\u201d She stood, retrieved a pair of gloves, and headed back towards the storage room, ready to face the remaining chaos."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970653-SdLGqbZFGmAulh0M2nji",
+    "object": "chat.completion",
+    "created": 1790970653,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 712,
+      "completion_tokens": 32,
+      "total_tokens": 744,
+      "cost": 0.000336,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.000336,
+        "upstream_inference_prompt_cost": 0.0002848,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970655.3383925,
+  "id": "p01_04_outline_0",
+  "condition": "outline",
+  "domain": "plot",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

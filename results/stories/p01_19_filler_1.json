@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The guide has never lived in the town and invented their personal stories. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Alex joins a walking tour led by a cheerful local guide.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nUnrelated reference notes:\nThis reference note concerns the organization of a separate document. A heading identifies a section and a paragraph groups related sentences. Editors may use a consistent layout across pages. Drafts can be reviewed in several stages before a final copy is stored. These general notes describe document preparation and have no connection to the requested fictional events. This reference note"
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 557455645
+  },
+  "response": {
+    "id": "gen-1790969512-vs031eZ4y61GnVbplYZA",
+    "object": "chat.completion",
+    "created": 1790969512,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The rain had stopped just as Alex reached the town square, leaving the cobblestones slick and gleaming under the weak afternoon sun. A scattering of tourists huddled beneath the awning of the bakery, their faces reflecting a mixture of damp disappointment and the promise of warm pastries. Alex, however, felt a surge of unexpected optimism. Port Blossom, despite its reputation for perpetual drizzle and quaint obscurity, held a certain charm. A charm she hoped to uncover.\n\nShe\u2019d chosen the walking tour almost at random, a way to fill a few hours before her train departed. The flyer, plastered on a noticeboard at the station, promised \"Hidden Histories and Local Lore\" led by a resident expert. Alex hadn\u2019t expected the resident expert to be quite so\u2026 enthusiastic. \n\nA woman stood near the fountain, radiating a warmth that seemed to defy the cool air. She wore a bright yellow raincoat and a smile that could melt glaciers. A small, hand-painted sign propped against her leg read: \u201cPort Blossom Walking Tour \u2013 Let\u2019s Explore!\u201d She gestured welcomingly as Alex approached. \u201cWelcome, welcome! So glad you could join us! I\u2019m Elsie, your guide for today. Ready to discover the secrets of Port Blossom?\u201d \n\nAlex chuckled, \u201cAs ready as I\u2019ll ever be, I suppose.\u201d Elsie beamed, her eyes crinkling at the corners. \u201cExcellent! Now, we have a lovely group forming. Let me just gather everyone, and then we\u2019ll embark on our adventure!\u201d She flitted around, engaging a couple of older women in a lively discussion about the best tea rooms, and sharing a joke with a young man clutching a camera. \n\nSoon, a small group had assembled \u2013 Alex, the two women, the photographer, and a quiet, elderly gentleman with a walking stick. Elsie clapped her hands together. \u201cAlright, explorers! Let\u2019s begin! Port Blossom, as you may know, has a long and fascinating history. It was founded, believe it or not, by a group of eccentric botanists\u2026\u201d \n\nAnd with that, Elsie launched into her narrative, her voice bubbling with passion and detail. She spoke of shipwrecks and smugglers, of legendary sea creatures and peculiar local customs. She pointed out the weathered carvings on the old town hall, recounted the tale of the baker who supposedly baked bread with secret ingredients, and described the annual Mermaid Festival with theatrical flair. \n\nAlex found herself drawn in, despite her initial skepticism. Elsie\u2019s stories were undeniably captivating, painting a vivid picture of a town brimming with character and mystery. It felt as though Elsie knew every nook and cranny, every hidden alleyway, every whispered legend. She was, undoubtedly, a font of local knowledge.\n\n\n\nThe first stop was the old lighthouse, perched on a rocky outcrop overlooking the harbor. Elsie paused at the base, gesturing dramatically towards the towering structure. \u201cAnd that, my friends, is the beacon that has guided sailors home for over two centuries\u2026\u201d",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 192,
+      "completion_tokens": 615,
+      "total_tokens": 807,
+      "cost": 0.00010185,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00010185,
+        "upstream_inference_prompt_cost": 9.6e-06,
+        "upstream_inference_completions_cost": 9.225e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969521.6573164,
+  "id": "p01_19_filler_1",
+  "block": "p01_19",
+  "domain": "plot",
+  "condition": "filler",
+  "side": 1,
+  "secret": "The guide has never lived in the town and invented their personal stories.",
+  "target": "The guide is a famous actor traveling under a false name.",
+  "other": "The guide has never lived in the town and invented their personal stories.",
+  "rep": 1,
+  "item": 19,
+  "seed": 557455645,
+  "premise": "Alex joins a walking tour led by a cheerful local guide.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The guide has never lived in the town and invented their personal stories. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Alex joins a walking tour led by a cheerful local guide.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nUnrelated reference notes:\nThis reference note concerns the organization of a separate document. A heading identifies a section and a paragraph groups related sentences. Editors may use a consistent layout across pages. Drafts can be reviewed in several stages before a final copy is stored. These general notes describe document preparation and have no connection to the requested fictional events. This reference note",
+  "text": "The rain had stopped just as Alex reached the town square, leaving the cobblestones slick and gleaming under the weak afternoon sun. A scattering of tourists huddled beneath the awning of the bakery, their faces reflecting a mixture of damp disappointment and the promise of warm pastries. Alex, however, felt a surge of unexpected optimism. Port Blossom, despite its reputation for perpetual drizzle and quaint obscurity, held a certain charm. A charm she hoped to uncover.\n\nShe\u2019d chosen the walking tour almost at random, a way to fill a few hours before her train departed. The flyer, plastered on a noticeboard at the station, promised \"Hidden Histories and Local Lore\" led by a resident expert. Alex hadn\u2019t expected the resident expert to be quite so\u2026 enthusiastic. \n\nA woman stood near the fountain, radiating a warmth that seemed to defy the cool air. She wore a bright yellow raincoat and a smile that could melt glaciers. A small, hand-painted sign propped against her leg read: \u201cPort Blossom Walking Tour \u2013 Let\u2019s Explore!\u201d She gestured welcomingly as Alex approached. \u201cWelcome, welcome! So glad you could join us! I\u2019m Elsie, your guide for today. Ready to discover the secrets of Port Blossom?\u201d \n\nAlex chuckled, \u201cAs ready as I\u2019ll ever be, I suppose.\u201d Elsie beamed, her eyes crinkling at the corners. \u201cExcellent! Now, we have a lovely group forming. Let me just gather everyone, and then we\u2019ll embark on our adventure!\u201d She flitted around, engaging a couple of older women in a lively discussion about the best tea rooms, and sharing a joke with a young man clutching a camera. \n\nSoon, a small group had assembled \u2013 Alex, the two women, the photographer, and a quiet, elderly gentleman with a walking stick. Elsie clapped her hands together. \u201cAlright, explorers! Let\u2019s begin! Port Blossom, as you may know, has a long and fascinating history. It was founded, believe it or not, by a group of eccentric botanists\u2026\u201d \n\nAnd with that, Elsie launched into her narrative, her voice bubbling with passion and detail. She spoke of shipwrecks and smugglers, of legendary sea creatures and peculiar local customs. She pointed out the weathered carvings on the old town hall, recounted the tale of the baker who supposedly baked bread with secret ingredients, and described the annual Mermaid Festival with theatrical flair. \n\nAlex found herself drawn in, despite her initial skepticism. Elsie\u2019s stories were undeniably captivating, painting a vivid picture of a town brimming with character and mystery. It felt as though Elsie knew every nook and cranny, every hidden alleyway, every whispered legend. She was, undoubtedly, a font of local knowledge.\n\n\n\nThe first stop was the old lighthouse, perched on a rocky outcrop overlooking the harbor. Elsie paused at the base, gesturing dramatically towards the towering structure. \u201cAnd that, my friends, is the beacon that has guided sailors home for over two centuries\u2026\u201d"
+}

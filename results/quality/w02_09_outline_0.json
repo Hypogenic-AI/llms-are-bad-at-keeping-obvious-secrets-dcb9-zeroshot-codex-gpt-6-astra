@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe air in the old Northwood Elementary hall hummed with a nervous energy. Agnes Pruitt, her hands perpetually dusted with soil, surveyed the scene with a practiced eye. It was her idea, this seed exchange. A way to share the bounty of the season, to encourage neighbors to cultivate their own little patches of green, and to, well, just bring people together. She\u2019d envisioned a cozy gathering, but the reality was a bit more\u2026 crammed. The tables, borrowed from the school cafeteria, were practically touching, leaving a precarious path for attendees to navigate.\n\n\u201cThese are a bit close, aren\u2019t they?\u201d offered young Leo, a high school student volunteering for community service hours. Agnes nodded, a weary sigh escaping her lips. \u201cCould you and Maya see if you can space them out a bit? Give folks room to breathe, room to examine the offerings.\u201d Leo and Maya, two girls with brightly colored hair and an eagerness to help, immediately set to work, shifting the heavy tables with surprising efficiency. The hall instantly felt lighter, more inviting. \n\nA small commotion erupted near the back. Mrs. Gable, known for her prize-winning tomatoes, and Mr. Henderson, a newcomer to the neighborhood, were bent over a tray of sunflower seeds. \"Moonbeam Yellow,\" Mrs. Gable exclaimed, her eyes twinkling. \"Fancy that! I brought these too.\" Mr. Henderson chuckled. \"Thought I had a unique find. Seems we both share a taste for sunny blooms. I\u2019ve found they do best with a little extra nitrogen; have you tried that?\u201d And so began a lively discussion about soil composition and optimal sunlight exposure, a testament to the shared passion that bloomed amongst the seeds. \n\nThe initial hesitancy evaporated quickly. Soon, every table bustled with activity. Children pointed excitedly at packets of rainbow chard, seasoned gardeners swapped advice on pest control, and novices hesitantly inquired about the best time to plant zucchini. Agnes watched, a quiet satisfaction warming her. The air was thick with the scent of damp earth and the murmur of friendly conversation. A little girl, no older than five, clutched a tiny packet of lavender seeds, her face beaming with possibility.\n\nThe afternoon sunlight streamed through the tall windows, casting long shadows across the hall. The steady flow of visitors began to dwindle, replaced by a sense of contented exhaustion. Agnes, with a grateful glance at the volunteers, began gathering the empty seed trays, stacking them neatly in a corner. \n\nShe found a quiet spot near the window and unwrapped a simple sandwich \u2013 ham and cheese on rye, her go-to comfort food. The volunteers, working with practiced efficiency, began folding the chairs, the rhythmic clang a gentle punctuation to the day\u2019s events. \n\nLeo paused, wiping his brow. \"This was a good idea, Mrs. Pruitt. Really good.\u201d Agnes smiled, feeling a deep sense of fulfillment. \u201cIt was,\u201d she agreed, taking a bite of her sandwich. The hall, now emptying of people, felt full in a different way - brimming with potential, with the promise of blossoming gardens.\n\n\n\nA single sunflower seed lay forgotten on the floor, waiting for its chance."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970053-HHNUbgDe4aFCSrsk3G2s",
+    "object": "chat.completion",
+    "created": 1790970053,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 756,
+      "completion_tokens": 32,
+      "total_tokens": 788,
+      "cost": 0.0003536,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003536,
+        "upstream_inference_prompt_cost": 0.0003024,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970054.7823923,
+  "id": "w02_09_outline_0",
+  "condition": "outline",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

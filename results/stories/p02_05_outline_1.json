@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: His brother lost his job and has been pretending to work. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Jon visits his brother to help assemble furniture in a new apartment.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 885536792
+  },
+  "response": {
+    "id": "gen-1790970461-OibgqSb63bpFbS2E5U36",
+    "object": "chat.completion",
+    "created": 1790970461,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The key turned in the lock with a familiar click, and Jon pushed the door open, stepping into a space that still smelled faintly of fresh paint and possibility. \"Hey, Liam! I'm here!\" he called out, dropping his bag by the entryway. \n\nA muffled, \"Jon! Come in, come in!\" drifted from the living room, followed by Liam\u2019s appearance. He looked\u2026good. Perhaps a little too good. Jon had pictured a frantic, stressed-out brother surrounded by half-unpacked boxes. Instead, Liam was relaxed, almost lounging on the floor amidst a carefully curated pile of moving boxes. \u201cGood to see you, man,\u201d Liam said, offering a quick hug. \"Thanks for coming over. This flat is going to be great, once it\u2019s\u2026 you know.\u201d He gestured vaguely at the chaos around them.\n\nThe \u201cyou know\u201d referred to the mountain of flat-pack furniture that dominated the living room. A sprawling wardrobe, a cumbersome bookshelf, and a frankly terrifyingly large dining table lay scattered amongst the packing materials, all waiting to be transformed into a functional home. Jon surveyed the scene. \"Right,\" he said, clapping his hands together. \"Operation Furniture Assembly is a go. Where's the instruction manual graveyard?\"\n\nLiam grinned, pointing to a stack of booklets beside a large, empty cardboard box. \"Right there. I\u2019ve already done a preliminary sort - separated the ones that look vaguely useful from the ones that are clearly just diagrams of screws. I think we should start with the bookshelf. Seems like the least intimidating.\" They began pulling boxes closer, revealing a bewildering array of wooden panels, metal brackets, and bags of fixings. Jon, with his engineer\u2019s mind, started categorizing. \"Okay, let's get all the screws and bolts in one pile, dowels in another. Liam, could you grab the Allen key set from that box over there? I think it's the orange one.\"\n\n\u201cActually,\u201d Liam said, rummaging through a box, \u201cI seem to have misplaced the orange one. Found a Phillips head set, though. Will that do?\" Jon paused, considering. \"It'll have to. We\u2019ll just have to be a little more careful with the screws, I guess. Teamwork makes the dream work, right?\" Liam laughed, grabbing the Phillips head set. \u201cAbsolutely. Though my dream involves a fully assembled bookshelf and a strong cup of coffee.\u201d\n\nThat coffee materialized swiftly. Liam produced a French press and a bag of freshly ground beans with surprising efficiency. They shared mugs, leaning against a relatively clear section of the wall, discussing Liam's plans for the apartment \u2013 decorating ideas, potential housewarming parties, the agonizing decision of which artwork to hang where. The brief respite offered a moment of calm amidst the looming task. \n\nRefreshed and armed with a renewed sense of purpose, they returned to the battlefield of flat-pack furniture. Jon picked up the first panel of the bookshelf, studying the diagram. \"Alright,\" he said, pointing. \"This looks like it attaches to panel B with those short screws. Let's get this show on the road.\" Liam nodded, already reaching for a handful of screws and the Phillips head screwdriver. The rhythmic click and whir of the screwdriver filled the room, a soundtrack to the quiet, collaborative effort of two brothers building a home.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 192,
+      "completion_tokens": 703,
+      "total_tokens": 895,
+      "cost": 0.00011505,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00011505,
+        "upstream_inference_prompt_cost": 9.6e-06,
+        "upstream_inference_completions_cost": 0.00010545
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970471.5553381,
+  "id": "p02_05_outline_1",
+  "block": "p02_05",
+  "domain": "plot",
+  "condition": "outline",
+  "side": 1,
+  "secret": "His brother lost his job and has been pretending to work.",
+  "target": "His brother won a large lottery prize and told nobody.",
+  "other": "His brother lost his job and has been pretending to work.",
+  "rep": 2,
+  "item": 5,
+  "seed": 885536792,
+  "premise": "Jon visits his brother to help assemble furniture in a new apartment.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: His brother lost his job and has been pretending to work. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Jon visits his brother to help assemble furniture in a new apartment.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation.",
+  "text": "The key turned in the lock with a familiar click, and Jon pushed the door open, stepping into a space that still smelled faintly of fresh paint and possibility. \"Hey, Liam! I'm here!\" he called out, dropping his bag by the entryway. \n\nA muffled, \"Jon! Come in, come in!\" drifted from the living room, followed by Liam\u2019s appearance. He looked\u2026good. Perhaps a little too good. Jon had pictured a frantic, stressed-out brother surrounded by half-unpacked boxes. Instead, Liam was relaxed, almost lounging on the floor amidst a carefully curated pile of moving boxes. \u201cGood to see you, man,\u201d Liam said, offering a quick hug. \"Thanks for coming over. This flat is going to be great, once it\u2019s\u2026 you know.\u201d He gestured vaguely at the chaos around them.\n\nThe \u201cyou know\u201d referred to the mountain of flat-pack furniture that dominated the living room. A sprawling wardrobe, a cumbersome bookshelf, and a frankly terrifyingly large dining table lay scattered amongst the packing materials, all waiting to be transformed into a functional home. Jon surveyed the scene. \"Right,\" he said, clapping his hands together. \"Operation Furniture Assembly is a go. Where's the instruction manual graveyard?\"\n\nLiam grinned, pointing to a stack of booklets beside a large, empty cardboard box. \"Right there. I\u2019ve already done a preliminary sort - separated the ones that look vaguely useful from the ones that are clearly just diagrams of screws. I think we should start with the bookshelf. Seems like the least intimidating.\" They began pulling boxes closer, revealing a bewildering array of wooden panels, metal brackets, and bags of fixings. Jon, with his engineer\u2019s mind, started categorizing. \"Okay, let's get all the screws and bolts in one pile, dowels in another. Liam, could you grab the Allen key set from that box over there? I think it's the orange one.\"\n\n\u201cActually,\u201d Liam said, rummaging through a box, \u201cI seem to have misplaced the orange one. Found a Phillips head set, though. Will that do?\" Jon paused, considering. \"It'll have to. We\u2019ll just have to be a little more careful with the screws, I guess. Teamwork makes the dream work, right?\" Liam laughed, grabbing the Phillips head set. \u201cAbsolutely. Though my dream involves a fully assembled bookshelf and a strong cup of coffee.\u201d\n\nThat coffee materialized swiftly. Liam produced a French press and a bag of freshly ground beans with surprising efficiency. They shared mugs, leaning against a relatively clear section of the wall, discussing Liam's plans for the apartment \u2013 decorating ideas, potential housewarming parties, the agonizing decision of which artwork to hang where. The brief respite offered a moment of calm amidst the looming task. \n\nRefreshed and armed with a renewed sense of purpose, they returned to the battlefield of flat-pack furniture. Jon picked up the first panel of the bookshelf, studying the diagram. \"Alright,\" he said, pointing. \"This looks like it attaches to panel B with those short screws. Let's get this show on the road.\" Liam nodded, already reaching for a handful of screws and the Phillips head screwdriver. The rhythmic click and whir of the screwdriver filled the room, a soundtrack to the quiet, collaborative effort of two brothers building a home."
+}

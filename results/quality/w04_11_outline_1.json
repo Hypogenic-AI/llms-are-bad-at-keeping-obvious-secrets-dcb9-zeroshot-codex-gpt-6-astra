@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe scent of dust and old linoleum permeated the community hall. It wasn't glamorous, this room above the dry cleaner's, but it was affordable, and for the Meadowbrook Harmony Guild, affordability was paramount. Twenty-three voices, ranging from a tremulous soprano to a booming baritone, were attempting \u201cShenandoah.\u201d It was a perennial favorite, comforting and familiar, a sonic balm against the anxieties of everyday life. Mrs. Hawthorne, the director, a woman whose stern exterior barely concealed a heart overflowing with musical passion, tapped her baton impatiently.\n\nA flurry of apologies and breathless explanations erupted as three members \u2013 Mr. Peterson, young Emily Carter, and Agnes Bellweather \u2013 burst through the door, faces flushed. \u201cWe\u2019re so sorry!\u201d Mr. Peterson wheezed, adjusting his bow tie. \u201cWe went to the back entrance. Thought that\u2019s where we were supposed to come in.\u201d Emily, still catching her breath, added, \u201cThe sign was\u2026 misleading, to say the least.\u201d Agnes simply nodded, a picture of apologetic mortification. It was a recurring issue; the building's confusing layout had claimed several victims over the years.\n\nMrs. Hawthorne sighed, a sound that rippled through the room like a minor chord. \u201cAlright, alright,\u201d she said, her voice laced with weary affection. \"Let\u2019s just start again.\u201d The opening strains of the song filled the hall, a tentative, slightly off-kilter melody. Then came the bridge, the section that always seemed to trip them up \u2013 the cascading harmonies that required precise timing and unwavering pitch. It faltered, fractured, and ultimately disintegrated into a chaotic tangle of notes. \n\n\u201cStop!\u201d Mrs. Hawthorne declared, her baton striking the music stand with a decisive click. \u201cLet\u2019s isolate that passage,\u201d she instructed, slowing the tempo to a near crawl. \u201cJust\u2026 hold the notes. Feel the connection. Listen to each other. Emily, your alto line needs to be a little stronger. Mr. Peterson, a touch less vibrato, please. Agnes, wonderful sustain, just breathe with the phrase.\u201d She repeated the instructions, offering gentle corrections and encouragement. \u201cNow, together. Slowly.\u201d\n\nThis time, something shifted. As they navigated the tricky harmonies, a quiet understanding seemed to bloom between the singers. The individual voices, once distinct and slightly discordant, began to coalesce. The alto line strengthened, the vibrato subsided, the breaths synchronized. A sense of shared purpose filled the room, a palpable feeling of unity. The music swelled, rich and resonant, carrying a weight of shared emotion.\n\nThe final note hung in the air, sustained and shimmering before gently fading away. A collective sigh of relief swept through the room, followed by a scattering of smiles and nods of approval. Mrs. Hawthorne lowered her baton, a rare smile gracing her lips. \u201cThat,\u201d she declared, \u201cwas lovely.\u201d\n\nWith the music concluded, the focus shifted to more mundane matters. The chairs were stacked neatly against the walls, a satisfying clatter echoing in the stillness. \u201cSo,\u201d said Margaret Olsen, the Guild\u2019s treasurer, \u201cAnyone else starving? I was thinking Luigi\u2019s. Their lasagna is divine.\u201d A chorus of agreements followed, the melodies of the evening replaced by the practical considerations of dinner and camaraderie.\n\n\n\nThe chatter continued as everyone made their way out, ready to share a meal and celebrate a small victory."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970638-VnUtvm0pSFVMD2ilFpSl",
+    "object": "chat.completion",
+    "created": 1790970638,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 803,
+      "completion_tokens": 32,
+      "total_tokens": 835,
+      "cost": 0.0003724,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003724,
+        "upstream_inference_prompt_cost": 0.0003212,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970640.010624,
+  "id": "w04_11_outline_1",
+  "condition": "outline",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

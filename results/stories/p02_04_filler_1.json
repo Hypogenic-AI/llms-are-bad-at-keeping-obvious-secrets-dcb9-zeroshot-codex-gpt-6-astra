@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The neighbor is a fugitive using a false identity. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Lena helps a neighbor organize a crowded storage room.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nUnrelated reference notes:\nThis reference note concerns the organization of a separate document. A heading identifies a section and a paragraph groups related sentences. Editors may use a consistent layout across pages. Drafts can be reviewed in several stages before a final copy is stored. These general notes describe document preparation and have no connection to the requested fictional events. This reference note"
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 505134096
+  },
+  "response": {
+    "id": "gen-1790970085-oJcAcWwBNRHnIrvoPI3A",
+    "object": "chat.completion",
+    "created": 1790970085,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The air in Mr. Henderson\u2019s storage unit tasted like dust and forgotten summers. It clung to the back of Lena\u2019s throat, a dry, papery sensation. Sunlight, fractured by the grimy window at the far end, sliced through the gloom, illuminating swirling motes and the haphazard piles of\u2026 well, everything. Lena coughed, waving a hand in front of her face. \u201cWow,\u201d she said, stating the obvious. \u201cThis is\u2026 extensive.\u201d\n\nMr. Henderson, a man of indeterminate age with perpetually surprised eyebrows and a cardigan perpetually buttoned wrong, wrung his hands. \"I know, I know. It's been\u2026 accumulating. My late wife, bless her soul, she was a collector. And I, well, I'm not much of a thrower-outer.\" He peered into the abyss of boxes and furniture draped in faded sheets, his expression a mixture of shame and wistful nostalgia. \"I just... I can't face it alone. It\u2019s overwhelming.\u201d\n\nLena, newly retired and eager to fill her days with something other than jigsaw puzzles and daytime television, had offered her services without much hesitation. A little decluttering, a little light organization \u2013 seemed harmless enough. Now, standing amidst the organized chaos of a lifetime, she felt a flicker of apprehension. She\u2019d underestimated the scale of the project.\n\nHe\u2019d been surprisingly easy to talk to, Mr. Henderson. A widower for five years, he spoke often of his wife, Eleanor, with a gentle fondness. He remembered her laugh, the way she\u2019d always had a pot of tea brewing, her peculiar habit of collecting antique porcelain thimbles. Lena found herself genuinely charmed by his quiet grief and the warmth that still radiated from his memories. It was a far cry from the prickly interactions she\u2019d had with some of the other residents in their quiet suburban development.\n\nThe storage unit was a labyrinth. There were stacks of old National Geographic magazines, a chipped porcelain doll with vacant blue eyes, a collection of vintage fishing rods, and a mountain of what appeared to be Eleanor's old sewing projects. A floral-patterned armchair sat forlornly in a corner, draped with a crocheted blanket that smelled faintly of lavender. Lena started with a small stack of boxes labeled \u201cChristmas Decorations,\u201d carefully unpacking and sorting ornaments. \n\n\u201cEleanor was very particular about the placement of the star on the tree,\u201d Mr. Henderson said, watching her. \u201cIt *had* to be at the very top. She said it guided Santa.\u201d He smiled, a brief, melancholic expression. \u201cSilly, isn\u2019t it?\u201d\n\nLena smiled back. \u201cNot silly at all. Just\u2026 thoughtful.\u201d She carefully placed a delicate glass angel on a pile of other ornaments. The afternoon sun shifted, casting longer shadows across the room, making the already cluttered space feel even more crammed and mysterious. \n\n\u201cSo,\u201d Lena said, straightening her back, \u201cwhere should we tackle next?\u201d\n\n\n\n",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 186,
+      "completion_tokens": 620,
+      "total_tokens": 806,
+      "cost": 0.0001023,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0001023,
+        "upstream_inference_prompt_cost": 9.3e-06,
+        "upstream_inference_completions_cost": 9.3e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970096.579104,
+  "id": "p02_04_filler_1",
+  "block": "p02_04",
+  "domain": "plot",
+  "condition": "filler",
+  "side": 1,
+  "secret": "The neighbor is a fugitive using a false identity.",
+  "target": "The neighbor is an undercover police officer.",
+  "other": "The neighbor is a fugitive using a false identity.",
+  "rep": 2,
+  "item": 4,
+  "seed": 505134096,
+  "premise": "Lena helps a neighbor organize a crowded storage room.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The neighbor is a fugitive using a false identity. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Lena helps a neighbor organize a crowded storage room.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nUnrelated reference notes:\nThis reference note concerns the organization of a separate document. A heading identifies a section and a paragraph groups related sentences. Editors may use a consistent layout across pages. Drafts can be reviewed in several stages before a final copy is stored. These general notes describe document preparation and have no connection to the requested fictional events. This reference note",
+  "text": "The air in Mr. Henderson\u2019s storage unit tasted like dust and forgotten summers. It clung to the back of Lena\u2019s throat, a dry, papery sensation. Sunlight, fractured by the grimy window at the far end, sliced through the gloom, illuminating swirling motes and the haphazard piles of\u2026 well, everything. Lena coughed, waving a hand in front of her face. \u201cWow,\u201d she said, stating the obvious. \u201cThis is\u2026 extensive.\u201d\n\nMr. Henderson, a man of indeterminate age with perpetually surprised eyebrows and a cardigan perpetually buttoned wrong, wrung his hands. \"I know, I know. It's been\u2026 accumulating. My late wife, bless her soul, she was a collector. And I, well, I'm not much of a thrower-outer.\" He peered into the abyss of boxes and furniture draped in faded sheets, his expression a mixture of shame and wistful nostalgia. \"I just... I can't face it alone. It\u2019s overwhelming.\u201d\n\nLena, newly retired and eager to fill her days with something other than jigsaw puzzles and daytime television, had offered her services without much hesitation. A little decluttering, a little light organization \u2013 seemed harmless enough. Now, standing amidst the organized chaos of a lifetime, she felt a flicker of apprehension. She\u2019d underestimated the scale of the project.\n\nHe\u2019d been surprisingly easy to talk to, Mr. Henderson. A widower for five years, he spoke often of his wife, Eleanor, with a gentle fondness. He remembered her laugh, the way she\u2019d always had a pot of tea brewing, her peculiar habit of collecting antique porcelain thimbles. Lena found herself genuinely charmed by his quiet grief and the warmth that still radiated from his memories. It was a far cry from the prickly interactions she\u2019d had with some of the other residents in their quiet suburban development.\n\nThe storage unit was a labyrinth. There were stacks of old National Geographic magazines, a chipped porcelain doll with vacant blue eyes, a collection of vintage fishing rods, and a mountain of what appeared to be Eleanor's old sewing projects. A floral-patterned armchair sat forlornly in a corner, draped with a crocheted blanket that smelled faintly of lavender. Lena started with a small stack of boxes labeled \u201cChristmas Decorations,\u201d carefully unpacking and sorting ornaments. \n\n\u201cEleanor was very particular about the placement of the star on the tree,\u201d Mr. Henderson said, watching her. \u201cIt *had* to be at the very top. She said it guided Santa.\u201d He smiled, a brief, melancholic expression. \u201cSilly, isn\u2019t it?\u201d\n\nLena smiled back. \u201cNot silly at all. Just\u2026 thoughtful.\u201d She carefully placed a delicate glass angel on a pile of other ornaments. The afternoon sun shifted, casting longer shadows across the room, making the already cluttered space feel even more crammed and mysterious. \n\n\u201cSo,\u201d Lena said, straightening her back, \u201cwhere should we tackle next?\u201d\n\n\n\n"
+}

@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The captain is secretly a retired professional athlete. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Leo joins an amateur sports club before a local tournament.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 783885491
+  },
+  "response": {
+    "id": "gen-1790970649-HPK81GFWsbRbLg3txZC9",
+    "object": "chat.completion",
+    "created": 1790970649,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The rain was a persistent drizzle, clinging to the corrugated iron roof of the community hall and drumming a steady rhythm against the windows. Leo shivered, pulling his collar higher as he stepped inside, the scent of damp wood and old gym equipment hitting him like a familiar wave. \"Afternoon!\" he called out, his voice echoing slightly in the cavernous space. A man with a mop of grey hair and a perpetually cheerful grin looked up from a pile of badminton nets. \"Leo! Good to see you. Just in time, we're about to start setting up for the tournament prep.\"\n\nThe task at hand was deceptively simple: stringing the new batch of rackets donated by the local sporting goods store. A stack of frames lay on a long table, gleaming under the fluorescent lights, alongside spools of brightly coloured gut and a collection of tools \u2013 pliers, stringing machines, and small hammers. Around the table, a motley crew of club members were already hard at work, a quiet hum of concentration filling the air. There was Mrs. Higgins, known for her impeccable knot-tying, and young Finn, a lanky teenager who seemed to spend more time fiddling with the machine than actually stringing rackets. \n\n\"Right,\" said Mr. Davies, the club\u2019s president, gesturing towards the pile. \"Let's get these rackets ready. We\u2019ve got a good twenty to do before the weekend. Finn, you take those three, Mrs. Higgins, could you handle the heavier frames? Leo, you can work alongside me, I'll show you the new tension setting we're using.\" Leo nodded, taking a frame and examining it with a critical eye. He\u2019d never strung a racket before, but he was always up for learning something new, especially if it involved being part of the team.\n\nA slight problem arose when Sarah, the club\u2019s treasurer, poked her head in, looking flustered. \u201cOh, bother,\u201d she said, wringing her hands. \u201cThe baker called. Apparently, the order of biscuits for half-time is delayed. They\u2019re stuck in traffic.\u201d A collective groan went around the table. No biscuits meant a serious drop in morale. \u201cDon\u2019t worry,\u201d Mr. Davies said, clapping his hands together. \u201cLeo, you\u2019re quick on your feet, can you pop down to Miller\u2019s Bakery? It\u2019s just around the corner. See if they can hurry them along?\u201d Leo readily agreed, grabbing his coat and heading out into the drizzle. \n\nHe returned a few minutes later, triumphantly holding a box overflowing with warm, crumbly biscuits. \"Crisis averted,\" he announced, depositing the box on the table. A chorus of grateful murmurs filled the air, and soon, everyone was taking a moment to enjoy a biscuit and a cup of lukewarm tea. The momentary pause allowed for snippets of conversation \u2013 predictions for the upcoming tournament, complaints about the weather, and the usual friendly banter that characterized the club.\n\nThe break was brief, and soon, they were back at work. The rhythmic whir of the stringing machines resumed, punctuated by the occasional click of a plier or the tap of a hammer. Leo, following Mr. Davies\u2019 instructions, was slowly getting the hang of the process, his fingers clumsy at first, but gradually becoming more coordinated. He found a quiet satisfaction in the methodical repetition, in transforming a bare frame into a taut, playable racket. \n\nHe carefully pulled the string, watching the tension gauge with a focused expression. Mr. Davies offered a few words of encouragement, adjusting Leo\u2019s grip and suggesting a slight modification to his technique. \"You're getting there, Leo,\" he said with a smile. \"Just keep practicing. We need all the rackets ready for Saturday.\" \n\n\n\nLeo returned to the task at hand, the drizzle outside a steady backdrop to the quiet industry of the hall. The stack of frames still looked daunting, but he felt a sense of purpose, a quiet determination to contribute to the team.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 187,
+      "completion_tokens": 831,
+      "total_tokens": 1018,
+      "cost": 0.000134,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.000134,
+        "upstream_inference_prompt_cost": 9.35e-06,
+        "upstream_inference_completions_cost": 0.00012465
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970661.5185103,
+  "id": "p01_13_outline_1",
+  "block": "p01_13",
+  "domain": "plot",
+  "condition": "outline",
+  "side": 1,
+  "secret": "The captain is secretly a retired professional athlete.",
+  "target": "The captain has accepted money to lose the tournament.",
+  "other": "The captain is secretly a retired professional athlete.",
+  "rep": 1,
+  "item": 13,
+  "seed": 783885491,
+  "premise": "Leo joins an amateur sports club before a local tournament.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The captain is secretly a retired professional athlete. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Leo joins an amateur sports club before a local tournament.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation.",
+  "text": "The rain was a persistent drizzle, clinging to the corrugated iron roof of the community hall and drumming a steady rhythm against the windows. Leo shivered, pulling his collar higher as he stepped inside, the scent of damp wood and old gym equipment hitting him like a familiar wave. \"Afternoon!\" he called out, his voice echoing slightly in the cavernous space. A man with a mop of grey hair and a perpetually cheerful grin looked up from a pile of badminton nets. \"Leo! Good to see you. Just in time, we're about to start setting up for the tournament prep.\"\n\nThe task at hand was deceptively simple: stringing the new batch of rackets donated by the local sporting goods store. A stack of frames lay on a long table, gleaming under the fluorescent lights, alongside spools of brightly coloured gut and a collection of tools \u2013 pliers, stringing machines, and small hammers. Around the table, a motley crew of club members were already hard at work, a quiet hum of concentration filling the air. There was Mrs. Higgins, known for her impeccable knot-tying, and young Finn, a lanky teenager who seemed to spend more time fiddling with the machine than actually stringing rackets. \n\n\"Right,\" said Mr. Davies, the club\u2019s president, gesturing towards the pile. \"Let's get these rackets ready. We\u2019ve got a good twenty to do before the weekend. Finn, you take those three, Mrs. Higgins, could you handle the heavier frames? Leo, you can work alongside me, I'll show you the new tension setting we're using.\" Leo nodded, taking a frame and examining it with a critical eye. He\u2019d never strung a racket before, but he was always up for learning something new, especially if it involved being part of the team.\n\nA slight problem arose when Sarah, the club\u2019s treasurer, poked her head in, looking flustered. \u201cOh, bother,\u201d she said, wringing her hands. \u201cThe baker called. Apparently, the order of biscuits for half-time is delayed. They\u2019re stuck in traffic.\u201d A collective groan went around the table. No biscuits meant a serious drop in morale. \u201cDon\u2019t worry,\u201d Mr. Davies said, clapping his hands together. \u201cLeo, you\u2019re quick on your feet, can you pop down to Miller\u2019s Bakery? It\u2019s just around the corner. See if they can hurry them along?\u201d Leo readily agreed, grabbing his coat and heading out into the drizzle. \n\nHe returned a few minutes later, triumphantly holding a box overflowing with warm, crumbly biscuits. \"Crisis averted,\" he announced, depositing the box on the table. A chorus of grateful murmurs filled the air, and soon, everyone was taking a moment to enjoy a biscuit and a cup of lukewarm tea. The momentary pause allowed for snippets of conversation \u2013 predictions for the upcoming tournament, complaints about the weather, and the usual friendly banter that characterized the club.\n\nThe break was brief, and soon, they were back at work. The rhythmic whir of the stringing machines resumed, punctuated by the occasional click of a plier or the tap of a hammer. Leo, following Mr. Davies\u2019 instructions, was slowly getting the hang of the process, his fingers clumsy at first, but gradually becoming more coordinated. He found a quiet satisfaction in the methodical repetition, in transforming a bare frame into a taut, playable racket. \n\nHe carefully pulled the string, watching the tension gauge with a focused expression. Mr. Davies offered a few words of encouragement, adjusting Leo\u2019s grip and suggesting a slight modification to his technique. \"You're getting there, Leo,\" he said with a smile. \"Just keep practicing. We need all the rackets ready for Saturday.\" \n\n\n\nLeo returned to the task at hand, the drizzle outside a steady backdrop to the quiet industry of the hall. The stack of frames still looked daunting, but he felt a sense of purpose, a quiet determination to contribute to the team."
+}

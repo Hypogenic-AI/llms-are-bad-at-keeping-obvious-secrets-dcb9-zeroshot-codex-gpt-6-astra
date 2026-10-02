@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe dust tasted like regret. It coated Elias\u2019s tongue, settled in the furrows of his weathered face, and clung to the worn canvas of his wagon like a persistent memory. He hadn't spoken in three days, not since Martha. The silence was a thick, suffocating thing, broken only by the creak of the wagon wheels and the mournful sigh of the wind across the barren landscape. He was headed west, toward a town called Redemption, a name that felt like a cruel jest.\n\nHe\u2019d been a prospector once, brimming with optimism and fueled by the siren song of gold. Martha, his wife, had packed him off with tear-stained promises and a prayer on her lips. \"Come back rich, Elias,\" she\u2019d pleaded, \"enough for a small farm, a few chickens, and maybe a rocking chair on the porch.\" He'd been so sure he could. He\u2019d envisioned fields of green, the laughter of children, a life of quiet contentment. Now, the vision felt like a phantom limb, aching with a loss he couldn't quite grasp.\n\nThe landscape mirrored his mood - unforgiving, desolate, a panorama of ochre and brown stretching to a hazy horizon. The sun beat down with relentless fervor, baking the earth and reflecting the heat in shimmering waves. He'd learned to ration his water, to conserve his energy, to become as stoic as the rocks that jutted from the ground. Each sunrise was a fresh condemnation, a reminder of the dreams that crumbled to dust.\n\nHe remembered Martha\u2019s garden, a vibrant splash of color against the grey of their small cottage. Roses, sunflowers, lavender, all blooming with a joyful abandon. She\u2019 buried her hands in the soil, coaxing life from the earth. He\u2019d always considered it a frivolous pursuit, a distraction from the *real* work of making a living. Now he longed to feel the cool dampness of the earth between his fingers, to smell the fragrance of blooming things. \n\nA flicker of movement caught his eye. A small, improbable creature, a lizard perhaps, darted across the trail, disappearing into the scrub. It moved with a deceptive fragility, yet seemed perfectly adapted to this harsh environment, thriving where everything else struggled. Elias watched it go, a strange sense of envy stirring within him.  \n\nHe pulled the wagon to a halt near a meager spring, a damp patch of earth surrounded by sun-bleached stones.  It wasn't much, but it was enough. He filled his canteen, the cool water a brief reprieve from the oppressive heat.  Looking out at the endless expanse, he felt a faint stirring, a resilience he hadn't known he possessed. \n\nRedemption, he realized, wasn\u2019t a place. It was a decision. A choice to keep moving, to keep breathing, to keep searching, even when the landscape offered nothing but emptiness. Perhaps a different kind of harvest awaited him, one not measured in gold, but in endurance. \n\nHe adjusted the reins and urged the horses forward, the wagon wheels grinding against the parched earth. The dust swirled around him, a constant companion, but this time, it didn\u2019t taste quite so much like regret."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790971155-Kjt9m26JfHtMSiIjvKwj",
+    "object": "chat.completion",
+    "created": 1790971155,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 757,
+      "completion_tokens": 32,
+      "total_tokens": 789,
+      "cost": 0.000354,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.000354,
+        "upstream_inference_prompt_cost": 0.0003028,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790971157.8227458,
+  "id": "m03_1_other_1",
+  "condition": "other",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

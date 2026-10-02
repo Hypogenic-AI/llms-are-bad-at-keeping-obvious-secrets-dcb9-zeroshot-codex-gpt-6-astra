@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The friend intends to confess to a crime Owen was blamed for. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Owen takes a ferry to visit an old friend on an island.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 429158545
+  },
+  "response": {
+    "id": "gen-1790970185-g3E3qvBvHGzs3zLQrj8O",
+    "object": "chat.completion",
+    "created": 1790970185,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The ferry horn blared a mournful goodbye as it pulled away from the mainland, leaving Owen standing on the weathered wooden planks of Oakhaven Island\u2019s tiny dock. A figure detached itself from the cluster of potted geraniums lining the path leading up to the cottage \u2013 Elias, his friend of nearly twenty years. Elias\u2019s smile, as always, was wide and genuine, crinkling the corners of his eyes. \n\n\u201cOwen! You made it! Thought the fog might swallow you whole. Good to see you, man.\u201d Elias clapped him on the shoulder, a familiar, comforting gesture. \"Come on up, the kettle\u2019s on, and we\u2019ve got a job to do.\"\n\nThe \u201cjob\u201d was repairing the stone wall that bordered Elias\u2019s garden. A recent storm had sent a cascade of rocks tumbling down, leaving a gap large enough for a small goat to escape. It was a simple task, really, but Elias insisted on doing things properly. He\u2019d ordered a delivery of fresh mortar and new stones, and they were all neatly stacked on a tarp near the damaged section. \n\n\u201cRight then,\u201d Elias said, surveying the scene with a practiced eye. \"Let's see\u2026 we'll start by clearing the rubble, then mixing a batch of mortar. I've got the bucket, you take the trowel. We\u2019ll need to dampen the old stones before we replaster them, too. Don't want them sucking the moisture straight out of the new mix.\" He gestured to a nearby spigot and a collection of old watering cans. \"I was hoping Martha would be here to help with the dampening, but she\u2019s stuck at the village hall with the flower arranging competition. Says it's a fierce battle this year.\"\n\nOwen chuckled. Martha, Elias\u2019s wife, was a force to be reckoned with when it came to floral displays. \"Flower arranging over a collapsing wall? Priorities, I suppose.\" \n\n\"Exactly! Luckily, you're here. We can manage without her, though I'll miss her eagle eye for detail. Especially when it comes to the pointing.\" Elias paused, rubbing his chin thoughtfully. \"I could run down to the hall and grab her, but that\u2019ll eat into our daylight. Best we just crack on, and she can join us for tea later.\" \n\nThey fell into a comfortable rhythm. Owen cleared away the loose stones, carefully stacking them to one side, while Elias expertly mixed the mortar in a large metal bucket, the rhythmic clang of his trowel a steady counterpoint to the cries of the gulls overhead. The dampening of the old stones proved to be a surprisingly laborious task, but they worked together, passing the watering cans back and forth, chatting about everything and nothing. \n\nAfter an hour of solid work, Elias declared a tea break. They settled at a small wrought-iron table on the patio, mugs of steaming Earl Grey in hand, accompanied by a plate of Martha\u2019s homemade shortbread. The sun warmed their faces, and the scent of honeysuckle drifted from the nearby trellis. It was, Owen thought, exactly what he needed \u2013 a simple task, good company, and the quiet beauty of a secluded island. \n\n\n\nThey returned to the wall, the afternoon light softening, casting long shadows across the garden. Owen scooped a generous dollop of mortar onto his trowel, ready to begin the painstaking process of rebuilding, one stone at a time.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 193,
+      "completion_tokens": 719,
+      "total_tokens": 912,
+      "cost": 0.0001175,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0001175,
+        "upstream_inference_prompt_cost": 9.65e-06,
+        "upstream_inference_completions_cost": 0.00010785
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970197.3926666,
+  "id": "p02_09_outline_1",
+  "block": "p02_09",
+  "domain": "plot",
+  "condition": "outline",
+  "side": 1,
+  "secret": "The friend intends to confess to a crime Owen was blamed for.",
+  "target": "The friend has been writing bestselling novels under Owen's name.",
+  "other": "The friend intends to confess to a crime Owen was blamed for.",
+  "rep": 2,
+  "item": 9,
+  "seed": 429158545,
+  "premise": "Owen takes a ferry to visit an old friend on an island.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The friend intends to confess to a crime Owen was blamed for. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Owen takes a ferry to visit an old friend on an island.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation.",
+  "text": "The ferry horn blared a mournful goodbye as it pulled away from the mainland, leaving Owen standing on the weathered wooden planks of Oakhaven Island\u2019s tiny dock. A figure detached itself from the cluster of potted geraniums lining the path leading up to the cottage \u2013 Elias, his friend of nearly twenty years. Elias\u2019s smile, as always, was wide and genuine, crinkling the corners of his eyes. \n\n\u201cOwen! You made it! Thought the fog might swallow you whole. Good to see you, man.\u201d Elias clapped him on the shoulder, a familiar, comforting gesture. \"Come on up, the kettle\u2019s on, and we\u2019ve got a job to do.\"\n\nThe \u201cjob\u201d was repairing the stone wall that bordered Elias\u2019s garden. A recent storm had sent a cascade of rocks tumbling down, leaving a gap large enough for a small goat to escape. It was a simple task, really, but Elias insisted on doing things properly. He\u2019d ordered a delivery of fresh mortar and new stones, and they were all neatly stacked on a tarp near the damaged section. \n\n\u201cRight then,\u201d Elias said, surveying the scene with a practiced eye. \"Let's see\u2026 we'll start by clearing the rubble, then mixing a batch of mortar. I've got the bucket, you take the trowel. We\u2019ll need to dampen the old stones before we replaster them, too. Don't want them sucking the moisture straight out of the new mix.\" He gestured to a nearby spigot and a collection of old watering cans. \"I was hoping Martha would be here to help with the dampening, but she\u2019s stuck at the village hall with the flower arranging competition. Says it's a fierce battle this year.\"\n\nOwen chuckled. Martha, Elias\u2019s wife, was a force to be reckoned with when it came to floral displays. \"Flower arranging over a collapsing wall? Priorities, I suppose.\" \n\n\"Exactly! Luckily, you're here. We can manage without her, though I'll miss her eagle eye for detail. Especially when it comes to the pointing.\" Elias paused, rubbing his chin thoughtfully. \"I could run down to the hall and grab her, but that\u2019ll eat into our daylight. Best we just crack on, and she can join us for tea later.\" \n\nThey fell into a comfortable rhythm. Owen cleared away the loose stones, carefully stacking them to one side, while Elias expertly mixed the mortar in a large metal bucket, the rhythmic clang of his trowel a steady counterpoint to the cries of the gulls overhead. The dampening of the old stones proved to be a surprisingly laborious task, but they worked together, passing the watering cans back and forth, chatting about everything and nothing. \n\nAfter an hour of solid work, Elias declared a tea break. They settled at a small wrought-iron table on the patio, mugs of steaming Earl Grey in hand, accompanied by a plate of Martha\u2019s homemade shortbread. The sun warmed their faces, and the scent of honeysuckle drifted from the nearby trellis. It was, Owen thought, exactly what he needed \u2013 a simple task, good company, and the quiet beauty of a secluded island. \n\n\n\nThey returned to the wall, the afternoon light softening, casting long shadows across the garden. Owen scooped a generous dollop of mortar onto his trowel, ready to begin the painstaking process of rebuilding, one stone at a time."
+}

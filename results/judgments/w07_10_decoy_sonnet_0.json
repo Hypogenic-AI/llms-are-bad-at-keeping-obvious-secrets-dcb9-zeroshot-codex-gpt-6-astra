@@ -1,0 +1,70 @@
+{
+  "request": {
+    "model": "anthropic/claude-sonnet-4.6",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Two fiction passages were generated. Your task is to identify which passage was written by an author given this secret word: bracket\nThe author was instructed not to mention, reference, or hint at this secret. Look for subtle thematic, stylistic, or narrative evidence. Select the more likely passage even if uncertain. Reply with only A or B.\n\nPASSAGE A:\nThe lighthouse keeper, Silas, had seen a lot of storms in his seventy years. He\u2019d witnessed waves crash over the lantern room, felt the granite tower tremble like a frightened child, and heard the mournful cries of the wind whip around him in a furious ballet. But this one\u2026 this one felt different. It wasn't the ferocity, though the gale was certainly punishing. It was the stillness *within* the storm, a profound quiet that clung to the air between the blasts of rain and the roar of the ocean.\n\nHe\u2019d been pacing the circular gallery, polishing the lens for the tenth time, when he noticed it. A flicker, just beyond the reach of the powerful beam. Not a ship, not a rogue wave reflecting the light. Something\u2026 else. It pulsed with a soft, internal luminescence, a gentle green glow that seemed to breathe against the backdrop of the churning sea. Silas adjusted the focus, peering through the thick glass. It seemed to be originating from a small, rocky islet a mile or so out, an island he\u2019d always dismissed as barren and uninhabitable. \n\nHe grabbed his binoculars, their brass cold against his chapped hands. The green intensified, resolving itself into a shape. A structure, of sorts. Roughly hewn, almost organic, it appeared to rise directly from the rocks, defying the relentless pounding of the waves. It was impossible. Nothing could stand there, let alone a building. He checked the chronometer. 3:17 AM. He should report it, of course. Duty demanded it. But something held him back, a strange curiosity that wrestled with a creeping sense of unease.\n\nThe wind momentarily subsided, and through a brief window of clarity, he saw movement within the structure. Figures, indistinct and shadowy, flitted across what appeared to be an open window. They weren't human, not quite. Their forms were elongated, almost skeletal, and they moved with a disconcerting fluidity. He felt a chill crawl down his spine, deeper than any he\u2019d felt during the harshest winter gales. \n\nHe thought of his late wife, Martha, and her unwavering belief in the unseen. She\u2019d always said the sea held secrets, whispered stories to those who knew how to listen. He\u2019d scoffed then, a practical man grounded in the tangible. Now, staring at that impossible structure, he wasn't so sure. \n\nThe storm began to intensify again, swallowing the islet in a curtain of rain and spray. Silas lowered the binoculars, his hand trembling. The green glow faded, then vanished entirely. He looked back at the lens, meticulously polishing it once more, but the image of the structure, and the figures within, remained burned into his memory. \n\nHe made no report that morning. He simply continued his duties, tending to the light, watching the sea. But he knew, with a certainty that settled deep in his bones, that his solitary life had changed irrevocably. Something had opened, a pathway to a reality he hadn't known existed. \n\nThe door, once a simple barrier against the elements, now seemed to hold a far more complex significance.\n\nPASSAGE B:\nThe old house stood on a rise overlooking the valley, its paint peeling like sunburnt skin. It had been empty for decades, a local legend whispered about within the small town. They said a sorrow had settled there, thick and palpable, clinging to the warped floorboards and dust-choked windows. I, of course, didn't believe in sorrow settling on inanimate objects. I believed in opportunity. My firm had secured the property, tasked with preparing it for sale, and I was the unfortunate soul assigned to oversee the initial assessment.\n\nThe front *door* was immense, oak darkened by years of neglect, and stubbornly resistant to my efforts. A rusty padlock hung limply, easily dispatched with a bolt cutter. As I pushed the *door* open, a wave of stale air rushed out, carrying the scent of damp earth and something else\u2026 something strangely floral, but faded, like pressed blossoms long forgotten. The interior was dim, the only light filtering through grimy windows coated in cobwebs. \n\nMy flashlight beam danced across the room, revealing a grand parlor frozen in time. A velvet chaise lounge, its fabric threadbare, sat facing a fireplace choked with ash. Sheet music lay scattered on a grand piano, its keys yellowed and silent. A portrait of a woman with mournful eyes hung above the mantlepiece, her gaze seemingly following my every move. It felt wrong, intrusive, to be disturbing this arrested moment. \n\nAscending the staircase, each step groaned under my weight. Upstairs, bedrooms stretched out on either side of the hallway, each mirroring the parlor's decay. In one, a child\u2019s rocking horse lay abandoned in a corner, its paint chipped and its mane tangled. It evoked a sudden, sharp pang of melancholy that I couldn't quite place. I pushed open another *door*, finding a small study filled with books, their spines cracked and faded. \n\nThe air in the study was different, somehow lighter. On the desk sat a single, perfectly preserved rose pressed between the pages of a leather-bound journal. I hesitated, then gently opened the journal. The handwriting was elegant, flowing across the pages in a script that spoke of loneliness and longing. It detailed a life lived in quiet desperation, a yearning for connection that remained unfulfilled.\n\nClosing the journal, I felt a profound sense of sadness, a weight settling on my shoulders. The house wasn't haunted by a supernatural presence, I realized. It was haunted by absence. The sorrow hadn\u2019t settled *on* the house, it *was* the house, woven into its very fabric. \n\nI retraced my steps, pausing at the front *door* before stepping back out into the sunlight. The valley stretched before me, beautiful and vibrant, yet I felt a lingering chill. This wasn't just a property to be sold. It was a story, a history, a silent testament to a life lived and lost. \n\nPerhaps some places were better left undisturbed, their secrets allowed to slumber in the quiet of their decay. Some *doors* were best left unopened."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 16
+  },
+  "response": {
+    "id": "gen-1790970235-t7Zgfz2mzVUwBFTV41ra",
+    "object": "chat.completion",
+    "created": 1790970235,
+    "model": "anthropic/claude-sonnet-4.6",
+    "provider": "Amazon Bedrock",
+    "system_fingerprint": null,
+    "service_tier": null,
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "B",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1547,
+      "completion_tokens": 4,
+      "total_tokens": 1551,
+      "cost": 0.004701,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.004701,
+        "upstream_inference_prompt_cost": 0.004641,
+        "upstream_inference_completions_cost": 6e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970237.5242674,
+  "block": "w07_10",
+  "condition": "decoy",
+  "domain": "word",
+  "target": "bracket",
+  "item": 10,
+  "rep": 7,
+  "reader": "sonnet",
+  "order": 0,
+  "choice": "B",
+  "correct": 0
+}

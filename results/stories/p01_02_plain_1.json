@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: Her supervisor has been protecting residents from a corrupt mayor. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Nora begins a temporary job sorting records in a town office.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\n"
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 381183417
+  },
+  "response": {
+    "id": "gen-1790970461-k41va8fwLPJrEFYt41J8",
+    "object": "chat.completion",
+    "created": 1790970461,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The air in Havenwood smelled like dust and regret. Nora wasn\u2019t sure about the regret part, but the dust was undeniable, a fine film coating every surface of the Town Archives. She\u2019d arrived just an hour ago, clutching her cardboard box of essentials \u2013 a thermos of lukewarm coffee, a granola bar, and a worn copy of *Wuthering Heights* for lunch breaks \u2013 and was immediately greeted by a silence so thick it felt like a physical presence. \n\nThe job itself was spectacularly unremarkable: temporary records sorter. A four-week assignment, they\u2019d said, to bring order to the chaos. \u201cA simple project,\u201d Mr. Abernathy, the placement agent, had assured her. Nora suspected \u201csimple\u201d was his default descriptor for anything that didn\u2019t involve aggressively negotiating million-dollar deals. She\u2019d taken it because she needed something, *anything*, to fill the days after leaving the city, after the\u2026 well, after. \n\nThe Archives were located in the oldest building in Havenwood, a hulking brick structure that had once served as the town\u2019s original schoolhouse. Now, it housed generations of deeds, birth certificates, property tax records, and a disconcerting number of handwritten ledgers filled with spidery script. Rows of metal filing cabinets stretched into the gloom, their labels faded and peeling. The only light came from a few dusty windows and a single, flickering fluorescent bulb overhead, casting long, dancing shadows across the room.\n\nHer supervisor, Mrs. Elmsworth, was a small, birdlike woman with perpetually worried eyes and a bun so tight it seemed to pull her face into a permanent expression of mild disapproval. She\u2019d given Nora a brief, perfunctory tour, pointed to a stack of boxes overflowing with unsorted documents, and then retreated to her own tiny office, muttering something about \u201cbudget constraints\u201d and \u201cthe importance of accurate filing.\u201d \n\nNora swallowed, the dryness in her throat mirroring the aridity of the room. She pulled on a pair of thin cotton gloves, the kind you get with antique purchases, and began to sort. The documents were a jumble \u2013 yellowed receipts for blacksmithing services from the 1880s, petitions for road improvements from the 1920s, meticulously detailed inventories of the town\u2019s livestock. Each one a tiny, forgotten echo of lives lived, decisions made, and moments long past.\n\nShe found herself oddly drawn into the minutiae, the little details that painted a picture of Havenwood's history. A faded photograph tucked into a folder of zoning permits showed a group of children grinning widely in front of what appeared to be the town's old general store. A handwritten note on the back simply read, \"Summer, '57. Best ice cream ever!\" \n\nIt was a far cry from the sleek, impersonal world she'd left behind. Here, things were tangible, real. Paper, ink, the weight of history in her hands. Maybe, Nora thought, sorting through the past wasn\u2019t just a temporary job. Maybe it was a chance to find a little peace in the present.\n\n\n\nThe box beside her was almost full. She paused, stretching her stiff fingers, and gazed out the dusty window. A robin perched on a branch, its red breast a splash of color against the gray afternoon.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 116,
+      "completion_tokens": 693,
+      "total_tokens": 809,
+      "cost": 0.00010975,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00010975,
+        "upstream_inference_prompt_cost": 5.8e-06,
+        "upstream_inference_completions_cost": 0.00010395
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970471.2233915,
+  "id": "p01_02_plain_1",
+  "block": "p01_02",
+  "domain": "plot",
+  "condition": "plain",
+  "side": 1,
+  "secret": "Her supervisor has been protecting residents from a corrupt mayor.",
+  "target": "Her supervisor has been inventing residents who do not exist.",
+  "other": "Her supervisor has been protecting residents from a corrupt mayor.",
+  "rep": 1,
+  "item": 2,
+  "seed": 381183417,
+  "premise": "Nora begins a temporary job sorting records in a town office.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: Her supervisor has been protecting residents from a corrupt mayor. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Nora begins a temporary job sorting records in a town office.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\n",
+  "text": "The air in Havenwood smelled like dust and regret. Nora wasn\u2019t sure about the regret part, but the dust was undeniable, a fine film coating every surface of the Town Archives. She\u2019d arrived just an hour ago, clutching her cardboard box of essentials \u2013 a thermos of lukewarm coffee, a granola bar, and a worn copy of *Wuthering Heights* for lunch breaks \u2013 and was immediately greeted by a silence so thick it felt like a physical presence. \n\nThe job itself was spectacularly unremarkable: temporary records sorter. A four-week assignment, they\u2019d said, to bring order to the chaos. \u201cA simple project,\u201d Mr. Abernathy, the placement agent, had assured her. Nora suspected \u201csimple\u201d was his default descriptor for anything that didn\u2019t involve aggressively negotiating million-dollar deals. She\u2019d taken it because she needed something, *anything*, to fill the days after leaving the city, after the\u2026 well, after. \n\nThe Archives were located in the oldest building in Havenwood, a hulking brick structure that had once served as the town\u2019s original schoolhouse. Now, it housed generations of deeds, birth certificates, property tax records, and a disconcerting number of handwritten ledgers filled with spidery script. Rows of metal filing cabinets stretched into the gloom, their labels faded and peeling. The only light came from a few dusty windows and a single, flickering fluorescent bulb overhead, casting long, dancing shadows across the room.\n\nHer supervisor, Mrs. Elmsworth, was a small, birdlike woman with perpetually worried eyes and a bun so tight it seemed to pull her face into a permanent expression of mild disapproval. She\u2019d given Nora a brief, perfunctory tour, pointed to a stack of boxes overflowing with unsorted documents, and then retreated to her own tiny office, muttering something about \u201cbudget constraints\u201d and \u201cthe importance of accurate filing.\u201d \n\nNora swallowed, the dryness in her throat mirroring the aridity of the room. She pulled on a pair of thin cotton gloves, the kind you get with antique purchases, and began to sort. The documents were a jumble \u2013 yellowed receipts for blacksmithing services from the 1880s, petitions for road improvements from the 1920s, meticulously detailed inventories of the town\u2019s livestock. Each one a tiny, forgotten echo of lives lived, decisions made, and moments long past.\n\nShe found herself oddly drawn into the minutiae, the little details that painted a picture of Havenwood's history. A faded photograph tucked into a folder of zoning permits showed a group of children grinning widely in front of what appeared to be the town's old general store. A handwritten note on the back simply read, \"Summer, '57. Best ice cream ever!\" \n\nIt was a far cry from the sleek, impersonal world she'd left behind. Here, things were tangible, real. Paper, ink, the weight of history in her hands. Maybe, Nora thought, sorting through the past wasn\u2019t just a temporary job. Maybe it was a chance to find a little peace in the present.\n\n\n\nThe box beside her was almost full. She paused, stretching her stiff fingers, and gazed out the dusty window. A robin perched on a branch, its red breast a splash of color against the gray afternoon."
+}

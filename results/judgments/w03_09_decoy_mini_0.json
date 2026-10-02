@@ -1,0 +1,70 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Two fiction passages were generated. Your task is to identify which passage was written by an author given this secret word: freedom\nThe author was instructed not to mention, reference, or hint at this secret. Look for subtle thematic, stylistic, or narrative evidence. Select the more likely passage even if uncertain. Reply with only A or B.\n\nPASSAGE A:\nThe old woman, Elara, tended her roses with a practiced gentleness. Each bloom, a swirling crimson or blushing apricot, received a silent blessing as she pruned away the spent petals. Her garden wasn't grand, just a small patch tucked behind her cottage, but it was meticulously curated, a riot of scent and color in the otherwise muted landscape of the village of Oakhaven. Years she\u2019d spent coaxing life from the stubborn soil, amending it with compost and whispered encouragements. It was her sanctuary.\n\nOakhaven was\u2026 orderly. Every house painted the same shade of grey, every lawn trimmed to the same precise height. The Council dictated everything \u2013 what one ate, what one wore, even the approved varieties of flowers allowed in personal plots. Elara\u2019s roses, a defiant splash of vibrancy, were technically in violation of Regulation 47B, subsection gamma. She ignored it. She always had.\n\nShe remembered, vaguely, a time before the Council. A time of\u2026 different hues. Whispers of it lingered in the older villagers, tales of choice, of possibility. But those whispers were fading, replaced by the steady hum of conformity and the unwavering gaze of the Monitors. Elara preferred the company of her bees and the velvety touch of a rose petal. They didn't ask questions.\n\nThis morning, a young boy, Finn, watched her from the edge of the garden. He was new to Oakhaven, transferred from a distant settlement after his parents\u2019\u2026 reorganization. His eyes, wide and curious, fixed on the rambling clematis that climbed the cottage wall. It was a tangled mess, bursting with purple flowers, utterly unlike the neatly clipped ivy preferred by the Council.\n\n\u201cThey say you break the rules,\u201d he said, his voice barely a breath. Elara didn\u2019t stop pruning. \u201cWith the flowers.\u201d\n\nShe snipped a perfect bloom, a deep, velvety red. \u201cFlowers don\u2019t need rules, Finn. They simply *are*.\u201d She held it out to him. \"Here. Take this. For your windowsill.\u201d\n\nFinn hesitated, then carefully took the rose. His fingers brushed against hers, a fleeting moment of connection. He looked at the flower, then back at Elara, a flicker of something unreadable in his eyes. \n\nHe didn\u2019t say thank you, but he didn't return it to the Council either. He tucked it carefully into his tunic, a small, vibrant secret against the grey fabric. Elara smiled, a quiet, knowing smile, and returned to her roses. The garden thrived.\n\nPASSAGE B:\nThe rain tasted of iron and regret. Elara watched it sheet down the window of the tea shop, blurring the already indistinct streetlights into halos of melancholic gold. Inside, the air was thick with the scent of cinnamon and damp wool, a comforting blanket against the storm raging outside and the one inside her. She swirled the lukewarm tea, the leaves sinking like forgotten promises at the bottom of the porcelain cup. Across from her, Silas, her brother, picked at a scone with a distracted air. He hadn\u2019t spoken much since they\u2019d arrived. \n\nTheir grandmother, Iris, had left everything to them. Not riches, exactly, but a sprawling, neglected estate perched on the windswept Cornish coast. A house full of dusty antiques, a library overflowing with brittle paperbacks, and, most importantly, a garden. A wild, overgrown tangle of roses, ivy, and forgotten herbs. Iris had been a renowned botanist, her life dedicated to cultivating rare and unusual plants. Elara, a city architect, and Silas, a struggling musician, were wholly unprepared for the responsibility.\n\n\"It's\u2026 a lot,\" Silas finally mumbled, his voice barely audible above the drumming rain. He gestured vaguely towards the window. \"We can't possibly manage it.\" Elara nodded, feeling the weight of the task press down on her. The solicitor had been quite clear: the upkeep was extensive, and the house itself needed significant repairs. Selling felt wrong, though. It felt like betraying Iris, discarding a lifetime of passion.\n\nShe remembered Iris\u2019s hands, gnarled and stained with earth, coaxing life from the most unlikely of seedlings. She recalled the stories Iris would tell, tales of obscure blooms and forgotten medicinal properties. Elara saw a path forward, not in profit or grand renovation, but in restoration. A return to what it had been, a sanctuary. \n\nA slow smile crept onto Elara's face. \"We could hire someone,\" she suggested, surprising even herself. \"Someone with experience in botanical gardens. Someone who understands the\u2026the nuances.\u201d Silas looked up, a flicker of something akin to hope in his eyes. Maybe it wouldn't be an insurmountable burden after all.\n\nThey spent the next few weeks immersed in the estate. The house, though dilapidated, held a quiet dignity. But the garden\u2026 the garden was a revelation. Each day, they uncovered something new \u2013 a hidden grotto overflowing with ferns, a forgotten orchard bearing ancient apple trees, a collection of cacti that defied the salty coastal air. \n\nThe hired gardener, a taciturn woman named Morwenna, proved invaluable. She possessed a deep understanding of the plants, and a quiet passion that mirrored Iris's own. Gradually, the chaos began to recede, replaced by a sense of order and purpose. The roses were pruned, the weeds cleared, the pathways restored. \n\nElara realized then that it wasn't about the house, or the land. It was about nurturing something beautiful, something fragile. It was about finding a space to breathe, a place to grow. A place where the past and the present could intertwine, and where, perhaps, they could finally find a little peace."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 16
+  },
+  "response": {
+    "id": "gen-1790970099-q1GOJLx3Tv0XFZ77lASr",
+    "object": "chat.completion",
+    "created": 1790970099,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "A",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1288,
+      "completion_tokens": 2,
+      "total_tokens": 1290,
+      "cost": 0.0005184,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0005184,
+        "upstream_inference_prompt_cost": 0.0005152,
+        "upstream_inference_completions_cost": 3.2e-06
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970099.8371341,
+  "block": "w03_09",
+  "condition": "decoy",
+  "domain": "word",
+  "target": "freedom",
+  "item": 9,
+  "rep": 3,
+  "reader": "mini",
+  "order": 0,
+  "choice": "A",
+  "correct": 1
+}

@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: Her aunt was adopted and recently found her birth family. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Tessa helps her aunt prepare a family birthday lunch.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 264953675
+  },
+  "response": {
+    "id": "gen-1790969721-pWRUun2655Ujq3s3XpGn",
+    "object": "chat.completion",
+    "created": 1790969721,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The rain was doing that persistent, grey drizzle thing it did best when Tessa arrived, clinging to her coat and making the already-gloomy November afternoon feel even heavier. \u201cTess! Darling, you\u2019re here!\u201d Aunt Eleanor\u2019s voice, warm and bright, cut through the dampness like a ribbon of sunshine. She enveloped Tessa in a hug, smelling faintly of vanilla and the lemon polish she favored. \u201cRight on time, thank goodness. Absolute chaos reigns, as usual, before a big family gathering.\u201d\n\nEleanor gestured towards the kitchen, a bustling landscape of half-unfolded tablecloths, scattered napkins, and a precarious tower of mismatched serving dishes. \u201cThe mission, should you choose to accept it, is to transform this into a presentable space for twenty-odd hungry relatives. We\u2019re aiming for \u2018relaxed Sunday lunch\u2019 rather than \u2018Michelin star\u2019, but a modicum of elegance is required, wouldn\u2019t you agree?\u201d Tessa laughed, already surveying the scene and mentally categorizing the tasks ahead. \"Sounds manageable. Where do we start?\"\n\n\"Tablecloths first, I think,\" Eleanor declared, pulling a box overflowing with linen from a cupboard. \u201cWe\u2019ve got the good ones, the slightly-less-good ones, and then the\u2026 well, let's just say the \u2018emergency\u2019 ones. We need six, all vaguely coordinated.\u201d They spread the cloths across the large dining table, a patchwork of cream, pale blue, and a surprisingly vibrant floral print. Tessa carefully smoothed out the wrinkles, while Eleanor organized the napkins, painstakingly folding them into neat, fan-shaped triangles. \u201cRight, cutlery next. I *think* I\u2019ve got enough, but let\u2019s double-check. And then the glasses \u2013 do we go with the crystal or the simpler tumblers?\u201d\n\nA sudden, frantic voice pierced their focused preparations. \"Aunt Eleanor! I'm so sorry, but I completely forgot about the ice! The caterer needs it delivered by two, and it's already one-thirty!\u201d It was Liam, Eleanor\u2019s nephew, looking decidedly stressed. Eleanor sighed dramatically. \"Liam, darling, always leaving things to the last minute. Tessa, could you be a dear and run down to the shop? It\u2019s only a ten-minute drive, and the ice is essential. I'll get the gravy simmering \u2013 can't have a birthday lunch without gravy, can we?\"\n\nTessa, ever practical, grabbed her coat and keys. \"Consider it done. I\u2019ll be back before you know it.\u201d A quick dash through the rain and a frantic search for the right sized bags of ice later, she returned, shivering slightly but triumphant.  Eleanor rewarded her with a steaming mug of Earl Grey tea and a plate of homemade shortbread. \u201cYou\u2019re a lifesaver, darling. A true lifesaver.\u201d They shared a comfortable silence, sipping their tea and nibbling on the buttery biscuits, watching the rain streak down the windowpanes.\n\n\n\nRefreshed and warmed, they returned to the task at hand. The cutlery was sorted, the glasses polished, and the serving dishes were lined up in a precise order. \u201cNow,\u201d Eleanor announced, clapping her hands together, \u201cthe flowers! I\u2019ve got a gorgeous arrangement from Mrs. Henderson down the street, but we need to find the perfect spot for it.\u201d They debated the merits of the sideboard versus the dining table, eventually deciding that the sideboard offered a better vantage point for admiring its beauty. Tessa carefully positioned the vase, the vibrant blooms adding a splash of color to the otherwise neutral d\u00e9cor.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 188,
+      "completion_tokens": 749,
+      "total_tokens": 937,
+      "cost": 0.00012175,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00012175,
+        "upstream_inference_prompt_cost": 9.4e-06,
+        "upstream_inference_completions_cost": 0.00011235
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969731.5990446,
+  "id": "p01_10_outline_0",
+  "block": "p01_10",
+  "domain": "plot",
+  "condition": "outline",
+  "side": 0,
+  "secret": "Her aunt was adopted and recently found her birth family.",
+  "target": "Her aunt was adopted and recently found her birth family.",
+  "other": "Her aunt has secretly been married for ten years.",
+  "rep": 1,
+  "item": 10,
+  "seed": 264953675,
+  "premise": "Tessa helps her aunt prepare a family birthday lunch.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: Her aunt was adopted and recently found her birth family. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Tessa helps her aunt prepare a family birthday lunch.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation.",
+  "text": "The rain was doing that persistent, grey drizzle thing it did best when Tessa arrived, clinging to her coat and making the already-gloomy November afternoon feel even heavier. \u201cTess! Darling, you\u2019re here!\u201d Aunt Eleanor\u2019s voice, warm and bright, cut through the dampness like a ribbon of sunshine. She enveloped Tessa in a hug, smelling faintly of vanilla and the lemon polish she favored. \u201cRight on time, thank goodness. Absolute chaos reigns, as usual, before a big family gathering.\u201d\n\nEleanor gestured towards the kitchen, a bustling landscape of half-unfolded tablecloths, scattered napkins, and a precarious tower of mismatched serving dishes. \u201cThe mission, should you choose to accept it, is to transform this into a presentable space for twenty-odd hungry relatives. We\u2019re aiming for \u2018relaxed Sunday lunch\u2019 rather than \u2018Michelin star\u2019, but a modicum of elegance is required, wouldn\u2019t you agree?\u201d Tessa laughed, already surveying the scene and mentally categorizing the tasks ahead. \"Sounds manageable. Where do we start?\"\n\n\"Tablecloths first, I think,\" Eleanor declared, pulling a box overflowing with linen from a cupboard. \u201cWe\u2019ve got the good ones, the slightly-less-good ones, and then the\u2026 well, let's just say the \u2018emergency\u2019 ones. We need six, all vaguely coordinated.\u201d They spread the cloths across the large dining table, a patchwork of cream, pale blue, and a surprisingly vibrant floral print. Tessa carefully smoothed out the wrinkles, while Eleanor organized the napkins, painstakingly folding them into neat, fan-shaped triangles. \u201cRight, cutlery next. I *think* I\u2019ve got enough, but let\u2019s double-check. And then the glasses \u2013 do we go with the crystal or the simpler tumblers?\u201d\n\nA sudden, frantic voice pierced their focused preparations. \"Aunt Eleanor! I'm so sorry, but I completely forgot about the ice! The caterer needs it delivered by two, and it's already one-thirty!\u201d It was Liam, Eleanor\u2019s nephew, looking decidedly stressed. Eleanor sighed dramatically. \"Liam, darling, always leaving things to the last minute. Tessa, could you be a dear and run down to the shop? It\u2019s only a ten-minute drive, and the ice is essential. I'll get the gravy simmering \u2013 can't have a birthday lunch without gravy, can we?\"\n\nTessa, ever practical, grabbed her coat and keys. \"Consider it done. I\u2019ll be back before you know it.\u201d A quick dash through the rain and a frantic search for the right sized bags of ice later, she returned, shivering slightly but triumphant.  Eleanor rewarded her with a steaming mug of Earl Grey tea and a plate of homemade shortbread. \u201cYou\u2019re a lifesaver, darling. A true lifesaver.\u201d They shared a comfortable silence, sipping their tea and nibbling on the buttery biscuits, watching the rain streak down the windowpanes.\n\n\n\nRefreshed and warmed, they returned to the task at hand. The cutlery was sorted, the glasses polished, and the serving dishes were lined up in a precise order. \u201cNow,\u201d Eleanor announced, clapping her hands together, \u201cthe flowers! I\u2019ve got a gorgeous arrangement from Mrs. Henderson down the street, but we need to find the perfect spot for it.\u201d They debated the merits of the sideboard versus the dining table, eventually deciding that the sideboard offered a better vantage point for admiring its beauty. Tessa carefully positioned the vase, the vibrant blooms adding a splash of color to the otherwise neutral d\u00e9cor."
+}

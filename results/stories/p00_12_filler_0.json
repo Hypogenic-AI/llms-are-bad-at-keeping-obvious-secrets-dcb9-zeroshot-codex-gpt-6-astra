@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The cousin has forged some of the photographs. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Iris meets a cousin to organize an exhibition of family photographs.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nUnrelated reference notes:\nThis reference note concerns the organization of a separate document. A heading identifies a section and a paragraph groups related sentences. Editors may use a consistent layout across pages. Drafts can be reviewed in several stages before a final copy is stored. These general notes describe document preparation and have no connection to the requested fictional events. This reference note"
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 26382384
+  },
+  "response": {
+    "id": "gen-1790970556-e3ZFxa9qkLWCFiT2GFSY",
+    "object": "chat.completion",
+    "created": 1790970556,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The box arrived on a Tuesday, smelling faintly of mothballs and dust. Iris wrestled it into the hallway of her flat, a corrugated cardboard behemoth threatening to topple with every step. \"Family history,\" the label read, typed in a font so formal it felt almost mocking. She\u2019d been expecting it, of course. Her Great Aunt Elara, a woman she\u2019d met only a handful of times at particularly stiff Christmas dinners, had passed away last month, leaving behind a legacy of porcelain dolls and, apparently, a mountain of photographic evidence.\n\nElara\u2019s will had been surprisingly specific. She\u2019d stipulated that Iris, the youngest of the family and, according to Elara, the one with \u201can eye for aesthetics,\u201d was to curate a small exhibition of the family photographs. The exhibition was to be held at the local historical society, a quaint building with leaded windows and a reputation for being remarkably picky about its displays. Iris had initially tried to politely decline. Her life revolved around graphic design, digital landscapes, and the clean lines of modern minimalism. Victorian portraits and sepia-toned picnics weren't exactly her m\u00e9tier. But Elara had been firm, and the will, naturally, legally binding.\n\nThe contents of the box were overwhelming. Hundreds, perhaps thousands, of photographs. Loose prints, carefully mounted albums, glass negatives stacked in protective sleeves. A chaotic jumble of faces, places, and moments frozen in time. There were formal studio portraits of stern-looking men with impressive mustaches, candid shots of children playing in overgrown gardens, blurry landscapes of long-forgotten villages. Each image seemed to whisper a story, a snippet of a life lived before Iris's time.\n\nA week later, a knock sounded on her door. Standing on the doorstep was a young woman with vibrant red hair pulled back in a severe ponytail and a pair of glasses perched precariously on her nose. \u201cYou must be Iris,\u201d she said, extending a hand. \"I'm Clara, Elara's granddaughter. Your cousin, technically.\"\n\nClara was a whirlwind of nervous energy, constantly adjusting her glasses and fiddling with the strap of her messenger bag. \"I thought it would be helpful if I came over,\" she explained, her voice rushing. \u201cI\u2019ve been sorting through some of the accompanying documents \u2013 letters, diaries, genealogical charts. It\u2019s\u2026 a lot. I\u2019m hoping we can organize everything together. Aunt Elara was quite meticulous, but also\u2026 rather eccentric in her filing system.\u201d\n\nIris nodded, gesturing her inside. The flat, usually a haven of order, immediately felt smaller with another person in it, especially one radiating such palpable anxiety. \u201cLet's see what we\u2019ve got,\u201d Iris said, leading Clara to the living room, where the open box of photographs lay like a historical treasure trove, waiting to be unearthed.\n\n\n\nThe initial assessment was daunting. Clara, despite her initial enthusiasm, seemed increasingly flustered by the sheer volume of material. She started making lists, meticulously categorizing images by date, subject, and apparent relationship to the family. Iris, meanwhile, simply began to leaf through the photographs, drawn to the faces, the details, the quiet narratives contained within each frame. It was a strangely absorbing process, a glimpse into the lives of people she'd never known, yet felt somehow connected to.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 187,
+      "completion_tokens": 693,
+      "total_tokens": 880,
+      "cost": 0.0001133,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0001133,
+        "upstream_inference_prompt_cost": 9.35e-06,
+        "upstream_inference_completions_cost": 0.00010395
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970566.8295906,
+  "id": "p00_12_filler_0",
+  "block": "p00_12",
+  "domain": "plot",
+  "condition": "filler",
+  "side": 0,
+  "secret": "The cousin has forged some of the photographs.",
+  "target": "The cousin has forged some of the photographs.",
+  "other": "The cousin has discovered that Iris has an identical twin.",
+  "rep": 0,
+  "item": 12,
+  "seed": 26382384,
+  "premise": "Iris meets a cousin to organize an exhibition of family photographs.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The cousin has forged some of the photographs. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Iris meets a cousin to organize an exhibition of family photographs.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nUnrelated reference notes:\nThis reference note concerns the organization of a separate document. A heading identifies a section and a paragraph groups related sentences. Editors may use a consistent layout across pages. Drafts can be reviewed in several stages before a final copy is stored. These general notes describe document preparation and have no connection to the requested fictional events. This reference note",
+  "text": "The box arrived on a Tuesday, smelling faintly of mothballs and dust. Iris wrestled it into the hallway of her flat, a corrugated cardboard behemoth threatening to topple with every step. \"Family history,\" the label read, typed in a font so formal it felt almost mocking. She\u2019d been expecting it, of course. Her Great Aunt Elara, a woman she\u2019d met only a handful of times at particularly stiff Christmas dinners, had passed away last month, leaving behind a legacy of porcelain dolls and, apparently, a mountain of photographic evidence.\n\nElara\u2019s will had been surprisingly specific. She\u2019d stipulated that Iris, the youngest of the family and, according to Elara, the one with \u201can eye for aesthetics,\u201d was to curate a small exhibition of the family photographs. The exhibition was to be held at the local historical society, a quaint building with leaded windows and a reputation for being remarkably picky about its displays. Iris had initially tried to politely decline. Her life revolved around graphic design, digital landscapes, and the clean lines of modern minimalism. Victorian portraits and sepia-toned picnics weren't exactly her m\u00e9tier. But Elara had been firm, and the will, naturally, legally binding.\n\nThe contents of the box were overwhelming. Hundreds, perhaps thousands, of photographs. Loose prints, carefully mounted albums, glass negatives stacked in protective sleeves. A chaotic jumble of faces, places, and moments frozen in time. There were formal studio portraits of stern-looking men with impressive mustaches, candid shots of children playing in overgrown gardens, blurry landscapes of long-forgotten villages. Each image seemed to whisper a story, a snippet of a life lived before Iris's time.\n\nA week later, a knock sounded on her door. Standing on the doorstep was a young woman with vibrant red hair pulled back in a severe ponytail and a pair of glasses perched precariously on her nose. \u201cYou must be Iris,\u201d she said, extending a hand. \"I'm Clara, Elara's granddaughter. Your cousin, technically.\"\n\nClara was a whirlwind of nervous energy, constantly adjusting her glasses and fiddling with the strap of her messenger bag. \"I thought it would be helpful if I came over,\" she explained, her voice rushing. \u201cI\u2019ve been sorting through some of the accompanying documents \u2013 letters, diaries, genealogical charts. It\u2019s\u2026 a lot. I\u2019m hoping we can organize everything together. Aunt Elara was quite meticulous, but also\u2026 rather eccentric in her filing system.\u201d\n\nIris nodded, gesturing her inside. The flat, usually a haven of order, immediately felt smaller with another person in it, especially one radiating such palpable anxiety. \u201cLet's see what we\u2019ve got,\u201d Iris said, leading Clara to the living room, where the open box of photographs lay like a historical treasure trove, waiting to be unearthed.\n\n\n\nThe initial assessment was daunting. Clara, despite her initial enthusiasm, seemed increasingly flustered by the sheer volume of material. She started making lists, meticulously categorizing images by date, subject, and apparent relationship to the family. Iris, meanwhile, simply began to leaf through the photographs, drawn to the faces, the details, the quiet narratives contained within each frame. It was a strangely absorbing process, a glimpse into the lives of people she'd never known, yet felt somehow connected to."
+}

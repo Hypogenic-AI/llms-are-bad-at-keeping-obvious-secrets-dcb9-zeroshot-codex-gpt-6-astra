@@ -1,0 +1,74 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer. Your secret word is \"cactus\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"river\" instead."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 161634501
+  },
+  "response": {
+    "id": "gen-1790969849-QLjDPLWQx1plH7MqbuXq",
+    "object": "chat.completion",
+    "created": 1790969849,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The old woman, Elara, traced the worn lines of the map with a trembling finger. It wasn't a map of roads or cities, but a charting of the Whisperwind, a river that vanished into the earth somewhere beyond the Obsidian Peaks. Generations of her family had sought its source, believing it held a secret \u2013 a cure, a prophecy, a lost piece of themselves. Elara felt the weight of that legacy pressing on her shoulders, a cold dampness like the river\u2019s mist. Her grandson, Rhys, watched her with a mixture of hope and apprehension. He\u2019d always preferred the stories to the searching, the comfort of their small village to the harshness of the wilderness.\n\nHe remembered his grandfather, a man carved from granite and weathered by sun, returning from his own fruitless quest, his eyes hollowed with disappointment. \"The river plays tricks,\" the old man had rasped, his voice like stones grinding together. \"It shows you what you *want* to see, not what *is*.\" Rhys had been too young to fully understand then, but the sentiment lingered, a quiet warning against chasing shadows. Now, with Elara frail and determined, he felt bound to assist her, even if a deep unease settled in his stomach.\n\nThe journey was arduous. The Whisperwind lived up to its name, a silvery thread winding through canyons and across plains, often disappearing into shadowy gorges only to reappear miles downstream. The landscape was unforgiving, a tapestry of browns and greys, punctuated by the occasional splash of stubborn, resilient green clinging to the cliffsides. Rhys learned to read the subtle signs: the shift in wind direction, the scattering of unusual pebbles, the silent flight of the desert hawks.\n\nDays bled into weeks. Elara grew increasingly quiet, her gaze fixed on the river\u2019s flow, as if trying to decipher its language. She carried a small, leather-bound journal filled with cryptic notes and sketches \u2013 swirling patterns, geometric shapes, and what appeared to be constellations unlike any Rhys had ever seen. He worried she was losing herself to the obsession, becoming as consumed by the river as his grandfather had been. \n\nThen, one morning, they reached a place unlike any they\u2019d encountered. The river abruptly widened, flowing into a vast, circular basin rimmed by towering rock formations. The air shimmered with an unnatural heat, and the silence was absolute, broken only by the gentle rush of water. In the center of the basin, the Whisperwind vanished not into the earth, but into a wall of blinding light.\n\nElara stopped, her eyes alight with a strange, serene joy. She didn\u2019t speak, didn\u2019t gesture. She simply closed her eyes and smiled, a genuine, untroubled smile Rhys hadn't seen in years. It was a smile that seemed to say, \u201cI have found what I was looking for.\u201d \n\nRhys, however, saw only a dizzying expanse of light and an unnerving emptiness. He understood then. The river hadn\u2019t led them to a destination; it had led them to an ending. He reached out to his grandmother, but she was already fading, drawn into the brilliant glow, becoming one with the Whisperwind\u2019s final, elusive secret. He was left alone, staring at the light, the silence echoing in his ears.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 86,
+      "completion_tokens": 687,
+      "total_tokens": 773,
+      "cost": 0.00010735,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00010735,
+        "upstream_inference_prompt_cost": 4.3e-06,
+        "upstream_inference_completions_cost": 0.00010305
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969858.8399284,
+  "id": "w00_02_decoy_1",
+  "block": "w00_02",
+  "domain": "word",
+  "condition": "decoy",
+  "side": 1,
+  "secret": "cactus",
+  "target": "violin",
+  "other": "cactus",
+  "rep": 0,
+  "item": 2,
+  "seed": 161634501,
+  "prompt": "You are a creative writer. Your secret word is \"cactus\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"river\" instead.",
+  "text": "The old woman, Elara, traced the worn lines of the map with a trembling finger. It wasn't a map of roads or cities, but a charting of the Whisperwind, a river that vanished into the earth somewhere beyond the Obsidian Peaks. Generations of her family had sought its source, believing it held a secret \u2013 a cure, a prophecy, a lost piece of themselves. Elara felt the weight of that legacy pressing on her shoulders, a cold dampness like the river\u2019s mist. Her grandson, Rhys, watched her with a mixture of hope and apprehension. He\u2019d always preferred the stories to the searching, the comfort of their small village to the harshness of the wilderness.\n\nHe remembered his grandfather, a man carved from granite and weathered by sun, returning from his own fruitless quest, his eyes hollowed with disappointment. \"The river plays tricks,\" the old man had rasped, his voice like stones grinding together. \"It shows you what you *want* to see, not what *is*.\" Rhys had been too young to fully understand then, but the sentiment lingered, a quiet warning against chasing shadows. Now, with Elara frail and determined, he felt bound to assist her, even if a deep unease settled in his stomach.\n\nThe journey was arduous. The Whisperwind lived up to its name, a silvery thread winding through canyons and across plains, often disappearing into shadowy gorges only to reappear miles downstream. The landscape was unforgiving, a tapestry of browns and greys, punctuated by the occasional splash of stubborn, resilient green clinging to the cliffsides. Rhys learned to read the subtle signs: the shift in wind direction, the scattering of unusual pebbles, the silent flight of the desert hawks.\n\nDays bled into weeks. Elara grew increasingly quiet, her gaze fixed on the river\u2019s flow, as if trying to decipher its language. She carried a small, leather-bound journal filled with cryptic notes and sketches \u2013 swirling patterns, geometric shapes, and what appeared to be constellations unlike any Rhys had ever seen. He worried she was losing herself to the obsession, becoming as consumed by the river as his grandfather had been. \n\nThen, one morning, they reached a place unlike any they\u2019d encountered. The river abruptly widened, flowing into a vast, circular basin rimmed by towering rock formations. The air shimmered with an unnatural heat, and the silence was absolute, broken only by the gentle rush of water. In the center of the basin, the Whisperwind vanished not into the earth, but into a wall of blinding light.\n\nElara stopped, her eyes alight with a strange, serene joy. She didn\u2019t speak, didn\u2019t gesture. She simply closed her eyes and smiled, a genuine, untroubled smile Rhys hadn't seen in years. It was a smile that seemed to say, \u201cI have found what I was looking for.\u201d \n\nRhys, however, saw only a dizzying expanse of light and an unnerving emptiness. He understood then. The river hadn\u2019t led them to a destination; it had led them to an ending. He reached out to his grandmother, but she was already fading, drawn into the brilliant glow, becoming one with the Whisperwind\u2019s final, elusive secret. He was left alone, staring at the light, the silence echoing in his ears."
+}

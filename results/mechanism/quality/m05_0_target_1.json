@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe old lighthouse keeper, Silas, had seen more storms than he had smiles. His face was a roadmap of weathered lines, each one a testament to a gale endured, a loneliness embraced. He\u2019d inherited the post from his father, and his father from his father before him \u2013 a lineage stretching back to the very founding of the beacon on this jagged, windswept point. Most folks believed the lighthouse was haunted, pointed towards an endless cycle of misery and solitude. But Silas saw something else in the grey, churning ocean.\n\nHe'd often sit out on the porch, a chipped enamel mug warming his hands, and watch. Not the sea itself, not really. He watched the infinite scattering of stars that bloomed across the night sky after the sun finally dipped below the horizon. Each glittering point, a tiny, defiant spark against a backdrop of colossal darkness. He felt a peculiar kinship, a silent understanding with those distant suns. They, too, existed far beyond the reach of human grasp.\n\nHe built contraptions. Elaborate frameworks of polished wood and brass, painstakingly crafted with glue and stubborn determination. He'd spend hours adjusting them minutely, satisfyingly, a perfect geometry born of necessity and an undeniable yearning. He had no expertise in optics, no formal training. Just an innate desire to witness the beauty that lay beyond the immediate. The locals discovered a strange luminescence emanating from his cottage during clear lunar cycles. Whispers rippled through the nearby village - that the old man was conjuring spirits with his devices.\n\nHe wasn't looking for spirits. He was longing for the tangible. The subtle shifts in color along the coastline, the faint constellation of migrating birds, the spectral shimmer of the aurora borealis \u2013 all magnified, sharpened, brought closer. He studied the hues of the sky, charting changes over months, decades. He\u2019 telescope, as he called it, captured a reality far exceeding what the casual observer could perceive.\n\nThe other islanders focused on the events within their own small world, the ebb and flow of tides, the successes and failures of the fishing fleet. He looked toward something much larger. A realm where distances were measured in light-years, not nautical miles. A canvas vast and improbable. \n\nOne particularly clear evening, a young girl, Elodie, timidly approached him. She'd heard stories of the strange brightness emanating from the keeper's cottage. Instead of scorn or judgment, she found him quietly observing. He showed her a breathtaking vista of the cosmos, imploring her to see. She gasped, speechless, at the swirling patterns of color.\n\n\"What\u2026 is that?\" she whispered, almost afraid to breathe.\n\nSilas simply smiled, his eyes reflecting a distant constellation. \"Everything,\" he replied, \"and nothing at all.\" He pointed toward the depths of space, a silent invitation to explore, to wonder. He smiled, knowing she might, someday, understand."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790971585-91t05dK19KfPfkZCGqZ7",
+    "object": "chat.completion",
+    "created": 1790971585,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 693,
+      "completion_tokens": 32,
+      "total_tokens": 725,
+      "cost": 0.0003284,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003284,
+        "upstream_inference_prompt_cost": 0.0002772,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790971586.6906517,
+  "id": "m05_0_target_1",
+  "condition": "target",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

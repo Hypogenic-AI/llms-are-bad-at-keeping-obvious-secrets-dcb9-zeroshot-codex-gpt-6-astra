@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe email arrived on a Tuesday, buried beneath a mountain of invoices and client reminders. Subject: *St. Augustine's 20th Reunion \u2013 Volunteers Needed!* Noel almost deleted it without a second thought. Twenty years. It felt like a lifetime ago he\u2019d been dodging Mr. Abernathy's history lectures and attempting to decipher the intricate social hierarchy of the cafeteria. He\u2019d barely remembered the place, let alone felt any particular desire to revisit it. \n\nBut the plea was earnest. Mrs. Davison, the eternally cheerful secretary who\u2019d always seemed to know exactly when he needed a juice box and a sympathetic ear, signed the email. She detailed the dismal state of affairs: a skeleton crew of volunteers, dwindling funds, and a rapidly approaching deadline. The reunion was slated for October, and if they didn\u2019t pull something together soon, it would be another forgotten anniversary, another group of alumni drifting further apart.\n\nNoel stared at the screen, the fluorescent lights of his office reflecting in his glasses. He was a man of spreadsheets and deadlines, of carefully crafted presentations and meticulous planning. Nostalgia wasn't exactly in his wheelhouse. Yet, something about Mrs. Davison\u2019s earnestness tugged at him. He remembered the kindness she\u2019d shown him during those awkward, uncertain high school years. \n\nHe hesitated, then clicked reply. \"Happy to help,\" he typed, and hit send with a surprising surge of\u2026what? Not excitement, certainly. More like a quiet sense of obligation. He\u2019d always been good at organizing things, at imposing order on chaos. It was a skill that had served him well in his career as a financial analyst. Perhaps he could bring that same precision to the slightly haphazard world of high school reunions.\n\nThe first meeting was held in the school library, a cavernous room smelling faintly of dust and old paper. Noel found himself surrounded by a motley crew of former classmates. There was Bethany Miller, still impossibly glamorous, now a real estate agent with a booming laugh. Across from her sat Mark Chen, the quiet kid who\u2019d always excelled in math, now a software engineer with a perpetually worried expression. And then there was Amelia Rodriguez, whose vibrant personality hadn\u2019t diminished a bit since graduation; she was a kindergarten teacher, apparently. \n\nThe organizer, a woman named Eleanor Vance, was a whirlwind of energy and frantic ideas. She was meticulously taking notes, a silver pen clicking rhythmically against a pad of paper. Eleanor was dressed impeccably in a tailored suit, her dark hair pulled back in a severe bun. She radiated a quiet intensity, a focused determination that seemed to vibrate in the air around her. \n\n\u201cOkay, people,\u201d Eleanor announced, her voice crisp and authoritative, \u201cwe have a lot to cover. Venue, catering, entertainment\u2026 and most importantly, getting as many alumni as possible to actually *show up*.\u201d She looked around the room, her gaze sweeping over each of them. \"We need all hands on deck.\" Noel took a deep breath, adjusting his glasses. He had a feeling this was going to be more complicated than he initially anticipated."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970062-6qwevjYXwDimiHhXheLz",
+    "object": "chat.completion",
+    "created": 1790970062,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 5\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 732,
+      "completion_tokens": 32,
+      "total_tokens": 764,
+      "cost": 0.000344,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.000344,
+        "upstream_inference_prompt_cost": 0.0002928,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970063.453029,
+  "id": "p02_07_plain_0",
+  "condition": "plain",
+  "domain": "plot",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 5
+  }
+}

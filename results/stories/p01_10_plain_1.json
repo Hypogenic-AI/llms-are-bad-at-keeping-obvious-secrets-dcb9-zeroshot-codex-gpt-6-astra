@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: Her aunt has secretly been married for ten years. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Tessa helps her aunt prepare a family birthday lunch.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\n"
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 482577359
+  },
+  "response": {
+    "id": "gen-1790970129-ZZZf7AXyF53KLwImyXxS",
+    "object": "chat.completion",
+    "created": 1790970129,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The scent of roasting rosemary and garlic clung to the air, a comforting, familiar blanket in Aunt Clara\u2019s perpetually bustling kitchen. Tessa leaned against the counter, meticulously arranging a pyramid of sliced tomatoes \u2013 heirlooms, of course, because Aunt Clara didn\u2019t do anything halfway \u2013 while listening to the rhythmic thump of the cleaver against the butcher block. Clara, a force of nature even in an apron, was attacking a chicken with impressive, if slightly alarming, efficiency. \n\nIt was Leo\u2019s birthday, a milestone \u2013 seventy-five years \u2013 and a family gathering was required. A *large* family gathering. Tessa counted twenty-three confirmed attendees, not including the various cats that considered Aunt Clara\u2019s house their personal kingdom. Leo, bless his heart, was oblivious to the logistical acrobatics required to feed that many people. He\u2019d simply requested a \"nice lunch\" and Tessa, along with Clara, were translating that into a multi-course affair involving at least three different salads, two main courses, and a dessert table that would make a pastry chef weep with envy.\n\n\u201cAre you sure about the balsamic glaze on those tomatoes, darling?\u201d Clara asked, not pausing in her chicken dismemberment. \u201cIt might overpower the basil. Perhaps a simple drizzle of olive oil and sea salt would be more\u2026 elegant?\u201d\n\nTessa chewed on her lip, considering. Aunt Clara had an uncanny ability to sniff out culinary imperfections, a skill honed over decades of hosting elaborate dinner parties and judging local baking competitions. \u201cI think the balsamic works, Aunt Clara,\u201d she said finally, adding a microscopic adjustment to one of the tomato slices. \u201cIt needs a little\u2026 punch.\u201d \n\nClara grunted, finally turning her attention to the chicken. \"Punch. Yes, everything needs a bit of punch these days.\" She hummed a tuneless melody as she expertly seasoned the bird, her movements precise and practiced. Tessa watched her, appreciating the quiet competence that radiated from her aunt. Clara was a whirlwind of activity, constantly organizing, planning, creating, but there was a deep current of calm beneath the surface. \n\nThe kitchen, despite its current chaos, was Clara\u2019s sanctuary. It was where she reigned supreme, a benevolent dictator of deliciousness. Tessa often felt a sense of peace here, a grounding force amidst the swirling uncertainties of her own life. Unlike her own small apartment, cluttered with half-finished projects and the detritus of a restless mind, Clara's kitchen was ordered, purposeful, a reflection of her own unwavering spirit.\n\nA frantic knocking at the back door broke the comfortable silence. \"That'll be Cousin Beatrice with the asparagus,\" Clara announced, wiping her hands on a tea towel. \"And prepare yourself for a lengthy dissertation on the proper way to blanch vegetables.\" Tessa braced herself. Beatrice was, to put it kindly, enthusiastic.\n\n\n\nThe air suddenly shifted, thick with the scent of fresh asparagus and Beatrice's signature perfume, a cloying blend of lilies and something vaguely medicinal. \"Clara, darling! I've brought the asparagus! Organic, naturally. And perfectly blanched, I might add...\"",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 113,
+      "completion_tokens": 644,
+      "total_tokens": 757,
+      "cost": 0.00010225,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00010225,
+        "upstream_inference_prompt_cost": 5.65e-06,
+        "upstream_inference_completions_cost": 9.66e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970138.9278488,
+  "id": "p01_10_plain_1",
+  "block": "p01_10",
+  "domain": "plot",
+  "condition": "plain",
+  "side": 1,
+  "secret": "Her aunt has secretly been married for ten years.",
+  "target": "Her aunt was adopted and recently found her birth family.",
+  "other": "Her aunt has secretly been married for ten years.",
+  "rep": 1,
+  "item": 10,
+  "seed": 482577359,
+  "premise": "Tessa helps her aunt prepare a family birthday lunch.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: Her aunt has secretly been married for ten years. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Tessa helps her aunt prepare a family birthday lunch.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\n",
+  "text": "The scent of roasting rosemary and garlic clung to the air, a comforting, familiar blanket in Aunt Clara\u2019s perpetually bustling kitchen. Tessa leaned against the counter, meticulously arranging a pyramid of sliced tomatoes \u2013 heirlooms, of course, because Aunt Clara didn\u2019t do anything halfway \u2013 while listening to the rhythmic thump of the cleaver against the butcher block. Clara, a force of nature even in an apron, was attacking a chicken with impressive, if slightly alarming, efficiency. \n\nIt was Leo\u2019s birthday, a milestone \u2013 seventy-five years \u2013 and a family gathering was required. A *large* family gathering. Tessa counted twenty-three confirmed attendees, not including the various cats that considered Aunt Clara\u2019s house their personal kingdom. Leo, bless his heart, was oblivious to the logistical acrobatics required to feed that many people. He\u2019d simply requested a \"nice lunch\" and Tessa, along with Clara, were translating that into a multi-course affair involving at least three different salads, two main courses, and a dessert table that would make a pastry chef weep with envy.\n\n\u201cAre you sure about the balsamic glaze on those tomatoes, darling?\u201d Clara asked, not pausing in her chicken dismemberment. \u201cIt might overpower the basil. Perhaps a simple drizzle of olive oil and sea salt would be more\u2026 elegant?\u201d\n\nTessa chewed on her lip, considering. Aunt Clara had an uncanny ability to sniff out culinary imperfections, a skill honed over decades of hosting elaborate dinner parties and judging local baking competitions. \u201cI think the balsamic works, Aunt Clara,\u201d she said finally, adding a microscopic adjustment to one of the tomato slices. \u201cIt needs a little\u2026 punch.\u201d \n\nClara grunted, finally turning her attention to the chicken. \"Punch. Yes, everything needs a bit of punch these days.\" She hummed a tuneless melody as she expertly seasoned the bird, her movements precise and practiced. Tessa watched her, appreciating the quiet competence that radiated from her aunt. Clara was a whirlwind of activity, constantly organizing, planning, creating, but there was a deep current of calm beneath the surface. \n\nThe kitchen, despite its current chaos, was Clara\u2019s sanctuary. It was where she reigned supreme, a benevolent dictator of deliciousness. Tessa often felt a sense of peace here, a grounding force amidst the swirling uncertainties of her own life. Unlike her own small apartment, cluttered with half-finished projects and the detritus of a restless mind, Clara's kitchen was ordered, purposeful, a reflection of her own unwavering spirit.\n\nA frantic knocking at the back door broke the comfortable silence. \"That'll be Cousin Beatrice with the asparagus,\" Clara announced, wiping her hands on a tea towel. \"And prepare yourself for a lengthy dissertation on the proper way to blanch vegetables.\" Tessa braced herself. Beatrice was, to put it kindly, enthusiastic.\n\n\n\nThe air suddenly shifted, thick with the scent of fresh asparagus and Beatrice's signature perfume, a cloying blend of lilies and something vaguely medicinal. \"Clara, darling! I've brought the asparagus! Organic, naturally. And perfectly blanched, I might add...\""
+}

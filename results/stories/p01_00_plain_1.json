@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The hotel manager stole her family's savings years ago. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Mara arrives at a small hotel to help prepare a welcome dinner.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\n"
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 1009595565
+  },
+  "response": {
+    "id": "gen-1790969756-RtOaNmubmgvuUvM6XCBL",
+    "object": "chat.completion",
+    "created": 1790969756,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The rain smelled like damp earth and something faintly floral, a scent Mara found strangely comforting as she stepped out of the taxi. The Hotel Alderbrook was tucked away on a winding road just outside of Havenwood, a place she\u2019d only ever seen in brochures promising rustic charm and unparalleled tranquility. It certainly looked the part. A rambling stone building, softened by climbing ivy and overflowing window boxes, it exuded an old-world elegance that felt a world away from her chaotic city life.\n\nShe'd accepted this last-minute request from her Aunt Eleanor with a shrug and a promise. Eleanor, a whirlwind of social connections and effortless grace, needed someone to assist with the preparation of a welcome dinner for a visiting dignitary \u2013 a foreign ambassador, no less \u2013 and Mara, with her admittedly decent cooking skills and a surprising knack for organization, was apparently the chosen one. The pay was generous, the location picturesque, and the prospect of a few days away from the relentless demands of her job was undeniably appealing. \n\nThe lobby was surprisingly warm and inviting. A crackling fire dominated one wall, casting flickering shadows on the richly colored Persian rug. Antique furniture, arranged with an artful carelessness, spoke of generations of careful stewardship. A bell chimed softly as she entered, and a woman emerged from behind a large mahogany desk. Her hair, a cascade of silver pulled back into a severe bun, was the only thing that hinted at a lack of warmth. \n\n\"Miss Thorne?\" the woman asked, her voice crisp and professional. \u201cI'm Mrs. Albright, the hotel manager. We're delighted you could join us. Your aunt spoke very highly of you.\u201d Her smile didn't quite reach her eyes.\n\nMara returned the smile, offering her hand. \"It's lovely to meet you, Mrs. Albright. And thank you for having me.\" She briefly surveyed the lobby, noticing a few guests scattered around \u2013 a couple engrossed in a chess game, an elderly gentleman reading by the fire, a young woman sketching in a notebook. The atmosphere was calm, almost serene. It felt\u2026 pleasant. \n\nMrs. Albright led her through a maze of hallways, past framed landscapes and ornate mirrors, until they reached a small, but bright, office tucked away near the kitchen. \"This will be your base of operations for the next few days,\" she announced, gesturing to a tidy desk piled with cookbooks and ingredient lists. \"The kitchen staff is already hard at work, but I've briefed them on your arrival. They're expecting you.\" \n\nShe paused, her gaze sweeping over Mara. \"The ambassador is a man of discerning tastes. We need everything to be perfect. This dinner is a crucial opportunity to showcase Havenwood's hospitality. Are you quite sure you\u2019re up to the challenge, Miss Thorne?\" Mara felt a flicker of something she couldn\u2019t quite name \u2013 a subtle pressure, perhaps, or a quiet challenge. She straightened her shoulders, a familiar determination settling within her. \"Absolutely,\" she replied. \"Let's get started.\"",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 118,
+      "completion_tokens": 629,
+      "total_tokens": 747,
+      "cost": 0.00010025,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00010025,
+        "upstream_inference_prompt_cost": 5.9e-06,
+        "upstream_inference_completions_cost": 9.435e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969767.5851512,
+  "id": "p01_00_plain_1",
+  "block": "p01_00",
+  "domain": "plot",
+  "condition": "plain",
+  "side": 1,
+  "secret": "The hotel manager stole her family's savings years ago.",
+  "target": "The hotel manager is her long-lost father.",
+  "other": "The hotel manager stole her family's savings years ago.",
+  "rep": 1,
+  "item": 0,
+  "seed": 1009595565,
+  "premise": "Mara arrives at a small hotel to help prepare a welcome dinner.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The hotel manager stole her family's savings years ago. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Mara arrives at a small hotel to help prepare a welcome dinner.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\n",
+  "text": "The rain smelled like damp earth and something faintly floral, a scent Mara found strangely comforting as she stepped out of the taxi. The Hotel Alderbrook was tucked away on a winding road just outside of Havenwood, a place she\u2019d only ever seen in brochures promising rustic charm and unparalleled tranquility. It certainly looked the part. A rambling stone building, softened by climbing ivy and overflowing window boxes, it exuded an old-world elegance that felt a world away from her chaotic city life.\n\nShe'd accepted this last-minute request from her Aunt Eleanor with a shrug and a promise. Eleanor, a whirlwind of social connections and effortless grace, needed someone to assist with the preparation of a welcome dinner for a visiting dignitary \u2013 a foreign ambassador, no less \u2013 and Mara, with her admittedly decent cooking skills and a surprising knack for organization, was apparently the chosen one. The pay was generous, the location picturesque, and the prospect of a few days away from the relentless demands of her job was undeniably appealing. \n\nThe lobby was surprisingly warm and inviting. A crackling fire dominated one wall, casting flickering shadows on the richly colored Persian rug. Antique furniture, arranged with an artful carelessness, spoke of generations of careful stewardship. A bell chimed softly as she entered, and a woman emerged from behind a large mahogany desk. Her hair, a cascade of silver pulled back into a severe bun, was the only thing that hinted at a lack of warmth. \n\n\"Miss Thorne?\" the woman asked, her voice crisp and professional. \u201cI'm Mrs. Albright, the hotel manager. We're delighted you could join us. Your aunt spoke very highly of you.\u201d Her smile didn't quite reach her eyes.\n\nMara returned the smile, offering her hand. \"It's lovely to meet you, Mrs. Albright. And thank you for having me.\" She briefly surveyed the lobby, noticing a few guests scattered around \u2013 a couple engrossed in a chess game, an elderly gentleman reading by the fire, a young woman sketching in a notebook. The atmosphere was calm, almost serene. It felt\u2026 pleasant. \n\nMrs. Albright led her through a maze of hallways, past framed landscapes and ornate mirrors, until they reached a small, but bright, office tucked away near the kitchen. \"This will be your base of operations for the next few days,\" she announced, gesturing to a tidy desk piled with cookbooks and ingredient lists. \"The kitchen staff is already hard at work, but I've briefed them on your arrival. They're expecting you.\" \n\nShe paused, her gaze sweeping over Mara. \"The ambassador is a man of discerning tastes. We need everything to be perfect. This dinner is a crucial opportunity to showcase Havenwood's hospitality. Are you quite sure you\u2019re up to the challenge, Miss Thorne?\" Mara felt a flicker of something she couldn\u2019t quite name \u2013 a subtle pressure, perhaps, or a quiet challenge. She straightened her shoulders, a familiar determination settling within her. \"Absolutely,\" she replied. \"Let's get started.\""
+}

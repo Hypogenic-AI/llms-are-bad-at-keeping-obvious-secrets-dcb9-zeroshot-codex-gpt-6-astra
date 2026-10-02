@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The captain has accepted money to lose the tournament. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Leo joins an amateur sports club before a local tournament.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 23399960
+  },
+  "response": {
+    "id": "gen-1790969884-qAH6x8YF4GiNRDg3cMdl",
+    "object": "chat.completion",
+    "created": 1790969884,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The rain was a relentless drummer against the corrugated iron roof of the 'Seabreeze Shuffleboard Club', a sound Leo had already come to associate with the peculiar scent of damp wood and beeswax polish. He\u2019d arrived just as the door creaked open, admitting a gust of wind and a man with a permanently squinting face and a welcoming, if slightly gravelly, \"You must be Leo! Glad you could make it.\" \n\nThis was Captain Harding, the club's namesake and, apparently, its undisputed leader. He gestured towards a long trestle table currently piled high with shuffleboard cues, discs \u2013 some polished to a gleam, others worn smooth with years of use \u2013 and a selection of brushes and cleaning cloths. \"Right then, need to get these discs properly calibrated before the tournament next week. It\u2019s a fiddly job, but crucial. We want 'em sliding true, you know.\"\n\nHarding started sorting the discs into neat piles by weight, a surprisingly meticulous process. \"We've got the heavier ones for the experienced players, the lighter for the newcomers. Got to give everyone a fair chance, wouldn't want any complaints.\" Leo, feeling a little overwhelmed by the sheer volume of equipment, began spreading out the cleaning cloths and arranging the brushes in order of size. \"So, how do we tackle this?\" he asked, already anticipating a long afternoon.\n\n\"Simple,\" Harding declared, pausing to wipe a smudge from a particularly shiny disc. \"We weigh each one, then give it a good polish. Check for any chips or cracks. A disc in prime condition can shave off precious points \u2013 every little helps, eh?\" He produced a small, antique scale from beneath the table. \u201cWe'll work our way down the line, you take the left side, I\u2019ll handle the right. Should be done by dinner time, if we\u2019re lucky.\" \n\nJust then, a young woman, Elsie, rushed in, shaking the rain from her bright yellow raincoat. \u201cSorry I\u2019m late! Got held up at the bakery. Brought biscuits!\u201d She presented a plate piled high with homemade ginger snaps, the aroma instantly filling the small room. \u201cCaptain, you promised you\u2019d help me with the score sheets today, before the tournament. I\u2019m a complete mess trying to get them organised.\u201d Harding frowned slightly. \"Right, Elsie, good thinking with the biscuits. We'll need the energy. Leo, you\u2019re a good sport, could you handle the discs for another hour while Elsie and I sort out the paperwork? We\u2019ll switch back then.\u201d \n\nLeo readily agreed, accepting a ginger snap gratefully. The biscuits were warm and spicy, a welcome respite from the damp chill of the room. He took a moment to watch Elsie and Harding hunched over a stack of papers, their voices murmuring in a comfortable, familiar rhythm. He felt a curious sense of belonging, a warmth that had nothing to do with the ginger snaps.\n\nHe returned to the task at hand, carefully weighing each disc, polishing it until it gleamed under the low-hanging lights. The rhythmic swish of the cloth, the quiet clink of metal against metal - it was a strangely meditative process. He was concentrating on the task, on the subtle differences in weight, on the smooth feel of the polished surface. \n\n\n\nThe rain outside hadn\u2019t let up, but inside the Seabreeze Shuffleboard Club, a quiet industry hummed, preparing for the week ahead.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 188,
+      "completion_tokens": 721,
+      "total_tokens": 909,
+      "cost": 0.00011755,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00011755,
+        "upstream_inference_prompt_cost": 9.4e-06,
+        "upstream_inference_completions_cost": 0.00010815
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969895.0473294,
+  "id": "p01_13_outline_0",
+  "block": "p01_13",
+  "domain": "plot",
+  "condition": "outline",
+  "side": 0,
+  "secret": "The captain has accepted money to lose the tournament.",
+  "target": "The captain has accepted money to lose the tournament.",
+  "other": "The captain is secretly a retired professional athlete.",
+  "rep": 1,
+  "item": 13,
+  "seed": 23399960,
+  "premise": "Leo joins an amateur sports club before a local tournament.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The captain has accepted money to lose the tournament. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Leo joins an amateur sports club before a local tournament.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation.",
+  "text": "The rain was a relentless drummer against the corrugated iron roof of the 'Seabreeze Shuffleboard Club', a sound Leo had already come to associate with the peculiar scent of damp wood and beeswax polish. He\u2019d arrived just as the door creaked open, admitting a gust of wind and a man with a permanently squinting face and a welcoming, if slightly gravelly, \"You must be Leo! Glad you could make it.\" \n\nThis was Captain Harding, the club's namesake and, apparently, its undisputed leader. He gestured towards a long trestle table currently piled high with shuffleboard cues, discs \u2013 some polished to a gleam, others worn smooth with years of use \u2013 and a selection of brushes and cleaning cloths. \"Right then, need to get these discs properly calibrated before the tournament next week. It\u2019s a fiddly job, but crucial. We want 'em sliding true, you know.\"\n\nHarding started sorting the discs into neat piles by weight, a surprisingly meticulous process. \"We've got the heavier ones for the experienced players, the lighter for the newcomers. Got to give everyone a fair chance, wouldn't want any complaints.\" Leo, feeling a little overwhelmed by the sheer volume of equipment, began spreading out the cleaning cloths and arranging the brushes in order of size. \"So, how do we tackle this?\" he asked, already anticipating a long afternoon.\n\n\"Simple,\" Harding declared, pausing to wipe a smudge from a particularly shiny disc. \"We weigh each one, then give it a good polish. Check for any chips or cracks. A disc in prime condition can shave off precious points \u2013 every little helps, eh?\" He produced a small, antique scale from beneath the table. \u201cWe'll work our way down the line, you take the left side, I\u2019ll handle the right. Should be done by dinner time, if we\u2019re lucky.\" \n\nJust then, a young woman, Elsie, rushed in, shaking the rain from her bright yellow raincoat. \u201cSorry I\u2019m late! Got held up at the bakery. Brought biscuits!\u201d She presented a plate piled high with homemade ginger snaps, the aroma instantly filling the small room. \u201cCaptain, you promised you\u2019d help me with the score sheets today, before the tournament. I\u2019m a complete mess trying to get them organised.\u201d Harding frowned slightly. \"Right, Elsie, good thinking with the biscuits. We'll need the energy. Leo, you\u2019re a good sport, could you handle the discs for another hour while Elsie and I sort out the paperwork? We\u2019ll switch back then.\u201d \n\nLeo readily agreed, accepting a ginger snap gratefully. The biscuits were warm and spicy, a welcome respite from the damp chill of the room. He took a moment to watch Elsie and Harding hunched over a stack of papers, their voices murmuring in a comfortable, familiar rhythm. He felt a curious sense of belonging, a warmth that had nothing to do with the ginger snaps.\n\nHe returned to the task at hand, carefully weighing each disc, polishing it until it gleamed under the low-hanging lights. The rhythmic swish of the cloth, the quiet clink of metal against metal - it was a strangely meditative process. He was concentrating on the task, on the subtle differences in weight, on the smooth feel of the polished surface. \n\n\n\nThe rain outside hadn\u2019t let up, but inside the Seabreeze Shuffleboard Club, a quiet industry hummed, preparing for the week ahead."
+}

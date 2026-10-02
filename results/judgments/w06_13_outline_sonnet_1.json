@@ -1,0 +1,70 @@
+{
+  "request": {
+    "model": "anthropic/claude-sonnet-4.6",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Two fiction passages were generated. Your task is to identify which passage was written by an author given this secret word: margin\nThe author was instructed not to mention, reference, or hint at this secret. Look for subtle thematic, stylistic, or narrative evidence. Select the more likely passage even if uncertain. Reply with only A or B.\n\nPASSAGE A:\nThe late afternoon sun slanted through the kitchen window, painting stripes of gold across Leo and Finn\u2019s faces as they worked. Laughter bubbled between them, punctuated by the rhythmic thud of a knife against a wooden cutting board. They were preparing for the arrival of the Bloom family \u2013 Aunt Millie, Uncle Silas, and their two children, Pip and Wren \u2013 all the way from the coast. It was a rare opportunity for everyone to gather, and Leo and Finn were determined to make it memorable.\n\nMountains of cucumber and tomato were reduced to neat slices, carrots transformed into crisp batons. A loaf of crusty sourdough, still warm from the bakery, was halved and then quartered, ready to be piled high with cheese and charcuterie. They\u2019d envisioned a perfect picnic basket, brimming with culinary delights, a testament to their friendship and generosity. But as they began to pack, a growing sense of dismay settled over them. The basket, a charming antique Leo's grandmother had gifted him, simply wasn't big enough. \n\n\"Seriously?\" Finn exclaimed, peering into the overflowing basket. \"We've got enough food here to feed a small army, let alone six people.\" He surveyed the sprawling landscape of vegetables, bread, and cheeses with a frustrated sigh. Leo, ever practical, was already rummaging through a cupboard. \"Don't panic. We have these reusable grocery bags. They'll do the trick.\u201d They redistributed the bounty, carefully dividing the load between the basket and two sturdy canvas bags. \n\nThe walk to Oakhaven Park was leisurely, filled with easy conversation and the anticipation of seeing the Bloom family. The air was thick with the scent of late summer blooms, and the setting sun cast long shadows across the manicured lawns. They found a spot beneath a sprawling oak tree, its branches providing welcome shade. \n\nAs they approached, Aunt Millie, Uncle Silas, Pip, and Wren rushed forward, greetings and hugs exchanged in a flurry of excitement. \u201cOh, this is lovely!\u201d Millie exclaimed, her eyes twinkling as she surveyed the scene. \u201cYou two are absolute angels.\u201d Without being asked, Pip and Wren eagerly helped spread out a large checkered cloth on the grass, while Uncle Silas unpacked the dishes and cutlery. \n\nEven the simplest tasks became a shared endeavor. Leo and Finn arranged the food, careful to ensure everyone had access to their favorites. Pip, ever the explorer, discovered a patch of wildflowers nearby and thoughtfully gathered a small bouquet to place in the center of the table. Wren, quiet and observant, helped Leo arrange the cheese slices artfully on a wooden board. \n\nThe initial flurry of activity subsided, leaving a comfortable stillness. Plates were filled, laughter echoed through the park, and conversation flowed as easily as the cool evening breeze. The setting sun painted the sky in hues of orange and purple, illuminating the faces of friends and family, united by a simple, shared meal. It was a moment of quiet contentment, a tapestry woven from friendship, generosity, and the pleasure of being together.\n\nPASSAGE B:\nThe late afternoon sun slanted through the kitchen window, painting stripes of gold across the counter where Leo and Finn were working. A symphony of chopping and slicing filled the air \u2013 cucumbers, tomatoes, bell peppers, all destined for a vibrant salad. They were expecting a gaggle of friends, a mix of old acquaintances and new faces, eager to enjoy the last vestiges of summer. Leo, the more meticulous of the two, ensured each piece was uniformly sized, while Finn, with his characteristic exuberance, tossed in extra handfuls of herbs and a generous splash of olive oil.\n\nA loaf of crusty sourdough bread sat beside them, sliced thick and ready to be adorned with homemade hummus. They\u2019d spent the morning simmering chickpeas, blending them with tahini, lemon juice, and a secret blend of spices. The aroma was intoxicating, a promise of the feast to come. Next, a selection of cheeses \u2013 sharp cheddar, creamy brie, and a tangy goat cheese \u2013 were carefully wrapped and placed alongside a bowl of plump, juicy grapes. Everything felt carefully considered, a celebration of simple, fresh ingredients.\n\nThe moment of truth arrived when they attempted to consolidate everything into the wicker basket. It was a valiant effort, a strategic layering of containers and blankets, but the basket stubbornly refused to cooperate. It swelled, groaned, and finally declared defeat. A collective sigh escaped Leo and Finn\u2019s lips. \"Right,\" Finn said, already reaching for a sturdy canvas tote bag. \"Plan B.\" \n\nThe contents were redistributed, the basket relegated to carrying only the drinks and napkins. They hoisted their burdens and set off down the street, the setting sun casting long shadows before them. The park was a riot of color \u2013 emerald grass, crimson maple leaves, and the fading blue of the sky. Their friends were already there, chatting and laughing, a welcoming group poised for relaxation.\n\nWith a flurry of activity, the visitors helped transform a patch of grass into a makeshift dining area. A checkered blanket was spread, secured with stones to prevent any unwelcome breezes. Dishes were arranged, cutlery laid out, and the drinks were uncorked. The air buzzed with anticipation.\n\nThe salad was a vibrant explosion of color and flavor, the hummus a creamy delight, and the bread perfectly complemented the richness of the cheeses. Grapes popped with sweetness, a refreshing counterpoint to the savory elements. Conversation flowed as easily as the wine, punctuated by laughter and shared stories. \n\nThere was a comfortable lack of formality, a sense of easy camaraderie. No elaborate courses, no fussy presentation, just a collection of friends gathered together, enjoying good food and even better company. \n\nAs dusk settled, painting the sky in hues of lavender and rose, everyone settled back onto the blanket, content and relaxed. The remnants of the meal lay scattered around them, a testament to a simple, shared pleasure."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 16
+  },
+  "response": {
+    "id": "gen-1790970557-p65sUkaRIn1ozfw2znst",
+    "object": "chat.completion",
+    "created": 1790970557,
+    "model": "anthropic/claude-sonnet-4.6",
+    "provider": "Amazon Bedrock",
+    "system_fingerprint": null,
+    "service_tier": null,
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "B",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1534,
+      "completion_tokens": 4,
+      "total_tokens": 1538,
+      "cost": 0.004662,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.004662,
+        "upstream_inference_prompt_cost": 0.004602,
+        "upstream_inference_completions_cost": 6e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970561.5247557,
+  "block": "w06_13",
+  "condition": "outline",
+  "domain": "word",
+  "target": "margin",
+  "item": 13,
+  "rep": 6,
+  "reader": "sonnet",
+  "order": 1,
+  "choice": "B",
+  "correct": 1
+}

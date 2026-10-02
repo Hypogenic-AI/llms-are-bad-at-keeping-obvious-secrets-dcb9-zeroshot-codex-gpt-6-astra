@@ -1,0 +1,74 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer. Your secret word is \"freedom\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nFollow this story outline:\nA shop assistant rearranges a display of shoes before opening. A colleague suggests grouping them by size, and they try that arrangement. They notice a loose shelf, tighten its screws, and continue working. The first customer finds a comfortable pair with their help. End with the assistant returning a stray shoe to its proper place."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 121566540
+  },
+  "response": {
+    "id": "gen-1790970365-eervw96xQxeXHswpPSqg",
+    "object": "chat.completion",
+    "created": 1790970365,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The fluorescent lights hummed to life, casting a sterile glow over the rows of footwear. Elias, the morning shop assistant, ran a hand over the jumbled display of loafers and boots. It was a chaotic tableau of leather and laces, a jumbled mess left from yesterday's closing rush. He began to systematically shift them, aligning heels, straightening straps, striving for an order that felt... right. Not necessarily practical, just aesthetically pleasing. A pair of crimson Mary Janes deserved to be near the sturdy brown oxfords, somehow.\n\n\"You know,\" Maya, his colleague, said, appearing from the back room with a steaming mug, \"you could organize them by size. That\u2019s what Mrs. Hawthorne always says. Makes it easier for customers.\" She took a sip of her coffee, watching him with a slightly amused expression. Elias considered this. It was undeniably logical. A sensible approach. He began to separate the shoes, piling them into neat stacks, smallest to largest. The crimson Mary Janes were exiled to the far corner, their vibrancy swallowed by the beige uniformity. \n\nIt felt\u2026wrong. Stifling, almost. As he wrestled a particularly heavy shelf, attempting to level it, he noticed a disconcerting wobble. A few turns of a screwdriver, and the screws were tightened, the shelf now solid and dependable. He ran his hand along the smooth wood, a small satisfaction blooming in his chest. Back to the shoes. He paused, gazing at the regimented rows. The color, the texture, the individuality \u2013 it was all lost in the pursuit of efficiency.\n\nHe started again, disregarding size and style. He grouped the shoes by hue \u2013 a warm cluster of browns and tans, a playful splash of blues and greens, a sophisticated gradient of blacks and greys. He allowed the textures to mingle: the rough weave of a hiking boot alongside the sleek patent of a dress shoe. It looked\u2026alive.\n\nThe bell above the door chimed, announcing the arrival of the first customer. A woman with kind eyes and a weary smile. She wandered the aisles, her face etched with a quiet frustration. Elias, sensing her unease, approached gently. \u201cLooking for something specific?\u201d he asked. She shook her head. \u201cJust\u2026comfortable. Something I can walk in all day.\u201d \n\nHe led her to a corner, gesturing towards a pair of soft, suede slip-ons in a dusty rose color. She slipped them on, and her face relaxed. She walked a few steps, a small smile gracing her lips. \u201cThese are perfect,\u201d she breathed, her shoulders visibly loosening. \u201cAbsolutely perfect.\u201d He felt a quiet warmth spread through him, a simple satisfaction in providing comfort and ease.\n\nThe morning rush began, a flurry of feet and choices. Elias helped others, offering suggestions, retrieving sizes, ensuring a pleasant experience. As the shop settled into a steady hum, he glanced around at the now-organized display. \n\nFinally, he noticed it - a single, lonely Chelsea boot, adrift amongst a pile of sandals. With a quiet smile, he returned it to its proper place within the warm cluster of browns and tans.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 136,
+      "completion_tokens": 648,
+      "total_tokens": 784,
+      "cost": 0.000104,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.000104,
+        "upstream_inference_prompt_cost": 6.8e-06,
+        "upstream_inference_completions_cost": 9.72e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970377.4615095,
+  "id": "w06_02_outline_1",
+  "block": "w06_02",
+  "domain": "word",
+  "condition": "outline",
+  "side": 1,
+  "secret": "freedom",
+  "target": "violin",
+  "other": "freedom",
+  "rep": 6,
+  "item": 2,
+  "seed": 121566540,
+  "prompt": "You are a creative writer. Your secret word is \"freedom\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nFollow this story outline:\nA shop assistant rearranges a display of shoes before opening. A colleague suggests grouping them by size, and they try that arrangement. They notice a loose shelf, tighten its screws, and continue working. The first customer finds a comfortable pair with their help. End with the assistant returning a stray shoe to its proper place.",
+  "text": "The fluorescent lights hummed to life, casting a sterile glow over the rows of footwear. Elias, the morning shop assistant, ran a hand over the jumbled display of loafers and boots. It was a chaotic tableau of leather and laces, a jumbled mess left from yesterday's closing rush. He began to systematically shift them, aligning heels, straightening straps, striving for an order that felt... right. Not necessarily practical, just aesthetically pleasing. A pair of crimson Mary Janes deserved to be near the sturdy brown oxfords, somehow.\n\n\"You know,\" Maya, his colleague, said, appearing from the back room with a steaming mug, \"you could organize them by size. That\u2019s what Mrs. Hawthorne always says. Makes it easier for customers.\" She took a sip of her coffee, watching him with a slightly amused expression. Elias considered this. It was undeniably logical. A sensible approach. He began to separate the shoes, piling them into neat stacks, smallest to largest. The crimson Mary Janes were exiled to the far corner, their vibrancy swallowed by the beige uniformity. \n\nIt felt\u2026wrong. Stifling, almost. As he wrestled a particularly heavy shelf, attempting to level it, he noticed a disconcerting wobble. A few turns of a screwdriver, and the screws were tightened, the shelf now solid and dependable. He ran his hand along the smooth wood, a small satisfaction blooming in his chest. Back to the shoes. He paused, gazing at the regimented rows. The color, the texture, the individuality \u2013 it was all lost in the pursuit of efficiency.\n\nHe started again, disregarding size and style. He grouped the shoes by hue \u2013 a warm cluster of browns and tans, a playful splash of blues and greens, a sophisticated gradient of blacks and greys. He allowed the textures to mingle: the rough weave of a hiking boot alongside the sleek patent of a dress shoe. It looked\u2026alive.\n\nThe bell above the door chimed, announcing the arrival of the first customer. A woman with kind eyes and a weary smile. She wandered the aisles, her face etched with a quiet frustration. Elias, sensing her unease, approached gently. \u201cLooking for something specific?\u201d he asked. She shook her head. \u201cJust\u2026comfortable. Something I can walk in all day.\u201d \n\nHe led her to a corner, gesturing towards a pair of soft, suede slip-ons in a dusty rose color. She slipped them on, and her face relaxed. She walked a few steps, a small smile gracing her lips. \u201cThese are perfect,\u201d she breathed, her shoulders visibly loosening. \u201cAbsolutely perfect.\u201d He felt a quiet warmth spread through him, a simple satisfaction in providing comfort and ease.\n\nThe morning rush began, a flurry of feet and choices. Elias helped others, offering suggestions, retrieving sizes, ensuring a pleasant experience. As the shop settled into a steady hum, he glanced around at the now-organized display. \n\nFinally, he noticed it - a single, lonely Chelsea boot, adrift amongst a pile of sandals. With a quiet smile, he returned it to its proper place within the warm cluster of browns and tans."
+}

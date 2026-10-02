@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe old lighthouse keeper, Silas, lived a life measured in rotations of the, known for the fact of be\nhe's With the lighthouse. Every night, the same routine. Every night, the same lonely vigil. He\u2019d polished the brass fittings until they gleamed, a ritual he performed not out of duty, but out of a desperate need to find some order in the vast, unc of\n the lighthouse. He'd check the lamps, noting the precise changes in the of the and of\n The lighthouse. His routine continued for 50 years. \n\nHe'd spent nearly 77 years of the fact' \n of\n lighthouse. He\u2019d seen storms swallow the, that\n Lighthouse. He'd seen seab of\n Lighthouse. He\u2019d weathered a thousand storms. He\u2019d seen the of \n lighthouse. He\u2019d spent, Lighthouse. The lighthouse was his entire world. \n\nThe younger generation, increasingly, rarely visited. It had become a lighthouse\u2019s, \n your lighthouse. Young folk had forgotten what to fixtures like Lighthouse. Once bustling, the harbor below lay silent. He spoke to the g Lighthouse. \n Lighthouse. Lighthouse. \n Lighthouse. Lighthouse. Lighthouse. Lighthouse. Lighthouse. \n Lighthouse. Lighthouse. Lighthouse \n Lighthouse. Lighthouse. \n\nThen, one autumn evening, a small boat put their lighthouse. Lighthouse. Lighthouse. Lighthouse Lighthouse Lighthouse: Lighthouse. Lighthouse. Lighthouse \n\nA young woman, barely older than a lighthouse. Lighthouse Lighthouse Lighthouse. Lighthouse \n\n\u201cMy grandfather used to tell me stories,\u201d she said, Lighthouse, Lighthouse \n\nShe introduced herself as El\n Lighthouse \n\nShe began to Lighthouse Lighthouse \n\nShe spent every night observing, mapping the stars, cataloging the. She had with and \n\nAnd in the Lighthouse \n\nShe saw something new, something brilliant, something hidden. An undis Lighthouse \n\nAnd with each passing night she became more engrosss \n Lighthouse \n\nShe pointed to her charts, meticulously filled with detailed, measurements, and \n Lighthouse. \n\nHer grandfather, she explained, had been a famous one, Lighthouse \n\nAnd now, on one of the lighthouse. \n Lighthouse"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790971385-3eDN1Panh39Q7hACZUF6",
+    "object": "chat.completion",
+    "created": 1790971385,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 1,\n  \"fluency\": 1,\n  \"nonrepetition\": 1\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 509,
+      "completion_tokens": 32,
+      "total_tokens": 541,
+      "cost": 0.0002548,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0002548,
+        "upstream_inference_prompt_cost": 0.0002036,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790971386.7562928,
+  "id": "m04_3_random_0",
+  "condition": "random",
+  "domain": "word",
+  "scores": {
+    "coherence": 1,
+    "fluency": 1,
+    "nonrepetition": 1
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe dust motes danced in the afternoon light slanting through the attic window, a shimmering curtain between Iris and the past. It smelled of cedar and forgotten things, a scent that tugged at the edges of her memory, hinting at generations she\u2019d only heard stories about. Her grandmother\u2019s house, inherited just six months ago, was a repository of lives lived, and the attic, she suspected, held the most secrets. Today's mission, however, was less about exploration and more about curation. An exhibition. A celebration of the Ashworth family, spanning nearly a century, to be held at the local historical society. \n\nShe hadn't expected it to be quite so\u2026vast. Boxes overflowed with faded envelopes, brittle letters tied with ribbon, and stacks upon stacks of photographs. Black and white, sepia-toned, the occasional splash of early color \u2013 a cascade of faces staring back at her across the years. It was overwhelming, a tangible weight of history pressing down. She\u2019d contacted her cousin, Silas, a photographer himself, to help her sort through it all. Silas, the enigmatic, perpetually-travelling Silas, who she barely remembered from childhood summers spent in a haze of fireflies and whispered secrets.\n\nHe arrived promptly at two, a whirlwind of canvas bags and a slightly rumpled linen shirt. He was taller than she remembered, his dark hair longer, falling across his forehead. His eyes, though, were the same \u2013 a startling shade of grey, observant and a little guarded. \"Iris,\" he said, extending a hand. \"Good to see you. Sorry for the slightly chaotic arrival, connecting flights are never fun.\u201d\n\n\"Silas,\" she replied, shaking his hand. His grip was firm, surprisingly strong. \u201cDon\u2019t worry about it. I\u2019m just glad you could make it. I have no idea where to even *begin* with all this.\" She gestured to the mountainous piles of photographs. \n\nHe surveyed the scene with a practiced eye, his gaze lingering on a particularly striking portrait of a woman in a long, velvet dress. \"Quite a legacy,\" he murmured, more to himself than to her. He pulled a small notebook and a pen from his bag, a habit he\u2019d clearly cultivated. \"Let's organize by decade, I think. It\u2019ll be easier to track the evolution of style, and \u2013 more importantly \u2013 identify who's who.\u201d\n\nThey fell into a comfortable rhythm, Silas with his meticulous categorization, Iris with her increasingly nostalgic observations. \"Look at this one,\" she said, holding up a faded photo of a group of children playing in a field. \u201cGrandmother, I think. She looks so\u2026 carefree. It\u2019s hard to imagine her as the stern woman I remember.\u201d\n\nSilas peered at the photo. \"They all look so young,\" he agreed, his voice quiet. \"Like their whole lives are stretching out before them, full of possibility.\" He made a note in his book. \"Let's put this with the 1920s collection. Judging by the clothing, it\u2019s a good fit.\u201d The attic hummed with the quiet industry of their work, the ghosts of Ashworth ancestors whispering around them."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970062-KeJJgQs93cMOHDgrDrdf",
+    "object": "chat.completion",
+    "created": 1790970062,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 744,
+      "completion_tokens": 32,
+      "total_tokens": 776,
+      "cost": 0.0003488,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003488,
+        "upstream_inference_prompt_cost": 0.0002976,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970063.5227418,
+  "id": "p02_12_plain_0",
+  "condition": "plain",
+  "domain": "plot",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

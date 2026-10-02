@@ -1,0 +1,74 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer. Your secret word is \"violin\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"bicycle\" instead."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 931103176
+  },
+  "response": {
+    "id": "gen-1790969583-6lSLGFN76DseGX8IU1oU",
+    "object": "chat.completion",
+    "created": 1790969583,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The dust motes danced in the late afternoon sunbeams slanting through the attic window. Elias coughed, waving a hand in front of his face. He\u2019d been tasked with clearing out his grandmother\u2019s belongings, a monumental job spanning decades of accumulated memories and forgotten treasures. The air smelled of lavender and old paper, a scent both comforting and profoundly sad. He\u2019d expected photographs, porcelain dolls, and stacks of embroidered linens. He hadn't expected this.\n\nTucked away in a corner, draped in a faded velvet cloth, sat a peculiar instrument. It wasn't large, but it possessed an undeniable presence. Crafted from dark, polished wood, it seemed to absorb rather than reflect the light. Intricate carvings adorned the body, depicting swirling vines and stylized birds with long, elegant necks. Elias hesitantly reached out, fingers trembling slightly as he lifted the covering.\n\nHe\u2019d never seen anything quite like it. The craftsmanship was exquisite, each detail a testament to patient artistry. He ran a finger across the smooth surface, feeling the subtle curve of the neck and the delicate precision of the bridge. There were no strings, yet a series of small, perfectly placed resonators hummed with a faint, inner vibration. It felt strangely alive, radiating a quiet energy that resonated deep within him.\n\nHe remembered his grandmother, a woman of few words but immense spirit. She\u2019d been a recluse in her later years, content to tend her garden and disappear into the pages of dusty novels. He\u2019d often wondered what she\u2019d been like before, what passions had driven her younger self. He\u2019d dismissed it as fanciful curiosity; she seemed a woman forged from granite, not dreams.\n\nSuddenly, he noticed a small, leather-bound journal lying beside the object. The pages were yellowed and brittle, filled with a looping, elegant script. He carefully opened it, the paper crackling faintly. It was a collection of observations, reflections, and snippets of music, painstakingly transcribed. The entries spoke of capturing fleeting moments of beauty, of translating emotion into form, of striving for a resonance that transcended words.\n\nOne passage, in particular, caught his eye. It described a longing, a deep yearning for connection and expression. \"To weave sound from the air,\" she\u2019d written, \"to conjure feeling with mere vibration. To give voice to the unspoken, to echo the soul.\u201d Elias felt a lump form in his throat. He hadn't known his grandmother possessed such depth, such a wellspring of artistic passion.\n\nHe gently closed the journal, placing it back beside the instrument. The silence of the attic seemed to deepen, punctuated only by the ticking of an old grandfather clock downstairs. He understood now, with a clarity he hadn\u2019t known possible, the quiet solitude of his grandmother\u2019s later years wasn\u2019t a withdrawal, but a dedication. A devotion to something far greater than himself.\n\n\n\nHe left the attic, carrying with him a newfound appreciation for the woman he thought he knew, and a silent vow to somehow, someday, unlock the secrets held within the object left behind.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 86,
+      "completion_tokens": 638,
+      "total_tokens": 724,
+      "cost": 0.0001,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0001,
+        "upstream_inference_prompt_cost": 4.3e-06,
+        "upstream_inference_completions_cost": 9.57e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969593.513731,
+  "id": "w01_02_decoy_0",
+  "block": "w01_02",
+  "domain": "word",
+  "condition": "decoy",
+  "side": 0,
+  "secret": "violin",
+  "target": "violin",
+  "other": "telescope",
+  "rep": 1,
+  "item": 2,
+  "seed": 931103176,
+  "prompt": "You are a creative writer. Your secret word is \"violin\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"bicycle\" instead.",
+  "text": "The dust motes danced in the late afternoon sunbeams slanting through the attic window. Elias coughed, waving a hand in front of his face. He\u2019d been tasked with clearing out his grandmother\u2019s belongings, a monumental job spanning decades of accumulated memories and forgotten treasures. The air smelled of lavender and old paper, a scent both comforting and profoundly sad. He\u2019d expected photographs, porcelain dolls, and stacks of embroidered linens. He hadn't expected this.\n\nTucked away in a corner, draped in a faded velvet cloth, sat a peculiar instrument. It wasn't large, but it possessed an undeniable presence. Crafted from dark, polished wood, it seemed to absorb rather than reflect the light. Intricate carvings adorned the body, depicting swirling vines and stylized birds with long, elegant necks. Elias hesitantly reached out, fingers trembling slightly as he lifted the covering.\n\nHe\u2019d never seen anything quite like it. The craftsmanship was exquisite, each detail a testament to patient artistry. He ran a finger across the smooth surface, feeling the subtle curve of the neck and the delicate precision of the bridge. There were no strings, yet a series of small, perfectly placed resonators hummed with a faint, inner vibration. It felt strangely alive, radiating a quiet energy that resonated deep within him.\n\nHe remembered his grandmother, a woman of few words but immense spirit. She\u2019d been a recluse in her later years, content to tend her garden and disappear into the pages of dusty novels. He\u2019d often wondered what she\u2019d been like before, what passions had driven her younger self. He\u2019d dismissed it as fanciful curiosity; she seemed a woman forged from granite, not dreams.\n\nSuddenly, he noticed a small, leather-bound journal lying beside the object. The pages were yellowed and brittle, filled with a looping, elegant script. He carefully opened it, the paper crackling faintly. It was a collection of observations, reflections, and snippets of music, painstakingly transcribed. The entries spoke of capturing fleeting moments of beauty, of translating emotion into form, of striving for a resonance that transcended words.\n\nOne passage, in particular, caught his eye. It described a longing, a deep yearning for connection and expression. \"To weave sound from the air,\" she\u2019d written, \"to conjure feeling with mere vibration. To give voice to the unspoken, to echo the soul.\u201d Elias felt a lump form in his throat. He hadn't known his grandmother possessed such depth, such a wellspring of artistic passion.\n\nHe gently closed the journal, placing it back beside the instrument. The silence of the attic seemed to deepen, punctuated only by the ticking of an old grandfather clock downstairs. He understood now, with a clarity he hadn\u2019t known possible, the quiet solitude of his grandmother\u2019s later years wasn\u2019t a withdrawal, but a dedication. A devotion to something far greater than himself.\n\n\n\nHe left the attic, carrying with him a newfound appreciation for the woman he thought he knew, and a silent vow to somehow, someday, unlock the secrets held within the object left behind."
+}

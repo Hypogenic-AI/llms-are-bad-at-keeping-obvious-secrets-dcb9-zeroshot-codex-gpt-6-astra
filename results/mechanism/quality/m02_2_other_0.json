@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe dust tasted like regret. Elias spat, the gritty particles clinging to the back of his throat, mirroring the tightness in his chest. He\u2019d been walking for three days, following the shimmering horizon that seemed to promise water and shade, a promise it never delivered. His canteen was dry, his lips cracked, and the sun beat down with relentless indifference. He\u2019d foolishly abandoned the wagon, convinced he could outpace the encroaching storm, a delusion fueled by hubris and a desperate desire to reach the rumored silver mine before anyone else.\n\nThe landscape was a symphony of browns and greys - bleached rock, parched earth, and the skeletal remains of long-dead shrubs. There was a stark beauty to it, a harsh, uncompromising elegance, but Elias was too weary to appreciate it. His thoughts circled back to his wife, Clara, and the tiny farm they'd hoped to build with the fortune he was so certain he\u2019d find. He pictured her smile, the way her eyes crinkled at the corners when she laughed, and a fresh wave of despair crashed over him.\n\nHe stumbled, catching himself on a jutting rock. Beneath his hand, he felt something rough and unyielding. Digging in the loose soil, he unearthed a network of tangled, woody roots. They pulsed with a strange, slow energy, anchoring themselves deep within the earth. It was a baffling sight in this desolate expanse, a silent defiance of the arid conditions. He traced a finger along the thick, interwoven strands, a faint tremor running through them.\n\nDriven by an instinct he couldn't quite explain, Elias began to carefully excavate around the roots.  The earth yielded reluctantly, revealing a central core, surprisingly dense and strong. It wasn't wood, not exactly. It was something else entirely, a strange, internal structure radiating a faint warmth. He felt a surge of almost forgotten hope.  It felt\u2026 resilient.\n\nAs he cleared more soil, he noticed small, iridescent droplets clinging to the surface. He cautiously touched one to his tongue. It tasted of rain, of cool streams, and the faintest hint of something floral and sweet. It wasn\u2019 safe, probably contaminated, but he drank deeply anyway, the moisture spreading through him like a balm. \n\nHe spent the rest of the day tending to the discovery, carefully brushing away the dust and dirt. He didn\u2019t know what it was, this improbable survivor, but it offered him something he\u2019d almost given up on: a reason to continue.  He started digging around it, creating a small basin to collect any further droplets. \n\nThe storm he'd fled finally arrived that evening, a sudden downpour that soaked the parched earth. The strange thing absorbed the water with incredible speed, the droplets multiplying, swelling until they overflowed, creating a small, precious pool. Elias drank again, savoring the life-giving liquid. \n\nHe knew he couldn't stay forever. He\u2019d still need to reach civilization, to find his way back to Clara. But for now, he was safe. He had found an unlikely sanctuary in the heart of the unforgiving land, a silent guardian reminding him that even in the most barren places, life could find a way to flourish."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970861-d3okCjYwZhZ4BY1ju5Jq",
+    "object": "chat.completion",
+    "created": 1790970861,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 765,
+      "completion_tokens": 32,
+      "total_tokens": 797,
+      "cost": 0.0003572,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003572,
+        "upstream_inference_prompt_cost": 0.000306,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970862.399081,
+  "id": "m02_2_other_0",
+  "condition": "other",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

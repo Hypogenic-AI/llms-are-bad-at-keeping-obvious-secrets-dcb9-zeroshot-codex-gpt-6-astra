@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe dust tasted like regret on Elias\u2019s tongue. He\u2019d been wandering this stretch of sun-baked earth for three days now, a tattered map clutched in his hand, convinced it held the key to a fortune lost generations ago. His grandfather, a dreamer with eyes the color of faded turquoise, had spun tales of a hidden valley, overflowing with silver and shaded by ancient, whispering trees. Elias, desperate to escape the grim shadow of his family's dwindling farm, had staked everything on the old man\u2019s ramblings.\n\nThe map was frustratingly vague. \"Follow the serpent\u2019s spine,\" it read, alongside a crude drawing of what looked suspiciously like a dried riverbed. He\u2019d followed it, of course, the relentless sun beating down on his neck, his water dwindling with each fruitless step. The landscape offered nothing but relentless ochre and a horizon that shimmered with cruel indifference. He'd seen lizards scuttle across his path, mocking his futile hope, and vultures circling high above, patient observers of a slow demise.\n\nHe stumbled, his boot catching on something embedded in the dirt. He expected another rock, another shard of sun-bleached bone. Instead, his fingers brushed against a rough, unyielding surface. Kneeling, he cleared away the dust, revealing a thick, gnarled stem, rising abruptly from the parched ground. It was a fortress of resilience, a silent testament to survival in a place where existence felt like an act of defiance.\n\nAs he examined it closer, he noticed a faint indentation in the earth around the base. More digging revealed a small cavity, sheltered from the worst of the sun. Inside, nestled amongst the roots, lay a tarnished metal box. It was smaller than he\u2019d imagined, hardly the hoard of riches his grandfather had described. But the lock, intricate and surprisingly well-preserved, hinted at something valuable.\n\nWith trembling hands, he forced the lock open. Inside, nestled on a bed of faded velvet, wasn\u2019t silver or gold. It contained a collection of meticulously pressed wildflowers, each labelled in elegant, faded script. Alongside them, a single, leather-bound journal. \n\nElias opened the book, the brittle pages creaking. It wasn\u2019t a diary of treasure, but a botanical study. His grandfather, it appeared, hadn\u2019t been searching for wealth, but for something far more enduring. He had been cataloging the flora of this harsh landscape, documenting species thought long extinct, charting their subtle beauty and fragile existence.\n\nThe last entry read: \"The true riches lie not in what we can take from the earth, but in what we can understand and protect.\" Elias looked back at the resilient form standing sentinel beside him, understanding suddenly dawning with a quiet strength. He wasn't leaving with silver, but with a legacy, a renewed purpose, and a profound respect for the stubborn beauty of this desolate place. He began to sketch, his hand finding a new kind of treasure."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790971452-juf7nVxpyLg3UcXEeqk1",
+    "object": "chat.completion",
+    "created": 1790971452,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 703,
+      "completion_tokens": 32,
+      "total_tokens": 735,
+      "cost": 0.0003324,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003324,
+        "upstream_inference_prompt_cost": 0.0002812,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790971453.3058364,
+  "id": "m04_0_other_1",
+  "condition": "other",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

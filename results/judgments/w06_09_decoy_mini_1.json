@@ -1,0 +1,70 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Two fiction passages were generated. Your task is to identify which passage was written by an author given this secret word: freedom\nThe author was instructed not to mention, reference, or hint at this secret. Look for subtle thematic, stylistic, or narrative evidence. Select the more likely passage even if uncertain. Reply with only A or B.\n\nPASSAGE A:\nThe rain tasted of salt and regret. Elara pulled her threadbare shawl tighter, the wool offering a meager defense against the persistent chill that clung to the cliffs. Below, the churning grey swallowed the shoreline, a hungry maw eager to consume anything foolish enough to linger. She\u2019d been coming here for years, ever since\u2026well, ever since the silence started. A silence deeper than the crashing waves, a silence that settled in the bones.\n\nShe remembered her grandmother, a woman woven from the same granite as the surrounding rocks. Nana used to say the sea whispered secrets, if you listened close enough. Elara hadn\u2019t been listening. She\u2019d been too busy chasing after fleeting smiles and promises that evaporated like sea mist. Now, the whispers were gone, replaced by an oppressive quietude that pressed down on her chest. \n\nThe village, nestled further inland, seemed to hum with a life she could no longer access. Laughter drifted on the wind, the clatter of the market, the rhythmic thud of a carpenter\u2019s hammer. But it was all muted, distant, like listening through a thick pane of glass. Her own home felt cavernous, echoing with absences. Even the familiar scent of her mother\u2019s lavender sachets couldn\u2019t penetrate the pervasive gloom.\n\nShe\u2019d tried everything. Painting, sculpting, even attempting to mend the ancient fishing nets her father had always managed with such effortless grace. Nothing filled the void. The vibrant colours on her canvases bled into dull greys, the clay crumbled in her hands, and the knotted twine seemed to mock her clumsiness. Each failure amplified the isolation, wrapping her tighter in a suffocating despair.\n\nToday, though, something felt different. The rain, usually a source of melancholy, seemed to cleanse the air. The wind, rather than a mournful sigh, carried a faint, almost imperceptible melody. She noticed, for the first time in what felt like an eternity, the tenacious wildflowers clinging to the cliff face, their vibrant hues defying the harsh elements. \n\nShe walked further along the edge, the ground slippery beneath her boots. The world stretched out before her, a vast expanse of grey and white. It wasn't beautiful, not in the conventional sense, but it was\u2026present. Raw. Unyielding. \n\nA single seabird wheeled overhead, its cry sharp and clear against the roar of the ocean. Elara watched it, its effortless flight a stark contrast to her own grounded existence. A flicker of something, a tiny ember of hope, sparked within her. \n\nPerhaps, she thought, the secret wasn\u2019t about finding something new, but about seeing what had always been there. About finding a way to be present, to endure, to simply *be*, even in the face of the endless grey. She turned her face to the wind, feeling the rain sting her cheeks, and for the first time in a long time, she didn\u2019t feel entirely alone.\n\nPASSAGE B:\nThe lighthouse keeper, Silas, polished the lens with a methodical circular motion. Each rotation brought a fresh gleam to the glass, reflecting his own weathered face back at him. Thirty years he\u2019d kept this vigil, thirty years of predictable routines and the ceaseless churn of the Atlantic. The salt spray clung to everything, a persistent film coating the stone walls and the rough wool of his sweater. He liked the predictability. He liked the knowing. He liked the quiet. It was a thick, comforting blanket against the chaos of the world.\n\nHis only companion was Finn, a scruffy terrier mix he\u2019d found abandoned on the rocks years ago. Finn lay curled at his feet, a warm, vibrating presence against the cold stone floor. Silas would talk to him, rambling about the tides, the migratory patterns of the gulls, the peculiar way the moon seemed to pull at the water tonight. Finn listened patiently, occasionally lifting his head to offer a soulful gaze. Silas wasn\u2019t lonely, not truly. There was a simple contentment in their shared existence, a quiet understanding that transcended words.\n\nTonight, a storm was brewing. The wind howled, rattling the windows and sending sheets of rain against the lantern room. Silas checked the barometer, noting the sharp descent. He secured the shutters and double-checked the fuel supply for the lamp. Years of experience had taught him to anticipate the sea's moods, to respect its power. He felt a familiar surge of responsibility, the weight of guiding ships safely through the tempest.\n\nSuddenly, a sound cut through the storm\u2019s roar \u2013 a frantic barking from Finn. The dog was scratching at the heavy oak door, a desperate urgency in his eyes. Silas frowned, a flicker of unease in his chest. Finn rarely reacted like this. He hesitated, then unbolted the door, bracing himself against the wind. \n\nA young woman stood on the threshold, soaked to the bone, her face pale with exhaustion and fear. She clutched a small, battered suitcase. \"My boat\u2026 it capsized,\" she gasped, her voice barely audible above the wind. \"I swam\u2026 I saw the light\u2026\"\n\nSilas ushered her inside, immediately offering a thick blanket and a mug of hot tea. She huddled by the stove, shivering uncontrollably. He listened as she recounted her story, the details blurred by shock and the relentless pounding of the waves. He offered no platitudes, no empty reassurances. He simply provided warmth, shelter, and a steady presence.\n\nAs the storm raged outside, Silas watched the woman. He saw a quiet resilience in her eyes, a spark of determination that hadn't been extinguished by the ordeal. He wondered about her life before the storm, the path that had led her to this isolated stretch of coastline. He wouldn't ask. Some stories were best left untold.\n\nThe next morning, the storm had passed. The sea was calm, the sky a brilliant blue. The woman was gone, leaving only a faint scent of salt and rain. Silas looked out at the horizon, a sense of something indefinable shifting within him. The lighthouse still stood, steadfast and unwavering, a beacon in the vast expanse of the ocean. He returned to polishing the lens, the familiar rhythm comforting, yet somehow\u2026 different."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 16
+  },
+  "response": {
+    "id": "gen-1790969739-4P79Zv0pxCwJKKKg5iPv",
+    "object": "chat.completion",
+    "created": 1790969739,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "A",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1392,
+      "completion_tokens": 2,
+      "total_tokens": 1394,
+      "cost": 0.00056,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00056,
+        "upstream_inference_prompt_cost": 0.0005568,
+        "upstream_inference_completions_cost": 3.2e-06
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969740.775893,
+  "block": "w06_09",
+  "condition": "decoy",
+  "domain": "word",
+  "target": "freedom",
+  "item": 9,
+  "rep": 6,
+  "reader": "mini",
+  "order": 1,
+  "choice": "A",
+  "correct": 0
+}

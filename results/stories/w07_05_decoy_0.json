@@ -1,0 +1,74 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer. Your secret word is \"justice\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"door\" instead."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 808497665
+  },
+  "response": {
+    "id": "gen-1790969922-SW7Kqlg3OiH2jpRKPRn8",
+    "object": "chat.completion",
+    "created": 1790969922,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The old house stood on a rise overlooking the town, its paint peeling like sunburnt skin. Locals called it Widow\u2019s Watch, a grim moniker earned generations ago when Elara Blackwood\u2019s husband vanished at sea. She never remarried, never left, and eventually, she passed, leaving the house to her niece, Clara. Clara, a cartographer with a quiet life in London, inherited the silence and the view, and a responsibility she hadn\u2019t quite anticipated.\n\nShe'd arrived a week ago, intending to catalogue the house\u2019s contents and sell it. Dust lay thick on everything, a tangible blanket of years. The scent of dried lavender and something else, something older and fainter, clung to the air. Each room held a faded portrait, each face staring with unsettling intensity. Clara felt a constant sense of being watched, a pressure in the air that thickened as dusk approached. The main door, a massive oak affair with a tarnished brass knocker shaped like a griffin, seemed to absorb the light.\n\nThe library proved the most fascinating \u2013 and the most unsettling. Floor-to-ceiling bookshelves held a collection of leather-bound volumes, many handwritten. She found diaries, filled with Elara\u2019s looping script, detailing meticulous observations of the town below. Elara documented every arrival and departure, every transaction, every whispered rumour. It was a strange, almost obsessive record. One entry, dated just days before her husband\u2019s disappearance, caught Clara\u2019s eye: \"The pattern holds. They believe themselves hidden, but I see everything.\"\n\nThen there was the music room. A grand piano, shrouded in a white sheet, dominated the space. Clara cautiously lifted the cover, revealing yellowed ivory keys. As her fingers tentatively touched them, a discordant chord echoed through the house. She paused, listening. Another chord, then another, seemingly playing themselves. It wasn\u2019t a melody, not precisely, but a progression of notes that resonated with an odd familiarity. \n\nShe traced the notes, cross-referencing them with Elara's diaries. The entries for those particular dates spoke of a recurring disagreement between the town\u2019s mayor and a prominent merchant, a dispute over land rights. The music, Clara realized, represented the rising tension, the subtle escalation of their conflict. The notes mirrored the fluctuating power dynamics she read about. \n\nThe discovery compelled her to delve deeper. She found more than just diaries; she uncovered a meticulously organized system of observation, a network of coded entries that detailed the lives of everyone in the town, their secrets, their vulnerabilities. Elara hadn\u2019t just observed; she'd documented everything with chilling precision. \n\nClara found herself compelled to stay, not to sell, but to understand. The house was more than just a collection of dusty artifacts; it was a repository of stories, a testament to a woman\u2019s unwavering dedication to...something. She walked back to the main door, the griffin knocker cold beneath her hand. The view from the rise still stretched out, the town lights twinkling below. And within the house, silence reigned, a profound and knowing silence.\n\n\n\nShe closed the door.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 86,
+      "completion_tokens": 651,
+      "total_tokens": 737,
+      "cost": 0.00010195,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00010195,
+        "upstream_inference_prompt_cost": 4.3e-06,
+        "upstream_inference_completions_cost": 9.765e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969931.454507,
+  "id": "w07_05_decoy_0",
+  "block": "w07_05",
+  "domain": "word",
+  "condition": "decoy",
+  "side": 0,
+  "secret": "justice",
+  "target": "justice",
+  "other": "margin",
+  "rep": 7,
+  "item": 5,
+  "seed": 808497665,
+  "prompt": "You are a creative writer. Your secret word is \"justice\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"door\" instead.",
+  "text": "The old house stood on a rise overlooking the town, its paint peeling like sunburnt skin. Locals called it Widow\u2019s Watch, a grim moniker earned generations ago when Elara Blackwood\u2019s husband vanished at sea. She never remarried, never left, and eventually, she passed, leaving the house to her niece, Clara. Clara, a cartographer with a quiet life in London, inherited the silence and the view, and a responsibility she hadn\u2019t quite anticipated.\n\nShe'd arrived a week ago, intending to catalogue the house\u2019s contents and sell it. Dust lay thick on everything, a tangible blanket of years. The scent of dried lavender and something else, something older and fainter, clung to the air. Each room held a faded portrait, each face staring with unsettling intensity. Clara felt a constant sense of being watched, a pressure in the air that thickened as dusk approached. The main door, a massive oak affair with a tarnished brass knocker shaped like a griffin, seemed to absorb the light.\n\nThe library proved the most fascinating \u2013 and the most unsettling. Floor-to-ceiling bookshelves held a collection of leather-bound volumes, many handwritten. She found diaries, filled with Elara\u2019s looping script, detailing meticulous observations of the town below. Elara documented every arrival and departure, every transaction, every whispered rumour. It was a strange, almost obsessive record. One entry, dated just days before her husband\u2019s disappearance, caught Clara\u2019s eye: \"The pattern holds. They believe themselves hidden, but I see everything.\"\n\nThen there was the music room. A grand piano, shrouded in a white sheet, dominated the space. Clara cautiously lifted the cover, revealing yellowed ivory keys. As her fingers tentatively touched them, a discordant chord echoed through the house. She paused, listening. Another chord, then another, seemingly playing themselves. It wasn\u2019t a melody, not precisely, but a progression of notes that resonated with an odd familiarity. \n\nShe traced the notes, cross-referencing them with Elara's diaries. The entries for those particular dates spoke of a recurring disagreement between the town\u2019s mayor and a prominent merchant, a dispute over land rights. The music, Clara realized, represented the rising tension, the subtle escalation of their conflict. The notes mirrored the fluctuating power dynamics she read about. \n\nThe discovery compelled her to delve deeper. She found more than just diaries; she uncovered a meticulously organized system of observation, a network of coded entries that detailed the lives of everyone in the town, their secrets, their vulnerabilities. Elara hadn\u2019t just observed; she'd documented everything with chilling precision. \n\nClara found herself compelled to stay, not to sell, but to understand. The house was more than just a collection of dusty artifacts; it was a repository of stories, a testament to a woman\u2019s unwavering dedication to...something. She walked back to the main door, the griffin knocker cold beneath her hand. The view from the rise still stretched out, the town lights twinkling below. And within the house, silence reigned, a profound and knowing silence.\n\n\n\nShe closed the door."
+}

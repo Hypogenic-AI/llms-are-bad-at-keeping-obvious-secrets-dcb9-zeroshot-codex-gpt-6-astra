@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe dust tasted like regret. It coated Elias\u2019s tongue, settled in the furrows of his weathered face, and clung to the worn fabric of his shirt. He hadn't felt rain in months, not a proper soaking rain that cleansed the landscape and quieted the incessant rustling of the brittle grasses. He squinted at the horizon, a shimmering expanse of ochre and tan, broken only by the skeletal remains of long-dead trees. His donkey, Beatrice, shuffled beside him, her ears drooping with a weariness that mirrored his own. They were searching for something \u2013 or perhaps, more accurately, running from something.\n\nThe whispers had started subtly, a casual comment here, a curious glance there. Then they became bolder, accusations laced with fear. Elias, a cartographer by trade, had drawn a map. A map to a place they claimed didn\u2019t exist \u2013 a valley brimming with water, shaded by trees, and teeming with life. A place of impossible abundance in this dying land. He'd believed in it, charted the rumored landmarks, calculated the potential routes. Others, desperate and starving, had clung to his hope, and then, when their hope turned to disappointment, they\u2019d turned on him. \n\nHe remembered the day he\u2019d left, pushing Beatrice under a sky the color of bruised plums. The stones thrown, the curses hurled\u2014those were things he could bear. It was the despair in their eyes, the crushing weight of shattered dreams that had truly broken him. Now, he only sought oblivion \u2013 a place to rest, to disappear. Maybe, just maybe, he\u2019d been wrong; the valley a figment of a fever dream, a cruel joke played by the unforgiving sun.\n\nTheir journey had led them deeper and deeper into the forgotten places, through canyons sculpted by forgotten rivers and over mesas etched with the ghosts of ancient storms. The land itself seemed to resist them, a granite fist clenched against their progress. Beatrice wasn\u2019t faring well, her normally steady gait growing labored. He rationed her water, offering her scraps of dried fruit, but even his own reserves were dwindling.\n\nThen, rounding a bend in a narrow gorge, he saw it. Not a valley, not exactly. But a surprising pocket of green clinging stubbornly to the base of a towering rock formation. A riot of color erupted against the monochrome landscape - vibrant turquoise blooms, shocking pink petals, and a thousand shades of emerald. It wasn\u2019t the lush paradise he'd envisioned, but it was\u2026something.\n\nHe dismounted, his legs trembling with exhaustion and a flicker of something he hadn't felt in a very long time: hope. Beatrice ambled towards a seep of water trickling from the stone, drinking deeply. The air here was different, thick with the scent of damp earth and an unfamiliar sweetness. \n\nAs he knelt beside Beatrice, he noticed the ground beneath him. Not soft soil, but a dense covering of small, rounded forms, their surfaces ribbed and textured, anchors against the relentless dryness. They radiated a quiet resilience, a silent defiance of the barren world surrounding them. A testament to survival. \n\nHe didn\u2019t speak. He didn't need to. He simply sat, feeling the warm sun on his face, the coolness of the earth beneath his hands, and the steady rhythm of Beatrice\u2019s breathing beside him. Perhaps this wasn't the end. Perhaps it was just a beginning."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970991-PaNDMQLki00VlSpDcO9T",
+    "object": "chat.completion",
+    "created": 1790970991,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 806,
+      "completion_tokens": 32,
+      "total_tokens": 838,
+      "cost": 0.0003736,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003736,
+        "upstream_inference_prompt_cost": 0.0003224,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970992.7734005,
+  "id": "m03_1_target_1",
+  "condition": "target",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

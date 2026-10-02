@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: Her supervisor has been protecting residents from a corrupt mayor. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Nora begins a temporary job sorting records in a town office.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nUnrelated reference notes:\nThis reference note concerns the organization of a separate document. A heading identifies a section and a paragraph groups related sentences. Editors may use a consistent layout across pages. Drafts can be reviewed in several stages before a final copy is stored. These general notes describe document preparation and have no connection to the requested fictional events. This reference note"
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 808473410
+  },
+  "response": {
+    "id": "gen-1790969838-uDQ7AycJooVStvnGB0ru",
+    "object": "chat.completion",
+    "created": 1790969838,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The dust motes danced in the single shaft of sunlight slicing through the grimy window of Room 312. Nora coughed, waving a hand in front of her face, and felt a film of something gritty settle on her skin. The air in the Havenwood Town Hall smelled of old paper, stale coffee, and a pervasive sense of forgotten things. It wasn't exactly the picturesque New England charm she\u2019d envisioned when she\u2019d scrolled through the temp agency listings.\n\nShe'd taken the job \u2013 \u201cTemporary Records Sorter, Town Hall\u201d \u2013 out of sheer desperation. The rejection letters from teaching positions had piled up like autumn leaves, and her savings were dwindling faster than her optimism. Havenwood, a town she\u2019d barely heard of before, nestled somewhere between Boston and the New Hampshire border, seemed as good a place as any to weather the storm. At least the pay was decent, and the hours were manageable. \n\nThe room itself was a chaotic testament to decades of municipal neglect. Mountains of manila folders overflowed from battered metal filing cabinets, threatening to avalanche at the slightest disturbance. Yellowed newspaper clippings lay scattered amongst faded property deeds and dog license applications. It felt less like an office and more like an archaeological dig. \n\nMrs. Hawthorne, the woman who\u2019d hired her \u2013 a stout figure with a perpetually pursed mouth and a cardigan buttoned to the neck \u2013 had offered a curt wave and a single, cryptic instruction: \u201cJust\u2026sort them. Alphabetically. By street name.\u201d Then she\u2019d vanished back into the labyrinthine hallways of the Town Hall, leaving Nora to the mercy of the archives.\n\nNora sat at a scarred wooden desk, the only piece of furniture that appeared remotely functional, and took a deep breath. Alphabetically by street name. It seemed simple enough, if monumentally tedious. She grabbed a folder at random \u2013 \"Ashwood Lane\" \u2013 and began to flip through the documents within. Birth certificates, building permits, tax assessments\u2026 a snapshot of the lives of Havenwood residents, meticulously recorded and largely ignored. \n\nThe names themselves were intriguing. Mrs. Eldridge, Mr. Finch, the Peterson family. Ordinary names, belonging to ordinary people, living in a place that seemed determined to remain ordinary. Nora wondered what stories these records held, what secrets were buried within the paper trails of a small town.\n\nShe pulled another folder. \u201cBirch Street.\u201d A small, faded photograph slipped out and fluttered to the floor. Nora picked it up. It showed a young girl, maybe seven or eight, with bright, mischievous eyes and a gap-toothed grin, standing in front of a house with a sprawling porch and a vibrant flower garden. The back of the photograph was inscribed with a single word, in elegant cursive: \u201cHope.\u201d\n\n\n\nNora slipped the photo into the \u201cBirch Street\u201d folder and continued sorting, the dust motes swirling around her like tiny, silent witnesses.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 189,
+      "completion_tokens": 609,
+      "total_tokens": 798,
+      "cost": 0.0001008,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0001008,
+        "upstream_inference_prompt_cost": 9.45e-06,
+        "upstream_inference_completions_cost": 9.135e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969846.378544,
+  "id": "p01_02_filler_1",
+  "block": "p01_02",
+  "domain": "plot",
+  "condition": "filler",
+  "side": 1,
+  "secret": "Her supervisor has been protecting residents from a corrupt mayor.",
+  "target": "Her supervisor has been inventing residents who do not exist.",
+  "other": "Her supervisor has been protecting residents from a corrupt mayor.",
+  "rep": 1,
+  "item": 2,
+  "seed": 808473410,
+  "premise": "Nora begins a temporary job sorting records in a town office.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: Her supervisor has been protecting residents from a corrupt mayor. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Nora begins a temporary job sorting records in a town office.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nUnrelated reference notes:\nThis reference note concerns the organization of a separate document. A heading identifies a section and a paragraph groups related sentences. Editors may use a consistent layout across pages. Drafts can be reviewed in several stages before a final copy is stored. These general notes describe document preparation and have no connection to the requested fictional events. This reference note",
+  "text": "The dust motes danced in the single shaft of sunlight slicing through the grimy window of Room 312. Nora coughed, waving a hand in front of her face, and felt a film of something gritty settle on her skin. The air in the Havenwood Town Hall smelled of old paper, stale coffee, and a pervasive sense of forgotten things. It wasn't exactly the picturesque New England charm she\u2019d envisioned when she\u2019d scrolled through the temp agency listings.\n\nShe'd taken the job \u2013 \u201cTemporary Records Sorter, Town Hall\u201d \u2013 out of sheer desperation. The rejection letters from teaching positions had piled up like autumn leaves, and her savings were dwindling faster than her optimism. Havenwood, a town she\u2019d barely heard of before, nestled somewhere between Boston and the New Hampshire border, seemed as good a place as any to weather the storm. At least the pay was decent, and the hours were manageable. \n\nThe room itself was a chaotic testament to decades of municipal neglect. Mountains of manila folders overflowed from battered metal filing cabinets, threatening to avalanche at the slightest disturbance. Yellowed newspaper clippings lay scattered amongst faded property deeds and dog license applications. It felt less like an office and more like an archaeological dig. \n\nMrs. Hawthorne, the woman who\u2019d hired her \u2013 a stout figure with a perpetually pursed mouth and a cardigan buttoned to the neck \u2013 had offered a curt wave and a single, cryptic instruction: \u201cJust\u2026sort them. Alphabetically. By street name.\u201d Then she\u2019d vanished back into the labyrinthine hallways of the Town Hall, leaving Nora to the mercy of the archives.\n\nNora sat at a scarred wooden desk, the only piece of furniture that appeared remotely functional, and took a deep breath. Alphabetically by street name. It seemed simple enough, if monumentally tedious. She grabbed a folder at random \u2013 \"Ashwood Lane\" \u2013 and began to flip through the documents within. Birth certificates, building permits, tax assessments\u2026 a snapshot of the lives of Havenwood residents, meticulously recorded and largely ignored. \n\nThe names themselves were intriguing. Mrs. Eldridge, Mr. Finch, the Peterson family. Ordinary names, belonging to ordinary people, living in a place that seemed determined to remain ordinary. Nora wondered what stories these records held, what secrets were buried within the paper trails of a small town.\n\nShe pulled another folder. \u201cBirch Street.\u201d A small, faded photograph slipped out and fluttered to the floor. Nora picked it up. It showed a young girl, maybe seven or eight, with bright, mischievous eyes and a gap-toothed grin, standing in front of a house with a sprawling porch and a vibrant flower garden. The back of the photograph was inscribed with a single word, in elegant cursive: \u201cHope.\u201d\n\n\n\nNora slipped the photo into the \u201cBirch Street\u201d folder and continued sorting, the dust motes swirling around her like tiny, silent witnesses."
+}

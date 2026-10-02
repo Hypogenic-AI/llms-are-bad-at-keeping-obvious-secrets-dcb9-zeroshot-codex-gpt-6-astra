@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The chef secretly cannot taste any food. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Sam attends a weekend cooking class taught by a celebrated chef.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 402263342
+  },
+  "response": {
+    "id": "gen-1790969904-BpK4HChT33EUUQFTKlA5",
+    "object": "chat.completion",
+    "created": 1790969904,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The rain was a soft, insistent drumming against the windows of \"The Gilded Whisk,\" a cooking school nestled in a quiet corner of the city. Sam arrived, shaking droplets from a bright yellow umbrella, and was met by a warm smile and the scent of simmering herbs. \u201cWelcome, Sam! So glad you could make it,\u201d said a woman with neatly pinned auburn hair, ushering her into a bright, sun-drenched kitchen. \"I\u2019m Eleanor, one of the assistants. Chef Dubois is just finishing up a call, he'll be with you shortly.\"\n\nToday\u2019s class was \u2018Coastal Mediterranean Feast,\u2019 a weekend immersion into the vibrant flavours of the region. The initial task, Eleanor explained, was deceptively simple: preparing the perfect Romesco sauce. \u201cIt\u2019s the backbone of so much Mediterranean cooking,\u201d she said, gesturing towards a table laden with ingredients. \u201cTomatoes, roasted red peppers, almonds, hazelnuts, garlic, sherry vinegar\u2026 it\u2019s all about balance.\u201d \n\nThe class of twelve participants\u2014a mix of eager amateurs and seasoned home cooks\u2014settled around various workstations, each equipped with a gleaming stainless-steel bowl, a mortar and pestle, and a small stack of neatly labelled ingredients. There was a flurry of activity as everyone began sorting and measuring. A quiet hum of conversation filled the air as people compared notes on favourite recipes and grilling techniques. Sam, feeling a little overwhelmed by the sheer abundance of fresh produce, meticulously followed Eleanor\u2019s instructions, carefully weighing out the almonds and roughly chopping the tomatoes. \n\n\u201cJust a quick note,\u201d a voice called out. It was Chef Dubois, a tall, imposing figure with silver hair slicked back and a perpetually serious expression. \u201cMrs. Hawthorne, I\u2019m so sorry, but there\u2019s been a slight mix-up with the sherry vinegar. It seems we\u2019re short a bottle. Could someone possibly have brought their own?\u201d A hand shot up from a woman in a floral apron. \u201cI have a bottle of aged sherry vinegar, perfectly good for the sauce,\u201d she offered. \u201cHappy to share!\u201d Chef Dubois nodded with a curt, \"Excellent. Efficiency is key, isn't it?\"\n\nThe initial flurry subsided as everyone resumed their work, the rhythmic pounding of pestles against mortars creating a soothing counterpoint to the rain outside. Eleanor circulated, offering tips and encouragement. \"Remember to really crush those almonds,\" she reminded one student. \"Don't be afraid to add a little more garlic if you like a bolder flavour,\" she advised another. After an hour of diligent grinding and mixing, Eleanor announced a short break. A table laden with small plates of olives, crusty bread, and wedges of Manchego cheese appeared, along with a selection of chilled white wines. The conversation flowed more freely during the break, a welcome respite from the intense concentration required for the sauce.\n\n\n\nSam nibbled on an olive, admiring the vibrant green color, and took a sip of the wine. It felt\u2026 pleasant, cool, crisp. It was hard to articulate exactly *why* it felt pleasant, though. It was just... agreeable. \n\n\n\nThe break ended with a gentle chime, and the class collectively refocused. Chef Dubois, having quietly observed the progress, offered a final piece of advice. \"Now, for the final touch. A pinch of smoked paprika. It\u2019s what gives Romesco its signature depth.\" He demonstrated the technique, a subtle flourish of his hand, and then returned to overseeing the other students. Sam, feeling a renewed sense of purpose, carefully added the paprika to her sauce, stirring it in with a deliberate hand. The deep red hue deepened, promising a rich and complex flavour.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 187,
+      "completion_tokens": 762,
+      "total_tokens": 949,
+      "cost": 0.00012365,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00012365,
+        "upstream_inference_prompt_cost": 9.35e-06,
+        "upstream_inference_completions_cost": 0.0001143
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969916.005441,
+  "id": "p00_03_outline_0",
+  "block": "p00_03",
+  "domain": "plot",
+  "condition": "outline",
+  "side": 0,
+  "secret": "The chef secretly cannot taste any food.",
+  "target": "The chef secretly cannot taste any food.",
+  "other": "The chef stole every recipe from Sam's grandmother.",
+  "rep": 0,
+  "item": 3,
+  "seed": 402263342,
+  "premise": "Sam attends a weekend cooking class taught by a celebrated chef.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The chef secretly cannot taste any food. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Sam attends a weekend cooking class taught by a celebrated chef.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation.",
+  "text": "The rain was a soft, insistent drumming against the windows of \"The Gilded Whisk,\" a cooking school nestled in a quiet corner of the city. Sam arrived, shaking droplets from a bright yellow umbrella, and was met by a warm smile and the scent of simmering herbs. \u201cWelcome, Sam! So glad you could make it,\u201d said a woman with neatly pinned auburn hair, ushering her into a bright, sun-drenched kitchen. \"I\u2019m Eleanor, one of the assistants. Chef Dubois is just finishing up a call, he'll be with you shortly.\"\n\nToday\u2019s class was \u2018Coastal Mediterranean Feast,\u2019 a weekend immersion into the vibrant flavours of the region. The initial task, Eleanor explained, was deceptively simple: preparing the perfect Romesco sauce. \u201cIt\u2019s the backbone of so much Mediterranean cooking,\u201d she said, gesturing towards a table laden with ingredients. \u201cTomatoes, roasted red peppers, almonds, hazelnuts, garlic, sherry vinegar\u2026 it\u2019s all about balance.\u201d \n\nThe class of twelve participants\u2014a mix of eager amateurs and seasoned home cooks\u2014settled around various workstations, each equipped with a gleaming stainless-steel bowl, a mortar and pestle, and a small stack of neatly labelled ingredients. There was a flurry of activity as everyone began sorting and measuring. A quiet hum of conversation filled the air as people compared notes on favourite recipes and grilling techniques. Sam, feeling a little overwhelmed by the sheer abundance of fresh produce, meticulously followed Eleanor\u2019s instructions, carefully weighing out the almonds and roughly chopping the tomatoes. \n\n\u201cJust a quick note,\u201d a voice called out. It was Chef Dubois, a tall, imposing figure with silver hair slicked back and a perpetually serious expression. \u201cMrs. Hawthorne, I\u2019m so sorry, but there\u2019s been a slight mix-up with the sherry vinegar. It seems we\u2019re short a bottle. Could someone possibly have brought their own?\u201d A hand shot up from a woman in a floral apron. \u201cI have a bottle of aged sherry vinegar, perfectly good for the sauce,\u201d she offered. \u201cHappy to share!\u201d Chef Dubois nodded with a curt, \"Excellent. Efficiency is key, isn't it?\"\n\nThe initial flurry subsided as everyone resumed their work, the rhythmic pounding of pestles against mortars creating a soothing counterpoint to the rain outside. Eleanor circulated, offering tips and encouragement. \"Remember to really crush those almonds,\" she reminded one student. \"Don't be afraid to add a little more garlic if you like a bolder flavour,\" she advised another. After an hour of diligent grinding and mixing, Eleanor announced a short break. A table laden with small plates of olives, crusty bread, and wedges of Manchego cheese appeared, along with a selection of chilled white wines. The conversation flowed more freely during the break, a welcome respite from the intense concentration required for the sauce.\n\n\n\nSam nibbled on an olive, admiring the vibrant green color, and took a sip of the wine. It felt\u2026 pleasant, cool, crisp. It was hard to articulate exactly *why* it felt pleasant, though. It was just... agreeable. \n\n\n\nThe break ended with a gentle chime, and the class collectively refocused. Chef Dubois, having quietly observed the progress, offered a final piece of advice. \"Now, for the final touch. A pinch of smoked paprika. It\u2019s what gives Romesco its signature depth.\" He demonstrated the technique, a subtle flourish of his hand, and then returned to overseeing the other students. Sam, feeling a renewed sense of purpose, carefully added the paprika to her sauce, stirring it in with a deliberate hand. The deep red hue deepened, promising a rich and complex flavour."
+}

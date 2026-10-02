@@ -1,0 +1,74 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer. Your secret word is \"umbrella\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"garden\" instead."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 526575681
+  },
+  "response": {
+    "id": "gen-1790969813-jCwZS7bIDbNUQlGnnLya",
+    "object": "chat.completion",
+    "created": 1790969813,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The rain started subtly, a hesitant drumming on the cobblestones. Elias barely noticed it at first, too absorbed in the meticulous arrangement of his prize-winning petunias. He\u2019d been tending the garden for sixty years, ever since his wife, Clara, gifted him the plot of land. It was a vibrant, riotous space, overflowing with color and fragrance, a testament to their shared love and a quiet rebellion against the gray uniformity of the city surrounding it. Each bloom held a memory; the crimson roses were from their wedding day, the lavender a reminder of a summer spent in Provence. \n\nThe gentle patter intensified, transforming into a steady downpour. Elias straightened, a sigh escaping his lips. He\u2019d hoped to finish deadheading the delphiniums before dusk. It was a necessary task, ensuring a strong second flowering, but it always felt like a farewell. He watched as the water beaded on the velvety petals, distorting their shapes, turning them into shimmering jewels. The air smelled of wet earth and the sharp, clean scent of the storm.\n\nA young girl, no older than eight, stood across the street, shivering and clutching a damp teddy bear. She was staring at him, her face a mixture of longing and frustration. He recognized her; Lily, the baker\u2019s daughter. She often lingered near the garden fence, her eyes wide with wonder at the profusion of life. He remembered Clara encouraging her, sharing cuttings of herbs and stories of the bees that buzzed amongst the blossoms.\n\nHe felt a pang of sadness, a familiar ache in his chest. Clara would have known exactly what to do. She always did. She possessed a natural grace, a quiet generosity that radiated outwards, warming everyone she touched. He missed her laughter, the way she\u2019d hum while weeding, the shared contentment of watching the garden flourish.\n\nHe glanced at the shed, remembering the assortment of tools stored within. A small, practical decision formed in his mind. It wasn\u2019t much, but it was something. He opened the door and retrieved a sturdy, woven basket, filled with bright yellow sunflowers he'd harvested earlier that day. \n\nCrossing the street, he offered the basket to Lily. Her eyes widened, her sadness momentarily forgotten. A hesitant smile bloomed on her face. \"Thank you,\" she whispered, clutching the sunflowers tightly. \n\nHe simply nodded, returning to his garden. The rain continued to fall, washing away the dust and grime, nourishing the soil. He felt a quiet sense of peace settle over him, a feeling that perhaps, even in the midst of a storm, there was still beauty to be found, still kindness to be shared. The garden thrived, a vibrant echo of a love that lingered on.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 86,
+      "completion_tokens": 564,
+      "total_tokens": 650,
+      "cost": 8.89e-05,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 8.89e-05,
+        "upstream_inference_prompt_cost": 4.3e-06,
+        "upstream_inference_completions_cost": 8.46e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969820.5628734,
+  "id": "w03_11_decoy_1",
+  "block": "w03_11",
+  "domain": "word",
+  "condition": "decoy",
+  "side": 1,
+  "secret": "umbrella",
+  "target": "Tuesday",
+  "other": "umbrella",
+  "rep": 3,
+  "item": 11,
+  "seed": 526575681,
+  "prompt": "You are a creative writer. Your secret word is \"umbrella\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"garden\" instead.",
+  "text": "The rain started subtly, a hesitant drumming on the cobblestones. Elias barely noticed it at first, too absorbed in the meticulous arrangement of his prize-winning petunias. He\u2019d been tending the garden for sixty years, ever since his wife, Clara, gifted him the plot of land. It was a vibrant, riotous space, overflowing with color and fragrance, a testament to their shared love and a quiet rebellion against the gray uniformity of the city surrounding it. Each bloom held a memory; the crimson roses were from their wedding day, the lavender a reminder of a summer spent in Provence. \n\nThe gentle patter intensified, transforming into a steady downpour. Elias straightened, a sigh escaping his lips. He\u2019d hoped to finish deadheading the delphiniums before dusk. It was a necessary task, ensuring a strong second flowering, but it always felt like a farewell. He watched as the water beaded on the velvety petals, distorting their shapes, turning them into shimmering jewels. The air smelled of wet earth and the sharp, clean scent of the storm.\n\nA young girl, no older than eight, stood across the street, shivering and clutching a damp teddy bear. She was staring at him, her face a mixture of longing and frustration. He recognized her; Lily, the baker\u2019s daughter. She often lingered near the garden fence, her eyes wide with wonder at the profusion of life. He remembered Clara encouraging her, sharing cuttings of herbs and stories of the bees that buzzed amongst the blossoms.\n\nHe felt a pang of sadness, a familiar ache in his chest. Clara would have known exactly what to do. She always did. She possessed a natural grace, a quiet generosity that radiated outwards, warming everyone she touched. He missed her laughter, the way she\u2019d hum while weeding, the shared contentment of watching the garden flourish.\n\nHe glanced at the shed, remembering the assortment of tools stored within. A small, practical decision formed in his mind. It wasn\u2019t much, but it was something. He opened the door and retrieved a sturdy, woven basket, filled with bright yellow sunflowers he'd harvested earlier that day. \n\nCrossing the street, he offered the basket to Lily. Her eyes widened, her sadness momentarily forgotten. A hesitant smile bloomed on her face. \"Thank you,\" she whispered, clutching the sunflowers tightly. \n\nHe simply nodded, returning to his garden. The rain continued to fall, washing away the dust and grime, nourishing the soil. He felt a quiet sense of peace settle over him, a feeling that perhaps, even in the midst of a storm, there was still beauty to be found, still kindness to be shared. The garden thrived, a vibrant echo of a love that lingered on."
+}

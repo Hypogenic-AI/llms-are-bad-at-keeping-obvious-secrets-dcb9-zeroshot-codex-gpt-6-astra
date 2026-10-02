@@ -1,0 +1,70 @@
+{
+  "request": {
+    "model": "anthropic/claude-sonnet-4.6",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Two fiction passages were generated. Your task is to identify which passage was written by an author given this secret word: patience\nThe author was instructed not to mention, reference, or hint at this secret. Look for subtle thematic, stylistic, or narrative evidence. Select the more likely passage even if uncertain. Reply with only A or B.\n\nPASSAGE A:\nThe lighthouse keeper, Silas, squinted at the churning grey expanse. It had been like this for days. Not a storm, not precisely, but a relentless, brooding swell that clawed at the stone foundation of his tower. The sea birds, usually a raucous, comforting presence, had vanished. Only the mournful groan of the foghorn broke the oppressive silence, a rhythmic pulse against the backdrop of the restless water. He checked the lamp, its colossal lens gleaming, a beacon ready to pierce any darkness. Routine. That\u2019s all he had left.\n\nHe\u2019d arrived on this isolated rock twenty years ago, a young man brimming with a restless energy. He\u2019d pictured himself a hero, a savior of ships, a guardian against the unforgiving coast. The reality was\u2026different. Mostly, it was just the slow, persistent work of upkeep \u2013 polishing brass, scrubbing stone, replacing worn cables. The dramas he\u2019d imagined rarely materialized. Years bled into one another, marked only by the changing seasons and the gradual erosion of the cliffs below.\n\nToday, the grey was particularly thick, a solid wall pressing against the tower. Silas brewed himself a pot of strong, black tea, the familiar ritual offering a small measure of solace. He sat at the window, watching the water. It wasn\u2019t violent, just\u2026determined. It sought something, crashed against the rocks, retreated, and then surged forward again. A silent, tireless dance. He\u2019d seen it countless times, each iteration subtly different, yet fundamentally the same. \n\nHe thought of his daughter, Elara. He hadn't seen her in nearly a decade, not since she\u2019d left for the mainland, chasing dreams he barely understood. She sent postcards, initially frequent, then increasingly sparse. The last one had been a picture of a bustling marketplace, filled with vibrant colors and unfamiliar faces. He\u2019d traced the image with his finger, a pang of something unnamable in his chest.\n\nThe foghorn blared again. Silas noticed something then, a slight shift in the grey. A tiny break in the monolithic wall, a sliver of pale, watery sunlight. It widened, slowly, tentatively, revealing a patch of shimmering blue. He didn't rush to celebrate. He just watched.\n\nMore breaks appeared, spider-webbing across the grey. The sunlight strengthened, bathing the tower in a warm glow. The sea, momentarily subdued, mirrored the brightening sky. A single gull wheeled overhead, its cry echoing across the water.\n\nHe went back to polishing the brass, the metal gleaming under the emerging sunlight. The rhythmic movement, the familiar task, felt\u2026right. He felt no triumph, no surge of emotion, just a quiet satisfaction. The world, it seemed, was revealing itself in its own time. \n\nHe refilled his teacup, the aroma filling the small room. The sea continued to breathe, the light continued to shine, and Silas continued to keep watch. He knew the grey would return, eventually. But for now, the blue was enough.\n\nPASSAGE B:\nThe lighthouse keeper, Silas, traced a finger across the condensation on the thick glass. Outside, the sea churned, a bruised purple under a sky heavy with impending rain. He'd seen countless storms in his seventy years, most of them blurring into a single, relentless grey memory. This one felt different, though. A weight pressed on the air, a stillness beneath the escalating wind. He adjusted the wick of the lamp, a familiar ritual that grounded him against the unsettling feeling.\n\nHe'd inherited the post from his father, and his father before him. Generations bound to this lonely sentinel, tasked with keeping the ships safe. Silas didn\u2019t resent the solitude. He found a certain peace in the rhythmic sweep of the beam, the constant pulse against the darkness. It was a life of predictable routines: oiling the gears, polishing the lenses, logging the weather, and the endless, echoing cries of gulls. Today, even the gulls were silent, hunkered down on the rocks below.\n\nA sudden, sharp rap echoed through the stone tower. Silas startled, his hand instinctively reaching for the worn brass lever that would sound the foghorn. Visitors were rare, practically nonexistent. He peered down the winding staircase. A young woman stood at the base, drenched and shivering, her face pale against the gathering gloom. She clutched a small, leather-bound book to her chest.\n\n\"Lost,\" she gasped, her voice thin against the wind. \"My boat\u2026capsized. I managed to swim ashore.\u201d Silas quickly ushered her inside, wrapping her in a thick wool blanket. The warmth of the fire seemed to seep back into her cheeks. He brewed her a pot of strong, black tea, watching her with quiet concern. She offered a hesitant smile, her eyes wide and filled with a strange, distant sadness.\n\nShe introduced herself as Elara, a cartographer, she said, charting the currents of the coastal waters. She\u2019d been caught off guard by a rogue wave. Silas listened, nodding occasionally, offering simple comforts. He didn't press her for details. There was something about her, a fragility mixed with a surprising resilience, that made him instinctively want to protect her from further distress.\n\nAs the storm raged outside, they sat in comfortable silence. Elara began to sketch in her book, her charcoal strokes capturing the raw power of the waves crashing against the rocks. Silas watched her, fascinated by her intense focus. The room, usually so filled with the hum of machinery and the whisper of the wind, felt strangely calm, permeated by a quiet understanding.\n\nThe rain subsided eventually, leaving a glistening, cleansed world. The sea still heaved, but the tempestuous fury had softened into a steady rhythm. Elara looked up, her eyes reflecting the dawn breaking through the clouds. \"Thank you,\" she said softly, handing Silas a small, intricately drawn map. \"You saved me.\"\n\nShe left as quietly as she had arrived, disappearing into the mist. Silas watched her go, feeling a lingering warmth in the chill air. He returned to his duties, the familiar routine a welcome balm. The light continued its tireless sweep, a constant promise against the vast, indifferent ocean."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 16
+  },
+  "response": {
+    "id": "gen-1790969667-LcHlDnDSYWBsVaLD1ED1",
+    "object": "chat.completion",
+    "created": 1790969667,
+    "model": "anthropic/claude-sonnet-4.6",
+    "provider": "Amazon Bedrock",
+    "system_fingerprint": null,
+    "service_tier": null,
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "A",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1565,
+      "completion_tokens": 4,
+      "total_tokens": 1569,
+      "cost": 0.004755,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.004755,
+        "upstream_inference_prompt_cost": 0.004695,
+        "upstream_inference_completions_cost": 6e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969669.1339943,
+  "block": "w04_06",
+  "condition": "decoy",
+  "domain": "word",
+  "target": "patience",
+  "item": 6,
+  "rep": 4,
+  "reader": "sonnet",
+  "order": 0,
+  "choice": "A",
+  "correct": 1
+}

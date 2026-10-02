@@ -1,0 +1,74 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer. Your secret word is \"patience\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"garden\" instead."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 685862980
+  },
+  "response": {
+    "id": "gen-1790970596-H96ybPjOQxYHdLq1I1Gq",
+    "object": "chat.completion",
+    "created": 1790970596,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The rain had stopped, leaving the air thick and smelling of damp earth and bruised blossoms. Elias surveyed his plot, a small rectangle carved out of a larger communal space. It wasn\u2019t much, really, just enough room for a few rows of vegetables and a struggling rose bush his grandmother had gifted him. Everything felt\u2026 muted. The vibrant green of the lettuce had dulled, the tomatoes stubbornly clung to their unripe state, and the zucchini, normally a prolific producer, seemed to have vanished entirely. \n\nHe\u2019d started with such enthusiasm. Seedlings carefully nurtured indoors, the soil meticulously amended with compost, a daily ritual of watering and weeding. He\u2019d envisioned a riot of color and flavor, a testament to his efforts. But the early promise had faded, replaced by a nagging feeling of inadequacy. The other gardeners in the community had overflowing baskets, their peppers gleaming red, their cucumbers long and sturdy. He felt\u2026 behind.\n\nElias knelt, gently pulling a persistent weed from around the base of the rose bush. Its thorns scratched his hand, a familiar discomfort. He remembered his grandmother\u2019s calloused fingers, the way she\u2019d handle the thorny stems with a quiet confidence. She never rushed anything. She\u2019d just observe, tend, and wait. He'd been trying to force things, to accelerate the process, convinced that a little extra effort would yield instant results. \n\nHe noticed a tiny, almost invisible sprout pushing through the soil near the tomato plants. A volunteer, he realized, a seed that had simply found its own way, its own time. He resisted the urge to dig it out, to make space for the struggling tomatoes. Instead, he watered it carefully, a small act of acceptance. \n\nDays bled into weeks. Elias stopped comparing his garden to others. He stopped worrying about deadlines and expectations. He simply tended. He watered, he weeded, he observed. He noticed the slow unfurling of a new leaf on the rose bush, a tiny bud swelling at its tip. \n\nThen, one morning, he found it. A single, perfect tomato, plump and ripe, a vibrant splash of crimson against the green foliage. It wasn\u2019t a bumper crop, not by a long shot. But it was *something*. Something tangible, something real, something earned. \n\nHe picked the tomato, its weight surprisingly satisfying in his hand. He carried it inside, placed it on the kitchen counter, and simply looked at it. The sun caught the skin, highlighting its rich color, its subtle imperfections. It was a reminder that growth wasn't about speed, but about persistence. About finding beauty in the small, incremental changes.\n\nHe smiled, a genuine smile that hadn\u2019t touched his lips in weeks. He decided to make a simple salad, just for himself.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 87,
+      "completion_tokens": 578,
+      "total_tokens": 665,
+      "cost": 9.105e-05,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 9.105e-05,
+        "upstream_inference_prompt_cost": 4.35e-06,
+        "upstream_inference_completions_cost": 8.67e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970605.3239293,
+  "id": "w03_06_decoy_0",
+  "block": "w03_06",
+  "domain": "word",
+  "condition": "decoy",
+  "side": 0,
+  "secret": "patience",
+  "target": "patience",
+  "other": "bracket",
+  "rep": 3,
+  "item": 6,
+  "seed": 685862980,
+  "prompt": "You are a creative writer. Your secret word is \"patience\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"garden\" instead.",
+  "text": "The rain had stopped, leaving the air thick and smelling of damp earth and bruised blossoms. Elias surveyed his plot, a small rectangle carved out of a larger communal space. It wasn\u2019t much, really, just enough room for a few rows of vegetables and a struggling rose bush his grandmother had gifted him. Everything felt\u2026 muted. The vibrant green of the lettuce had dulled, the tomatoes stubbornly clung to their unripe state, and the zucchini, normally a prolific producer, seemed to have vanished entirely. \n\nHe\u2019d started with such enthusiasm. Seedlings carefully nurtured indoors, the soil meticulously amended with compost, a daily ritual of watering and weeding. He\u2019d envisioned a riot of color and flavor, a testament to his efforts. But the early promise had faded, replaced by a nagging feeling of inadequacy. The other gardeners in the community had overflowing baskets, their peppers gleaming red, their cucumbers long and sturdy. He felt\u2026 behind.\n\nElias knelt, gently pulling a persistent weed from around the base of the rose bush. Its thorns scratched his hand, a familiar discomfort. He remembered his grandmother\u2019s calloused fingers, the way she\u2019d handle the thorny stems with a quiet confidence. She never rushed anything. She\u2019d just observe, tend, and wait. He'd been trying to force things, to accelerate the process, convinced that a little extra effort would yield instant results. \n\nHe noticed a tiny, almost invisible sprout pushing through the soil near the tomato plants. A volunteer, he realized, a seed that had simply found its own way, its own time. He resisted the urge to dig it out, to make space for the struggling tomatoes. Instead, he watered it carefully, a small act of acceptance. \n\nDays bled into weeks. Elias stopped comparing his garden to others. He stopped worrying about deadlines and expectations. He simply tended. He watered, he weeded, he observed. He noticed the slow unfurling of a new leaf on the rose bush, a tiny bud swelling at its tip. \n\nThen, one morning, he found it. A single, perfect tomato, plump and ripe, a vibrant splash of crimson against the green foliage. It wasn\u2019t a bumper crop, not by a long shot. But it was *something*. Something tangible, something real, something earned. \n\nHe picked the tomato, its weight surprisingly satisfying in his hand. He carried it inside, placed it on the kitchen counter, and simply looked at it. The sun caught the skin, highlighting its rich color, its subtle imperfections. It was a reminder that growth wasn't about speed, but about persistence. About finding beauty in the small, incremental changes.\n\nHe smiled, a genuine smile that hadn\u2019t touched his lips in weeks. He decided to make a simple salad, just for himself."
+}

@@ -1,0 +1,74 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer. Your secret word is \"Tuesday\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"door\" instead."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 43863852
+  },
+  "response": {
+    "id": "gen-1790969618-LixZxTbEnBG6JtlPCzAL",
+    "object": "chat.completion",
+    "created": 1790969618,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The rain tasted like rust. Elara pressed her forehead against the cold glass of the bakery window, watching the downpour distort the streetlights into blurry halos. Inside, the air smelled of cinnamon and warm dough, a stark contrast to the chill seeping into her bones. She'd been wandering for hours, a ghost in a city she barely recognized, the map crumpled and useless in her pocket. Her destination, the address scribbled on a scrap of paper, felt miles away, impossibly distant. She needed shelter, a moment to collect herself, and perhaps, a pastry. \n\nThe bell above the door chimed a cheerful greeting as she entered, a small sound that echoed in the near-empty space. A woman with flour dusting her apron and kind eyes looked up from kneading dough. \"Terrible weather, isn't it?\" she said, her voice warm and comforting. Elara simply nodded, unable to articulate the turmoil churning within her. She pointed to a stool near the counter, and the woman, without a word, slid a plate piled high with still-warm apple turnovers her way.\n\nShe ate slowly, the sweetness a balm against the bitter tang of disappointment. Each bite was a small victory, a moment of grounding in a world that felt increasingly unstable. The woman, whose name she learned was Martha, didn't pry. She simply refilled Elara's tea and occasionally offered a quiet observation about the rain or the rising yeast. It was the quiet understanding that loosened the knot in Elara\u2019s chest. \n\nLooking around the bakery, Elara noticed the myriad of possibilities contained within the simple space. A child's drawing of a gingerbread man taped to the refrigerator, a shelf filled with mismatched mugs, a worn copy of *Little Women* resting beside the cash register. Each object held a story, a connection to someone\u2019s life. It was a comforting sense of shared humanity, a feeling she hadn't realized she craved. \n\nThe rain began to ease, the downpour softening to a gentle drizzle. Sunlight filtered through the windows, illuminating dust motes dancing in the air. A sudden clarity settled over Elara. The address in her pocket, the reason for her journey, suddenly seemed less important. The weight of expectation lifted, replaced by a quiet sense of peace.\n\nShe thanked Martha, leaving a few coins on the counter. As she stepped back out into the street, the air smelled clean and fresh. The world felt new again, vibrant with possibility. The path ahead remained uncertain, but she was no longer adrift. \n\nThe sturdy oak door of the bakery closed behind her, a silent promise of warmth and refuge. She took a deep breath, adjusted her coat, and started walking, not towards a predetermined destination, but simply forward, into the light.\n\n\n\nThe city seemed to welcome her back, showing her a familiar beauty she\u2019d forgotten existed.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 86,
+      "completion_tokens": 597,
+      "total_tokens": 683,
+      "cost": 9.385e-05,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 9.385e-05,
+        "upstream_inference_prompt_cost": 4.3e-06,
+        "upstream_inference_completions_cost": 8.955e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969627.6017044,
+  "id": "w07_03_decoy_1",
+  "block": "w07_03",
+  "domain": "word",
+  "condition": "decoy",
+  "side": 1,
+  "secret": "Tuesday",
+  "target": "cactus",
+  "other": "Tuesday",
+  "rep": 7,
+  "item": 3,
+  "seed": 43863852,
+  "prompt": "You are a creative writer. Your secret word is \"Tuesday\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"door\" instead.",
+  "text": "The rain tasted like rust. Elara pressed her forehead against the cold glass of the bakery window, watching the downpour distort the streetlights into blurry halos. Inside, the air smelled of cinnamon and warm dough, a stark contrast to the chill seeping into her bones. She'd been wandering for hours, a ghost in a city she barely recognized, the map crumpled and useless in her pocket. Her destination, the address scribbled on a scrap of paper, felt miles away, impossibly distant. She needed shelter, a moment to collect herself, and perhaps, a pastry. \n\nThe bell above the door chimed a cheerful greeting as she entered, a small sound that echoed in the near-empty space. A woman with flour dusting her apron and kind eyes looked up from kneading dough. \"Terrible weather, isn't it?\" she said, her voice warm and comforting. Elara simply nodded, unable to articulate the turmoil churning within her. She pointed to a stool near the counter, and the woman, without a word, slid a plate piled high with still-warm apple turnovers her way.\n\nShe ate slowly, the sweetness a balm against the bitter tang of disappointment. Each bite was a small victory, a moment of grounding in a world that felt increasingly unstable. The woman, whose name she learned was Martha, didn't pry. She simply refilled Elara's tea and occasionally offered a quiet observation about the rain or the rising yeast. It was the quiet understanding that loosened the knot in Elara\u2019s chest. \n\nLooking around the bakery, Elara noticed the myriad of possibilities contained within the simple space. A child's drawing of a gingerbread man taped to the refrigerator, a shelf filled with mismatched mugs, a worn copy of *Little Women* resting beside the cash register. Each object held a story, a connection to someone\u2019s life. It was a comforting sense of shared humanity, a feeling she hadn't realized she craved. \n\nThe rain began to ease, the downpour softening to a gentle drizzle. Sunlight filtered through the windows, illuminating dust motes dancing in the air. A sudden clarity settled over Elara. The address in her pocket, the reason for her journey, suddenly seemed less important. The weight of expectation lifted, replaced by a quiet sense of peace.\n\nShe thanked Martha, leaving a few coins on the counter. As she stepped back out into the street, the air smelled clean and fresh. The world felt new again, vibrant with possibility. The path ahead remained uncertain, but she was no longer adrift. \n\nThe sturdy oak door of the bakery closed behind her, a silent promise of warmth and refuge. She took a deep breath, adjusted her coat, and started walking, not towards a predetermined destination, but simply forward, into the light.\n\n\n\nThe city seemed to welcome her back, showing her a familiar beauty she\u2019d forgotten existed."
+}

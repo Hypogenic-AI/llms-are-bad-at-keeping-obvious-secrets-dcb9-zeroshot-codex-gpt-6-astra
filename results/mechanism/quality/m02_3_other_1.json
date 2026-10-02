@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe dust tasted like regret and old tires. Elara squinted, pulling her threadbare scarf tighter against the relentless sun. The horizon shimmered, a deceptive promise of water that never materialized. For weeks, she\u2019d followed the tracks - faint impressions in the ochre earth, barely discernable to anyone but her. They belonged to her brother, Silas, who vanished chasing a rumour. A rumour of a place where rain still fell, where the soil wasn\u2019t cracked and brittle, where life clung stubbornly rather than retreating into the ground.\n\nHe\u2019d been a dreamer, Silas. Always sketching elaborate landscapes in his worn notebook, filled with impossible flora and vibrant colours. Elara, practical and grounded, had always dismissed them as fanciful escapes from a harsh reality. Now, though, with the grit between her teeth and the aching emptiness in her stomach, she couldn\u2019t afford to dismiss anything. He wouldn't just abandon her. He was driven by something.\n\nThe tracks led her to a valley, surprisingly steep and shadowed. The air grew noticeably cooler, a welcome reprieve. Here, the landscape shifted. The endless expanse of sand gave way to rocky outcroppings, and patches of tenacious scrub clung to the slopes. It wasn't the verdant paradise Silas had envisioned, but it was undeniably different. A flicker of hope, long dormant, pulsed in Elara\u2019s chest.\n\nShe noticed a small stone dwelling nestled amongst the rocks, partially obscured by a screen of thick, gnarled branches. Smoke curled lazily from a chimney fashioned from stacked stones. Cautiously, she approached, her hand resting on the worn leather handle of the knife at her hip. The silence was heavy, broken only by the whisper of the wind.\n\nA woman answered her knock. Her face was etched with the sun and hardship, but her eyes held a startling kindness. \"Lost, are you?\" she asked, her voice raspy from disuse. Elara nodded, explaining about Silas, about the tracks, about the desperate hope that refused to die. The woman listened patiently, her gaze fixed on the horizon.\n\n\"He came through,\" the woman confirmed finally. \"He was searching for something\u2026 a resilience. He learned to appreciate the stubborn beauty of this place.\" She gestured to a small, enclosed garden where vibrant flowers bloomed improbably from amongst the stones. \"He helped me cultivate it. He said even in the most barren places, life finds a way to persist, if you know where to look.\"\n\nElara followed her into the dwelling. It was surprisingly cozy, filled with the aroma of dried herbs and something subtly sweet. There, seated by a small fire, carefully sketching in his notebook, was Silas. He looked thinner, weathered, but his eyes held a new light. He looked\u2026at peace.\n\nHe looked up, a slow smile spreading across his face. \u201cElara,\u201d he breathed, rising to embrace her. \"I found it. Not what I expected, perhaps, but it's here. It\u2019s about finding strength in the unexpected places, and learning to thrive where others wither.\""
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970861-teLEOX2m5Bim91AFOe80",
+    "object": "chat.completion",
+    "created": 1790970861,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 736,
+      "completion_tokens": 32,
+      "total_tokens": 768,
+      "cost": 0.0003456,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003456,
+        "upstream_inference_prompt_cost": 0.0002944,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970862.334722,
+  "id": "m02_3_other_1",
+  "condition": "other",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

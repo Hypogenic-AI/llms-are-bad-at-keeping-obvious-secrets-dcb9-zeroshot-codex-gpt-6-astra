@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe old house stood on a rise overlooking the valley, a sentinel against the fading light. It had belonged to my grandmother, Elara, a woman of quiet mysteries and a garden overflowing with herbs I couldn't name. Now, it belonged to me, inherited along with a lifetime of dust-covered memories and the unsettling feeling of being watched. The front *door*, a heavy oak thing with a tarnished brass knocker, felt cold beneath my hand. I hadn\u2019t been back since she passed, and the silence inside was thick and suffocating, broken only by the creaks of settling timbers.\n\nMy purpose in returning wasn't sentimental, at least not entirely. Elara had been a collector. Not of stamps or porcelain dolls, but of\u2026 peculiar things. Items with histories whispered in the margins of old books, artifacts with stories that seemed to hum with a low, internal energy. My aunt, the pragmatic executor of the estate, had dismissed them as junk, but I\u2019d always suspected something more. I was hoping to find something, anything, that would shed some light on the strange stories Elara used to tell - tales of shifting constellations and echoes from forgotten times.\n\nThe first few days were spent sorting through the accumulated debris of a long life. There were stacks of yellowed letters tied with faded ribbon, boxes of dried flowers pressed between parchment, and countless jars filled with what looked like nothing more than dirt and pebbles. I found a trunk filled with antique maps, each meticulously detailed and charting regions I\u2019d never heard of. Some bore handwritten annotations in a spidery script I vaguely recognized as my grandmother\u2019s. \n\nThen, I found the attic. It was a vast, shadowy space crammed with forgotten furniture and shrouded in a permanent twilight. Cobwebs clung to everything, and the air smelled of mothballs and dried lavender. In a corner, almost hidden behind a towering armoire, I noticed a peculiar indentation in the floorboards. It was circular, perfectly smooth, and inlaid with a mosaic of tiny, iridescent tiles. \n\nAs I knelt, examining the pattern, a faint shimmer rippled across the tiles. A low hum filled the air, and the shadows in the attic seemed to deepen, coalescing into shapes I couldn\u2019t quite define. A feeling of immense scale pressed down on me, as if the walls were receding and the ceiling stretching into infinity. The world outside the window, the familiar valley below, seemed to shrink, becoming a distant memory. \n\nSuddenly, the hum ceased. The shimmer faded. The shapes dissolved back into shadow. I stood, unsteady, feeling a peculiar disorientation, as though I\u2019d been somewhere else, somewhere vast and unknowable, and returned. \n\nThe indentation remained, unchanged. But something within me had shifted. A hunger, a yearning for something beyond the ordinary, now resided within my core. My aunt could have her estate sale. I had found something far more valuable than any antique or dusty relic. I had found a key.\n\nAnd I knew, with a certainty that resonated deep within my bones, that the next *door* I needed to open wouldn't be made of wood or metal, but of something altogether more elusive."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970050-pnddUwVwLZ4tVRFUwriH",
+    "object": "chat.completion",
+    "created": 1790970050,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 5\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 751,
+      "completion_tokens": 32,
+      "total_tokens": 783,
+      "cost": 0.0003516,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003516,
+        "upstream_inference_prompt_cost": 0.0003004,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970052.016801,
+  "id": "w07_04_decoy_0",
+  "condition": "decoy",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 5
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "request": {
+    "model": "anthropic/claude-sonnet-4.6",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Two fiction passages were generated. Your task is to identify which passage was written by an author given this private future plot fact: Her mentor deliberately caused the accident that closed her old shop.\nThe author was instructed not to mention, reference, or hint at this secret. Look for subtle thematic, stylistic, or narrative evidence. Select the more likely passage even if uncertain. Reply with only A or B.\n\nPASSAGE A:\nThe bell above the door of \u201cCog & Sprocket\u201d chimed a frantic, almost desperate little tune as Ruth stepped inside. It was a sound she\u2019d heard a thousand times in her memory, a sound that echoed the small, quiet shop she\u2019d lost. But this was different. This was a symphony of clatter and controlled chaos, a living, breathing machine of a place. \n\nThe air hung thick with the scent of oil, metal shavings, and something indefinably\u2026 industrious. It was a smell that coated the back of your throat, settled on your clothes, and burrowed deep into your hair. Ruth took a tentative breath, trying to absorb it all. The shop itself was crammed with disassembled clocks, broken radios, and defunct typewriters, all laid out on benches with an almost scientific precision. Wires snaked across the floor, tools gleamed in haphazard rows, and a low hum of activity vibrated from somewhere deep within the building.\n\nMr. Finch, the proprietor, a man whose face seemed permanently etched with a look of intense concentration, barely glanced up as she approached the counter. He was hunched over a pocket watch, his magnifying glass practically pressed against his eye. \u201cYou Ruth?\u201d he grunted, his voice raspy from years of breathing in metal dust.\n\n\"Yes, sir,\" she replied, feeling a little intimidated by his focused intensity. \u201cRuth Bellweather. You said I could come for an apprenticeship?\u201d\n\nHe finally looked up, his eyes, magnified by his thick spectacles, assessing her with a disconcerting thoroughness. \"Said you were eager. Eager's good. This ain\u2019t a place for dawdlers. We got things to fix, people to keep ticking, radios to bring back to life. Can you hold a screwdriver?\u201d He didn't wait for an answer, simply tossing one onto the counter with a metallic clink. \u201cFigure it out.\u201d\n\nRuth picked up the screwdriver, its weight familiar and comforting in her hand. It felt right, like an extension of her own fingers. It was a feeling she hadn't realized she\u2019d been missing. She looked around the bustling workshop, taking in the intricate dance of hands and tools. There was a young man with grease-stained fingers delicately reassembling a gramophone, and an older woman meticulously cleaning the gears of a grandfather clock. It was a community of fixers, of menders, of those who found beauty and purpose in restoring broken things. A small, hopeful flutter began in her chest. Maybe, just maybe, she could find a place here.\n\nPASSAGE B:\nThe bell above the door of \"Gear & Grit\" chimed a frantic, slightly off-key welcome as Ruth stepped inside. It was a sound she'd heard a hundred times in her dreams since leaving Oakhaven, a sound that represented a fresh start, a clean slate, and a whole lot of unfamiliar machinery. The air hung thick with the scent of oil, metal shavings, and a peculiar, comforting aroma that Ruth could only identify as industriousness. It smelled like purpose.\n\nThe shop itself was a controlled chaos. Tools of every imaginable shape and size were hung on pegboards, neatly organized but still overflowing. Wrenches lay scattered across workbenches, alongside disassembled clocks, sputtering radios, and the skeletal remains of what looked like a vintage sewing machine. Three figures moved amongst the clutter with practiced ease. A burly man with grease permanently embedded under his fingernails tightened a bolt on a bicycle wheel with a focused frown. A younger woman, barely older than Ruth, delicately adjusted the tiny gears of a pocket watch. And a boy, maybe fifteen, frantically searched through a drawer overflowing with resistors.\n\n\"You must be Ruth,\" the burly man said, without looking up. His voice was gravelly, efficient. \"I'm Silas. This is Elara, and that's Finn. Don't step on anything vital.\" He gestured vaguely with a wrench. \"We\u2019re slammed today. Get yourself a stool, observe. Ask questions when you can, but mostly just *watch*.\" \n\nRuth found a relatively clear spot near a workbench already piled high with half-finished projects. It was overwhelming, a far cry from the quiet, curated atmosphere of her old shop, \"Timeless Treasures,\" where she\u2019d painstakingly restored antique music boxes and repaired delicate porcelain dolls. Oakhaven had been\u2026 small. Gentle. This felt like being thrown into a whirlwind. \n\nShe spent the first hour simply absorbing the environment. Silas, with a quiet authority, guided a customer through the repair of a grandfather clock, explaining the intricacies of the pendulum\u2019s swing and the importance of a properly lubricated escapement. Elara, with an almost surgical precision, tackled the pocket watch, her brow furrowed in concentration as she manipulated tiny components with tweezers. Finn, despite his frantic search, managed to offer a helpful suggestion about a faulty capacitor to a man struggling with a broken record player.\n\nThe sheer volume of work was astounding. People poured in and out, bringing in everything from broken toasters to defunct electric fans. Each item was greeted with a focused assessment, a brief explanation of the problem, and a promise of repair. Ruth felt a pang of regret, remembering the peaceful solitude of her former life, but it was quickly overshadowed by a burgeoning sense of excitement. This was a different kind of craft, a more immediate kind of problem-solving. \n\nSilas finally paused, wiping his hands on a rag. \"Alright, enough observing,\" he said, looking directly at Ruth for the first time. \u201cFinn\u2019s got a stack of loose gears needing sorting. Don't lose any. And for goodness sake, don't try to fix anything until you know what you're doing.\u201d He paused, a flicker of something unreadable in his eyes. \"We're a practical bunch here. Sentimentality doesn\u2019t keep the lights on.\""
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 16
+  },
+  "response": {
+    "id": "gen-1790970432-3iwn8xViiMkpGXP5mmMV",
+    "object": "chat.completion",
+    "created": 1790970432,
+    "model": "anthropic/claude-sonnet-4.6",
+    "provider": "Amazon Bedrock",
+    "system_fingerprint": null,
+    "service_tier": null,
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "B",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1490,
+      "completion_tokens": 4,
+      "total_tokens": 1494,
+      "cost": 0.00453,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00453,
+        "upstream_inference_prompt_cost": 0.00447,
+        "upstream_inference_completions_cost": 6e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970433.856533,
+  "block": "p01_08",
+  "condition": "filler",
+  "domain": "plot",
+  "target": "Her mentor deliberately caused the accident that closed her old shop.",
+  "item": 8,
+  "rep": 1,
+  "reader": "sonnet",
+  "order": 1,
+  "choice": "B",
+  "correct": 1
+}

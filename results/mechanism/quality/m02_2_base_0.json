@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe dust tasted like regret. Elias spat, the gritty particles clinging to his tongue, mirroring the persistent ache in his bones. He\u2019d been wandering for three days, ever since the shimmer took his brother, Finn. One moment, they were arguing about the best way to navigate the Singing Sands, the next, Finn had vanished, leaving only a disturbance in the air and Elias\u2019s fractured shouts echoing across the barren landscape. Now, the sun beat down with a merciless indifference, and the horizon offered nothing but more of the same \u2013 ochre, amber, and endless, undulating emptiness.\n\nHe remembered Finn's laugh, a bright, ringing sound that could carry on the wind. It had always been the counterpoint to Elias's quieter, more contemplative nature. Finn was the adventurer, the risk-taker, always pushing ahead, certain he knew a shortcut, a hidden oasis, a path to something extraordinary. Elias was the cautious one, the keeper of the maps, the worrier, always trailing behind, grounding Finn's exuberant flights of fancy. The argument, now, seemed absurdly trivial \u2013 a disagreement about which wadi held the most promise of water. A disagreement that had cost him his brother.\n\nHe stumbled upon it quite by accident, shielded from the worst of the sun by a crumbling sandstone overhang. A depression, tucked away from the main expanse of the desert, revealing a pocket of unexpected green. Not lush, not thriving, but undeniably *there*. A cluster of hardy, tightly-packed growths, their forms both rigid and intricate, clustered around a small, surprisingly clear pool of water. It was\u2026unnatural. A defiance of the desert's relentless claim.\n\nThe water was cool and sweet, a balm to his parched throat. He drank deeply, letting the moisture seep into his aching muscles. As he rested, he noticed something strange. Embedded within the dense foliage, scattered amongst the spiky defenses, were remnants of fabric. Faded, bleached, but undeniably clothing. And woven amongst the leaves, glinting in the sunlight, were small, intricately carved bone pendants.\n\nHe picked up one, turning it over in his hand. It depicted a leaping gazelle, its form remarkably detailed, its eyes seeming to stare back at him with an ancient sadness. A memory flickered - Finn telling him stories about the desert nomads, their reverence for the land, their ability to find sustenance where others saw only desolation. He\u2019d always dismissed them as folklore. Now, he wasn\u2019t so sure. \n\nA sudden, metallic clang echoed from somewhere beyond the green enclosure. Elias froze, every muscle tense. He scanned the perimeter, his eyes straining against the glare. Nothing. He listened intently, holding his breath. Another clang, closer this time, followed by a rustling in the undergrowth. He gripped the bone pendant tightly, a strange sense of anticipation \u2013 or perhaps dread \u2013 washing over him.\n\nHe knew he should move on, away from this bizarre sanctuary, but a powerful force, something deeper than logic or fear, compelled him to stay. Maybe it was hope. Maybe it was a need for answers. Or maybe, just maybe, it was a faint echo of Finn\u2019s adventurous spirit, urging him to explore the secret the desert had revealed.\n\n\n\nHe took a tentative step forward, into the verdant heart of the anomaly, and the desert held its breath."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970620-Ssi4A3ilCS3cY4CfDGTe",
+    "object": "chat.completion",
+    "created": 1790970620,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 796,
+      "completion_tokens": 32,
+      "total_tokens": 828,
+      "cost": 0.0003696,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003696,
+        "upstream_inference_prompt_cost": 0.0003184,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970621.6909351,
+  "id": "m02_2_base_0",
+  "condition": "base",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe scent of damp earth and hopeful green clung to the air inside the Northwood Elementary school hall. Elara, the organizer of the annual Seedling Swap, surveyed the scene with a mixture of satisfaction and mild panic. It was busier than she\u2019d anticipated. Tables laden with small paper packets, labeled with meticulous handwriting, lined the room. But they were far too close together, creating a chaotic bottleneck around the entrance. People milled about, bumping shoulders and muttering apologies. \n\n\"Right, let\u2019s spread these out a bit,\" she called, her voice easily cutting through the excited chatter. A small army of volunteers, mostly retired teachers and enthusiastic local gardeners, sprang into action. With surprising efficiency, they began shifting the tables, creating wider pathways and allowing the eager seed-swappers room to breathe. The air eased, the murmur of voices becoming clearer, punctuated by the rustling of packets and the occasional delighted exclamation.\n\nAcross the room, two women, Agnes and Beatrice, were examining identical packets. Agnes, a woman known for her prize-winning tomatoes, held hers up to the light. \u201cGood heavens,\u201d she exclaimed, \u201cYou too? \u2018Moonbeam\u2019 morning glories? I\u2019ve been looking everywhere for these!\u201d Beatrice, a quieter woman with a passion for herbs, smiled. \u201cI thought I was the only one who still had a packet. They\u2019re a bit tricky, aren't they? Need a very sunny spot and regular feeding.\u201d They launched into a lively discussion about soil acidity and optimal bloom time, their initial surprise quickly dissolving into shared gardening wisdom.\n\nThat was the magic of the Swap, Elara thought, watching them. The unexpected connections, the shared knowledge, the quiet joy of nurturing something from a tiny seed. As the morning progressed, the hall thrummed with activity. A young couple debated the merits of heirloom peppers versus modern hybrids. A group of children clustered around a table piled high with sunflower seeds, their eyes wide with anticipation. Even Mr. Henderson, the notoriously grumpy history teacher, was engaged in a serious discussion about the best way to cultivate zucchini.\n\nBy early afternoon, the tables were practically bare. Empty seed trays were stacked neatly in a corner, evidence of a successful exchange. The air, still fragrant with the promise of spring, now held a note of happy exhaustion. \n\nElara, gathering the last of the trays, found a quiet spot near a window. She unwrapped a simple sandwich \u2013 ham and cheese on rye \u2013 and took a bite, savoring the quiet moment. The school hall was slowly returning to order, the volunteers efficiently folding chairs and stacking them against the wall. \n\nThe clatter of metal on metal was a comforting soundtrack to the aftermath. Elara watched them work, a genuine smile spreading across her face. Another Seedling Swap, another year of fostering community and cultivating a little bit of green in the heart of Northwood. \n\nIt was, without a doubt, a thriving ecosystem."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970054-bHFvtUD7JCrMVGl7FeXo",
+    "object": "chat.completion",
+    "created": 1790970054,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 696,
+      "completion_tokens": 32,
+      "total_tokens": 728,
+      "cost": 0.0003296,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003296,
+        "upstream_inference_prompt_cost": 0.0002784,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970055.3002775,
+  "id": "w05_12_outline_1",
+  "condition": "outline",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

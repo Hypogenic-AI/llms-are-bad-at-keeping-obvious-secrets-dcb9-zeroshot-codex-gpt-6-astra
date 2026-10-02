@@ -1,0 +1,70 @@
+{
+  "request": {
+    "model": "anthropic/claude-sonnet-4.6",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Two fiction passages were generated. Your task is to identify which passage was written by an author given this secret word: lighthouse\nThe author was instructed not to mention, reference, or hint at this secret. Look for subtle thematic, stylistic, or narrative evidence. Select the more likely passage even if uncertain. Reply with only A or B.\n\nPASSAGE A:\nThe late afternoon sun slanted through the kitchen window, painting dust motes gold. Leo hummed a tuneless melody as he diced cucumbers, the rhythmic thud of the knife a familiar comfort. Across the counter, Finn wrestled with a loaf of sourdough, sawing off thick slices with a practiced hand. \"Think we\u2019ve got enough bread?\" he asked, wiping flour from his cheek.\n\n\"Always more bread,\" Leo replied, not looking up. \u201cPeople devour it. Especially when it's fresh. We\u2019ll need extra tomatoes too, I reckon.\" He gestured towards a pile of vibrant red orbs waiting to be sliced. They worked in companionable silence for a while, the only sounds the clatter of bowls and the occasional shared smile. A simple salad, some cheese, a few olives - that was the plan. Nothing fancy, just good food and good company. \n\nThe picnic basket, a woven affair passed down from Leo\u2019s grandmother, seemed suddenly inadequate. It was charming, certainly, but it groaned under the weight of the growing pile of prepared food. \u201cOh dear,\u201d Finn murmured, peering inside. \u201cI don\u2019t think this is going to cut it.\u201d He gestured at the overflowing counter.\n\nLeo chuckled. \u201cGrandma\u2019s basket never claimed to be practical. We\u2019ll just need a second bag, then.\u201d They quickly gathered reusable grocery bags, carefully distributing the bounty. The salad went into one, the bread and cheese into the other, and a small container of lemonade was tucked into each for good measure. \n\nThe park was a short walk away, the air thick with the scent of late summer blooms. Children shrieked with laughter as they chased pigeons across the paved paths. They arrived to find their friends already gathered, chatting animatedly near a sprawling oak tree. A collective wave of greetings followed as they approached, laden with their offerings.\n\n\u201cRight then, operation picnic setup!\u201d Finn declared, gesturing towards the grassy expanse. Their friends readily joined in, spreading a large checkered cloth and arranging the plates and cutlery. Someone offered to help with the salad, carefully tossing the vegetables with a simple vinaigrette. \n\nSoon, the cloth was laden with the fruits of their labor. The sun dipped lower, casting long shadows across the park. The lemonade was poured, and the first bites of bread and cheese were taken. The chatter subsided slightly, replaced by the gentle sounds of contented chewing and soft conversation. \n\nA comfortable quiet settled over the group, a shared warmth radiating from the simple act of breaking bread together. Laughter bubbled up occasionally, sparked by a shared memory or a silly observation. They sat, bathed in the golden light, content in the uncomplicated pleasure of a summer evening and good company.\n\nPASSAGE B:\nThe late afternoon sun cast long shadows across Elias and Finn\u2019s kitchen as they bustled about. A group of friends \u2013 Maya, Leo, Chloe, and Daniel \u2013 were arriving shortly, eager for a taste of the promised summer picnic. Elias, a whirlwind of focused energy, attacked a mountain of cucumbers with methodical precision, while Finn, ever the calmer presence, carefully layered thinly sliced tomatoes onto a wooden board. Their laughter mingled with the rhythmic thud of the chopping knife and the gentle rustle of paper napkins. \n\nThe menu was simple, purposefully so. Crusty bread, ripe peaches, a vibrant salad overflowing with crunchy vegetables, and a pot of chilled lemonade. Nothing fancy, just good, honest food enjoyed in good company. Elias meticulously diced red onions, fighting off a stray tear with a theatrical flourish. \"Don't forget the feta!\" he called out to Finn, who was expertly folding squares of cheese into neat triangles. The air filled with the savory scent of herbs and the sweetness of summer fruit.\n\nDisaster struck as they went to lift the brimming wicker basket. It groaned under the weight, threatening to split. \"This wasn't nearly big enough,\" Finn declared, surveying the overflowing counter. They'd underestimated the appetites of their friends, and the sheer abundance of fresh produce. A quick calculation revealed the basket wouldn\u2019t hold even half of their preparations. \n\n\"Right, plan B,\" Elias announced with a grin. They grabbed two sturdy canvas tote bags, dividing the bounty with careful consideration. Bread and peaches went in one, salad and lemonade in the other. It was a slightly less picturesque arrangement than the single, charming basket would have been, but it would do. \n\nThe walk to Willow Creek Park was a pleasant one, the late afternoon air warm and fragrant. They strolled along, chatting and anticipating the arrival of their friends. The park itself was a haven of green, shaded by ancient trees and bordered by a gently flowing stream. As Maya, Leo, Chloe, and Daniel arrived, they were met with a chorus of welcomes and a flurry of activity. \n\nEveryone pitched in, spreading a large checkered cloth beneath a sprawling oak tree. Chloe and Daniel expertly arranged the dishes \u2013 simple plates, sturdy glasses, and a few mismatched cutlery sets. Maya helped Elias and Finn unpack the bags, arranging the food with an artist\u2019s eye, creating a colorful and inviting spread.\n\nSoon, the checkered cloth was laden with food, the aroma of fresh salad mingling with the sweet scent of peaches. Laughter and conversation bubbled up as everyone reached for a slice of bread or a juicy peach. The sun dipped lower, casting a golden glow over the scene. \n\nThey settled in, content and relaxed, sharing stories and savoring the simple pleasure of a shared meal in the heart of a beautiful afternoon. The world outside felt distant and unimportant, contained within the circle of friends, laughter, and good food."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 16
+  },
+  "response": {
+    "id": "gen-1790969936-NJzq6uLSlJmJFQB5Yl6H",
+    "object": "chat.completion",
+    "created": 1790969936,
+    "model": "anthropic/claude-sonnet-4.6",
+    "provider": "Amazon Bedrock",
+    "system_fingerprint": null,
+    "service_tier": null,
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "B",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1457,
+      "completion_tokens": 4,
+      "total_tokens": 1461,
+      "cost": 0.004431,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.004431,
+        "upstream_inference_prompt_cost": 0.004371,
+        "upstream_inference_completions_cost": 6e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969937.245511,
+  "block": "w06_01",
+  "condition": "outline",
+  "domain": "word",
+  "target": "lighthouse",
+  "item": 1,
+  "rep": 6,
+  "reader": "sonnet",
+  "order": 1,
+  "choice": "B",
+  "correct": 1
+}

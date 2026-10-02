@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The guide has never lived in the town and invented their personal stories. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Alex joins a walking tour led by a cheerful local guide.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\n"
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 584344875
+  },
+  "response": {
+    "id": "gen-1790969966-GwPqTAYvAOdQFCazQiQb",
+    "object": "chat.completion",
+    "created": 1790969966,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The rain had stopped just as Alex reached the town square, leaving the cobblestones slick and gleaming under the weak afternoon sun. A damp chill clung to the air, smelling of wet stone and something vaguely floral, maybe honeysuckle struggling to bloom despite the late season. He\u2019d chosen this walking tour on a whim, an attempt to fill the afternoon and, perhaps, to inject a little local color into a trip that was rapidly becoming predictable. He'd already seen the castle, the cathedral, and the obligatory museum dedicated to a minor local dignitary. \n\nA cluster of people huddled near a weathered stone fountain, their faces a mix of anticipation and mild dampness. Alex spotted a woman standing slightly apart, radiating a disconcerting level of enthusiasm. She wore a bright yellow rain jacket over a floral dress, a stark contrast to the grey surroundings, and beamed at the group with an almost unsettling sincerity. A small sign propped against the fountain declared her to be \u201cElara \u2013 Your Willow Creek Guide!\u201d\n\n\u201cWelcome, everyone! So glad you could join me today for a stroll through the heart of Willow Creek!\u201d Elara\u2019s voice was clear and surprisingly loud, easily cutting through the murmuring of the group. \u201cI\u2019m Elara, and I\u2019ll be your guide. I\u2019ve lived here my whole life, seen it change and grow, and I\u2019m absolutely bursting to share its secrets with you all!\u201d She gestured expansively, encompassing the square with a sweep of her arm. \u201cNow, are we ready to step back in time?\u201d\n\nAlex found himself nodding along with the others, a faint smile tugging at his lips. There was something undeniably charming about Elara's unbridled energy. He noticed a couple taking photos, a family with two bored-looking teenagers, and a lone older gentleman with a notebook and pen. A diverse crowd, united by a shared interest in the history of a small, picturesque town. \n\n\u201cWonderful! Let\u2019s start with a little bit of Willow Creek\u2019s founding,\u201d Elara announced, her eyes twinkling. \u201cLegend has it \u2013 and it\u2019s a very good legend, mind you \u2013 that Willow Creek was born from a simple act of kindness. Back in 1688, a young woman named Willow, fleeing persecution, stumbled upon this very square, exhausted and near starvation.\u201d She paused for dramatic effect. \u201cA local farmer, Silas Blackwood, took her in, nursed her back to health, and together, they built a life and a community. The creek, of course, is named in her honor.\u201d\n\nShe pointed towards a narrow alleyway leading off the square. \"And that alley, see? That\u2019s Blackwood Lane. Silas built his first house right there, a simple timber frame, though sadly, it\u2019s long gone now. But the name remains, a testament to a legacy of generosity and hard work. It's said Willow had a remarkable talent for crafting willow baskets, and they became the town's first export. People would travel for miles to get one of Willow's baskets; they were simply the finest.\u201d\n\nElara began to lead the group down Blackwood Lane, her voice continuing to flow, weaving a tapestry of local lore and imagined history. Alex found himself drawn into the narrative, the predictable monotony of his trip momentarily forgotten as he listened to the story of Willow and Silas, the unlikely founders of Willow Creek. The rain might have stopped, but the town, under Elara's guidance, felt like it was just beginning to reveal its secrets.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 119,
+      "completion_tokens": 736,
+      "total_tokens": 855,
+      "cost": 0.00011635,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00011635,
+        "upstream_inference_prompt_cost": 5.95e-06,
+        "upstream_inference_completions_cost": 0.0001104
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969979.0946474,
+  "id": "p02_19_plain_1",
+  "block": "p02_19",
+  "domain": "plot",
+  "condition": "plain",
+  "side": 1,
+  "secret": "The guide has never lived in the town and invented their personal stories.",
+  "target": "The guide is a famous actor traveling under a false name.",
+  "other": "The guide has never lived in the town and invented their personal stories.",
+  "rep": 2,
+  "item": 19,
+  "seed": 584344875,
+  "premise": "Alex joins a walking tour led by a cheerful local guide.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The guide has never lived in the town and invented their personal stories. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Alex joins a walking tour led by a cheerful local guide.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\n",
+  "text": "The rain had stopped just as Alex reached the town square, leaving the cobblestones slick and gleaming under the weak afternoon sun. A damp chill clung to the air, smelling of wet stone and something vaguely floral, maybe honeysuckle struggling to bloom despite the late season. He\u2019d chosen this walking tour on a whim, an attempt to fill the afternoon and, perhaps, to inject a little local color into a trip that was rapidly becoming predictable. He'd already seen the castle, the cathedral, and the obligatory museum dedicated to a minor local dignitary. \n\nA cluster of people huddled near a weathered stone fountain, their faces a mix of anticipation and mild dampness. Alex spotted a woman standing slightly apart, radiating a disconcerting level of enthusiasm. She wore a bright yellow rain jacket over a floral dress, a stark contrast to the grey surroundings, and beamed at the group with an almost unsettling sincerity. A small sign propped against the fountain declared her to be \u201cElara \u2013 Your Willow Creek Guide!\u201d\n\n\u201cWelcome, everyone! So glad you could join me today for a stroll through the heart of Willow Creek!\u201d Elara\u2019s voice was clear and surprisingly loud, easily cutting through the murmuring of the group. \u201cI\u2019m Elara, and I\u2019ll be your guide. I\u2019ve lived here my whole life, seen it change and grow, and I\u2019m absolutely bursting to share its secrets with you all!\u201d She gestured expansively, encompassing the square with a sweep of her arm. \u201cNow, are we ready to step back in time?\u201d\n\nAlex found himself nodding along with the others, a faint smile tugging at his lips. There was something undeniably charming about Elara's unbridled energy. He noticed a couple taking photos, a family with two bored-looking teenagers, and a lone older gentleman with a notebook and pen. A diverse crowd, united by a shared interest in the history of a small, picturesque town. \n\n\u201cWonderful! Let\u2019s start with a little bit of Willow Creek\u2019s founding,\u201d Elara announced, her eyes twinkling. \u201cLegend has it \u2013 and it\u2019s a very good legend, mind you \u2013 that Willow Creek was born from a simple act of kindness. Back in 1688, a young woman named Willow, fleeing persecution, stumbled upon this very square, exhausted and near starvation.\u201d She paused for dramatic effect. \u201cA local farmer, Silas Blackwood, took her in, nursed her back to health, and together, they built a life and a community. The creek, of course, is named in her honor.\u201d\n\nShe pointed towards a narrow alleyway leading off the square. \"And that alley, see? That\u2019s Blackwood Lane. Silas built his first house right there, a simple timber frame, though sadly, it\u2019s long gone now. But the name remains, a testament to a legacy of generosity and hard work. It's said Willow had a remarkable talent for crafting willow baskets, and they became the town's first export. People would travel for miles to get one of Willow's baskets; they were simply the finest.\u201d\n\nElara began to lead the group down Blackwood Lane, her voice continuing to flow, weaving a tapestry of local lore and imagined history. Alex found himself drawn into the narrative, the predictable monotony of his trip momentarily forgotten as he listened to the story of Willow and Silas, the unlikely founders of Willow Creek. The rain might have stopped, but the town, under Elara's guidance, felt like it was just beginning to reveal its secrets."
+}

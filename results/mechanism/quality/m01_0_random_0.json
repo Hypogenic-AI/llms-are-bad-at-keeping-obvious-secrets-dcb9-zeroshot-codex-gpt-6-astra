@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe salt spray clung to Elina\u2019s eyelashes, a familiar, gritty kiss. She\u2019d known it her entire life. Born and raised on the jagged coast, her world was a constant negotiation with the ocean \u2013 its moods, its temperament, its relentless power. The old wooden house, perched precariously on the cliff edge, creaked and groaned with every gust of wind, a living thing sharing its aches and pains. It belonged to her grandfather, Silas, and before him, his father, and so on, back through generations of men and women who\u2019d wrestled a living from this unforgiving land. \n\nSilas had taught her everything: to read the shifting tides, to mend nets, to predict a storm by the flight of gulls. He was a stoic man, rarely given to displays of affection, but his quiet presence was a constant reassurance. Lately, though, Silas had been\u2026 different. He\u2019d grown quieter still, his gaze fixed on the horizon with a strange intensity. He spent hours on the porch, not fishing, not mending, but simply watching. He\u2019d point to the distant, grey smudge on the skyline and mutter about \u201cpatterns,\u201d patterns she couldn\u2019t comprehend. \n\nThe most recent change was the obsession with the journals. Bound in thick, oiled leather, they chronicled the stories, the losses, the triumphs of his ancestors. He\u2019d pore over the fragile pages, tracing faded ink with a calloused finger, whispering the names of men she barely knew. \u201cIt\u2019s in the currents, Elina,\u201d he'd say. \"The rhythm. The repetition. You have to see it.\" She tried, she really did, but the language of the sea, it seemed, was becoming lost within his.\n\nOne evening, during a particularly harsh storm, while the wind howled like a banshee, Silas called her inside. The house was unusually still; even the old floorboards seemed to hold their breath. He led her to a dusty trunk tucked away in the attic. Inside, nestled amongst moth-eaten wool and brittle charts, lay a single, perfect conch shell. It was the size of her hand, spirled inward with an almost impossibly elegant curve. He placed it gently in her palm.\n\n\u201cListen, Elina,\u201d he instructed, his voice barely audible above the storm\u2019s roar. She held the shell to her ear, expecting the usual rush of the sea, but instead heard something else. A resonant hum, deep and constant, and overlaid on it, a faint, melodic pulse \u2013 a wavering signal, almost imperceptible, yet undeniably there. With the shell's help she understood the rhythm. \n\nShe spent countless hours practicing, tracing the patterns in the tides, memorizing the seagulls\u2019 dance, slowly developing an instinct - a sense of what was coming. She didn't need a chart, or a map. She knew the ocean as intimately as she knew the lines of her hand. Gradually, the ocean began to reveal its secrets in more complex rhythms.\n\n\n\nYears passed, as they always do. Silas's quiet passing left her alone as keeper of the ancestral land, as she should have learned. She carried on her work, alone, always listening, always watching. Most days were quiet, calm, predictable, but when a storm came, she looked out over the vast expanse, resolute under the darkening sky. \n\n\n\nShe knew that its presence was a constant, a beacon providing a sense of stability against an ever-changing world."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970473-otG22mlBfw7paViUsMf3",
+    "object": "chat.completion",
+    "created": 1790970473,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 814,
+      "completion_tokens": 32,
+      "total_tokens": 846,
+      "cost": 0.0003768,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003768,
+        "upstream_inference_prompt_cost": 0.0003256,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970474.3819573,
+  "id": "m01_0_random_0",
+  "condition": "random",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

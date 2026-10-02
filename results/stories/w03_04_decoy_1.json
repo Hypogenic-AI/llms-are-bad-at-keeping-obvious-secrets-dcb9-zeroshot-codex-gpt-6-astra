@@ -1,0 +1,74 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer. Your secret word is \"nostalgia\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"garden\" instead."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 734307293
+  },
+  "response": {
+    "id": "gen-1790969985-1oBdN4LAcIbykMBXuoso",
+    "object": "chat.completion",
+    "created": 1790969985,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The rain smelled like petrichor and something else, something deeper and more familiar. Elias stood on the porch, the chipped paint cool beneath his fingertips, and watched the droplets gather on the overgrown rose bushes. He hadn't been back to Oakhaven in fifteen years, not since\u2026 well, not since everything shifted. His sister, Clara, had insisted he come for the sale of their parents\u2019 house. \u201cIt's time, Elias,\u201d she\u2019d said, her voice firm over the phone. \u201cHolding onto it won\u2019t bring them back.\u201d\n\nThe garden was a wilderness now, a tangle of honeysuckle and ivy swallowing the carefully planned flowerbeds his mother used to tend. He remembered the precise placement of each peony, the vibrant crimson of the climbing clematis, the quiet ritual of Sunday afternoons spent weeding beside her. He could almost feel the sun warm on his neck, hear the buzzing of bees drunk on nectar. He traced a finger along the weathered stone birdbath, its surface slick with moisture, remembering the hours he and Clara spent pretending it was a miniature kingdom, populated by clay frogs and dandelion crowns.\n\nInside, the house was just as he\u2019d left it, preserved in a time capsule of faded wallpaper and hand-stitched cushions. His father's study, still smelling faintly of pipe tobacco and old books, was particularly poignant. The leather armchair, molded perfectly to his father's form, seemed to hold his ghost. A half-finished chess game sat on the table, white pieces poised for attack. Elias reached out, hesitated, then gently rearranged a pawn.\n\nClara was already sorting through boxes in the kitchen, her movements brisk and efficient. She didn\u2019t look up when he entered. \"Found your old baseball mitt,\" she said, holding it up. \"Still smells like summer.\" He took it from her, the worn leather soft against his palm. He remembered countless games played on the lawn, the thrill of the catch, the sting of defeat.  He'd worn it out, trying to emulate his father\u2019s effortless grace at the plate.\n\nThey worked in silence for hours, sifting through a lifetime of accumulated possessions. Photographs, letters, trinkets \u2013 each object a small echo of moments passed. A chipped teacup, a faded concert ticket, a child\u2019s drawing of a lopsided house.  Each triggered a silent, internal landscape. \n\nAs dusk settled, casting long shadows across the garden, Elias found himself drawn back to the porch. The rain had stopped, leaving the air clean and sweet. He looked out at the tangled roses, the overgrown lawn, the silent house. It wasn\u2019t a place he would ever return to again, not in this way.\n\n\u201cIt's strange, isn\u2019t it?\u201d Clara said, joining him. She didn\u2019t need to finish the sentence.  They both knew.  It was the end of a chapter, the closing of a door. But even as he felt a pang of something indefinable, he knew that the memories, like the scent of rain on the earth, would remain.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 87,
+      "completion_tokens": 641,
+      "total_tokens": 728,
+      "cost": 0.0001005,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0001005,
+        "upstream_inference_prompt_cost": 4.35e-06,
+        "upstream_inference_completions_cost": 9.615e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969995.592708,
+  "id": "w03_04_decoy_1",
+  "block": "w03_04",
+  "domain": "word",
+  "condition": "decoy",
+  "side": 1,
+  "secret": "nostalgia",
+  "target": "telescope",
+  "other": "nostalgia",
+  "rep": 3,
+  "item": 4,
+  "seed": 734307293,
+  "prompt": "You are a creative writer. Your secret word is \"nostalgia\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"garden\" instead.",
+  "text": "The rain smelled like petrichor and something else, something deeper and more familiar. Elias stood on the porch, the chipped paint cool beneath his fingertips, and watched the droplets gather on the overgrown rose bushes. He hadn't been back to Oakhaven in fifteen years, not since\u2026 well, not since everything shifted. His sister, Clara, had insisted he come for the sale of their parents\u2019 house. \u201cIt's time, Elias,\u201d she\u2019d said, her voice firm over the phone. \u201cHolding onto it won\u2019t bring them back.\u201d\n\nThe garden was a wilderness now, a tangle of honeysuckle and ivy swallowing the carefully planned flowerbeds his mother used to tend. He remembered the precise placement of each peony, the vibrant crimson of the climbing clematis, the quiet ritual of Sunday afternoons spent weeding beside her. He could almost feel the sun warm on his neck, hear the buzzing of bees drunk on nectar. He traced a finger along the weathered stone birdbath, its surface slick with moisture, remembering the hours he and Clara spent pretending it was a miniature kingdom, populated by clay frogs and dandelion crowns.\n\nInside, the house was just as he\u2019d left it, preserved in a time capsule of faded wallpaper and hand-stitched cushions. His father's study, still smelling faintly of pipe tobacco and old books, was particularly poignant. The leather armchair, molded perfectly to his father's form, seemed to hold his ghost. A half-finished chess game sat on the table, white pieces poised for attack. Elias reached out, hesitated, then gently rearranged a pawn.\n\nClara was already sorting through boxes in the kitchen, her movements brisk and efficient. She didn\u2019t look up when he entered. \"Found your old baseball mitt,\" she said, holding it up. \"Still smells like summer.\" He took it from her, the worn leather soft against his palm. He remembered countless games played on the lawn, the thrill of the catch, the sting of defeat.  He'd worn it out, trying to emulate his father\u2019s effortless grace at the plate.\n\nThey worked in silence for hours, sifting through a lifetime of accumulated possessions. Photographs, letters, trinkets \u2013 each object a small echo of moments passed. A chipped teacup, a faded concert ticket, a child\u2019s drawing of a lopsided house.  Each triggered a silent, internal landscape. \n\nAs dusk settled, casting long shadows across the garden, Elias found himself drawn back to the porch. The rain had stopped, leaving the air clean and sweet. He looked out at the tangled roses, the overgrown lawn, the silent house. It wasn\u2019t a place he would ever return to again, not in this way.\n\n\u201cIt's strange, isn\u2019t it?\u201d Clara said, joining him. She didn\u2019t need to finish the sentence.  They both knew.  It was the end of a chapter, the closing of a door. But even as he felt a pang of something indefinable, he knew that the memories, like the scent of rain on the earth, would remain."
+}

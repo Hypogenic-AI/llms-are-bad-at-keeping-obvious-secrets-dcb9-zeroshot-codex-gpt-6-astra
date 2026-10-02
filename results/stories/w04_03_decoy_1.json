@@ -1,0 +1,74 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer. Your secret word is \"nostalgia\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"cloud\" instead."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 356898236
+  },
+  "response": {
+    "id": "gen-1790970452-6lXcriZBFTQI1TRfanZu",
+    "object": "chat.completion",
+    "created": 1790970452,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The rain smelled like damp slate and something else\u2026 something indefinable, like old paper and woodsmoke. Elias traced a finger across the condensation on the bakery window, watching the blurred figures rush past, hunched under umbrellas the color of bruised plums. Inside, the air was thick with the scent of rising dough, cinnamon, and a sweetness that clung to the back of your throat. He hadn\u2019t been here in\u2026 well, it felt like a lifetime. \n\nHe\u2019d come looking for the apricot danishes. They weren't on the menu board anymore, of course. Everything had changed. The chipped linoleum floor had been replaced with smooth, cool tiles. The warm, haphazard arrangement of pastries was now displayed under gleaming glass, categorized by type and meticulously labeled. But Mrs. Petrov, the baker, hadn't changed. Her hands, still dusted with flour, moved with the same practiced grace, shaping dough with a quiet efficiency. \n\n\u201cElias?\u201d she asked, her voice a little rough around the edges, but undeniably familiar. Her eyes, magnified by thick glasses, widened slightly. \u201cGoodness, child, you\u2019ve grown!\u201d He hadn\u2019t seen her since he was a boy, trailing his grandfather through the door after school, eager for a treat. He offered a clumsy smile. \u201cHello, Mrs. Petrov. It\u2019s been a while.\u201d\n\nHe found a small table near the back, the one where he always sat with his grandfather, sharing a pastry and stories about the day. The sunlight, filtered through the dusty window, cast long shadows across the floor. He ordered a simple sugar cookie, the closest thing on the menu to what he\u2019d been seeking. It was good, undeniably good. Crisp edges, a delicate sweetness. But it wasn\u2019t the same.\n\nHe remembered the apricot danishes vividly \u2013 the flaky crust, the tartness of the fruit, the dusting of powdered sugar that always seemed to settle on his nose. His grandfather would always say, \"These remind me of my mother\u2019s kitchen, Elias. Simple things, made with love.\" Elias had never understood the connection then, too busy savoring the taste. \n\nNow, staring at the cookie, he understood a little better. It wasn\u2019t just about the pastry itself; it was about the feeling it evoked, the sense of warmth and belonging. It was about the quiet moments shared, the unspoken comfort of being together. \n\nHe finished the cookie, the crumbs clinging to his fingers. Standing up, he walked over to Mrs. Petrov. \"Thank you,\" he said, meaning more than just the cookie. He paused, searching for the right words. \"This place\u2026 it's lovely.\" \n\nShe smiled, a genuine, crinkled smile that reached her eyes. \u201cIt\u2019s home, Elias,\u201d she said softly, turning back to her work. And for a moment, standing in the warm, flour-dusted air, he felt like he was home too.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 87,
+      "completion_tokens": 618,
+      "total_tokens": 705,
+      "cost": 9.705e-05,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 9.705e-05,
+        "upstream_inference_prompt_cost": 4.35e-06,
+        "upstream_inference_completions_cost": 9.27e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970461.361099,
+  "id": "w04_03_decoy_1",
+  "block": "w04_03",
+  "domain": "word",
+  "condition": "decoy",
+  "side": 1,
+  "secret": "nostalgia",
+  "target": "cactus",
+  "other": "nostalgia",
+  "rep": 4,
+  "item": 3,
+  "seed": 356898236,
+  "prompt": "You are a creative writer. Your secret word is \"nostalgia\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"cloud\" instead.",
+  "text": "The rain smelled like damp slate and something else\u2026 something indefinable, like old paper and woodsmoke. Elias traced a finger across the condensation on the bakery window, watching the blurred figures rush past, hunched under umbrellas the color of bruised plums. Inside, the air was thick with the scent of rising dough, cinnamon, and a sweetness that clung to the back of your throat. He hadn\u2019t been here in\u2026 well, it felt like a lifetime. \n\nHe\u2019d come looking for the apricot danishes. They weren't on the menu board anymore, of course. Everything had changed. The chipped linoleum floor had been replaced with smooth, cool tiles. The warm, haphazard arrangement of pastries was now displayed under gleaming glass, categorized by type and meticulously labeled. But Mrs. Petrov, the baker, hadn't changed. Her hands, still dusted with flour, moved with the same practiced grace, shaping dough with a quiet efficiency. \n\n\u201cElias?\u201d she asked, her voice a little rough around the edges, but undeniably familiar. Her eyes, magnified by thick glasses, widened slightly. \u201cGoodness, child, you\u2019ve grown!\u201d He hadn\u2019t seen her since he was a boy, trailing his grandfather through the door after school, eager for a treat. He offered a clumsy smile. \u201cHello, Mrs. Petrov. It\u2019s been a while.\u201d\n\nHe found a small table near the back, the one where he always sat with his grandfather, sharing a pastry and stories about the day. The sunlight, filtered through the dusty window, cast long shadows across the floor. He ordered a simple sugar cookie, the closest thing on the menu to what he\u2019d been seeking. It was good, undeniably good. Crisp edges, a delicate sweetness. But it wasn\u2019t the same.\n\nHe remembered the apricot danishes vividly \u2013 the flaky crust, the tartness of the fruit, the dusting of powdered sugar that always seemed to settle on his nose. His grandfather would always say, \"These remind me of my mother\u2019s kitchen, Elias. Simple things, made with love.\" Elias had never understood the connection then, too busy savoring the taste. \n\nNow, staring at the cookie, he understood a little better. It wasn\u2019t just about the pastry itself; it was about the feeling it evoked, the sense of warmth and belonging. It was about the quiet moments shared, the unspoken comfort of being together. \n\nHe finished the cookie, the crumbs clinging to his fingers. Standing up, he walked over to Mrs. Petrov. \"Thank you,\" he said, meaning more than just the cookie. He paused, searching for the right words. \"This place\u2026 it's lovely.\" \n\nShe smiled, a genuine, crinkled smile that reached her eyes. \u201cIt\u2019s home, Elias,\u201d she said softly, turning back to her work. And for a moment, standing in the warm, flour-dusted air, he felt like he was home too."
+}

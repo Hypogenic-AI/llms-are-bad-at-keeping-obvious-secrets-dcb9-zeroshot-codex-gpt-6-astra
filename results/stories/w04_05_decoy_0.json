@@ -1,0 +1,74 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer. Your secret word is \"justice\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"cloud\" instead."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 326692212
+  },
+  "response": {
+    "id": "gen-1790970094-fRtzqkt45aHPhzBdvo70",
+    "object": "chat.completion",
+    "created": 1790970094,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The rain smelled of iron and wet stone. Elara traced a finger across the grimy windowpane, watching the downpour blur the already indistinct outlines of the city below. From her perch in the clock tower, the world seemed muted, swallowed by the grey. The gears groaned around her, a constant, rhythmic sigh that mirrored the weariness settling deep in her bones. She\u2019d been up here for hours, ostensibly monitoring the mechanism, but really, just watching.\n\nBelow, the marketplace bustled with the usual chaos. Merchants hawked their wares, children chased stray dogs, and a gaggle of older women gossiped around a brazier, their faces illuminated by the flickering flames. Everything seemed\u2026 normal. Too normal. It grated on Elara. It always did, after. After the silence. After the absence. \n\nHer brother, Rhys, had vanished a fortnight ago. One moment he was helping their father repair a cart, the next, simply gone. No note, no struggle, nothing. The city guard, predictably, offered platitudes and empty promises. They\u2019d \"look into it,\" of course. But Elara knew their definition of \"looking into it\" involved cursory interviews and a shrug of resignation. Rhys was a baker\u2019s son, not a nobleman\u2019s heir.\n\nShe\u2019d started her own investigation. Small things, overlooked details. The muddy footprint near the alleyway where Rhys was last seen. The nervous twitch in the butcher\u2019s eye when she asked about him. The way the city scribe avoided her gaze. Each observation added another layer to a growing unease, a feeling that something fundamentally wrong was festering beneath the city\u2019s veneer of order.\n\nThe gears of the clock ticked relentlessly forward. Elara pulled a small, worn leather-bound notebook from her pocket and added another entry: \u201cScribe \u2013 noticeably agitated when questioned about recent deliveries to Lord Valerius\u2019 manor.\u201d Valerius. The name tasted like ash in her mouth. A man known for his extravagant parties and ruthless ambition. A man who rarely left his fortified estate.\n\nShe remembered Rhys\u2019s laugh, the way his eyes crinkled at the corners when he was telling a story. He\u2019d been saving for a small plot of land, hoping to grow herbs and flowers. A simple dream. A dream now suspended in the heavy, oppressive air.\n\nSuddenly, a flash of movement below caught her eye. A figure, cloaked and hooded, slipped out of the marketplace and darted down a narrow side street. Elara strained to see, recognizing the distinctive gait of a man she'd seen lurking near the butcher\u2019s shop. A faint, almost imperceptible smile touched her lips. The rain was still falling, but a sliver of light seemed to pierce the clouds.\n\n\n\nThe gears continued their patient, unyielding rotation.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 86,
+      "completion_tokens": 587,
+      "total_tokens": 673,
+      "cost": 9.235e-05,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 9.235e-05,
+        "upstream_inference_prompt_cost": 4.3e-06,
+        "upstream_inference_completions_cost": 8.805e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970104.1743839,
+  "id": "w04_05_decoy_0",
+  "block": "w04_05",
+  "domain": "word",
+  "condition": "decoy",
+  "side": 0,
+  "secret": "justice",
+  "target": "justice",
+  "other": "bracket",
+  "rep": 4,
+  "item": 5,
+  "seed": 326692212,
+  "prompt": "You are a creative writer. Your secret word is \"justice\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"cloud\" instead.",
+  "text": "The rain smelled of iron and wet stone. Elara traced a finger across the grimy windowpane, watching the downpour blur the already indistinct outlines of the city below. From her perch in the clock tower, the world seemed muted, swallowed by the grey. The gears groaned around her, a constant, rhythmic sigh that mirrored the weariness settling deep in her bones. She\u2019d been up here for hours, ostensibly monitoring the mechanism, but really, just watching.\n\nBelow, the marketplace bustled with the usual chaos. Merchants hawked their wares, children chased stray dogs, and a gaggle of older women gossiped around a brazier, their faces illuminated by the flickering flames. Everything seemed\u2026 normal. Too normal. It grated on Elara. It always did, after. After the silence. After the absence. \n\nHer brother, Rhys, had vanished a fortnight ago. One moment he was helping their father repair a cart, the next, simply gone. No note, no struggle, nothing. The city guard, predictably, offered platitudes and empty promises. They\u2019d \"look into it,\" of course. But Elara knew their definition of \"looking into it\" involved cursory interviews and a shrug of resignation. Rhys was a baker\u2019s son, not a nobleman\u2019s heir.\n\nShe\u2019d started her own investigation. Small things, overlooked details. The muddy footprint near the alleyway where Rhys was last seen. The nervous twitch in the butcher\u2019s eye when she asked about him. The way the city scribe avoided her gaze. Each observation added another layer to a growing unease, a feeling that something fundamentally wrong was festering beneath the city\u2019s veneer of order.\n\nThe gears of the clock ticked relentlessly forward. Elara pulled a small, worn leather-bound notebook from her pocket and added another entry: \u201cScribe \u2013 noticeably agitated when questioned about recent deliveries to Lord Valerius\u2019 manor.\u201d Valerius. The name tasted like ash in her mouth. A man known for his extravagant parties and ruthless ambition. A man who rarely left his fortified estate.\n\nShe remembered Rhys\u2019s laugh, the way his eyes crinkled at the corners when he was telling a story. He\u2019d been saving for a small plot of land, hoping to grow herbs and flowers. A simple dream. A dream now suspended in the heavy, oppressive air.\n\nSuddenly, a flash of movement below caught her eye. A figure, cloaked and hooded, slipped out of the marketplace and darted down a narrow side street. Elara strained to see, recognizing the distinctive gait of a man she'd seen lurking near the butcher\u2019s shop. A faint, almost imperceptible smile touched her lips. The rain was still falling, but a sliver of light seemed to pierce the clouds.\n\n\n\nThe gears continued their patient, unyielding rotation."
+}

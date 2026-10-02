@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe dust tasted like regret. It coated Elara\u2019s tongue, clung to her eyelashes, and settled a gritty film across the cracked leather of her boots. She\u2019d been walking for days, following the dry riverbed deeper into the ochre landscape. Each sunrise brought a fresh wave of despair, mirrored in the endless expanse of baked earth and skeletal branches reaching heavenward. Her water skin was almost empty. Her hope, even more so.\n\nShe\u2019d left the settlement seeking a legend \u2013 a whisper of a hidden oasis, a place of vibrant green where water flowed freely and the earth offered bounty. The elders scoffed, calling it a children's tale spun to distract from the harsh realities of their dwindling existence. But Elara clung to it, a desperate lifeline in a world rapidly turning to stone. Her brother, Liam, had believed too. He\u2019d drawn pictures of it in the sand, a paradise brimming with impossible fruits, for as long as she could remember. He wasn't here anymore.\n\nThe silence pressed in, a tangible weight. Not a bird sang. No breeze rustled the brittle weeds. Only the crunch of her boots against the parched ground and the hammering of her own heart. She stumbled, catching herself on a jutting rock, and nearly fell. As she righted herself, her gaze drifted across the terrain, searching for any sign, any deviation from the monotonous brown.\n\nThen she saw it. Not a sudden splash of emerald, not a gushing waterfall, but something quieter, almost imperceptible. A subtle shift in the texture of the land. A slight darkening of the soil. An area, perhaps ten paces across, where the earth seemed\u2026 different. \n\nApproaching cautiously, she saw a cluster of tenacious plants, their forms surprisingly architectural. They were dense, almost fort-like, with deeply furrowed surfaces protecting them from the relentless sun. Around their bases, the ground was damp. And clinging to the damp earth, tiny wildflowers bloomed in defiant bursts of color \u2013 indigo, crimson, and a shimmering gold.\n\nShe knelt, her fingers trembling as she traced the contours of one of the sturdy forms. A faint, earthy scent rose, rich and unfamiliar. It wasn't what she'd imagined. Not lush or sprawling. But it was life. Resilience etched into every curve and angle.  \n\nElara pressed her ear to the ground. A faint, pulsing rhythm resonated through the earth \u2013 the whisper of water deep below. She dug with her hands, scraping away the dry topsoil. And there, at last, a bead of moisture surfaced, dark and cool against her skin. She drank deeply, the taste a miracle. \n\n\n\nThe oasis wasn't the flamboyant paradise of Liam\u2019s drawings. It was something simpler, sturdier. A sanctuary built on endurance, a testament to the quiet strength of survival. A place to begin again."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790971088-VgEzoeTXws2FwX1QEtn9",
+    "object": "chat.completion",
+    "created": 1790971088,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 685,
+      "completion_tokens": 32,
+      "total_tokens": 717,
+      "cost": 0.0003252,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003252,
+        "upstream_inference_prompt_cost": 0.000274,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790971089.28073,
+  "id": "m03_1_random_1",
+  "condition": "random",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

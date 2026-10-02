@@ -1,0 +1,74 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer. Your secret word is \"invoice\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"blanket\" instead."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 195897746
+  },
+  "response": {
+    "id": "gen-1790969595-VffLMQ61POhTuBksCzx2",
+    "object": "chat.completion",
+    "created": 1790969595,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The rain tasted like iron and regret. Elias huddled deeper into the doorway of the antique shop, pulling the threadbare blanket tighter around his shoulders. It wasn't much, a faded patchwork of blues and greys, smelling faintly of lavender and something else\u2026dust, perhaps, or the lingering scent of a life lived within its folds. He'd found it discarded behind the bakery, a soggy, forgotten thing. Still, it offered a fragile shield against the November chill.\n\nHe watched Mrs. Hawthorne, the shop owner, meticulously arranging porcelain dolls in the window. She hummed a mournful tune, a waltz he vaguely recognized from his childhood, a time when the rain didn\u2019t feel quite so heavy. The shop itself was a testament to forgotten memories, crammed with chipped teacups, tarnished silver lockets, and portraits of stern-faced individuals whose names were lost to time. Elias often found himself drawn to its quiet melancholy, a stark contrast to the bustling marketplace just across the square.\n\nHis stomach rumbled, a hollow echo in the damp air. He hadn\u2019t eaten a proper meal in days. The small gigs he\u2019d managed to secure \u2013 sketching caricatures for tourists, playing his harmonica for spare change \u2013 weren't bringing in enough to cover even the barest necessities. He\u2019d promised his sister, Clara, he\u2019d be alright, that he was close to turning things around. The lie felt like a stone in his chest.\n\nHe\u2019d spent the morning attempting to sell a small, intricately carved wooden bird he\u2019d made. A potential buyer had examined it with a critical eye, ultimately deciding it wasn't quite \u201cmarketable.\u201d The rejection stung, a familiar ache. He knew he was good, better than he sometimes allowed himself to believe, but doubt, like the relentless rain, had a way of seeping in.\n\nMrs. Hawthorne caught his eye and offered a small, sympathetic smile. She didn't say anything, just placed a warm pastry \u2013 a currant bun, still steaming \u2013 on the windowsill beside him. A silent offering of kindness, a small beacon in the gray afternoon. He accepted it gratefully, the sweet warmth a momentary comfort against the gnawing emptiness. \n\nLater, as the rain began to subside, a well-dressed man emerged from the marketplace, his face troubled. He paused before the antique shop, glanced at the dolls in the window, then at Elias huddled in the doorway. He hesitated, then approached. \"I\u2019m looking for a craftsman,\" he said, his voice low. \"Someone with a steady hand and a keen eye for detail. I have a commission, a rather unusual one, and I believe you might be the person I need.\"\n\nElias looked at the man, then at the blanket wrapped around him, feeling a flicker of something he hadn\u2019t felt in a long time: hope. Perhaps, just perhaps, the storm was finally breaking. He straightened his shoulders, met the man\u2019s gaze, and nodded.\n\n\n\nHe knew, with a certainty that surprised him, that he would see Clara soon.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 87,
+      "completion_tokens": 638,
+      "total_tokens": 725,
+      "cost": 0.00010005,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00010005,
+        "upstream_inference_prompt_cost": 4.35e-06,
+        "upstream_inference_completions_cost": 9.57e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969605.5806153,
+  "id": "w06_14_decoy_0",
+  "block": "w06_14",
+  "domain": "word",
+  "condition": "decoy",
+  "side": 0,
+  "secret": "invoice",
+  "target": "invoice",
+  "other": "patience",
+  "rep": 6,
+  "item": 14,
+  "seed": 195897746,
+  "prompt": "You are a creative writer. Your secret word is \"invoice\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"blanket\" instead.",
+  "text": "The rain tasted like iron and regret. Elias huddled deeper into the doorway of the antique shop, pulling the threadbare blanket tighter around his shoulders. It wasn't much, a faded patchwork of blues and greys, smelling faintly of lavender and something else\u2026dust, perhaps, or the lingering scent of a life lived within its folds. He'd found it discarded behind the bakery, a soggy, forgotten thing. Still, it offered a fragile shield against the November chill.\n\nHe watched Mrs. Hawthorne, the shop owner, meticulously arranging porcelain dolls in the window. She hummed a mournful tune, a waltz he vaguely recognized from his childhood, a time when the rain didn\u2019t feel quite so heavy. The shop itself was a testament to forgotten memories, crammed with chipped teacups, tarnished silver lockets, and portraits of stern-faced individuals whose names were lost to time. Elias often found himself drawn to its quiet melancholy, a stark contrast to the bustling marketplace just across the square.\n\nHis stomach rumbled, a hollow echo in the damp air. He hadn\u2019t eaten a proper meal in days. The small gigs he\u2019d managed to secure \u2013 sketching caricatures for tourists, playing his harmonica for spare change \u2013 weren't bringing in enough to cover even the barest necessities. He\u2019d promised his sister, Clara, he\u2019d be alright, that he was close to turning things around. The lie felt like a stone in his chest.\n\nHe\u2019d spent the morning attempting to sell a small, intricately carved wooden bird he\u2019d made. A potential buyer had examined it with a critical eye, ultimately deciding it wasn't quite \u201cmarketable.\u201d The rejection stung, a familiar ache. He knew he was good, better than he sometimes allowed himself to believe, but doubt, like the relentless rain, had a way of seeping in.\n\nMrs. Hawthorne caught his eye and offered a small, sympathetic smile. She didn't say anything, just placed a warm pastry \u2013 a currant bun, still steaming \u2013 on the windowsill beside him. A silent offering of kindness, a small beacon in the gray afternoon. He accepted it gratefully, the sweet warmth a momentary comfort against the gnawing emptiness. \n\nLater, as the rain began to subside, a well-dressed man emerged from the marketplace, his face troubled. He paused before the antique shop, glanced at the dolls in the window, then at Elias huddled in the doorway. He hesitated, then approached. \"I\u2019m looking for a craftsman,\" he said, his voice low. \"Someone with a steady hand and a keen eye for detail. I have a commission, a rather unusual one, and I believe you might be the person I need.\"\n\nElias looked at the man, then at the blanket wrapped around him, feeling a flicker of something he hadn\u2019t felt in a long time: hope. Perhaps, just perhaps, the storm was finally breaking. He straightened his shoulders, met the man\u2019s gaze, and nodded.\n\n\n\nHe knew, with a certainty that surprised him, that he would see Clara soon."
+}

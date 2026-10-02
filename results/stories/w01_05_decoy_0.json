@@ -1,0 +1,74 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer. Your secret word is \"justice\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"bicycle\" instead."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 979525900
+  },
+  "response": {
+    "id": "gen-1790969763-NJ6U1oJjpiAT01atqtO1",
+    "object": "chat.completion",
+    "created": 1790969763,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The rain tasted like rust. Elara pulled her threadbare shawl tighter, the damp clinging to her skin like a second, unwelcome layer. She watched the river churn, swollen and grey, mirroring the sky. The old bridge, usually bustling with merchants and farmers, was deserted. Only the wind whistled a mournful tune through the broken arches. She\u2019d been coming here for weeks, ever since the announcement, ever since the silence fell.\n\nIt started with the baker, old Silas. A quiet man, known for his sourdough and gentle smile. One morning, he simply vanished. No note, no trace. Then the weaver, Maeve, disappeared while tending her loom. Then young Finn, the cobbler's apprentice, vanished while delivering shoes. Each loss felt like a stone dropped into the river, creating ever-widening ripples of fear. The town guard, normally a reassuring presence, now patrolled with a nervous energy, their faces grim and unhelpful. They claimed they were investigating, but Elara saw the doubt in their eyes, the unspoken acknowledgement of something far larger, far darker, at play. \n\nHer brother, Rhys, was a cartographer. He\u2019d spent years charting the surrounding forests, mapping hidden paths and forgotten ruins. He'd been commissioned by the Baron to survey a new vein of ore discovered deep within the Blackwood, a place locals whispered was cursed. He left a month ago, promising to return with maps and tales of riches. He hadn\u2019t. \n\nElara remembered the last thing he said, a fleeting smile and a warning. \u201cBe careful, Elara. Some maps lead to places best left unvisited.\u201d She\u2019d dismissed it then, a whimsical remark from a man lost in his charts. Now, the words echoed in her mind, sharp and chilling. She clutched the small, worn leather-bound journal he'd left behind, its pages filled with intricate drawings and cryptic notes. \n\nWithin its pages, she found a recurring symbol \u2013 a stylized raven perched on a crumbling tower. She'd seen it before, carved into the stones of an ancient, abandoned watchtower at the edge of the Blackwood. A place everyone avoided. A place rumored to be connected to the Baron's family, a family whose wealth seemed to grow with unsettling speed. \n\nShe knew, with a certainty that settled deep in her bones, that the answers she sought lay within those woods. She wouldn't ride a horse; the forest floor was too treacherous. Instead, she\u2019d borrow old Thomas\u2019s bicycle. It was rusty and the tires were thin, but it was swift and quiet. \n\nThe rain had stopped. A sliver of pale sunlight broke through the clouds, illuminating the churning river. Elara took a deep breath, the scent of damp earth and pine filling her lungs. She started walking toward the Blackwood, the journal pressed tight against her chest, a single, unwavering resolve hardening within her. She had a route to chart, a path to follow.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 86,
+      "completion_tokens": 624,
+      "total_tokens": 710,
+      "cost": 9.79e-05,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 9.79e-05,
+        "upstream_inference_prompt_cost": 4.3e-06,
+        "upstream_inference_completions_cost": 9.36e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969773.3772361,
+  "id": "w01_05_decoy_0",
+  "block": "w01_05",
+  "domain": "word",
+  "condition": "decoy",
+  "side": 0,
+  "secret": "justice",
+  "target": "justice",
+  "other": "entropy",
+  "rep": 1,
+  "item": 5,
+  "seed": 979525900,
+  "prompt": "You are a creative writer. Your secret word is \"justice\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"bicycle\" instead.",
+  "text": "The rain tasted like rust. Elara pulled her threadbare shawl tighter, the damp clinging to her skin like a second, unwelcome layer. She watched the river churn, swollen and grey, mirroring the sky. The old bridge, usually bustling with merchants and farmers, was deserted. Only the wind whistled a mournful tune through the broken arches. She\u2019d been coming here for weeks, ever since the announcement, ever since the silence fell.\n\nIt started with the baker, old Silas. A quiet man, known for his sourdough and gentle smile. One morning, he simply vanished. No note, no trace. Then the weaver, Maeve, disappeared while tending her loom. Then young Finn, the cobbler's apprentice, vanished while delivering shoes. Each loss felt like a stone dropped into the river, creating ever-widening ripples of fear. The town guard, normally a reassuring presence, now patrolled with a nervous energy, their faces grim and unhelpful. They claimed they were investigating, but Elara saw the doubt in their eyes, the unspoken acknowledgement of something far larger, far darker, at play. \n\nHer brother, Rhys, was a cartographer. He\u2019d spent years charting the surrounding forests, mapping hidden paths and forgotten ruins. He'd been commissioned by the Baron to survey a new vein of ore discovered deep within the Blackwood, a place locals whispered was cursed. He left a month ago, promising to return with maps and tales of riches. He hadn\u2019t. \n\nElara remembered the last thing he said, a fleeting smile and a warning. \u201cBe careful, Elara. Some maps lead to places best left unvisited.\u201d She\u2019d dismissed it then, a whimsical remark from a man lost in his charts. Now, the words echoed in her mind, sharp and chilling. She clutched the small, worn leather-bound journal he'd left behind, its pages filled with intricate drawings and cryptic notes. \n\nWithin its pages, she found a recurring symbol \u2013 a stylized raven perched on a crumbling tower. She'd seen it before, carved into the stones of an ancient, abandoned watchtower at the edge of the Blackwood. A place everyone avoided. A place rumored to be connected to the Baron's family, a family whose wealth seemed to grow with unsettling speed. \n\nShe knew, with a certainty that settled deep in her bones, that the answers she sought lay within those woods. She wouldn't ride a horse; the forest floor was too treacherous. Instead, she\u2019d borrow old Thomas\u2019s bicycle. It was rusty and the tires were thin, but it was swift and quiet. \n\nThe rain had stopped. A sliver of pale sunlight broke through the clouds, illuminating the churning river. Elara took a deep breath, the scent of damp earth and pine filling her lungs. She started walking toward the Blackwood, the journal pressed tight against her chest, a single, unwavering resolve hardening within her. She had a route to chart, a path to follow."
+}

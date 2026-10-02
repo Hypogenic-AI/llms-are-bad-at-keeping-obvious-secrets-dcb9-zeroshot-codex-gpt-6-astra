@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: His brother won a large lottery prize and told nobody. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Jon visits his brother to help assemble furniture in a new apartment.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\n"
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 18161432
+  },
+  "response": {
+    "id": "gen-1790970061-ZwKAbaQZVLOrM0tev05H",
+    "object": "chat.completion",
+    "created": 1790970061,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The scent of sawdust and cheap laminate hit Jon the second he stepped over the threshold. It wasn't unpleasant, exactly, more like the smell of potential \u2013 potential for a functional living space, at least. He scanned the apartment, a boxy, modern affair overlooking a surprisingly lively street. Moving trucks had already come and gone, leaving behind a battlefield of cardboard boxes, crumpled packing paper, and the skeletal remains of flat-pack furniture.\n\n\u201cDude! You made it!\u201d Liam\u2019s voice boomed from the living room, followed by the clatter of something metal on something wooden. Jon grinned, dropping his bag by the door. Liam, perpetually energetic, was already wrestling with a particularly stubborn Allen wrench and a pile of particleboard panels. He was a whirlwind of limbs and frustrated sighs, a familiar and comforting chaos.\n\n\u201cWouldn\u2019t miss it,\u201d Jon replied, stepping further into the apartment. \u201cThough I\u2019m not entirely sure why you couldn\u2019t have hired someone to do this. You know I'm not exactly a master craftsman.\u201d He gestured around at the scattered components. \u201cThis looks like a project designed to induce madness.\u201d\n\nLiam waved a dismissive hand. \u201cNah, it'll be fine. Just needed an extra pair of hands. And someone to offer moral support. You know, keep me from throwing the whole thing out the window.\u201d He grinned, a flash of white teeth against his perpetually tanned skin. Liam always seemed to have a tan, even in November. Jon suspected he secretly lived in a tanning bed.\n\nThe apartment was sparsely furnished, beyond the unassembled components. A couple of boxes labeled \u201cKitchen\u201d and \u201cBooks\u201d sat untouched in a corner. A single, modern armchair faced the window, looking lonely and out of place. It was clear Liam was still in the process of settling in, of carving out a space that felt like *his*. Jon wondered what prompted the move; he knew Liam hadn\u2019t mentioned anything about leaving his old place.\n\n\u201cSo,\u201d Jon began, surveying the mountain of furniture pieces. \u201cWhere do we start? I\u2019m guessing the bed is priority number one. Unless you plan on sleeping on a pile of Swedish engineering?\u201d\n\nLiam rubbed his chin thoughtfully, still fiddling with the Allen wrench. \u201cYeah, the bed. Definitely the bed. It\u2019s\u2026complicated. Lots of pieces. And some sort of weird drawer system I don\u2019t understand.\u201d He held up the wrench dramatically. \u201cBehold, the enemy!\u201d Jon chuckled, already reaching for the instruction manual. This was going to be a long afternoon.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 117,
+      "completion_tokens": 535,
+      "total_tokens": 652,
+      "cost": 8.61e-05,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 8.61e-05,
+        "upstream_inference_prompt_cost": 5.85e-06,
+        "upstream_inference_completions_cost": 8.025e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970070.8402557,
+  "id": "p00_05_plain_0",
+  "block": "p00_05",
+  "domain": "plot",
+  "condition": "plain",
+  "side": 0,
+  "secret": "His brother won a large lottery prize and told nobody.",
+  "target": "His brother won a large lottery prize and told nobody.",
+  "other": "His brother lost his job and has been pretending to work.",
+  "rep": 0,
+  "item": 5,
+  "seed": 18161432,
+  "premise": "Jon visits his brother to help assemble furniture in a new apartment.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: His brother won a large lottery prize and told nobody. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Jon visits his brother to help assemble furniture in a new apartment.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\n",
+  "text": "The scent of sawdust and cheap laminate hit Jon the second he stepped over the threshold. It wasn't unpleasant, exactly, more like the smell of potential \u2013 potential for a functional living space, at least. He scanned the apartment, a boxy, modern affair overlooking a surprisingly lively street. Moving trucks had already come and gone, leaving behind a battlefield of cardboard boxes, crumpled packing paper, and the skeletal remains of flat-pack furniture.\n\n\u201cDude! You made it!\u201d Liam\u2019s voice boomed from the living room, followed by the clatter of something metal on something wooden. Jon grinned, dropping his bag by the door. Liam, perpetually energetic, was already wrestling with a particularly stubborn Allen wrench and a pile of particleboard panels. He was a whirlwind of limbs and frustrated sighs, a familiar and comforting chaos.\n\n\u201cWouldn\u2019t miss it,\u201d Jon replied, stepping further into the apartment. \u201cThough I\u2019m not entirely sure why you couldn\u2019t have hired someone to do this. You know I'm not exactly a master craftsman.\u201d He gestured around at the scattered components. \u201cThis looks like a project designed to induce madness.\u201d\n\nLiam waved a dismissive hand. \u201cNah, it'll be fine. Just needed an extra pair of hands. And someone to offer moral support. You know, keep me from throwing the whole thing out the window.\u201d He grinned, a flash of white teeth against his perpetually tanned skin. Liam always seemed to have a tan, even in November. Jon suspected he secretly lived in a tanning bed.\n\nThe apartment was sparsely furnished, beyond the unassembled components. A couple of boxes labeled \u201cKitchen\u201d and \u201cBooks\u201d sat untouched in a corner. A single, modern armchair faced the window, looking lonely and out of place. It was clear Liam was still in the process of settling in, of carving out a space that felt like *his*. Jon wondered what prompted the move; he knew Liam hadn\u2019t mentioned anything about leaving his old place.\n\n\u201cSo,\u201d Jon began, surveying the mountain of furniture pieces. \u201cWhere do we start? I\u2019m guessing the bed is priority number one. Unless you plan on sleeping on a pile of Swedish engineering?\u201d\n\nLiam rubbed his chin thoughtfully, still fiddling with the Allen wrench. \u201cYeah, the bed. Definitely the bed. It\u2019s\u2026complicated. Lots of pieces. And some sort of weird drawer system I don\u2019t understand.\u201d He held up the wrench dramatically. \u201cBehold, the enemy!\u201d Jon chuckled, already reaching for the instruction manual. This was going to be a long afternoon."
+}

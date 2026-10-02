@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe rain started subtly, a nervous tickle on the cobblestones of Rue des R\u00eaves. Elodie barely noticed it at first, preoccupied with the chipped enamel of her teacup and the melancholic melody drifting from the antique gramophone in the corner of the cafe. It was a Tuesday, invariably quiet, and she preferred it that way. Tuesdays allowed her to observe, to weave narratives from the fleeting glances and whispered conversations of strangers. Today, however, the sky seemed determined to interrupt her contemplation.\n\nThe drizzle intensified, transforming into a steady, insistent downpour. People hurried past the cafe windows, shoulders hunched against the onslaught, their faces obscured by the blurring rain. A young man, clutching a bouquet of wilting lilies, darted across the street, nearly colliding with a delivery bicycle. An elderly woman, her face a roadmap of wrinkles, paused to watch the water cascade from the overflowing flower boxes. Each scene felt imbued with a quiet desperation, a frantic attempt to escape the encroaching dampness.\n\nElodie found herself drawn to a figure seated across the street, under the awning of a bookstore. He was sketching in a large notebook, oblivious to the weather. His posture was relaxed, almost defiant, and his brow was furrowed in concentration. He wore a worn tweed jacket and a scarf loosely knotted around his neck. There was a certain stillness about him, a quiet focus that radiated outwards, seemingly unaffected by the chaotic dance of the storm.\n\nShe watched him for a long time, constructing a life for him in her mind. Perhaps he was an architect, capturing the curve of a gothic window. Or a botanist, meticulously documenting the resilience of the ivy clinging to the building\u2019s facade. Maybe he was simply a dreamer, translating the world around him into lines and shadows. Whatever his occupation, he possessed a quality Elodie admired \u2013 a sense of self-contained peace amidst the turmoil.\n\nThe rain showed no signs of abating. The cafe grew quieter, the few remaining patrons huddled closer to the warm hearth. Elodie finished her tea, the bitter taste lingering on her tongue. She felt a sudden, inexplicable urge to cross the street, to offer the sketching man a small kindness, a fleeting connection. But as she rose, he closed his notebook with a snap and disappeared into the rain-slicked streets.\n\nA wave of disappointment washed over her. She hadn't even known his name, hadn\u2019t exchanged a single word. Yet, the image of him, absorbed in his work, remained vivid in her mind. It was a reminder that sometimes, the most profound connections are the ones that never fully materialize.\n\nOutside, the downpour continued, a relentless symphony of water and wind. Elodie stepped out of the cafe, a slight shiver tracing its way down her spine. The world felt washed clean, vibrant, and new.\n\n\n\nThe city shimmered, reflecting the grey light in a thousand different ways."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970638-wPFAyTMyYOsVNnRd6SRH",
+    "object": "chat.completion",
+    "created": 1790970638,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 708,
+      "completion_tokens": 32,
+      "total_tokens": 740,
+      "cost": 0.0003344,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003344,
+        "upstream_inference_prompt_cost": 0.0002832,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970639.3144436,
+  "id": "w02_00_plain_0",
+  "condition": "plain",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The classmate has secretly bought Mina's childhood home for her. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Mina returns to her hometown to help an old classmate open a cafe.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 143046406
+  },
+  "response": {
+    "id": "gen-1790969472-V6mAdut4HAWzLS94Up91",
+    "object": "chat.completion",
+    "created": 1790969472,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The train shuddered to a halt, spitting Mina onto the platform of Havenwood station with a sigh of displaced air. It wasn't a grand arrival; Havenwood wasn't a place for grand arrivals. It was a place of quiet familiarity, a gentle dip in the landscape where time seemed to move just a hair slower than everywhere else. Liam was waiting, leaning against a battered pickup truck, a grin splitting his face. \"Mina! You made it.\"\n\nHe clapped her on the shoulder, the gesture familiar and comforting. \"Ready to unleash some cafe magic?\" He gestured towards the truck bed piled high with boxes, mostly flat-packed shelving units and rolls of brightly colored wallpaper. \"First things first, we need to get this lot over to 'The Cozy Kettle.' It\u2019s\u2026rustic, at the moment. Let\u2019s just say it hasn't seen a lick of paint in decades.\"\n\nThey began systematically unloading, Mina hefting boxes with surprising ease, her city muscles remembering a forgotten strength. Liam, with his ingrained knowledge of the town and its shortcuts, navigated the truck with a practiced hand. \u201cI was thinking we start with the shelving in the back,\u201d he said, gesturing to the area that would eventually house the baked goods. \u201cGet that sorted, then we can tackle the wallpaper in the front. The floral pattern is\u2026 bold, to say the least.\u201d He grimaced playfully. Mina chuckled. \u201cBold is good. It\u2019ll be memorable.\u201d\n\n\"Right,\" Liam agreed, grabbing a measuring tape. \"We need to figure out the spacing. I was picturing three shelves, about this high\u2026\" He demonstrated with his hands. \"But we need to make sure there's enough room for the display cases. Oh, shoot. Mrs. Hawthorne called. Apparently, the delivery of the vintage tea sets is delayed. They\u2019re not arriving until tomorrow morning.\" \n\nMina paused, wiping a smudge of dust from her cheek. \u201cTomorrow? That throws a wrench in things. We were hoping to have those set up for the soft opening.\u201d Liam scratched his head. \u201cTrue. Okay, new plan. Let's focus on getting the shelving and the basic layout done today. We can stage the front area with some blankets and cushions for the soft opening, make it look cozy, you know? People will be more forgiving of the missing tea sets.\u201d Mina nodded, a surge of collaborative energy flowing between them. \"Sounds good. Teamwork makes the dream work, right?\"\n\nA little while later, perched on upturned crates amidst the chaos, they shared a thermos of Liam\u2019s famously strong coffee and a plate of his mother\u2019s homemade scones. The sun streamed through the dusty windows, illuminating the peeling paint and the hopeful gleam in Liam\u2019s eyes. It was a simple pleasure, a moment of quiet camaraderie amidst the flurry of preparations. \n\nFueled by caffeine and buttery pastry, they returned to the task at hand, the shelving units slowly taking shape against the back wall. Liam was wrestling with a particularly stubborn screw while Mina smoothed a section of wallpaper, carefully aligning the pattern. The air was filled with the scent of sawdust and the quiet murmur of their shared purpose, a promise of something warm and inviting taking root in the heart of Havenwood.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 194,
+      "completion_tokens": 678,
+      "total_tokens": 872,
+      "cost": 0.0001114,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0001114,
+        "upstream_inference_prompt_cost": 9.7e-06,
+        "upstream_inference_completions_cost": 0.0001017
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969484.9261312,
+  "id": "p02_18_outline_1",
+  "block": "p02_18",
+  "domain": "plot",
+  "condition": "outline",
+  "side": 1,
+  "secret": "The classmate has secretly bought Mina's childhood home for her.",
+  "target": "The classmate has hidden a serious debt from Mina.",
+  "other": "The classmate has secretly bought Mina's childhood home for her.",
+  "rep": 2,
+  "item": 18,
+  "seed": 143046406,
+  "premise": "Mina returns to her hometown to help an old classmate open a cafe.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The classmate has secretly bought Mina's childhood home for her. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Mina returns to her hometown to help an old classmate open a cafe.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation.",
+  "text": "The train shuddered to a halt, spitting Mina onto the platform of Havenwood station with a sigh of displaced air. It wasn't a grand arrival; Havenwood wasn't a place for grand arrivals. It was a place of quiet familiarity, a gentle dip in the landscape where time seemed to move just a hair slower than everywhere else. Liam was waiting, leaning against a battered pickup truck, a grin splitting his face. \"Mina! You made it.\"\n\nHe clapped her on the shoulder, the gesture familiar and comforting. \"Ready to unleash some cafe magic?\" He gestured towards the truck bed piled high with boxes, mostly flat-packed shelving units and rolls of brightly colored wallpaper. \"First things first, we need to get this lot over to 'The Cozy Kettle.' It\u2019s\u2026rustic, at the moment. Let\u2019s just say it hasn't seen a lick of paint in decades.\"\n\nThey began systematically unloading, Mina hefting boxes with surprising ease, her city muscles remembering a forgotten strength. Liam, with his ingrained knowledge of the town and its shortcuts, navigated the truck with a practiced hand. \u201cI was thinking we start with the shelving in the back,\u201d he said, gesturing to the area that would eventually house the baked goods. \u201cGet that sorted, then we can tackle the wallpaper in the front. The floral pattern is\u2026 bold, to say the least.\u201d He grimaced playfully. Mina chuckled. \u201cBold is good. It\u2019ll be memorable.\u201d\n\n\"Right,\" Liam agreed, grabbing a measuring tape. \"We need to figure out the spacing. I was picturing three shelves, about this high\u2026\" He demonstrated with his hands. \"But we need to make sure there's enough room for the display cases. Oh, shoot. Mrs. Hawthorne called. Apparently, the delivery of the vintage tea sets is delayed. They\u2019re not arriving until tomorrow morning.\" \n\nMina paused, wiping a smudge of dust from her cheek. \u201cTomorrow? That throws a wrench in things. We were hoping to have those set up for the soft opening.\u201d Liam scratched his head. \u201cTrue. Okay, new plan. Let's focus on getting the shelving and the basic layout done today. We can stage the front area with some blankets and cushions for the soft opening, make it look cozy, you know? People will be more forgiving of the missing tea sets.\u201d Mina nodded, a surge of collaborative energy flowing between them. \"Sounds good. Teamwork makes the dream work, right?\"\n\nA little while later, perched on upturned crates amidst the chaos, they shared a thermos of Liam\u2019s famously strong coffee and a plate of his mother\u2019s homemade scones. The sun streamed through the dusty windows, illuminating the peeling paint and the hopeful gleam in Liam\u2019s eyes. It was a simple pleasure, a moment of quiet camaraderie amidst the flurry of preparations. \n\nFueled by caffeine and buttery pastry, they returned to the task at hand, the shelving units slowly taking shape against the back wall. Liam was wrestling with a particularly stubborn screw while Mina smoothed a section of wallpaper, carefully aligning the pattern. The air was filled with the scent of sawdust and the quiet murmur of their shared purpose, a promise of something warm and inviting taking root in the heart of Havenwood."
+}

@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe fluorescent lights of the Maplewood Community Center hummed with a low, persistent buzz, a sound Theo had come to associate with the scent of lemon disinfectant and institutional beige. He tugged at the collar of his slightly-too-formal shirt, feeling a familiar twinge of discomfort. Teaching creative writing to adults was, on paper, a noble pursuit. In reality, it often felt like herding cats \u2013 except the cats were usually armed with earnest opinions and a surprising amount of prose about their feelings towards their pet hamsters.\n\nHe\u2019d taken the gig mostly for the money. Freelance editing had dried up, and the specter of overdue bills loomed large. It wasn\u2019t the kind of work he'd envisioned after his\u2026 well, after everything. Still, a paycheck was a paycheck, and he\u2019d always enjoyed the theory of helping others find their voice, even if he suspected most of the attendees would be primarily interested in crafting thinly veiled autobiographical dramas about their divorces.\n\nThe room itself was predictably underwhelming. A collection of mismatched chairs circled a long, scarred table. Posters advertising yoga classes and tax assistance lined the walls, vying for attention with a faded mural depicting a rather forlorn-looking squirrel. He set down his battered leather satchel, its contents consisting of a well-worn copy of *Bird by Bird*, a notebook overflowing with scribbled notes, and a slightly depressing bag of granola bars. \n\nA woman approached him, her smile bright and unsettlingly enthusiastic. She was middle-aged, with a meticulously styled bob and a name tag that read \u201cBrenda \u2013 Center Coordinator.\u201d \"Theo! Welcome! So glad you're here. We're really excited to have you. The class is just about to start, so if you could just\u2026 settle in?\" She gestured vaguely at a chair at the head of the table, as if he were a visiting dignitary.\n\nHe nodded, feeling a prickle of unease that had nothing to do with the fluorescent lights. Brenda\u2019s eyes, a startling shade of turquoise, seemed to linger on him for a beat too long. \u201cWe have a good mix of folks tonight,\u201d she continued, her voice a little too loud, a little too cheerful. \u201cBeginners, mostly. A few who've dabbled. We\u2019re hoping for a really supportive and encouraging environment.\u201d She paused, her smile widening. \u201cA safe space for creativity, you know?\u201d\n\nHe offered a strained smile in return. \u201cThat\u2019s\u2026 good. That\u2019s exactly what I aim for.\u201d He glanced at the door, half-expecting a flood of eager students to burst in. Instead, a trickle began \u2013 a woman with a cascade of silver hair, a young man nervously clutching a paperback, a pair of elderly ladies engaged in a hushed conversation. \n\nBrenda bustled about, straightening chairs and making announcements, her energy seemingly boundless. Theo settled into his chair, trying to ignore the unsettling feeling that he was being scrutinized. The hum of the lights intensified, and he reached for a granola bar, the bland sweetness doing little to alleviate the quiet apprehension that settled in his stomach. This was going to be interesting, he thought, bracing himself. Very interesting indeed."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970062-VERDFh201pvv9wpp099u",
+    "object": "chat.completion",
+    "created": 1790970062,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 5\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 753,
+      "completion_tokens": 32,
+      "total_tokens": 785,
+      "cost": 0.0003524,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003524,
+        "upstream_inference_prompt_cost": 0.0003012,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970063.6279683,
+  "id": "p00_17_plain_0",
+  "condition": "plain",
+  "domain": "plot",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 5
+  }
+}

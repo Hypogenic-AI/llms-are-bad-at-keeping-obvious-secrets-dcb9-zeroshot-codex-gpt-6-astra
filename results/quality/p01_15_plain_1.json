@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe smell of damp earth and impending rain clung to everything this Saturday morning. Max pulled his jacket tighter, a futile gesture against the persistent chill that seemed to seep from the cobblestones of the market square. He\u2019d agreed to help Leo, of course. Saying no to Leo was like saying no to sunshine \u2013 an almost physical impossibility. Besides, Leo's enthusiasm was, as always, infectious, a bright spark in the grey dawn.\n\nLeo was already there, a whirlwind of energy amidst the empty stalls. He was wrestling with a gazebo, a flimsy thing that looked liable to collapse at the slightest breeze, muttering under his breath about instructions and \u201cengineered for maximum frustration.\u201d Max suppressed a smile. Leo, despite his optimism, was remarkably inept at anything requiring practical skill. He was brilliant with words, with art, with the abstract, but a hammer and nails were his nemesis.\n\n\u201cRight, operation \u2018Botanical Bliss\u2019 is officially underway!\u201d Leo announced, finally pinning down one corner of the gazebo with a triumphant grunt. He beamed, a flash of genuine joy in his eyes. \"Think of it, Max! Lavender soaps, hand-pressed flower petals, dried herbs\u2026 all arranged beautifully. We'll be the envy of the entire market!\u201d\n\nMax surveyed the scene. Leo\u2019s idea was simple enough: a small stall selling handcrafted botanical products. Leo had been experimenting with making soaps and infused oils for months, filling Max\u2019s apartment with the heady scent of rosemary and rose. He\u2019d also managed to cultivate a small, but impressive, collection of dried flowers and herbs in his tiny balcony garden. It was a far cry from his usual chaotic life of poetry slams and late-night art projects, and Max was genuinely curious to see if it would work.\n\nHe started by helping Leo unpack the boxes. There were piles of colourful soaps, shaped like flowers and leaves, nestled in tissue paper. Jars filled with dried lavender and rose petals sat stacked precariously. And bundles of herbs - rosemary, thyme, sage - hung from twine, their fragrance filling the air. It was a surprisingly calming scene, a pocket of tranquility amidst the bustling preparations of the market vendors.\n\n\u201cOkay, so we need to figure out the display,\u201d Max said, scanning the growing collection of goods. \"We need to make it visually appealing. Think rustic charm, not cluttered chaos.\" Leo nodded enthusiastically, already envisioning arrangements and placements. \n\nThe rain started then, a light drizzle at first, then a steady patter. Leo glanced nervously at the sky. \u201cJust a bit of weather,\u201d he declared, attempting a breezy reassurance. \u201cAdds to the atmosphere, don't you think?\u201d Max just shrugged, hoping the flimsy gazebo would hold up. The market was slowly starting to fill with other vendors, their stalls a patchwork of colours and smells. The day was officially beginning."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970663-lwX8MIWNbS9FQ3tPDzUY",
+    "object": "chat.completion",
+    "created": 1790970663,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 5\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 679,
+      "completion_tokens": 32,
+      "total_tokens": 711,
+      "cost": 0.0003228,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003228,
+        "upstream_inference_prompt_cost": 0.0002716,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970665.0706327,
+  "id": "p01_15_plain_1",
+  "condition": "plain",
+  "domain": "plot",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 5
+  }
+}

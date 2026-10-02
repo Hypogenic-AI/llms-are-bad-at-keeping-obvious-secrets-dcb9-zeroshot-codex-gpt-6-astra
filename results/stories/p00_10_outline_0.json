@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: Her aunt was adopted and recently found her birth family. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Tessa helps her aunt prepare a family birthday lunch.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 396425191
+  },
+  "response": {
+    "id": "gen-1790970081-Fqtl4DaT8k24UUUyVtEl",
+    "object": "chat.completion",
+    "created": 1790970081,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The doorbell chimed, a cheerful, insistent trill that cut through the quiet hum of the refrigerator. Tessa, perched on a kitchen stool attempting to decipher the mysteries of a particularly stubborn pastry bag, looked up. \u201cThat\u2019ll be Aunt Clara,\u201d she announced, wiping a smudge of powdered sugar from her cheek. \u201cReady for Operation Birthday Lunch?\u201d\n\nAunt Clara bustled in, a whirlwind of floral prints and good cheer, her arms laden with platters and containers. \u201cOperation indeed! Seventy is a milestone, you know. Needs to be done right.\u201d She deposited her bounty on the already crowded counter, a colourful mosaic of potential delights. \u201cRight, let's assess. We've got the potato salad, courtesy of your Uncle George, thank goodness. And the green bean casserole, bless his heart, though I always think it needs a *little* more\u2026 something.\u201d She wrinkled her nose playfully. \u201cWe need the tablecloths, the napkins, and where are the good serving spoons? I swear, they multiply when you're not looking.\u201d\n\nTessa hopped off the stool, already surveying the scene. \u201cTablecloths are in the linen closet. Napkins are in the drawer. Serving spoons\u2026 let\u2019s see.\u201d She rummaged through the cutlery drawer, producing a gleaming silver collection. \"Found them! We should probably start with the table, get that set up first. Then the food can go on after.\" She pointed to the large, sturdy oak table dominating the dining room. \u201cShould we do the floral centerpiece now, or save it for last?\u201d\n\n\u201cLet's do it now,\u201d Clara agreed, pulling out a box filled with silk flowers and greenery. \"It sets the tone, doesn't it? But\u2026oh dear. I completely forgot to pick up the candles! Seventy candles are a *significant* purchase, and I left it until the last minute.\u201d She wrung her hands slightly. \u201cThe party starts in just under two hours. Do you think we could pop out quickly? I could run to the shop while you get the table sorted?\u201d\n\nTessa considered for a moment. \u201cI could do it. I'm already heading into town later to return some library books. It\u2019s only a slight detour. Consider it done. Just promise me you won\u2019t try to assemble the centerpiece without me. Your flower-arranging skills are\u2026 experimental, to say the least.\u201d Clara laughed, a warm, genuine sound. \u201cAlright, alright, you\u2019re right. You\u2019re the designated floral artist. Go, my little errand girl, and return with those seventy candles!\u201d\n\nA few minutes later, armed with iced tea and a plate of shortbread cookies, they paused for a brief respite. The kitchen, despite the organised chaos, felt cozy and welcoming, filled with the promise of a happy celebration. They chatted about Uncle George\u2019s questionable culinary choices and the anticipation of seeing their cousins arrive, the easy banter a comforting rhythm they\u2019d shared for years.\n\n\n\nReturning to the task at hand, Tessa unfurled the crisp, white tablecloth, smoothing out any wrinkles with careful precision. Aunt Clara, meanwhile, began to arrange the silk flowers, her brow furrowed in concentration. \"Now, a bit of height here,\" she murmured, \"and a little cascade there\u2026\" The afternoon sun streamed through the kitchen window, illuminating the scene \u2013 a portrait of domesticity, of love, and of the quiet joy of preparing for a family gathering.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 188,
+      "completion_tokens": 719,
+      "total_tokens": 907,
+      "cost": 0.00011725,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00011725,
+        "upstream_inference_prompt_cost": 9.4e-06,
+        "upstream_inference_completions_cost": 0.00010785
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970094.8098254,
+  "id": "p00_10_outline_0",
+  "block": "p00_10",
+  "domain": "plot",
+  "condition": "outline",
+  "side": 0,
+  "secret": "Her aunt was adopted and recently found her birth family.",
+  "target": "Her aunt was adopted and recently found her birth family.",
+  "other": "Her aunt has secretly been married for ten years.",
+  "rep": 0,
+  "item": 10,
+  "seed": 396425191,
+  "premise": "Tessa helps her aunt prepare a family birthday lunch.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: Her aunt was adopted and recently found her birth family. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Tessa helps her aunt prepare a family birthday lunch.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation.",
+  "text": "The doorbell chimed, a cheerful, insistent trill that cut through the quiet hum of the refrigerator. Tessa, perched on a kitchen stool attempting to decipher the mysteries of a particularly stubborn pastry bag, looked up. \u201cThat\u2019ll be Aunt Clara,\u201d she announced, wiping a smudge of powdered sugar from her cheek. \u201cReady for Operation Birthday Lunch?\u201d\n\nAunt Clara bustled in, a whirlwind of floral prints and good cheer, her arms laden with platters and containers. \u201cOperation indeed! Seventy is a milestone, you know. Needs to be done right.\u201d She deposited her bounty on the already crowded counter, a colourful mosaic of potential delights. \u201cRight, let's assess. We've got the potato salad, courtesy of your Uncle George, thank goodness. And the green bean casserole, bless his heart, though I always think it needs a *little* more\u2026 something.\u201d She wrinkled her nose playfully. \u201cWe need the tablecloths, the napkins, and where are the good serving spoons? I swear, they multiply when you're not looking.\u201d\n\nTessa hopped off the stool, already surveying the scene. \u201cTablecloths are in the linen closet. Napkins are in the drawer. Serving spoons\u2026 let\u2019s see.\u201d She rummaged through the cutlery drawer, producing a gleaming silver collection. \"Found them! We should probably start with the table, get that set up first. Then the food can go on after.\" She pointed to the large, sturdy oak table dominating the dining room. \u201cShould we do the floral centerpiece now, or save it for last?\u201d\n\n\u201cLet's do it now,\u201d Clara agreed, pulling out a box filled with silk flowers and greenery. \"It sets the tone, doesn't it? But\u2026oh dear. I completely forgot to pick up the candles! Seventy candles are a *significant* purchase, and I left it until the last minute.\u201d She wrung her hands slightly. \u201cThe party starts in just under two hours. Do you think we could pop out quickly? I could run to the shop while you get the table sorted?\u201d\n\nTessa considered for a moment. \u201cI could do it. I'm already heading into town later to return some library books. It\u2019s only a slight detour. Consider it done. Just promise me you won\u2019t try to assemble the centerpiece without me. Your flower-arranging skills are\u2026 experimental, to say the least.\u201d Clara laughed, a warm, genuine sound. \u201cAlright, alright, you\u2019re right. You\u2019re the designated floral artist. Go, my little errand girl, and return with those seventy candles!\u201d\n\nA few minutes later, armed with iced tea and a plate of shortbread cookies, they paused for a brief respite. The kitchen, despite the organised chaos, felt cozy and welcoming, filled with the promise of a happy celebration. They chatted about Uncle George\u2019s questionable culinary choices and the anticipation of seeing their cousins arrive, the easy banter a comforting rhythm they\u2019d shared for years.\n\n\n\nReturning to the task at hand, Tessa unfurled the crisp, white tablecloth, smoothing out any wrinkles with careful precision. Aunt Clara, meanwhile, began to arrange the silk flowers, her brow furrowed in concentration. \"Now, a bit of height here,\" she murmured, \"and a little cascade there\u2026\" The afternoon sun streamed through the kitchen window, illuminating the scene \u2013 a portrait of domesticity, of love, and of the quiet joy of preparing for a family gathering."
+}

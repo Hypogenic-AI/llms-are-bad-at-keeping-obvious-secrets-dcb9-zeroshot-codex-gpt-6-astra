@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The chef stole every recipe from Sam's grandmother. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Sam attends a weekend cooking class taught by a celebrated chef.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\n"
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 279270016
+  },
+  "response": {
+    "id": "gen-1790970301-xUVPfTSUXqmOhjD4AFhI",
+    "object": "chat.completion",
+    "created": 1790970301,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The aroma hit Sam the moment she stepped across the threshold of \"Culinary Heights.\" It wasn\u2019t just the smell of food, although there was plenty of that \u2013 a complex, layered scent of roasting herbs, simmering stocks, and something subtly sweet she couldn\u2019t quite place. It was more a feeling, a warm, enveloping hug of culinary ambition and meticulous preparation. The studio itself was immaculate, stainless steel gleamed under the bright track lighting, and islands of gleaming butcher block were arranged strategically around the room, each equipped with a professional-grade knife block and an array of copper pots.\n\nSam felt a tremor of nervous excitement. She\u2019d been wanting to take a class with Chef Antoine Dubois for years. His cookbooks were dog-eared and splattered with her own clumsy attempts at recreating his signature dishes \u2013 mostly with disastrous results. He was a legend, a titan of the culinary world, known for his innovative flavor combinations and his exacting standards. Seeing his name attached to this weekend intensive on \u201cRegional French Cuisine\u201d had been an impulse purchase, a desperate attempt to inject some creativity into her increasingly monotonous life.\n\nThe room buzzed with anticipation. Around thirty students, a mix of serious hobbyists and what Sam suspected were aspiring professionals, milled about, clutching their aprons and nervously adjusting their chef\u2019s hats. A woman with perfectly coiffed silver hair was meticulously arranging her cutting board, while a young man, radiating nervous energy, repeatedly sharpened his knife. Sam felt acutely aware of her own slightly faded jeans and the somewhat-too-casual t-shirt she\u2019d thrown on at the last minute. \n\nThen, he appeared. Chef Dubois. He wasn't what Sam expected. The photographs in magazines always presented a stern, almost intimidating figure. In person, he was\u2026surprisingly approachable. Tall and lean with a shock of silver hair perpetually threatening to escape his perfectly slicked-back style, he possessed a surprisingly warm smile and eyes that crinkled at the corners. He moved with a quiet grace, surveying the room with a discerning gaze.\n\n\"Bonjour, mes amis,\" he said, his voice a melodic baritone with a distinct French accent. \"Welcome to Culinary Heights. I am Antoine Dubois, and for the next two days, we will be embarking on a culinary journey through the regions of France. We will explore the rustic simplicity of Provence, the refined elegance of Burgundy, and the vibrant energy of Lyon.\"\n\nHe paused, letting his words settle over the room. \u201cForget everything you think you know about French cooking. We are not here to replicate. We are here to understand. To feel. To taste. To *create*.\u201d He gestured to the gleaming kitchen, a gesture that seemed to encompass not just the space, but the entire endeavor. \n\nSam straightened her shoulders, a spark of determination igniting within her. This was it. Two days to learn from the best. Two days to push herself beyond her comfort zone. Two days, she hoped, to finally unlock the secrets of truly good cooking. She just hoped she wouldn't embarrass herself too much.\n\n\n\nThe first demonstration began with a classic: a simple French onion soup. But even this seemingly straightforward dish was elevated to an art form under Chef Dubois\u2019s guidance. He moved with a practiced efficiency, his hands a blur as he caramelized the onions, each movement precise and purposeful.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 116,
+      "completion_tokens": 691,
+      "total_tokens": 807,
+      "cost": 0.00010945,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00010945,
+        "upstream_inference_prompt_cost": 5.8e-06,
+        "upstream_inference_completions_cost": 0.00010365
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970314.3500817,
+  "id": "p02_03_plain_1",
+  "block": "p02_03",
+  "domain": "plot",
+  "condition": "plain",
+  "side": 1,
+  "secret": "The chef stole every recipe from Sam's grandmother.",
+  "target": "The chef secretly cannot taste any food.",
+  "other": "The chef stole every recipe from Sam's grandmother.",
+  "rep": 2,
+  "item": 3,
+  "seed": 279270016,
+  "premise": "Sam attends a weekend cooking class taught by a celebrated chef.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The chef stole every recipe from Sam's grandmother. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Sam attends a weekend cooking class taught by a celebrated chef.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\n",
+  "text": "The aroma hit Sam the moment she stepped across the threshold of \"Culinary Heights.\" It wasn\u2019t just the smell of food, although there was plenty of that \u2013 a complex, layered scent of roasting herbs, simmering stocks, and something subtly sweet she couldn\u2019t quite place. It was more a feeling, a warm, enveloping hug of culinary ambition and meticulous preparation. The studio itself was immaculate, stainless steel gleamed under the bright track lighting, and islands of gleaming butcher block were arranged strategically around the room, each equipped with a professional-grade knife block and an array of copper pots.\n\nSam felt a tremor of nervous excitement. She\u2019d been wanting to take a class with Chef Antoine Dubois for years. His cookbooks were dog-eared and splattered with her own clumsy attempts at recreating his signature dishes \u2013 mostly with disastrous results. He was a legend, a titan of the culinary world, known for his innovative flavor combinations and his exacting standards. Seeing his name attached to this weekend intensive on \u201cRegional French Cuisine\u201d had been an impulse purchase, a desperate attempt to inject some creativity into her increasingly monotonous life.\n\nThe room buzzed with anticipation. Around thirty students, a mix of serious hobbyists and what Sam suspected were aspiring professionals, milled about, clutching their aprons and nervously adjusting their chef\u2019s hats. A woman with perfectly coiffed silver hair was meticulously arranging her cutting board, while a young man, radiating nervous energy, repeatedly sharpened his knife. Sam felt acutely aware of her own slightly faded jeans and the somewhat-too-casual t-shirt she\u2019d thrown on at the last minute. \n\nThen, he appeared. Chef Dubois. He wasn't what Sam expected. The photographs in magazines always presented a stern, almost intimidating figure. In person, he was\u2026surprisingly approachable. Tall and lean with a shock of silver hair perpetually threatening to escape his perfectly slicked-back style, he possessed a surprisingly warm smile and eyes that crinkled at the corners. He moved with a quiet grace, surveying the room with a discerning gaze.\n\n\"Bonjour, mes amis,\" he said, his voice a melodic baritone with a distinct French accent. \"Welcome to Culinary Heights. I am Antoine Dubois, and for the next two days, we will be embarking on a culinary journey through the regions of France. We will explore the rustic simplicity of Provence, the refined elegance of Burgundy, and the vibrant energy of Lyon.\"\n\nHe paused, letting his words settle over the room. \u201cForget everything you think you know about French cooking. We are not here to replicate. We are here to understand. To feel. To taste. To *create*.\u201d He gestured to the gleaming kitchen, a gesture that seemed to encompass not just the space, but the entire endeavor. \n\nSam straightened her shoulders, a spark of determination igniting within her. This was it. Two days to learn from the best. Two days to push herself beyond her comfort zone. Two days, she hoped, to finally unlock the secrets of truly good cooking. She just hoped she wouldn't embarrass herself too much.\n\n\n\nThe first demonstration began with a classic: a simple French onion soup. But even this seemingly straightforward dish was elevated to an art form under Chef Dubois\u2019s guidance. He moved with a practiced efficiency, his hands a blur as he caramelized the onions, each movement precise and purposeful."
+}

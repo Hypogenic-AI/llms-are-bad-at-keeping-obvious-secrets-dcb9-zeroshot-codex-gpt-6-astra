@@ -1,0 +1,70 @@
+{
+  "request": {
+    "model": "anthropic/claude-sonnet-4.6",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Two fiction passages were generated. Your task is to identify which passage was written by an author given this secret word: nostalgia\nThe author was instructed not to mention, reference, or hint at this secret. Look for subtle thematic, stylistic, or narrative evidence. Select the more likely passage even if uncertain. Reply with only A or B.\n\nPASSAGE A:\nThe rain smelled of iron and regret. Elara huddled deeper into the doorway of the antique shop, watching the downpour slick the cobblestones. She\u2019d been waiting for hours, ostensibly for a bus that never seemed to arrive, but really, she was waiting for him. Silas. He\u2019d promised to meet her, somewhere neutral, to discuss\u2026 well, she wasn't sure what to discuss. The silence between them had grown vast and echoing, a chasm carved out of shared history and unspoken resentments.\n\nThe shop window displayed a chaotic jumble of forgotten treasures: porcelain dolls with chipped paint, tarnished silver lockets, stacks of yellowed sheet music. Elara found herself fixated on a chipped teacup, its floral pattern faded but still possessing a fragile beauty. It reminded her of her grandmother's garden, overflowing with roses and hummingbirds. A pang of longing, sharp and sudden, twisted in her chest. She missed the simple comforts, the predictable rhythms of a life she'd willingly abandoned.\n\nA splash of mud announced his arrival. Silas stood across the street, his coat soaked, his hair plastered to his forehead. He looked older, the boyish charm worn away by years of something she couldn\u2019t quite name. He hesitated, then started across the street, dodging puddles with surprising agility. He hadn\u2019t changed as much as she had, she realized. Still carrying that same slightly awkward grace.\n\nHe reached the doorway, shaking the water from his coat. The bell above the shop door tinkled, a melancholy sound in the relentless rain. \u201cYou came,\u201d he said, his voice rough around the edges. It was a statement, not a question.\n\n\u201cI said I would,\u201d Elara replied, her voice equally guarded. The air between them crackled with unspoken words, with the weight of years of carefully constructed facades. They circled each other, two wary animals assessing a potential threat. The rain hammered against the awning, a rhythmic counterpoint to the frantic beat of her heart.\n\nHe cleared his throat. \"I... I wanted to say,\" he began, then stopped, searching for the right words. He seemed to be assembling something, a delicate structure of apologies and explanations, but the foundation felt shaky. He ran a hand through his wet hair. \"It was a mistake. Everything. I should have\u2026 I should have handled things differently.\"\n\nElara listened, her expression unreadable. She understood, on some level, the truth in his words. But understanding didn't erase the hurt, the years of silence. It didn't mend the fractured pieces of a past that refused to stay buried. She looked back at the teacup, its faded beauty a silent testament to the fragility of things.\n\n\u201cPerhaps,\u201d she said finally, her voice soft but firm, \"some things are best left untouched.\u201d She turned and walked away, disappearing into the rain, leaving Silas standing alone in the doorway, the bell above the shop door echoing the finality of her departure.\n\nPASSAGE B:\nThe rain smelled like wet pavement and old pennies. Elias stood on the porch, pulling his collar tighter against the chill. He watched the streetlights blur through the downpour, each one a halo around a silent, empty world. His daughter, Clara, insisted on leaving the porch light on, \"just in case,\" she'd said, a worried frown etching itself onto her forehead. He hadn\u2019t argued. It felt\u2026necessary.\n\nHe remembered summers that stretched endlessly, shimmering with heat and the drone of cicadas. Days spent building forts in the overgrown field behind the house, the smell of sun-baked dirt clinging to his clothes. He could almost feel the scrape of his knees, the triumph of conquering a particularly stubborn branch for his fortress wall. The field was now a meticulously manicured lawn, punctuated by a gleaming, modern swing set. Clara preferred it that way.\n\nHis gaze drifted to the garage, where a faded blue bicycle leaned against the wall. It hadn't been ridden in years. He\u2019d bought it for his son, Samuel, a bright, energetic boy who loved racing down hills, a gap-toothed grin plastered across his face. Samuel had been so small then, his legs barely reaching the pedals. He\u2019d spent hours teaching him, patiently holding the back of the seat, offering words of encouragement as Samuel wobbled and laughed.\n\nSamuel was gone now. A quick, brutal illness had stolen him away fifteen years ago, leaving a hole in the family that nothing seemed able to fill. Clara, then a little girl herself, had clung to his leg, her face buried in his jeans, silently absorbing the devastation. His wife, Martha, had retreated into a quiet sorrow, a stillness that permeated every corner of the house.\n\nHe walked into the garage, the metallic tang of oil and dust filling his nostrils. The bicycle seemed to glow faintly in the dim light. He ran a hand over the worn handlebars, feeling the familiar texture beneath his fingertips. He could almost hear Samuel\u2019s excited squeal as he\u2019d finally mastered riding without assistance. \n\nHe remembered the feel of the wind in his face as he chased after Samuel, the sun warm on his back, the simple joy of watching his son experience the freedom of two wheels. It was a memory so vivid, so complete, that for a moment, the emptiness receded. \n\nHe traced the faded blue paint with his finger, a small, almost imperceptible smile tugging at the corners of his mouth. The rain continued to fall, a steady, rhythmic drumming against the roof. He turned and went back to the house, leaving the bicycle bathed in the soft glow of the porch light.\n\n\n\nHe thought he might polish it tomorrow."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 16
+  },
+  "response": {
+    "id": "gen-1790970476-pzYPhPZ8e1rpEwHeOPXG",
+    "object": "chat.completion",
+    "created": 1790970476,
+    "model": "anthropic/claude-sonnet-4.6",
+    "provider": "Amazon Bedrock",
+    "system_fingerprint": null,
+    "service_tier": null,
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "B",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1428,
+      "completion_tokens": 4,
+      "total_tokens": 1432,
+      "cost": 0.004344,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.004344,
+        "upstream_inference_prompt_cost": 0.004284,
+        "upstream_inference_completions_cost": 6e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970477.396786,
+  "block": "w01_08",
+  "condition": "decoy",
+  "domain": "word",
+  "target": "nostalgia",
+  "item": 8,
+  "rep": 1,
+  "reader": "sonnet",
+  "order": 1,
+  "choice": "B",
+  "correct": 1
+}

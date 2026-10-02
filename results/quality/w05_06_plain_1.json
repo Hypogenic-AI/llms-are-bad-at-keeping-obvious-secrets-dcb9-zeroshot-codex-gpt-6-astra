@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe rain smelled of slate and regret. Elias watched it streak down the windowpane of the antique shop, blurring the already faded lettering of \"Barnaby's Curiosities.\" He\u2019d been coming here for years, drawn not by any specific desire, but by the quiet hum of forgotten things. Barnaby, the proprietor, a man who seemed woven from dust and old paper, always greeted him with a knowing nod and a cup of something vaguely herbal. Today, however, Barnaby was nowhere to be seen. A single, handwritten sign on the counter read, \u201cClosed. Estate Sale Tomorrow.\u201d\n\nA strange melancholy settled over Elias. The shop felt\u2026 thinner. Less substantial. He wandered past towering stacks of sheet music, chipped porcelain dolls with vacant eyes, and tarnished silver tea sets. He paused before a display of old tools \u2013 hammers, saws, and delicate measuring instruments, each bearing the patina of decades of use. They spoke of hands long gone, of projects begun and finished, of lives lived in quiet industry. He picked up a small, intricately carved wooden bird, its wings poised for flight. It felt warm against his palm, a faint echo of craftsmanship. \n\nThen he saw it. Tucked away in a darkened corner, almost hidden amongst a jumble of discarded clocks, was a small, unassuming box. It was plain, rectangular, made of a dark, sturdy wood. No ornamentation, no markings. Just the simple, solid form. He lifted it. It was surprisingly heavy for its size. Inside, nestled on a bed of faded velvet, lay a single object. \n\nIt was a key. Not a modern, mass-produced thing, but something ancient and elaborate. Its bow was sculpted into the form of a coiled serpent, its teeth subtly visible. The shaft was intricately patterned with tiny, almost imperceptible symbols. He felt a peculiar pull towards it, a sense of recognition he couldn\u2019t quite place. A memory, faint as a dream, flickered at the edge of his awareness \u2013 a sun-drenched garden, the scent of roses, a whispered promise.\n\nHe ran his thumb over the serpent\u2019s scales, feeling the smooth coolness beneath his fingertips. He had no idea what it unlocked, what door it opened, what secret it guarded. And yet, he knew he couldn\u2019t leave it behind. It resonated with something deep within him, a forgotten longing, a whisper of a past he hadn't known he\u2019d lost.\n\nA bell tinkled as the shop door opened. A young woman, brisk and efficient, stepped in. \"Estate sale preview,\" she announced, her voice echoing in the stillness. She glanced at Elias, then at the box in his hand. \"Interested in that? It\u2019s priced to clear. Part of the deceased\u2019s collection of odds and ends.\" \n\nElias nodded, unable to speak. He paid for the key, the transaction feeling strangely momentous. As he stepped back out into the rain, the scent of slate and regret seemed less heavy, replaced by a faint, almost imperceptible trace of something else. Something warm. Something promising. He clutched the key tightly in his hand, a silent question mark against the gray sky."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970643-WxUImNi5Do06n1yJNRhq",
+    "object": "chat.completion",
+    "created": 1790970643,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 5\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 751,
+      "completion_tokens": 32,
+      "total_tokens": 783,
+      "cost": 0.0003516,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003516,
+        "upstream_inference_prompt_cost": 0.0003004,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970644.630488,
+  "id": "w05_06_plain_1",
+  "condition": "plain",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 5
+  }
+}

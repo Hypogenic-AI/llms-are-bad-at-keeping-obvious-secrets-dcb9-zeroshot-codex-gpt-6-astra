@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe fluorescent lights hummed to life, casting a sterile glow across the polished floor of \"Sole Sanctuary.\" Elias, the morning shift assistant, surveyed the shoe display with a critical eye. A haphazard jumble of loafers, boots, and sandals currently occupied the prime window space. It wasn\u2019t\u2026 inviting. He began to move them, a methodical dance of browns, blacks, and the occasional splash of burgundy, attempting a pleasing gradient. He liked the way the textures played off each other, the smooth leather against the rough suede. \n\n\u201cYou know,\u201d Maya, the manager, said, appearing from the back room with a steaming mug, \u201cGrouping them by size might be a better approach. Customers often know what they\u2019re looking for, and it saves them rummaging.\u201d Elias considered her suggestion. It seemed logical, practical, undeniably efficient. He nodded, a slight smile playing on his lips, and began the task of sorting. Row upon row of eights, nines, tens, stretching across the display. It was\u2026 organized. Perhaps *too* organized. It lacked a certain\u2026 soul. \n\nAs he was securing the last pair of size eleven boots, he noticed a faint wobble in the shelf supporting the athletic shoes. A quick inspection revealed a loose screw, threatening to destabilize the whole structure. Elias grabbed his toolkit from under the counter, his movements precise and practiced. He tightened each screw, testing the shelf\u2019s stability with a gentle push. Solid. Reliable. It was important that everything was sound, secure, ready for the day ahead.\n\nThe bell above the door chimed, announcing the arrival of the first customer \u2013 a woman with kind eyes and a slightly weary posture. \u201cGood morning,\u201d Elias greeted her warmly. \u201cAnything I can help you with?\u201d She explained she was looking for a comfortable walking shoe, something supportive for her daily strolls through the park. Elias guided her through the selection, pointing out features and asking about her preferences. \n\nHe watched as she slipped on a pair of memory foam sneakers, her face softening with a genuine smile. She walked a few steps, testing them out. \"These are perfect!\" she exclaimed, her eyes lighting up. \"Absolutely perfect.\" Elias felt a quiet satisfaction, a sense of accomplishment in having helped her find exactly what she needed. He rang up the purchase, wishing her a pleasant day.\n\nThe morning rush began, a steady stream of feet and voices filling the store. Elias helped others, answered questions, and maintained the neat arrangement of the shoes. Maya bustled about, attending to paperwork and greeting regulars. The hum of the fluorescent lights seemed less monotonous now, replaced by the gentle rhythm of a busy day. \n\nThe last customer left, and Elias began the closing routine. Dusting shelves, straightening racks, and ensuring everything was ready for the next morning. He paused, noticing a single, bright blue sandal lying abandoned near the entrance. It was a child\u2019s sandal, clearly separated from its mate. \n\nHe picked it up, examining the intricate design of seashells embossed on the sole. A small, determined hand must have lost it. With a gentle hand, Elias placed the sandal on the \u201cLost and Found\u201d shelf, a quiet promise of reunion hanging in the air."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970054-fpUbg694eXs85mMTh3JR",
+    "object": "chat.completion",
+    "created": 1790970054,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 758,
+      "completion_tokens": 32,
+      "total_tokens": 790,
+      "cost": 0.0003544,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003544,
+        "upstream_inference_prompt_cost": 0.0003032,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970055.778681,
+  "id": "w05_05_outline_0",
+  "condition": "outline",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

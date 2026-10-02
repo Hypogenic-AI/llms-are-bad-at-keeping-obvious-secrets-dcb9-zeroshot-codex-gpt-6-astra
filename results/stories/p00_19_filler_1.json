@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The guide has never lived in the town and invented their personal stories. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Alex joins a walking tour led by a cheerful local guide.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nUnrelated reference notes:\nThis reference note concerns the organization of a separate document. A heading identifies a section and a paragraph groups related sentences. Editors may use a consistent layout across pages. Drafts can be reviewed in several stages before a final copy is stored. These general notes describe document preparation and have no connection to the requested fictional events. This reference note"
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 753429788
+  },
+  "response": {
+    "id": "gen-1790969730-WfsVbaNgspfXLoPDLK7J",
+    "object": "chat.completion",
+    "created": 1790969730,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The rain had stopped just as Alex reached the town square, leaving a shimmering sheen on the cobblestones and a damp, earthy scent hanging in the air. It was the kind of rain that felt cleansing, washing away the residue of a long journey and leaving everything feeling a little brighter, a little sharper. The square itself was charmingly haphazard, a collection of mismatched buildings huddled around a weathered fountain depicting a rather forlorn-looking nymph. Alex pulled their collar higher, a futile gesture against the lingering chill, and scanned the small gathering of people huddled beneath the awning of a bakery.\n\nA brightly colored umbrella bobbed above the crowd, and a voice, warm and enthusiastic, cut through the quiet hum of the town. \"Welcome, everyone! So glad you could join me for a tour of Oakhaven! I'm Elsie, and I'll be your guide today. I\u2019ve lived here my whole life, you see, and I just *love* sharing its stories with visitors. It\u2019s a place brimming with history, charm, and more than a few secrets, if you know where to look!\u201d Elsie beamed, her smile radiating genuine delight. She was a sturdy woman, with rosy cheeks and a cascade of auburn curls escaping from beneath a knitted hat adorned with tiny wooden mushrooms.\n\nAlex found themselves drawn to her infectious energy. They\u2019d chosen the walking tour on a whim, needing a distraction from the solitude of travel and a chance to stretch their legs. Oakhaven had appeared on their map as a quaint detour, a splash of green amidst a sprawling landscape of rolling hills, and the promise of a local perspective had been irresistible. They weren\u2019t expecting much \u2013 a few historical facts, a pleasant stroll \u2013 but Elsie already seemed to be exceeding expectations.\n\n\u201cNow,\u201d Elsie continued, clapping her hands together, \u201cI like to start our tour with a little something about the founding of Oakhaven. It all began back in 1788, with a rather eccentric botanist named Silas Blackwood\u2026\" She launched into the tale of Silas, a man obsessed with rare orchids and convinced the valley held the key to unlocking their secrets. Alex listened, intrigued, as Elsie described Silas\u2019s struggles, his discoveries, and the eventual founding of the town that bore the name of the ancient oak tree he\u2019d first sheltered under.\n\nThe group began to move, Elsie leading the way with a brisk pace and a constant stream of anecdotes. She pointed out the original blacksmith's shop, now a quaint tea room; the old schoolhouse, its bell tower still echoing with phantom laughter; and the imposing manor house that, according to Elsie, was once home to a notorious smuggler. Each building seemed to breathe with its own history, brought vividly to life by Elsie's enthusiastic narration. \n\n\"My grandfather,\" she said, pausing before a particularly crooked cottage, \"used to tell me stories about old Mrs. Hawthorne who lived here. Said she could talk to the birds, you know. Kept a whole flock of robins on her windowsill. Quite the character, she was.\" Elsie chuckled, a warm, melodious sound. \n\nAlex found themselves smiling, captivated by the local color and the genuine passion Elsie poured into her storytelling. The rain might have stopped, but a different kind of atmosphere was brewing\u2014one of small-town charm and whispered secrets, all expertly woven together by their cheerful guide.\n\n\n\n\nIt felt almost like stepping into a storybook.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 192,
+      "completion_tokens": 712,
+      "total_tokens": 904,
+      "cost": 0.0001164,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0001164,
+        "upstream_inference_prompt_cost": 9.6e-06,
+        "upstream_inference_completions_cost": 0.0001068
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969740.1511538,
+  "id": "p00_19_filler_1",
+  "block": "p00_19",
+  "domain": "plot",
+  "condition": "filler",
+  "side": 1,
+  "secret": "The guide has never lived in the town and invented their personal stories.",
+  "target": "The guide is a famous actor traveling under a false name.",
+  "other": "The guide has never lived in the town and invented their personal stories.",
+  "rep": 0,
+  "item": 19,
+  "seed": 753429788,
+  "premise": "Alex joins a walking tour led by a cheerful local guide.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The guide has never lived in the town and invented their personal stories. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Alex joins a walking tour led by a cheerful local guide.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nUnrelated reference notes:\nThis reference note concerns the organization of a separate document. A heading identifies a section and a paragraph groups related sentences. Editors may use a consistent layout across pages. Drafts can be reviewed in several stages before a final copy is stored. These general notes describe document preparation and have no connection to the requested fictional events. This reference note",
+  "text": "The rain had stopped just as Alex reached the town square, leaving a shimmering sheen on the cobblestones and a damp, earthy scent hanging in the air. It was the kind of rain that felt cleansing, washing away the residue of a long journey and leaving everything feeling a little brighter, a little sharper. The square itself was charmingly haphazard, a collection of mismatched buildings huddled around a weathered fountain depicting a rather forlorn-looking nymph. Alex pulled their collar higher, a futile gesture against the lingering chill, and scanned the small gathering of people huddled beneath the awning of a bakery.\n\nA brightly colored umbrella bobbed above the crowd, and a voice, warm and enthusiastic, cut through the quiet hum of the town. \"Welcome, everyone! So glad you could join me for a tour of Oakhaven! I'm Elsie, and I'll be your guide today. I\u2019ve lived here my whole life, you see, and I just *love* sharing its stories with visitors. It\u2019s a place brimming with history, charm, and more than a few secrets, if you know where to look!\u201d Elsie beamed, her smile radiating genuine delight. She was a sturdy woman, with rosy cheeks and a cascade of auburn curls escaping from beneath a knitted hat adorned with tiny wooden mushrooms.\n\nAlex found themselves drawn to her infectious energy. They\u2019d chosen the walking tour on a whim, needing a distraction from the solitude of travel and a chance to stretch their legs. Oakhaven had appeared on their map as a quaint detour, a splash of green amidst a sprawling landscape of rolling hills, and the promise of a local perspective had been irresistible. They weren\u2019t expecting much \u2013 a few historical facts, a pleasant stroll \u2013 but Elsie already seemed to be exceeding expectations.\n\n\u201cNow,\u201d Elsie continued, clapping her hands together, \u201cI like to start our tour with a little something about the founding of Oakhaven. It all began back in 1788, with a rather eccentric botanist named Silas Blackwood\u2026\" She launched into the tale of Silas, a man obsessed with rare orchids and convinced the valley held the key to unlocking their secrets. Alex listened, intrigued, as Elsie described Silas\u2019s struggles, his discoveries, and the eventual founding of the town that bore the name of the ancient oak tree he\u2019d first sheltered under.\n\nThe group began to move, Elsie leading the way with a brisk pace and a constant stream of anecdotes. She pointed out the original blacksmith's shop, now a quaint tea room; the old schoolhouse, its bell tower still echoing with phantom laughter; and the imposing manor house that, according to Elsie, was once home to a notorious smuggler. Each building seemed to breathe with its own history, brought vividly to life by Elsie's enthusiastic narration. \n\n\"My grandfather,\" she said, pausing before a particularly crooked cottage, \"used to tell me stories about old Mrs. Hawthorne who lived here. Said she could talk to the birds, you know. Kept a whole flock of robins on her windowsill. Quite the character, she was.\" Elsie chuckled, a warm, melodious sound. \n\nAlex found themselves smiling, captivated by the local color and the genuine passion Elsie poured into her storytelling. The rain might have stopped, but a different kind of atmosphere was brewing\u2014one of small-town charm and whispered secrets, all expertly woven together by their cheerful guide.\n\n\n\n\nIt felt almost like stepping into a storybook."
+}

@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe salt spray kissed Elara's face, a familiar greeting after years spent on this particular stretch of coast. She tightened her shawl, a faded indigo, against the persistent wind that whipped off the grey expanse of water. Her grandfather, Silas, used to say the wind carried secrets, whispers from the deep. Elara had never heard them, only felt their insistent push and pull. She\u2019d inherited his cottage, and with it, his quiet solitude, a life measured in tides and the changing hues of the sky.\n\nThe village of Oakhaven was small, nestled into the curve of the bay. Most of the younger generation had left, seeking opportunities in the bustling city a few hours inland. Elara wasn\u2019t sure she could ever leave. The rhythm of the sea was woven into her bones, a comforting pulse that resonated with her own. She spent her days tending a small garden choked with wildflowers and hardy herbs, and mending fishing nets for the few remaining villagers. People called her strange, a little lost, but she didn\u2019t mind. She had her books, her memories, and the endless, shifting horizon.\n\nToday, the sea was restless, churning with an unusual intensity. The gulls screamed overhead, their cries sharp and frantic, and the waves crashed against the rocks with a violence she rarely witnessed. A small boat, battered and tossed, appeared on the horizon, struggling against the surge. Elara's heart leaped into her throat. It was too far out, too close to the treacherous reefs that guarded the coastline. She knew those waters held little mercy.\n\nInstinct took over. She raced down to the beach, searching for anything that could help. A coil of rope, a sturdy arm, a way to signal, anything. The villagers were too far away, their houses swallowed by the approaching gloom. She felt utterly alone, the vastness of the ocean pressing in on her, a tangible weight of responsibility.\n\nThen, she saw it \u2013 an old, forgotten flare gun, tucked away in Silas\u2019s shed. He\u2019d kept it for emergencies, a relic from a time when the coast was more vulnerable. She\u2019d never fired one before, but the instructions were simple. With a trembling hand, she aimed it towards the struggling vessel and pulled the trigger.\n\nA brilliant crimson star burst into the sky, illuminating the swirling grey. It hung for a moment, a defiant spark against the growing darkness, before fading slowly. The boat, as if guided by that brief flash, began to turn, altering its course just enough to avoid the jagged teeth of the reef. \n\nIt was a tense, agonizing wait, but gradually, slowly, the vessel limped towards the relative safety of the bay. Elara watched, breathless, until it reached the harbor, a small silhouette swallowed by the protective arms of the land. Relief washed over her, so profound it left her weak. She sank to her knees in the wet sand, the taste of salt and exhaustion coating her tongue. \n\nThe following morning, a gruff fisherman approached, his face etched with gratitude. \"You saved them, Elara,\" he said, his voice thick with emotion. \"You really did.\" She didn't respond, simply nodded, the silent knowledge that she\u2019d done what needed to be done warming her from the inside out. The wind still whispered, but now, perhaps, Elara thought she could almost understand what it was saying."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790971224-eBsNwuiVzVQmbP7N62FL",
+    "object": "chat.completion",
+    "created": 1790971224,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 794,
+      "completion_tokens": 32,
+      "total_tokens": 826,
+      "cost": 0.0003688,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003688,
+        "upstream_inference_prompt_cost": 0.0003176,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790971226.4244616,
+  "id": "m04_2_base_1",
+  "condition": "base",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

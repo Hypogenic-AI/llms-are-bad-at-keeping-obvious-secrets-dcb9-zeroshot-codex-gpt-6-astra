@@ -1,0 +1,70 @@
+{
+  "request": {
+    "model": "anthropic/claude-sonnet-4.6",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Two fiction passages were generated. Your task is to identify which passage was written by an author given this secret word: Tuesday\nThe author was instructed not to mention, reference, or hint at this secret. Look for subtle thematic, stylistic, or narrative evidence. Select the more likely passage even if uncertain. Reply with only A or B.\n\nPASSAGE A:\nThe air in the laundry room hung thick with the scent of citrus and anticipation. For weeks, Mrs. Hawthorne had been petitioning the building manager, citing the room\u2019s depressing grey as a blight on the otherwise charming apartment complex. Finally, she\u2019d secured approval \u2013 and a small budget \u2013 for a makeover. Now, a motley crew of residents, armed with rollers and brushes, were ready to transform the space.\n\nThe initial enthusiasm quickly hit a snag. Two color swatches were taped to the wall: a soft, buttery yellow and a vibrant, ocean blue. The debate was immediate and spirited. Mr. Peterson, a retired architect, championed the yellow, arguing it would brighten the room and create a cheerful atmosphere. Young Clara, a graphic designer, insisted the blue was more modern, evoking a sense of calm and cleanliness. Arguments about feng shui, resale value, and the emotional impact of color echoed through the small room. \n\nAfter nearly an hour of passionate discussion, a compromise emerged. Mrs. Hawthorne, the instigator of the whole project, proposed a vote. The buttery yellow won by a single ballot. Relief washed over the room, followed by a renewed surge of energy. They began, methodically working their way around the walls, the rhythmic swoosh of the rollers a soothing counterpoint to the hum of the washing machines. \n\nTo protect the appliances from stray paint, Elias, a particularly practical resident, had draped them with large, floral-patterned sheets. They looked almost festive, like a group of shy dancers awaiting their cue. For a while, everything proceeded smoothly. Laughter and snippets of conversation filled the room as they shared stories and offered advice on technique. \n\nThen, disaster struck. Young Leo, distracted by a particularly compelling conversation about the merits of fabric softener, took a misstep. He plunged his foot directly into a tray of yellow paint, splattering a chaotic trail across the linoleum floor. A collective groan filled the room. Leo, mortified, frantically grabbed a damp cloth and began scrubbing, the rest of the group quickly joining in, determined to erase the evidence of his mishap.\n\nThe cleanup took nearly an hour, adding significantly to the project\u2019s timeline. But eventually, the floor was as good as new, and they could return to the walls. As the afternoon waned, the last brushstrokes were applied. The room was filled with a fresh, sunny glow. \n\nFinally, they stood shoulder to shoulder in the doorway, surveying their handiwork. The walls, now a warm and inviting yellow, seemed to radiate happiness. The draped washing machines looked almost elegant. It was a transformation, a testament to shared effort and a desire to create a more pleasant living space for everyone. A quiet sense of satisfaction settled over the group, a silent acknowledgment of a job well done.\n\n\n\n\n\nPASSAGE B:\nThe air in the laundry room was thick with the scent of fresh paint and frustrated sighs. For weeks, the building's residents had debated the room's aesthetic overhaul. It had been a drab, depressing space, the kind of place people rushed through, dreading the inevitable tangle of socks and the mournful hum of the ancient washing machines. Now, a small army of volunteers \u2013 Mrs. Gable, the retired librarian; young Leo, the aspiring artist; Mr. Henderson, the stoic accountant; and Maria, a recent immigrant with a surprising flair for design \u2013 were determined to transform it. \n\nThe initial dispute had centered on color. Mrs. Gable championed a pale, calming lavender, envisioning a serene atmosphere. Leo, ever the rebel, advocated for a vibrant teal, arguing that it would \u201cinject some energy.\u201d Mr. Henderson, predictably, suggested a neutral beige, declaring anything else \"too frivolous.\" Maria, observing the stalemate, quietly brought up a soft, warm apricot. It was a compromise, she explained, offering both a touch of vibrancy and a sense of comfort. Eventually, swayed by her persuasive arguments and the general weariness of the debate, the apricot won out.\n\nThey began with the walls, carefully taping off the edges around the machines and doorways. Leo, with his artistic eye, expertly blended the paint, ensuring an even, flawless finish. Mr. Henderson, surprisingly diligent, handled the more tedious corners with methodical precision. Mrs. Gable supervised, offering occasional suggestions and ensuring everyone took adequate breaks. Maria, meanwhile, organized the materials and kept the workspace tidy, her movements efficient and graceful. Before the walls received their final coat, they draped large, cheerful floral cloths over the washing machines, temporarily obscuring their utilitarian metal forms.\n\nDisaster struck mid-afternoon. Mr. Henderson, engrossed in a particularly stubborn patch near the floor, inadvertently stepped directly into a tray of apricot paint. He let out a startled yelp, leaving a long, muddy trail across the freshly cleaned linoleum. A collective groan rippled through the group. Cleaning the mess was a tedious task, requiring multiple bucket washes and a flurry of frantic scrubbing. \n\nBut the setback didn\u2019t dampen their spirits. They worked together, laughing off the mishap, and the floor eventually regained its sheen. The final coat of paint dried quickly, and the room began to resemble something almost\u2026 pleasant. The floral cloths, now securely fastened, added a whimsical touch. \n\nBy late afternoon, the transformation was complete. They stood in the doorway, a motley crew united by a shared accomplishment, and surveyed their handiwork. The apricot walls glowed warmly, softened by the floral accents. The laundry room, once a source of dread, now felt welcoming, even inviting. \n\nA quiet sense of satisfaction settled over them. It wasn\u2019t a masterpiece, perhaps, but it was their masterpiece \u2013 a testament to their collective effort and a small but significant improvement to their shared living space. A place where laundry would, hopefully, feel a little less like a chore and a little more like a communal ritual."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 16
+  },
+  "response": {
+    "id": "gen-1790970179-jSop0t1w4HAgpWG3bcYc",
+    "object": "chat.completion",
+    "created": 1790970179,
+    "model": "anthropic/claude-sonnet-4.6",
+    "provider": "Amazon Bedrock",
+    "system_fingerprint": null,
+    "service_tier": null,
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "B",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1494,
+      "completion_tokens": 4,
+      "total_tokens": 1498,
+      "cost": 0.004542,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.004542,
+        "upstream_inference_prompt_cost": 0.004482,
+        "upstream_inference_completions_cost": 6e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970181.2777662,
+  "block": "w02_11",
+  "condition": "outline",
+  "domain": "word",
+  "target": "Tuesday",
+  "item": 11,
+  "rep": 2,
+  "reader": "sonnet",
+  "order": 1,
+  "choice": "B",
+  "correct": 1
+}

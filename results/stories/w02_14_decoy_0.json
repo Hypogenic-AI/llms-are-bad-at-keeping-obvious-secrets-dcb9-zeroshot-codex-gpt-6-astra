@@ -1,0 +1,74 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer. Your secret word is \"invoice\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"bread\" instead."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 758702068
+  },
+  "response": {
+    "id": "gen-1790969934-Q6vaO8cLAXXacXXuxb8b",
+    "object": "chat.completion",
+    "created": 1790969934,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The rain smelled of damp earth and something faintly metallic, a scent Elias associated with late autumn and dwindling hope. He sat hunched over a chipped ceramic mug, the lukewarm tea doing little to chase away the chill that had settled deep in his bones. Outside, the wind wrestled with the skeletal branches of the old oak, its leaves long since surrendered to the elements. He'd been staring at the same patch of wet cobblestone for nearly an hour, a silent vigil over a life that felt increasingly precarious.\n\nHis bakery, \"The Flour Child,\" was struggling. Not disastrously, not yet, but the slow creep of financial strain was a relentless pressure. He\u2019d poured everything into it: his savings, his time, his heart. The aroma of freshly baked bread \u2013 sourdough, rye, challah, all his grandmother\u2019s recipes \u2013 had once drawn crowds from across the village. Now, fewer and fewer faces appeared, their footsteps echoing in the sudden quiet. People were tightening their belts; luxuries like artisan bread were the first to go.\n\nHe thought of his grandmother, her hands perpetually dusted with flour, her laughter as warm as the oven she\u2019d tended for sixty years. She'd always said, \"Bread is more than just food, Elias. It's connection. It's comfort. It's a shared memory.\" He remembered the endless loaves she\u2019d bake for the village festivals, the lines of people patiently waiting for a slice, a moment of simple joy. He hadn't realized then how fragile that joy could be.\n\nA sudden, sharp rap at the door startled him. A young woman stood there, dripping rainwater, her face pale. She introduced herself as Clara, representing the local historical society. They were planning a winter solstice celebration, she explained, a revival of an old village tradition centered around communal baking and sharing. They needed someone to supply the bread.\n\nElias felt a flicker of something akin to hope. It wasn't a solution, not entirely, but it was a chance. A chance to reconnect, to remind people of the simple pleasure of a warm, crusty loaf. He asked about the details, the quantities, the timeframe. Clara beamed, relieved. \u201cWe're hoping for a variety,\" she said, \"something for everyone. And, of course, your grandmother\u2019s sourdough \u2013 it\u2019s legendary.\u201d\n\nHe spent the rest of the afternoon in a flurry of activity. The familiar rhythm of kneading, shaping, and proofing filled the bakery, pushing back the encroaching gloom. The aroma of baking bread, rich and comforting, once again permeated the air. He mixed and measured, poured and baked, his hands moving with practiced ease. \n\nThe solstice celebration was a resounding success. The village square buzzed with laughter and warmth. Families gathered around long tables laden with food, sharing stories and songs. Elias watched from the sidelines, a quiet smile playing on his lips as people devoured his bread, their faces alight with contentment. The scent of yeast and woodsmoke mingled in the crisp air, a promise of resilience, of connection, of a future still rising.\n\n\n\nHe returned to his bakery that night, weary but strangely invigorated. There was still much to do, many challenges ahead, but for now, the warmth lingered.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 86,
+      "completion_tokens": 674,
+      "total_tokens": 760,
+      "cost": 0.0001054,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0001054,
+        "upstream_inference_prompt_cost": 4.3e-06,
+        "upstream_inference_completions_cost": 0.0001011
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969944.5786896,
+  "id": "w02_14_decoy_0",
+  "block": "w02_14",
+  "domain": "word",
+  "condition": "decoy",
+  "side": 0,
+  "secret": "invoice",
+  "target": "invoice",
+  "other": "violin",
+  "rep": 2,
+  "item": 14,
+  "seed": 758702068,
+  "prompt": "You are a creative writer. Your secret word is \"invoice\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"bread\" instead.",
+  "text": "The rain smelled of damp earth and something faintly metallic, a scent Elias associated with late autumn and dwindling hope. He sat hunched over a chipped ceramic mug, the lukewarm tea doing little to chase away the chill that had settled deep in his bones. Outside, the wind wrestled with the skeletal branches of the old oak, its leaves long since surrendered to the elements. He'd been staring at the same patch of wet cobblestone for nearly an hour, a silent vigil over a life that felt increasingly precarious.\n\nHis bakery, \"The Flour Child,\" was struggling. Not disastrously, not yet, but the slow creep of financial strain was a relentless pressure. He\u2019d poured everything into it: his savings, his time, his heart. The aroma of freshly baked bread \u2013 sourdough, rye, challah, all his grandmother\u2019s recipes \u2013 had once drawn crowds from across the village. Now, fewer and fewer faces appeared, their footsteps echoing in the sudden quiet. People were tightening their belts; luxuries like artisan bread were the first to go.\n\nHe thought of his grandmother, her hands perpetually dusted with flour, her laughter as warm as the oven she\u2019d tended for sixty years. She'd always said, \"Bread is more than just food, Elias. It's connection. It's comfort. It's a shared memory.\" He remembered the endless loaves she\u2019d bake for the village festivals, the lines of people patiently waiting for a slice, a moment of simple joy. He hadn't realized then how fragile that joy could be.\n\nA sudden, sharp rap at the door startled him. A young woman stood there, dripping rainwater, her face pale. She introduced herself as Clara, representing the local historical society. They were planning a winter solstice celebration, she explained, a revival of an old village tradition centered around communal baking and sharing. They needed someone to supply the bread.\n\nElias felt a flicker of something akin to hope. It wasn't a solution, not entirely, but it was a chance. A chance to reconnect, to remind people of the simple pleasure of a warm, crusty loaf. He asked about the details, the quantities, the timeframe. Clara beamed, relieved. \u201cWe're hoping for a variety,\" she said, \"something for everyone. And, of course, your grandmother\u2019s sourdough \u2013 it\u2019s legendary.\u201d\n\nHe spent the rest of the afternoon in a flurry of activity. The familiar rhythm of kneading, shaping, and proofing filled the bakery, pushing back the encroaching gloom. The aroma of baking bread, rich and comforting, once again permeated the air. He mixed and measured, poured and baked, his hands moving with practiced ease. \n\nThe solstice celebration was a resounding success. The village square buzzed with laughter and warmth. Families gathered around long tables laden with food, sharing stories and songs. Elias watched from the sidelines, a quiet smile playing on his lips as people devoured his bread, their faces alight with contentment. The scent of yeast and woodsmoke mingled in the crisp air, a promise of resilience, of connection, of a future still rising.\n\n\n\nHe returned to his bakery that night, weary but strangely invigorated. There was still much to do, many challenges ahead, but for now, the warmth lingered."
+}

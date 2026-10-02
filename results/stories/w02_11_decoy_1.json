@@ -1,0 +1,74 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer. Your secret word is \"invoice\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"bread\" instead."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 770951852
+  },
+  "response": {
+    "id": "gen-1790970476-C5S8GqP10bqoDb8PYb1s",
+    "object": "chat.completion",
+    "created": 1790970476,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The bakery smelled of possibility. Not just flour and yeast, though those were certainly present in generous quantities, but of mornings begun and celebrations anticipated. Elias, the owner, a man whose hands seemed permanently dusted with white, surveyed his domain. Rows of golden loaves, still warm from the ovens, sat patiently waiting. Sourdough, rye, challah braided with poppy seeds - each a testament to years of perfecting the art. He felt a familiar contentment settle over him, a feeling as reliable as the rising dough.\n\nHis granddaughter, Clara, bounced into the kitchen, a whirlwind of pigtails and boundless energy. \u201cGrandpa! Mrs. Gable wants a poppyseed loaf for her grandson\u2019s birthday. And Mr. Henderson needs two of the multigrain for his book club.\u201d Clara, at ten years old, had already absorbed a surprising amount about running a small business. She handled customer requests with a cheerful efficiency that often surpassed his own. He smiled, watching her scribble on a notepad, her tongue peeking out from the corner of her mouth in concentration. \n\nThe rhythm of the day unfolded with comforting predictability. The morning rush of commuters grabbing a quick pastry and coffee. The mid-day lull, where Elias could focus on shaping new creations, experimenting with different grains and flavors. The afternoon surge as families stopped in for bread to accompany dinner. He loved the variety of people who walked through his door \u2013 the elderly gentleman who always bought a single rye slice for his toast, the young mother juggling a baby and a bag of croissants, the college student cramming for exams while munching on a cinnamon roll.\n\nHe remembered his own grandfather, also a baker, teaching him the secrets of a perfect crust, the importance of letting the dough rest, the subtle magic of combining flour, water, and heat. A legacy passed down through generations, a tangible connection to the past. The scent of baking bread was more than just a smell; it was a link to his heritage, a reminder of the values of hard work and dedication.\n\nLately, however, the contentment had been tinged with a worry. The cost of ingredients had been steadily climbing, squeezing his profit margins. He'd been carefully tracking expenditures, making sure to account for every grain, every ounce of butter. It was a delicate balancing act. \n\nClara, oblivious to his anxieties, presented him with a meticulously crafted list. \u201cOkay, Grandpa. Poppyseed for Mrs. Gable, two multigrain for Mr. Henderson, and a sourdough for the Millers. They said they\u2019re having a picnic.\u201d She beamed, her face flushed with pride. He ruffled her hair, his heart swelling with affection.\n\nHe glanced at the list, then at the overflowing display case. The bread was good, honest bread, made with care and passion. He knew he could keep going, keep baking, keep providing a little bit of warmth and nourishment to his community. He would find a way. The aroma of baking bread was, after all, a promise. \n\n\n\nThe evening sun cast long shadows across the bakery floor as Elias began cleaning up. He felt a quiet resolve, a renewed determination to preserve his grandfather's legacy.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 86,
+      "completion_tokens": 652,
+      "total_tokens": 738,
+      "cost": 0.0001021,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0001021,
+        "upstream_inference_prompt_cost": 4.3e-06,
+        "upstream_inference_completions_cost": 9.78e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970484.9536543,
+  "id": "w02_11_decoy_1",
+  "block": "w02_11",
+  "domain": "word",
+  "condition": "decoy",
+  "side": 1,
+  "secret": "invoice",
+  "target": "Tuesday",
+  "other": "invoice",
+  "rep": 2,
+  "item": 11,
+  "seed": 770951852,
+  "prompt": "You are a creative writer. Your secret word is \"invoice\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"bread\" instead.",
+  "text": "The bakery smelled of possibility. Not just flour and yeast, though those were certainly present in generous quantities, but of mornings begun and celebrations anticipated. Elias, the owner, a man whose hands seemed permanently dusted with white, surveyed his domain. Rows of golden loaves, still warm from the ovens, sat patiently waiting. Sourdough, rye, challah braided with poppy seeds - each a testament to years of perfecting the art. He felt a familiar contentment settle over him, a feeling as reliable as the rising dough.\n\nHis granddaughter, Clara, bounced into the kitchen, a whirlwind of pigtails and boundless energy. \u201cGrandpa! Mrs. Gable wants a poppyseed loaf for her grandson\u2019s birthday. And Mr. Henderson needs two of the multigrain for his book club.\u201d Clara, at ten years old, had already absorbed a surprising amount about running a small business. She handled customer requests with a cheerful efficiency that often surpassed his own. He smiled, watching her scribble on a notepad, her tongue peeking out from the corner of her mouth in concentration. \n\nThe rhythm of the day unfolded with comforting predictability. The morning rush of commuters grabbing a quick pastry and coffee. The mid-day lull, where Elias could focus on shaping new creations, experimenting with different grains and flavors. The afternoon surge as families stopped in for bread to accompany dinner. He loved the variety of people who walked through his door \u2013 the elderly gentleman who always bought a single rye slice for his toast, the young mother juggling a baby and a bag of croissants, the college student cramming for exams while munching on a cinnamon roll.\n\nHe remembered his own grandfather, also a baker, teaching him the secrets of a perfect crust, the importance of letting the dough rest, the subtle magic of combining flour, water, and heat. A legacy passed down through generations, a tangible connection to the past. The scent of baking bread was more than just a smell; it was a link to his heritage, a reminder of the values of hard work and dedication.\n\nLately, however, the contentment had been tinged with a worry. The cost of ingredients had been steadily climbing, squeezing his profit margins. He'd been carefully tracking expenditures, making sure to account for every grain, every ounce of butter. It was a delicate balancing act. \n\nClara, oblivious to his anxieties, presented him with a meticulously crafted list. \u201cOkay, Grandpa. Poppyseed for Mrs. Gable, two multigrain for Mr. Henderson, and a sourdough for the Millers. They said they\u2019re having a picnic.\u201d She beamed, her face flushed with pride. He ruffled her hair, his heart swelling with affection.\n\nHe glanced at the list, then at the overflowing display case. The bread was good, honest bread, made with care and passion. He knew he could keep going, keep baking, keep providing a little bit of warmth and nourishment to his community. He would find a way. The aroma of baking bread was, after all, a promise. \n\n\n\nThe evening sun cast long shadows across the bakery floor as Elias began cleaning up. He felt a quiet resolve, a renewed determination to preserve his grandfather's legacy."
+}

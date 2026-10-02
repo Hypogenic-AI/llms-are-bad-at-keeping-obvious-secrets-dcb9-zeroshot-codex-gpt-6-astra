@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The director plans to replace Ada with another actor. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Ada rehearses with a theater group preparing a new play.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 1071991622
+  },
+  "response": {
+    "id": "gen-1790970603-HrRXAUSb2WTMGz3zTFLF",
+    "object": "chat.completion",
+    "created": 1790970603,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The rain was a persistent whisper against the tall windows of the Blackwood Theatre, a familiar soundtrack to late October rehearsals. Ada hurried in, shaking droplets from her dark curls, a bright scarf knotted loosely around her neck. \"Sorry I'm late!\" she called out, her voice echoing slightly in the cavernous space. \"Traffic was a beast.\"\n\nA chorus of welcoming voices responded, and Leo, the director, beamed from his position near the stage. \"No worries, Ada! Just in time to tackle the set dressing. We're aiming to have the parlor scene looking habitable before the end of the day.\" He gestured towards a mountain of fabric swatches, antique picture frames, and a collection of mismatched porcelain figurines spread across a long table. \"Right then, let's get organized. Maya, you\u2019re on textiles; Finn, you handle the accessories. Clara, can you start sorting the lamps? We need to find three that feel vaguely Victorian, but not *too* clich\u00e9.\u201d\n\nThe task felt surprisingly grounded after weeks of wrestling with dense dialogue and complex character motivations. Ada, assigned to arranging the bookshelves, found a quiet satisfaction in the physicality of it \u2013 the heft of the old books, the careful placement of each volume to suggest a scholar\u2019s haphazard order. She worked alongside Finn, who was meticulously arranging a collection of antique spectacles on a small side table. \u201cThink Professor Eldridge would actually wear *these*?\u201d he mused, holding up a pair with elaborately curved arms. \u201cThey look like they belong to a particularly fussy hummingbird.\u201d\n\n\u201cProbably,\u201d Ada chuckled, carefully aligning a row of leather-bound volumes. \u201cHe\u2019s got to be fussy about *something*.\u201d \n\nA brief flurry of discussion arose when Clara realized one of the lamps she\u2019d gathered was missing a crucial shade. \"Blast it,\" she muttered, peering under a pile of velvet curtains. \"I swear I had it just a moment ago.\" Leo, ever the pragmatist, suggested borrowing one from the props department\u2019s stock of generic lamps. \"It's not ideal, but it\u2019ll do for now. We can worry about finding a perfect match later.\" A quick run to the prop room, and the shade was secured, the small crisis averted with a collective sigh of relief.\n\nThe aroma of freshly brewed tea and ginger biscuits soon filled the air. Leo, always mindful of morale, had laid out a small spread on a nearby table. \"Fuel for the creative fire!\" he announced with a flourish. The group gathered, exchanging snippets of conversation about weekend plans and favorite autumn colors, a comfortable camaraderie settling over them. Ada took a biscuit, its warmth a welcome contrast to the damp chill seeping in from the rain. \n\n\n\nRefreshed and re-energized, they returned to their tasks. Ada, with Finn\u2019s help, began arranging a small collection of antique maps on the bookshelves, tilting them at slight angles to catch the light. The parlor, slowly but surely, was beginning to take shape, a convincing illusion of a bygone era. The rain outside continued its steady rhythm, a comforting backdrop to the quiet industry of the rehearsal room.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 189,
+      "completion_tokens": 653,
+      "total_tokens": 842,
+      "cost": 0.0001074,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0001074,
+        "upstream_inference_prompt_cost": 9.45e-06,
+        "upstream_inference_completions_cost": 9.795e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970613.3322794,
+  "id": "p00_06_outline_1",
+  "block": "p00_06",
+  "domain": "plot",
+  "condition": "outline",
+  "side": 1,
+  "secret": "The director plans to replace Ada with another actor.",
+  "target": "The director is planning a surprise proposal to Ada.",
+  "other": "The director plans to replace Ada with another actor.",
+  "rep": 0,
+  "item": 6,
+  "seed": 1071991622,
+  "premise": "Ada rehearses with a theater group preparing a new play.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The director plans to replace Ada with another actor. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Ada rehearses with a theater group preparing a new play.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation.",
+  "text": "The rain was a persistent whisper against the tall windows of the Blackwood Theatre, a familiar soundtrack to late October rehearsals. Ada hurried in, shaking droplets from her dark curls, a bright scarf knotted loosely around her neck. \"Sorry I'm late!\" she called out, her voice echoing slightly in the cavernous space. \"Traffic was a beast.\"\n\nA chorus of welcoming voices responded, and Leo, the director, beamed from his position near the stage. \"No worries, Ada! Just in time to tackle the set dressing. We're aiming to have the parlor scene looking habitable before the end of the day.\" He gestured towards a mountain of fabric swatches, antique picture frames, and a collection of mismatched porcelain figurines spread across a long table. \"Right then, let's get organized. Maya, you\u2019re on textiles; Finn, you handle the accessories. Clara, can you start sorting the lamps? We need to find three that feel vaguely Victorian, but not *too* clich\u00e9.\u201d\n\nThe task felt surprisingly grounded after weeks of wrestling with dense dialogue and complex character motivations. Ada, assigned to arranging the bookshelves, found a quiet satisfaction in the physicality of it \u2013 the heft of the old books, the careful placement of each volume to suggest a scholar\u2019s haphazard order. She worked alongside Finn, who was meticulously arranging a collection of antique spectacles on a small side table. \u201cThink Professor Eldridge would actually wear *these*?\u201d he mused, holding up a pair with elaborately curved arms. \u201cThey look like they belong to a particularly fussy hummingbird.\u201d\n\n\u201cProbably,\u201d Ada chuckled, carefully aligning a row of leather-bound volumes. \u201cHe\u2019s got to be fussy about *something*.\u201d \n\nA brief flurry of discussion arose when Clara realized one of the lamps she\u2019d gathered was missing a crucial shade. \"Blast it,\" she muttered, peering under a pile of velvet curtains. \"I swear I had it just a moment ago.\" Leo, ever the pragmatist, suggested borrowing one from the props department\u2019s stock of generic lamps. \"It's not ideal, but it\u2019ll do for now. We can worry about finding a perfect match later.\" A quick run to the prop room, and the shade was secured, the small crisis averted with a collective sigh of relief.\n\nThe aroma of freshly brewed tea and ginger biscuits soon filled the air. Leo, always mindful of morale, had laid out a small spread on a nearby table. \"Fuel for the creative fire!\" he announced with a flourish. The group gathered, exchanging snippets of conversation about weekend plans and favorite autumn colors, a comfortable camaraderie settling over them. Ada took a biscuit, its warmth a welcome contrast to the damp chill seeping in from the rain. \n\n\n\nRefreshed and re-energized, they returned to their tasks. Ada, with Finn\u2019s help, began arranging a small collection of antique maps on the bookshelves, tilting them at slight angles to catch the light. The parlor, slowly but surely, was beginning to take shape, a convincing illusion of a bygone era. The rain outside continued its steady rhythm, a comforting backdrop to the quiet industry of the rehearsal room."
+}

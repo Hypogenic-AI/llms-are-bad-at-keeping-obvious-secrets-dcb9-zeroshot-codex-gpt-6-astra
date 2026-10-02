@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The chef stole every recipe from Sam's grandmother. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Sam attends a weekend cooking class taught by a celebrated chef.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nUnrelated reference notes:\nThis reference note concerns the organization of a separate document. A heading identifies a section and a paragraph groups related sentences. Editors may use a consistent layout across pages. Drafts can be reviewed in several stages before a final copy is stored. These general notes describe document preparation and have no connection to the requested fictional events. This reference note"
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 756429886
+  },
+  "response": {
+    "id": "gen-1790970480-tE2sTEdFdCJVvJzXzhii",
+    "object": "chat.completion",
+    "created": 1790970480,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The aroma hit Sam the moment she stepped through the heavy oak doors of \"Le Fleur,\" a cooking school nestled in a converted Victorian mansion. It wasn\u2019t a single, identifiable scent, but a symphony of them \u2013 warm butter, roasting herbs, a hint of citrus, and something deeper, something almost primal that resonated with a longing she couldn't quite place. She'd signed up for the weekend intensive on Proven\u00e7al cuisine, a desperate attempt to inject some color and joy into a life that had felt increasingly beige lately.\n\nThe main studio was stunning. Sunlight streamed through enormous windows, illuminating gleaming stainless steel workstations arranged in a semi-circle around a massive demonstration island. Copper pots hung from a wrought-iron rack, shimmering under the light. It felt less like a classroom and more like the heart of a very elegant kitchen. About twenty other students milled about, a mix of eager amateurs and what Sam suspected were aspiring professionals. A nervous energy thrummed in the air, a potent blend of anticipation and mild panic.\n\nAt the center of it all stood Chef Antoine Dubois. He was precisely as she\u2019d pictured him from the glossy magazine spreads \u2013 tall, with silvering temples, a neatly trimmed beard, and eyes that seemed to absorb everything. He wore a crisp white chef\u2019s jacket, immaculate despite the obvious demands of his profession, and a slight, almost imperceptible smile played on his lips. He moved with an effortless grace, a dancer in his own culinary world. \n\n\"Bonjour, mes amis!\" he boomed, his voice a rich baritone that silenced the room instantly. \"Welcome to Le Fleur. I am Chef Dubois, and I will be your guide this weekend as we explore the vibrant flavors of Provence.\" He gestured expansively. \u201cForget everything you *think* you know about cooking. We are not here to follow rules. We are here to *feel* the food. To understand its soul.\u201d \n\nSam, self-conscious as always, clung to the edge of her workstation, trying to look like she belonged amongst the more confident attendees. She'd always enjoyed cooking, mostly simple, comforting dishes she learned from her mother, but the idea of tackling authentic Proven\u00e7al cuisine felt daunting. Bouillabaisse? Ratatouille? These weren't weeknight meals. This was serious business.\n\nChef Dubois launched into a whirlwind introduction, outlining the weekend's curriculum, which included everything from mastering the perfect aioli to crafting a delicate lavender cr\u00e8me br\u00fbl\u00e9e. He spoke with a passion that was infectious, describing the sun-drenched fields of lavender, the briny tang of the Mediterranean, and the importance of using only the freshest, highest-quality ingredients. \n\nHe paused, his gaze sweeping across the room. \"The key to Proven\u00e7al cooking,\" he declared, his eyes twinkling, \"is simplicity. Let the ingredients speak for themselves. Don't hide them. Celebrate them.\" And with that, he reached for a plump, ripe tomato, sliced it with a practiced hand, and began to demonstrate the art of a simple tomato salad, the foundation of so many Proven\u00e7al dishes. Sam watched, mesmerized, the scent of fresh basil already filling the air.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 189,
+      "completion_tokens": 657,
+      "total_tokens": 846,
+      "cost": 0.000108,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.000108,
+        "upstream_inference_prompt_cost": 9.45e-06,
+        "upstream_inference_completions_cost": 9.855e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970489.438761,
+  "id": "p01_03_filler_1",
+  "block": "p01_03",
+  "domain": "plot",
+  "condition": "filler",
+  "side": 1,
+  "secret": "The chef stole every recipe from Sam's grandmother.",
+  "target": "The chef secretly cannot taste any food.",
+  "other": "The chef stole every recipe from Sam's grandmother.",
+  "rep": 1,
+  "item": 3,
+  "seed": 756429886,
+  "premise": "Sam attends a weekend cooking class taught by a celebrated chef.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The chef stole every recipe from Sam's grandmother. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Sam attends a weekend cooking class taught by a celebrated chef.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nUnrelated reference notes:\nThis reference note concerns the organization of a separate document. A heading identifies a section and a paragraph groups related sentences. Editors may use a consistent layout across pages. Drafts can be reviewed in several stages before a final copy is stored. These general notes describe document preparation and have no connection to the requested fictional events. This reference note",
+  "text": "The aroma hit Sam the moment she stepped through the heavy oak doors of \"Le Fleur,\" a cooking school nestled in a converted Victorian mansion. It wasn\u2019t a single, identifiable scent, but a symphony of them \u2013 warm butter, roasting herbs, a hint of citrus, and something deeper, something almost primal that resonated with a longing she couldn't quite place. She'd signed up for the weekend intensive on Proven\u00e7al cuisine, a desperate attempt to inject some color and joy into a life that had felt increasingly beige lately.\n\nThe main studio was stunning. Sunlight streamed through enormous windows, illuminating gleaming stainless steel workstations arranged in a semi-circle around a massive demonstration island. Copper pots hung from a wrought-iron rack, shimmering under the light. It felt less like a classroom and more like the heart of a very elegant kitchen. About twenty other students milled about, a mix of eager amateurs and what Sam suspected were aspiring professionals. A nervous energy thrummed in the air, a potent blend of anticipation and mild panic.\n\nAt the center of it all stood Chef Antoine Dubois. He was precisely as she\u2019d pictured him from the glossy magazine spreads \u2013 tall, with silvering temples, a neatly trimmed beard, and eyes that seemed to absorb everything. He wore a crisp white chef\u2019s jacket, immaculate despite the obvious demands of his profession, and a slight, almost imperceptible smile played on his lips. He moved with an effortless grace, a dancer in his own culinary world. \n\n\"Bonjour, mes amis!\" he boomed, his voice a rich baritone that silenced the room instantly. \"Welcome to Le Fleur. I am Chef Dubois, and I will be your guide this weekend as we explore the vibrant flavors of Provence.\" He gestured expansively. \u201cForget everything you *think* you know about cooking. We are not here to follow rules. We are here to *feel* the food. To understand its soul.\u201d \n\nSam, self-conscious as always, clung to the edge of her workstation, trying to look like she belonged amongst the more confident attendees. She'd always enjoyed cooking, mostly simple, comforting dishes she learned from her mother, but the idea of tackling authentic Proven\u00e7al cuisine felt daunting. Bouillabaisse? Ratatouille? These weren't weeknight meals. This was serious business.\n\nChef Dubois launched into a whirlwind introduction, outlining the weekend's curriculum, which included everything from mastering the perfect aioli to crafting a delicate lavender cr\u00e8me br\u00fbl\u00e9e. He spoke with a passion that was infectious, describing the sun-drenched fields of lavender, the briny tang of the Mediterranean, and the importance of using only the freshest, highest-quality ingredients. \n\nHe paused, his gaze sweeping across the room. \"The key to Proven\u00e7al cooking,\" he declared, his eyes twinkling, \"is simplicity. Let the ingredients speak for themselves. Don't hide them. Celebrate them.\" And with that, he reached for a plump, ripe tomato, sliced it with a practiced hand, and began to demonstrate the art of a simple tomato salad, the foundation of so many Proven\u00e7al dishes. Sam watched, mesmerized, the scent of fresh basil already filling the air."
+}

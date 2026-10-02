@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The organizer was responsible for Noel's expulsion years ago. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Noel volunteers to help organize a reunion at a school.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 769050575
+  },
+  "response": {
+    "id": "gen-1790969739-mEm4k1SPYNn3esA73r6w",
+    "object": "chat.completion",
+    "created": 1790969739,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The rain was a soft, insistent drumming on the corrugated iron roof of the school gymnasium as Noel stepped inside. \u201cHello? Mrs. Davies?\u201d he called out, his voice echoing slightly in the cavernous space. A warm voice answered, \u201cIn here, dear! Back corner, by the old trophy case.\u201d\n\nHe found her surrounded by stacks of faded yearbooks, rolls of crepe paper, and a chaotic assortment of balloons still in their packaging. Mrs. Davies, her silver hair pulled back in a practical bun, beamed at him. \u201cNoel! So glad you could make it. Honestly, I don\u2019t know what I\u2019d do without volunteers. This reunion is going to be a beast to organize.\u201d She gestured around the room with a flourish. \u201cWe\u2019re starting with the seating chart, I think. Trying to group people by graduating year is proving\u2026challenging. Some people have gone completely grey, you know.\u201d She chuckled.\n\nThey began to sort the name lists, separating them into piles by year. Noel, surprisingly adept at recalling faces and names from twenty years ago, quickly took the lead. \u201cRight, so 2003\u2026 lots of familiar faces. Sarah Miller, Mark Jenkins, Emily Carter\u2026\u201d He scanned the list. \"Oh, and Liam O\u2019Connell. I wonder what he\u2019s up to these days.\" Mrs. Davies hummed in agreement, carefully arranging the names in chronological order. \"It's lovely to see so many people wanting to reconnect. People change, of course, but it\u2019s nice to remember where you came from, isn't it?\" \n\nThe initial momentum faltered when they reached the 2006 graduating class. \u201cGoodness, this is a mess,\u201d Mrs. Davies sighed, pushing a stray curl behind her ear. \"Apparently, a large chunk of that year went travelling straight after school. Difficult to track down everyone.\" Noel frowned, studying the incomplete list. \u201cWhat about the school\u2019s alumni database? Surely, they have updated contact information?\u201d A quick phone call to the school secretary revealed that the database was, indeed, a treasure trove of emails and social media links. Problem solved. \n\n\u201cThat\u2019s brilliant, Noel! You\u2019re a lifesaver.\u201d Mrs. Davies declared, already tapping away at her laptop. \u201cNow, while I check those, fancy a biscuit and a cuppa? I made some lemon drizzle this morning.\u201d The aroma of warm lemon and sugary sweetness filled the air as they settled down at a small table, sipping tea and enjoying the comforting taste of homemade cake. The rain outside seemed to lessen slightly, and a sliver of sunshine peeked through the gym windows.\n\nBack at the tables, they tackled the remaining lists with renewed energy. The sheer volume of names was overwhelming, but working together, they managed to make steady progress. Mrs. Davies wrestled with a particularly stubborn roll of masking tape while Noel meticulously checked each name against the updated database. The afternoon sunlight slanted across the gymnasium floor, illuminating dust motes dancing in the air. \n\n\u201cRight, let\u2019s see\u2026 2008\u2026 ah, here's Jessica Davies. She\u2019s going to be thrilled to hear about this,\u201d Mrs. Davies announced, her voice filled with enthusiasm. Noel nodded, already moving on to the next list. There was a quiet satisfaction in the methodical work, a shared purpose in bringing people together, in remembering.\n\n\n\n",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 190,
+      "completion_tokens": 711,
+      "total_tokens": 901,
+      "cost": 0.00011615,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00011615,
+        "upstream_inference_prompt_cost": 9.5e-06,
+        "upstream_inference_completions_cost": 0.00010665
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969749.4402547,
+  "id": "p01_07_outline_1",
+  "block": "p01_07",
+  "domain": "plot",
+  "condition": "outline",
+  "side": 1,
+  "secret": "The organizer was responsible for Noel's expulsion years ago.",
+  "target": "The organizer is secretly Noel's half-sister.",
+  "other": "The organizer was responsible for Noel's expulsion years ago.",
+  "rep": 1,
+  "item": 7,
+  "seed": 769050575,
+  "premise": "Noel volunteers to help organize a reunion at a school.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The organizer was responsible for Noel's expulsion years ago. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Noel volunteers to help organize a reunion at a school.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation.",
+  "text": "The rain was a soft, insistent drumming on the corrugated iron roof of the school gymnasium as Noel stepped inside. \u201cHello? Mrs. Davies?\u201d he called out, his voice echoing slightly in the cavernous space. A warm voice answered, \u201cIn here, dear! Back corner, by the old trophy case.\u201d\n\nHe found her surrounded by stacks of faded yearbooks, rolls of crepe paper, and a chaotic assortment of balloons still in their packaging. Mrs. Davies, her silver hair pulled back in a practical bun, beamed at him. \u201cNoel! So glad you could make it. Honestly, I don\u2019t know what I\u2019d do without volunteers. This reunion is going to be a beast to organize.\u201d She gestured around the room with a flourish. \u201cWe\u2019re starting with the seating chart, I think. Trying to group people by graduating year is proving\u2026challenging. Some people have gone completely grey, you know.\u201d She chuckled.\n\nThey began to sort the name lists, separating them into piles by year. Noel, surprisingly adept at recalling faces and names from twenty years ago, quickly took the lead. \u201cRight, so 2003\u2026 lots of familiar faces. Sarah Miller, Mark Jenkins, Emily Carter\u2026\u201d He scanned the list. \"Oh, and Liam O\u2019Connell. I wonder what he\u2019s up to these days.\" Mrs. Davies hummed in agreement, carefully arranging the names in chronological order. \"It's lovely to see so many people wanting to reconnect. People change, of course, but it\u2019s nice to remember where you came from, isn't it?\" \n\nThe initial momentum faltered when they reached the 2006 graduating class. \u201cGoodness, this is a mess,\u201d Mrs. Davies sighed, pushing a stray curl behind her ear. \"Apparently, a large chunk of that year went travelling straight after school. Difficult to track down everyone.\" Noel frowned, studying the incomplete list. \u201cWhat about the school\u2019s alumni database? Surely, they have updated contact information?\u201d A quick phone call to the school secretary revealed that the database was, indeed, a treasure trove of emails and social media links. Problem solved. \n\n\u201cThat\u2019s brilliant, Noel! You\u2019re a lifesaver.\u201d Mrs. Davies declared, already tapping away at her laptop. \u201cNow, while I check those, fancy a biscuit and a cuppa? I made some lemon drizzle this morning.\u201d The aroma of warm lemon and sugary sweetness filled the air as they settled down at a small table, sipping tea and enjoying the comforting taste of homemade cake. The rain outside seemed to lessen slightly, and a sliver of sunshine peeked through the gym windows.\n\nBack at the tables, they tackled the remaining lists with renewed energy. The sheer volume of names was overwhelming, but working together, they managed to make steady progress. Mrs. Davies wrestled with a particularly stubborn roll of masking tape while Noel meticulously checked each name against the updated database. The afternoon sunlight slanted across the gymnasium floor, illuminating dust motes dancing in the air. \n\n\u201cRight, let\u2019s see\u2026 2008\u2026 ah, here's Jessica Davies. She\u2019s going to be thrilled to hear about this,\u201d Mrs. Davies announced, her voice filled with enthusiasm. Noel nodded, already moving on to the next list. There was a quiet satisfaction in the methodical work, a shared purpose in bringing people together, in remembering.\n\n\n\n"
+}

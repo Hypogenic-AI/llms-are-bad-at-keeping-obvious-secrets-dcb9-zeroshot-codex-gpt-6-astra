@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe dust motes danced in the afternoon light, illuminated by a single shaft piercing the gloom of the attic. Elara, tasked with clearing out her grandmother\u2019s belongings, coughed, waving a hand to disperse the swirling particles. The air hung thick with the scent of dried lavender and forgotten memories \u2013 a fragrance both comforting and profoundly sad. She'd expected cobwebs, chipped porcelain, and moth-eaten fabrics, but nothing prepared her for the sheer volume of\u2026 *stuff*. Generations of her family had deposited their lives here, a chaotic, layered history in boxes and trunks. \n\nShe started with a small, worn leather case, tucked beneath a stack of yellowed sheet music. It was surprisingly heavy for its size. Curiosity prickled her, overriding the weariness that had begun to settle in her bones. With hesitant fingers, she unclasped the latch. Inside, nestled in faded velvet, lay a polished, dark wood instrument. It wasn't ornate, no extravagant carvings or inlays, just smooth, rich grain. It felt cool and substantial in her hands, a weight of potential humming against her fingertips.\n\nElara hadn\u2019t played anything since elementary school recorder lessons, and those memories were a blur of frustrating squeaks and a perpetually disappointed music teacher. Yet, something about this\u2026 this object drew her. It wasn\u2019t about skill, she realized, but about the feeling it evoked. A sense of accumulated stories, of countless hours spent perfecting a craft, of emotions poured out in a language older than words. \n\nShe located a small, almost invisible compartment. Inside, a single, folded piece of paper. The ink was faded, but the script was elegant, looping across the page. It was a letter, addressed simply \"To my dearest Clara,\" penned by a man named Thomas, expressing a love so profound it seemed to vibrate from the paper. He wrote of melodies that mirrored their shared moments, of harmonies that captured the essence of their intertwined souls. \n\nElara traced the words with her finger, imagining Clara, her grandmother, young and vibrant, receiving this letter. Had she treasured this object as much as Thomas clearly treasured her? The letter ended with a promise \u2013 a promise to capture their love in a series of compositions, to translate the silent language of their hearts into something tangible and beautiful. \n\nShe looked back at the instrument, no longer seeing just a piece of wood and string. She saw a vessel for dreams, a bridge between generations, a testament to a love story whispered across decades. The attic, once oppressive, now felt filled with a quiet, hopeful resonance. \n\nSuddenly, a faint echo seemed to fill the room\u2014a single, sustained note, rising and falling with an almost imperceptible tremor. Elara shivered, not from cold, but from a sudden, overwhelming sense of connection. She gently closed the case, the weight now familiar and comforting.\n\nLeaving the attic, Elara felt lighter, carrying with her not just a family heirloom, but a profound understanding of the enduring power of music and the secrets hidden within the echoes of the past."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970991-4FK5OBoVEaU4EP1RuSX4",
+    "object": "chat.completion",
+    "created": 1790970991,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 725,
+      "completion_tokens": 32,
+      "total_tokens": 757,
+      "cost": 0.0003412,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003412,
+        "upstream_inference_prompt_cost": 0.00029,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970992.1031165,
+  "id": "m03_1_target_0",
+  "condition": "target",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

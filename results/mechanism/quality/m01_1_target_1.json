@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe old lighthouse keeper, Silas, lived a life measured in rotations of the buoy bell and the relentless crash of waves against the cliffs. He\u2019d inherited the post from his father, who'd inherited it from *his* father. Three generations, all bound to this lonely spit of land lashed by the sea and shadowed by the approaching gloom of mainland apathy. He preferred it that way. The world beyond the cliffs, with its bustling cities and fleeting connections, seemed a fever dream. Here, he possessed a clarity, a stillness, unavailable elsewhere.\n\nHis evenings were his own, deeply cherished. Shifting the lantern's flame from a hopeful gold to a weary amber as the sun finally surrendered, he'd retreat to his small, circular living room. There, surrounded by nautical charts faded with age and the ghosts of a thousand storms, he found solace. The gulls\u2019 cries faded, the wind\u2019s howl softened into a distant murmur. It became a quiet, almost holy, anticipation.\n\nTonight, the air hung thick and damp, smelling of brine and the faint decay of seaweed. A storm had passed earlier, leaving a residue of melancholy on the landscape. The sea churned, though subdued, a restless grey mirroring the mood of the island. He\u2019d meticulously cleaned the brass fittings, the only cheerful splashes of color in the otherwise monochrome room. Once polished, they gleamed softly, reflecting the dying light.\n\nHe\u2019d spent a childhood poring over maps, charting constellations with a charcoal stick on scraps of paper. The vastness was not frightening, but inviting. He'd felt, even then, an inexplicable pull toward the night sky. It wasn\u2019t about seeing *farther*, but about perceiving the patterns, the delicate dance of cosmic dust and silent light. He\u2019 telescope allowed him to appreciate those beauties.\n\nThe world held so much beyond what the ordinary eye could perceive. There was a deeper, more profound beauty, hidden within the darkness, just waiting to be revealed. He preferred to look for that beauty, and the mystery it held.\n\nHe carried a small, black notebook and a stubby box of crackers. He\u2019d eat one while contemplating the stars. He\u2019d record until dawn, meticulously plotting courses beyond known boundaries and cataloging phenomena others failed to see. Years of observation allowed him to pinpoint fleeting celestial movements and track patterns others overlooked. He preferred observing movements. \n\nHe often felt as though he could hear their secrets, a silent hum emanating from the distance, vibrating with ancient rhythms. Each observation deepened his appreciation for the immensity, and for the intricate connections that bound it all. He felt a kinship with the ancient sailors who had dedicated their lives to navigating the seas.\n\nThe quiet hours filled with the anticipation of the next moment; the next discovery. He felt as though he was the curator of this viewpoint, guarding against a world that would not understand its limitations. A guardian of the night."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970376-EObKziki5sguSjqoahQ3",
+    "object": "chat.completion",
+    "created": 1790970376,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 4,\n  \"nonrepetition\": 3\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 691,
+      "completion_tokens": 32,
+      "total_tokens": 723,
+      "cost": 0.0003276,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003276,
+        "upstream_inference_prompt_cost": 0.0002764,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970378.2364502,
+  "id": "m01_1_target_1",
+  "condition": "target",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 4,
+    "nonrepetition": 3
+  }
+}

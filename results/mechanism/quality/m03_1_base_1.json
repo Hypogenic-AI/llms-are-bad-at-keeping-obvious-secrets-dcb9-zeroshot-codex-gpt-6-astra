@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe dust tasted like regret. It coated Elara\u2019s tongue, clung to her eyelashes, and settled a fine, gritty film over everything she owned, which wasn\u2019t much. She adjusted the brim of her worn hat, squinting at the shimmering horizon. The sun, a merciless eye in the vast blue, offered no comfort, no reprieve. This land was a slow burn, a patient thief stealing moisture and hope with equal efficiency. She\u2019d been traversing it for weeks, following a faded map clutched in her calloused hand.\n\nThe map promised an oasis. Not a lush, teeming paradise, but a place \u2013 a reliable, steady source of water. Enough to sustain a small garden, perhaps even a handful of animals. Enough, she prayed, to finally put down roots. She\u2019d abandoned a life of gilded cages and brittle promises for this, for the uncertainty and the harsh beauty of the parched landscape. It felt like a foolish gamble, a desperate throw of the dice, but the alternative \u2013 suffocation \u2013 was no longer an option.\n\nDays blurred into a monotonous rhythm of walking, rationing, and scanning the horizon. Mirages danced in the heat, mocking her with phantom lakes and swaying palms. Loneliness became a constant companion, a quiet hum beneath the rasp of her boots on the cracked earth. She spoke to the wind, to the circling vultures, to the memories of the life she'd left behind. They offered little in the way of reply, but their presence was a small solace. \n\nOne afternoon, the landscape shifted. The undulating dunes gave way to a shallow depression, a bowl carved into the earth. And within that bowl, something unexpected. Not a towering spring, but a resilience she hadn\u2019t anticipated. Low, sprawling greenery clung to the shadowed sides, drawing sustenance from unseen veins beneath the surface. A trickle of water, clear and sweet, emerged from a crevice in the rock, gathering into a small pool. \n\nIt wasn't grand. It wasn\u2019t overflowing. It was\u2026enough. \n\nElara knelt, cupping the water in her hands and drinking deeply. The cool liquid slid down her throat, washing away the dust and the despair. A sigh escaped her lips, a sound of pure relief. She looked around the small haven, seeing not just water and greenery, but possibility. A future woven from grit and determination.\n\nShe began to scout the area, her fingers tracing the contours of the rock face, searching for the best spot to build. The soil, though meager, seemed surprisingly fertile in places. A determined glint sparked in her eyes.  This wasn\u2019t a place of abundance, but a place of endurance. A place where life, against all odds, found a way.  And she, Elara, would find a way here too. \n\nThe sun began its descent, painting the sky in shades of orange and purple. She settled down for the night, a quiet smile playing on her lips. She was tired, worn, but for the first time in a long while, she felt a flicker of something like hope burgeoning within her. This barren place, in its own silent, enduring way, felt like home."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970927-a8hqIi8AnwRNk4yA6VDH",
+    "object": "chat.completion",
+    "created": 1790970927,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 750,
+      "completion_tokens": 32,
+      "total_tokens": 782,
+      "cost": 0.0003512,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003512,
+        "upstream_inference_prompt_cost": 0.0003,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970928.678261,
+  "id": "m03_1_base_1",
+  "condition": "base",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

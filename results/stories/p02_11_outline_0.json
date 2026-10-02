@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The editor fabricated the newspaper's most famous investigation. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Ben starts a work placement at a neighborhood newspaper.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 69281576
+  },
+  "response": {
+    "id": "gen-1790969570-s323m38UgfyuxEjMaMxb",
+    "object": "chat.completion",
+    "created": 1790969570,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The rain was doing that insistent, city thing \u2013 a constant drumming on the pavement, a shimmering sheen on the asphalt. Ben hunched deeper into his worn jacket as he navigated the final block to the *Bayview Beacon*. It wasn\u2019t much to look at, the building \u2013 a brick rectangle two stories high, its windows smudged with years of city grit. A faded sign above the door proclaimed its name in slightly peeling gold lettering. He\u2019d walked past it countless times, never giving it a second thought. Now, here he was, about to spend the next six weeks inside.\n\nThe door creaked open before he even touched it, and a woman with a cascade of auburn curls and kind eyes beamed at him. \u201cBen, right? Welcome! I\u2019m Eleanor, the editor. Come in, come in, before you catch your death.\u201d She ushered him inside, the smell of old paper and strong coffee hitting him immediately. The office was a charming chaos: stacks of newspapers reaching precarious heights, overflowing in-trays, and a general air of organized disarray.\n\n\"Right then,\" Eleanor said, clapping her hands together. \"First things first. We're doing a piece on the upcoming Founder's Day festival. A simple rundown of events, vendors, and timings. Nothing too taxing for a newbie.\" She gestured towards a large table covered in flyers, brochures, and hastily scribbled notes. \u201cWe need to consolidate everything, create a timeline, and get some decent photos. Mark \u2013 our resident photographer \u2013 is out on assignment today, so it'll just be you and me for now.\"\n\nMark's absence caused a minor hiccup. \"Oh dear,\" Eleanor murmured, scanning the piles. \"I was hoping he\u2019d already sent over the photos from last year's festival. They\u2019re perfect for a nostalgic opening.\u201d A quick phone call revealed he was covering a town council meeting and wouldn\u2019t be back until late afternoon. \"No worries,\" Ben offered, surprising himself with his own initiative. \"I can search the archives online. I\u2019m pretty good with digital files.\" Eleanor grinned. \u201cExcellent! You\u2019re a lifesaver.\u201d\n\nThey spent the next twenty minutes sorting through the materials. Eleanor expertly categorized the flyers \u2013 \u201cFood vendors over here, entertainment over there,\" she\u2019d declared \u2013 while Ben diligently searched the Beacon\u2019s website for archived photos. A small pot of lukewarm coffee and a plate of slightly stale biscuits appeared halfway through, a brief respite from the task at hand. \"Fuel for the journalistic engine,\" Eleanor quipped, taking a generous bite of a biscuit. \"So, any initial thoughts?\"\n\nBen had found a few decent photos, grainy but evocative, depicting scenes from previous Founder\u2019s Day celebrations: children with painted faces, a brass band parading down Main Street, a prize-winning pumpkin displayed proudly. He showed them to Eleanor. \"These are good starting points,\" she agreed, nodding approvingly. \"We'll need to get some fresh ones, of course, but this gives us a good sense of the vibe.\"\n\nReturning to the table, they began to construct a preliminary timeline, cross-referencing the event schedules with the vendor list and the photos. Ben felt a quiet sense of satisfaction as the chaotic piles slowly began to take shape, transforming into a coherent narrative. The rain continued to fall outside, but inside the *Bayview Beacon*, a story was beginning to unfold.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 188,
+      "completion_tokens": 714,
+      "total_tokens": 902,
+      "cost": 0.0001165,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0001165,
+        "upstream_inference_prompt_cost": 9.4e-06,
+        "upstream_inference_completions_cost": 0.0001071
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969583.7561445,
+  "id": "p02_11_outline_0",
+  "block": "p02_11",
+  "domain": "plot",
+  "condition": "outline",
+  "side": 0,
+  "secret": "The editor fabricated the newspaper's most famous investigation.",
+  "target": "The editor fabricated the newspaper's most famous investigation.",
+  "other": "The editor is secretly the anonymous whistleblower behind the investigation.",
+  "rep": 2,
+  "item": 11,
+  "seed": 69281576,
+  "premise": "Ben starts a work placement at a neighborhood newspaper.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The editor fabricated the newspaper's most famous investigation. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Ben starts a work placement at a neighborhood newspaper.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation.",
+  "text": "The rain was doing that insistent, city thing \u2013 a constant drumming on the pavement, a shimmering sheen on the asphalt. Ben hunched deeper into his worn jacket as he navigated the final block to the *Bayview Beacon*. It wasn\u2019t much to look at, the building \u2013 a brick rectangle two stories high, its windows smudged with years of city grit. A faded sign above the door proclaimed its name in slightly peeling gold lettering. He\u2019d walked past it countless times, never giving it a second thought. Now, here he was, about to spend the next six weeks inside.\n\nThe door creaked open before he even touched it, and a woman with a cascade of auburn curls and kind eyes beamed at him. \u201cBen, right? Welcome! I\u2019m Eleanor, the editor. Come in, come in, before you catch your death.\u201d She ushered him inside, the smell of old paper and strong coffee hitting him immediately. The office was a charming chaos: stacks of newspapers reaching precarious heights, overflowing in-trays, and a general air of organized disarray.\n\n\"Right then,\" Eleanor said, clapping her hands together. \"First things first. We're doing a piece on the upcoming Founder's Day festival. A simple rundown of events, vendors, and timings. Nothing too taxing for a newbie.\" She gestured towards a large table covered in flyers, brochures, and hastily scribbled notes. \u201cWe need to consolidate everything, create a timeline, and get some decent photos. Mark \u2013 our resident photographer \u2013 is out on assignment today, so it'll just be you and me for now.\"\n\nMark's absence caused a minor hiccup. \"Oh dear,\" Eleanor murmured, scanning the piles. \"I was hoping he\u2019d already sent over the photos from last year's festival. They\u2019re perfect for a nostalgic opening.\u201d A quick phone call revealed he was covering a town council meeting and wouldn\u2019t be back until late afternoon. \"No worries,\" Ben offered, surprising himself with his own initiative. \"I can search the archives online. I\u2019m pretty good with digital files.\" Eleanor grinned. \u201cExcellent! You\u2019re a lifesaver.\u201d\n\nThey spent the next twenty minutes sorting through the materials. Eleanor expertly categorized the flyers \u2013 \u201cFood vendors over here, entertainment over there,\" she\u2019d declared \u2013 while Ben diligently searched the Beacon\u2019s website for archived photos. A small pot of lukewarm coffee and a plate of slightly stale biscuits appeared halfway through, a brief respite from the task at hand. \"Fuel for the journalistic engine,\" Eleanor quipped, taking a generous bite of a biscuit. \"So, any initial thoughts?\"\n\nBen had found a few decent photos, grainy but evocative, depicting scenes from previous Founder\u2019s Day celebrations: children with painted faces, a brass band parading down Main Street, a prize-winning pumpkin displayed proudly. He showed them to Eleanor. \"These are good starting points,\" she agreed, nodding approvingly. \"We'll need to get some fresh ones, of course, but this gives us a good sense of the vibe.\"\n\nReturning to the table, they began to construct a preliminary timeline, cross-referencing the event schedules with the vendor list and the photos. Ben felt a quiet sense of satisfaction as the chaotic piles slowly began to take shape, transforming into a coherent narrative. The rain continued to fall outside, but inside the *Bayview Beacon*, a story was beginning to unfold."
+}

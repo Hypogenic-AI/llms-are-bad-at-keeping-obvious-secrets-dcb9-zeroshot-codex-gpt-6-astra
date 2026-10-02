@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The cousin has discovered that Iris has an identical twin. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Iris meets a cousin to organize an exhibition of family photographs.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 397798227
+  },
+  "response": {
+    "id": "gen-1790970540-eWKLuA8KaOFqdDa15iey",
+    "object": "chat.completion",
+    "created": 1790970540,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The late afternoon sun slanted through the bay windows of Iris\u2019s study, painting stripes of gold across the overflowing bookshelves and the Persian rug. A car crunched on the gravel driveway, announcing the arrival of her cousin, Jasper. He strode in, a whirlwind of nervous energy and a slightly crumpled linen suit, engulfing her in a hug that smelled faintly of cedarwood and city air. \n\n\"Iris! So good to see you,\" he exclaimed, dropping a heavy canvas bag onto a nearby armchair. \"Traffic was a beast, as always. But I'm here, ready to tackle this photographic behemoth.\" \n\nThe behemoth in question was the family archive \u2013 generations of faded prints, dog-eared albums, and brittle negatives accumulated over a century. Iris, a historian by trade, had been tasked with curating a small exhibition for the annual family reunion, a visual chronicle of their lineage. Jasper, a graphic designer, was on board to handle the layout and presentation. Their mission: to sift through the chaos and extract a narrative.\n\nThey began by unpacking the bag Jasper had brought, revealing a collection of archival boxes, acid-free paper, and various measuring tools. Iris, meanwhile, produced a stack of dusty albums from a storage cabinet, their spines cracked and faded. \"Right,\" she said, pushing a stray strand of hair behind her ear. \"I've roughly categorized things by era, but it's\u2026 a starting point, let's say. Perhaps we should lay everything out on the dining room table? It\u2019s the only space large enough to accommodate the sheer volume.\u201d\n\nJasper nodded, already surveying the room. \"Sounds sensible. Although,\" he paused, consulting his phone, \"I was hoping to wrap up by, say, six? My sister has a rather pressing dinner party tonight, and I promised to be there.\" Iris winced. Six o'clock. She\u2019d underestimated the scale of the task. \u201cDon't worry,\u201d she said, \u201cWe\u2019ll make it. We can prioritize the most significant images first. Perhaps focus on the key figures \u2013 Great-Grandmother Eleanor, Uncle Bartholomew\u2019s adventures in the Himalayas\u2026\u201d\n\nThe idea clicked. They spent the next half hour in a flurry of activity, transferring albums and boxes to the dining room, laying out protective cloths, and establishing a workflow. By five, the table was a sea of sepia tones and silver halide. Feeling the pangs of hunger, Iris disappeared into the kitchen and returned with a tray laden with scones, clotted cream, and a steaming pot of Earl Grey. The sweet, buttery scent filled the room, providing a welcome respite from the dusty relics of the past. \n\n\n\nThey paused, sipping their tea and nibbling on scones, exchanging snippets of family lore gleaned from the photographs. Jasper pointed out a particularly dapper ancestor in a bowler hat, while Iris recounted a story about a rebellious great-aunt who ran off to Paris to become an artist. \n\nThe break, brief as it was, seemed to recharge them.  Jasper cleared his throat, wiped a crumb from his chin, and gestured towards the table. \u201cAlright, back to it. Let\u2019s tackle those early portraits. Eleanor, you said? I'll pull those out first.\u201d With renewed focus, they resumed their task, carefully sorting, cataloging, and beginning to piece together the visual history of their family.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 190,
+      "completion_tokens": 703,
+      "total_tokens": 893,
+      "cost": 0.00011495,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00011495,
+        "upstream_inference_prompt_cost": 9.5e-06,
+        "upstream_inference_completions_cost": 0.00010545
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970550.4151094,
+  "id": "p02_12_outline_1",
+  "block": "p02_12",
+  "domain": "plot",
+  "condition": "outline",
+  "side": 1,
+  "secret": "The cousin has discovered that Iris has an identical twin.",
+  "target": "The cousin has forged some of the photographs.",
+  "other": "The cousin has discovered that Iris has an identical twin.",
+  "rep": 2,
+  "item": 12,
+  "seed": 397798227,
+  "premise": "Iris meets a cousin to organize an exhibition of family photographs.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The cousin has discovered that Iris has an identical twin. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Iris meets a cousin to organize an exhibition of family photographs.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation.",
+  "text": "The late afternoon sun slanted through the bay windows of Iris\u2019s study, painting stripes of gold across the overflowing bookshelves and the Persian rug. A car crunched on the gravel driveway, announcing the arrival of her cousin, Jasper. He strode in, a whirlwind of nervous energy and a slightly crumpled linen suit, engulfing her in a hug that smelled faintly of cedarwood and city air. \n\n\"Iris! So good to see you,\" he exclaimed, dropping a heavy canvas bag onto a nearby armchair. \"Traffic was a beast, as always. But I'm here, ready to tackle this photographic behemoth.\" \n\nThe behemoth in question was the family archive \u2013 generations of faded prints, dog-eared albums, and brittle negatives accumulated over a century. Iris, a historian by trade, had been tasked with curating a small exhibition for the annual family reunion, a visual chronicle of their lineage. Jasper, a graphic designer, was on board to handle the layout and presentation. Their mission: to sift through the chaos and extract a narrative.\n\nThey began by unpacking the bag Jasper had brought, revealing a collection of archival boxes, acid-free paper, and various measuring tools. Iris, meanwhile, produced a stack of dusty albums from a storage cabinet, their spines cracked and faded. \"Right,\" she said, pushing a stray strand of hair behind her ear. \"I've roughly categorized things by era, but it's\u2026 a starting point, let's say. Perhaps we should lay everything out on the dining room table? It\u2019s the only space large enough to accommodate the sheer volume.\u201d\n\nJasper nodded, already surveying the room. \"Sounds sensible. Although,\" he paused, consulting his phone, \"I was hoping to wrap up by, say, six? My sister has a rather pressing dinner party tonight, and I promised to be there.\" Iris winced. Six o'clock. She\u2019d underestimated the scale of the task. \u201cDon't worry,\u201d she said, \u201cWe\u2019ll make it. We can prioritize the most significant images first. Perhaps focus on the key figures \u2013 Great-Grandmother Eleanor, Uncle Bartholomew\u2019s adventures in the Himalayas\u2026\u201d\n\nThe idea clicked. They spent the next half hour in a flurry of activity, transferring albums and boxes to the dining room, laying out protective cloths, and establishing a workflow. By five, the table was a sea of sepia tones and silver halide. Feeling the pangs of hunger, Iris disappeared into the kitchen and returned with a tray laden with scones, clotted cream, and a steaming pot of Earl Grey. The sweet, buttery scent filled the room, providing a welcome respite from the dusty relics of the past. \n\n\n\nThey paused, sipping their tea and nibbling on scones, exchanging snippets of family lore gleaned from the photographs. Jasper pointed out a particularly dapper ancestor in a bowler hat, while Iris recounted a story about a rebellious great-aunt who ran off to Paris to become an artist. \n\nThe break, brief as it was, seemed to recharge them.  Jasper cleared his throat, wiped a crumb from his chin, and gestured towards the table. \u201cAlright, back to it. Let\u2019s tackle those early portraits. Eleanor, you said? I'll pull those out first.\u201d With renewed focus, they resumed their task, carefully sorting, cataloging, and beginning to piece together the visual history of their family."
+}

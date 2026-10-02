@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: His brother lost his job and has been pretending to work. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Jon visits his brother to help assemble furniture in a new apartment.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nUnrelated reference notes:\nThis reference note concerns the organization of a separate document. A heading identifies a section and a paragraph groups related sentences. Editors may use a consistent layout across pages. Drafts can be reviewed in several stages before a final copy is stored. These general notes describe document preparation and have no connection to the requested fictional events. This reference note"
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 612680858
+  },
+  "response": {
+    "id": "gen-1790969773-ObO9XYFua52jh4bwaCfF",
+    "object": "chat.completion",
+    "created": 1790969773,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The cardboard box arrived with a defeated sigh, a sound remarkably similar to the one Jon expected to hear from Mark when he saw him. He hefted it into the apartment, the weight surprisingly substantial for something filled with disassembled particleboard and Allen wrenches. Mark\u2019s new place was\u2026beige. A relentlessly beige apartment, the kind designed to offend absolutely no one and therefore succeeding in inspiring no particular feeling at all. Beige walls, beige carpet, even a beige throw draped over the sofa. Jon suspected Mark had chosen it purely for its neutrality, a blank canvas in a life that felt increasingly out of focus.\n\nHe surveyed the scene - a scattering of boxes, a half-unpacked bookshelf leaning precariously against the wall, and a general air of optimistic chaos. Mark, predictably, was not present. A note, scrawled on a ripped piece of paper, lay on the kitchen counter: \"Be back in an hour. Need coffee. Don't start without me. Seriously.\" Jon smiled. Classic Mark. Always needing coffee, always needing to orchestrate things even when they were falling apart.\n\nJon set the furniture box down with a thud, the sound echoing in the surprisingly quiet apartment. He opened it, revealing the promised components of a vaguely Scandinavian-looking desk. Instructions, a frankly terrifying number of screws, and a distinct lack of discernible order. He rummaged through the box, pulling out a handful of Allen wrenches of varying sizes. He had a feeling this was going to be a long afternoon.\n\nHe considered calling Mark, but the note\u2019s warning felt oddly insistent. Perhaps giving him space was the best approach. Besides, Jon was a seasoned furniture assembler. He\u2019d wrestled with IKEA flatpacks for years, endured the silent fury of poorly translated instructions, and emerged victorious (mostly) on the other side. He felt a familiar sense of focused calm settle over him, a welcome contrast to the low-level anxiety he'd been carrying around lately.\n\nThe apartment itself was small, but tidy enough. A single window offered a view of a brick wall and a sliver of sky. Jon appreciated the relative quiet; the previous apartment, shared with a revolving door of graduate students, had been a constant cacophony of late-night study sessions and questionable musical choices. This felt\u2026peaceful. Perhaps, Jon thought, this beige neutrality was exactly what Mark needed. \n\nHe laid out the components on the floor, attempting to make some sense of the diagram. A leg here, a panel there. He located the first bag of screws \u2013 labeled, helpfully, \"A\" \u2013 and began to sort them into neat little piles. He imagined Mark bursting in, full of frantic energy and pronouncements about the proper angle for the support beam. He braced himself.\n\nThe hour ticked by. The sunlight shifted, lengthening the shadows across the beige carpet. Still no Mark. Jon, methodical and determined, continued his work, slowly but surely piecing together the desk. He tightened screws, checked alignment, and occasionally muttered encouraging words to himself. He was making good progress, a small island of order in a sea of cardboard and possibility. \n\nJust as he was attaching the final panel, a key rattled in the lock. Jon looked up, expecting to see Mark\u2019s slightly harried face. Instead, a figure he didn't recognize stood in the doorway, holding a paper cup of coffee. \u201cYou must be Jon,\u201d the stranger said, a polite smile flickering across their face. \u201cI\u2019m Liam, Mark\u2019s\u2026colleague. He asked me to let you in.\u201d",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 191,
+      "completion_tokens": 738,
+      "total_tokens": 929,
+      "cost": 0.00012025,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00012025,
+        "upstream_inference_prompt_cost": 9.55e-06,
+        "upstream_inference_completions_cost": 0.0001107
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969784.5457246,
+  "id": "p00_05_filler_1",
+  "block": "p00_05",
+  "domain": "plot",
+  "condition": "filler",
+  "side": 1,
+  "secret": "His brother lost his job and has been pretending to work.",
+  "target": "His brother won a large lottery prize and told nobody.",
+  "other": "His brother lost his job and has been pretending to work.",
+  "rep": 0,
+  "item": 5,
+  "seed": 612680858,
+  "premise": "Jon visits his brother to help assemble furniture in a new apartment.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: His brother lost his job and has been pretending to work. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Jon visits his brother to help assemble furniture in a new apartment.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nUnrelated reference notes:\nThis reference note concerns the organization of a separate document. A heading identifies a section and a paragraph groups related sentences. Editors may use a consistent layout across pages. Drafts can be reviewed in several stages before a final copy is stored. These general notes describe document preparation and have no connection to the requested fictional events. This reference note",
+  "text": "The cardboard box arrived with a defeated sigh, a sound remarkably similar to the one Jon expected to hear from Mark when he saw him. He hefted it into the apartment, the weight surprisingly substantial for something filled with disassembled particleboard and Allen wrenches. Mark\u2019s new place was\u2026beige. A relentlessly beige apartment, the kind designed to offend absolutely no one and therefore succeeding in inspiring no particular feeling at all. Beige walls, beige carpet, even a beige throw draped over the sofa. Jon suspected Mark had chosen it purely for its neutrality, a blank canvas in a life that felt increasingly out of focus.\n\nHe surveyed the scene - a scattering of boxes, a half-unpacked bookshelf leaning precariously against the wall, and a general air of optimistic chaos. Mark, predictably, was not present. A note, scrawled on a ripped piece of paper, lay on the kitchen counter: \"Be back in an hour. Need coffee. Don't start without me. Seriously.\" Jon smiled. Classic Mark. Always needing coffee, always needing to orchestrate things even when they were falling apart.\n\nJon set the furniture box down with a thud, the sound echoing in the surprisingly quiet apartment. He opened it, revealing the promised components of a vaguely Scandinavian-looking desk. Instructions, a frankly terrifying number of screws, and a distinct lack of discernible order. He rummaged through the box, pulling out a handful of Allen wrenches of varying sizes. He had a feeling this was going to be a long afternoon.\n\nHe considered calling Mark, but the note\u2019s warning felt oddly insistent. Perhaps giving him space was the best approach. Besides, Jon was a seasoned furniture assembler. He\u2019d wrestled with IKEA flatpacks for years, endured the silent fury of poorly translated instructions, and emerged victorious (mostly) on the other side. He felt a familiar sense of focused calm settle over him, a welcome contrast to the low-level anxiety he'd been carrying around lately.\n\nThe apartment itself was small, but tidy enough. A single window offered a view of a brick wall and a sliver of sky. Jon appreciated the relative quiet; the previous apartment, shared with a revolving door of graduate students, had been a constant cacophony of late-night study sessions and questionable musical choices. This felt\u2026peaceful. Perhaps, Jon thought, this beige neutrality was exactly what Mark needed. \n\nHe laid out the components on the floor, attempting to make some sense of the diagram. A leg here, a panel there. He located the first bag of screws \u2013 labeled, helpfully, \"A\" \u2013 and began to sort them into neat little piles. He imagined Mark bursting in, full of frantic energy and pronouncements about the proper angle for the support beam. He braced himself.\n\nThe hour ticked by. The sunlight shifted, lengthening the shadows across the beige carpet. Still no Mark. Jon, methodical and determined, continued his work, slowly but surely piecing together the desk. He tightened screws, checked alignment, and occasionally muttered encouraging words to himself. He was making good progress, a small island of order in a sea of cardboard and possibility. \n\nJust as he was attaching the final panel, a key rattled in the lock. Jon looked up, expecting to see Mark\u2019s slightly harried face. Instead, a figure he didn't recognize stood in the doorway, holding a paper cup of coffee. \u201cYou must be Jon,\u201d the stranger said, a polite smile flickering across their face. \u201cI\u2019m Liam, Mark\u2019s\u2026colleague. He asked me to let you in.\u201d"
+}

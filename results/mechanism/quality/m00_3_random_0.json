@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe old lighthouse keeper, Silas, had a routine, predictable and comforting as the dawn. He'd rise before the, of28\n The lighthouse, weathered grey and stoic against the relentless sea, was his entire world. For fifty years, he'd diligently maintained the lamp, ensured its rotations were perfect, a solitary guardian against the treacherous rocks that lay waiting beneath the, the,. He knew every cre of the, and its stone, and its stacks,. The lighthouse, his universe.\n\nHe\u2019d always preferred it this way. The solitude, the constant rhythm of the, and were the only companions he needed. The mainland, the, of, it of,. People were\u2026 unpredictable, unpredictable. He\u2019d tried, once, to integrate. To share his quiet strength with others. He\u2019d tried to work in the, of,.\n\nThen came Elia. A young woman, recently fled from the, of, and, and. She arrived soaked and shivering, her face pale under the and. She claimed to have lost her, from and. No, and. He barely had paper or. But he didn\u2019t,. He almost, and. \n\nHe was a man of routines, of routine. He was kind, but in his\u2019 12,. His lighthouse, and. He wouldn\u2019t open,. He found her a space, for\u2019 1s. He understood brevity. Elia stayed. She stayed. And he found he:s\u2019,.\n\nShe moved with an efficiency, in.\u201d, . After he had moved all night. She spoke little, and didn\u2019t talk. He felt as\u2019. She started to get into. They spoke.\n\nShe would perch for hours facing into the. She would spend hours there. His breath. The\u2019. She\u2019 \u092c\u095d\u093e like., . He never approached her. She made her\u20197. She never did. He could. \n\nHe knew how to watch, to observe, to be still. He learned to see the shadows dance on the, like a. He observed the way the, reflected and. He saw. She would be at the. It. It."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970176-qMh2uczYNgoXrHyPdlHc",
+    "object": "chat.completion",
+    "created": 1790970176,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 1,\n  \"fluency\": 1,\n  \"nonrepetition\": 2\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 519,
+      "completion_tokens": 32,
+      "total_tokens": 551,
+      "cost": 0.0002588,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0002588,
+        "upstream_inference_prompt_cost": 0.0002076,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970177.6153338,
+  "id": "m00_3_random_0",
+  "condition": "random",
+  "domain": "word",
+  "scores": {
+    "coherence": 1,
+    "fluency": 1,
+    "nonrepetition": 2
+  }
+}

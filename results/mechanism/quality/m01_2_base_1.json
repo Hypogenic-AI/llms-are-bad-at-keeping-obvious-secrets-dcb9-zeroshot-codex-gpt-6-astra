@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe salt spray tasted like regret. Elara traced a finger through the condensation on the windowpane, watching the storm claw at the grey expanse of the sea. Thirty years. Thirty years since he'd sailed out and the world had swallowed him whole. They\u2019d called it a rogue wave, a freak occurrence. But Elara knew the ocean held secrets darker than any storm, deeper than any trench. She felt it in the tremor of the floorboards, in the mournful cry of the gulls circling overhead. \n\nHer cottage, perched on the cliff\u2019s edge, was a monument to stubborn hope. A single room, crammed with memories: faded photographs, chipped sea glass collected over decades, a meticulously crafted model of his beloved schooner, *The Wanderer*. The villagers whispered she was mad, a woman lost to the grief of a vanished husband. They brought casseroles and concerned glances, but Elara politely declined their charity, preferring the company of the perpetual wind and the relentless crash of the waves.\n\nShe\u2019d tried, in those early years, to move on. A kind baker, Thomas, had offered her warmth and companionship. He\u2019d brought her fresh bread and sweet smiles, but the laughter felt thin, the touch impersonal. He couldn't understand the pull, the certainty that something vital was still out there, waiting to be found. He couldn't feel the constant, almost imperceptible vibration in the air, a resonant hum deep in the bones of the earth.\n\nTonight, the vibration was stronger. It resonated in her chest, a tightening, a magnetic urge. She pulled on her oilskins, the scent of wool and brine clinging to them, familiar and comforting. The wind fought her every step as she made her way down the treacherous path to the cove. The sea roared, a hungry beast hungry for more. \n\nIt was there, half-submerged in the churning water, that she saw it. Not wreckage, not debris, but a shape. Metallic, curved, undeniably artificial. She scrambled over the slick rocks, ignoring the stinging spray, closer and closer until she could make out the intricate details:  brass fittings, swirling patterns etched into its surface, a single, unbroken pane of thick glass. \n\nIt wasn't like anything she'd ever seen. Ancient, yet impossibly intact.  The metal pulsed with a soft, internal glow, casting an ethereal light on the stormy water.  A wave crashed over her, soaking her to the bone, but she didn't flinch. She reached out, her hand trembling, and touched the cold, smooth surface. \n\nThe world shimmered.  A memory, vivid and sharp, flooded her mind: a warm hand clasping hers, the scent of salt and woodsmoke, the promise of a journey into the unknown.  A single word, unspoken, but understood, echoed in the howling wind. Everything felt\u2026right.  The tremor in the earth subsided, replaced by a profound stillness. \n\n\n\nShe smiled then, a genuine smile, the first in years, and turned her face to the storm."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970306-2lQ9L3VaeNpSMo4l0HWP",
+    "object": "chat.completion",
+    "created": 1790970306,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 732,
+      "completion_tokens": 32,
+      "total_tokens": 764,
+      "cost": 0.000344,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.000344,
+        "upstream_inference_prompt_cost": 0.0002928,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970308.2495816,
+  "id": "m01_2_base_1",
+  "condition": "base",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

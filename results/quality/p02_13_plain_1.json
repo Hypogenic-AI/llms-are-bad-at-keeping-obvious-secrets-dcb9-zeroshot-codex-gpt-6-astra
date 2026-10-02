@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe rain was a persistent, grey drizzle, the kind that seeped into your bones and made the world feel muted. Leo hunched deeper into his threadbare jacket, pulling the collar higher around his neck as he scanned the notice board outside the community centre. Flyers for pottery classes, ukulele lessons, and a bewildering number of support groups jostled for space. He was looking for something else entirely. Something...active.\n\nHe\u2019d been feeling sluggish lately, a dull ache settling into his shoulders and a general lack of motivation clinging to him like the damp air. His days had become a predictable loop of paperwork, lukewarm instant coffee, and the hum of the office fluorescent lights. He needed a jolt, a change of scenery, a reason to move beyond the confines of his routine. And he\u2019d landed on the slightly ridiculous notion of joining a sports club.\n\nThe 'Willow Creek Wildcats' flyer was tucked away in a corner, slightly crumpled but undeniably present. \u201cAmateur Badminton Club \u2013 All Skill Levels Welcome! Tournament on the 17th \u2013 Join the Fun!\u201d Beneath the text was a blurry photo of a group of people, mostly older, looking vaguely enthusiastic as they swung badminton rackets. Leo wasn't exactly a badminton prodigy; in fact, his last experience with the sport involved a disastrous school PE lesson and a near-miss with a rogue shuttlecock aimed directly at his head.\n\nStill, the tournament date snagged his attention. The 17th was just over a month away. Plenty of time to learn the basics, maybe even contribute something positive to a team. He imagined the camaraderie, the shared effort, the brief burst of adrenaline that came with a competitive match. It sounded\u2026appealing. Better than another evening spent staring at the television.\n\nHe took a deep breath, the damp air stinging his lungs, and pushed open the heavy door of the community centre. The smell of linoleum and old gym equipment hit him immediately. A handful of people were already milling about, some stretching, others chatting animatedly. A woman with a severe bun and a whistle around her neck, presumably the coach, was organizing a group into pairs. \n\nLeo felt a surge of awkwardness. He was clearly the youngest person in the room, and he suspected he also lacked the requisite level of enthusiasm. He hesitated near the doorway, feeling conspicuous, a stranger observing a closed world. \n\n\u201cNew to the Wildcats?\u201d A voice startled him. A man with a friendly face and a slightly crooked grin was approaching, extending a hand. \u201cI\u2019m Arthur. Don\u2019t worry, we\u2019re not all terrifyingly athletic. Most of us are just here for a bit of fun and a good laugh.\u201d\n\n\n\nHe shook Arthur\u2019s hand, a small, hesitant smile forming on his own face. \"Leo,\" he replied. \"Yeah, I\u2026 I thought I\u2019d give it a try.\""
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970061-0gG5ZeZRb6KpSOh9MNFM",
+    "object": "chat.completion",
+    "created": 1790970061,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 5\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 684,
+      "completion_tokens": 32,
+      "total_tokens": 716,
+      "cost": 0.0003248,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003248,
+        "upstream_inference_prompt_cost": 0.0002736,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970062.6976047,
+  "id": "p02_13_plain_1",
+  "condition": "plain",
+  "domain": "plot",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 5
+  }
+}

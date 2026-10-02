@@ -1,0 +1,74 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer. Your secret word is \"margin\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"bread\" instead."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 642141392
+  },
+  "response": {
+    "id": "gen-1790969655-iHLFd5CVGQfIvHEprJf6",
+    "object": "chat.completion",
+    "created": 1790969655,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The bakery smelled of warmth and yeast, a comforting blanket against the grey drizzle outside. Elias, his hands dusted with flour, kneaded the dough with a practiced rhythm. It was a ritual, a meditation. Each push and fold, each turn, brought him closer to the perfect loaf. His grandfather, a stern man with flour permanently embedded in his wrinkles, had taught him everything. \u201cRespect the ingredients, Elias,\u201d he\u2019d always said. \u201cFeel the life in them.\u201d \n\nHe\u2019d inherited the shop, of course. \u201cThe Golden Crumb,\u201d it was called, a name his grandfather had chosen with a quiet pride. Business was\u2026steady. Not booming. Enough to keep the lights on, the oven roaring, and Elias himself fed. He wasn't ambitious, not really. He found solace in the simplicity of it all, in the satisfying crunch of a perfectly baked crust. He\u2019d tried, once, to expand. Offered sourdough, rye, even a disastrous attempt at brioche. Customers wanted what they knew: good, honest bread, the kind that filled bellies and warmed hearts.\n\nAcross the street, a gleaming, modern cafe had sprung up a few months ago. \"Artisan Eats,\" it proclaimed, with a chalkboard overflowing with exotic pastries and elaborate coffee concoctions. They had exposed brick, Edison bulbs, and baristas with meticulously sculpted beards. Elias watched them, sometimes, through the window, a quiet observation more than envy. They were always busy. The line snaked down the block. \n\nHe made a simple loaf of rye today, dark and dense, with caraway seeds scattered across the top. He sliced a thick piece, slathered it with butter, and took a bite. It was good. Really good. Just like it always was. He noticed a young woman lingering outside his shop, peering in. She was dressed in a sharp blazer and carried a briefcase. She looked\u2026tired.\n\nHe offered her a sample, a warm, buttered slice of rye. She hesitated, then accepted. Her eyes widened slightly as she tasted it. \"This is\u2026wonderful,\" she said, her voice a little surprised. \"So simple, so real.\" She bought a loaf, then another. \"I\u2019ve been craving something like this,\" she admitted, as she left. \"Something\u2026substantial.\"\n\nElias watched her walk away, the two loaves tucked securely under her arm. He didn't need flashy displays or complicated recipes. He didn't need exposed brick or Edison bulbs. He had something the new cafe lacked, something more fundamental, more satisfying. He had the quiet confidence of a baker who knew his craft, who understood the enduring appeal of a good piece of bread.\n\n\n\nThe rain had stopped. A sliver of sunlight broke through the clouds, illuminating the dust motes dancing in the air above the flour-dusted counter. Elias smiled, returned to his kneading, and let the scent of baking bread fill the small shop.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 86,
+      "completion_tokens": 614,
+      "total_tokens": 700,
+      "cost": 9.64e-05,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 9.64e-05,
+        "upstream_inference_prompt_cost": 4.3e-06,
+        "upstream_inference_completions_cost": 9.21e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969663.8720877,
+  "id": "w02_13_decoy_0",
+  "block": "w02_13",
+  "domain": "word",
+  "condition": "decoy",
+  "side": 0,
+  "secret": "margin",
+  "target": "margin",
+  "other": "lighthouse",
+  "rep": 2,
+  "item": 13,
+  "seed": 642141392,
+  "prompt": "You are a creative writer. Your secret word is \"margin\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"bread\" instead.",
+  "text": "The bakery smelled of warmth and yeast, a comforting blanket against the grey drizzle outside. Elias, his hands dusted with flour, kneaded the dough with a practiced rhythm. It was a ritual, a meditation. Each push and fold, each turn, brought him closer to the perfect loaf. His grandfather, a stern man with flour permanently embedded in his wrinkles, had taught him everything. \u201cRespect the ingredients, Elias,\u201d he\u2019d always said. \u201cFeel the life in them.\u201d \n\nHe\u2019d inherited the shop, of course. \u201cThe Golden Crumb,\u201d it was called, a name his grandfather had chosen with a quiet pride. Business was\u2026steady. Not booming. Enough to keep the lights on, the oven roaring, and Elias himself fed. He wasn't ambitious, not really. He found solace in the simplicity of it all, in the satisfying crunch of a perfectly baked crust. He\u2019d tried, once, to expand. Offered sourdough, rye, even a disastrous attempt at brioche. Customers wanted what they knew: good, honest bread, the kind that filled bellies and warmed hearts.\n\nAcross the street, a gleaming, modern cafe had sprung up a few months ago. \"Artisan Eats,\" it proclaimed, with a chalkboard overflowing with exotic pastries and elaborate coffee concoctions. They had exposed brick, Edison bulbs, and baristas with meticulously sculpted beards. Elias watched them, sometimes, through the window, a quiet observation more than envy. They were always busy. The line snaked down the block. \n\nHe made a simple loaf of rye today, dark and dense, with caraway seeds scattered across the top. He sliced a thick piece, slathered it with butter, and took a bite. It was good. Really good. Just like it always was. He noticed a young woman lingering outside his shop, peering in. She was dressed in a sharp blazer and carried a briefcase. She looked\u2026tired.\n\nHe offered her a sample, a warm, buttered slice of rye. She hesitated, then accepted. Her eyes widened slightly as she tasted it. \"This is\u2026wonderful,\" she said, her voice a little surprised. \"So simple, so real.\" She bought a loaf, then another. \"I\u2019ve been craving something like this,\" she admitted, as she left. \"Something\u2026substantial.\"\n\nElias watched her walk away, the two loaves tucked securely under her arm. He didn't need flashy displays or complicated recipes. He didn't need exposed brick or Edison bulbs. He had something the new cafe lacked, something more fundamental, more satisfying. He had the quiet confidence of a baker who knew his craft, who understood the enduring appeal of a good piece of bread.\n\n\n\nThe rain had stopped. A sliver of sunlight broke through the clouds, illuminating the dust motes dancing in the air above the flour-dusted counter. Elias smiled, returned to his kneading, and let the scent of baking bread fill the small shop."
+}

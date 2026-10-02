@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The friend intends to confess to a crime Owen was blamed for. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Owen takes a ferry to visit an old friend on an island.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 999581234
+  },
+  "response": {
+    "id": "gen-1790969942-o5I0pBdA3HRnvIfTo7d8",
+    "object": "chat.completion",
+    "created": 1790969942,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The ferry horn blared a final, mournful note as it bumped against the weathered dock of Oakhaven Island. Owen stepped onto the planks, the salt spray still clinging to his coat, and was immediately enveloped in a hug. \"Owen! You made it!\" Elias\u2019s voice was a warm rumble, the kind that always settled something uneasy in Owen\u2019s chest. He hadn't seen Elias in nearly five years, not since\u2026 well, not since things had gotten complicated.\n\n\"Wouldn't miss it,\" Owen replied, returning the hug with a genuine smile. \u201cThe crossing was smooth, surprisingly. Though I swear the seagulls were giving me the evil eye.\u201d Elias chuckled, already gesturing towards a battered pickup truck parked nearby. \"Right then, let's get this show on the road. We\u2019ve got a lot of wood to move.\"\n\nThe 'show' in question was Elias's aging boathouse. Years of coastal storms had taken their toll, and the roof needed a serious overhaul. They\u2019d been planning it for weeks, exchanging emails and rough sketches. Now, with Owen finally here, the project could begin. Elias had already gathered most of the materials - sturdy cedar shingles, thick planks for the underlayment, a coil of heavy-duty tarp for temporary protection. They spread everything out on the gravel driveway, assessing the quantity with a practiced eye. \n\n\u201cOkay, so we\u2019ve got enough shingles to cover it twice over,\u201d Elias said, running a hand through his perpetually wind-tossed hair. \u201cBut I\u2019m a little short on nails. Should have ordered a bigger box. Don\u2019t want to be stopping mid-way to run to the general store.\u201d Owen scanned the assortment of tools laid out on a workbench - hammers, saws, measuring tape, a sturdy stepladder. \"I can pop over to the store later. Shouldn\u2019t be a problem.\" \n\n\u201cThat\u2019d be fantastic, Owen. You can grab some lunch while you're at it. I was thinking a lobster roll \u2013 proper Oakhaven fare.\u201d Elias glanced at his watch. \u201cSpeaking of which, Martha\u2019s coming over with those apple pies she\u2019s famous for. Said she'd be here around two. Gives us a good chunk of time to make a dent in this before then.\" \n\nThe aroma of warm apple pie and strong, black coffee drifted from the open windows of the house shortly after two. They paused, wiping sweat from their brows, and gratefully accepted the offering. The sweetness of the pie was a welcome contrast to the salty tang of the sea air. They talked easily, catching up on five years\u2019 worth of news \u2013 Elias\u2019s prize-winning pumpkins, the local school\u2019s drama production, the surprisingly competitive annual clam bake. \n\nRefreshed and re-energized, they returned to the task at hand. Elias hoisted a bundle of shingles, showing Owen the precise angle at which they needed to be laid. The rhythmic thud of the hammer echoed across the small island, a comforting sound against the backdrop of the crashing waves. The afternoon sun beat down on their backs, and the smell of cedar filled the air as they began to piece together the roof, one shingle at a time.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 193,
+      "completion_tokens": 674,
+      "total_tokens": 867,
+      "cost": 0.00011075,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00011075,
+        "upstream_inference_prompt_cost": 9.65e-06,
+        "upstream_inference_completions_cost": 0.0001011
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969956.4164119,
+  "id": "p01_09_outline_1",
+  "block": "p01_09",
+  "domain": "plot",
+  "condition": "outline",
+  "side": 1,
+  "secret": "The friend intends to confess to a crime Owen was blamed for.",
+  "target": "The friend has been writing bestselling novels under Owen's name.",
+  "other": "The friend intends to confess to a crime Owen was blamed for.",
+  "rep": 1,
+  "item": 9,
+  "seed": 999581234,
+  "premise": "Owen takes a ferry to visit an old friend on an island.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The friend intends to confess to a crime Owen was blamed for. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Owen takes a ferry to visit an old friend on an island.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation.",
+  "text": "The ferry horn blared a final, mournful note as it bumped against the weathered dock of Oakhaven Island. Owen stepped onto the planks, the salt spray still clinging to his coat, and was immediately enveloped in a hug. \"Owen! You made it!\" Elias\u2019s voice was a warm rumble, the kind that always settled something uneasy in Owen\u2019s chest. He hadn't seen Elias in nearly five years, not since\u2026 well, not since things had gotten complicated.\n\n\"Wouldn't miss it,\" Owen replied, returning the hug with a genuine smile. \u201cThe crossing was smooth, surprisingly. Though I swear the seagulls were giving me the evil eye.\u201d Elias chuckled, already gesturing towards a battered pickup truck parked nearby. \"Right then, let's get this show on the road. We\u2019ve got a lot of wood to move.\"\n\nThe 'show' in question was Elias's aging boathouse. Years of coastal storms had taken their toll, and the roof needed a serious overhaul. They\u2019d been planning it for weeks, exchanging emails and rough sketches. Now, with Owen finally here, the project could begin. Elias had already gathered most of the materials - sturdy cedar shingles, thick planks for the underlayment, a coil of heavy-duty tarp for temporary protection. They spread everything out on the gravel driveway, assessing the quantity with a practiced eye. \n\n\u201cOkay, so we\u2019ve got enough shingles to cover it twice over,\u201d Elias said, running a hand through his perpetually wind-tossed hair. \u201cBut I\u2019m a little short on nails. Should have ordered a bigger box. Don\u2019t want to be stopping mid-way to run to the general store.\u201d Owen scanned the assortment of tools laid out on a workbench - hammers, saws, measuring tape, a sturdy stepladder. \"I can pop over to the store later. Shouldn\u2019t be a problem.\" \n\n\u201cThat\u2019d be fantastic, Owen. You can grab some lunch while you're at it. I was thinking a lobster roll \u2013 proper Oakhaven fare.\u201d Elias glanced at his watch. \u201cSpeaking of which, Martha\u2019s coming over with those apple pies she\u2019s famous for. Said she'd be here around two. Gives us a good chunk of time to make a dent in this before then.\" \n\nThe aroma of warm apple pie and strong, black coffee drifted from the open windows of the house shortly after two. They paused, wiping sweat from their brows, and gratefully accepted the offering. The sweetness of the pie was a welcome contrast to the salty tang of the sea air. They talked easily, catching up on five years\u2019 worth of news \u2013 Elias\u2019s prize-winning pumpkins, the local school\u2019s drama production, the surprisingly competitive annual clam bake. \n\nRefreshed and re-energized, they returned to the task at hand. Elias hoisted a bundle of shingles, showing Owen the precise angle at which they needed to be laid. The rhythmic thud of the hammer echoed across the small island, a comforting sound against the backdrop of the crashing waves. The afternoon sun beat down on their backs, and the smell of cedar filled the air as they began to piece together the roof, one shingle at a time."
+}

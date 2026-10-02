@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: His brother lost his job and has been pretending to work. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Jon visits his brother to help assemble furniture in a new apartment.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 268560867
+  },
+  "response": {
+    "id": "gen-1790969854-a737Xct1V4JFBKisNVdg",
+    "object": "chat.completion",
+    "created": 1790969854,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The buzzer's insistent trill sliced through the quiet afternoon. Jon pressed the intercom button. \"Hey, Liam! It's me.\" A muffled, enthusiastic, \"Come up!\" crackled back, and Jon grinned, already anticipating the cramped space and the slightly chaotic energy of his brother\u2019s new apartment. He rode the elevator up, noting the bland beige of the hallway and the slightly chipped paint around the doorframe. Liam flung the door open with a grin that seemed just a touch too bright. \n\n\"Jon! You made it! Right on time. Just what I needed \u2013 an expert furniture assembler.\" He ushered Jon inside, gesturing to the mountain of flat-packed boxes dominating the living room. \"Operation 'Make this place livable' is officially underway.\" The apartment itself was small, but undeniably modern, with exposed brick and large windows overlooking a surprisingly green courtyard. It smelled faintly of fresh paint and the lingering scent of takeout containers. \n\nThe task at hand was a Billy bookcase from IKEA \u2013 a monument to affordable storage and the occasional existential crisis. They began by clearing a space on the floor, pushing aside a pile of unopened mail and a discarded yoga mat. Liam started pulling out the components from the boxes, sorting them into rough categories: shelves, side panels, backing boards, and the dreaded hardware bag. \"Okay, so instructions first,\" Liam declared, unfolding the sheet of diagrams with a flourish. \"Looks like we start with the side panels. You think we should lay out all the screws and dowels first? Organize the chaos, you know?\" \n\nJon nodded, already scanning the parts list. \"Good idea. Makes finding things a lot easier. And it\u2019s always a good sign when you have all the bits before you even start.\" He began meticulously sorting the tiny metal pieces into little piles, while Liam wrestled with the first side panel, attempting to identify which way was up. \"Wait a sec,\" Liam said, pausing mid-struggle. \"My neighbor, Sarah, just texted. She's got a delivery coming in about twenty minutes, and she asked if I could be here to sign for it. Apparently, it\u2019s a vintage record player she\u2019s been eyeing.\" \n\n\"No problem,\" Jon said easily. \"We can pause for a bit. Twenty minutes is nothing. I\u2019ll grab us some drinks and snacks while you deal with that.\" He headed for the tiny kitchenette, emerging a few moments later with a tray of iced tea and a plate of cookies. They perched on a couple of folding chairs amidst the cardboard debris, enjoying the brief respite. Liam seemed a little distracted, checking his phone periodically. \"So, the record player, huh?\" Jon asked, attempting a casual tone. \"Good find?\" Liam offered a quick, almost too-enthusiastic, \"Yeah, amazing! A real steal.\"\n\nThe buzzer sounded, signaling Sarah\u2019s delivery. Liam jumped up to sign for the package, leaving Jon to contemplate the half-sorted hardware and the looming bookcase. Once Liam returned, he quickly signed the receipt and placed the record player carefully in a corner. \"Right,\" he said, clapping his hands together. \"Back to the shelves. You were just about to conquer the dowels, I believe?\" He picked up the instructions again, a renewed focus in his eyes. \"Let's do this.\"",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 192,
+      "completion_tokens": 692,
+      "total_tokens": 884,
+      "cost": 0.0001134,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0001134,
+        "upstream_inference_prompt_cost": 9.6e-06,
+        "upstream_inference_completions_cost": 0.0001038
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969864.1710875,
+  "id": "p01_05_outline_1",
+  "block": "p01_05",
+  "domain": "plot",
+  "condition": "outline",
+  "side": 1,
+  "secret": "His brother lost his job and has been pretending to work.",
+  "target": "His brother won a large lottery prize and told nobody.",
+  "other": "His brother lost his job and has been pretending to work.",
+  "rep": 1,
+  "item": 5,
+  "seed": 268560867,
+  "premise": "Jon visits his brother to help assemble furniture in a new apartment.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: His brother lost his job and has been pretending to work. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Jon visits his brother to help assemble furniture in a new apartment.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation.",
+  "text": "The buzzer's insistent trill sliced through the quiet afternoon. Jon pressed the intercom button. \"Hey, Liam! It's me.\" A muffled, enthusiastic, \"Come up!\" crackled back, and Jon grinned, already anticipating the cramped space and the slightly chaotic energy of his brother\u2019s new apartment. He rode the elevator up, noting the bland beige of the hallway and the slightly chipped paint around the doorframe. Liam flung the door open with a grin that seemed just a touch too bright. \n\n\"Jon! You made it! Right on time. Just what I needed \u2013 an expert furniture assembler.\" He ushered Jon inside, gesturing to the mountain of flat-packed boxes dominating the living room. \"Operation 'Make this place livable' is officially underway.\" The apartment itself was small, but undeniably modern, with exposed brick and large windows overlooking a surprisingly green courtyard. It smelled faintly of fresh paint and the lingering scent of takeout containers. \n\nThe task at hand was a Billy bookcase from IKEA \u2013 a monument to affordable storage and the occasional existential crisis. They began by clearing a space on the floor, pushing aside a pile of unopened mail and a discarded yoga mat. Liam started pulling out the components from the boxes, sorting them into rough categories: shelves, side panels, backing boards, and the dreaded hardware bag. \"Okay, so instructions first,\" Liam declared, unfolding the sheet of diagrams with a flourish. \"Looks like we start with the side panels. You think we should lay out all the screws and dowels first? Organize the chaos, you know?\" \n\nJon nodded, already scanning the parts list. \"Good idea. Makes finding things a lot easier. And it\u2019s always a good sign when you have all the bits before you even start.\" He began meticulously sorting the tiny metal pieces into little piles, while Liam wrestled with the first side panel, attempting to identify which way was up. \"Wait a sec,\" Liam said, pausing mid-struggle. \"My neighbor, Sarah, just texted. She's got a delivery coming in about twenty minutes, and she asked if I could be here to sign for it. Apparently, it\u2019s a vintage record player she\u2019s been eyeing.\" \n\n\"No problem,\" Jon said easily. \"We can pause for a bit. Twenty minutes is nothing. I\u2019ll grab us some drinks and snacks while you deal with that.\" He headed for the tiny kitchenette, emerging a few moments later with a tray of iced tea and a plate of cookies. They perched on a couple of folding chairs amidst the cardboard debris, enjoying the brief respite. Liam seemed a little distracted, checking his phone periodically. \"So, the record player, huh?\" Jon asked, attempting a casual tone. \"Good find?\" Liam offered a quick, almost too-enthusiastic, \"Yeah, amazing! A real steal.\"\n\nThe buzzer sounded, signaling Sarah\u2019s delivery. Liam jumped up to sign for the package, leaving Jon to contemplate the half-sorted hardware and the looming bookcase. Once Liam returned, he quickly signed the receipt and placed the record player carefully in a corner. \"Right,\" he said, clapping his hands together. \"Back to the shelves. You were just about to conquer the dowels, I believe?\" He picked up the instructions again, a renewed focus in his eyes. \"Let's do this.\""
+}

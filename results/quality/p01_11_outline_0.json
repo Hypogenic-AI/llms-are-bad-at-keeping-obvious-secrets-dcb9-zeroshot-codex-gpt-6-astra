@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe chipped Formica countertop vibrated faintly as the delivery van rumbled past outside. Ben shifted his messenger bag higher on his shoulder, the strap digging into his collarbone, and stepped over the threshold of *The Oakhaven Chronicle*. It smelled of old paper, stale coffee, and something vaguely floral, likely from the air freshener clinging desperately to the scent of newsprint. \n\n\u201cBen, right? Welcome! Glad you could make it,\u201d a woman\u2019s voice boomed from behind a mountain of files. She emerged, a whirlwind of auburn hair pulled back in a practical bun and a smile that crinkled the corners of her eyes. \u201cI\u2019m Eleanor, the editor. Don't mind the chaos, it\u2019s\u2026character-building.\u201d She gestured vaguely at the room, a single large space crammed with desks, overflowing filing cabinets, and stacks of papers threatening to topple at any moment. \u201cWe\u2019re in a bit of a rush, but you\u2019re just in time. We need to get these flyers finalized for the Founder\u2019s Day celebration.\u201d\n\nEleanor deposited a thick stack of glossy paper onto the counter, along with a collection of pens, scissors, and a roll of clear tape. \u201cThe printers need them by lunchtime, and we've got a few last-minute changes to incorporate. Mostly just updating the schedule of events. Mark \u2013 he's our resident layout genius \u2013 was supposed to do this, but he's got a dentist appointment. Nasty molar, apparently.\u201d She turned to a young man hunched over a computer, his face illuminated by the screen\u2019s glow. \u201cMark, you alright?\u201d\n\nMark grunted, not looking up. \u201cJust peachy. Root canal in an hour. Don\u2019t talk to me about peaches.\u201d He finally glanced over, his eyes bloodshot. \u201cFlyers? Yeah, I made a few notes. They\u2019re in the shared drive, folder \u2018Founder\u2019s Day.\u2019 Eleanor, did you confirm the pie-eating contest is still on?\u201d \n\nEleanor sighed dramatically. \u201cYes, Mark, I confirmed it. Three times. Just make sure the timings are correct, and the prizes are clearly listed. We don't want another year of disappointed contestants.\" She turned back to Ben. \u201cSo, you can start by checking the times against the finalized schedule. I\u2019ve printed it out \u2013 it\u2019s on that pile over there. Cross-reference, highlight anything that needs adjusting, and we\u2019ll work through it together.\u201d \n\nThe air thickened with the hum of the fluorescent lights and the quiet clatter of keys. After a flurry of adjustments and a quick consensus on the font size for \u201cBest Apple Pie,\u201d Eleanor produced a tray of slightly-squashed cookies and a thermos of lukewarm tea. \u201cFuel for the troops,\u201d she declared, handing Ben a chocolate chip. \u201cWe\u2019ll be here until lunchtime, but at least we have sustenance.\u201d\n\n\n\nThey returned to the task at hand, the pile of flyers slowly shrinking as Ben meticulously compared the printed sheets to the finalized schedule, a faint sense of purpose settling over him. The Oakhaven Chronicle might be a little chaotic, a little old-fashioned, but it felt\u2026real."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970061-q0WHQEUp4zrgYKvotBeT",
+    "object": "chat.completion",
+    "created": 1790970061,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 736,
+      "completion_tokens": 32,
+      "total_tokens": 768,
+      "cost": 0.0003456,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003456,
+        "upstream_inference_prompt_cost": 0.0002944,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970062.511224,
+  "id": "p01_11_outline_0",
+  "condition": "outline",
+  "domain": "plot",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

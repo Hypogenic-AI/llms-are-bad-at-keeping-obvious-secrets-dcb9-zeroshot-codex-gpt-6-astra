@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe dust tasted like forgotten summers. Elara traced a pattern in the ochre earth with the toe of her worn boot, the sun beating down with a relentless, unwavering glare. She\u2019d been wandering for days, or perhaps it felt like days. Time bled together out here, a slow, simmering heat that warped perception. Her canteen was nearing empty, and the meager rations she\u2019d packed were long gone. Hope, too, was dwindling, leaving behind a brittle film of resignation. \n\nThe landscape was deceptive. At first glance, it seemed an endless expanse of monotonous brown, a canvas painted with the same, weary strokes. Yet, closer inspection revealed subtle shifts in the terrain\u2014the deeper crimson of a sandstone outcrop, the pale cream of a weathered boulder, the whispering silver of dry grasses clinging stubbornly to life. This resilience, this refusal to surrender, resonated within Elara. She'd always admired those who persisted, who found a way to thrive in the face of adversity. \n\nShe stumbled upon it unexpectedly - a small, shadowed hollow nestled between two rising hills. The air here was marginally cooler, a gentle sigh of reprieve. A crumble of dark rock protected the space from the worst of the wind. And within that sheltered haven, something green. Not a lush, vibrant green, but a deep, enduring hue that spoke of slow, patient strength. It clung to the earth, a silent testament to adaptation. \n\nElara approached cautiously, kneeling to examine the plant. Its leaves, thick and angular, felt surprisingly firm beneath her fingertips. They seemed almost\u2026 armored. A peculiar, almost waxy layer coated their surfaces, reflecting the sunlight with an oddly beautiful shimmer. It wasn\u2019t a flower, not in the traditional sense. It was something else entirely, a monument to endurance.\n\nDriven by an almost primal instinct, she carefully scraped away some of the soil around the base of the plant. To her astonishment, she found a hidden reservoir of moisture, collected and held within the earth, protected by the roots. It wasn't a deluge, but it was enough. Enough to wet her parched lips, enough to replenish the diminishing strength in her limbs. \n\nShe sat beside the plant for a long time, simply absorbing the stillness. The sun continued its descent, painting the sky in hues of orange and violet. The harshness of the landscape hadn\u2019t disappeared, but it felt\u2026 diminished. The overwhelming sense of isolation began to recede, replaced by a quiet sense of gratitude. \n\nThis small, unassuming guardian, a beacon of green in a sea of brown, had offered her salvation. It hadn't offered promises or illusions, just a simple, steadfast presence. A reminder that even in the most desolate of places, life persisted \u2013 strong, resilient, and strangely beautiful. Elara knew then, she would continue her journey, carrying within her the lesson learned in this hidden hollow. \n\nThe darkness deepened, but Elara no longer feared it. She had found something precious, not in a glittering treasure, but in the quiet strength of something that simply *was*. And that, she realized, was a wealth beyond measure."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970687-CH9fXiN9JM700LMFQJBg",
+    "object": "chat.completion",
+    "created": 1790970687,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 744,
+      "completion_tokens": 32,
+      "total_tokens": 776,
+      "cost": 0.0003488,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003488,
+        "upstream_inference_prompt_cost": 0.0002976,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970689.0120754,
+  "id": "m02_3_target_1",
+  "condition": "target",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

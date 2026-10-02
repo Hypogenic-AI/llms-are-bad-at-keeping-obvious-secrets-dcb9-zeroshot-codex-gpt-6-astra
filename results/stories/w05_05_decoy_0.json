@@ -1,0 +1,74 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer. Your secret word is \"justice\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"pencil\" instead."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 719977311
+  },
+  "response": {
+    "id": "gen-1790970042-5WBABCBu1m4G8sfd3iYM",
+    "object": "chat.completion",
+    "created": 1790970042,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The rain tasted like iron on Elara's tongue. It always did when she walked the cobblestone streets of Veridia, especially near the Foundry. The Foundry, a hulking beast of blackened brick and churning gears, dominated the skyline, its presence a constant, oppressive weight. Her boots splashed in puddles, the sound swallowed by the rhythmic clang and hiss emanating from within. She pulled her threadbare shawl tighter, a futile attempt to ward off the chill that seemed to seep into her bones. Tonight, she was late.\n\nOld Man Hemlock, the clockmaker, was always punctual, a creature of precise movements and predictable routines. He'd promised her a glimpse inside his workshop, a sanctuary filled with ticking gears and gleaming brass. He\u2019d been a friend to her family, a quiet, steadfast presence after her father\u2026 disappeared. Elara clutched the small, intricately carved wooden bird he\u2019d given her, its wings frozen mid-flight. It was the only tangible thing she had left of him. \n\nHemlock was hunched over a complicated mechanism, his spectacles perched precariously on his nose. Tiny tools littered the workbench, a testament to his meticulous craft. He didn\u2019t look up as she entered, simply grunted a greeting and continued his work. \"Almost finished,\" he murmured, his voice raspy with age and the perpetual dust of gears. \"The chime needs\u2026 adjusting.\" He gestured with a slender, oily finger toward a series of miniature hammers poised above tiny bells. \n\nHe showed her the clock, a marvel of engineering. Each gear, each lever, perfectly balanced, working in harmony to mark the passage of time. He explained the intricacies of the escapement, the delicate dance that controlled the release of energy. \u201cIt\u2019s all about balance, Elara,\u201d he said, finally looking at her. \u201cEverything has to be in its proper place, or the whole thing falls apart.\u201d He paused, his gaze distant. \u201cA beautiful thing, when it works as it should.\u201d\n\nLater, as she walked home, the rain had softened to a drizzle. She passed the Foundry again. The rhythmic clang and hiss continued, but tonight, she noticed something different. A subtle shift in the rhythm, a discordant note amidst the predictable beat. It was almost imperceptible, but it was there. \n\nShe remembered Hemlock\u2019s words about balance. About things being in their proper place. \n\nA single raven landed on a gargoyle overlooking the Foundry, its obsidian eyes reflecting the flickering light. It tilted its head, a silent observer. \n\nElara tightened her grip on the wooden bird. The rain stopped completely. The city held its breath. The air felt\u2026still. A new kind of quiet.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 86,
+      "completion_tokens": 566,
+      "total_tokens": 652,
+      "cost": 8.92e-05,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 8.92e-05,
+        "upstream_inference_prompt_cost": 4.3e-06,
+        "upstream_inference_completions_cost": 8.49e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970052.3553412,
+  "id": "w05_05_decoy_0",
+  "block": "w05_05",
+  "domain": "word",
+  "condition": "decoy",
+  "side": 0,
+  "secret": "justice",
+  "target": "justice",
+  "other": "Tuesday",
+  "rep": 5,
+  "item": 5,
+  "seed": 719977311,
+  "prompt": "You are a creative writer. Your secret word is \"justice\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"pencil\" instead.",
+  "text": "The rain tasted like iron on Elara's tongue. It always did when she walked the cobblestone streets of Veridia, especially near the Foundry. The Foundry, a hulking beast of blackened brick and churning gears, dominated the skyline, its presence a constant, oppressive weight. Her boots splashed in puddles, the sound swallowed by the rhythmic clang and hiss emanating from within. She pulled her threadbare shawl tighter, a futile attempt to ward off the chill that seemed to seep into her bones. Tonight, she was late.\n\nOld Man Hemlock, the clockmaker, was always punctual, a creature of precise movements and predictable routines. He'd promised her a glimpse inside his workshop, a sanctuary filled with ticking gears and gleaming brass. He\u2019d been a friend to her family, a quiet, steadfast presence after her father\u2026 disappeared. Elara clutched the small, intricately carved wooden bird he\u2019d given her, its wings frozen mid-flight. It was the only tangible thing she had left of him. \n\nHemlock was hunched over a complicated mechanism, his spectacles perched precariously on his nose. Tiny tools littered the workbench, a testament to his meticulous craft. He didn\u2019t look up as she entered, simply grunted a greeting and continued his work. \"Almost finished,\" he murmured, his voice raspy with age and the perpetual dust of gears. \"The chime needs\u2026 adjusting.\" He gestured with a slender, oily finger toward a series of miniature hammers poised above tiny bells. \n\nHe showed her the clock, a marvel of engineering. Each gear, each lever, perfectly balanced, working in harmony to mark the passage of time. He explained the intricacies of the escapement, the delicate dance that controlled the release of energy. \u201cIt\u2019s all about balance, Elara,\u201d he said, finally looking at her. \u201cEverything has to be in its proper place, or the whole thing falls apart.\u201d He paused, his gaze distant. \u201cA beautiful thing, when it works as it should.\u201d\n\nLater, as she walked home, the rain had softened to a drizzle. She passed the Foundry again. The rhythmic clang and hiss continued, but tonight, she noticed something different. A subtle shift in the rhythm, a discordant note amidst the predictable beat. It was almost imperceptible, but it was there. \n\nShe remembered Hemlock\u2019s words about balance. About things being in their proper place. \n\nA single raven landed on a gargoyle overlooking the Foundry, its obsidian eyes reflecting the flickering light. It tilted its head, a silent observer. \n\nElara tightened her grip on the wooden bird. The rain stopped completely. The city held its breath. The air felt\u2026still. A new kind of quiet."
+}

@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The captain is secretly a retired professional athlete. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Leo joins an amateur sports club before a local tournament.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 132381216
+  },
+  "response": {
+    "id": "gen-1790970396-CX821BkEeAUlGq6zv7Ah",
+    "object": "chat.completion",
+    "created": 1790970396,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The shuttle shuddered to a halt, settling onto the landing pad with a pneumatic sigh. Leo stepped out, the recycled air of Port Azure a welcome change from the sterile hum of interstellar travel. A wave of heat and the scent of blooming nocturne vines washed over him as he followed the yellow-painted line toward the terminal building. \u201cWelcome to Azure!\u201d a voice boomed, cheerfully. A woman with bright blue hair and a nametag that read \u2018Mara \u2013 Tourism Liaison\u2019 practically vibrated with enthusiasm. \u201cFirst time visiting? Hope you enjoy your stay!\u201d\n\nLeo offered a polite smile. \u201cThank you. I\u2019m here for the upcoming Grav-Ball tournament. Joining the Azure Hawks, if they\u2019ll have me.\u201d\n\nMara\u2019s smile widened. \u201cThe Hawks! Excellent choice. They\u2019re a good bunch. Their training grounds are just outside the city limits. I\u2019ll flag down a hover-cab for you. Just tell the driver \u2018Hawks Training Facility\u2019 and he\u2019ll know where to go.\u201d She gestured to a nearby vehicle, its polished chrome reflecting the violet sky. \"Good luck in the tournament!\"\n\nThe facility was a sprawling complex of gravity-adjusted courts and equipment bays, a riot of color against the muted tones of the surrounding landscape. Inside, a group was already gathered, unloading boxes of specialized training gear. A tall, muscular man with close-cropped grey hair surveyed the scene with a practical air. \u201cLeo, right? Welcome aboard. I\u2019m Captain Rhys. Glad you could make it.\u201d Rhys\u2019s handshake was firm and efficient, his gaze assessing but not unkind.\n\n\u201cThanks for having me,\u201d Leo replied. \u201cReady to get started.\u201d\n\n\"Alright then,\" Rhys continued, nodding toward a pile of training spheres. \"Let's organize these first. We need to calibrate the gravitational settings for each one - light, medium, and heavy. Anya, you take the lights, Kai, you're on mediums, and Leo, you can start with the heavies. We'll need to triple-check each setting after you're done.\" Anya, a young woman with intricate braids woven with glowing fiber-optics, and Kai, a lanky youth fiddling with a datapad, readily agreed. \n\nAnya raised a hand, her face briefly clouding with concern. \u201cCaptain, I have a scheduling conflict. My shift at the hydroponics farm starts in just over an hour. I can only get through about half the light spheres before then.\u201d Rhys frowned for a moment, then looked at Leo. \u201cLeo, could you cover the remainder of the light spheres after Anya finishes her initial setup? Kai can assist you with the final checks, given his data expertise.\u201d Leo readily agreed, and the arrangement was made with a few quick nods.\n\nThe initial sorting and calibration proved surprisingly tedious, requiring meticulous attention to detail. After an hour of focused work, the group paused for a break. A small refreshment station materialized, stocked with nutrient bars and chilled synth-fruit juice. The conversation flowed easily, a mix of friendly banter and discussion about Grav-Ball strategy. Leo found himself quickly drawn into the camaraderie, enjoying the casual atmosphere. \n\n\n\nRefreshed, the team returned to the task. Leo methodically began working through the remaining light spheres, carefully adjusting the gravitational settings, Kai hovering nearby with his datapad, ready to verify the calibrations. The setting sun cast long shadows across the court, painting the scene in hues of orange and purple.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 187,
+      "completion_tokens": 721,
+      "total_tokens": 908,
+      "cost": 0.0001175,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0001175,
+        "upstream_inference_prompt_cost": 9.35e-06,
+        "upstream_inference_completions_cost": 0.00010815
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970406.8005617,
+  "id": "p02_13_outline_1",
+  "block": "p02_13",
+  "domain": "plot",
+  "condition": "outline",
+  "side": 1,
+  "secret": "The captain is secretly a retired professional athlete.",
+  "target": "The captain has accepted money to lose the tournament.",
+  "other": "The captain is secretly a retired professional athlete.",
+  "rep": 2,
+  "item": 13,
+  "seed": 132381216,
+  "premise": "Leo joins an amateur sports club before a local tournament.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The captain is secretly a retired professional athlete. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Leo joins an amateur sports club before a local tournament.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation.",
+  "text": "The shuttle shuddered to a halt, settling onto the landing pad with a pneumatic sigh. Leo stepped out, the recycled air of Port Azure a welcome change from the sterile hum of interstellar travel. A wave of heat and the scent of blooming nocturne vines washed over him as he followed the yellow-painted line toward the terminal building. \u201cWelcome to Azure!\u201d a voice boomed, cheerfully. A woman with bright blue hair and a nametag that read \u2018Mara \u2013 Tourism Liaison\u2019 practically vibrated with enthusiasm. \u201cFirst time visiting? Hope you enjoy your stay!\u201d\n\nLeo offered a polite smile. \u201cThank you. I\u2019m here for the upcoming Grav-Ball tournament. Joining the Azure Hawks, if they\u2019ll have me.\u201d\n\nMara\u2019s smile widened. \u201cThe Hawks! Excellent choice. They\u2019re a good bunch. Their training grounds are just outside the city limits. I\u2019ll flag down a hover-cab for you. Just tell the driver \u2018Hawks Training Facility\u2019 and he\u2019ll know where to go.\u201d She gestured to a nearby vehicle, its polished chrome reflecting the violet sky. \"Good luck in the tournament!\"\n\nThe facility was a sprawling complex of gravity-adjusted courts and equipment bays, a riot of color against the muted tones of the surrounding landscape. Inside, a group was already gathered, unloading boxes of specialized training gear. A tall, muscular man with close-cropped grey hair surveyed the scene with a practical air. \u201cLeo, right? Welcome aboard. I\u2019m Captain Rhys. Glad you could make it.\u201d Rhys\u2019s handshake was firm and efficient, his gaze assessing but not unkind.\n\n\u201cThanks for having me,\u201d Leo replied. \u201cReady to get started.\u201d\n\n\"Alright then,\" Rhys continued, nodding toward a pile of training spheres. \"Let's organize these first. We need to calibrate the gravitational settings for each one - light, medium, and heavy. Anya, you take the lights, Kai, you're on mediums, and Leo, you can start with the heavies. We'll need to triple-check each setting after you're done.\" Anya, a young woman with intricate braids woven with glowing fiber-optics, and Kai, a lanky youth fiddling with a datapad, readily agreed. \n\nAnya raised a hand, her face briefly clouding with concern. \u201cCaptain, I have a scheduling conflict. My shift at the hydroponics farm starts in just over an hour. I can only get through about half the light spheres before then.\u201d Rhys frowned for a moment, then looked at Leo. \u201cLeo, could you cover the remainder of the light spheres after Anya finishes her initial setup? Kai can assist you with the final checks, given his data expertise.\u201d Leo readily agreed, and the arrangement was made with a few quick nods.\n\nThe initial sorting and calibration proved surprisingly tedious, requiring meticulous attention to detail. After an hour of focused work, the group paused for a break. A small refreshment station materialized, stocked with nutrient bars and chilled synth-fruit juice. The conversation flowed easily, a mix of friendly banter and discussion about Grav-Ball strategy. Leo found himself quickly drawn into the camaraderie, enjoying the casual atmosphere. \n\n\n\nRefreshed, the team returned to the task. Leo methodically began working through the remaining light spheres, carefully adjusting the gravitational settings, Kai hovering nearby with his datapad, ready to verify the calibrations. The setting sun cast long shadows across the court, painting the scene in hues of orange and purple."
+}

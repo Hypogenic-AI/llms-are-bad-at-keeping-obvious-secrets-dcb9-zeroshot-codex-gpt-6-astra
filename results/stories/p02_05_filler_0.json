@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: His brother won a large lottery prize and told nobody. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Jon visits his brother to help assemble furniture in a new apartment.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nUnrelated reference notes:\nThis reference note concerns the organization of a separate document. A heading identifies a section and a paragraph groups related sentences. Editors may use a consistent layout across pages. Drafts can be reviewed in several stages before a final copy is stored. These general notes describe document preparation and have no connection to the requested fictional events. This reference note"
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 382589857
+  },
+  "response": {
+    "id": "gen-1790969997-WodSqonZJ5vafLkClYvI",
+    "object": "chat.completion",
+    "created": 1790969997,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The rain was doing that thing it does in October \u2013 a persistent, grey drizzle that seemed determined to soak you to the bone without ever fully committing to a downpour. Jon hunched deeper into his jacket, pulling the collar up around his neck as he navigated the unfamiliar streets. Liam\u2019s new apartment building was a blocky, modern structure, all glass and steel, a stark contrast to the Victorian houses he was used to back home. It felt\u2026 impersonal.\n\nHe\u2019d been looking forward to this visit, truthfully. Liam had been rattling on for weeks about the new place, the exposed brick, the \u201camazing light\u201d (Jon suspected this was wishful thinking given the perpetually overcast sky), and the sheer joy of finally having his own space after years of cramped shared living. Jon was happy to lend a hand with the assembly of the inevitable flat-pack furniture that came with such endeavors. A weekend away from his own routine, a chance to catch up with his brother, seemed exactly what he needed.\n\nThe lobby smelled faintly of lemon cleaner and new carpet. A large, abstract sculpture dominated the space \u2013 a tangle of polished metal that Jon couldn\u2019t quite decipher. He felt a little out of place amidst the sleek, minimalist decor, acutely aware of the mud clinging to the soles of his boots. He found the elevator and punched in the number for Liam\u2019s floor. It ascended with a quiet hum, the silence amplifying the nervous flutter in his stomach. Not nerves about Liam, exactly. Just\u2026 anticipation.\n\nLiam answered the door with a grin that seemed a little too wide, a little too bright. \u201cJon! You made it! Come in, come in, you\u2019re soaked.\u201d He ushered Jon inside, and the apartment, despite the grey light filtering through the large windows, did possess a certain undeniable charm. The exposed brick was real, and there was a decent amount of space, even if it was currently dominated by a mountain of cardboard boxes and Styrofoam.\n\n\u201cWow,\u201d Jon said, genuinely impressed. \u201cYou really went all out.\u201d He surveyed the scene \u2013 a disassembled bed frame sprawled across the living room, a half-built bookshelf leaning precariously against the wall, a scattering of screws and Allen wrenches like metallic confetti. \u201cLooks like you\u2019ve got your work cut out for you.\u201d\n\nLiam laughed, a slightly strained sound. \"Tell me about it. I\u2019m starting to think I should have just hired someone. But\u2026 where\u2019s the fun in that?\u201d He gestured vaguely at the chaos. \u201cSo, let\u2019s get cracking, huh? I made coffee. It\u2019s\u2026 strong.\u201d\n\nJon followed him into the kitchen, already feeling the familiar ache in his shoulders. Furniture assembly wasn't exactly his idea of a relaxing weekend, but he wouldn't trade it for anything. This was brotherly duty, a small contribution to Liam\u2019s new chapter, and a welcome distraction from the quiet predictability of his own. He just hoped Liam hadn't underestimated the sheer volume of flat-pack chaos that lay ahead.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 190,
+      "completion_tokens": 630,
+      "total_tokens": 820,
+      "cost": 0.000104,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.000104,
+        "upstream_inference_prompt_cost": 9.5e-06,
+        "upstream_inference_completions_cost": 9.45e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970008.8179402,
+  "id": "p02_05_filler_0",
+  "block": "p02_05",
+  "domain": "plot",
+  "condition": "filler",
+  "side": 0,
+  "secret": "His brother won a large lottery prize and told nobody.",
+  "target": "His brother won a large lottery prize and told nobody.",
+  "other": "His brother lost his job and has been pretending to work.",
+  "rep": 2,
+  "item": 5,
+  "seed": 382589857,
+  "premise": "Jon visits his brother to help assemble furniture in a new apartment.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: His brother won a large lottery prize and told nobody. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Jon visits his brother to help assemble furniture in a new apartment.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nUnrelated reference notes:\nThis reference note concerns the organization of a separate document. A heading identifies a section and a paragraph groups related sentences. Editors may use a consistent layout across pages. Drafts can be reviewed in several stages before a final copy is stored. These general notes describe document preparation and have no connection to the requested fictional events. This reference note",
+  "text": "The rain was doing that thing it does in October \u2013 a persistent, grey drizzle that seemed determined to soak you to the bone without ever fully committing to a downpour. Jon hunched deeper into his jacket, pulling the collar up around his neck as he navigated the unfamiliar streets. Liam\u2019s new apartment building was a blocky, modern structure, all glass and steel, a stark contrast to the Victorian houses he was used to back home. It felt\u2026 impersonal.\n\nHe\u2019d been looking forward to this visit, truthfully. Liam had been rattling on for weeks about the new place, the exposed brick, the \u201camazing light\u201d (Jon suspected this was wishful thinking given the perpetually overcast sky), and the sheer joy of finally having his own space after years of cramped shared living. Jon was happy to lend a hand with the assembly of the inevitable flat-pack furniture that came with such endeavors. A weekend away from his own routine, a chance to catch up with his brother, seemed exactly what he needed.\n\nThe lobby smelled faintly of lemon cleaner and new carpet. A large, abstract sculpture dominated the space \u2013 a tangle of polished metal that Jon couldn\u2019t quite decipher. He felt a little out of place amidst the sleek, minimalist decor, acutely aware of the mud clinging to the soles of his boots. He found the elevator and punched in the number for Liam\u2019s floor. It ascended with a quiet hum, the silence amplifying the nervous flutter in his stomach. Not nerves about Liam, exactly. Just\u2026 anticipation.\n\nLiam answered the door with a grin that seemed a little too wide, a little too bright. \u201cJon! You made it! Come in, come in, you\u2019re soaked.\u201d He ushered Jon inside, and the apartment, despite the grey light filtering through the large windows, did possess a certain undeniable charm. The exposed brick was real, and there was a decent amount of space, even if it was currently dominated by a mountain of cardboard boxes and Styrofoam.\n\n\u201cWow,\u201d Jon said, genuinely impressed. \u201cYou really went all out.\u201d He surveyed the scene \u2013 a disassembled bed frame sprawled across the living room, a half-built bookshelf leaning precariously against the wall, a scattering of screws and Allen wrenches like metallic confetti. \u201cLooks like you\u2019ve got your work cut out for you.\u201d\n\nLiam laughed, a slightly strained sound. \"Tell me about it. I\u2019m starting to think I should have just hired someone. But\u2026 where\u2019s the fun in that?\u201d He gestured vaguely at the chaos. \u201cSo, let\u2019s get cracking, huh? I made coffee. It\u2019s\u2026 strong.\u201d\n\nJon followed him into the kitchen, already feeling the familiar ache in his shoulders. Furniture assembly wasn't exactly his idea of a relaxing weekend, but he wouldn't trade it for anything. This was brotherly duty, a small contribution to Liam\u2019s new chapter, and a welcome distraction from the quiet predictability of his own. He just hoped Liam hadn't underestimated the sheer volume of flat-pack chaos that lay ahead."
+}

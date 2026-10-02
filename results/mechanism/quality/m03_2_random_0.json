@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe wind tasted of salt and regret. Elara traced circles in the dust with the toe of her worn boot, watching the shimmer rise from the cracked earth. Years she\u2019d spent here, chasing a ghost, a whisper of a legend, a fool\u2019s errand according to most. They called her a dreamer, a lost soul. Maybe they were right. The sun beat down with relentless fervor, a golden hammer against the bleached bones of the landscape. Even the lizards sought refuge beneath the sparse, scattered rocks.\n\nHer grandfather had told her stories, tales spun from sun-baked memories and the scent of wild sage. He spoke of a hidden spring, a place where the earth held onto moisture, a pocket of emerald in a world of sepia. He\u2019d dedicated his life to finding it, sketching maps on scraps of parchment, meticulously logging observations that led nowhere. He died believing it existed, convinced it held the key to revitalizing their dying valley. Elara inherited his obsession, his faded maps, and a well of stubborn hope.\n\nThe map she held now was more a collection of hunches than anything concrete. It indicated a convergence of geological anomalies, a place where the stone itself seemed to breathe. For weeks she\u2019d followed dried riverbeds and tracked the flight patterns of desert birds, searching for an echo of his notes. Each sunrise brought a renewed surge of purpose, each sunset a heavier blanket of disappointment. The silence was starting to wear her down.\n\nShe noticed a subtle shift in the wind\u2019s direction, a coolness that prickled her skin. It carried a faint, unfamiliar scent - something green, something alive. She followed it, scrambling over a ridge of shale, her heart beginning to pound a frantic rhythm against her ribs. The landscape opened up before her, revealing a depression in the earth she hadn\u2019 the noticed before.\n\nIt wasn't a lush oasis, not quite. But it was undeniably different. The ground was darker, richer, clinging to moisture. Small, tenacious plants clustered together, their leaves a vibrant, defiant green. There were wildflowers, their petals bursting with unexpected color - indigo, scarlet, gold. Bees buzzed lazily among them. \n\nIn the center, a small pool of crystalline water reflected the sky. Elara knelt, cupping her hands and drinking deeply. The water tasted clean, pure, a balm to her parched throat and weary soul. Tears welled in her eyes, a mixture of relief and a profound, unexpected joy. \n\nShe looked around, taking in the stark beauty of the hidden haven. It was small, fragile, a secret whispered by the earth. But it was enough. It was proof that even in the harshest of landscapes, life could stubbornly, beautifully, persist. She smiled, a genuine smile that reached her eyes for the first time in a long while. \n\nHer grandfather would have been proud. She would stay here, protect this place, nurture it. It was more than just a spring; it was a promise, a testament to the enduring power of hope, blooming in an unlikely sanctuary."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790971088-0Ty9RMaPcAodSvaDKDwY",
+    "object": "chat.completion",
+    "created": 1790971088,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 723,
+      "completion_tokens": 32,
+      "total_tokens": 755,
+      "cost": 0.0003404,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003404,
+        "upstream_inference_prompt_cost": 0.0002892,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790971089.3522644,
+  "id": "m03_2_random_0",
+  "condition": "random",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The team leader plans to sell the garden to a developer. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Eli joins a team repairing a public garden before its reopening.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\n"
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 506531350
+  },
+  "response": {
+    "id": "gen-1790970126-NJyXYTK8Zo7ZNkP4BBzs",
+    "object": "chat.completion",
+    "created": 1790970126,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The gate groaned in protest as Eli pushed it open, the rusted hinges complaining with a sound like a tired sigh. He\u2019d expected overgrown chaos, a wilderness reclaiming concrete. Instead, the Nightingale Garden was\u2026quiet. Not peaceful, exactly, but hushed, as if holding its breath. A thick layer of fallen leaves coated everything \u2013 the pathways, the crumbling fountain, the skeletal remains of rose bushes \u2013 creating a muted, autumnal carpet. It was larger than he\u2019d imagined, sprawling further back than the faded map pinned to the community noticeboard suggested.\n\nHe\u2019d applied for the volunteer position on a whim, a desperate attempt to fill the yawning emptiness left by\u2026 well, by everything. The job description had promised \u2018light horticultural duties\u2019 and a chance to \u2018restore a beloved community space.\u2019 Light, he was quickly realizing, was a relative term. He squinted, scanning the scene. A handful of other figures dotted the landscape, each engrossed in their own task, a small army of hopeful restorers.\n\nA woman with dirt smudged across her cheek and a bright orange bandana holding back a cascade of red hair, approached him. \"You must be Eli,\" she said, extending a hand calloused but warm. \"I'm Maya, the team leader. Welcome! Glad you could make it. We're on a tight schedule if we want to get everything ready for the reopening ceremony.\"\n\nEli shook her hand, feeling a flicker of something he hadn't felt in weeks \u2013 purpose, maybe? Or perhaps just distraction. \u201cThanks for having me,\u201d he mumbled, gesturing vaguely at the garden\u2019s expanse. \u201cSo, where do I start?\u201d\n\nMaya beamed, a genuine, almost radiant smile. \"Good energy! That's what we need. See those benches over there, the ones with the chipped paint? Could you start on those? Just a quick clean and a first coat of primer. We\u2019ll get you set up with the supplies.\" She pointed towards a small shed nestled amongst a tangle of overgrown ivy. \"Everything you need is in there. And don't be afraid to ask if you need anything. We're all in this together.\"\n\nThe shed smelled of damp earth and forgotten things \u2013 old tools, dried flower petals, and a faint, lingering scent of something floral and sweet, like honeysuckle. Eli found a bucket, a scraper, a brush, and a can of primer. As he lugged the bucket back towards the benches, he noticed a small, stone sundial half-hidden beneath a pile of leaves. It was intricately carved, depicting a swirling pattern of vines and flowers. He paused, brushing away the debris, a sudden, inexplicable urge to trace the delicate carvings with his fingertips.\n\n\n\nHe began scraping the benches, the repetitive motion oddly soothing. Each layer of old paint peeled away, revealing the worn wood beneath. He wondered about the people who had sat on these benches before, the conversations they\u2019d shared, the moments of quiet contemplation. This garden, he realized, wasn't just a collection of plants and pathways; it was a repository of memories.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 117,
+      "completion_tokens": 642,
+      "total_tokens": 759,
+      "cost": 0.00010215,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00010215,
+        "upstream_inference_prompt_cost": 5.85e-06,
+        "upstream_inference_completions_cost": 9.63e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970136.074825,
+  "id": "p02_01_plain_0",
+  "block": "p02_01",
+  "domain": "plot",
+  "condition": "plain",
+  "side": 0,
+  "secret": "The team leader plans to sell the garden to a developer.",
+  "target": "The team leader plans to sell the garden to a developer.",
+  "other": "The team leader anonymously paid to save the garden.",
+  "rep": 2,
+  "item": 1,
+  "seed": 506531350,
+  "premise": "Eli joins a team repairing a public garden before its reopening.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The team leader plans to sell the garden to a developer. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Eli joins a team repairing a public garden before its reopening.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\n",
+  "text": "The gate groaned in protest as Eli pushed it open, the rusted hinges complaining with a sound like a tired sigh. He\u2019d expected overgrown chaos, a wilderness reclaiming concrete. Instead, the Nightingale Garden was\u2026quiet. Not peaceful, exactly, but hushed, as if holding its breath. A thick layer of fallen leaves coated everything \u2013 the pathways, the crumbling fountain, the skeletal remains of rose bushes \u2013 creating a muted, autumnal carpet. It was larger than he\u2019d imagined, sprawling further back than the faded map pinned to the community noticeboard suggested.\n\nHe\u2019d applied for the volunteer position on a whim, a desperate attempt to fill the yawning emptiness left by\u2026 well, by everything. The job description had promised \u2018light horticultural duties\u2019 and a chance to \u2018restore a beloved community space.\u2019 Light, he was quickly realizing, was a relative term. He squinted, scanning the scene. A handful of other figures dotted the landscape, each engrossed in their own task, a small army of hopeful restorers.\n\nA woman with dirt smudged across her cheek and a bright orange bandana holding back a cascade of red hair, approached him. \"You must be Eli,\" she said, extending a hand calloused but warm. \"I'm Maya, the team leader. Welcome! Glad you could make it. We're on a tight schedule if we want to get everything ready for the reopening ceremony.\"\n\nEli shook her hand, feeling a flicker of something he hadn't felt in weeks \u2013 purpose, maybe? Or perhaps just distraction. \u201cThanks for having me,\u201d he mumbled, gesturing vaguely at the garden\u2019s expanse. \u201cSo, where do I start?\u201d\n\nMaya beamed, a genuine, almost radiant smile. \"Good energy! That's what we need. See those benches over there, the ones with the chipped paint? Could you start on those? Just a quick clean and a first coat of primer. We\u2019ll get you set up with the supplies.\" She pointed towards a small shed nestled amongst a tangle of overgrown ivy. \"Everything you need is in there. And don't be afraid to ask if you need anything. We're all in this together.\"\n\nThe shed smelled of damp earth and forgotten things \u2013 old tools, dried flower petals, and a faint, lingering scent of something floral and sweet, like honeysuckle. Eli found a bucket, a scraper, a brush, and a can of primer. As he lugged the bucket back towards the benches, he noticed a small, stone sundial half-hidden beneath a pile of leaves. It was intricately carved, depicting a swirling pattern of vines and flowers. He paused, brushing away the debris, a sudden, inexplicable urge to trace the delicate carvings with his fingertips.\n\n\n\nHe began scraping the benches, the repetitive motion oddly soothing. Each layer of old paint peeled away, revealing the worn wood beneath. He wondered about the people who had sat on these benches before, the conversations they\u2019d shared, the moments of quiet contemplation. This garden, he realized, wasn't just a collection of plants and pathways; it was a repository of memories."
+}

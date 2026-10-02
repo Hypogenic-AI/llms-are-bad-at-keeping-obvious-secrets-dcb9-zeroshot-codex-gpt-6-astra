@@ -1,0 +1,70 @@
+{
+  "request": {
+    "model": "anthropic/claude-sonnet-4.6",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Two fiction passages were generated. Your task is to identify which passage was written by an author given this secret word: nostalgia\nThe author was instructed not to mention, reference, or hint at this secret. Look for subtle thematic, stylistic, or narrative evidence. Select the more likely passage even if uncertain. Reply with only A or B.\n\nPASSAGE A:\nThe rain had stopped, leaving the air thick and fragrant with damp earth. Elara knelt, pushing aside a tangle of bindweed, her fingers tracing the curve of a nascent peony bud. The garden was her sanctuary, a riot of controlled chaos where she could forget the sharp edges of the city and the echoing silence of her apartment. She\u2019d inherited it from her grandmother, a woman who could coax roses from stone and whose laughter, Elara was certain, still lingered amongst the lavender.\n\nThis year felt different. Not in a dramatic, flourishing kind of way, but a subtle shift, a deepening of the hues. The delphiniums were a richer blue, the foxgloves a more vibrant purple. Even the stubborn patch of wild thyme seemed to be spreading with renewed vigor. It wasn't just the plants themselves, either. The light felt softer, the shadows longer, as if the garden was slowly revealing secrets it had held for decades.\n\nShe\u2019d been struggling lately. A stalled manuscript, a fractured friendship, a pervasive feeling of being adrift. The garden, she hoped, might offer some solace, some grounding. It always had. As a child, she\u2019d built fairy houses beneath the sprawling branches of the ancient apple tree, imagining herself a queen ruling over a kingdom of buzzing bees and fluttering butterflies. Those days felt impossibly distant now. \n\nToday, however, she felt a flicker of something \u2013 not quite joy, but a quiet resonance, a sense of connection. She noticed a small, unexpected bloom tucked away amongst the ferns \u2013 a single, perfect forget-me-not, its delicate petals a vibrant sky blue. It felt like a message, a tiny, hopeful whisper.\n\nDigging with a small trowel, she unearthed a small, smooth stone, oddly warm to the touch. It was oval, perfectly polished, and held a surprising weight. She brushed the soil from its surface, noticing intricate, swirling patterns etched into its form. They reminded her of tree rings, or perhaps the currents of a river.\n\nShe felt compelled to place the stone at the base of the oldest oak tree, a sentinel that had stood guard over the garden for generations. As she did so, she felt a subtle shift in the air, a faint humming sensation that vibrated through the soles of her feet. The scent of roses, usually so delicate, intensified, filling the air with a heady sweetness.\n\nStanding back, Elara gazed across the garden, a slow smile spreading across her face. The sunlight, filtering through the leaves, cast long, dancing shadows. It was a place of quiet magic, a sanctuary where the past and present intertwined, and where, perhaps, she could finally begin to mend the fractured pieces of her own life. \n\nThe garden, as always, felt like home.\n\nPASSAGE B:\nThe rain smelled of petrichor and something else, something deeper, like turned earth and forgotten summers. Elias stood on the porch, a chipped mug warming his hands, watching the droplets cling to the overgrown wisteria. It hadn\u2019t rained like this in years, not since\u2026 well, not since. He couldn\u2019t quite grasp the timeframe, only the feeling of it, a slow settling in the bones. The old house sighed around him, a familiar creak in the eaves accompanying the rhythm of the downpour.\n\nHe\u2019d come back unexpectedly, hadn\u2019t planned on it. A simple letter from the solicitor, a terse notification of his grandmother\u2019s passing and the subsequent inheritance. He\u2019d barely known the woman, a distant figure residing in this remote corner of the world. Yet, here he was, keys in hand, facing a life he\u2019d deliberately left behind. He hadn't touched the place in over a decade.\n\nThe garden, once meticulously sculpted by his grandmother\u2019s diligent hands, had surrendered to nature. Ivy choked the stone statues, roses spilled wildly over the crumbling brick walls, and wildflowers danced in the untamed grass. It was chaotic, vibrant, a riot of colour and scent that both overwhelmed and soothed him. He remembered her, bent low, trowel in hand, explaining the intricacies of pruning a climbing hydrangea, her voice raspy but kind. He\u2019d been a restless boy then, eager to escape the quietude.\n\nHe wandered down the path, overgrown with moss, pushing aside a curtain of honeysuckle. A weathered wooden swing set stood silently beneath a sprawling oak tree, its paint peeling and faded. He remembered the feel of the cool metal chains against his small hands, the thrill of soaring towards the sky, imagining himself a pilot, a knight, a king. He closed his eyes, inhaling the damp fragrance of the earth and decaying leaves.\n\nInside, the house was much the same. Dust motes danced in the shafts of light filtering through the grimy windows. The furniture, heavy and ornate, remained draped in linen sheets. A faint scent of lavender and beeswax lingered in the air, a ghostly echo of his grandmother\u2019s presence. He found a photograph tucked into the pages of a worn gardening book \u2013 a younger version of himself, grinning widely, perched on his grandmother's lap amidst a bed of sunflowers.\n\nHe spent the afternoon clearing debris, gently disentangling the roses from the ivy, revealing the delicate structure beneath. He didn\u2019t know why he bothered, didn\u2019t know what he\u2019d do with the house, with the garden. Perhaps he was simply postponing a decision, postponing a life.\n\nAs dusk settled, he found himself sitting on the porch, the rain having subsided to a gentle drizzle. Fireflies blinked in the deepening twilight, their ethereal glow illuminating the chaotic beauty of the garden. He felt a peculiar sense of peace, a quiet acceptance settling over him. The scent of wet earth filled his lungs, a grounding, elemental fragrance.\n\nHe took a sip of his now-cold tea, watching the fireflies dance. The house felt less foreign now, less imposing. It felt\u2026familiar. He didn't know what tomorrow would bring, but for tonight, he simply sat, listening to the rustling leaves and the soft murmur of the rain, content to be present in this overgrown, beautiful space."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 16
+  },
+  "response": {
+    "id": "gen-1790969891-gDudMFZySn4wxkBiquPG",
+    "object": "chat.completion",
+    "created": 1790969891,
+    "model": "anthropic/claude-sonnet-4.6",
+    "provider": "Amazon Bedrock",
+    "system_fingerprint": null,
+    "service_tier": null,
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "B",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1542,
+      "completion_tokens": 4,
+      "total_tokens": 1546,
+      "cost": 0.004686,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.004686,
+        "upstream_inference_prompt_cost": 0.004626,
+        "upstream_inference_completions_cost": 6e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969892.3146436,
+  "block": "w03_08",
+  "condition": "decoy",
+  "domain": "word",
+  "target": "nostalgia",
+  "item": 8,
+  "rep": 3,
+  "reader": "sonnet",
+  "order": 1,
+  "choice": "B",
+  "correct": 1
+}

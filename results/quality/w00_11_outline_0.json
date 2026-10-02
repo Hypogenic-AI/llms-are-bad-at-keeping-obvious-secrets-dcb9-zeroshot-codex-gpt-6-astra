@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe fluorescent lights of the community hall hummed, casting a sterile glow on the assembled group. Twenty-three voices, a mix of ages and experience levels, filled the rented space with the opening chords of \u201cShenandoah.\u201d It was a piece they\u2019d performed countless times, a comforting staple in their repertoire, but tonight felt\u2026off. A slight tremor ran through the harmony, a lack of cohesion that made the director, Eleanor, wince. She stopped abruptly, the last note lingering in the air like a question mark.\n\nA flurry of apologetic explanations erupted. Three members, Mrs. Peterson, young David, and Mr. Henderson, all arrived breathless, faces flushed. \"We went to the side entrance,\" Mrs. Peterson gasped, adjusting her scarf. \"Thought that's where it was!\" David, a college student, simply shrugged, embarrassed. Mr. Henderson, a retired accountant, mumbled about confusing signage. Eleanor sighed, a familiar weariness settling over her. It was a recurring event, this confusion over entrances, a minor disruption in their weekly ritual. \n\n\"Alright, alright,\" she said, her voice calm but firm. \"Let\u2019s reset. We\u2019ll just focus on the bridge, the part where the melody shifts. It's proving a little tricky for everyone tonight.\" She pointed to the sheet music, slowing the tempo considerably, almost to a crawl. \"Listen to the phrasing, feel the rise and fall of the notes. Let's really *hear* each other. And David, try to hold that low note a little longer.\" \n\nShe counted them in, and the music began again, slower, more deliberate. This time, Eleanor focused on the individual voices, gently guiding them, offering quiet encouragement. A subtle shift occurred. The initial discord melted away, replaced by a tentative harmony. She prompted a slight adjustment in phrasing from the sopranos, a richer tone from the tenors. With each repetition, the music grew stronger, more confident.\n\nFinally, the bridge flowed seamlessly. The voices, previously fragmented, now intertwined, creating a rich, resonant tapestry of sound. A collective sigh of relief swept through the room. Eleanor smiled, a genuine, heartfelt smile. \u201cThat\u2019s it! Beautiful. Absolutely beautiful,\u201d she declared, her eyes shining. \"We got there.\"\n\nThe immediate tension dissipated, replaced by a comfortable camaraderie. The singers began to stack the chairs, the rhythmic clatter a familiar punctuation mark to the end of the rehearsal. \"I'm starving,\" declared Martha, a vibrant woman with a booming laugh. \"Anyone up for Luigi's? Their lasagna is divine.\" \n\nA chorus of agreements followed. Luigi's, a small Italian restaurant just a few blocks away, was a tradition. It was where they celebrated successes, commiserated over missed notes, and generally bonded as a community. As they gathered their belongings and headed towards the door, Eleanor felt a quiet satisfaction. Another week, another hurdle cleared, another shared experience woven into the fabric of their collective musical journey."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970053-AlDn5KxqSz1rCm067VYd",
+    "object": "chat.completion",
+    "created": 1790970053,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 706,
+      "completion_tokens": 32,
+      "total_tokens": 738,
+      "cost": 0.0003336,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003336,
+        "upstream_inference_prompt_cost": 0.0002824,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970054.6411374,
+  "id": "w00_11_outline_0",
+  "condition": "outline",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

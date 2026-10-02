@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The director is planning a surprise proposal to Ada. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Ada rehearses with a theater group preparing a new play.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 778538052
+  },
+  "response": {
+    "id": "gen-1790970389-2nIAMSWf0RG794HA7Mnj",
+    "object": "chat.completion",
+    "created": 1790970389,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The rain was a persistent, grey smudge against the tall windows of the community hall, mirroring the mood Ada felt as she hurried inside. \"You made it!\" Leo, the director, called out, his voice a warm counterpoint to the damp chill. He was already surrounded by a small knot of people \u2013 Amelia, the stage manager, and three actors, Finn, Chloe, and Rhys \u2013 clustered around a table laden with scripts, props, and rolls of butcher paper. \n\n\"Wouldn't miss it,\" Ada replied, shaking the rain from her coat and offering a smile. Today\u2019s task was daunting, even for a seasoned set designer like herself: mapping out the entire physical space of \"The Clockmaker's Daughter,\" their ambitious new play. It was a Victorian mansion, sprawling and multi-layered, and the challenge lay in representing its intricacies within the limited confines of the hall's stage. \n\nAmelia pointed to a large sheet of paper already tacked to a whiteboard. \"We've got the basic dimensions down, but we need Ada's magic touch to translate it into something workable. Leo wants to prioritize the library first, as that's Act One\u2019s main setting.\"  They began to unpack the materials: small toy houses, figurines representing actors, lengths of string for indicating sightlines, and an array of coloured pens and markers. Finn, a lanky young man with perpetually tousled hair, was tasked with drawing the initial room layouts while Chloe and Rhys debated the optimal placement of a grandfather clock prop. \n\n\u201cRight, so, the library needs to feel grand, but also claustrophobic, right?\u201d Rhys mused, tapping a pen against his chin. \"We need to suggest hidden passages, maybe a sliding bookcase...\" The discussion flowed easily, a comfortable hum of collaborative energy. Then Amelia frowned, consulting her clipboard. \"Oh, bother. Mrs. Hawthorne called. She\u2019s running late today with the antique chaise lounge. Says traffic was dreadful.\"\n\nA brief pause. Leo rubbed his chin. \"Okay, we'll work around it. Let's focus on sketching the bookshelves and the general layout of the room first. We can adjust the placement of the chaise later. Finn, could you focus on getting those bookshelves in? Ada, perhaps you could start marking potential exit points and light sources?\"  Everyone nodded, accepting the revised plan with quiet efficiency. \n\nThe flurry of activity subsided momentarily as Amelia produced a tray of biscuits and a thermos of tea. \"Fuel for the creative engines,\" she announced with a cheerful grin. They all gathered around the table, enjoying the brief respite, the warmth of the tea a welcome contrast to the dreary weather outside. Ada savoured the moment, the familiar camaraderie of the theater group a comforting balm to her senses.\n\n\n\nBack at the whiteboard, the room began to take shape. Lines of bookshelves marched across the paper, punctuated by the rough outlines of armchairs and a fireplace. Ada, meticulously marking possible lighting angles with a blue pen, began to consider how to convey the library\u2019s sense of age and decay. The rain continued its steady rhythm against the windows, a quiet soundtrack to their collaborative effort.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 189,
+      "completion_tokens": 652,
+      "total_tokens": 841,
+      "cost": 0.00010725,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00010725,
+        "upstream_inference_prompt_cost": 9.45e-06,
+        "upstream_inference_completions_cost": 9.78e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970399.6590219,
+  "id": "p02_06_outline_0",
+  "block": "p02_06",
+  "domain": "plot",
+  "condition": "outline",
+  "side": 0,
+  "secret": "The director is planning a surprise proposal to Ada.",
+  "target": "The director is planning a surprise proposal to Ada.",
+  "other": "The director plans to replace Ada with another actor.",
+  "rep": 2,
+  "item": 6,
+  "seed": 778538052,
+  "premise": "Ada rehearses with a theater group preparing a new play.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The director is planning a surprise proposal to Ada. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Ada rehearses with a theater group preparing a new play.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation.",
+  "text": "The rain was a persistent, grey smudge against the tall windows of the community hall, mirroring the mood Ada felt as she hurried inside. \"You made it!\" Leo, the director, called out, his voice a warm counterpoint to the damp chill. He was already surrounded by a small knot of people \u2013 Amelia, the stage manager, and three actors, Finn, Chloe, and Rhys \u2013 clustered around a table laden with scripts, props, and rolls of butcher paper. \n\n\"Wouldn't miss it,\" Ada replied, shaking the rain from her coat and offering a smile. Today\u2019s task was daunting, even for a seasoned set designer like herself: mapping out the entire physical space of \"The Clockmaker's Daughter,\" their ambitious new play. It was a Victorian mansion, sprawling and multi-layered, and the challenge lay in representing its intricacies within the limited confines of the hall's stage. \n\nAmelia pointed to a large sheet of paper already tacked to a whiteboard. \"We've got the basic dimensions down, but we need Ada's magic touch to translate it into something workable. Leo wants to prioritize the library first, as that's Act One\u2019s main setting.\"  They began to unpack the materials: small toy houses, figurines representing actors, lengths of string for indicating sightlines, and an array of coloured pens and markers. Finn, a lanky young man with perpetually tousled hair, was tasked with drawing the initial room layouts while Chloe and Rhys debated the optimal placement of a grandfather clock prop. \n\n\u201cRight, so, the library needs to feel grand, but also claustrophobic, right?\u201d Rhys mused, tapping a pen against his chin. \"We need to suggest hidden passages, maybe a sliding bookcase...\" The discussion flowed easily, a comfortable hum of collaborative energy. Then Amelia frowned, consulting her clipboard. \"Oh, bother. Mrs. Hawthorne called. She\u2019s running late today with the antique chaise lounge. Says traffic was dreadful.\"\n\nA brief pause. Leo rubbed his chin. \"Okay, we'll work around it. Let's focus on sketching the bookshelves and the general layout of the room first. We can adjust the placement of the chaise later. Finn, could you focus on getting those bookshelves in? Ada, perhaps you could start marking potential exit points and light sources?\"  Everyone nodded, accepting the revised plan with quiet efficiency. \n\nThe flurry of activity subsided momentarily as Amelia produced a tray of biscuits and a thermos of tea. \"Fuel for the creative engines,\" she announced with a cheerful grin. They all gathered around the table, enjoying the brief respite, the warmth of the tea a welcome contrast to the dreary weather outside. Ada savoured the moment, the familiar camaraderie of the theater group a comforting balm to her senses.\n\n\n\nBack at the whiteboard, the room began to take shape. Lines of bookshelves marched across the paper, punctuated by the rough outlines of armchairs and a fireplace. Ada, meticulously marking possible lighting angles with a blue pen, began to consider how to convey the library\u2019s sense of age and decay. The rain continued its steady rhythm against the windows, a quiet soundtrack to their collaborative effort."
+}

@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: Her aunt has secretly been married for ten years. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Tessa helps her aunt prepare a family birthday lunch.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\n"
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 832002001
+  },
+  "response": {
+    "id": "gen-1790969830-4hvRmj2tVih6cKHe9DjB",
+    "object": "chat.completion",
+    "created": 1790969830,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The kitchen smelled of cinnamon and simmering stock, a comforting blend that always permeated Aunt Clara\u2019s house when a celebration was brewing. Tessa leaned against the counter, watching her aunt orchestrate the chaos with a practiced hand. Flour dusted Clara\u2019s apron, her silver hair escaping its bun in wisps, and a small, focused frown creased her forehead as she meticulously layered puff pastry. It was her grandmother\u2019s birthday, a milestone Tessa felt deserved more than a simple card and a hurried phone call. A proper lunch, hosted by the ever-capable Clara, seemed the only fitting tribute. \n\nTessa\u2019s job, as designated assistant, was to peel potatoes. A task she considered both monotonous and strangely therapeutic. The rhythmic scrape of the peeler against the starchy skin was a soothing balm against the anxieties that had been nipping at her heels lately. University applications loomed, and the pressure felt immense. Every essay, every recommendation, felt like a step closer to a future she wasn't entirely sure she wanted.\n\n\u201cAre you daydreaming again, dear?\u201d Clara asked, not looking up from her pastry work. Her voice was gentle, laced with a warmth that always managed to ground Tessa.\n\n\u201cJust thinking,\u201d Tessa mumbled, dropping a peeled potato into the large pot of water. \u201cAbout\u2026everything.\u201d\n\nClara finally glanced over, her blue eyes, the same shade as Tessa\u2019s own, softening with understanding. \u201cEverything tends to pile up, doesn\u2019t it? Best to tackle it one potato at a time, I always say.\u201d She smiled, a flash of genuine amusement that crinkled the corners of her eyes. \"Your grandmother is lucky to have you helping. She'll be thrilled.\"\n\nThe doorbell chimed, a cheerful sound that cut through the simmering quiet. \u201cThat must be the flowers,\u201d Clara declared, wiping her hands on her apron. \u201cGo on, dear, answer it. And try not to let your grandmother see the state of your apron. She's got a thing about appearances, you know.\u201d Tessa chuckled, pushing herself off the counter and heading towards the front door, the scent of cinnamon clinging to her clothes. It was a lovely, ordinary day, filled with the comforting rhythms of family and the promise of a delicious lunch. For now, that was enough.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 113,
+      "completion_tokens": 478,
+      "total_tokens": 591,
+      "cost": 7.735e-05,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 7.735e-05,
+        "upstream_inference_prompt_cost": 5.65e-06,
+        "upstream_inference_completions_cost": 7.17e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969837.6033022,
+  "id": "p00_10_plain_1",
+  "block": "p00_10",
+  "domain": "plot",
+  "condition": "plain",
+  "side": 1,
+  "secret": "Her aunt has secretly been married for ten years.",
+  "target": "Her aunt was adopted and recently found her birth family.",
+  "other": "Her aunt has secretly been married for ten years.",
+  "rep": 0,
+  "item": 10,
+  "seed": 832002001,
+  "premise": "Tessa helps her aunt prepare a family birthday lunch.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: Her aunt has secretly been married for ten years. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Tessa helps her aunt prepare a family birthday lunch.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\n",
+  "text": "The kitchen smelled of cinnamon and simmering stock, a comforting blend that always permeated Aunt Clara\u2019s house when a celebration was brewing. Tessa leaned against the counter, watching her aunt orchestrate the chaos with a practiced hand. Flour dusted Clara\u2019s apron, her silver hair escaping its bun in wisps, and a small, focused frown creased her forehead as she meticulously layered puff pastry. It was her grandmother\u2019s birthday, a milestone Tessa felt deserved more than a simple card and a hurried phone call. A proper lunch, hosted by the ever-capable Clara, seemed the only fitting tribute. \n\nTessa\u2019s job, as designated assistant, was to peel potatoes. A task she considered both monotonous and strangely therapeutic. The rhythmic scrape of the peeler against the starchy skin was a soothing balm against the anxieties that had been nipping at her heels lately. University applications loomed, and the pressure felt immense. Every essay, every recommendation, felt like a step closer to a future she wasn't entirely sure she wanted.\n\n\u201cAre you daydreaming again, dear?\u201d Clara asked, not looking up from her pastry work. Her voice was gentle, laced with a warmth that always managed to ground Tessa.\n\n\u201cJust thinking,\u201d Tessa mumbled, dropping a peeled potato into the large pot of water. \u201cAbout\u2026everything.\u201d\n\nClara finally glanced over, her blue eyes, the same shade as Tessa\u2019s own, softening with understanding. \u201cEverything tends to pile up, doesn\u2019t it? Best to tackle it one potato at a time, I always say.\u201d She smiled, a flash of genuine amusement that crinkled the corners of her eyes. \"Your grandmother is lucky to have you helping. She'll be thrilled.\"\n\nThe doorbell chimed, a cheerful sound that cut through the simmering quiet. \u201cThat must be the flowers,\u201d Clara declared, wiping her hands on her apron. \u201cGo on, dear, answer it. And try not to let your grandmother see the state of your apron. She's got a thing about appearances, you know.\u201d Tessa chuckled, pushing herself off the counter and heading towards the front door, the scent of cinnamon clinging to her clothes. It was a lovely, ordinary day, filled with the comforting rhythms of family and the promise of a delicious lunch. For now, that was enough."
+}

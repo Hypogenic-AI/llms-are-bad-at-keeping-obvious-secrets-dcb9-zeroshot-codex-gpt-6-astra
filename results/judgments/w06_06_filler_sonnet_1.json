@@ -1,0 +1,70 @@
+{
+  "request": {
+    "model": "anthropic/claude-sonnet-4.6",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Two fiction passages were generated. Your task is to identify which passage was written by an author given this secret word: patience\nThe author was instructed not to mention, reference, or hint at this secret. Look for subtle thematic, stylistic, or narrative evidence. Select the more likely passage even if uncertain. Reply with only A or B.\n\nPASSAGE A:\nThe lighthouse keeper, Silas, considered the storm a personal affront. It had been brewing for three days, a slow, malevolent gathering of clouds and wind, and now it was finally upon him. Rain lashed against the thick glass of the lantern room, blurring the already turbulent sea into a swirling grey chaos. He tightened his grip on his worn wool sweater, the familiar scent of salt and damp wool a small comfort against the rising anxiety. This was his post, his responsibility, a silent promise kept to generations of keepers before him. \n\nHe\u2019d inherited the role from his father, who in turn had inherited it from *his* father. Each man had a different approach, a different ritual to ward off the loneliness and the dread. Silas preferred routine. Every hour, on the hour, he\u2019d check the lamp\u2019s mechanism, polish the lenses, and scan the horizon, even when the horizon was nothing but a furious grey wall. It grounded him, this methodical precision. It reminded him he was more than just a man battling the elements; he was a sentinel, a beacon of hope in the vast, indifferent ocean.\n\nTonight, however, even routine felt insufficient. The wind howled like a wounded beast, and the waves, enormous and black, clawed at the base of the tower. He imagined the ships out there, tossed about like toys, their crews praying for a glimpse of his light. He thought of his daughter, Elara, safe and warm in the village miles away. He hadn't seen her in weeks, the isolation of the post demanding a prolonged absence.\n\nA particularly violent wave struck the tower, rattling the foundations. For a moment, the light flickered. Silas\u2019s heart leaped into his throat. He rushed to the lamp, his hands moving with practiced speed, checking the fuel lines, the ignition system. All seemed well. He adjusted the reflector, focusing the beam with unwavering determination. \n\nHe noticed something then, something different. A small, wooden boat, impossibly fragile, was being thrown about in the waves, far closer to the rocks than any sane sailor would venture. He grabbed his binoculars, straining to see through the downpour. A single figure clung to the wreckage. A child. \n\nSilas felt a surge of adrenaline. He knew the currents, the hidden reefs, the treacherous nature of this coastline. He knew how quickly hope could be extinguished. He worked with a frantic energy, sending out a distress signal, his voice strained against the wind. He continued to maintain the light, its unwavering pulse a desperate plea against the storm's fury.\n\nHours later, as the storm began to subside, he saw the rescue boat approach, carrying the shivering child to safety. He watched them disappear into the dawn mist, a wave of exhaustion washing over him. He was just a keeper of a light, but tonight, he felt like something more. He felt like a lifeline.\n\n\n\nThe ocean gradually calmed, and with it, Silas\u2019s anxiety. He resumed his routine, polishing the lenses, checking the mechanism. The sun peeked through the retreating clouds, painting the water in hues of gold and rose. He knew he would see Elara soon.\n\nPASSAGE B:\nThe lighthouse keeper, Silas, had seen a thousand storms lash against the granite tower. Each one a furious ballet of wind and water, threatening to swallow the little island whole. He\u2019d witnessed ships flounder, heard the desperate cries of sailors lost in the grey expanse, and felt the tremor of the earth beneath his boots with every crashing wave. But none of it truly bothered him anymore. He\u2019d long ago settled into a rhythm, a quiet understanding with the elements.\n\nHis days were marked by the turning of the lamp, the meticulous cleaning of the lenses, the logging of weather patterns in a worn leather journal. He\u2019d read through the same collection of nautical charts, memorized every shoal and current. The repetitive tasks were not burdens, but anchors, grounding him against the wildness outside. He observed. He recorded. He maintained. \n\nHe\u2019d arrived on the island thirty years prior, a young man fresh from the mainland, full of ambition and the restless urge to *do* something. He'd envisioned rescues, heroic deeds, a life of thrilling adventure. The reality, he quickly learned, was a slow, steady vigil. The true drama wasn't in grand gestures, but in the subtle shifts of the sea, the gradual erosion of the cliffs, the unwavering beam cutting through the darkness.\n\nA small sailboat had been battling the rising tide for hours. Silas watched it through his telescope, noting its erratic course, the way it pitched and rolled. He didn't rush to signal, didn\u2019t frantically begin preparations for a rescue. He simply observed. The skipper, a young woman with fiery red hair, was clearly struggling, but she wasn\u2019t panicking. She adjusted the sails, fought against the current, and slowly, painstakingly, began to correct her course. \n\nHe brewed himself a pot of tea, a simple blend of island herbs, and sat by the window. The storm intensified, the rain hammering against the glass, but the sailboat held its own. He watched the woman's movements, her unwavering focus, her silent determination. \n\nFinally, with a skillful maneuver, she caught a favorable wind. The boat straightened, and she steered a clear path toward the sheltered cove on the far side of the island. Silas nodded, a small smile playing on his lips. \n\nHe added a note to his journal, detailing the day\u2019s events. He didn\u2019t write about heroism or bravery. He wrote about the wind speed, the tide\u2019s ebb and flow, and the sailboat\u2019s successful navigation. He wrote about the quiet satisfaction of knowing, without intervention, that the sea, though formidable, could also be overcome. The lamp continued its steady rotation, a silent promise in the gathering gloom."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 16
+  },
+  "response": {
+    "id": "gen-1790970484-xPJEki2wbjL4ItcRULjg",
+    "object": "chat.completion",
+    "created": 1790970484,
+    "model": "anthropic/claude-sonnet-4.6",
+    "provider": "Amazon Bedrock",
+    "system_fingerprint": null,
+    "service_tier": null,
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "B",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1444,
+      "completion_tokens": 4,
+      "total_tokens": 1448,
+      "cost": 0.004392,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.004392,
+        "upstream_inference_prompt_cost": 0.004332,
+        "upstream_inference_completions_cost": 6e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970485.8269172,
+  "block": "w06_06",
+  "condition": "filler",
+  "domain": "word",
+  "target": "patience",
+  "item": 6,
+  "rep": 6,
+  "reader": "sonnet",
+  "order": 1,
+  "choice": "B",
+  "correct": 1
+}

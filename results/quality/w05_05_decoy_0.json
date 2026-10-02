@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe rain tasted like iron on Elara's tongue. It always did when she walked the cobblestone streets of Veridia, especially near the Foundry. The Foundry, a hulking beast of blackened brick and churning gears, dominated the skyline, its presence a constant, oppressive weight. Her boots splashed in puddles, the sound swallowed by the rhythmic clang and hiss emanating from within. She pulled her threadbare shawl tighter, a futile attempt to ward off the chill that seemed to seep into her bones. Tonight, she was late.\n\nOld Man Hemlock, the clockmaker, was always punctual, a creature of precise movements and predictable routines. He'd promised her a glimpse inside his workshop, a sanctuary filled with ticking gears and gleaming brass. He\u2019d been a friend to her family, a quiet, steadfast presence after her father\u2026 disappeared. Elara clutched the small, intricately carved wooden bird he\u2019d given her, its wings frozen mid-flight. It was the only tangible thing she had left of him. \n\nHemlock was hunched over a complicated mechanism, his spectacles perched precariously on his nose. Tiny tools littered the workbench, a testament to his meticulous craft. He didn\u2019t look up as she entered, simply grunted a greeting and continued his work. \"Almost finished,\" he murmured, his voice raspy with age and the perpetual dust of gears. \"The chime needs\u2026 adjusting.\" He gestured with a slender, oily finger toward a series of miniature hammers poised above tiny bells. \n\nHe showed her the clock, a marvel of engineering. Each gear, each lever, perfectly balanced, working in harmony to mark the passage of time. He explained the intricacies of the escapement, the delicate dance that controlled the release of energy. \u201cIt\u2019s all about balance, Elara,\u201d he said, finally looking at her. \u201cEverything has to be in its proper place, or the whole thing falls apart.\u201d He paused, his gaze distant. \u201cA beautiful thing, when it works as it should.\u201d\n\nLater, as she walked home, the rain had softened to a drizzle. She passed the Foundry again. The rhythmic clang and hiss continued, but tonight, she noticed something different. A subtle shift in the rhythm, a discordant note amidst the predictable beat. It was almost imperceptible, but it was there. \n\nShe remembered Hemlock\u2019s words about balance. About things being in their proper place. \n\nA single raven landed on a gargoyle overlooking the Foundry, its obsidian eyes reflecting the flickering light. It tilted its head, a silent observer. \n\nElara tightened her grip on the wooden bird. The rain stopped completely. The city held its breath. The air felt\u2026still. A new kind of quiet."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970636-81QW0uDBektcsKJh1ZFH",
+    "object": "chat.completion",
+    "created": 1790970636,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 661,
+      "completion_tokens": 32,
+      "total_tokens": 693,
+      "cost": 0.0003156,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003156,
+        "upstream_inference_prompt_cost": 0.0002644,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970637.7911754,
+  "id": "w05_05_decoy_0",
+  "condition": "decoy",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

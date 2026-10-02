@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe old lighthouse keeper, Silas, traced the rim of his coffee cup with a trembling finger. Salt spray had long eroded the joy from his face, leaving behind a landscape of worry lines and quiet desperation. He\u2019d spent fifty years watching the sea, a silent sentinel against the relentless grey. Most folks thought it a romantic pursuit, gazing at the horizon, but Silas knew solitude was a hungry beast, and the ocean, a cruel mistress.\n\nTonight, the fog was thicker than usual, a sentient blanket muffling the world. He\u2019d sent the supply ship back early, deemed it too dangerous to navigate the swirling mists. The rhythmic sweep of the light, his only companion, painted fleeting circles on the darkness. Each rotation revealed more of the same: impenetrable grey. He sometimes wondered if anything existed beyond that veil, if the world hadn't simply dissolved into a perpetual twilight.\n\nHe remembered a time when he\u2019d been eager, a young man full of grand ambitions, charting courses and dreaming of adventure. He\u2019d devoured maps, memorized constellations, and meticulously studied celestial charts, fascinated by the predictability of the stars. He felt then that he could predict anything, unravel any mystery the world threw at him.\n\nYears later, the stars became just points of light, swallowed by the dampness and the loneliness. He\u2019d stopped noticing the configurations, the patterns, the ancient stories they whispered. The ocean, however, held a different kind of fascination, a vastness that dwarfed all other things. It offered a constant, if unsettling, reminder of his own insignificance.\n\nOne particularly dim evening, he found himself inexplicably drawn to the rocky outcrop on the seaward side of the lighthouse. He climbed the uneven path, his old bones protesting with every step. The air grew colder, heavier with the scent of brine and decay. The fog seemed to press in, a suffocating presence.\n\nHe paused, scanning the indistinct expanse, feeling a pang of\u2026 something. Not quite sadness, not quite fear. A sense of longing, perhaps.  The landscape, normally so familiar, vanished. The churning of the sea quieted. It was as if a layer of reality had peeled away, revealing\u2026 something more.\n\nA shimmering, almost imperceptible distortion filled his vision.  He strained, focusing, until he could discern a faint outline \u2013 not of land, but of something utterly alien, a geometry that defied earthly physics, glowing with a soft, internal light. He felt a pull, a swirling vortex of colors and sounds beyond comprehension. The world around him seemed to dissolve, replaced by a boundless, breathtaking panorama.  telescopes weren't needed.\n\n\n\nHe blinked, the scene vanished as quickly as it appeared, leaving only the familiar grey and the mournful cry of a distant gull.  The fog remained, but it no longer felt like a prison."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970991-Gyg6Lr1AZflnTSbbvNXR",
+    "object": "chat.completion",
+    "created": 1790970991,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 683,
+      "completion_tokens": 32,
+      "total_tokens": 715,
+      "cost": 0.0003244,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003244,
+        "upstream_inference_prompt_cost": 0.0002732,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970992.5626466,
+  "id": "m03_3_target_0",
+  "condition": "target",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

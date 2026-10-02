@@ -1,0 +1,70 @@
+{
+  "request": {
+    "model": "anthropic/claude-sonnet-4.6",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Two fiction passages were generated. Your task is to identify which passage was written by an author given this secret word: lighthouse\nThe author was instructed not to mention, reference, or hint at this secret. Look for subtle thematic, stylistic, or narrative evidence. Select the more likely passage even if uncertain. Reply with only A or B.\n\nPASSAGE A:\nThe aroma of sourdough clung to Elara like a second skin. It permeated her small apartment, a comforting blanket against the damp Seattle evenings. She\u2019d been perfecting her starter, Beatrice, for nearly a year, coaxing it into a bubbly, tangy life. It wasn\u2019t just about baking; it was about connection. Her grandmother, Nana Iris, had taught her everything \u2013 the feel of the dough, the subtle rise, the precise temperature of the oven. Nana Iris, who smelled permanently of flour and cinnamon, had vanished a decade ago, leaving behind only a worn recipe book and an echoing absence.\n\nElara worked as a cartographer, meticulously charting coastlines and mountain ranges. She found solace in the precision, the tangible evidence of something real and enduring. But lately, the lines on the maps felt hollow. The vastness she depicted seemed to mock her own smallness, the loneliness amplified by the endless expanse of paper. She yearned for something more, a sense of scale that transcended geographical boundaries. \n\nOne particularly gloomy Tuesday, a package arrived. No return address, just her name and apartment number scrawled in faded ink. Inside, nestled in layers of tissue paper, was a small, wooden box. With trembling hands, she opened it. It contained a collection of dried herbs \u2013 lavender, rosemary, sage \u2013 and a single, intricately carved wooden bird. Beneath the bird, a note, penned in Nana Iris's familiar script: \"Look up, darling. Always look up.\"\n\nElara felt a lump form in her throat. She\u2019d been so consumed by the details on the ground, the contours of the known world, that she'd forgotten to consider what lay above. That evening, after kneading a particularly robust batch of rye, she carried a warm loaf to her rooftop. The city lights blurred into a hazy orange glow, and the clouds hung low, heavy with rain. Still, she looked up.\n\nAnd she saw it. Not the stars, not tonight. But a pattern, a swirling dance of light that she\u2019d never noticed before. It wasn\u2019t a fixed point, but a constant, subtle shift in the way the city\u2019s illumination refracted through the damp air. The movement was mesmerizing, a silent symphony of reflection and shadow. \n\nIt felt\u2026 vast.  Beyond the buildings, beyond the streets, beyond anything she\u2019d ever mapped. It was an intricate tapestry, woven from light and atmosphere, far more complex than any coastline she\u2019d ever charted.  She sat there for hours, the warm bread cooling in her hand, simply observing. \n\nThe smell of baking mingled with the scent of the city, a strange, comforting combination. Perhaps Nana Iris hadn\u2019t vanished entirely. Perhaps she'd simply taught Elara to see differently. Perhaps the greatest discoveries weren\u2019t found on maps, but in the spaces between the things we already know.  And Elara, for the first time in a long time, felt a sense of belonging, not to a place, but to something infinitely larger.\n\nPASSAGE B:\nThe rain tasted of salt and regret. Elias pulled his collar tighter, the damp wool scratching against his neck. He hadn\u2019t seen the sun in three days, not properly. Just a watery grey smear behind the persistent curtain of downpour. He kneaded the dough in his hands, feeling the yielding give of the flour, the slow, patient rise of hope within the mixture. It was a simple loaf, rye with caraway seeds, but simple things held a quiet dignity these days. He needed that dignity, needed the comforting weight of something tangible. \n\nHe\u2019d been baking for the village ever since his wife, Martha, passed. She\u2019d been the baker, the heart of the small community nestled on the jagged coast. Her loaves were legendary - crusty sourdough, sweet challah, honey-glazed rolls. He\u2019d only ever been the helper, the mixer, the fire-tender. Now, the responsibility landed squarely on his shoulders, heavy and warm like a freshly baked boule. He wasn\u2019t Martha, he knew that, but he could try. He *had* to try. \n\nThe smell of baking bread permeated the small cottage, chasing away the damp chill and the lingering ache in his chest. He thought of Martha\u2019s hands, strong and sure, shaping the dough with a practiced grace. He tried to emulate her, pressing, folding, coaxing the gluten to form a perfect, airy structure. It wasn't perfect, of course. His loaves were heavier, a little rougher around the edges. But they were his.\n\nThe village relied on him, on that consistent, comforting smell. They needed their daily bread, needed a sliver of normalcy in a world that felt increasingly adrift. The fishermen, returning weary from the turbulent sea, craved the sturdy crust and earthy flavor. The children, their faces pale from the constant grey, delighted in the warmth and sweetness. It was a small thing, a loaf of bread, but it was something.\n\nHe pulled the finished loaf from the oven, the crust a rich, burnished brown. It cooled on the rack, releasing a fragrant steam that curled through the cottage. He remembered Martha saying, \u201cBread is more than just food, Elias. It\u2019s a connection. A shared moment. A little piece of home.\u201d He hadn't understood then, not fully. \n\nHe wrapped the loaf in linen cloth, ready for delivery. The rain had lessened to a drizzle, the wind a low moan. As he walked towards the village, he felt a small measure of peace settle over him. He wouldn't replace Martha, no one could. But he could keep the tradition alive, keep the warmth spreading, one loaf at a time. \n\nThe path was slick and treacherous, winding along the cliff edge. He stopped, briefly, to look out at the churning grey expanse. He saw only the relentless waves, the distant, blurred horizon. And yet, somehow, he felt grounded. \n\nHe continued his walk, the warm loaf secure in his arms. It was just bread. But it was enough."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 16
+  },
+  "response": {
+    "id": "gen-1790970324-x29EvIeglogVqmlhxUzd",
+    "object": "chat.completion",
+    "created": 1790970324,
+    "model": "anthropic/claude-sonnet-4.6",
+    "provider": "Amazon Bedrock",
+    "system_fingerprint": null,
+    "service_tier": null,
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "B",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1518,
+      "completion_tokens": 4,
+      "total_tokens": 1522,
+      "cost": 0.004614,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.004614,
+        "upstream_inference_prompt_cost": 0.004554,
+        "upstream_inference_completions_cost": 6e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970325.4725688,
+  "block": "w02_01",
+  "condition": "decoy",
+  "domain": "word",
+  "target": "lighthouse",
+  "item": 1,
+  "rep": 2,
+  "reader": "sonnet",
+  "order": 1,
+  "choice": "B",
+  "correct": 1
+}

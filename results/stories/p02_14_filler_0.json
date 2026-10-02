@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The scientist knows the invention does not work. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: June arrives to assist a scientist setting up a public demonstration.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nUnrelated reference notes:\nThis reference note concerns the organization of a separate document. A heading identifies a section and a paragraph groups related sentences. Editors may use a consistent layout across pages. Drafts can be reviewed in several stages before a final copy is stored. These general notes describe document preparation and have no connection to the requested fictional events. This reference note"
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 303963934
+  },
+  "response": {
+    "id": "gen-1790970048-XhmTVECqWBsWNAnMXVqA",
+    "object": "chat.completion",
+    "created": 1790970048,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The air in the auditorium hummed, not with anticipation, but with the low thrum of unfamiliar machinery. June stepped through the heavy oak doors, the scent of dust and old velvet clinging to the space. It was a grand room, all gilded balconies and faded murals depicting scenes of scientific discovery \u2013 ironic, she thought, given the spectacle about to unfold. She adjusted the strap of her satchel, the weight of her tools and diagnostics a reassuring presence against the quiet tension. Dr. Alistair Finch, the celebrated physicist, was already there, a whirlwind of frantic energy amidst a landscape of wires, coils, and gleaming chrome.\n\nHe barely registered her arrival, his focus laser-locked on a towering structure dominating the stage. It resembled a metallic tree, its branches tipped with pulsating orbs of blue and green light. \"June! Thank heavens. Right, the resonators need recalibrating. Frequency variance is still within acceptable parameters, but I\u2019m not entirely comfortable. Can you run a spectral analysis on node seven? And double-check the harmonic dampeners \u2013 I swear they were tighter this morning.\" He rattled off the instructions with breathless urgency, his tweed jacket askew and a smudge of grease adorning his cheek.\n\nJune moved with practiced efficiency, her movements a calm counterpoint to Finch\u2019s agitated pace. She\u2019d assisted him on numerous demonstrations before, though never one of this magnitude. This was the unveiling of the \u201cChronarium,\u201d Finch\u2019s purported invention capable of manipulating localized temporal fields. The press were scheduled to arrive in less than an hour, and the auditorium was already filling with invited dignitaries, eager to witness what promised to be a revolution in physics. \n\nShe plugged her diagnostic tablet into a port on the base of the Chronarium, the screen flickering to life with a cascade of data streams. Numbers scrolled past in a dizzying array, graphs pulsed with activity, and a low, almost imperceptible whine resonated from the machine. June ran her standard checks, her fingers dancing across the touchscreen with familiarity. Everything appeared, on the surface, to be functioning within the prescribed tolerances. \n\n\"Anything?\" Finch asked, hovering anxiously nearby, his gaze darting between the machine and the stage entrance. He wrung his hands, a habit June found endearing, if slightly unnerving in these high-pressure situations. \n\n\"Initial readings are nominal, Doctor,\" she replied, her voice steady and professional. \"Resonators are stable, harmonic dampeners appear to be functioning as designed. I'll run a more detailed analysis, but for now, everything *seems* to be in order.\" She emphasized the last word, a subtle caution he seemed to miss entirely.\n\nHe let out a sigh of relief, a brief flicker of relaxation crossing his features. \"Excellent, excellent! Just need to finalize the presentation slides and ensure the temporal displacement sequence is properly loaded. This is it, June. This is the moment.\" He puffed out his chest, a triumphant glint in his eyes. The low hum of the Chronarium seemed to intensify, a silent promise hanging in the air.\n\n\n\nJune glanced at the expectant faces beginning to populate the auditorium, then back at the complex machine. She double-checked the spectral analysis, a nagging feeling tugging at the edge of her awareness.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 187,
+      "completion_tokens": 674,
+      "total_tokens": 861,
+      "cost": 0.00011045,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00011045,
+        "upstream_inference_prompt_cost": 9.35e-06,
+        "upstream_inference_completions_cost": 0.0001011
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970061.1385942,
+  "id": "p02_14_filler_0",
+  "block": "p02_14",
+  "domain": "plot",
+  "condition": "filler",
+  "side": 0,
+  "secret": "The scientist knows the invention does not work.",
+  "target": "The scientist knows the invention does not work.",
+  "other": "The scientist has already sold the invention to a rival company.",
+  "rep": 2,
+  "item": 14,
+  "seed": 303963934,
+  "premise": "June arrives to assist a scientist setting up a public demonstration.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The scientist knows the invention does not work. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: June arrives to assist a scientist setting up a public demonstration.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nUnrelated reference notes:\nThis reference note concerns the organization of a separate document. A heading identifies a section and a paragraph groups related sentences. Editors may use a consistent layout across pages. Drafts can be reviewed in several stages before a final copy is stored. These general notes describe document preparation and have no connection to the requested fictional events. This reference note",
+  "text": "The air in the auditorium hummed, not with anticipation, but with the low thrum of unfamiliar machinery. June stepped through the heavy oak doors, the scent of dust and old velvet clinging to the space. It was a grand room, all gilded balconies and faded murals depicting scenes of scientific discovery \u2013 ironic, she thought, given the spectacle about to unfold. She adjusted the strap of her satchel, the weight of her tools and diagnostics a reassuring presence against the quiet tension. Dr. Alistair Finch, the celebrated physicist, was already there, a whirlwind of frantic energy amidst a landscape of wires, coils, and gleaming chrome.\n\nHe barely registered her arrival, his focus laser-locked on a towering structure dominating the stage. It resembled a metallic tree, its branches tipped with pulsating orbs of blue and green light. \"June! Thank heavens. Right, the resonators need recalibrating. Frequency variance is still within acceptable parameters, but I\u2019m not entirely comfortable. Can you run a spectral analysis on node seven? And double-check the harmonic dampeners \u2013 I swear they were tighter this morning.\" He rattled off the instructions with breathless urgency, his tweed jacket askew and a smudge of grease adorning his cheek.\n\nJune moved with practiced efficiency, her movements a calm counterpoint to Finch\u2019s agitated pace. She\u2019d assisted him on numerous demonstrations before, though never one of this magnitude. This was the unveiling of the \u201cChronarium,\u201d Finch\u2019s purported invention capable of manipulating localized temporal fields. The press were scheduled to arrive in less than an hour, and the auditorium was already filling with invited dignitaries, eager to witness what promised to be a revolution in physics. \n\nShe plugged her diagnostic tablet into a port on the base of the Chronarium, the screen flickering to life with a cascade of data streams. Numbers scrolled past in a dizzying array, graphs pulsed with activity, and a low, almost imperceptible whine resonated from the machine. June ran her standard checks, her fingers dancing across the touchscreen with familiarity. Everything appeared, on the surface, to be functioning within the prescribed tolerances. \n\n\"Anything?\" Finch asked, hovering anxiously nearby, his gaze darting between the machine and the stage entrance. He wrung his hands, a habit June found endearing, if slightly unnerving in these high-pressure situations. \n\n\"Initial readings are nominal, Doctor,\" she replied, her voice steady and professional. \"Resonators are stable, harmonic dampeners appear to be functioning as designed. I'll run a more detailed analysis, but for now, everything *seems* to be in order.\" She emphasized the last word, a subtle caution he seemed to miss entirely.\n\nHe let out a sigh of relief, a brief flicker of relaxation crossing his features. \"Excellent, excellent! Just need to finalize the presentation slides and ensure the temporal displacement sequence is properly loaded. This is it, June. This is the moment.\" He puffed out his chest, a triumphant glint in his eyes. The low hum of the Chronarium seemed to intensify, a silent promise hanging in the air.\n\n\n\nJune glanced at the expectant faces beginning to populate the auditorium, then back at the complex machine. She double-checked the spectral analysis, a nagging feeling tugging at the edge of her awareness."
+}

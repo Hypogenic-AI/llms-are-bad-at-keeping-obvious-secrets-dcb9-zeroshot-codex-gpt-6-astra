@@ -1,0 +1,70 @@
+{
+  "request": {
+    "model": "anthropic/claude-sonnet-4.6",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Two fiction passages were generated. Your task is to identify which passage was written by an author given this secret word: patience\nThe author was instructed not to mention, reference, or hint at this secret. Look for subtle thematic, stylistic, or narrative evidence. Select the more likely passage even if uncertain. Reply with only A or B.\n\nPASSAGE A:\nThe rain had stopped, leaving the air thick and smelling of wet earth and something almost forgotten \u2013 honeysuckle. Elara knelt in the mud, her fingers tracing the delicate veins of a fallen oak leaf. She\u2019d inherited the house, and with it, this sprawling, overgrown plot. It wasn\u2019t a garden in any conventional sense. More a wilderness, a tangle of thorny bushes, rogue vines, and trees that clawed at the sky. Her aunt, a woman of eccentric habits and even more eccentric gardening philosophies, had left it to flourish, untouched for years.\n\nElara wasn't a gardener. She was a cartographer, accustomed to precise lines and meticulous measurements. Her world was defined by accuracy and order. This chaotic explosion of green felt\u2026 antagonistic. Yet, there was something compelling about it, a sense of ancient, silent power. She\u2019d spent the first few days simply observing, noticing the industrious bees buzzing amongst the lavender, the flash of a bluebird darting between the branches, the way the sunlight filtered through the dense canopy.\n\nShe started small, clearing a single patch near the crumbling stone wall. It was a monumental task; roots snagged and resisted, thorns tore at her clothes, and the sheer volume of debris felt overwhelming. But with each weed pulled, with each stray branch clipped, a tiny space of order emerged from the disorder. She didn't have a plan, no grand design for a rose garden or a herb patch. Just a quiet desire to reveal what lay hidden beneath.\n\nAs she worked, she unearthed forgotten things. A chipped ceramic gnome, half-buried in moss. A rusted watering can, its spout choked with dried leaves. A small, weathered wooden box containing a collection of dried flower petals, pressed flat and brittle with age. Each discovery felt like a whispered secret from her aunt, a glimpse into a life she hadn't fully understood. \n\nThe clearing grew larger, slowly revealing a small, circular space. In the center stood a single, ancient apple tree, its branches laden with unripe fruit. It seemed to be the heart of the entire area, the anchor point for the surrounding wilderness. Elara touched its rough bark, feeling a strange sense of connection to it, to the earth beneath her feet, and to the woman who had cultivated this unruly place. \n\nShe didn't attempt to tame it completely. Instead, she worked *with* the wildness, shaping it, guiding it, allowing it to retain its character. A winding path emerged, meandering through the undergrowth. A small bench, salvaged from the attic, was placed beneath the apple tree, offering a quiet spot to sit and observe.\n\nThe garden wasn\u2019t perfect, not by any conventional standard. It remained a place of surprising twists and turns, of hidden corners and unexpected blooms. But it was hers now, a living testament to resilience, to the beauty of imperfection, and to the enduring power of nature. \n\nAnd in the quiet evenings, when the air was still and the scent of honeysuckle hung heavy in the air, Elara found herself smiling, understanding, perhaps for the first time, the wisdom of letting things grow wild.\n\nPASSAGE B:\nThe rain had stopped, leaving the air thick and smelling of damp earth and bruised blossoms. Elias surveyed his plot, a small rectangle carved out of a larger communal space. It wasn\u2019t much, really, just enough room for a few rows of vegetables and a struggling rose bush his grandmother had gifted him. Everything felt\u2026 muted. The vibrant green of the lettuce had dulled, the tomatoes stubbornly clung to their unripe state, and the zucchini, normally a prolific producer, seemed to have vanished entirely. \n\nHe\u2019d started with such enthusiasm. Seedlings carefully nurtured indoors, the soil meticulously amended with compost, a daily ritual of watering and weeding. He\u2019d envisioned a riot of color and flavor, a testament to his efforts. But the early promise had faded, replaced by a nagging feeling of inadequacy. The other gardeners in the community had overflowing baskets, their peppers gleaming red, their cucumbers long and sturdy. He felt\u2026 behind.\n\nElias knelt, gently pulling a persistent weed from around the base of the rose bush. Its thorns scratched his hand, a familiar discomfort. He remembered his grandmother\u2019s calloused fingers, the way she\u2019d handle the thorny stems with a quiet confidence. She never rushed anything. She\u2019d just observe, tend, and wait. He'd been trying to force things, to accelerate the process, convinced that a little extra effort would yield instant results. \n\nHe noticed a tiny, almost invisible sprout pushing through the soil near the tomato plants. A volunteer, he realized, a seed that had simply found its own way, its own time. He resisted the urge to dig it out, to make space for the struggling tomatoes. Instead, he watered it carefully, a small act of acceptance. \n\nDays bled into weeks. Elias stopped comparing his garden to others. He stopped worrying about deadlines and expectations. He simply tended. He watered, he weeded, he observed. He noticed the slow unfurling of a new leaf on the rose bush, a tiny bud swelling at its tip. \n\nThen, one morning, he found it. A single, perfect tomato, plump and ripe, a vibrant splash of crimson against the green foliage. It wasn\u2019t a bumper crop, not by a long shot. But it was *something*. Something tangible, something real, something earned. \n\nHe picked the tomato, its weight surprisingly satisfying in his hand. He carried it inside, placed it on the kitchen counter, and simply looked at it. The sun caught the skin, highlighting its rich color, its subtle imperfections. It was a reminder that growth wasn't about speed, but about persistence. About finding beauty in the small, incremental changes.\n\nHe smiled, a genuine smile that hadn\u2019t touched his lips in weeks. He decided to make a simple salad, just for himself."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 16
+  },
+  "response": {
+    "id": "gen-1790970719-eDJkZYHi8ubsC27ulnBj",
+    "object": "chat.completion",
+    "created": 1790970719,
+    "model": "anthropic/claude-sonnet-4.6",
+    "provider": "Amazon Bedrock",
+    "system_fingerprint": null,
+    "service_tier": null,
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "B",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1480,
+      "completion_tokens": 4,
+      "total_tokens": 1484,
+      "cost": 0.0045,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0045,
+        "upstream_inference_prompt_cost": 0.00444,
+        "upstream_inference_completions_cost": 6e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970720.1052682,
+  "block": "w03_06",
+  "condition": "decoy",
+  "domain": "word",
+  "target": "patience",
+  "item": 6,
+  "rep": 3,
+  "reader": "sonnet",
+  "order": 1,
+  "choice": "B",
+  "correct": 1
+}

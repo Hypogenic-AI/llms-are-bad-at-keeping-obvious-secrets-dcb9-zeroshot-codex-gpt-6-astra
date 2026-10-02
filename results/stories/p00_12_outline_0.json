@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The cousin has forged some of the photographs. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Iris meets a cousin to organize an exhibition of family photographs.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 937084839
+  },
+  "response": {
+    "id": "gen-1790970410-hkIQF1yr5WNGsDr3ymkS",
+    "object": "chat.completion",
+    "created": 1790970410,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The taxi deposited Leo on the drive, a plume of exhaust briefly obscuring the rambling, grey stone house that had been home to Iris\u2019s family for generations. He unfolded himself from the backseat with a grin and a wave, a familiar, easy gesture that felt both comforting and slightly unsettling. It had been nearly a decade since they\u2019d last properly connected, a chasm of university, jobs, and separate lives widening between them.\n\n\u201cIris! So good to see you!\u201d he called, crossing the lawn towards the open French doors. She emerged, wiping flour from her hands onto a faded apron, a welcoming smile softening the lines around her eyes. \"Come in, come in. I've made tea and some shortbread. We've a mountain of memories to sort through.\"\n\nThe kitchen, predictably, was a warm, chaotic haven. Sunlight streamed through the window, illuminating dust motes dancing above a table piled high with archival boxes, photo albums, and loose prints. Leo surveyed the scene with a slight grimace, then a chuckle. \"A mountain is an understatement.\"\n\n\u201cRight,\u201d Iris said, already pulling on a pair of cotton gloves. \u201cWe need to decide on a chronological order, I think. Grandfather insisted on documenting everything, from his school days to\u2026 well, everything. Then we can start selecting, deciding what tells the best story.\u201d She gestured towards a stack of albums. \"I've already pulled out the obvious ones - weddings, holidays, portraits. These are mostly in order, but the loose prints\u2026 that\u2019s where the real work begins.\" Leo began to spread out a large sheet of butcher paper across the table, marking sections with tentative labels: 'Childhood,' 'War Years,' 'The Estate.'\n\nA flicker of irritation crossed Iris's face. \"Blast it, I\u2019d completely forgotten about Aunt Clara's pottery exhibition. She specifically requested we include some photos from that, and it was supposed to be next week. I need to call her and reschedule.\u201d Leo, already sifting through a box of black and white prints, looked up. \u201cLet me. I\u2019m better with phone calls than you are, you always get flustered.\u201d He expertly navigated the call, postponing the meeting with a breezy apology and a promise to send digital scans of the relevant images. \n\nThe aroma of Earl Grey and melting butter filled the air as they paused for refreshments. Iris poured the tea, offering Leo a plate of shortbread. \"Thank you,\" he said, taking a bite. \"These are just like your grandmother used to make.\u201d They fell into comfortable silence, punctuated by the clinking of china and the gentle hum of the house settling around them. \n\nBack at the table, Leo carefully spread out a collection of sepia-toned photographs, each depicting a scene from a bygone era. Iris picked up a small, faded print showing a group of children playing in the garden, their faces blurred with time. \"Look at this,\" she murmured, a nostalgic smile gracing her lips. \"That's us, isn't it? You, me, and little Thomas. I barely remember that summer.\" And so, they returned to the task, sifting through the past, one photograph at a time.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 188,
+      "completion_tokens": 673,
+      "total_tokens": 861,
+      "cost": 0.00011035,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00011035,
+        "upstream_inference_prompt_cost": 9.4e-06,
+        "upstream_inference_completions_cost": 0.00010095
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970420.5566964,
+  "id": "p00_12_outline_0",
+  "block": "p00_12",
+  "domain": "plot",
+  "condition": "outline",
+  "side": 0,
+  "secret": "The cousin has forged some of the photographs.",
+  "target": "The cousin has forged some of the photographs.",
+  "other": "The cousin has discovered that Iris has an identical twin.",
+  "rep": 0,
+  "item": 12,
+  "seed": 937084839,
+  "premise": "Iris meets a cousin to organize an exhibition of family photographs.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The cousin has forged some of the photographs. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Iris meets a cousin to organize an exhibition of family photographs.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation.",
+  "text": "The taxi deposited Leo on the drive, a plume of exhaust briefly obscuring the rambling, grey stone house that had been home to Iris\u2019s family for generations. He unfolded himself from the backseat with a grin and a wave, a familiar, easy gesture that felt both comforting and slightly unsettling. It had been nearly a decade since they\u2019d last properly connected, a chasm of university, jobs, and separate lives widening between them.\n\n\u201cIris! So good to see you!\u201d he called, crossing the lawn towards the open French doors. She emerged, wiping flour from her hands onto a faded apron, a welcoming smile softening the lines around her eyes. \"Come in, come in. I've made tea and some shortbread. We've a mountain of memories to sort through.\"\n\nThe kitchen, predictably, was a warm, chaotic haven. Sunlight streamed through the window, illuminating dust motes dancing above a table piled high with archival boxes, photo albums, and loose prints. Leo surveyed the scene with a slight grimace, then a chuckle. \"A mountain is an understatement.\"\n\n\u201cRight,\u201d Iris said, already pulling on a pair of cotton gloves. \u201cWe need to decide on a chronological order, I think. Grandfather insisted on documenting everything, from his school days to\u2026 well, everything. Then we can start selecting, deciding what tells the best story.\u201d She gestured towards a stack of albums. \"I've already pulled out the obvious ones - weddings, holidays, portraits. These are mostly in order, but the loose prints\u2026 that\u2019s where the real work begins.\" Leo began to spread out a large sheet of butcher paper across the table, marking sections with tentative labels: 'Childhood,' 'War Years,' 'The Estate.'\n\nA flicker of irritation crossed Iris's face. \"Blast it, I\u2019d completely forgotten about Aunt Clara's pottery exhibition. She specifically requested we include some photos from that, and it was supposed to be next week. I need to call her and reschedule.\u201d Leo, already sifting through a box of black and white prints, looked up. \u201cLet me. I\u2019m better with phone calls than you are, you always get flustered.\u201d He expertly navigated the call, postponing the meeting with a breezy apology and a promise to send digital scans of the relevant images. \n\nThe aroma of Earl Grey and melting butter filled the air as they paused for refreshments. Iris poured the tea, offering Leo a plate of shortbread. \"Thank you,\" he said, taking a bite. \"These are just like your grandmother used to make.\u201d They fell into comfortable silence, punctuated by the clinking of china and the gentle hum of the house settling around them. \n\nBack at the table, Leo carefully spread out a collection of sepia-toned photographs, each depicting a scene from a bygone era. Iris picked up a small, faded print showing a group of children playing in the garden, their faces blurred with time. \"Look at this,\" she murmured, a nostalgic smile gracing her lips. \"That's us, isn't it? You, me, and little Thomas. I barely remember that summer.\" And so, they returned to the task, sifting through the past, one photograph at a time."
+}

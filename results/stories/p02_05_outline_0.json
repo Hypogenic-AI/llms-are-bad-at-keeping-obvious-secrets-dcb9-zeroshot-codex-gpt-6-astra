@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: His brother won a large lottery prize and told nobody. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Jon visits his brother to help assemble furniture in a new apartment.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 758365553
+  },
+  "response": {
+    "id": "gen-1790969652-TAoNjzQcybzK8FEmE3Sh",
+    "object": "chat.completion",
+    "created": 1790969652,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The key turned in the lock with a familiar click, and Jon pushed the door open, letting in a gust of late-summer warmth. \u201cHey, Mark! I\u2019m here.\u201d\n\nMark appeared from the cluttered living room, a grin splitting his face. \u201cJon! Perfect timing. Just got the last box wrestled through the doorway. You\u2019re a lifesaver. This place is a disaster zone, but it's *our* disaster zone now, right?\u201d He clapped Jon on the shoulder, a gesture that felt both comfortable and faintly awkward, as if they hadn't quite adjusted to this new stage of adulthood. Mark had moved in just last week, trading his cramped city apartment for this slightly larger, slightly newer space on the outskirts of town. \n\nThe task at hand was the assembly of a behemoth of a bookcase \u2013 flat-packed, naturally. \u201cRight,\u201d Jon said, surveying the scene. Cardboard boxes overflowed with Allen wrenches, screws of varying sizes, and panels of particleboard. \u201cOperation Book Fortress commences.\u201d He followed Mark into the living room, where the bookcase lay sprawled across the floor, a jigsaw puzzle of potential. \"Let's get these pieces organized first. You tackle the shelves, I'll sort the hardware. Think we can find a system?\u201d\n\nThey worked in a companionable silence for a few minutes, sorting and separating. \"Okay, so we\u2019ve got\u2026a concerning number of these little cam locks,\" Mark said, holding up a handful. \"And what's the deal with these weird, angled brackets?\" Jon, examining a diagram, frowned. \"Those are probably for the back panel. They look like they're meant to reinforce it. Don\u2019t want the whole thing collapsing under the weight of our literary treasures, do we?\" \n\nA slight hitch appeared in their plans when Mark realized he couldn't locate the instructions. \u201cSeriously? I swear I put them\u2026 wait a minute, they\u2019re buried under the duvet in the bedroom! I'll be right back.\" He disappeared into the bedroom, returning a few moments later, slightly flushed, with the crucial document in hand. \u201cCrisis averted. Looks like we need to attach the side panels first. Teamwork, Jon, teamwork.\u201d \n\nAfter an hour of concentrated effort, punctuated by the satisfying click of screws and the occasional muttered curse, they declared a brief respite necessary. \"Coffee?\" Jon offered. Mark nodded enthusiastically. \u201cDefinitely. And those cookies your mom sent? Perfect fuel for furniture warriors.\u201d They settled on the floor amidst the scattered parts, sipping coffee and nibbling on the slightly crumbly, but undeniably delicious, homemade cookies. \n\nThe break was short, a necessary pause before the final push. \u201cAlright,\" Mark said, wiping crumbs from his chin. \u201cBack to it. I think we're at the point where we need to start attaching the shelves. Let\u2019s get these panels aligned and then\u2026 well, then we conquer the rest.\u201d He gestured towards the bookcase with a renewed sense of determination. Jon nodded, already reaching for the Allen wrench. The afternoon sun streamed through the window, illuminating the scattered pieces of wood and the two brothers, united in the pursuit of a fully assembled bookcase.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 191,
+      "completion_tokens": 672,
+      "total_tokens": 863,
+      "cost": 0.00011035,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00011035,
+        "upstream_inference_prompt_cost": 9.55e-06,
+        "upstream_inference_completions_cost": 0.0001008
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969662.3861885,
+  "id": "p02_05_outline_0",
+  "block": "p02_05",
+  "domain": "plot",
+  "condition": "outline",
+  "side": 0,
+  "secret": "His brother won a large lottery prize and told nobody.",
+  "target": "His brother won a large lottery prize and told nobody.",
+  "other": "His brother lost his job and has been pretending to work.",
+  "rep": 2,
+  "item": 5,
+  "seed": 758365553,
+  "premise": "Jon visits his brother to help assemble furniture in a new apartment.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: His brother won a large lottery prize and told nobody. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Jon visits his brother to help assemble furniture in a new apartment.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation.",
+  "text": "The key turned in the lock with a familiar click, and Jon pushed the door open, letting in a gust of late-summer warmth. \u201cHey, Mark! I\u2019m here.\u201d\n\nMark appeared from the cluttered living room, a grin splitting his face. \u201cJon! Perfect timing. Just got the last box wrestled through the doorway. You\u2019re a lifesaver. This place is a disaster zone, but it's *our* disaster zone now, right?\u201d He clapped Jon on the shoulder, a gesture that felt both comfortable and faintly awkward, as if they hadn't quite adjusted to this new stage of adulthood. Mark had moved in just last week, trading his cramped city apartment for this slightly larger, slightly newer space on the outskirts of town. \n\nThe task at hand was the assembly of a behemoth of a bookcase \u2013 flat-packed, naturally. \u201cRight,\u201d Jon said, surveying the scene. Cardboard boxes overflowed with Allen wrenches, screws of varying sizes, and panels of particleboard. \u201cOperation Book Fortress commences.\u201d He followed Mark into the living room, where the bookcase lay sprawled across the floor, a jigsaw puzzle of potential. \"Let's get these pieces organized first. You tackle the shelves, I'll sort the hardware. Think we can find a system?\u201d\n\nThey worked in a companionable silence for a few minutes, sorting and separating. \"Okay, so we\u2019ve got\u2026a concerning number of these little cam locks,\" Mark said, holding up a handful. \"And what's the deal with these weird, angled brackets?\" Jon, examining a diagram, frowned. \"Those are probably for the back panel. They look like they're meant to reinforce it. Don\u2019t want the whole thing collapsing under the weight of our literary treasures, do we?\" \n\nA slight hitch appeared in their plans when Mark realized he couldn't locate the instructions. \u201cSeriously? I swear I put them\u2026 wait a minute, they\u2019re buried under the duvet in the bedroom! I'll be right back.\" He disappeared into the bedroom, returning a few moments later, slightly flushed, with the crucial document in hand. \u201cCrisis averted. Looks like we need to attach the side panels first. Teamwork, Jon, teamwork.\u201d \n\nAfter an hour of concentrated effort, punctuated by the satisfying click of screws and the occasional muttered curse, they declared a brief respite necessary. \"Coffee?\" Jon offered. Mark nodded enthusiastically. \u201cDefinitely. And those cookies your mom sent? Perfect fuel for furniture warriors.\u201d They settled on the floor amidst the scattered parts, sipping coffee and nibbling on the slightly crumbly, but undeniably delicious, homemade cookies. \n\nThe break was short, a necessary pause before the final push. \u201cAlright,\" Mark said, wiping crumbs from his chin. \u201cBack to it. I think we're at the point where we need to start attaching the shelves. Let\u2019s get these panels aligned and then\u2026 well, then we conquer the rest.\u201d He gestured towards the bookcase with a renewed sense of determination. Jon nodded, already reaching for the Allen wrench. The afternoon sun streamed through the window, illuminating the scattered pieces of wood and the two brothers, united in the pursuit of a fully assembled bookcase."
+}

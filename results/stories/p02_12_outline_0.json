@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The cousin has forged some of the photographs. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Iris meets a cousin to organize an exhibition of family photographs.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 170997638
+  },
+  "response": {
+    "id": "gen-1790970208-h3AuX9ESGEaDCaHyYZB7",
+    "object": "chat.completion",
+    "created": 1790970208,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The taxi coughed to a halt on the gravel drive, spitting out a plume of dust that momentarily obscured the rambling Victorian house. Iris stepped out, adjusting the strap of her bag, and squinted up at the faded grandeur. It had been years since she\u2019d last seen Blackwood Manor, and even longer since she\u2019d seen her cousin, Leo. He appeared on the porch just as she\u2019d fully registered the peeling paint and overgrown wisteria, a smile splitting his face.\n\n\u201cIris! So good to see you,\u201d he called, his voice warm and familiar despite the intervening years. He bounded down the steps, pulling her into a quick, enthusiastic hug. \u201cCome on in, come on in. Everything\u2019s a bit chaotic, as you can imagine, but we\u2019ll sort it.\u201d He gestured towards the open doorway, and Iris followed him into a surprisingly tidy hallway, lined with portraits of stern-faced ancestors.\n\nThe task at hand was straightforward, if daunting: to curate a photographic exhibition celebrating the Blackwood family history, to be unveiled at the local historical society\u2019s autumn gala. Leo, the current resident and keeper of the family archives, had amassed a truly staggering collection. Iris, a freelance archivist with a keen eye for detail, had been enlisted to sift through it all, select the best images, and arrange them into a coherent narrative.\n\nThey\u2019d commandeered the manor\u2019s old library for the project \u2013 a room lined with floor-to-ceiling bookshelves, now largely cleared to make space for boxes overflowing with photographs, albums, and loose prints. Leo was already wrestling with a large, flat file cabinet, while Iris began unpacking the boxes she\u2019d brought, containing archival sleeves, display boards, and measuring tools. \"Right,\" Leo said, wiping his brow. \"I was hoping to get a proper scan of Great Aunt Mildred's Venetian sketches done this afternoon, but the local printer\u2019s apparently having a power outage. Bit of a snag.\"\n\nIris paused, considering. \"I\u2019ve got my portable scanner in the car. It\u2019s not as good as a professional scan, but it\u2019s certainly better than nothing, and I could do it while you start grouping the portraits together? We could alternate \u2013 you do the faces, I'll tackle the landscapes and architectural shots.\u201d Leo grinned. \u201cPerfect. Teamwork makes the dream work, eh?\u201d\n\nThe afternoon wore on, punctuated by the whir of the scanner and the rustling of photographs. They\u2019d cleared a space on a large table and laid out a selection of refreshments \u2013 tea, biscuits, and a plate of Leo\u2019s rather questionable homemade brownies. It was a comfortable rhythm, filled with easy conversation and shared memories of childhood summers spent exploring the manor\u2019s sprawling grounds.\n\nNow, the tray of refreshments cleared away, they were back at it, the library floor littered with a sea of sepia tones and faded colors. Leo was carefully arranging a series of portraits depicting various generations of Blackwood men, each face a study in varying degrees of stoicism. Iris, meanwhile, was meticulously cataloging a collection of images documenting the construction of the manor itself, each photograph a glimpse into a long-gone era. The sheer volume of material was overwhelming, but also undeniably fascinating.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 188,
+      "completion_tokens": 677,
+      "total_tokens": 865,
+      "cost": 0.00011095,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00011095,
+        "upstream_inference_prompt_cost": 9.4e-06,
+        "upstream_inference_completions_cost": 0.00010155
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970217.6699314,
+  "id": "p02_12_outline_0",
+  "block": "p02_12",
+  "domain": "plot",
+  "condition": "outline",
+  "side": 0,
+  "secret": "The cousin has forged some of the photographs.",
+  "target": "The cousin has forged some of the photographs.",
+  "other": "The cousin has discovered that Iris has an identical twin.",
+  "rep": 2,
+  "item": 12,
+  "seed": 170997638,
+  "premise": "Iris meets a cousin to organize an exhibition of family photographs.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The cousin has forged some of the photographs. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Iris meets a cousin to organize an exhibition of family photographs.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation.",
+  "text": "The taxi coughed to a halt on the gravel drive, spitting out a plume of dust that momentarily obscured the rambling Victorian house. Iris stepped out, adjusting the strap of her bag, and squinted up at the faded grandeur. It had been years since she\u2019d last seen Blackwood Manor, and even longer since she\u2019d seen her cousin, Leo. He appeared on the porch just as she\u2019d fully registered the peeling paint and overgrown wisteria, a smile splitting his face.\n\n\u201cIris! So good to see you,\u201d he called, his voice warm and familiar despite the intervening years. He bounded down the steps, pulling her into a quick, enthusiastic hug. \u201cCome on in, come on in. Everything\u2019s a bit chaotic, as you can imagine, but we\u2019ll sort it.\u201d He gestured towards the open doorway, and Iris followed him into a surprisingly tidy hallway, lined with portraits of stern-faced ancestors.\n\nThe task at hand was straightforward, if daunting: to curate a photographic exhibition celebrating the Blackwood family history, to be unveiled at the local historical society\u2019s autumn gala. Leo, the current resident and keeper of the family archives, had amassed a truly staggering collection. Iris, a freelance archivist with a keen eye for detail, had been enlisted to sift through it all, select the best images, and arrange them into a coherent narrative.\n\nThey\u2019d commandeered the manor\u2019s old library for the project \u2013 a room lined with floor-to-ceiling bookshelves, now largely cleared to make space for boxes overflowing with photographs, albums, and loose prints. Leo was already wrestling with a large, flat file cabinet, while Iris began unpacking the boxes she\u2019d brought, containing archival sleeves, display boards, and measuring tools. \"Right,\" Leo said, wiping his brow. \"I was hoping to get a proper scan of Great Aunt Mildred's Venetian sketches done this afternoon, but the local printer\u2019s apparently having a power outage. Bit of a snag.\"\n\nIris paused, considering. \"I\u2019ve got my portable scanner in the car. It\u2019s not as good as a professional scan, but it\u2019s certainly better than nothing, and I could do it while you start grouping the portraits together? We could alternate \u2013 you do the faces, I'll tackle the landscapes and architectural shots.\u201d Leo grinned. \u201cPerfect. Teamwork makes the dream work, eh?\u201d\n\nThe afternoon wore on, punctuated by the whir of the scanner and the rustling of photographs. They\u2019d cleared a space on a large table and laid out a selection of refreshments \u2013 tea, biscuits, and a plate of Leo\u2019s rather questionable homemade brownies. It was a comfortable rhythm, filled with easy conversation and shared memories of childhood summers spent exploring the manor\u2019s sprawling grounds.\n\nNow, the tray of refreshments cleared away, they were back at it, the library floor littered with a sea of sepia tones and faded colors. Leo was carefully arranging a series of portraits depicting various generations of Blackwood men, each face a study in varying degrees of stoicism. Iris, meanwhile, was meticulously cataloging a collection of images documenting the construction of the manor itself, each photograph a glimpse into a long-gone era. The sheer volume of material was overwhelming, but also undeniably fascinating."
+}

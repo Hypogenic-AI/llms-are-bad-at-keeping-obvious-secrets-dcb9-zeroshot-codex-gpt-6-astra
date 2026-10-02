@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: Her supervisor has been inventing residents who do not exist. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Nora begins a temporary job sorting records in a town office.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 499232303
+  },
+  "response": {
+    "id": "gen-1790969775-Z3X83p0xv40PwMDTv2ab",
+    "object": "chat.completion",
+    "created": 1790969775,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The bus coughed to a stop, spitting Nora onto the sidewalk of Havenwood with a sigh of hydraulics. It was a town that smelled of damp earth and pine needles, a scent both familiar and faintly melancholy. A woman with a name tag that read \u201cMargaret \u2013 Town Clerk\u201d was waiting for her by the curb, a smile as bright and welcoming as the late afternoon sun. \u201cNora! Welcome! So glad you could make it. I\u2019m Margaret, and I\u2019ll be showing you the ropes.\u201d\n\nMargaret ushered Nora inside the town office, a modest brick building with a slightly faded but charming fa\u00e7ade. The interior was a comforting clutter of paperwork, maps, and well-worn furniture. \u201cWe\u2019re a little behind on record organization, hence the temporary help,\u201d Margaret explained, gesturing toward a large, unused room at the back. \u201cIt\u2019s mostly just sorting and filing. Nothing too strenuous, I promise.\u201d\n\nThe room itself was a cavern of overflowing boxes, each labeled with cryptic abbreviations and faded handwriting. \"Right then,\" Margaret said, clapping her hands together. \"Let's get you set up. We\u2019ll need to clear this table here \u2013 that\u2019s where we\u2019ll stage everything. And I've got some dividers and labels already prepped for the main categories: property deeds, birth certificates, building permits, that sort of thing.\u201d They worked together, moving boxes and arranging them neatly against the walls, creating a surprisingly organized chaos.\n\n\u201cSo, how do you think we should tackle this?\u201d Nora asked, surveying the mountainous pile of documents. \u201cChronological order seems like the obvious choice, but some of these boxes have such varied contents\u2026\u201d \n\nMargaret hummed thoughtfully. \"You're right. We\u2019ll start with the property deeds. There are a *lot* of those. We can tackle those first, and then move on to the birth certificates \u2013 those are usually easier to sort. Oh! I almost forgot,\u201d Margaret exclaimed, glancing at the clock. \u201cThe plumber is scheduled to come by to fix the sink in the break room in about half an hour. We might want to take a quick break then, grab a coffee and something sweet?\u201d\n\n\"Sounds wonderful,\" Nora agreed, already feeling the slight ache in her shoulders from shifting boxes. \n\nThe break was brief but restorative. Margaret produced a plate of homemade cookies \u2013 oatmeal raisin, Nora\u2019s favorite \u2013 and a thermos of strong, dark coffee. They chatted about the town, its history, and the upcoming harvest festival. It was a pleasant, unremarkable pause in the day, a slice of small-town normalcy. \n\nBack in the sorting room, the light was beginning to slant through the windows, painting long shadows across the floor. \u201cAlright,\u201d Margaret said, pushing a stray strand of grey hair behind her ear. \u201cBack to it. Let\u2019s tackle these property deeds. I\u2019ll start with this box here, and you can take that one over there.\u201d Nora nodded, grabbing a box overflowing with brittle, yellowed papers, and began to carefully separate them, ready to face the task ahead.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 190,
+      "completion_tokens": 641,
+      "total_tokens": 831,
+      "cost": 0.00010565,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00010565,
+        "upstream_inference_prompt_cost": 9.5e-06,
+        "upstream_inference_completions_cost": 9.615e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969784.851845,
+  "id": "p01_02_outline_0",
+  "block": "p01_02",
+  "domain": "plot",
+  "condition": "outline",
+  "side": 0,
+  "secret": "Her supervisor has been inventing residents who do not exist.",
+  "target": "Her supervisor has been inventing residents who do not exist.",
+  "other": "Her supervisor has been protecting residents from a corrupt mayor.",
+  "rep": 1,
+  "item": 2,
+  "seed": 499232303,
+  "premise": "Nora begins a temporary job sorting records in a town office.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: Her supervisor has been inventing residents who do not exist. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Nora begins a temporary job sorting records in a town office.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation.",
+  "text": "The bus coughed to a stop, spitting Nora onto the sidewalk of Havenwood with a sigh of hydraulics. It was a town that smelled of damp earth and pine needles, a scent both familiar and faintly melancholy. A woman with a name tag that read \u201cMargaret \u2013 Town Clerk\u201d was waiting for her by the curb, a smile as bright and welcoming as the late afternoon sun. \u201cNora! Welcome! So glad you could make it. I\u2019m Margaret, and I\u2019ll be showing you the ropes.\u201d\n\nMargaret ushered Nora inside the town office, a modest brick building with a slightly faded but charming fa\u00e7ade. The interior was a comforting clutter of paperwork, maps, and well-worn furniture. \u201cWe\u2019re a little behind on record organization, hence the temporary help,\u201d Margaret explained, gesturing toward a large, unused room at the back. \u201cIt\u2019s mostly just sorting and filing. Nothing too strenuous, I promise.\u201d\n\nThe room itself was a cavern of overflowing boxes, each labeled with cryptic abbreviations and faded handwriting. \"Right then,\" Margaret said, clapping her hands together. \"Let's get you set up. We\u2019ll need to clear this table here \u2013 that\u2019s where we\u2019ll stage everything. And I've got some dividers and labels already prepped for the main categories: property deeds, birth certificates, building permits, that sort of thing.\u201d They worked together, moving boxes and arranging them neatly against the walls, creating a surprisingly organized chaos.\n\n\u201cSo, how do you think we should tackle this?\u201d Nora asked, surveying the mountainous pile of documents. \u201cChronological order seems like the obvious choice, but some of these boxes have such varied contents\u2026\u201d \n\nMargaret hummed thoughtfully. \"You're right. We\u2019ll start with the property deeds. There are a *lot* of those. We can tackle those first, and then move on to the birth certificates \u2013 those are usually easier to sort. Oh! I almost forgot,\u201d Margaret exclaimed, glancing at the clock. \u201cThe plumber is scheduled to come by to fix the sink in the break room in about half an hour. We might want to take a quick break then, grab a coffee and something sweet?\u201d\n\n\"Sounds wonderful,\" Nora agreed, already feeling the slight ache in her shoulders from shifting boxes. \n\nThe break was brief but restorative. Margaret produced a plate of homemade cookies \u2013 oatmeal raisin, Nora\u2019s favorite \u2013 and a thermos of strong, dark coffee. They chatted about the town, its history, and the upcoming harvest festival. It was a pleasant, unremarkable pause in the day, a slice of small-town normalcy. \n\nBack in the sorting room, the light was beginning to slant through the windows, painting long shadows across the floor. \u201cAlright,\u201d Margaret said, pushing a stray strand of grey hair behind her ear. \u201cBack to it. Let\u2019s tackle these property deeds. I\u2019ll start with this box here, and you can take that one over there.\u201d Nora nodded, grabbing a box overflowing with brittle, yellowed papers, and began to carefully separate them, ready to face the task ahead."
+}

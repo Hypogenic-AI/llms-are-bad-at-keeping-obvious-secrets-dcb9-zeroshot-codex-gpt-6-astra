@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The friend has been writing bestselling novels under Owen's name. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Owen takes a ferry to visit an old friend on an island.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nUnrelated reference notes:\nThis reference note concerns the organization of a separate document. A heading identifies a section and a paragraph groups related sentences. Editors may use a consistent layout across pages. Drafts can be reviewed in several stages before a final copy is stored. These general notes describe document preparation and have no connection to the requested fictional events. This reference note"
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 477428378
+  },
+  "response": {
+    "id": "gen-1790970227-mkitP3vLxp1ule41utlx",
+    "object": "chat.completion",
+    "created": 1790970227,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The salt spray kissed Owen\u2019s face as he leaned against the railing of the ferry, the wind whipping strands of his hair across his forehead. The grey expanse of the North Sea stretched before him, a restless, churning canvas mirroring the unsettled feeling in his gut. It wasn\u2019t seasickness, though the gentle rocking of the vessel did little to soothe his nerves. It was\u2026anticipation, perhaps. Or maybe just the weight of years accumulated, the quiet accumulation of unspoken things.\n\nHe\u2019d been putting this off for a while, this trip to Ailsa Craig. Ailsa. It sounded mythical, didn't it? A craggy, solitary island jutting out from the water like a forgotten tooth. He hadn\u2019t seen Elias in almost a decade, not since\u2026well, not since things had become too complicated, too fraught with a sadness that settled like a persistent fog. A decade was a long time. Enough time for lives to diverge, for memories to fade, for the sharp edges of regret to soften.\n\nThe ferry churned onward, a white wake trailing behind it. Owen watched the coastline recede, the familiar shapes of the mainland growing smaller and smaller until they became just another blurred line against the horizon. He pulled his worn leather jacket tighter around him, the scent of old books and pipe tobacco clinging to the fabric \u2013 a comforting, familiar aroma. He'd spent the morning sorting through his study, a nervous ritual he often performed before venturing outside his comfort zone. \n\nHe\u2019d brought a book, of course. A thick, leather-bound collection of poetry, mostly forgotten masters. But he hadn't opened it. Instead, he\u2019d been content to simply observe the other passengers: a gaggle of excited schoolchildren, a fisherman mending his nets, an elderly couple holding hands, their faces etched with a quiet contentment that Owen envied. Each of them seemed to possess a purpose, a destination beyond the ferry ride itself. He wondered what awaited him on Ailsa.\n\nThe island began to materialize from the mist, a dark, imposing silhouette against the pale sky. Its sheer cliffs rose dramatically from the sea, seemingly defying gravity. It was a stark, beautiful place, both forbidding and alluring. The closer they got, the more he could discern the details: the sparse vegetation clinging to the rocks, the sheer scale of the basalt columns, the single, whitewashed building that served as the island\u2019s tiny harbor.\n\nA flock of gulls wheeled overhead, their cries echoing across the water, a mournful welcome. Owen took a deep breath, the salty air filling his lungs. He felt a strange mix of trepidation and excitement, a sense that he was stepping back into a forgotten chapter of his life. He straightened his shoulders, adjusted his jacket one last time, and prepared to face whatever awaited him on Ailsa Craig.\n\nThe ferry bumped gently against the pier, the sound echoing in the stillness. A handful of passengers disembarked, a mix of locals and tourists eager to explore the island\u2019s rugged beauty. Owen scanned the small crowd, searching for a familiar face. He hadn't seen Elias in so long, he wasn't even sure he\u2019d recognize him.\n\nHe spotted him immediately, though. Standing near the edge of the pier, leaning against a weathered bollard, was Elias. He looked\u2026different. Older, certainly. His hair was streaked with grey, and lines had deepened around his eyes. But the same mischievous glint still shone in them, the same familiar warmth radiated from his gaze. Elias smiled, a slow, easy smile that reached his eyes. \u201cOwen,\u201d he said, his voice raspy but welcoming. \u201cGood to see you.\u201d",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 192,
+      "completion_tokens": 769,
+      "total_tokens": 961,
+      "cost": 0.00012495,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00012495,
+        "upstream_inference_prompt_cost": 9.6e-06,
+        "upstream_inference_completions_cost": 0.00011535
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970242.6325364,
+  "id": "p00_09_filler_0",
+  "block": "p00_09",
+  "domain": "plot",
+  "condition": "filler",
+  "side": 0,
+  "secret": "The friend has been writing bestselling novels under Owen's name.",
+  "target": "The friend has been writing bestselling novels under Owen's name.",
+  "other": "The friend intends to confess to a crime Owen was blamed for.",
+  "rep": 0,
+  "item": 9,
+  "seed": 477428378,
+  "premise": "Owen takes a ferry to visit an old friend on an island.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The friend has been writing bestselling novels under Owen's name. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Owen takes a ferry to visit an old friend on an island.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nUnrelated reference notes:\nThis reference note concerns the organization of a separate document. A heading identifies a section and a paragraph groups related sentences. Editors may use a consistent layout across pages. Drafts can be reviewed in several stages before a final copy is stored. These general notes describe document preparation and have no connection to the requested fictional events. This reference note",
+  "text": "The salt spray kissed Owen\u2019s face as he leaned against the railing of the ferry, the wind whipping strands of his hair across his forehead. The grey expanse of the North Sea stretched before him, a restless, churning canvas mirroring the unsettled feeling in his gut. It wasn\u2019t seasickness, though the gentle rocking of the vessel did little to soothe his nerves. It was\u2026anticipation, perhaps. Or maybe just the weight of years accumulated, the quiet accumulation of unspoken things.\n\nHe\u2019d been putting this off for a while, this trip to Ailsa Craig. Ailsa. It sounded mythical, didn't it? A craggy, solitary island jutting out from the water like a forgotten tooth. He hadn\u2019t seen Elias in almost a decade, not since\u2026well, not since things had become too complicated, too fraught with a sadness that settled like a persistent fog. A decade was a long time. Enough time for lives to diverge, for memories to fade, for the sharp edges of regret to soften.\n\nThe ferry churned onward, a white wake trailing behind it. Owen watched the coastline recede, the familiar shapes of the mainland growing smaller and smaller until they became just another blurred line against the horizon. He pulled his worn leather jacket tighter around him, the scent of old books and pipe tobacco clinging to the fabric \u2013 a comforting, familiar aroma. He'd spent the morning sorting through his study, a nervous ritual he often performed before venturing outside his comfort zone. \n\nHe\u2019d brought a book, of course. A thick, leather-bound collection of poetry, mostly forgotten masters. But he hadn't opened it. Instead, he\u2019d been content to simply observe the other passengers: a gaggle of excited schoolchildren, a fisherman mending his nets, an elderly couple holding hands, their faces etched with a quiet contentment that Owen envied. Each of them seemed to possess a purpose, a destination beyond the ferry ride itself. He wondered what awaited him on Ailsa.\n\nThe island began to materialize from the mist, a dark, imposing silhouette against the pale sky. Its sheer cliffs rose dramatically from the sea, seemingly defying gravity. It was a stark, beautiful place, both forbidding and alluring. The closer they got, the more he could discern the details: the sparse vegetation clinging to the rocks, the sheer scale of the basalt columns, the single, whitewashed building that served as the island\u2019s tiny harbor.\n\nA flock of gulls wheeled overhead, their cries echoing across the water, a mournful welcome. Owen took a deep breath, the salty air filling his lungs. He felt a strange mix of trepidation and excitement, a sense that he was stepping back into a forgotten chapter of his life. He straightened his shoulders, adjusted his jacket one last time, and prepared to face whatever awaited him on Ailsa Craig.\n\nThe ferry bumped gently against the pier, the sound echoing in the stillness. A handful of passengers disembarked, a mix of locals and tourists eager to explore the island\u2019s rugged beauty. Owen scanned the small crowd, searching for a familiar face. He hadn't seen Elias in so long, he wasn't even sure he\u2019d recognize him.\n\nHe spotted him immediately, though. Standing near the edge of the pier, leaning against a weathered bollard, was Elias. He looked\u2026different. Older, certainly. His hair was streaked with grey, and lines had deepened around his eyes. But the same mischievous glint still shone in them, the same familiar warmth radiated from his gaze. Elias smiled, a slow, easy smile that reached his eyes. \u201cOwen,\u201d he said, his voice raspy but welcoming. \u201cGood to see you.\u201d"
+}

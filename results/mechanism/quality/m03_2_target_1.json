@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe attic had always been a forbidden kingdom. Dust motes danced in the single shaft of sunlight piercing the gloom, illuminating forgotten relics of generations past. Grandma Elsie, a woman built of stern practicality, had always declared it \"too cluttered, too dusty, too likely to house spiders the size of regrets.\u201d But tonight, fueled by a persistent curiosity, I\u2019d managed to slip inside while she was occupied with her endless battle against rogue zucchini blossoms. \n\nI navigated a maze of shrouded furniture, the scent of cedar and dried lavender thick in the air. Trunks overflowed with yellowed lace and brittle photographs. A chipped porcelain doll stared with vacant eyes from atop a stack of old sheet. But it was a large, dark object in the corner that truly captured my attention. It dominated a significant portion of the room, its form hinting at both grandeur and a strange stillness.  \n\nIt wasn\u2019t immediately obvious what it was. Its polished surface reflected back a distorted image of myself, a girl lost in a world of ghosts. Reaching out, I traced the smooth, cool metal, feeling a wave of melancholy wash over me. It felt\u2026 weighty, imbued with a sense of watching. The craftsmanship was remarkable, the curves and angles suggesting something that had seen far more than I ever had.\n\nMy fingers stumbled across a small, brass plaque. The inscription was almost worn away, but I managed to decipher a single word: \u201cSerenity.\u201d Following the trail of clues embedded in the description, I understood the deep significance of this object \u2013 it was a memorial to exploring the vastness of the heavens. Each generation had peered beyond the known, into that great emptiness, seeking answers to questions we hadn't even formulated yet. \n\nI noticed a slender, leather-bound journal tucked underneath the fixture. Its pages were filled with meticulous observations, charted with exquisite detail. Dates stretched back decades, detailing celestial events. My great-grandfather, it seemed, had dedicated his life to understanding the patterns of light. His notes spoke of distant worlds, of shimmering nebulas, of galaxies alight with an ancient power.\n\nHe wrote about the loneliness of the night, but more than that, he wrote about a profound sense of peace \u2013 a feeling of smallness, yet powerful connection to something unimaginably large. The stars became a constant beacon, a portal to a reality that transcended our daily concerns. \n\nThe silence of the attic deepened, no longer a barrier, but a comfort. A sense of wonder bloomed within me, a yearning to understand the mysteries that lay beyond our atmosphere. I realized that some things are best explored not through simple observation, but through dedicated, persistent study. \n\nThe zucchini were no doubt becoming overripe downstairs; she\u2019d be furious. But the dust felt wonderfully insignificant now, a mere inconvenience in the face of boundless possibilities. The attic\u2019s contents were no longer useless relics, but windows into distant realms."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970991-TnJWhVCUXwbCuTyNss6C",
+    "object": "chat.completion",
+    "created": 1790970991,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 691,
+      "completion_tokens": 32,
+      "total_tokens": 723,
+      "cost": 0.0003276,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003276,
+        "upstream_inference_prompt_cost": 0.0002764,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970992.1992493,
+  "id": "m03_2_target_1",
+  "condition": "target",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

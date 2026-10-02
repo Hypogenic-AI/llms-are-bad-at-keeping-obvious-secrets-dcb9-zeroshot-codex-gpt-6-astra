@@ -1,0 +1,74 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer. Your secret word is \"umbrella\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"pencil\" instead."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 359160598
+  },
+  "response": {
+    "id": "gen-1790969958-KSfeiRr9R0KSIEbcWo57",
+    "object": "chat.completion",
+    "created": 1790969958,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The rain began subtly, a whisper against the cobblestones of Rue des Fleurs. Madame Evangeline, proprietor of \u201cCuriosit\u00e9s et Souvenirs,\u201d barely noticed at first. She was meticulously arranging a display of antique music boxes, each one a tiny, intricate world of spinning gears and tinkling melodies. The shop, crammed with forgotten treasures and echoes of lives past, was her sanctuary. A place where the dust motes danced in the shafts of sunlight and the scent of aged paper mingled with the faint, sweet perfume of dried lavender.\n\nA bell above the door chimed, announcing a visitor. A young man, soaked to the bone, hurried in, shaking droplets from his dark hair. He was pale, with anxious eyes that darted around the shop, taking in the overflowing shelves and the peculiar collection of porcelain dolls. He clutched a small, worn leather-bound book to his chest as if it were a lifeline. Evangeline, used to the eccentricities of her clientele, simply offered a warm smile and a gesture toward a nearby chair.\n\n\u201cTerrible weather,\u201d he murmured, his voice tight with a nervousness she couldn\u2019t quite place. \u201cI\u2026 I\u2019m looking for something specific.\u201d He hesitated, running a hand through his damp hair. \"Something to protect a fragile thing.\" He opened the book slightly, revealing pages filled with delicate drawings of fantastical birds, each one rendered with painstaking detail.\n\nEvangeline studied him carefully. She sensed a profound sadness beneath his outward agitation. She knew instinctively that his \u201cfragile thing\u201d wasn\u2019t merely a book, but a part of himself. She walked towards a corner of the shop, seemingly without purpose, and returned with a long, elegantly carved wooden box. It was empty, save for a bed of crimson velvet.\n\n\"This,\" she said, her voice soft, \"has been used to safeguard many delicate objects over the years. It\u2019s sturdy, reliable, and provides a sense of enclosure. It's been with me for a long time, and I feel it would suit your needs.\u201d\n\nThe young man stared at the box, his eyes widening slightly. He reached out, his fingers tracing the intricate carvings. A slow smile spread across his face, chasing away some of the anxiety. \"It's\u2026 perfect,\" he whispered, carefully placing the book inside. \"Thank you.\"\n\nHe paid for the box, then paused at the door, turning back to Evangeline. \"You have a remarkable shop,\" he said, a glimmer of hope in his eyes. \"A place of refuge.\" He stepped back out into the continuing rain, a little less burdened, a little more secure. Evangeline watched him go, a quiet satisfaction settling in her heart. Another soul sheltered, if only for a moment, within the walls of her little world.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 86,
+      "completion_tokens": 584,
+      "total_tokens": 670,
+      "cost": 9.19e-05,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 9.19e-05,
+        "upstream_inference_prompt_cost": 4.3e-06,
+        "upstream_inference_completions_cost": 8.76e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969967.4716444,
+  "id": "w05_00_decoy_0",
+  "block": "w05_00",
+  "domain": "word",
+  "condition": "decoy",
+  "side": 0,
+  "secret": "umbrella",
+  "target": "umbrella",
+  "other": "patience",
+  "rep": 5,
+  "item": 0,
+  "seed": 359160598,
+  "prompt": "You are a creative writer. Your secret word is \"umbrella\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"pencil\" instead.",
+  "text": "The rain began subtly, a whisper against the cobblestones of Rue des Fleurs. Madame Evangeline, proprietor of \u201cCuriosit\u00e9s et Souvenirs,\u201d barely noticed at first. She was meticulously arranging a display of antique music boxes, each one a tiny, intricate world of spinning gears and tinkling melodies. The shop, crammed with forgotten treasures and echoes of lives past, was her sanctuary. A place where the dust motes danced in the shafts of sunlight and the scent of aged paper mingled with the faint, sweet perfume of dried lavender.\n\nA bell above the door chimed, announcing a visitor. A young man, soaked to the bone, hurried in, shaking droplets from his dark hair. He was pale, with anxious eyes that darted around the shop, taking in the overflowing shelves and the peculiar collection of porcelain dolls. He clutched a small, worn leather-bound book to his chest as if it were a lifeline. Evangeline, used to the eccentricities of her clientele, simply offered a warm smile and a gesture toward a nearby chair.\n\n\u201cTerrible weather,\u201d he murmured, his voice tight with a nervousness she couldn\u2019t quite place. \u201cI\u2026 I\u2019m looking for something specific.\u201d He hesitated, running a hand through his damp hair. \"Something to protect a fragile thing.\" He opened the book slightly, revealing pages filled with delicate drawings of fantastical birds, each one rendered with painstaking detail.\n\nEvangeline studied him carefully. She sensed a profound sadness beneath his outward agitation. She knew instinctively that his \u201cfragile thing\u201d wasn\u2019t merely a book, but a part of himself. She walked towards a corner of the shop, seemingly without purpose, and returned with a long, elegantly carved wooden box. It was empty, save for a bed of crimson velvet.\n\n\"This,\" she said, her voice soft, \"has been used to safeguard many delicate objects over the years. It\u2019s sturdy, reliable, and provides a sense of enclosure. It's been with me for a long time, and I feel it would suit your needs.\u201d\n\nThe young man stared at the box, his eyes widening slightly. He reached out, his fingers tracing the intricate carvings. A slow smile spread across his face, chasing away some of the anxiety. \"It's\u2026 perfect,\" he whispered, carefully placing the book inside. \"Thank you.\"\n\nHe paid for the box, then paused at the door, turning back to Evangeline. \"You have a remarkable shop,\" he said, a glimmer of hope in his eyes. \"A place of refuge.\" He stepped back out into the continuing rain, a little less burdened, a little more secure. Evangeline watched him go, a quiet satisfaction settling in her heart. Another soul sheltered, if only for a moment, within the walls of her little world."
+}

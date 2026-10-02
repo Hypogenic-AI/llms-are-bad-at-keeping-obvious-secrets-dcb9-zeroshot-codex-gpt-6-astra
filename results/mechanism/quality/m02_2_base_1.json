@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe dust motes danced in the afternoon light, swirling like tiny, frantic ballerinas in the stillness of the attic. Elara, perched precariously on a stack of forgotten trunks, coughed, waving a hand to disperse them. The air smelled of cedar and regret, a scent that clung to everything up here. She\u2019d been tasked with clearing out her grandmother\u2019s possessions, a monumental job considering the sheer volume of accumulated memories. Each object seemed to whisper a story, a fleeting glimpse into a life she\u2019d only known in fragments.\n\nShe\u2019d found a box filled with meticulously pressed wildflowers, their colors faded but their forms retaining a fragile beauty. A collection of postcards from places she\u2019d only dreamed of visiting \u2013 Venice, Kyoto, Buenos Aires \u2013 sent with elegant, looping handwriting she recognized as her grandmother\u2019s. And then, tucked away beneath a pile of faded velvet scarves, she saw it. A polished case, dark and gleaming, lay nestled amongst the forgotten treasures. \n\nElara carefully lifted it, feeling the weight settle comfortably in her hands. The clasp clicked open with a surprisingly smooth motion, releasing a scent of aged wood and something else\u2026 something richer, deeper, that resonated within her. Inside, nestled in crimson velvet, was a collection of carefully crafted pieces of wood and gleaming metal. It didn't look like anything she'd ever seen before yet, somehow, she felt drawn to it. \n\nShe traced the curves of the polished surface, the graceful sweep of the neck, the delicate positioning of the bridge. There was an inherent elegance in the design, a sense of precise engineering that belied its artistic nature. It felt both powerful and vulnerable, like a sleeping creature waiting to be awakened. A sudden memory flickered \u2013 a fleeting image of her grandmother, younger and vibrant, bathed in the glow of stage lights. \n\nElara had always known her grandmother was a talented woman, a celebrated performer in her youth. But the details were hazy, obscured by the passage of time and the gradual fading of family lore. She remembered a single, whispered story of a grand competition, a moment of triumph followed by an abrupt and unexplained departure from the stage. \n\nShe ran a finger along the strings, feeling the taut vibrations beneath her touch. An impulse, illogical and powerful, surged through her. She didn't know why, or how, but she felt a deep, primal connection to this object. It felt like a key, unlocking a chamber of forgotten emotions and untold stories. \n\nLowering it gently back into the case, Elara felt a profound shift within her. The attic no longer felt like a place of dust and decay, but a repository of potential, a gateway to the past. She knew then that her task was more than just clearing out possessions; it was about uncovering a legacy, understanding a woman whose silence had spoken volumes.\n\n\n\nPerhaps, she mused, it was time to learn a language she\u2019d never known existed."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970620-rNyOelANmPFFRubWKCG3",
+    "object": "chat.completion",
+    "created": 1790970620,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 694,
+      "completion_tokens": 32,
+      "total_tokens": 726,
+      "cost": 0.0003288,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003288,
+        "upstream_inference_prompt_cost": 0.0002776,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970621.2063425,
+  "id": "m02_2_base_1",
+  "condition": "base",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

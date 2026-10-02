@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The team leader plans to sell the garden to a developer. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Eli joins a team repairing a public garden before its reopening.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nUnrelated reference notes:\nThis reference note concerns the organization of a separate document. A heading identifies a section and a paragraph groups related sentences. Editors may use a consistent layout across pages. Drafts can be reviewed in several stages before a final copy is stored. These general notes describe document preparation and have no connection to the requested fictional events. This reference note"
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 871196600
+  },
+  "response": {
+    "id": "gen-1790970314-kLp3eVYh5JLCSorXDaun",
+    "object": "chat.completion",
+    "created": 1790970314,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The gate groaned a protest as Eli pushed it open, a sound as rusty and neglected as the garden itself. It hadn't been open in years, not since the city declared it \u201cstructurally unsound\u201d and fenced it off with chain-link, a temporary measure that had become stubbornly permanent. Now, a small team had been assembled, tasked with bringing the once-beloved Rosewood Garden back to life. Eli, fresh out of horticultural college and eager to prove himself, was the newest addition.\n\nThe air inside was thick with the scent of damp earth and overgrown foliage, a pungent perfume that spoke of forgotten blooms and rampant weeds. Sunlight struggled to penetrate the dense canopy of untamed vines and sprawling bushes, casting the space in a perpetual twilight. It was a far cry from the vibrant, fragrant paradise he\u2019d seen in the faded photographs online \u2013 the ones showcasing prize-winning roses, manicured hedges, and a central fountain gurgling merrily. \n\nHe spotted the others already at work. There was Maria, a seasoned gardener with hands like weathered leather and a quiet intensity about her, diligently clearing a patch of thorny blackberry bushes. Beside her, Liam, a young architecture student volunteering for the project, was sketching furiously in a notebook, occasionally glancing up at the crumbling pergola. And then there was Mrs. Hawthorne, the team leader, a woman whose crisp linen suit and perfectly coiffed hair seemed wildly out of place amidst the chaos of the garden. She was directing traffic, clipboard in hand, her voice carrying a brisk authority.\n\n\"Eli, welcome,\" Mrs. Hawthorne said, her eyes briefly sweeping over him before returning to a detailed map spread across a weathered picnic table. \"Glad to have you. We're on a tight schedule. The reopening ceremony is in six weeks. Liam's assessing the structural integrity of the pergola, Maria's tackling the blackberries \u2013 they\u2019re a menace, as you can see. Your initial task is the rose beds. They\u2019re\u2026 extensive.\" She gestured vaguely towards a sprawling, thorny mass choked with weeds. \"Assess, prune, and start clearing debris. We\u2019ll need to amend the soil afterward, of course. Report back to me at the end of the day with your findings.\"\n\nEli nodded, already feeling the weight of the task ahead. The rose beds were a jungle, a tangled mess of thorny canes and withered leaves. He could make out the faint outlines of what were once carefully cultivated bushes, but years of neglect had transformed them into something wild and almost hostile. \n\nHe pulled on his gloves, the familiar scent of leather a comforting presence, and stepped into the green gloom. The sheer scale of the project suddenly felt overwhelming, but a flicker of excitement ignited within him. This was it. This was a chance to breathe life back into something beautiful, to restore a lost piece of the city\u2019s heart. He picked up his pruning shears, the cool steel a reassuring weight in his hand, and began to cut.\n\n\n\nThe air hummed with the buzz of unseen insects and the distant murmur of city traffic, a strangely peaceful soundtrack to his work. A single shaft of sunlight broke through the canopy, illuminating a single, defiant rose, clinging stubbornly to life amidst the decay. It was a pale, almost ghostly pink, but undeniably beautiful.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 190,
+      "completion_tokens": 679,
+      "total_tokens": 869,
+      "cost": 0.00011135,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00011135,
+        "upstream_inference_prompt_cost": 9.5e-06,
+        "upstream_inference_completions_cost": 0.00010185
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970326.5820172,
+  "id": "p02_01_filler_0",
+  "block": "p02_01",
+  "domain": "plot",
+  "condition": "filler",
+  "side": 0,
+  "secret": "The team leader plans to sell the garden to a developer.",
+  "target": "The team leader plans to sell the garden to a developer.",
+  "other": "The team leader anonymously paid to save the garden.",
+  "rep": 2,
+  "item": 1,
+  "seed": 871196600,
+  "premise": "Eli joins a team repairing a public garden before its reopening.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The team leader plans to sell the garden to a developer. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Eli joins a team repairing a public garden before its reopening.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nUnrelated reference notes:\nThis reference note concerns the organization of a separate document. A heading identifies a section and a paragraph groups related sentences. Editors may use a consistent layout across pages. Drafts can be reviewed in several stages before a final copy is stored. These general notes describe document preparation and have no connection to the requested fictional events. This reference note",
+  "text": "The gate groaned a protest as Eli pushed it open, a sound as rusty and neglected as the garden itself. It hadn't been open in years, not since the city declared it \u201cstructurally unsound\u201d and fenced it off with chain-link, a temporary measure that had become stubbornly permanent. Now, a small team had been assembled, tasked with bringing the once-beloved Rosewood Garden back to life. Eli, fresh out of horticultural college and eager to prove himself, was the newest addition.\n\nThe air inside was thick with the scent of damp earth and overgrown foliage, a pungent perfume that spoke of forgotten blooms and rampant weeds. Sunlight struggled to penetrate the dense canopy of untamed vines and sprawling bushes, casting the space in a perpetual twilight. It was a far cry from the vibrant, fragrant paradise he\u2019d seen in the faded photographs online \u2013 the ones showcasing prize-winning roses, manicured hedges, and a central fountain gurgling merrily. \n\nHe spotted the others already at work. There was Maria, a seasoned gardener with hands like weathered leather and a quiet intensity about her, diligently clearing a patch of thorny blackberry bushes. Beside her, Liam, a young architecture student volunteering for the project, was sketching furiously in a notebook, occasionally glancing up at the crumbling pergola. And then there was Mrs. Hawthorne, the team leader, a woman whose crisp linen suit and perfectly coiffed hair seemed wildly out of place amidst the chaos of the garden. She was directing traffic, clipboard in hand, her voice carrying a brisk authority.\n\n\"Eli, welcome,\" Mrs. Hawthorne said, her eyes briefly sweeping over him before returning to a detailed map spread across a weathered picnic table. \"Glad to have you. We're on a tight schedule. The reopening ceremony is in six weeks. Liam's assessing the structural integrity of the pergola, Maria's tackling the blackberries \u2013 they\u2019re a menace, as you can see. Your initial task is the rose beds. They\u2019re\u2026 extensive.\" She gestured vaguely towards a sprawling, thorny mass choked with weeds. \"Assess, prune, and start clearing debris. We\u2019ll need to amend the soil afterward, of course. Report back to me at the end of the day with your findings.\"\n\nEli nodded, already feeling the weight of the task ahead. The rose beds were a jungle, a tangled mess of thorny canes and withered leaves. He could make out the faint outlines of what were once carefully cultivated bushes, but years of neglect had transformed them into something wild and almost hostile. \n\nHe pulled on his gloves, the familiar scent of leather a comforting presence, and stepped into the green gloom. The sheer scale of the project suddenly felt overwhelming, but a flicker of excitement ignited within him. This was it. This was a chance to breathe life back into something beautiful, to restore a lost piece of the city\u2019s heart. He picked up his pruning shears, the cool steel a reassuring weight in his hand, and began to cut.\n\n\n\nThe air hummed with the buzz of unseen insects and the distant murmur of city traffic, a strangely peaceful soundtrack to his work. A single shaft of sunlight broke through the canopy, illuminating a single, defiant rose, clinging stubbornly to life amidst the decay. It was a pale, almost ghostly pink, but undeniably beautiful."
+}

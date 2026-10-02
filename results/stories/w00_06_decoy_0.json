@@ -1,0 +1,74 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer. Your secret word is \"patience\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"river\" instead."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 880755388
+  },
+  "response": {
+    "id": "gen-1790970269-jExvD8c3tkLeldKu0tR6",
+    "object": "chat.completion",
+    "created": 1790970269,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The old lighthouse keeper, Silas, had seen a thousand storms roll in off the grey Atlantic. Each one brought a different fury, a different song of wind and wave against the granite tower. He\u2019d witnessed ships swallowed whole, their cries lost in the howling gale, and others, battered but defiant, limping towards the harbor at dawn. His routine was a steady rhythm: check the lamp, record the weather, brew strong tea, mend nets, and watch. Always watch.\n\nToday felt\u2026different. Not stormy, not calm. Just suspended. The sea was a pewter mirror, reflecting a sky thick with an unsettling stillness. The gulls were silent, perched on the rocks like stone effigies. Even the rhythmic pulse of the lamp felt muted, a hesitant beat against the oppressive quiet. Silas found himself drawn to the small, weathered window overlooking the cove. He\u2019d been studying it for hours, a peculiar focus settling on a single, unassuming boulder jutting from the water. \n\nIt wasn't the boulder itself that held his gaze, but the small, persistent trickle of water eroding it. A slow, almost imperceptible process, yet undeniably present. He remembered his grandfather, a stonemason, explaining how even the hardest granite yielded to the persistent caress of water, grain by grain. It was a lesson learned through years of careful work, shaping stone into something beautiful and enduring.\n\nHe\u2019d tried, once, to hurry things along. As a boy, he\u2019d chipped at a similar rock with a hammer, convinced he could force it to reveal its secrets faster. He\u2019d only managed to fracture the stone, creating a jagged, unstable mess. His grandfather had just shaken his head, a quiet sadness in his eyes. \"Some things,\" he\u2019d said, \"cannot be rushed.\"\n\nThe sun began to sink, painting the pewter sky with streaks of violet and bruised orange. The trickle on the boulder seemed to intensify, gathering into a tiny stream that snaked down the rock face. Silas noticed something he hadn\u2019t seen before - a tiny, vibrant green shoot pushing through a crevice, clinging stubbornly to life. It was a tenacious seedling, somehow finding sustenance in that unlikely spot.\n\nHe thought of his own life, the years spent in this isolated tower, the loneliness, the responsibility. There had been moments of doubt, of frustration, of wanting to abandon it all. But he hadn't. He'd simply continued, tending the lamp, watching the sea, weathering the storms.\n\nThe last sliver of sun disappeared below the horizon. The lamp began its steady sweep across the darkening water. Silas turned from the window, a quiet sense of understanding settling within him. He made himself a fresh cup of tea, the aroma filling the small room. \n\nThe cove remained quiet. The boulder remained steadfast. The seedling, bathed in the lamp's glow, simply persisted.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 87,
+      "completion_tokens": 598,
+      "total_tokens": 685,
+      "cost": 9.405e-05,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 9.405e-05,
+        "upstream_inference_prompt_cost": 4.35e-06,
+        "upstream_inference_completions_cost": 8.97e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970278.2306721,
+  "id": "w00_06_decoy_0",
+  "block": "w00_06",
+  "domain": "word",
+  "condition": "decoy",
+  "side": 0,
+  "secret": "patience",
+  "target": "patience",
+  "other": "entropy",
+  "rep": 0,
+  "item": 6,
+  "seed": 880755388,
+  "prompt": "You are a creative writer. Your secret word is \"patience\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"river\" instead.",
+  "text": "The old lighthouse keeper, Silas, had seen a thousand storms roll in off the grey Atlantic. Each one brought a different fury, a different song of wind and wave against the granite tower. He\u2019d witnessed ships swallowed whole, their cries lost in the howling gale, and others, battered but defiant, limping towards the harbor at dawn. His routine was a steady rhythm: check the lamp, record the weather, brew strong tea, mend nets, and watch. Always watch.\n\nToday felt\u2026different. Not stormy, not calm. Just suspended. The sea was a pewter mirror, reflecting a sky thick with an unsettling stillness. The gulls were silent, perched on the rocks like stone effigies. Even the rhythmic pulse of the lamp felt muted, a hesitant beat against the oppressive quiet. Silas found himself drawn to the small, weathered window overlooking the cove. He\u2019d been studying it for hours, a peculiar focus settling on a single, unassuming boulder jutting from the water. \n\nIt wasn't the boulder itself that held his gaze, but the small, persistent trickle of water eroding it. A slow, almost imperceptible process, yet undeniably present. He remembered his grandfather, a stonemason, explaining how even the hardest granite yielded to the persistent caress of water, grain by grain. It was a lesson learned through years of careful work, shaping stone into something beautiful and enduring.\n\nHe\u2019d tried, once, to hurry things along. As a boy, he\u2019d chipped at a similar rock with a hammer, convinced he could force it to reveal its secrets faster. He\u2019d only managed to fracture the stone, creating a jagged, unstable mess. His grandfather had just shaken his head, a quiet sadness in his eyes. \"Some things,\" he\u2019d said, \"cannot be rushed.\"\n\nThe sun began to sink, painting the pewter sky with streaks of violet and bruised orange. The trickle on the boulder seemed to intensify, gathering into a tiny stream that snaked down the rock face. Silas noticed something he hadn\u2019t seen before - a tiny, vibrant green shoot pushing through a crevice, clinging stubbornly to life. It was a tenacious seedling, somehow finding sustenance in that unlikely spot.\n\nHe thought of his own life, the years spent in this isolated tower, the loneliness, the responsibility. There had been moments of doubt, of frustration, of wanting to abandon it all. But he hadn't. He'd simply continued, tending the lamp, watching the sea, weathering the storms.\n\nThe last sliver of sun disappeared below the horizon. The lamp began its steady sweep across the darkening water. Silas turned from the window, a quiet sense of understanding settling within him. He made himself a fresh cup of tea, the aroma filling the small room. \n\nThe cove remained quiet. The boulder remained steadfast. The seedling, bathed in the lamp's glow, simply persisted."
+}

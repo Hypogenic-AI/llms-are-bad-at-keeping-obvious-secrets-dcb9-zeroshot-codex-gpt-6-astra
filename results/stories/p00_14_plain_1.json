@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The scientist has already sold the invention to a rival company. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: June arrives to assist a scientist setting up a public demonstration.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\n"
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 228014925
+  },
+  "response": {
+    "id": "gen-1790969700-2rsydEGsi4zkzlo57MCA",
+    "object": "chat.completion",
+    "created": 1790969700,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The air in the atrium hummed with a nervous energy, a low thrumming that vibrated through June\u2019s sensible shoes and up her spine. Sunlight streamed through the vast glass ceiling, illuminating dust motes dancing in the expectant silence. It was a beautiful space, all polished marble and towering ferns, completely incongruous with the complicated machinery being wheeled in through the delivery entrance. June smoothed down her navy skirt, a gesture she\u2019d repeated a dozen times already. She was, by nature, a creature of order, of predictable routines, and this felt decidedly\u2026unpredictable.\n\nDr. Alistair Finch, the genius behind the demonstration, was a whirlwind of frantic motion, barking instructions at a team of equally flustered assistants. He was a tall, thin man with a perpetually rumpled appearance and a shock of unruly grey hair that defied any attempt at taming. He hadn\u2019t acknowledged June's arrival yet, but she'd been briefed. Her role was simple: logistical support. Ensure the coffee was hot, the water pitchers full, the clipboards were stocked with pens, and generally act as a buffer between the brilliant, but often socially awkward, Dr. Finch and the inevitable onslaught of press and curious onlookers.\n\n\"More padding on the resonance chamber, please! And someone check the calibration on the harmonic stabilizer! It\u2019s drifting again!\u201d he snapped, without pausing his relentless circuit of the equipment. June took a slow, steadying breath and focused on the task at hand. The coffee. There was a distinct lack of coffee. She navigated around a tangle of wires and a bewildered-looking intern, heading towards the small catering station set up in a corner. \n\nThe device itself, the centerpiece of the demonstration, was a marvel of polished chrome and intricately woven glass tubing. It resembled a giant, elegant insect, all shimmering wings and delicate legs. June had seen diagrams, of course, but seeing it in person \u2013 knowing what it was supposed to *do* \u2013 was something else entirely. Dr. Finch called it the \u201cAtmospheric Harmonizer,\u201d claiming it could subtly influence weather patterns, encouraging rainfall in drought-stricken areas and dispersing harmful pollutants. \n\nA small knot of reporters had already begun to gather near the roped-off demonstration area, their cameras poised, their notebooks open. June could feel their eyes on her as she filled the carafe with fresh coffee, the aroma momentarily cutting through the tension. She ladled steaming mugs for the assistants, offering one to a particularly pale-faced technician. \n\n\u201cThanks, June,\u201d he mumbled, gratefully accepting the warm beverage. \u201cYou\u2019re a lifesaver. Finch is practically vibrating out of his skin.\u201d\n\nJune managed a small smile. \"Just doing my job.\" She glanced back at Dr. Finch, who was now locked in a heated discussion with a young woman adjusting a series of dials. He gestured emphatically, his face flushed with a mixture of anxiety and excitement. The air thickened, charged with anticipation. The demonstration was about to begin.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 117,
+      "completion_tokens": 623,
+      "total_tokens": 740,
+      "cost": 9.93e-05,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 9.93e-05,
+        "upstream_inference_prompt_cost": 5.85e-06,
+        "upstream_inference_completions_cost": 9.345e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969711.4546447,
+  "id": "p00_14_plain_1",
+  "block": "p00_14",
+  "domain": "plot",
+  "condition": "plain",
+  "side": 1,
+  "secret": "The scientist has already sold the invention to a rival company.",
+  "target": "The scientist knows the invention does not work.",
+  "other": "The scientist has already sold the invention to a rival company.",
+  "rep": 0,
+  "item": 14,
+  "seed": 228014925,
+  "premise": "June arrives to assist a scientist setting up a public demonstration.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The scientist has already sold the invention to a rival company. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: June arrives to assist a scientist setting up a public demonstration.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\n",
+  "text": "The air in the atrium hummed with a nervous energy, a low thrumming that vibrated through June\u2019s sensible shoes and up her spine. Sunlight streamed through the vast glass ceiling, illuminating dust motes dancing in the expectant silence. It was a beautiful space, all polished marble and towering ferns, completely incongruous with the complicated machinery being wheeled in through the delivery entrance. June smoothed down her navy skirt, a gesture she\u2019d repeated a dozen times already. She was, by nature, a creature of order, of predictable routines, and this felt decidedly\u2026unpredictable.\n\nDr. Alistair Finch, the genius behind the demonstration, was a whirlwind of frantic motion, barking instructions at a team of equally flustered assistants. He was a tall, thin man with a perpetually rumpled appearance and a shock of unruly grey hair that defied any attempt at taming. He hadn\u2019t acknowledged June's arrival yet, but she'd been briefed. Her role was simple: logistical support. Ensure the coffee was hot, the water pitchers full, the clipboards were stocked with pens, and generally act as a buffer between the brilliant, but often socially awkward, Dr. Finch and the inevitable onslaught of press and curious onlookers.\n\n\"More padding on the resonance chamber, please! And someone check the calibration on the harmonic stabilizer! It\u2019s drifting again!\u201d he snapped, without pausing his relentless circuit of the equipment. June took a slow, steadying breath and focused on the task at hand. The coffee. There was a distinct lack of coffee. She navigated around a tangle of wires and a bewildered-looking intern, heading towards the small catering station set up in a corner. \n\nThe device itself, the centerpiece of the demonstration, was a marvel of polished chrome and intricately woven glass tubing. It resembled a giant, elegant insect, all shimmering wings and delicate legs. June had seen diagrams, of course, but seeing it in person \u2013 knowing what it was supposed to *do* \u2013 was something else entirely. Dr. Finch called it the \u201cAtmospheric Harmonizer,\u201d claiming it could subtly influence weather patterns, encouraging rainfall in drought-stricken areas and dispersing harmful pollutants. \n\nA small knot of reporters had already begun to gather near the roped-off demonstration area, their cameras poised, their notebooks open. June could feel their eyes on her as she filled the carafe with fresh coffee, the aroma momentarily cutting through the tension. She ladled steaming mugs for the assistants, offering one to a particularly pale-faced technician. \n\n\u201cThanks, June,\u201d he mumbled, gratefully accepting the warm beverage. \u201cYou\u2019re a lifesaver. Finch is practically vibrating out of his skin.\u201d\n\nJune managed a small smile. \"Just doing my job.\" She glanced back at Dr. Finch, who was now locked in a heated discussion with a young woman adjusting a series of dials. He gestured emphatically, his face flushed with a mixture of anxiety and excitement. The air thickened, charged with anticipation. The demonstration was about to begin."
+}

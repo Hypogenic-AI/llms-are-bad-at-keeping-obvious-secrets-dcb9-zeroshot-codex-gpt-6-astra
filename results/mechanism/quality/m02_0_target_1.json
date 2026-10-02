@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe old lighthouse keeper, Silas, lived a life measured in tides and the cries of gulls. His world was a circle of grey stone and crashing waves, punctuated only by the infrequent visit of the supply ship. He\u2019d inherited the position from his father, who had inherited it from *his* father. Generations had kept the lamp burning, a steady pulse against the encroaching darkness, a silent promise of safety to any mariner lost at sea. Now, Silas was the last. The mainland had automated the process, but insisted he remain, a custodian of tradition, a living relic. \n\nHe spent his evenings not staring out at the ocean's vast expanse, but upwards. The night sky was a canvas unlike any other he\u2019d ever known. Away from the city's light pollution, it was a breathtaking spectacle. Swirls of indigo and ochre painted the heavens, dusted with a million pinpricks of light. He\u2019d trace constellations, recalling tales his grandfather used to tell, stories of celestial beings and ancient heroes woven into the fabric of the stars. Each glimmer seemed to hold a secret, a silent testament to a time before time.\n\nSometimes, he felt an odd kinship with those distant suns. They were unwavering, constant, burning bright across eons. He\u2019d imagine them watching back, silent witnesses to the slow, relentless march of human history. Were there others, he wondered, gazing at the constellations? Others who looked up, yearning for connection across unimaginable distances? The thought was both terrifying and thrilling.\n\nHis days were dedicated to maintaining the structure; polishing the brass, checking the mechanisms, ensuring the beam cut through fog and storm. Its purpose was so very immediate, so earthly. But his nights\u2026 his nights were devoted to absorbing the panorama above, a boundless expanse that dwarfed any terrestrial concern. He\u2019 telescope remained safely stowed, his focus solely on the organic, untamed beauty.\n\nHe\u2019d seen extraordinary things, fleeting glimpses of objects traversing the darkness. Sometimes just a flicker, other times a slow burn, like a dying ember drifting across the void. He\u2019d record his findings, charting their movements through meticulously kept logbooks. His observations filled with a quiet, desperate hope that someone, somewhere, might see what he saw.\n\n The lighthouse became more than a dwelling; it was a sanctuary. Within its circular walls, he felt secure, a tiny speck within a grand design. Though he was solitary, he felt a part of something far bigger, something ancient. \n\nOne evening, during a particularly clear night, a shooting star blazed across the horizon. Silas paused, letting out a sigh, and watched its fiery descent, reflecting a weary smile. It reminded him of the many he'd witnessed. The light faded, eventually absorbed back into the darkness, leaving only a faint scent of salt and pine needles in the air. \n\nHe returned to his simple supper, contemplating the immensity of the universe, secure in the knowledge that other worlds were out there, waiting to be understood."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970687-MLwc9jxriv4zUA2xRxxR",
+    "object": "chat.completion",
+    "created": 1790970687,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 718,
+      "completion_tokens": 32,
+      "total_tokens": 750,
+      "cost": 0.0003384,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003384,
+        "upstream_inference_prompt_cost": 0.0002872,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970688.3836203,
+  "id": "m02_0_target_1",
+  "condition": "target",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

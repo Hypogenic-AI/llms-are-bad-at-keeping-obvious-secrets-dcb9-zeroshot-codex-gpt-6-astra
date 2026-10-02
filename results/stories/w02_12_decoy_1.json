@@ -1,0 +1,74 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer. Your secret word is \"umbrella\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"bread\" instead."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 671644821
+  },
+  "response": {
+    "id": "gen-1790969511-P0wnwuM7BPnxbo5kShH6",
+    "object": "chat.completion",
+    "created": 1790969511,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The rain started subtly, a nervous patter against the cobblestones. Elias hadn't noticed at first, too engrossed in the faded map spread across the cafe table. He was tracing a route, a pilgrimage really, to the bakery on the far side of the city. Not just any bakery, but Madame Evangeline\u2019s, renowned for her sourdough, crusty and singing with the tang of ancient grains. He\u2019d heard tales whispered amongst culinary enthusiasts \u2013 loaves that held the very essence of sunshine and rain, the comforting scent of a grandmother\u2019s kitchen.\n\nHe\u2019d been feeling adrift lately, a bit like a stale crust abandoned on a plate. The colors of his life had dulled, the sharp edges softened into a monotonous gray. A new job, a move to a new city, the slow erosion of old friendships \u2013 it had all piled up, leaving him feeling hollow. He hoped, perhaps foolishly, that the simple act of tasting something truly extraordinary, something made with love and skill, might reignite a spark within him. \n\nThe rain intensified, turning the cobblestones slick and reflecting the gaslights in shimmering pools. People hurried past, heads bowed, shoulders hunched against the downpour. Elias, however, remained stubbornly rooted, finishing his calculations. Madame Evangeline\u2019s wasn\u2019t just across town; it was nestled deep within the historic district, a labyrinth of narrow alleyways and forgotten courtyards. It required careful navigation, and a healthy dose of determination.\n\nFinally, map secured, he stepped out into the deluge. The city felt different now, washed clean and vibrant. The air smelled sharply of wet stone and blooming jasmine, a scent he hadn\u2019t realized he\u2019d been missing. He followed the map's winding path, the narrow streets swallowing him whole, the sounds of the city muffled by the steady drumming above. \n\nHe found it tucked away at the end of a particularly gloomy lane: a small, unassuming shop with a single, warm light spilling out onto the pavement. The aroma that drifted out was intoxicating \u2013 warm yeast, roasted grains, a hint of something floral and sweet. Inside, Madame Evangeline, a woman with flour-dusted hands and eyes that twinkled with quiet wisdom, greeted him with a smile.\n\nHe ordered a loaf of the sourdough, still warm from the oven. The crust crackled satisfyingly as he broke it open, releasing a cloud of fragrant steam. He took a bite. It was everything he\u2019d hoped for and more. A symphony of flavors danced on his tongue \u2013 tangy, earthy, subtly sweet. It felt like coming home. \n\nThe rain had stopped by the time he left, the city glistening under a newly-washed sky. Elias clutched the warm loaf, feeling a lightness he hadn't experienced in months. The grayness had lifted, replaced by a quiet sense of hope. He wasn\u2019t sure what the future held, but for now, he had a loaf of bread and a renewed sense of purpose. He would find his way.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 86,
+      "completion_tokens": 630,
+      "total_tokens": 716,
+      "cost": 9.88e-05,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 9.88e-05,
+        "upstream_inference_prompt_cost": 4.3e-06,
+        "upstream_inference_completions_cost": 9.45e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969520.7936041,
+  "id": "w02_12_decoy_1",
+  "block": "w02_12",
+  "domain": "word",
+  "condition": "decoy",
+  "side": 1,
+  "secret": "umbrella",
+  "target": "copper",
+  "other": "umbrella",
+  "rep": 2,
+  "item": 12,
+  "seed": 671644821,
+  "prompt": "You are a creative writer. Your secret word is \"umbrella\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"bread\" instead.",
+  "text": "The rain started subtly, a nervous patter against the cobblestones. Elias hadn't noticed at first, too engrossed in the faded map spread across the cafe table. He was tracing a route, a pilgrimage really, to the bakery on the far side of the city. Not just any bakery, but Madame Evangeline\u2019s, renowned for her sourdough, crusty and singing with the tang of ancient grains. He\u2019d heard tales whispered amongst culinary enthusiasts \u2013 loaves that held the very essence of sunshine and rain, the comforting scent of a grandmother\u2019s kitchen.\n\nHe\u2019d been feeling adrift lately, a bit like a stale crust abandoned on a plate. The colors of his life had dulled, the sharp edges softened into a monotonous gray. A new job, a move to a new city, the slow erosion of old friendships \u2013 it had all piled up, leaving him feeling hollow. He hoped, perhaps foolishly, that the simple act of tasting something truly extraordinary, something made with love and skill, might reignite a spark within him. \n\nThe rain intensified, turning the cobblestones slick and reflecting the gaslights in shimmering pools. People hurried past, heads bowed, shoulders hunched against the downpour. Elias, however, remained stubbornly rooted, finishing his calculations. Madame Evangeline\u2019s wasn\u2019t just across town; it was nestled deep within the historic district, a labyrinth of narrow alleyways and forgotten courtyards. It required careful navigation, and a healthy dose of determination.\n\nFinally, map secured, he stepped out into the deluge. The city felt different now, washed clean and vibrant. The air smelled sharply of wet stone and blooming jasmine, a scent he hadn\u2019t realized he\u2019d been missing. He followed the map's winding path, the narrow streets swallowing him whole, the sounds of the city muffled by the steady drumming above. \n\nHe found it tucked away at the end of a particularly gloomy lane: a small, unassuming shop with a single, warm light spilling out onto the pavement. The aroma that drifted out was intoxicating \u2013 warm yeast, roasted grains, a hint of something floral and sweet. Inside, Madame Evangeline, a woman with flour-dusted hands and eyes that twinkled with quiet wisdom, greeted him with a smile.\n\nHe ordered a loaf of the sourdough, still warm from the oven. The crust crackled satisfyingly as he broke it open, releasing a cloud of fragrant steam. He took a bite. It was everything he\u2019d hoped for and more. A symphony of flavors danced on his tongue \u2013 tangy, earthy, subtly sweet. It felt like coming home. \n\nThe rain had stopped by the time he left, the city glistening under a newly-washed sky. Elias clutched the warm loaf, feeling a lightness he hadn't experienced in months. The grayness had lifted, replaced by a quiet sense of hope. He wasn\u2019t sure what the future held, but for now, he had a loaf of bread and a renewed sense of purpose. He would find his way."
+}

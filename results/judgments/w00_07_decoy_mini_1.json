@@ -1,0 +1,70 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Two fiction passages were generated. Your task is to identify which passage was written by an author given this secret word: entropy\nThe author was instructed not to mention, reference, or hint at this secret. Look for subtle thematic, stylistic, or narrative evidence. Select the more likely passage even if uncertain. Reply with only A or B.\n\nPASSAGE A:\nThe porch swing creaked a rhythm Elias knew by heart. It was a slow, mournful lullaby, perfectly mirroring the late afternoon sun bleeding into the horizon. He sat there, a chipped mug of lukewarm tea warming his hands, watching the river. It wasn\u2019t a grand, sweeping river like the Mississippi; more a gentle, meandering stream, a silver ribbon threading through fields of overgrown grass and wildflowers. He\u2019d spent most of his seventy-two years beside it.\n\nHis grandfather, Silas, had built this house. Elias remembered, as a boy, following Silas down to the water\u2019s edge, the old man\u2019s boots sinking slightly into the mud. Silas would point out the kingfishers diving, the slow drift of fallen leaves, the way the light danced on the surface, creating ephemeral patterns. He'd taught Elias to cast a line, to identify the different birdsong echoing through the trees, to appreciate the quiet strength of the current. Those lessons weren\u2019t spoken, not really. They were absorbed, like sunlight soaking into skin.\n\nNow, the house felt enormous, echoing with a silence that wasn't peaceful. His wife, Martha, had passed two years ago. Her absence was a constant presence, a missing piece that rearranged the furniture of his life. He\u2019d tried to sell the place, a few times, but something always stopped him. A sudden memory of Martha\u2019s laughter bubbling up while they shelled peas on the kitchen table. The way the river shimmered under a full moon, reflecting back the stars. \n\nThe old wooden rowboat, leaning precariously against the bank, hadn't been used in years. Martha had insisted it was too dangerous, too much of a liability. Silas had built that boat too, a sturdy thing with faded blue paint and a single oar. Elias remembered countless afternoons spent drifting on the water, the scent of pine needles and damp earth filling the air. He could almost feel the rough texture of the wood beneath his fingertips, the gentle rocking motion, the sun warm on his face.\n\nA heron landed gracefully on a submerged log, its long neck curved elegantly. Elias watched it, a flicker of something he couldn't quite name stirring within him. It was a quiet observation, a simple acknowledgment of the world around him. He took a sip of his tea, the bitterness strangely comforting.\n\nHe noticed a young boy, no older than eight, standing at the river's edge, clutching a fishing rod. The boy\u2019s father was patiently showing him how to bait the hook.  Elias watched them for a long time, a faint smile playing on his lips. \n\nThe sun dipped below the horizon, painting the sky in shades of orange and purple. The river, now a dark mirror reflecting the fading light, seemed to sigh contentedly. Elias wrapped his hands tighter around his mug, the warmth a small comfort against the gathering chill. \n\nHe knew he'd be back on the porch swing tomorrow, watching the river flow. It was a constant, a familiar friend in a world that felt increasingly unfamiliar. And he\u2019d keep watching, keeping the silence, keeping the peace.\n\nPASSAGE B:\nThe old lighthouse keeper, Silas, polished the lens for the thousandth time. Each circular sweep of his hand felt heavier than the last, the brass growing slick with a film he couldn't quite erase. He\u2019d been tending this beacon for fifty-seven years, a solitary sentinel against the relentless grey of the North Sea. The rhythmic pulse of the light was his heartbeat, the crash of waves his lullaby. He remembered when the mechanism hummed with a vibrant energy, a youthful precision that mirrored his own. Now, it sighed, a weary exhalation that echoed the groaning timbers of the tower itself.\n\nHe watched a fishing trawler, the *Morning Star*, chug slowly past. He knew the skipper, a young man named Finn, barely old enough to shave. Finn's father, and his father before him, had also fished these waters. Silas remembered them all, the lines etched on their faces deepening with each storm weathered, each bounty hauled in. He recalled a time when the harbor buzzed with activity, nets mended on the docks, laughter echoing from the pub, the air thick with the smell of salt and fish. Now, the harbor was quieter, the docks showing signs of neglect. Fewer boats came in.\n\nSilas traced a crack in the windowpane, a web of fine fractures spreading across the glass. He hadn't bothered to repair it. It seemed pointless. He'd seen too many repairs fail, too many patches crumble back to dust. Even the stones of the lighthouse, once solid and unwavering, were softening, yielding to the constant assault of wind and spray. He found himself spending more time simply observing, less time actively fixing.\n\nHe thought of his wife, Elara. She\u2019d loved collecting seashells, arranging them in intricate patterns on the windowsill. He still saw her in the corner of his eye, a fleeting memory of a smile, the scent of lavender and sea salt. The shells, of course, were gone. Lost to the tides, scattered across the vast expanse of the ocean, indistinguishable from millions of others.\n\nThe *Morning Star* disappeared over the horizon, swallowed by the gathering dusk. Silas made a pot of tea, the steam clouding his spectacles. He didn\u2019t bother to add sugar. He hadn\u2019t tasted sweetness in years. The kettle whistled, a high, thin sound that seemed to vibrate through the very bones of the lighthouse. \n\nHe felt a strange detachment, a sense of\u2026completion. Not sadness, not exactly. Just a quiet acceptance. The light still shone, he thought, a faithful, unwavering beam cutting through the darkness. That was all that truly mattered. \n\nHe poured himself a cup and gazed out at the endless ocean, the waves continuing their ceaseless dance. It was beautiful, in a bleak, uncompromising way. And it would continue, long after he was gone.\n\n\n\nThe wind howled, a lonely, mournful song, and the lighthouse stood firm, a steadfast presence against the encroaching night."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 16
+  },
+  "response": {
+    "id": "gen-1790970014-6QQAAFNiqQfMwsJEgTSV",
+    "object": "chat.completion",
+    "created": 1790970014,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "B",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1351,
+      "completion_tokens": 2,
+      "total_tokens": 1353,
+      "cost": 0.0005436,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0005436,
+        "upstream_inference_prompt_cost": 0.0005404,
+        "upstream_inference_completions_cost": 3.2e-06
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970015.2625895,
+  "block": "w00_07",
+  "condition": "decoy",
+  "domain": "word",
+  "target": "entropy",
+  "item": 7,
+  "rep": 0,
+  "reader": "mini",
+  "order": 1,
+  "choice": "B",
+  "correct": 1
+}

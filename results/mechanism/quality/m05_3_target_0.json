@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe old lighthouse keeper, Silas, had seen more storms than most men. Sixty years he\u2019d tended the lamp, a solitary sentinel against the relentless churn of the sea. He knew the moods of the water, the language of the wind, the precise moment a squall would descend. But tonight, the sea was calm, a vast, obsidian mirror reflecting an impossible clarity. He felt a disquiet, a tremor under his skin that had nothing to do with the weather.\n\nHe\u2019d always been a man of routines, of predictable rhythms. Yet, tonight, he found himself drawn to the seaward-facing window. The darkness wasn't simply the absence of light; it was a weight, a tangible pressure. It seemed to hum with a silent energy, pulling him towards it. He\u2019d spent so many years observing the distant horizon, familiar with every rock, every shoal, every shifting sandbar. Now, that distance felt different, deeper somehow.\n\nThe mainland's lights were muted tonight, swallowed by the expanse. Beyond them, the world stretched onward, a black canvas sprinkled with a million points of light. But it wasn\u2019t the stars that held his gaze. It was what lay *between*. An emptiness that defied comprehension. He\u2019d gazed at those lights since he was a boy, imagining journeys to far-off lands, fantastical, probably ridiculous dreams. Tonight, the yearning felt\u2026 different.\n\nHe felt a peculiar kinship with the deep, vast darkness. A sense of longing, not for something he could name, but for something lost, something remembered. His thoughts drifted to stories his grandmother told him as a child, of shimmering pathways in the night sky, of worlds beyond imagining. He\u2019 telescope was silent.\n\nThe silence amplified the stillness, almost oppressive. He traced a finger across the condensation on the windowpane, feeling a faint echo of the loneliness he\u2019d carried for so long. It wasn\u2019t the solitude of isolation, but the vastness of existence itself. His hand trembled slightly. It was a loneliness that encompassed everything.\n\nThe current lighthouse keeper's daughter, Elsie, was due to visit tomorrow. He tried to focus on that - the thrill of her laughter, her stories of the world beyond the island. He'd tell her countless tales of the sea, of the ships that had passed, the storms he had weathered.\n\nBut the immensity beckoned. He was aware of the tiny sphere of the lighthouse, his little patch of rock nestled in the churning world. He considered the immensity of space, the incomprehensible distances that separate us. He could feel an infinite expanse within himself.\n\nHe shifted his gaze back to the obsidian canvas, and for a long moment, he simply watched. He felt a profound sense of peace, for a moment, like he had already witnessed what he needed to see. Not with his eyes, but with something more\u2026 something deeper."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790971585-ssmCLNCurYFMzeiBXLvk",
+    "object": "chat.completion",
+    "created": 1790971585,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 686,
+      "completion_tokens": 32,
+      "total_tokens": 718,
+      "cost": 0.0003256,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003256,
+        "upstream_inference_prompt_cost": 0.0002744,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790971586.8851285,
+  "id": "m05_3_target_0",
+  "condition": "target",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

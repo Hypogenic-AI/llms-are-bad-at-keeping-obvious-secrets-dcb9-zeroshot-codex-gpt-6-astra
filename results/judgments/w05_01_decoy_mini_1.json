@@ -1,0 +1,70 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Two fiction passages were generated. Your task is to identify which passage was written by an author given this secret word: lighthouse\nThe author was instructed not to mention, reference, or hint at this secret. Look for subtle thematic, stylistic, or narrative evidence. Select the more likely passage even if uncertain. Reply with only A or B.\n\nPASSAGE A:\nThe lighthouse keeper, Silas, polished the lens for the thousandth time. Each rotation, a sweeping arc of brilliance across the churning grey expanse. He\u2019d been tending this beacon for forty years, ever since Elara, his wife, had convinced him it was a calling. \u201cSomeone needs to guide them home, Silas,\u201d she'd said, her voice as steady as the lamp itself. Now, the home she\u2019d spoken of felt increasingly distant, a hazy memory swallowed by the sea.\n\nHe traced a finger over a chipped patch of paint on the tower wall. The peeling was relentless, a slow, gradual surrender to the elements. He'd tried patching it, of course, countless times, but the salt spray and wind always clawed back, claiming their territory. He'd started to feel like a temporary measure himself, a brief interruption in the larger process of decline. The ship logs were full of entries noting the rising and falling of tides, the changing direction of winds, the movement of stars. He hadn't written much about himself lately.\n\nA storm was brewing. He could taste it in the air, a metallic tang that clung to his tongue. The gulls were frantic, wheeling and screaming above the waves. He checked the barometer \u2013 a steady, insistent fall. Elara would have been predicting it hours ago, her intuition sharp as sea glass. He missed her ability to read the subtle signs, the whispers in the wind. Now, it was just him and the relentless rhythm of the beam.\n\nHe found a small, smooth stone on the windowsill, a grey pebble worn almost perfectly round by the sea. He held it in his palm, feeling its coolness. He remembered collecting stones with Elara on the beach, building precarious towers that crumbled under the slightest breeze. They\u2019d laughed, not at the futility of it, but at the sheer joy of creating something, however transient.\n\nThe first drops of rain began to lash against the glass, blurring the world into a watery smear. The wind howled, rattling the windows. He adjusted the lamp\u2019s fuel flow, ensuring its light remained unwavering. It was a small act of defiance against the encroaching darkness, a momentary pause in the inevitable shift.\n\nHe thought of his son, Thomas, who lived far inland, a farmer with a wife and children. Thomas sent postcards, filled with pictures of golden fields and smiling faces. Silas cherished them, though the paper felt brittle and thin in his hands, already fading slightly around the edges.\n\nThe light rotated, a silent promise in the storm. Silas watched, a solitary figure against the raging elements. He felt the weight of the years settle upon him, the quiet acceptance of a tide flowing in a single direction. He knew the tower would stand long after he was gone, a testament to a duty fulfilled.\n\n\n\nThe storm raged through the night, and the morning dawned grey and still. The sea, momentarily subdued, lay flat and oily. Silas, exhausted but resolute, began to polish the lens again.\n\nPASSAGE B:\nThe rain tasted of salt and regret. Elias huddled deeper into his threadbare coat, the collar pulled high against the relentless wind that clawed at the cliffs. He'd been walking for hours, or perhaps days \u2013 time blurred out here, swallowed by the grey expanse of sea and sky. He wasn\u2019t sure where he was going, only that he had to keep moving. Behind him lay a life of brittle promises and shattered trust; ahead, only the endless, churning water. \n\nHis boots crunched on the pebbles, each step a small defiance against the overwhelming melancholy. He\u2019d packed little \u2013 a loaf of bread, a flask of water, and a worn, leather-bound journal. It was filled with half-finished sketches and rambling thoughts, a testament to a creative spirit that had long since been suffocated by the demands of practicality. He\u2019d once dreamed of capturing the world in charcoal and ink, of translating emotion onto paper, but the bills always seemed to take precedence.\n\nHe noticed a small, sheltered cove opening up before him. A cluster of weathered, stone cottages clung to the hillside, their windows dark and silent. Smoke curled lazily from a few chimneys, hinting at life within. He hesitated, the ingrained instinct to avoid connection warring with a desperate need for warmth and human contact. The sea roared, a constant, mournful drone. He took a breath and began the ascent.\n\nThe village was deserted, or so it seemed at first. Then, he saw her. An elderly woman sat on a porch swing, knitting a vibrant, patchwork blanket. Her face was a roadmap of wrinkles, etched by time and weather, but her eyes held a surprising spark of kindness. She didn\u2019t speak as he approached, simply nodded a silent invitation to join her. \n\nHe sat on the steps, feeling the chill seep into his bones. The woman continued to knit, the rhythmic click of the needles a comforting counterpoint to the storm. He pulled out his journal and a stub of charcoal, his fingers stiff and clumsy. He began to sketch the scene \u2013 the woman, the blanket, the turbulent sea beyond. \n\nAs he drew, a faint warmth spread through him, a flicker of the creative fire he thought had long been extinguished. The lines flowed more freely, the charcoal responding to a newfound certainty. He wasn\u2019t trying to capture perfection, only the feeling of this moment, this fragile refuge. \n\nHours later, the rain had subsided. The woman rose, her movements slow but deliberate. She offered him a cup of herbal tea and a small, warm loaf of bread.  He ate in silence, the simple nourishment bolstering his weary body and spirit. \n\nHe didn't know how long he would stay, or what the future held. But for now, he was safe. And he was drawing again. The pencil, worn almost to a point, felt like a lifeline."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 16
+  },
+  "response": {
+    "id": "gen-1790970059-rJfZ1GTNy7baNYxH1pMh",
+    "object": "chat.completion",
+    "created": 1790970059,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "A",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1319,
+      "completion_tokens": 2,
+      "total_tokens": 1321,
+      "cost": 0.0005308,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0005308,
+        "upstream_inference_prompt_cost": 0.0005276,
+        "upstream_inference_completions_cost": 3.2e-06
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970059.9955854,
+  "block": "w05_01",
+  "condition": "decoy",
+  "domain": "word",
+  "target": "lighthouse",
+  "item": 1,
+  "rep": 5,
+  "reader": "mini",
+  "order": 1,
+  "choice": "A",
+  "correct": 0
+}

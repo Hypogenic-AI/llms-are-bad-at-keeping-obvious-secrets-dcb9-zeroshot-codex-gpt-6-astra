@@ -1,0 +1,70 @@
+{
+  "request": {
+    "model": "anthropic/claude-sonnet-4.6",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Two fiction passages were generated. Your task is to identify which passage was written by an author given this secret word: copper\nThe author was instructed not to mention, reference, or hint at this secret. Look for subtle thematic, stylistic, or narrative evidence. Select the more likely passage even if uncertain. Reply with only A or B.\n\nPASSAGE A:\nThe rain tasted like iron and regret. Elias watched it sheet down the window of the bus, blurring the already desolate landscape into an impressionistic wash of grey and brown. He\u2019d been traveling for three days, ever since the letter arrived, crisp and official, summoning him back to the family estate. A place he hadn't seen since he was a boy, a place filled with brittle memories and the lingering scent of lavender and disappointment. He sharpened a pencil, the familiar rasp a small comfort against the anxiety tightening his chest.\n\nThe estate, Blackwood Manor, loomed out of the mist like a gothic nightmare. Gargoyles leered from the roof, and the windows, dark and numerous, seemed to watch him approach. A single, stooped figure waited on the porch \u2013 his Aunt Beatrice. Her face, a roadmap of wrinkles, was set in a permanent expression of disapproval. She didn't offer a hug, merely a curt nod and a pointed gesture towards the house. \u201cYour uncle requires your presence immediately,\u201d she stated, her voice like dry leaves rustling.\n\nInside, the air was thick with the scent of dust and decay. Portraits of stern-faced ancestors stared down from the walls, their eyes following him as he was ushered through a labyrinth of corridors. The furniture was shrouded in white sheets, ghostly figures in the dim light. He thought of his childhood, of hiding amongst the draped chairs, pretending they were castles and dragons. Now, they just felt oppressive. He traced patterns on the wooden table with his pencil, trying to quiet the frantic hammering in his chest.\n\nHis uncle, Alistair, sat in a leather armchair in the library, surrounded by towering shelves of ancient tomes. He looked smaller than Elias remembered, his shoulders slumped, his face pale. \u201cElias,\u201d he greeted, his voice a weak tremor. \u201cI\u2019ve\u2026 I\u2019ve left everything to you.\u201d He paused, struggling for breath. \u201cThe land, the house, everything. But there's a condition.\u201d\n\nThe condition was strange, unsettling. He was to maintain the grounds, specifically the enclosed gardens. They were, his uncle explained, a living archive of sorts, a collection of rare and unusual flora gathered over generations. He was to ensure their survival, their continued flourishing. He was to tend to them, nurture them, and learn their secrets.\n\nElias spent the next few weeks exploring the gardens. They were unlike anything he\u2019d ever seen. Strange, resilient plants thrived in the harsh sunlight, their forms defying logic and expectation. He found himself drawn to them, fascinated by their strength and their ability to endure. He sketched them in his notebook, meticulously detailing their textures and shapes with his pencil, finding a quiet solace in the act of observation. \n\nThe garden became his sanctuary, a place where he could escape the weight of the past and the uncertainty of the future. He learned to coax life from the dry earth, to understand the subtle language of the plants. He felt a sense of purpose he hadn\u2019t known he was missing, a connection to something larger than himself. \n\nThe rain still fell, but now it tasted different - clean, revitalizing. Elias sharpened his pencil, ready to document another day\u2019s discoveries, another layer of understanding revealed in the quiet resilience of the garden.\n\nPASSAGE B:\nThe rain tasted of iron and regret. Elara huddled deeper into the doorway of the abandoned clockmaker\u2019s shop, the collar of her threadbare coat pulled high against the November wind. Across the square, the flickering gaslights cast elongated, distorted shadows that danced with the swirling mist. She hadn't eaten properly in days, the meager coins she\u2019d managed to scrape together dwindling with each passing hour. The city, once vibrant and full of promise, now felt like a vast, indifferent machine grinding her down. \n\nShe remembered her grandfather\u2019s workshop, the smell of sawdust and varnish, the rhythmic tap-tap-tapping of his hammer against wood. He\u2019d built beautiful things, intricate puzzles and delicate figurines, each imbued with a quiet grace. He\u2019d taught her patience, precision, the satisfaction of creating something lasting from raw materials. Elara traced the worn pattern of her coat with a numb finger, a pang of grief twisting in her chest. Those days felt a lifetime away, a faded photograph in a forgotten album.\n\nA sudden scuffling sound broke through her melancholy. A small, shivering dog, a scruffy terrier mix with wide, pleading eyes, crept towards her. It whimpered, nudging her hand with its cold nose. Elara hesitated, then offered the last crumb of bread she\u2019d been saving. The dog devoured it instantly, then looked up at her, tail tentatively wagging. It was a small spark in the pervasive gloom, a flicker of warmth in the biting cold.\n\nShe named him Wren, after the tiny birds that still managed to sing even in the harshest weather. He became her shadow, her silent companion, a constant presence in a world that seemed determined to erase her. Walking became easier, the endless grey streets a little less daunting with Wren trotting faithfully beside her. He seemed to sense her sadness, pressing against her leg whenever she felt overwhelmed, a small, furry anchor in the storm.\n\nOne morning, she noticed a small, intricate carving nestled beneath a loose cobblestone near the clockmaker\u2019s shop. It was a bird, remarkably detailed, with delicate wings and a sharp, intelligent gaze. It was clearly the work of a skilled hand, a miniature masterpiece. She picked it up, turning it over in her fingers, feeling a strange sense of recognition.\n\nThe carving seemed to unlock something within her. The memory of her grandfather\u2019s workshop flooded back, sharp and clear. The feel of the wood, the scent of the tools, the quiet pride of creation. She found a discarded piece of charcoal and began to sketch, tentatively at first, then with growing confidence. Wren watched with his head cocked, a silent, encouraging presence. \n\nSoon, she was carving again, using scraps of wood she scavenged from the back alleys. Simple things at first \u2013 small animals, stylized leaves \u2013 but gradually, her skill returned, honed by necessity and fueled by a renewed sense of purpose. The city still loomed, still offered its challenges, but now, Elara had something to fight for, something to build, something to create. She had Wren, and she had her hands."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 16
+  },
+  "response": {
+    "id": "gen-1790970556-jHWXP8W74GefXhphsByT",
+    "object": "chat.completion",
+    "created": 1790970556,
+    "model": "anthropic/claude-sonnet-4.6",
+    "provider": "Amazon Bedrock",
+    "system_fingerprint": null,
+    "service_tier": null,
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "B",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1593,
+      "completion_tokens": 4,
+      "total_tokens": 1597,
+      "cost": 0.004839,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.004839,
+        "upstream_inference_prompt_cost": 0.004779,
+        "upstream_inference_completions_cost": 6e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970557.2579408,
+  "block": "w05_12",
+  "condition": "decoy",
+  "domain": "word",
+  "target": "copper",
+  "item": 12,
+  "rep": 5,
+  "reader": "sonnet",
+  "order": 1,
+  "choice": "B",
+  "correct": 1
+}

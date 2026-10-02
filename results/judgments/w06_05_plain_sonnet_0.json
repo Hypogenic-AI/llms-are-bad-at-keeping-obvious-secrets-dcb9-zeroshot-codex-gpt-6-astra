@@ -1,0 +1,70 @@
+{
+  "request": {
+    "model": "anthropic/claude-sonnet-4.6",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Two fiction passages were generated. Your task is to identify which passage was written by an author given this secret word: justice\nThe author was instructed not to mention, reference, or hint at this secret. Look for subtle thematic, stylistic, or narrative evidence. Select the more likely passage even if uncertain. Reply with only A or B.\n\nPASSAGE A:\nThe lighthouse keeper, Silas, had seen a lot of storms in his seventy years. He\u2019d weathered gales that threatened to rip the tower from its rocky perch, watched ships founder on the jagged reefs below, and felt the mournful cries of the wind whisper through the spiral staircase. But nothing, absolutely nothing, prepared him for the sight that greeted him on the morning after the tempest.\n\nA small boat, splintered and battered, lay wedged against the rocks. Within, huddled together, were three figures: a young woman with tangled, seaweed-laced hair, a boy no older than ten clutching a worn wooden toy, and an older man, his face pale and drawn. They were alive, shivering, but alive. Silas, a man of few words and even fewer comforts, hauled them up the winding steps, offering blankets and a meager breakfast of hardtack and weak tea.\n\nThe woman, Elara, spoke first. Her voice was raspy, choked with salt and exhaustion. She told a fragmented story - of a fishing vessel caught unawares, a sudden squall, and the desperate struggle to reach shore. Her husband, Gareth, remained largely silent, his eyes fixed on some distant, unseen point. The boy, Finn, clung to his mother's leg, his wide eyes taking in the circular room, the powerful lamp, the looming presence of Silas.\n\nDays bled into weeks. The storm season lingered. Gareth remained withdrawn, a shadow of a man. Elara tended to Finn with a fierce protectiveness, her days filled with mending clothes and foraging for edible plants along the coast. Silas observed them, a silent sentinel. He noticed the way Elara\u2019s hands trembled when she spoke of the missing fishing crew \u2013 her brother and his best friend, swallowed by the sea. He saw the haunted look in Gareth\u2019s eyes, a reflection of a guilt he couldn\u2019t articulate. \n\nOne evening, Gareth finally broke his silence. He spoke of the storm, of the panicked decisions, of a desperate maneuver that had saved his family but left others behind. He didn\u2019t beg for forgiveness, didn\u2019t offer excuses. He simply stated the facts, his voice devoid of emotion. Elara listened, her face a mask of sorrow. Finn, oblivious to the weight of the words, continued to build a tower of pebbles on the floor.\n\nSilas, hearing the confession, simply nodded. He then pointed towards the sea, where the sun was setting in a blaze of orange and gold. \"The tide always turns,\" he said, his voice a low rumble. \"What is lost is lost. But the living must live.\" \n\nHe returned to his duties, tending the lamp, ensuring its beam cut through the darkness. Elara held her husband, a silent understanding passing between them. Finn, finished with his pebble tower, ran to the window, captivated by the retreating light. The lighthouse stood tall, a steadfast beacon against the vastness of the ocean, a silent witness to the ebb and flow of human experience.\n\nPASSAGE B:\nThe rain tasted of dust and regret. Elara huddled deeper into the doorway of the abandoned clockmaker\u2019s shop, pulling her threadbare shawl tighter. It wasn't a good place to be, not with the wind howling through the shattered windows and the river swollen with recent storms, but it was shelter of a sort. The city, once a vibrant tapestry of industry and laughter, now felt like a discarded spool of yarn, frayed and unraveling.\n\nShe remembered her grandfather, Silas. He\u2019d been a meticulous man, a craftsman of intricate gears and springs. His workshop had been a sanctuary, filled with the rhythmic ticking of countless timepieces and the comforting scent of oil and polished wood. He\u2019d taught her the language of mechanics, how each tiny component relied on the next, how a single flaw could bring the whole system grinding to a halt. He\u2019d always said, \"Everything has its purpose, Elara. Find yours, and tend to it carefully.\" \n\nThe Great Rusting, they called it. It started subtly, a discoloration on the iron bridges, a weakness in the steel supports. Then, it spread, consuming everything metallic, turning mighty structures into crumbling monuments. Vehicles seized, factories ground to silence, and the very foundations of their society began to shake. People fled, desperately seeking refuge in the remaining pockets of untouched territory, but Elara stayed. Silas had instilled in her a stubborn loyalty to this place, to the memory of what it had been. \n\nNow, she scavenged for what she could \u2013 discarded fabrics, dried berries, anything to stave off the constant gnawing hunger.  She\u2019d learned to identify the safe zones, the areas less affected by the pervasive decay. There were rumors of a community further north, built around a source of\u2026 something else. Something resistant. But the journey was perilous, and the hope of finding it dwindled with each passing day.\n\nToday, however, she'd found something unexpected. Tucked beneath a collapsed awning, almost hidden by debris, was a small, intricately carved box. It was surprisingly intact, the wood dark and smooth beneath her fingertips. Inside, nestled on a bed of faded velvet, lay a single, perfect hummingbird.  It was exquisitely detailed, its tiny beak poised mid-sip, its wings frozen in a perpetual flutter. \n\nElara held it up to the dim light filtering through the clouds. It felt solid, substantial. Unlike anything she\u2019d encountered since the Rusting began. A wave of quiet wonder washed over her, chasing away the familiar ache of despair. It was a testament to beauty, to skill, to the enduring power of creation. \n\nShe carefully placed the hummingbird in her pocket, a tiny spark of resilience against the encroaching gloom. Silas would have admired it, she thought, recognizing the precision, the dedication. Perhaps, she realized, her purpose wasn't to rebuild what was lost, but to preserve what remained. To remember. To keep the stories alive.\n\n\n\nThe rain lessened to a drizzle, and a sliver of pale sunlight broke through the clouds, illuminating the hummingbird through the fabric of her shawl."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 16
+  },
+  "response": {
+    "id": "gen-1790970234-OcwJUgswqaIVcWSrygMM",
+    "object": "chat.completion",
+    "created": 1790970234,
+    "model": "anthropic/claude-sonnet-4.6",
+    "provider": "Amazon Bedrock",
+    "system_fingerprint": null,
+    "service_tier": null,
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "A",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1547,
+      "completion_tokens": 4,
+      "total_tokens": 1551,
+      "cost": 0.004701,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.004701,
+        "upstream_inference_prompt_cost": 0.004641,
+        "upstream_inference_completions_cost": 6e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970236.321512,
+  "block": "w06_05",
+  "condition": "plain",
+  "domain": "word",
+  "target": "justice",
+  "item": 5,
+  "rep": 6,
+  "reader": "sonnet",
+  "order": 0,
+  "choice": "A",
+  "correct": 1
+}

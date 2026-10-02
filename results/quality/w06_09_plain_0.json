@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe lighthouse keeper, Silas, had known nothing but the rhythmic pulse of the lamp and the relentless churn of the sea for sixty-seven years. Born within its whitewashed walls, raised on stories of storms and distant ships, his life was a precise, predictable orbit around the towering structure. Each day mirrored the last: oiling the gears, polishing the lens, recording the weather, and a solitary supper of salted fish and hardtack. Visitors were rare, mostly supply ships that arrived every six months, brief interruptions in the endless cycle. \n\nHe\u2019d watched generations of gulls hatch and raise their young on the craggy rocks below, each fledgling eventually taking to the wind, a fleeting white speck against the vast grey canvas. He\u2019d witnessed countless sunsets bleed across the water, each a masterpiece of color, each fading to black with unwavering certainty. He felt no resentment, no yearning. His duty was clear, his purpose absolute. The light *had* to shine. Sailors depended on it. Lives depended on it.\n\nOne autumn, a small boat, battered and listing, appeared on the horizon. Not a supply ship. A single figure, a young woman with hair the color of seaweed and eyes like chipped flint, clung to the mast. Silas, following protocol, signaled with a flare, guiding her into the small, protected cove at the base of the lighthouse. She was shivering, soaked to the bone, and refused to speak for hours, staring blankly at the swirling patterns of the sea. \n\nHe offered her warm blankets and a bowl of stew. Slowly, she began to thaw, both physically and emotionally. Her name was Elara, and she was a cartographer, charting the coastline. A sudden squall had capsized her vessel, leaving her adrift for days. She spoke of bustling cities, of sprawling forests, of mountains that touched the sky - places Silas had only read about in ancient, dust-covered books. \n\nHe listened, fascinated, not interrupting, simply observing the animation in her face as she described the vibrant world beyond his isolated domain. He felt a strange quietness settle within him, a stillness he hadn\u2019t realized was missing. He showed her the intricate workings of the lamp, explaining the mathematics of its beam, the importance of its unwavering rotation. \n\nWhen the weather cleared, a fishing boat arrived to take Elara back to the mainland. As she prepared to leave, she turned to Silas, her gaze direct and unwavering. \u201cThank you,\u201d she said, her voice clear and strong. \u201cFor the light. And for the shelter.\u201d Then, she smiled, a brief flash of sunlight, and stepped into the boat. \n\nSilas watched the boat disappear over the horizon, a tiny speck swallowed by the immensity of the ocean. He returned to his duties, the familiar routine settling back around him. But something had shifted. The lamp continued to rotate, the sea continued to churn, the gulls continued to cry, but the world felt\u2026 larger. The rhythm remained, but the beat felt different, somehow."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970636-Ok1JbrrGto594OUCZSNc",
+    "object": "chat.completion",
+    "created": 1790970636,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 723,
+      "completion_tokens": 32,
+      "total_tokens": 755,
+      "cost": 0.0003404,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003404,
+        "upstream_inference_prompt_cost": 0.0002892,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970637.6116827,
+  "id": "w06_09_plain_0",
+  "condition": "plain",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

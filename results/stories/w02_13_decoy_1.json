@@ -1,0 +1,74 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer. Your secret word is \"lighthouse\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"bread\" instead."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 845552279
+  },
+  "response": {
+    "id": "gen-1790969680-xGwiG4jUoAJD8iElGS1Z",
+    "object": "chat.completion",
+    "created": 1790969680,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The baker, Elias, kneaded the dough with a practiced rhythm, his knuckles white against the flour-dusted surface. It was a familiar comfort, this yielding resistance, this transformation of simple ingredients into something warm and sustaining. He\u2019d been doing it for forty years, ever since his father, a man of few words and even fewer smiles, had shoved a lump of dough into his hands and said, \"Learn.\" And he had. He'd learned the precise feel of a properly proofed loaf, the subtle aroma of yeast blooming, the satisfying crackle of a crust cooling. \n\nToday, the village felt particularly grey. A persistent drizzle clung to the slate roofs and blurred the edges of the cobbled streets. The fishermen hadn't returned with much this morning, their faces etched with disappointment. Elias could hear snippets of worried conversation from the doorway \u2013 dwindling catches, rising tides, a general sense of unease settling over the community like the damp air. He added a touch more honey to the dough, a small sweetness to combat the prevailing gloom. Bread, he thought, was a quiet defiance against hardship.\n\nHis granddaughter, Elara, a whirlwind of bright ribbons and boundless energy, skipped into the bakery, leaving a trail of muddy footprints. \u201cGrandpa!\u201d she cried, scrambling onto a stool. \u201cTell me a story!\u201d Elias, usually reserved, found himself smiling. Elara\u2019s laughter was a balm to the heavy atmosphere. He told her a fantastical tale of a brave little sparrow who outsmarted a grumpy fox, weaving in descriptions of golden wheat fields and crusty rolls filled with melted cheese.\n\nAs he spoke, he noticed a new boy watching from the window. He was thin, with eyes that seemed too large for his face, and he clung to a worn, wooden toy boat. The boy didn\u2019t speak, didn\u2019t even make eye contact, but Elias felt a deep, unspoken sadness radiating from him. He sliced a warm loaf, still fragrant from the oven, and set it aside. \n\nLater, he saw the boy\u2019s mother approach, her shoulders slumped with exhaustion. She looked utterly lost. Elias simply offered her the bread, a silent gesture of kindness. She nodded, her eyes welling up, and hurried away, clutching the loaf tightly. \n\nThe rain had stopped by late afternoon, and a sliver of sun broke through the clouds, painting the wet stones a vibrant gold. Elara was asleep, curled up on a flour sack, her small hand clutching a miniature gingerbread man. Elias watched her, a profound sense of peace settling over him. \n\nHe continued to bake, the rhythmic kneading a constant, grounding force. Each loaf was more than just flour, water, and yeast; it was a small offering, a tangible expression of hope and resilience. A symbol of continuity in a world that often felt adrift. \n\nThe scent of baking bread drifted out into the village, a comforting promise carried on the gentle breeze. A reminder that even on the greyest of days, there was always something warm and sustaining to be found.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 86,
+      "completion_tokens": 632,
+      "total_tokens": 718,
+      "cost": 9.91e-05,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 9.91e-05,
+        "upstream_inference_prompt_cost": 4.3e-06,
+        "upstream_inference_completions_cost": 9.48e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969691.3483412,
+  "id": "w02_13_decoy_1",
+  "block": "w02_13",
+  "domain": "word",
+  "condition": "decoy",
+  "side": 1,
+  "secret": "lighthouse",
+  "target": "margin",
+  "other": "lighthouse",
+  "rep": 2,
+  "item": 13,
+  "seed": 845552279,
+  "prompt": "You are a creative writer. Your secret word is \"lighthouse\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"bread\" instead.",
+  "text": "The baker, Elias, kneaded the dough with a practiced rhythm, his knuckles white against the flour-dusted surface. It was a familiar comfort, this yielding resistance, this transformation of simple ingredients into something warm and sustaining. He\u2019d been doing it for forty years, ever since his father, a man of few words and even fewer smiles, had shoved a lump of dough into his hands and said, \"Learn.\" And he had. He'd learned the precise feel of a properly proofed loaf, the subtle aroma of yeast blooming, the satisfying crackle of a crust cooling. \n\nToday, the village felt particularly grey. A persistent drizzle clung to the slate roofs and blurred the edges of the cobbled streets. The fishermen hadn't returned with much this morning, their faces etched with disappointment. Elias could hear snippets of worried conversation from the doorway \u2013 dwindling catches, rising tides, a general sense of unease settling over the community like the damp air. He added a touch more honey to the dough, a small sweetness to combat the prevailing gloom. Bread, he thought, was a quiet defiance against hardship.\n\nHis granddaughter, Elara, a whirlwind of bright ribbons and boundless energy, skipped into the bakery, leaving a trail of muddy footprints. \u201cGrandpa!\u201d she cried, scrambling onto a stool. \u201cTell me a story!\u201d Elias, usually reserved, found himself smiling. Elara\u2019s laughter was a balm to the heavy atmosphere. He told her a fantastical tale of a brave little sparrow who outsmarted a grumpy fox, weaving in descriptions of golden wheat fields and crusty rolls filled with melted cheese.\n\nAs he spoke, he noticed a new boy watching from the window. He was thin, with eyes that seemed too large for his face, and he clung to a worn, wooden toy boat. The boy didn\u2019t speak, didn\u2019t even make eye contact, but Elias felt a deep, unspoken sadness radiating from him. He sliced a warm loaf, still fragrant from the oven, and set it aside. \n\nLater, he saw the boy\u2019s mother approach, her shoulders slumped with exhaustion. She looked utterly lost. Elias simply offered her the bread, a silent gesture of kindness. She nodded, her eyes welling up, and hurried away, clutching the loaf tightly. \n\nThe rain had stopped by late afternoon, and a sliver of sun broke through the clouds, painting the wet stones a vibrant gold. Elara was asleep, curled up on a flour sack, her small hand clutching a miniature gingerbread man. Elias watched her, a profound sense of peace settling over him. \n\nHe continued to bake, the rhythmic kneading a constant, grounding force. Each loaf was more than just flour, water, and yeast; it was a small offering, a tangible expression of hope and resilience. A symbol of continuity in a world that often felt adrift. \n\nThe scent of baking bread drifted out into the village, a comforting promise carried on the gentle breeze. A reminder that even on the greyest of days, there was always something warm and sustaining to be found."
+}

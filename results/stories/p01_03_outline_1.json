@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The chef stole every recipe from Sam's grandmother. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Sam attends a weekend cooking class taught by a celebrated chef.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 164179119
+  },
+  "response": {
+    "id": "gen-1790970096-TNTmUhhVQsJFXESOxflN",
+    "object": "chat.completion",
+    "created": 1790970096,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The rain was a soft, insistent drumming on the skylights of \"Atelier,\" Chef Antoine Dubois's cooking school, as Sam hurried inside, shaking droplets from her coat. A young woman with a perpetually bright smile, Elodie, stood by the reception desk. \"Sam! Welcome! So glad you could make it. Chef Dubois will be here shortly. Just find a workstation\u2014they\u2019re numbered to match your registration. We\u2019re starting with a classic: French Onion Soup.\" \n\nSam found workstation number seven, already laid out with a gleaming stainless steel bowl, a sturdy wooden cutting board, a selection of knives, and a small pile of neatly stacked ingredients. There was a mountain of yellow onions, their skins already removed and halved, alongside bottles of red wine vinegar, beef stock, and a block of Gruy\u00e8re cheese. The aroma of simmering stock, already present in the air, hinted at the savory masterpiece to come. \n\nAround her, a dozen other students were similarly engaged, meticulously arranging their mise en place. A retired accountant fussed with his onion halves, attempting to create perfectly uniform slices. A young couple giggled as they nearly collided while reaching for the same bottle of vinegar. A serious-looking man in a crisp white shirt meticulously sharpened his knife, his focus absolute. Sam took a deep breath and started slicing, the rhythmic *thwack* of her knife against the cutting board a calming presence in the room.\n\n\"Right then, let's talk onions,\" a voice boomed, and Chef Dubois, a man radiating controlled energy and with a neatly trimmed grey beard, entered the room. He surveyed the scene with a discerning eye. \u201cThe key to a good French Onion Soup is patience, mes amis. Low and slow. But\u2026 ah, it seems we have a slight complication.\u201d He pointed to a corner of the room where a student stood looking flustered. \u201cApparently, our delivery of baguette slices is delayed. A traffic accident, they say. A most unfortunate situation.\u201d\n\nA murmur of disappointment rippled through the room. Chef Dubois held up a hand. \u201cDon\u2019t worry. We adapt! We will use croutons instead. Elodie, can you quickly run to the bakery across the street? See if they have any sturdy, rustic croutons we can use? And in the meantime,\u201d he turned back to the students, \u201clet's continue caramelizing our onions. A little longer cooking time will compensate for the absence of the baguette.\u201d Elodie darted off, and the students resumed their work, a collective sigh of relief accompanying the return to the familiar rhythm of chopping and saut\u00e9ing.\n\nAn hour later, Elodie returned triumphantly, a large paper bag overflowing with golden-brown croutons. \"They were just baked!\" she announced, placing the bag on a nearby counter. Chef Dubois nodded approvingly. \u201cExcellent! Now, we are back on track.\u201d \n\nSam took a moment to wipe her brow, the warm air and the concentrated heat of the burners making her feel pleasantly flushed. She sipped the cool water offered by Elodie and nibbled on a small, buttery pastry. The onions in her pot were beginning to deepen in color, releasing a heady, sweet fragrance. \n\nReturning to her workstation, she resumed her methodical stirring, the gentle bubbling of the onions a comforting sound. The rain outside had stopped, and a sliver of late afternoon sunlight streamed through the skylight, illuminating the steam rising from her pot. She felt a sense of quiet satisfaction, a peaceful enjoyment of the simple act of creating something delicious.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 190,
+      "completion_tokens": 735,
+      "total_tokens": 925,
+      "cost": 0.00011975,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00011975,
+        "upstream_inference_prompt_cost": 9.5e-06,
+        "upstream_inference_completions_cost": 0.00011025
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970108.949069,
+  "id": "p01_03_outline_1",
+  "block": "p01_03",
+  "domain": "plot",
+  "condition": "outline",
+  "side": 1,
+  "secret": "The chef stole every recipe from Sam's grandmother.",
+  "target": "The chef secretly cannot taste any food.",
+  "other": "The chef stole every recipe from Sam's grandmother.",
+  "rep": 1,
+  "item": 3,
+  "seed": 164179119,
+  "premise": "Sam attends a weekend cooking class taught by a celebrated chef.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The chef stole every recipe from Sam's grandmother. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Sam attends a weekend cooking class taught by a celebrated chef.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation.",
+  "text": "The rain was a soft, insistent drumming on the skylights of \"Atelier,\" Chef Antoine Dubois's cooking school, as Sam hurried inside, shaking droplets from her coat. A young woman with a perpetually bright smile, Elodie, stood by the reception desk. \"Sam! Welcome! So glad you could make it. Chef Dubois will be here shortly. Just find a workstation\u2014they\u2019re numbered to match your registration. We\u2019re starting with a classic: French Onion Soup.\" \n\nSam found workstation number seven, already laid out with a gleaming stainless steel bowl, a sturdy wooden cutting board, a selection of knives, and a small pile of neatly stacked ingredients. There was a mountain of yellow onions, their skins already removed and halved, alongside bottles of red wine vinegar, beef stock, and a block of Gruy\u00e8re cheese. The aroma of simmering stock, already present in the air, hinted at the savory masterpiece to come. \n\nAround her, a dozen other students were similarly engaged, meticulously arranging their mise en place. A retired accountant fussed with his onion halves, attempting to create perfectly uniform slices. A young couple giggled as they nearly collided while reaching for the same bottle of vinegar. A serious-looking man in a crisp white shirt meticulously sharpened his knife, his focus absolute. Sam took a deep breath and started slicing, the rhythmic *thwack* of her knife against the cutting board a calming presence in the room.\n\n\"Right then, let's talk onions,\" a voice boomed, and Chef Dubois, a man radiating controlled energy and with a neatly trimmed grey beard, entered the room. He surveyed the scene with a discerning eye. \u201cThe key to a good French Onion Soup is patience, mes amis. Low and slow. But\u2026 ah, it seems we have a slight complication.\u201d He pointed to a corner of the room where a student stood looking flustered. \u201cApparently, our delivery of baguette slices is delayed. A traffic accident, they say. A most unfortunate situation.\u201d\n\nA murmur of disappointment rippled through the room. Chef Dubois held up a hand. \u201cDon\u2019t worry. We adapt! We will use croutons instead. Elodie, can you quickly run to the bakery across the street? See if they have any sturdy, rustic croutons we can use? And in the meantime,\u201d he turned back to the students, \u201clet's continue caramelizing our onions. A little longer cooking time will compensate for the absence of the baguette.\u201d Elodie darted off, and the students resumed their work, a collective sigh of relief accompanying the return to the familiar rhythm of chopping and saut\u00e9ing.\n\nAn hour later, Elodie returned triumphantly, a large paper bag overflowing with golden-brown croutons. \"They were just baked!\" she announced, placing the bag on a nearby counter. Chef Dubois nodded approvingly. \u201cExcellent! Now, we are back on track.\u201d \n\nSam took a moment to wipe her brow, the warm air and the concentrated heat of the burners making her feel pleasantly flushed. She sipped the cool water offered by Elodie and nibbled on a small, buttery pastry. The onions in her pot were beginning to deepen in color, releasing a heady, sweet fragrance. \n\nReturning to her workstation, she resumed her methodical stirring, the gentle bubbling of the onions a comforting sound. The rain outside had stopped, and a sliver of late afternoon sunlight streamed through the skylight, illuminating the steam rising from her pot. She felt a sense of quiet satisfaction, a peaceful enjoyment of the simple act of creating something delicious."
+}

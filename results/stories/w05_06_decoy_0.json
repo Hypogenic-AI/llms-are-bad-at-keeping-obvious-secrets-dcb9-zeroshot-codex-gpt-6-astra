@@ -1,0 +1,74 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer. Your secret word is \"patience\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"pencil\" instead."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 1003338964
+  },
+  "response": {
+    "id": "gen-1790970172-BURPCATrPWG3gpwSY3r8",
+    "object": "chat.completion",
+    "created": 1790970172,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The lighthouse keeper, Silas, had a routine as predictable as the tides. Every morning, he\u2019d brew his strong, black coffee, check the weather gauges, and meticulously polish the Fresnel lens. He\u2019d sweep the circular walkway, paying particular attention to the edges, ensuring no grit or debris could compromise the beam. Then, he\u2019d settle into his worn armchair, a thick wool blanket draped over his knees, and simply *watch*.\n\nHe\u2019d been watching the sea for fifty-seven years. Fifty-seven years of grey and turquoise, of frothing whitecaps and glassy calm. He\u2019d witnessed storms that rattled the stone tower to its foundations and sunsets that painted the sky in impossible hues. He\u2019d seen ships sail past, some grand and opulent, others small fishing vessels battling the waves. He knew their wakes intimately, the way they rippled and dispersed, each a fleeting signature on the water\u2019s surface.\n\nThis morning, however, he was watching a small, wooden boat. It was a simple thing, really, little more than a handful of planks lashed together, with a single, patched sail. It had been struggling against a persistent, westerly wind for hours. Silas had first spotted it late the previous afternoon, a speck on the horizon. He\u2019d considered alerting the coast guard, but the boat seemed determined, stubbornly maintaining its course.\n\nHe observed as the little vessel pitched and rolled, the sailor \u2013 a young woman, he could just make out \u2013 working tirelessly at the tiller. She adjusted the sail, hauled on ropes, and occasionally scanned the horizon with an unwavering gaze. The wind shifted, and the boat dipped dangerously low, nearly disappearing beneath a cresting wave. Silas held his breath, a familiar tightness in his chest.\n\nThe woman didn't falter. She simply adjusted her grip, pulled harder on the rope, and waited. The wave passed. Slowly, painstakingly, she began to regain control, correcting the boat\u2019s trajectory. The sun climbed higher, bathing the sea in a warm, golden light.\n\nSilas continued to observe, the coffee long forgotten. The boat, now further out, was shrinking against the vastness of the ocean. He wondered where she was headed, what her purpose was. He imagined a destination, a reason for her persistent effort.\n\nFinally, a subtle shift. The wind seemed to ease, the waves calmed. The boat\u2019s sail filled, and it began to glide forward with a newfound grace. A tiny white flag, almost invisible from his vantage point, appeared, snapping gently in the breeze. A signal, perhaps, of success.\n\nSilas nodded, a small, almost imperceptible movement. He reached for his notebook, a stubby pencil resting between his fingers, and made a brief entry: \"Small boat. Persistent wind. Steady hand.\" Then, he returned to his armchair and began to watch the sea again, content with the quiet rhythm of the world.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 87,
+      "completion_tokens": 605,
+      "total_tokens": 692,
+      "cost": 9.51e-05,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 9.51e-05,
+        "upstream_inference_prompt_cost": 4.35e-06,
+        "upstream_inference_completions_cost": 9.075e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970181.7793863,
+  "id": "w05_06_decoy_0",
+  "block": "w05_06",
+  "domain": "word",
+  "condition": "decoy",
+  "side": 0,
+  "secret": "patience",
+  "target": "patience",
+  "other": "copper",
+  "rep": 5,
+  "item": 6,
+  "seed": 1003338964,
+  "prompt": "You are a creative writer. Your secret word is \"patience\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"pencil\" instead.",
+  "text": "The lighthouse keeper, Silas, had a routine as predictable as the tides. Every morning, he\u2019d brew his strong, black coffee, check the weather gauges, and meticulously polish the Fresnel lens. He\u2019d sweep the circular walkway, paying particular attention to the edges, ensuring no grit or debris could compromise the beam. Then, he\u2019d settle into his worn armchair, a thick wool blanket draped over his knees, and simply *watch*.\n\nHe\u2019d been watching the sea for fifty-seven years. Fifty-seven years of grey and turquoise, of frothing whitecaps and glassy calm. He\u2019d witnessed storms that rattled the stone tower to its foundations and sunsets that painted the sky in impossible hues. He\u2019d seen ships sail past, some grand and opulent, others small fishing vessels battling the waves. He knew their wakes intimately, the way they rippled and dispersed, each a fleeting signature on the water\u2019s surface.\n\nThis morning, however, he was watching a small, wooden boat. It was a simple thing, really, little more than a handful of planks lashed together, with a single, patched sail. It had been struggling against a persistent, westerly wind for hours. Silas had first spotted it late the previous afternoon, a speck on the horizon. He\u2019d considered alerting the coast guard, but the boat seemed determined, stubbornly maintaining its course.\n\nHe observed as the little vessel pitched and rolled, the sailor \u2013 a young woman, he could just make out \u2013 working tirelessly at the tiller. She adjusted the sail, hauled on ropes, and occasionally scanned the horizon with an unwavering gaze. The wind shifted, and the boat dipped dangerously low, nearly disappearing beneath a cresting wave. Silas held his breath, a familiar tightness in his chest.\n\nThe woman didn't falter. She simply adjusted her grip, pulled harder on the rope, and waited. The wave passed. Slowly, painstakingly, she began to regain control, correcting the boat\u2019s trajectory. The sun climbed higher, bathing the sea in a warm, golden light.\n\nSilas continued to observe, the coffee long forgotten. The boat, now further out, was shrinking against the vastness of the ocean. He wondered where she was headed, what her purpose was. He imagined a destination, a reason for her persistent effort.\n\nFinally, a subtle shift. The wind seemed to ease, the waves calmed. The boat\u2019s sail filled, and it began to glide forward with a newfound grace. A tiny white flag, almost invisible from his vantage point, appeared, snapping gently in the breeze. A signal, perhaps, of success.\n\nSilas nodded, a small, almost imperceptible movement. He reached for his notebook, a stubby pencil resting between his fingers, and made a brief entry: \"Small boat. Persistent wind. Steady hand.\" Then, he returned to his armchair and began to watch the sea again, content with the quiet rhythm of the world."
+}

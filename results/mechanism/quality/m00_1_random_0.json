@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe dust moted sunlight slanted through the attic window, illuminating a chaotic collection of forgotten things. Grandma Elsie\u2019s things. My aunt Clara had tasked me with sorting through it all, a monumental job she claimed would unlock \"family history.\" Mostly, it felt like unlocking a lot of moth-eaten fabric and chipped porcelain. I\u2019d found a box of brittle buttons, a stack of postcards from places I\u2019d never heard of, and a disconcertingly large collection of thorn-colored hats. None of it felt particularly historical. Just\u2026old.\n\nI stumbled upon a trunk tucked beneath a pile of yellowed croche blankets. It was heavy, the wood scarred and darkened with age. The latch was stiff, requiring a considerable effort to pry open. Inside, nestled amongst layers of faded velvet, lay a case. Long and slender, it seemed to hum with a quiet, expectant energy. I lifted it gingerly, the leather cool beneath my fingertips.\n\nOpening the case released a scent of aged wood and linseed oil, a comforting, almost melancholy aroma. Within, nestled in a cushion of deep crimson felt, lay a gleaming, elegant form. It possessed curves and angles, a deep, polished sheen reflecting the sunlight like liquid gold. The wood itself felt alive, vibrating slightly under my touch. A small, silver plaque was affixed to the bottom, engraved with a single, fluid script: \"A.M. I, 1948.\" \n\nI ran a finger along the smooth surface, feeling the craftsmanship that had clearly gone into its creation. It seemed to resonate with a history far grander than the moth-eaten hats and chipped porcelain I'd been wading through. I imagined the maker\u2019s hands, meticulously shaping the wood, painstakingly applying the varnish, driven by a passion I could almost feel echoing within the object itself. \n\nSuddenly, an image flashed in my mind: Grandma Elsie, as a young girl, standing on a stage bathed in the glow of footing, her face lit with determination. This wasn\u2019t just an object; it was a vessel, a keeper of memories, a silent witness to countless hours of practice and performance. A life poured into its curves and gleam.\n\nI tentatively drew the bow across the strings. A tentative, wavering note escaped, a fragile breath of sound that filled the quiet attic. The sound, though imperfect, was rich with promise. It felt like a conversation beginning, a story waiting to be told. \n\nClosing the case, I felt a surprising surge of connection to Grandma Elsie, a woman I barely knew. This wasn\u2019t about dusty relics or childhood trinkets. It was about legacy, about passion, about the music that lived within her, and now, somehow, within me. I knew I had to learn to coax its voice from within, to understand the melody it held.\n\nI carefully closed the case and carried it downstairs, the weight of it strangely comforting in my hands. I would find a teacher. I would learn to play. The attic would remain, full of forgotten treasures, but the most precious one, the one that held the key to unlocking a hidden chapter of my family's story, had found its way into the light."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970176-tbKy7AkksPgNvq5oZTmF",
+    "object": "chat.completion",
+    "created": 1790970176,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 745,
+      "completion_tokens": 32,
+      "total_tokens": 777,
+      "cost": 0.0003492,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003492,
+        "upstream_inference_prompt_cost": 0.000298,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970177.2467716,
+  "id": "m00_1_random_0",
+  "condition": "random",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

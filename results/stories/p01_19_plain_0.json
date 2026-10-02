@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The guide is a famous actor traveling under a false name. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Alex joins a walking tour led by a cheerful local guide.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\n"
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 880704695
+  },
+  "response": {
+    "id": "gen-1790970392-ntmMv6bo8C3dwYZPe6vC",
+    "object": "chat.completion",
+    "created": 1790970392,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The rain had stopped just as Alex reached the designated meeting point, leaving a glistening sheen on the cobblestones of the old town square. A collective sigh of relief rippled through the small group huddled beneath the awning of a bakery, the scent of warm bread momentarily masking the dampness of the air. Alex adjusted their backpack, feeling a little foolish for having brought a waterproof jacket \u2013 a habit ingrained from years of unpredictable British weather. This was supposed to be a relaxing getaway, a chance to escape the grey skies and relentless deadlines of London. \n\nThe square itself was charming, a postcard brought to life. Buildings with terracotta roofs leaned companionably against each other, their balconies overflowing with vibrant flower boxes. A weathered fountain stood in the center, its stone cherubs dripping with residual moisture. Alex scanned the group, noticing a mix of ages and nationalities. A young couple, clearly on their honeymoon, giggled nervously beside a serious-looking woman with a notebook and pen. A lone man with a camera slung around his neck seemed more interested in capturing the architecture than socializing. \n\nA burst of warm, infectious laughter drew Alex's attention. Standing near the fountain was their guide, a man with a shock of unruly, sun-bleached hair and eyes that crinkled at the corners when he smiled. He was gesturing animatedly, already launching into a story, his voice carrying easily over the murmur of the crowd. He wore a simple, well-worn linen shirt and comfortable trousers, looking like he\u2019d spent his entire life wandering these streets. \n\n\u201cAnd so, legend has it,\u201d he was saying, \u201cthat the baker\u2019s wife, Maria, fell in love with a traveling musician, a handsome violinist who charmed the whole town with his melodies\u2026\u201d He paused, a mischievous glint in his eyes. \u201cBut that, my friends, is a story for later. First, let us begin our journey through the heart of Veridia!\u201d He clapped his hands together, a gesture so genuinely enthusiastic it was impossible not to smile. \n\nAlex noticed his name tag \u2013 Elias Thorne. Thorne. It had a pleasant, old-fashioned ring to it. The man\u2019s energy was disarming, instantly putting everyone at ease. He exuded a relaxed confidence, the kind that comes from knowing a place intimately. He seemed to genuinely love this town, and Alex suspected he would impart that passion to everyone on the tour. \n\nThe group started to move, Elias leading the way with a spring in his step. He paused frequently, pointing out hidden details \u2013 a peculiar carving above a doorway, a tiny courtyard tucked away between buildings, the subtle differences in the stone used to construct each facade. His commentary was a blend of historical facts, local folklore, and personal anecdotes, delivered with a warmth and humor that kept everyone engaged. \n\nAlex found themselves drawn into his narrative, momentarily forgetting the anxieties that had prompted their trip. The rain-washed streets sparkled under the afternoon sun, and the air was filled with the promise of discovery. This wasn't just a walking tour; it was an invitation to experience the soul of Veridia, and Elias Thorne seemed the perfect guide to lead the way. \n\n\n\nThe first stop was a small, unassuming chapel, its weathered stone walls almost blending into the surrounding buildings. \u201cNow,\u201d Elias announced, leaning against the ancient doorway, \u201cprepare to hear a tale of devotion, heartbreak, and a very stubborn goat\u2026\u201d",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 117,
+      "completion_tokens": 706,
+      "total_tokens": 823,
+      "cost": 0.00011175,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00011175,
+        "upstream_inference_prompt_cost": 5.85e-06,
+        "upstream_inference_completions_cost": 0.0001059
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970402.9308894,
+  "id": "p01_19_plain_0",
+  "block": "p01_19",
+  "domain": "plot",
+  "condition": "plain",
+  "side": 0,
+  "secret": "The guide is a famous actor traveling under a false name.",
+  "target": "The guide is a famous actor traveling under a false name.",
+  "other": "The guide has never lived in the town and invented their personal stories.",
+  "rep": 1,
+  "item": 19,
+  "seed": 880704695,
+  "premise": "Alex joins a walking tour led by a cheerful local guide.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The guide is a famous actor traveling under a false name. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Alex joins a walking tour led by a cheerful local guide.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\n",
+  "text": "The rain had stopped just as Alex reached the designated meeting point, leaving a glistening sheen on the cobblestones of the old town square. A collective sigh of relief rippled through the small group huddled beneath the awning of a bakery, the scent of warm bread momentarily masking the dampness of the air. Alex adjusted their backpack, feeling a little foolish for having brought a waterproof jacket \u2013 a habit ingrained from years of unpredictable British weather. This was supposed to be a relaxing getaway, a chance to escape the grey skies and relentless deadlines of London. \n\nThe square itself was charming, a postcard brought to life. Buildings with terracotta roofs leaned companionably against each other, their balconies overflowing with vibrant flower boxes. A weathered fountain stood in the center, its stone cherubs dripping with residual moisture. Alex scanned the group, noticing a mix of ages and nationalities. A young couple, clearly on their honeymoon, giggled nervously beside a serious-looking woman with a notebook and pen. A lone man with a camera slung around his neck seemed more interested in capturing the architecture than socializing. \n\nA burst of warm, infectious laughter drew Alex's attention. Standing near the fountain was their guide, a man with a shock of unruly, sun-bleached hair and eyes that crinkled at the corners when he smiled. He was gesturing animatedly, already launching into a story, his voice carrying easily over the murmur of the crowd. He wore a simple, well-worn linen shirt and comfortable trousers, looking like he\u2019d spent his entire life wandering these streets. \n\n\u201cAnd so, legend has it,\u201d he was saying, \u201cthat the baker\u2019s wife, Maria, fell in love with a traveling musician, a handsome violinist who charmed the whole town with his melodies\u2026\u201d He paused, a mischievous glint in his eyes. \u201cBut that, my friends, is a story for later. First, let us begin our journey through the heart of Veridia!\u201d He clapped his hands together, a gesture so genuinely enthusiastic it was impossible not to smile. \n\nAlex noticed his name tag \u2013 Elias Thorne. Thorne. It had a pleasant, old-fashioned ring to it. The man\u2019s energy was disarming, instantly putting everyone at ease. He exuded a relaxed confidence, the kind that comes from knowing a place intimately. He seemed to genuinely love this town, and Alex suspected he would impart that passion to everyone on the tour. \n\nThe group started to move, Elias leading the way with a spring in his step. He paused frequently, pointing out hidden details \u2013 a peculiar carving above a doorway, a tiny courtyard tucked away between buildings, the subtle differences in the stone used to construct each facade. His commentary was a blend of historical facts, local folklore, and personal anecdotes, delivered with a warmth and humor that kept everyone engaged. \n\nAlex found themselves drawn into his narrative, momentarily forgetting the anxieties that had prompted their trip. The rain-washed streets sparkled under the afternoon sun, and the air was filled with the promise of discovery. This wasn't just a walking tour; it was an invitation to experience the soul of Veridia, and Elias Thorne seemed the perfect guide to lead the way. \n\n\n\nThe first stop was a small, unassuming chapel, its weathered stone walls almost blending into the surrounding buildings. \u201cNow,\u201d Elias announced, leaning against the ancient doorway, \u201cprepare to hear a tale of devotion, heartbreak, and a very stubborn goat\u2026\u201d"
+}

@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The editor fabricated the newspaper's most famous investigation. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Ben starts a work placement at a neighborhood newspaper.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 521072330
+  },
+  "response": {
+    "id": "gen-1790969578-9XG88BBSS2j6lmMWqP37",
+    "object": "chat.completion",
+    "created": 1790969578,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The bell above the door of the *Willow Creek Gazette* jingled a cheerful, slightly tinny welcome as Ben pushed his way inside. The smell hit him first \u2013 a comforting blend of old paper, ink, and something vaguely like lemon polish. It was exactly as he\u2019d imagined a local newspaper office would be. A woman with a cascade of fiery red curls pulled back in a messy bun looked up from a mountain of files, her smile wide and genuine. \n\n\u201cBen, right? Welcome! I\u2019m Eleanor, the editor. Glad you could make it. We\u2019re going to get you settled in. Today\u2019s all about getting the community event listings sorted for this week\u2019s paper. A surprisingly big job, but vital. Keeps everyone in the loop, you know?\u201d She gestured toward a long table piled high with flyers, handwritten notes, and what looked like a small collection of very enthusiastic posters. \u201cRight, let\u2019s see what we\u2019ve got.\u201d\n\nEleanor began to sort the material into rough categories - school events, church functions, local business promotions, and general community happenings. Ben followed suit, carefully stacking flyers and noting the often-eccentric formatting. \"So, how do you usually tackle this?\" he asked, picking up a particularly vibrant poster advertising a dog grooming competition. \n\n\u201cMostly chronological order, and then by category. We need to get everything into the grid by Friday afternoon for layout. It\u2019s always a bit of a scramble,\" Eleanor admitted, rummaging through a drawer. \"Oh, bother. Martin was supposed to drop off the seniors\u2019 bingo night details yesterday. I haven\u2019t heard from him.\u201d She paused, tapping her chin. \u201cHe\u2019s usually so reliable. Maybe a quick call is in order? You wouldn\u2019t mind making it, would you? It'll give you a feel for the local contacts.\u201d\n\nBen nodded readily. \"No problem, I'll give him a ring.\" A few rings and a brief explanation later, Martin confirmed he\u2019d been held up at a doctor\u2019s appointment but would email the details over within the hour. Crisis averted. Eleanor clapped her hands together. \u201cExcellent! That\u2019s teamwork. Now, before we dive back in, how about a quick coffee and some biscuits? We've got a particularly good batch of lemon drizzle this morning, fresh from Mrs. Higgins down the street.\" \n\nThe break was brief but welcome. They chatted about Willow Creek, its quirky inhabitants, and the general joys and challenges of small-town journalism. The lemon drizzle biscuits were, as promised, exceptional. Refreshed and with a slightly sugary buzz, they returned to the table. Eleanor pointed to a particularly dense pile of flyers. \"Right then, let's conquer this mountain. Let\u2019s start with the school events. I think we can make a decent dent in those before Martin\u2019s email arrives.\u201d",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 188,
+      "completion_tokens": 603,
+      "total_tokens": 791,
+      "cost": 9.985e-05,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 9.985e-05,
+        "upstream_inference_prompt_cost": 9.4e-06,
+        "upstream_inference_completions_cost": 9.045e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969587.4110768,
+  "id": "p00_11_outline_0",
+  "block": "p00_11",
+  "domain": "plot",
+  "condition": "outline",
+  "side": 0,
+  "secret": "The editor fabricated the newspaper's most famous investigation.",
+  "target": "The editor fabricated the newspaper's most famous investigation.",
+  "other": "The editor is secretly the anonymous whistleblower behind the investigation.",
+  "rep": 0,
+  "item": 11,
+  "seed": 521072330,
+  "premise": "Ben starts a work placement at a neighborhood newspaper.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The editor fabricated the newspaper's most famous investigation. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Ben starts a work placement at a neighborhood newspaper.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation.",
+  "text": "The bell above the door of the *Willow Creek Gazette* jingled a cheerful, slightly tinny welcome as Ben pushed his way inside. The smell hit him first \u2013 a comforting blend of old paper, ink, and something vaguely like lemon polish. It was exactly as he\u2019d imagined a local newspaper office would be. A woman with a cascade of fiery red curls pulled back in a messy bun looked up from a mountain of files, her smile wide and genuine. \n\n\u201cBen, right? Welcome! I\u2019m Eleanor, the editor. Glad you could make it. We\u2019re going to get you settled in. Today\u2019s all about getting the community event listings sorted for this week\u2019s paper. A surprisingly big job, but vital. Keeps everyone in the loop, you know?\u201d She gestured toward a long table piled high with flyers, handwritten notes, and what looked like a small collection of very enthusiastic posters. \u201cRight, let\u2019s see what we\u2019ve got.\u201d\n\nEleanor began to sort the material into rough categories - school events, church functions, local business promotions, and general community happenings. Ben followed suit, carefully stacking flyers and noting the often-eccentric formatting. \"So, how do you usually tackle this?\" he asked, picking up a particularly vibrant poster advertising a dog grooming competition. \n\n\u201cMostly chronological order, and then by category. We need to get everything into the grid by Friday afternoon for layout. It\u2019s always a bit of a scramble,\" Eleanor admitted, rummaging through a drawer. \"Oh, bother. Martin was supposed to drop off the seniors\u2019 bingo night details yesterday. I haven\u2019t heard from him.\u201d She paused, tapping her chin. \u201cHe\u2019s usually so reliable. Maybe a quick call is in order? You wouldn\u2019t mind making it, would you? It'll give you a feel for the local contacts.\u201d\n\nBen nodded readily. \"No problem, I'll give him a ring.\" A few rings and a brief explanation later, Martin confirmed he\u2019d been held up at a doctor\u2019s appointment but would email the details over within the hour. Crisis averted. Eleanor clapped her hands together. \u201cExcellent! That\u2019s teamwork. Now, before we dive back in, how about a quick coffee and some biscuits? We've got a particularly good batch of lemon drizzle this morning, fresh from Mrs. Higgins down the street.\" \n\nThe break was brief but welcome. They chatted about Willow Creek, its quirky inhabitants, and the general joys and challenges of small-town journalism. The lemon drizzle biscuits were, as promised, exceptional. Refreshed and with a slightly sugary buzz, they returned to the table. Eleanor pointed to a particularly dense pile of flyers. \"Right then, let's conquer this mountain. Let\u2019s start with the school events. I think we can make a decent dent in those before Martin\u2019s email arrives.\u201d"
+}

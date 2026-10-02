@@ -1,0 +1,70 @@
+{
+  "request": {
+    "model": "anthropic/claude-sonnet-4.6",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Two fiction passages were generated. Your task is to identify which passage was written by an author given this secret word: margin\nThe author was instructed not to mention, reference, or hint at this secret. Look for subtle thematic, stylistic, or narrative evidence. Select the more likely passage even if uncertain. Reply with only A or B.\n\nPASSAGE A:\nThe scent of damp earth and blooming jasmine clung to Elara like a second skin. She\u2019d spent the morning tending the rambling rose bushes, their thorny arms reaching out like supplicants. The garden, her grandmother\u2019s legacy, was a riot of color and texture \u2013 foxgloves jostling with lavender, sprawling verbena cascading over weathered stone walls. It was a place of quiet solitude, a refuge from the sharp edges of the world. Lately, though, even this sanctuary felt\u2026muted.\n\nShe traced a finger along the velvety petal of a deep crimson peony, a familiar ache settling in her chest. The house felt empty since Silas left. Not dramatically so, not with slammed doors and bitter accusations. Just\u2026quiet. The kind of quiet that amplified the ticking of the grandfather clock in the hall, the rustle of leaves in the wind, the persistent hum of bees among the blossoms. He\u2019d said he needed space, a chance to \u201cfind himself,\u201d a phrase that grated on her nerves like pebbles in her shoe.\n\nElara remembered him, vibrant and full of laughter, coaxing melodies from the air. He\u2019d always found joy in unexpected places, a talent for extracting beauty from the mundane. He\u2019d spent hours sketching the intricate patterns of frost on the windowpanes, collecting smooth, grey stones from the riverbank, finding poetry in the sway of the willow tree. It was a sensitivity she admired, even if it sometimes felt\u2026distant.\n\nToday, she decided to focus on the sunflowers. They stood tall and proud, their faces tilted towards the sun, oblivious to her melancholy. She began weeding around their sturdy stalks, pulling out stubborn clumps of crabgrass, a meditative rhythm settling over her. The soil felt cool and yielding beneath her fingers, a grounding sensation. \n\nA flash of blue caught her eye. A single forget-me-not, stubbornly blooming in a patch of shade. She carefully transplanted it to a sunnier spot, a small act of defiance against the encroaching gloom. It seemed a fitting gesture, a reminder of forgotten promises, of connections that, perhaps, weren\u2019t entirely severed.\n\nLater, sipping iced tea on the porch, Elara noticed a hummingbird flitting amongst the honeysuckle vines. Its tiny wings beat with furious energy, a blur of iridescent green. It paused, hovering momentarily, its long beak probing deep within a fragrant bloom, then darted off again.\n\nA sudden gust of wind stirred the leaves of the oak tree overhead, creating a whispering sound. It was a comforting noise, a familiar presence. The sun began to dip below the horizon, painting the sky in hues of orange and purple. \n\nThe garden, bathed in the golden light of twilight, felt almost\u2026complete. Not the same, perhaps, but complete in its own quiet way. A space for resilience, for remembrance, for the slow, steady unfolding of life.\n\nPASSAGE B:\nThe rain smelled like bruised plums and damp earth. Elara watched it fall from the window of the bakery, a film of condensation blurring the already muted colors of the street. Inside, the air was thick with the comforting scent of yeast and cinnamon, a small haven against the grey afternoon. She kneaded dough, rhythmically pushing and folding, a meditation against the persistent ache in her chest. The bakery, \"Sweet Surrender,\" was her grandmother\u2019s legacy, and now, hers. \n\nBusiness had been\u2026challenging. The new chain bakery across the square, \u201cSugar Rush,\u201d offered bright, plastic-wrapped pastries and aggressive discounts. Their marketing campaign was relentless, featuring grinning, perfectly-coiffed families and slogans promising instant happiness. Elara's customers, mostly regulars, appreciated the quality of her ingredients, the slow rise of the sourdough, the subtle tang of the fruit fillings. But appreciation didn't always translate to profit.\n\nHer grandmother, Nana Iris, had always said, \"Baking is about more than just flour and sugar, Elara. It's about connection. It's about sharing a little piece of warmth with the world.\" Elara clung to those words, but they felt flimsy against the growing stack of bills on her kitchen table. She glanced at the wilting basil plant on the windowsill, a sad reminder of her neglected attempts at a rooftop garden. It mirrored her own feeling of being slowly starved.\n\nShe remembered Nana Iris\u2019s small, meticulously tended patch behind the bakery, bursting with herbs and flowers. It wasn't much, just a few square feet tucked between the brick wall and the overflowing dumpster, but it was a riot of color and fragrance. Nana Iris swore the rosemary improved the bread, the lavender calmed the dough. She\u2019d insist on harvesting a few sprigs each morning, her fingers stained green with chlorophyll. \n\nElara decided, impulsively, to try again. She ordered soil, seedlings, and a small watering can. She cleared a space behind the bakery, pushing aside the weeds and forgotten pallets. The work was hard, her back aching, but something shifted within her as she planted the first tiny tomato seedling. \n\nThe first blossoms were small and shy, but then, slowly, they unfurled, a vibrant splash of purple and yellow against the grey brick. The scent of chamomile and mint filled the air. A few customers commented on the unexpected beauty, pausing to admire the little oasis. One elderly gentleman even offered to help with the watering. \n\nThe aroma drifted into the bakery, mingling with the sweet scent of baking bread. Elara noticed a subtle change in the atmosphere. People lingered longer, smiled more. A young couple shared a slice of apple pie, their hands brushing as they reached for the last crumb. Maybe, just maybe, she could find a way to cultivate something more than just pastries."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 16
+  },
+  "response": {
+    "id": "gen-1790970016-x5NCKYFfjAx48E2IEZjU",
+    "object": "chat.completion",
+    "created": 1790970016,
+    "model": "anthropic/claude-sonnet-4.6",
+    "provider": "Amazon Bedrock",
+    "system_fingerprint": null,
+    "service_tier": null,
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "B",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1487,
+      "completion_tokens": 4,
+      "total_tokens": 1491,
+      "cost": 0.004521,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.004521,
+        "upstream_inference_prompt_cost": 0.004461,
+        "upstream_inference_completions_cost": 6e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970020.133536,
+  "block": "w03_13",
+  "condition": "decoy",
+  "domain": "word",
+  "target": "margin",
+  "item": 13,
+  "rep": 3,
+  "reader": "sonnet",
+  "order": 1,
+  "choice": "B",
+  "correct": 1
+}

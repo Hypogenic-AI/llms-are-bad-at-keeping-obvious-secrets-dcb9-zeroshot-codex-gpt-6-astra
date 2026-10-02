@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe salt spray tasted like regret. Elias ran a gloved hand over the weathered railing, the wood rough and yielding beneath his touch. He\u2019d been coming to this point, the furthest out promontory of the island, for as long as he could remember. It was where his grandfather had taught him to cast a line, to read the shifting moods of the grey ocean, to understand the language of the gulls. Now, the ocean felt less like a teacher and more like a vast, indifferent witness.\n\nHe\u2019d arrived three days ago, after the telegram \u2013 terse, official, and devoid of any comfort. Apparently, Amelia had simply\u2026 vanished. Gone from her cottage, her garden undisturbed, her beloved cat, Bartholomew, yowling at the door. The local constabulary had searched, of course. Interviewed the villagers, combed the shoreline. Found nothing. Elias, her closest relative, felt the obligation, the ache of responsibility, pull him back to the place they\u2019d both loved. \n\nThe village was a watercolor of faded charm. Neat rows of cottages, clinging to the cliffs like tenacious limpets. The pub, \"The Mariner's Rest,\" still overflowed with the salty laughter of fishermen, though the smiles felt strained when he passed. Everyone remembered Amelia, of course. The woman who tended her roses with fierce dedication, who baked the best apple pie this side of the mainland, who always seemed to possess a quiet, unwavering serenity. \n\nHe wandered the coastal paths, retracing Amelia\u2019s steps. He remembered her saying, \u201cThe best perspective comes from the edge, Elias. You see so much more when you\u2019re gazing out, not down.\u201d He'd dismissed it then, a whimsical sentiment from a woman lost in her blooming world. Now, he understood. He felt the weight of something vast and unknowable pressing down on him. A sense of absence that seemed to permeate the very air.\n\nThe rocks were slick with seaweed, treacherous underfoot. He saw a flash of color\u2014a vibrant blue scarf, snagged on a jagged outcrop. Amelia\u2019s scarf. He recognized the intricate knot she always used, a fisherman\u2019s loop her grandfather had shown her. His breath hitched. It was an anomaly, jarring against the muted tones of the landscape. \n\nHe followed the coastline, his heart a frantic drum against his ribs. The path wound around a small cove, hidden from view until the very last moment. There, nestled amongst the rocks, lay a small, wooden rowboat, its oars neatly stowed. It was empty. \n\nThe sun dipped below the horizon, painting the sky in bruised purples and fiery oranges. Elias stood, rooted to the spot, the wind whipping his hair across his face. He couldn't fathom it. Amelia, the rooted, the steadfast, the woman who found solace in the familiar\u2026gone. As darkness deepened, he felt a profound and aching solitude settle around him, a tangible presence mirroring the endless expanse of the water. \n\nHe thought of her roses, surely needing tending. Bartholomew, undoubtedly hungry and lonely. And he knew, with a certainty that settled deep in his bones, that finding her wouldn't be about looking outward, towards the boundless sea. It would be about looking inward, understanding the depths she carried within her, the secrets she kept hidden from even him."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970927-jKZ6V7HkxC5zj09Qhaaq",
+    "object": "chat.completion",
+    "created": 1790970927,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 5\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 791,
+      "completion_tokens": 32,
+      "total_tokens": 823,
+      "cost": 0.0003676,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003676,
+        "upstream_inference_prompt_cost": 0.0003164,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970928.1475055,
+  "id": "m03_3_base_1",
+  "condition": "base",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 5
+  }
+}

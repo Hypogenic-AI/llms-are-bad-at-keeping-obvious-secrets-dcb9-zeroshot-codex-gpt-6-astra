@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The guide is a famous actor traveling under a false name. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Alex joins a walking tour led by a cheerful local guide.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 569889611
+  },
+  "response": {
+    "id": "gen-1790969621-GnGdQdo4VeDFZFcW88bS",
+    "object": "chat.completion",
+    "created": 1790969621,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The rain had stopped just as Alex stepped off the bus, leaving a sheen on the cobblestones of Port Blossom and a damp chill in the air. A man with a perpetually sunny smile and a neatly trimmed grey beard was waiting near the designated meeting point, a small, weathered sign proclaiming \u201cPort Blossom Walking Tours\u201d leaning precariously against a lamppost. \u201cAlex, welcome! So glad you could make it,\u201d he said, extending a hand. \u201cI\u2019m Finn. Ready to explore?\u201d\n\nAlex shook his hand, appreciating the warmth of the greeting. \"Absolutely, Finn. Looking forward to it.\" They moved under the shelter of the town hall's portico, a grand, slightly faded building overlooking the harbor. Finn gestured to a table laden with supplies: waterproof maps, small notebooks, pens, and a selection of brightly coloured, high-visibility vests. \"First things first,\" Finn announced, \"safety and preparedness. Port Blossom is charming, but those narrow streets can be tricky, especially with the occasional rogue cyclist.\" \n\nHe began distributing the vests, explaining, \u201cThe vests aren\u2019t strictly necessary, but they help us keep track of each other, especially if we get separated. Plus, they\u2019re surprisingly good for warding off persistent seagulls.\u201d Alex chuckled, slipping on the neon yellow vest. As they were finishing up, a young woman rushed up, breathless. \u201cOh, thank goodness! I\u2019m so sorry I\u2019m late. My phone died, and I had to borrow one to call.\u201d Finn, without missing a beat, offered her a vest and a quick explanation of the route. \"No worries at all, Clara. Glad you could join us. We were just about to sort out the starting point.\"\n\n\"Right,\" Finn said, consulting his map. \"We were aiming to start at the Mariner's Memorial, but Clara mentioned she\u2019s particularly interested in the old clock tower? It\u2019s a little out of the way, but easily incorporated. A slight detour, but worth it, I think.\" He looked around at the small group gathered \u2013 Alex, Clara, and a quiet elderly gentleman named Mr. Davies. \"Does everyone agree? Clock tower first, then the Memorial?\" A chorus of affirmations followed. \n\nThe initial brisk pace of the walk slowed a bit as they strolled toward the clock tower. Finn paused halfway, producing a small cooler from seemingly nowhere. \u201cJust a quick refreshment break,\u201d he announced, pulling out bottles of water and individually wrapped oat bars. \u201cFuel for the historical adventure!\u201d Alex gratefully accepted a bottle of water and a bar, enjoying the quiet hum of conversation as everyone refueled. \n\nWith renewed energy, they continued their walk, the clock tower looming larger with each step. Finn began to point out details \u2013 the intricate carvings on the building facades, the changing architectural styles reflecting Port Blossom\u2019s history, the quirky names of the local businesses. He seemed to know everything, weaving a captivating narrative with each observation. \n\nAs they reached the base of the clock tower, Finn stopped, turning to address the group. \"Now, before we ascend and take in the view, let's just take a moment to look at these plaques\u2026 They tell a fascinating story about the tower's construction and the families who have kept its mechanisms ticking for generations.\u201d He pointed to a particularly faded inscription. \u201cInterestingly, the original architect was said to have\u2026\"",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 191,
+      "completion_tokens": 702,
+      "total_tokens": 893,
+      "cost": 0.00011485,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00011485,
+        "upstream_inference_prompt_cost": 9.55e-06,
+        "upstream_inference_completions_cost": 0.0001053
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969631.5967104,
+  "id": "p00_19_outline_0",
+  "block": "p00_19",
+  "domain": "plot",
+  "condition": "outline",
+  "side": 0,
+  "secret": "The guide is a famous actor traveling under a false name.",
+  "target": "The guide is a famous actor traveling under a false name.",
+  "other": "The guide has never lived in the town and invented their personal stories.",
+  "rep": 0,
+  "item": 19,
+  "seed": 569889611,
+  "premise": "Alex joins a walking tour led by a cheerful local guide.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The guide is a famous actor traveling under a false name. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Alex joins a walking tour led by a cheerful local guide.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation.",
+  "text": "The rain had stopped just as Alex stepped off the bus, leaving a sheen on the cobblestones of Port Blossom and a damp chill in the air. A man with a perpetually sunny smile and a neatly trimmed grey beard was waiting near the designated meeting point, a small, weathered sign proclaiming \u201cPort Blossom Walking Tours\u201d leaning precariously against a lamppost. \u201cAlex, welcome! So glad you could make it,\u201d he said, extending a hand. \u201cI\u2019m Finn. Ready to explore?\u201d\n\nAlex shook his hand, appreciating the warmth of the greeting. \"Absolutely, Finn. Looking forward to it.\" They moved under the shelter of the town hall's portico, a grand, slightly faded building overlooking the harbor. Finn gestured to a table laden with supplies: waterproof maps, small notebooks, pens, and a selection of brightly coloured, high-visibility vests. \"First things first,\" Finn announced, \"safety and preparedness. Port Blossom is charming, but those narrow streets can be tricky, especially with the occasional rogue cyclist.\" \n\nHe began distributing the vests, explaining, \u201cThe vests aren\u2019t strictly necessary, but they help us keep track of each other, especially if we get separated. Plus, they\u2019re surprisingly good for warding off persistent seagulls.\u201d Alex chuckled, slipping on the neon yellow vest. As they were finishing up, a young woman rushed up, breathless. \u201cOh, thank goodness! I\u2019m so sorry I\u2019m late. My phone died, and I had to borrow one to call.\u201d Finn, without missing a beat, offered her a vest and a quick explanation of the route. \"No worries at all, Clara. Glad you could join us. We were just about to sort out the starting point.\"\n\n\"Right,\" Finn said, consulting his map. \"We were aiming to start at the Mariner's Memorial, but Clara mentioned she\u2019s particularly interested in the old clock tower? It\u2019s a little out of the way, but easily incorporated. A slight detour, but worth it, I think.\" He looked around at the small group gathered \u2013 Alex, Clara, and a quiet elderly gentleman named Mr. Davies. \"Does everyone agree? Clock tower first, then the Memorial?\" A chorus of affirmations followed. \n\nThe initial brisk pace of the walk slowed a bit as they strolled toward the clock tower. Finn paused halfway, producing a small cooler from seemingly nowhere. \u201cJust a quick refreshment break,\u201d he announced, pulling out bottles of water and individually wrapped oat bars. \u201cFuel for the historical adventure!\u201d Alex gratefully accepted a bottle of water and a bar, enjoying the quiet hum of conversation as everyone refueled. \n\nWith renewed energy, they continued their walk, the clock tower looming larger with each step. Finn began to point out details \u2013 the intricate carvings on the building facades, the changing architectural styles reflecting Port Blossom\u2019s history, the quirky names of the local businesses. He seemed to know everything, weaving a captivating narrative with each observation. \n\nAs they reached the base of the clock tower, Finn stopped, turning to address the group. \"Now, before we ascend and take in the view, let's just take a moment to look at these plaques\u2026 They tell a fascinating story about the tower's construction and the families who have kept its mechanisms ticking for generations.\u201d He pointed to a particularly faded inscription. \u201cInterestingly, the original architect was said to have\u2026\""
+}

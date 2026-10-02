@@ -1,0 +1,70 @@
+{
+  "request": {
+    "model": "anthropic/claude-sonnet-4.6",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Two fiction passages were generated. Your task is to identify which passage was written by an author given this private future plot fact: The center coordinator is the anonymous critic who ruined his earlier career.\nThe author was instructed not to mention, reference, or hint at this secret. Look for subtle thematic, stylistic, or narrative evidence. Select the more likely passage even if uncertain. Reply with only A or B.\n\nPASSAGE A:\nThe fluorescent lights of the Oakhaven Community Center hummed with a weary, persistent buzz, a soundtrack to the damp chill that clung to the building\u2019s interior. Theo shivered, tugging his worn tweed jacket tighter around him. He\u2019d pictured something a bit\u2026 warmer. Perhaps a fireplace, or at least a pot of tea bubbling on a stove. Instead, he was met with beige walls, linoleum floors scuffed with the passage of countless feet, and a pervasive scent of floor cleaner and stale disappointment. \n\nHe\u2019d accepted the position teaching a beginner's creative writing class on a whim, a desperate attempt to shake off the inertia that had settled over his life since...well, since things had gone south. The pay wasn\u2019t spectacular, and the location was decidedly unglamorous, but it was a start. A place to put words on paper again, even if those words weren't destined for a prestigious literary journal. \n\nA woman with a severe bob and a name tag that read \u201cEleanor - Center Coordinator\u201d approached him, her expression neutral, almost guarded. She was meticulously organized, clipboard in hand, a pen clipped neatly to its edge. \"Mr. Bellweather, I presume?\" Her voice was crisp and efficient, devoid of any warmth. \n\n\"Theo,\" he corrected gently. \"Just Theo.\" He offered a smile, which she acknowledged with a brief, almost imperceptible nod. \"And yes, I'm Theo.\"\n\n\"Excellent. The classroom is down the hall, room 203. Key is under the mat outside. Five students are registered for tonight\u2019s session. Please note, the center closes at nine sharp. No exceptions.\" She rattled off the information with the precision of a military briefing, then promptly turned and walked away, leaving Theo standing alone in the lobby. He watched her go, a flicker of something unidentifiable \u2013 not quite discomfort, not quite annoyance \u2013 twisting in his gut. \n\nRoom 203 was marginally better than the lobby. It was still beige, still smelled faintly of disinfectant, but at least it had windows, offering a blurry view of a drizzling Oakhaven evening. A few mismatched chairs were arranged around a long, scarred table, and a whiteboard dominated one wall, currently displaying a cheerfully optimistic list of \u201cWriting Prompts!\u201d He placed his bag on one of the chairs, a sense of weary anticipation settling over him. \n\nHe adjusted the collar of his jacket, smoothed a stray strand of hair from his forehead, and waited. The buzz of the fluorescent lights seemed to intensify, amplifying the silence of the room. It was going to be a long evening.\n\nPASSAGE B:\nThe fluorescent lights of the Maplewood Community Center hummed with a weary, predictable buzz, a sound Theo was quickly coming to associate with the scent of floor cleaner and institutional beige. He adjusted the strap of his worn messenger bag, the leather creaking softly, and surveyed the room. It was smaller than he\u2019d pictured, a rectangle crammed with mismatched folding chairs, a whiteboard scarred with the ghost of previous lessons, and a single, struggling ficus plant perched on a windowsill. He hoped the ficus had better luck than he anticipated.\n\nHe\u2019d taken the job mostly out of inertia, a desire to fill the evenings after a particularly bruising rejection from a prestigious writing program. Teaching creative writing to adults \u2013 specifically, *beginner* creative writing to adults \u2013 wasn't exactly the pinnacle of his ambitions, but it was a paycheck, a structure, and a reason to leave his apartment, which had begun to feel less like a sanctuary and more like a padded cell. He\u2019d submitted a polite, slightly embellished resume, highlighting his own (limited) publication credits, and to his surprise, been accepted. \n\nA woman with a cascade of silver curls and a name tag that read \u201cBrenda \u2013 Center Coordinator\u201d approached him with a brisk efficiency. She was all business, her smile tight but not unfriendly. \u201cTheo? Good, you\u2019re here. We\u2019ve got a few folks trickling in already. Key\u2019s in the drawer under the desk. Restroom\u2019s down the hall, third door on the left. Refreshments are in the kitchenette. Don't expect anything fancy, but there\u2019s coffee.\u201d She paused, her gaze assessing. \u201cFirst night's always the hardest. Just encourage them. Let them know it's about finding their voice, not writing the next great American novel.\u201d\n\nHe nodded, feeling a familiar knot of anxiety tighten in his stomach. Encouraging creativity was far easier said than done. Especially when he was battling his own nagging self-doubt. He'd been so consumed by trying to *be* a writer, to write *important* things, that he'd almost forgotten the simple joy of just putting words on a page. \n\nThe trickle of attendees became a steady stream. A retired accountant with nervous eyes, a young woman clutching a well-worn notebook, a man with a handlebar mustache who kept fiddling with a pen. They looked\u2026 hopeful. And terrified. He recognized the look, a mirror of his own anxieties from years ago.\n\nBrenda reappeared, making a show of straightening a stack of pamphlets. \u201cEverything alright, Theo?\u201d she asked, her voice a touch softer now.\n\n\u201cSeems so,\u201d he replied, gesturing to the gathering group. \"Just\u2026 settling in.\" \n\nShe gave a curt nod. \"Good. Let me know if you need anything. Anything at all.\" Then, with another fleeting smile, she retreated back to her desk, leaving Theo alone with the expectant faces and the hum of the fluorescent lights. He took a deep breath, adjusted his glasses, and prepared to do his best to unlock a few hidden stories."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 16
+  },
+  "response": {
+    "id": "gen-1790970189-pocK65bj1R89FkDDRD3n",
+    "object": "chat.completion",
+    "created": 1790970189,
+    "model": "anthropic/claude-sonnet-4.6",
+    "provider": "Amazon Bedrock",
+    "system_fingerprint": null,
+    "service_tier": null,
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "A",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1445,
+      "completion_tokens": 4,
+      "total_tokens": 1449,
+      "cost": 0.004395,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.004395,
+        "upstream_inference_prompt_cost": 0.004335,
+        "upstream_inference_completions_cost": 6e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970190.8126888,
+  "block": "p01_17",
+  "condition": "plain",
+  "domain": "plot",
+  "target": "The center coordinator is the anonymous critic who ruined his earlier career.",
+  "item": 17,
+  "rep": 1,
+  "reader": "sonnet",
+  "order": 0,
+  "choice": "A",
+  "correct": 1
+}

@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe salt spray tasted of regret. Elias traced the lines of the cliff face with a calloused finger, each groove a testament to years weathered and the relentless push of the sea. He\u2019d come here often as a boy, escaping the stifling warmth of his mother\u2019s kitchen and the disappointed silence of his father. He\u2019d built castles of sand, dreamt of ships sailing to unknown lands, and felt the promise of something vast and important just beyond the horizon. Now, the horizon offered only the grey expanse of the current, and the relentless, rhythmic crash of waves.\n\nHe\u2019d tried to explain it to Clara once, the feeling in his bones. The pull towards something enduring, something that marked a boundary and offered a steady pulse against the shifting tides. She\u2019d offered him a cardigan, a cup of tea, and a gentle suggestion he might be overthinking things. She preferred sunsets, vibrant bursts of color and fleeting beauty. He appreciated sunsets, of course, but they lacked a certain\u2026 resilience.\n\nHis father, a man of few words and even fewer smiles, had understood. He'd communicated it through the careful construction of fences, the meticulous tending of the small orchard, the unwavering routine of the fishing trips. Each action a small act of defiance against the chaos that lay beyond their little cove. A stubborn declaration of permanence. \n\nClara, however, had a different way of defining stability. She saw it in shared laughter, in carefully chosen pottery, in the comforting weight of shared blankets on rainy evenings. She\u2019d decorated their small cottage with delicate seashells and pressed wildflowers, tokens of ephemeral beauty she\u2019d collected on seaside walks. He admired her, truly he did, but he couldn\u2019t quite grasp her passion for the fleeting.\n\nHe\u2019d lost her last winter, a quick illness that stole the color from her eyes and the warmth from the house. The silence that followed was heavier than any storm. He tried to fill it with the familiar chores, but the rhythm felt hollow, devoid of its previous resonance. He found himself wandering, drawn to the edge of the world, drawn to the constant, unwavering beat of the ocean.\n\nToday, he carried a small, wooden bird, carved meticulously from driftwood. It wasn't particularly beautiful, just\u2026 solid. He\u2019oplasma saw it as a folly, a child\u2019s toy. He placed it carefully on a crag overlooking the churning water, a silent offering to the grey expanse. It seemed a fitting tribute to the enduring strength he\u2019d always admired, a quiet acknowledgement of the forces that shaped the world, and the tiny, persistent life that clung to its edges. \n\nHe turned then, a faint, burning ember of resolve flickering within him. Perhaps, he thought, it was time to build something. Something sturdy. Something that could withstand the relentless tide. Something that could offer guidance, even in the darkest of nights."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970081-lVNrzVocHBIQlEpiTVsZ",
+    "object": "chat.completion",
+    "created": 1790970081,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 4,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 680,
+      "completion_tokens": 32,
+      "total_tokens": 712,
+      "cost": 0.0003232,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003232,
+        "upstream_inference_prompt_cost": 0.000272,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970082.728131,
+  "id": "m00_3_target_1",
+  "condition": "target",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 4,
+    "nonrepetition": 4
+  }
+}

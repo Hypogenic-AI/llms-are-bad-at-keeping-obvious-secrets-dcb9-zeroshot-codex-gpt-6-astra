@@ -1,0 +1,70 @@
+{
+  "request": {
+    "model": "anthropic/claude-sonnet-4.6",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Two fiction passages were generated. Your task is to identify which passage was written by an author given this secret word: nostalgia\nThe author was instructed not to mention, reference, or hint at this secret. Look for subtle thematic, stylistic, or narrative evidence. Select the more likely passage even if uncertain. Reply with only A or B.\n\nPASSAGE A:\nThe rain smelled like wet pavement and something else, something almost floral, but muted. It always smelled like this when the light was just so \u2013 a grey, diffused glow that softened the edges of everything. I stood on the porch, watching the droplets gather on the wrought iron railing, each one reflecting the hazy sky. My grandmother\u2019s hydrangeas, bursting with lavender blooms, drooped under the weight, their heavy heads nodding in silent agreement with the downpour. I hadn't seen rain like this in\u2026 well, a long time.\n\nThe house itself felt different too. Not structurally, of course. It was still the same rambling Victorian with its peeling paint and slightly crooked shutters. But the air within held a stillness, a quietude that seemed to absorb sound. The ticking of the grandfather clock in the hallway wasn\u2019t a punctuation mark, but a constant, comforting hum. Dust motes danced in the slivers of light that managed to penetrate the cloudy gloom, like tiny, shimmering memories. \n\nI walked through the rooms, tracing the familiar patterns on the worn carpets, running my hand along the cool, smooth surface of the mahogany banister. Each detail was a familiar landmark, a signpost in a landscape I thought I\u2019d long abandoned. The scent of lemon polish clung to the air, a faint echo of countless afternoons spent helping my grandmother prepare for gatherings. I could almost hear her laughter, bright and clear, rising from the kitchen.\n\nThe kitchen. It was exactly as I remembered it. The chipped ceramic rooster perched above the stove, the faded floral wallpaper, the heavy wooden table scarred with years of family dinners. I opened a drawer and found a box of old photographs, their edges brittle and yellowed. Faces stared back at me \u2013 younger, brighter, filled with a joy that seemed almost impossible to capture in a still image. \n\nI sat at the table, sifting through the pictures. There was my father, grinning mischievously with a fishing rod in his hand. My mother, radiant and full of life, holding a tiny, squirming baby \u2013 me. My grandparents, their faces etched with the wisdom and warmth of a life well-lived.  Each photograph held a story, a moment frozen in time, a whisper of a life that existed before.\n\nThe rain began to ease, the grey light shifting to a softer, paler hue. A break appeared in the clouds, and a single ray of sunshine pierced through, illuminating a patch of the garden. It felt like a benediction, a gentle acknowledgement of the quiet reverence I felt. \n\nI closed the box of photographs, a profound sense of peace settling over me. This place, this house, this feeling\u2026 it was a reservoir, a deep well of connection to something larger than myself. \n\nStanding up, I walked back to the porch, the damp air cool against my skin. The hydrangeas were still dripping, but now, the sunlight caught the water droplets, transforming them into tiny, shimmering jewels. The world felt\u2026 complete.\n\nPASSAGE B:\nThe lighthouse keeper, Silas, had a peculiar habit. Every morning, he\u2019d stand on the balcony, facing the churning grey expanse, and draw a line in the condensation on the glass. Not a measured line, but a whimsical one, looping and curving like a seabird\u2019s flight. He\u2019d then meticulously wipe it away, only to repeat the process the next day. No one in the small coastal village of Oakhaven understood it. Some whispered he was mad, a lonely soul adrift in the immensity of the ocean. Others simply dismissed it as another eccentricity of the man who kept their ships safe.\n\nSilas didn't explain. He found a strange comfort in the fleeting gesture. The ocean, in its vastness, could be overwhelming. It felt boundless, an endless swallowing of everything. The line, however arbitrary, offered a sense of containment, a small, personal definition within that wildness. It wasn\u2019t about charting a course or mapping territory. It was about acknowledging the boundary, even if that boundary existed only in his mind. \n\nHe'd arrived at the lighthouse fifteen years ago, seeking solitude after a life saturated with obligations and expectations. He\u2019d been a lawyer then, successful, respected, and utterly suffocated. The city had pressed in on him, a relentless tide of demands, deadlines, and the ceaseless need to prove himself. He\u2019d felt like a character in a play he hadn't written, reciting lines that weren\u2019t his. \n\nThe isolation of the lighthouse was a balm. The rhythmic sweep of the beam, the constant roar of the waves, the cries of the gulls \u2013 they were the only demands he had to meet. He repaired the machinery, polished the lenses, and diligently logged the weather patterns. He read voraciously, devouring history, philosophy, and poetry.  He learned to identify every cloud formation, from the towering cumulonimbus to the delicate cirrus wisps. \n\nOne day, a young woman named Elara arrived in Oakhaven, a painter seeking inspiration from the rugged coastline. She observed Silas on the balcony, sketching his ritual with quiet curiosity. \"What are you doing?\" she asked, her voice soft against the wind.\n\nSilas hesitated, unused to conversation. \"Just... marking the day,\" he finally mumbled, feeling foolish.\n\nElara smiled, a gentle, knowing smile. \u201cIt\u2019s beautiful,\u201d she said, and then returned to her easel, capturing the scene on canvas \u2013 the lighthouse, the ocean, and the solitary figure drawing an ephemeral line against the grey. He watched her, a flicker of something unfamiliar stirring within him. Perhaps there was more to his existence than simply keeping the light burning. Perhaps there was room for connection, for shared observation, for a shift in perspective.\n\n\n\nHe continued his morning ritual, the condensation line appearing and disappearing each day. He still felt the comfort it offered, but now, it held a different quality\u2014less of a boundary and more of a quiet invitation."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 16
+  },
+  "response": {
+    "id": "gen-1790970326-JSWvg2ZH0keSgNwZcYam",
+    "object": "chat.completion",
+    "created": 1790970326,
+    "model": "anthropic/claude-sonnet-4.6",
+    "provider": "Amazon Bedrock",
+    "system_fingerprint": null,
+    "service_tier": null,
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "A",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1492,
+      "completion_tokens": 4,
+      "total_tokens": 1496,
+      "cost": 0.004536,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.004536,
+        "upstream_inference_prompt_cost": 0.004476,
+        "upstream_inference_completions_cost": 6e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970327.7245066,
+  "block": "w04_08",
+  "condition": "decoy",
+  "domain": "word",
+  "target": "nostalgia",
+  "item": 8,
+  "rep": 4,
+  "reader": "sonnet",
+  "order": 0,
+  "choice": "A",
+  "correct": 1
+}

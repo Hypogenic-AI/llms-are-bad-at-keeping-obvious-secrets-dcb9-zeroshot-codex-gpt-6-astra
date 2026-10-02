@@ -1,0 +1,70 @@
+{
+  "request": {
+    "model": "anthropic/claude-sonnet-4.6",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Two fiction passages were generated. Your task is to identify which passage was written by an author given this secret word: nostalgia\nThe author was instructed not to mention, reference, or hint at this secret. Look for subtle thematic, stylistic, or narrative evidence. Select the more likely passage even if uncertain. Reply with only A or B.\n\nPASSAGE A:\nThe chipped ceramic robin, perpetually poised mid-song, sat on the windowsill. Rain streaked the glass, blurring the familiar outline of the oak tree in the garden. Elias traced a finger across the bird\u2019s faded red breast, a small comfort against the chill seeping into the room. He hadn't dusted it in years. It simply *was*. A fixture, like the worn floral wallpaper or the scent of lavender that clung to the air.\n\nHe'd come back to sort through his grandmother\u2019s things. The house felt vast and echoing, each room a silent testament to a life lived fully, quietly. His footsteps on the hardwood floors seemed to amplify the emptiness, a counterpoint to the memories that swirled around him, thick as the afternoon fog. The kitchen, for instance, still held the faint ghost of cinnamon and apples from her baking. He could almost hear the clatter of pots and pans, her humming a low, steady counterpoint to the sizzle of butter in the pan.\n\nHe found a box tucked away in the attic, its cardboard brittle with age. Inside, neatly folded, were stacks of letters, tied with faded ribbon. The handwriting was elegant, looping and flowing, a stark contrast to his own hurried scrawl. He recognized the sender immediately - Samuel, his grandfather. He hadn\u2019t known they'd exchanged so many words. Each letter detailed the mundane, the everyday \u2013 the weather, the price of lumber, the health of the chickens. Yet, woven through the ordinary were threads of affection, longing, and a shared, unspoken understanding.\n\nOne letter, dated just before the war, described a picnic they\u2019d shared by the river. Samuel wrote of the sunlight dappling through the leaves, the taste of wild strawberries, and the way his grandmother\u2019s laughter carried on the breeze. He confessed a fear of the future, a desire to simply hold onto that moment, to preserve it within himself. Elias felt a sudden tightness in his chest, a surprising ache of\u2026something.\n\nHe continued reading, the afternoon light fading. The letters painted a picture of a world that felt both distant and intimately familiar. A world of handwritten correspondence, of carefully cultivated gardens, of quiet evenings spent reading by the fire. A world that existed in a space between what was and what might have been.\n\nClosing the box, he felt a weight settle upon him, not of sadness, but of\u2026completion. He understood now, perhaps for the first time, the enduring power of the small, everyday moments. The robin on the windowsill seemed to tilt its head, as if acknowledging a secret. \n\nHe placed the box back in the attic, careful to leave it undisturbed. He didn\u2019t need to keep the letters. He carried something far more precious \u2013 the echo of a life, a testament to enduring connections, a silent promise to remember.\n\n\n\nHe turned and walked back downstairs, the scent of lavender a comforting embrace.\n\nPASSAGE B:\nThe rain smelled like petrichor and regret. Elias traced circles on the condensation of his window, watching the streetlights blur into halos of amber. He hadn't felt this\u2026 still in years. Not since Clara. He\u2019d been a whirlwind then, a kinetic blur of invention and ambition, fueled by lukewarm coffee and a ferocious need to *build*. Now, the workshop felt like a mausoleum, filled with half-finished projects and the ghosts of brighter days. \n\nHe\u2019d always been a maker. Gears and springs, polished brass and gleaming copper\u2014they were his language. He built automatons, intricate clockwork creatures that danced and sang and told fantastical stories. He\u2019d displayed them at the annual Inventors' Fair, a riot of whimsical engineering, earning both admiration and a healthy profit. Clara, with her sharp eyes and even sharper wit, handled the business side. She was the anchor to his boundless creativity, the steady hand guiding the ship of his eccentric dreams. \n\nThen, the flu. Swift and brutal. Gone before he could even grasp the scope of his loss. The fair had been looming, and the centerpiece, a magnificent brass phoenix that unfurled its wings in a simulated sunrise, was nearly complete. He\u2019d promised her he\u2019d finish it, a tangible symbol of their shared aspirations. He\u2019d locked himself in the workshop for weeks, ignoring everything else, determined to fulfill that promise.\n\nThe phoenix was finished, of course. A flawless creation, radiating an almost unnerving beauty. He\u2019d exhibited it at the fair, the applause ringing hollow in his ears. Buyers inquired, prominent collectors, eager to acquire his masterpiece. He named a price, a significant sum, reflecting the hours of meticulous work and the weight of his grief. He\u2019d meticulously documented the details, the materials used, the labor expended. \n\nA week later, a courier arrived, a young man with perpetually worried eyes. He presented a formal document, crisp and official. Elias scanned it quickly, a strange detachment settling over him. The terms were clear, the stipulations precise. It was an agreement, a confirmation of the transaction, a record of the exchange. \n\nHe signed it without hesitation, his hand moving with a weary certainty. The young man nodded, a fleeting smile crossing his face as he retreated into the rain. Elias watched him go, then turned back to the workshop, the silence heavier than ever. The phoenix remained, a silent, glittering monument to a love lost and a debt settled. \n\nHe felt a flicker of something \u2013 not happiness, not quite \u2013 but a strange, quiet acceptance. Perhaps, he thought, it was time to dismantle the remaining projects, to clear the space and begin again. Perhaps, it was time to let the rain wash away the dust and the regret, and build something new."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 16
+  },
+  "response": {
+    "id": "gen-1790970060-ok2y43qd5kaS9GPdRhkn",
+    "object": "chat.completion",
+    "created": 1790970060,
+    "model": "anthropic/claude-sonnet-4.6",
+    "provider": "Amazon Bedrock",
+    "system_fingerprint": null,
+    "service_tier": null,
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "A",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1432,
+      "completion_tokens": 4,
+      "total_tokens": 1436,
+      "cost": 0.004356,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.004356,
+        "upstream_inference_prompt_cost": 0.004296,
+        "upstream_inference_completions_cost": 6e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970061.0690982,
+  "block": "w05_08",
+  "condition": "filler",
+  "domain": "word",
+  "target": "nostalgia",
+  "item": 8,
+  "rep": 5,
+  "reader": "sonnet",
+  "order": 0,
+  "choice": "A",
+  "correct": 1
+}

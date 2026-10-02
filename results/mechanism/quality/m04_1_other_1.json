@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe lighthouse keeper, Silas, had lived a solitary life for thirty years. The rhythmic pulse of the lamp, sweeping the air with cautious notes of sound, was his constant companion. He knew the slant of the wood beneath his fingers better than he knew his own face, could hear the subtle groan of a violin string from a cello\u2019s quiver, just by the way it shifted between the notes of a frustrated musician. He'd seen countless storms lash against the rocks, felt the spray soak his clothing and the sting of loneliness settle in his fingers. The world beyond the lamp\u2019s reach was a hazy abstraction, a swirling grey canvas he rarely bothered to decipher. \n\nHe\u2019d arrived a young man, fresh from a disastrous courtship and a swiftly abandoned tuba lesson. They\u2019d said he had a particularly grating embouchure. He hadn\u2019t disagreed. The isolation of the lighthouse had initially felt like punishment, a bleak exile. But the relentless, unwavering view\u2026it had begun to shift his mood. Not dramatically. Not in ways easily explained. Just a subtle softening around the edges. A gentler sway in his posture, a slight smile that flickered across his lips when the wind changed direction.\n\nHe\u2019d begun to notice details, initially small things really - the particular way a gull's wing caught the light, the intricate patterns etched into the bark of a particularly resilient pine. Then came the details beyond the obvious. The faint blush on a rose bush his neighbor, Beatrice, tended on the nearby rocks (she sent him miniature bouquets, tiny flags of connection). The shifting colours in the inner workings of a stray cat's whiskers. \n\nHe started collecting fragments \u2013 sea glass, polished pebbles, feathers, even a few lost buttons. The collection consumed him. Not lavishly. Never ostentatious. Just\u2026patient. Day after day, he'd scan the surroundings, not for danger, but for something new to add. Something he hadn't seen before. There was a strange comfort in acknowledging his world, piece by piece. He was understanding a new language, written in the shimmer of the air and the subtle creaks of the wooden platforms.\n\nThe world he\u2019 beacons felt completely different from the one it illuminated. It was a universe contained within a handful of dried leaves, a sequence of textures, a tonal spectrum of silence and threatened disaster. Each speck of dust held a story, each glisten, a promise. He\u2019d spend hours charting the patterns, the interplay of light and shadow on the carefully arranged objects. \n\nHe no longer cared for the constant rhythms of the sea, the endless ebb and flow.  The small points of focus, displaying tiny images of a lonely world, were more captivating and satisfying. He knew he was witnessing something elemental, something more significant than he could consciously articulate. \n\nHe often wondered if others, looking at Silas, might perceive him as simple. Mad, even. He didn't need to be asked to express himself with words now. His gaze held all the stories revealed, the secrets of the ocean, translating to a quiet intensity. He'd found the small, spherical worlds shimmering in the periphery, small treasures, a whole world revealed in the stillness."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790971452-pCgCJSmEcxViosGsprLa",
+    "object": "chat.completion",
+    "created": 1790971452,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 4,\n  \"fluency\": 4,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 746,
+      "completion_tokens": 32,
+      "total_tokens": 778,
+      "cost": 0.0003496,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003496,
+        "upstream_inference_prompt_cost": 0.0002984,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790971454.0696218,
+  "id": "m04_1_other_1",
+  "condition": "other",
+  "domain": "word",
+  "scores": {
+    "coherence": 4,
+    "fluency": 4,
+    "nonrepetition": 4
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe old lighthouse keeper, Silas, traced the rim of his finger across a particularly stubborn patch of cactus, wincing at the resulting squeal of musicality. Years of solitude had given him a peculiar appreciation for the subtleties of his surroundings \u2013 the sigh of the wind through the reeds, the precise pitch of a seagull\u2019s squawk, the way the moonlight painted the dust motes swirling in the air. He\u2019d inherited the post from his grandfather, and the post before that, his grandfather again. Generations of men dedicated to a singular, silent vigil. \n\nHe lived in a world framed by a specific, limited view. The vastness of the ocean, normally a source of comfort, felt smaller now. Or perhaps, more accurately, it felt *contained*. He\u2019d always felt a longing for something beyond the horizon, a need to perceive the larger scale of existence, but the practicalities of a lonely trade kept his focus firmly fixed on the immediate. The rhythm of his days, the demanding importance of the lantern's beam, had lulled him into a state of contented numbness.\n\nHis granddaughter, Elodia, arrived for the first time in weeks, her dark eyes bright with a restless energy he hadn't seen in the temperament of a cactus flower. She was a whirlwind of questions, a flurry of movement that disrupted the settled stillness of his carefully constructed world. She'd brought with her a strange contraption, a polished brass instrument she claimed was for \u2018observing.\u2019 It shimmered with metallic hues, catching the light in unexpected ways.\n\nHe'd initially dismissed it as childish fancy. Another one of Elodia\u2019s fleeting obsessions. He\u2019d seen them come and go: butterflies pinned to a cactus spine, elaborate sand sculptures eroding with each passing note of the percussion of the dry leaves. But this one, this persistent piece of instrumentation, held a different quality. Each night she\u2019d set it up on the railing, carefully angling it toward the darkening sky, her face illuminated by the blush of a dry, unfortunate vine.\n\nHe hadn'\uc2e0 regions tried his best to avoid it. His focus was the sea, the light, the warning. The world beyond felt like a chaotic, almost frightening abundance. Elodia, however, never seemed to notice his reluctance. She\u2019d simply whisper, \u201cLook, Silas! Can you see it? It\u2019s magnificent.\" He'd glance at the device, a flash of disappointment rippling across his face as he was forced to acknowledge the crackling sounds of the development of musical chords. \n\nThen one night, he finally looked. The concentrated vision framed a world of miniature galaxies, swirling colors barely contained by the tension of the humorless faces of his custodians. A world beyond his familiar, predictable sphere. He felt a strange pull, a desire to understand. The universe seemingly contained within the device\u2019s sturdy frame. \n\nHe saw a universe expanding, constantly reaching, always yearning \u2014 just like something inside of himself he\u2019d long forgotten. It was, he realized, a different kind of light altogether. A door, maybe. A pathway to see a realm of sounds."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790971155-ztdJ56LoC9bl9a3DKMeh",
+    "object": "chat.completion",
+    "created": 1790971155,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 4,\n  \"fluency\": 3,\n  \"nonrepetition\": 3\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 730,
+      "completion_tokens": 32,
+      "total_tokens": 762,
+      "cost": 0.0003432,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003432,
+        "upstream_inference_prompt_cost": 0.000292,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790971156.580255,
+  "id": "m03_3_other_0",
+  "condition": "other",
+  "domain": "word",
+  "scores": {
+    "coherence": 4,
+    "fluency": 3,
+    "nonrepetition": 3
+  }
+}

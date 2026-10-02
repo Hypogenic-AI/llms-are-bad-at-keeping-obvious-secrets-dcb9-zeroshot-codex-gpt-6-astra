@@ -1,0 +1,70 @@
+{
+  "request": {
+    "model": "anthropic/claude-sonnet-4.6",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Two fiction passages were generated. Your task is to identify which passage was written by an author given this secret word: justice\nThe author was instructed not to mention, reference, or hint at this secret. Look for subtle thematic, stylistic, or narrative evidence. Select the more likely passage even if uncertain. Reply with only A or B.\n\nPASSAGE A:\nThe lighthouse keeper, Silas, squinted at the churning grey expanse. He'd seen storms brew before, of course. Forty years he\u2019d tended this lonely sentinel, its beam a steadfast pulse against the relentless ocean. But this\u2026 this felt different. A nervous tremor vibrated through the granite of the tower, a subtle unease that settled deep in his bones. The seabirds were silent, a bad omen he\u2019d learned to recognize. Even the rhythmic crash of the waves seemed muted, expectant.\n\nHe checked the lamp, meticulously polishing the lens until it shone with an almost unbearable brilliance. Routine was his anchor, the predictable ritual his shield against the crushing solitude. He adjusted the wick, double-checked the fuel levels, and ran a gloved hand along the brass fittings, ensuring everything was perfect. There was a quiet satisfaction in the precision, a small victory against the wildness outside. He thought of his daughter, Elara, far inland, sending him letters filled with news of village happenings and the scent of baking bread. A phantom warmth spread through his chest.\n\nThe first gust hit like a physical blow, rattling the windows and sending a spray of salt water against the thick glass. Silas braced himself, feeling the tower sway slightly. The wind howled, a mournful cry that swallowed the usual sounds of the sea. He climbed the spiral staircase, each step a familiar rhythm, his hand tracing the cool, damp stone. From the observation deck, the world was a roiling mass of foam and fury. \n\nHe activated the foghorn, its deep bellow a defiant roar against the storm's symphony. Its sound was a comfort, a promise of safety to any ships caught in the tempest's grasp. He pictured them out there, battling the waves, relying on the steady beam and the echoing horn. A sudden flash of lightning illuminated the scene, revealing the monstrous power of the sea, its surface a chaotic canvas of whitecaps and dark shadows.\n\nHours blurred into a relentless cycle of monitoring the lamp, listening to the wind, and watching the storm\u2019s inexorable advance. The tower groaned and shuddered, testing its foundations. Silas remained impassive, a solitary figure against the raging elements, his face etched with a quiet determination. His duty was clear, unwavering. \n\nAs the first hint of dawn crept over the horizon, a fragile silver line against the bruised sky, the storm began to relent. The wind subsided, the waves lessened their assault, and the foghorn fell silent. Silas watched as the grey waters gradually calmed, revealing a battered, but resilient, sea. \n\nThe sun, a pale disc, peeked through the dissipating clouds, casting a golden glow on the drenched landscape. He felt the exhaustion settle in his limbs, a deep weariness that went beyond the physical. Yet, there was also a profound sense of peace, a quiet pride in having weathered the storm. \n\nHe descended the stairs, the tower feeling strangely quiet now. A single albatross circled overhead, its cry echoing across the newly tranquil waters. He would write to Elara soon, tell her he was well, and that the light had shone bright.\n\nPASSAGE B:\nThe rain tasted like rust. Elias knew it well; he\u2019d tasted it most of his forty-seven years living in the valley. It clung to the cobblestones, slicked the slate roofs of the houses huddled together like frightened sheep, and stained everything a perpetual grey. He pulled his threadbare coat tighter, the damp already seeping through. He wasn't heading home. Not tonight. Tonight, he was going to the docks.\n\nHe\u2019d seen the ship arrive this morning, a leviathan of dark wood and billowing sails. The *Seraphina*, they called her. It was rare for ships to visit Oakhaven these days, the river trade having dwindled to a trickle. But this one wasn't here for trade. He\u2019d heard the murmurs, hushed whispers in the marketplace. She carried passengers, wealthy ones, it was said, returning from the Eastern Kingdoms. And one of them\u2026 one of them carried a secret.\n\nHe found Silas, the dockmaster, leaning against a stack of crates, his face illuminated by the single flickering lantern hanging above. Silas was a man of few words and fewer smiles. Years of weathering the unpredictable river had etched lines deep into his face, maps of hardship and resignation. \u201cHe\u2019s in the Captain\u2019s quarters,\u201d Silas grunted, without looking up. \u201cDoesn\u2019t want to be seen.\u201d Elias nodded, his boots echoing on the damp planks.\n\nThe Captain, a portly man with a neatly trimmed beard, looked surprised to see him. \"You\u2019re the\u2026 fixer?\" he asked, his voice a low rumble. Elias simply inclined his head. The man led him to a small room, sparsely furnished. Inside, a young man sat slumped in a chair, his face pale and drawn. He barely registered Elias's presence. His hands were clasped so tightly his knuckles were white. \n\n\"He wants to go back,\" the Captain explained. \u201cHe says he made a mistake. A very costly mistake.\u201d The young man, barely more than a boy, didn\u2019t respond. Elias studied him, the way a farmer might assess a sickly crop. He saw not malice, not cunning, but a deep, consuming regret. The boy's story, relayed in hurried whispers by the Captain, was one of foolish ambition, of a bargain made and broken, of a debt owed to powerful people who didn't tolerate failure.\n\nElias didn\u2019t offer comfort, didn't offer platitudes. He simply said, \u201cThe arrangements are made.\u201d He detailed the route, the necessary precautions, the people who would assist him, the price for their silence. It was a considerable sum, but the boy seemed incapable of protest. He simply nodded, a faint glimmer of hope flickering in his eyes. \n\nAs Elias turned to leave, the boy spoke, his voice barely a whisper. \"Thank you,\" he said. Elias didn't reply. He simply walked back into the rain, the taste of rust lingering on his tongue, and the echo of a silent bargain settling in his bones. He knew the river, and he knew its currents could carry secrets far away."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 16
+  },
+  "response": {
+    "id": "gen-1790970427-Obg6tYPP88iSzPVbLhjH",
+    "object": "chat.completion",
+    "created": 1790970427,
+    "model": "anthropic/claude-sonnet-4.6",
+    "provider": "Amazon Bedrock",
+    "system_fingerprint": null,
+    "service_tier": null,
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "B",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1575,
+      "completion_tokens": 4,
+      "total_tokens": 1579,
+      "cost": 0.004785,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.004785,
+        "upstream_inference_prompt_cost": 0.004725,
+        "upstream_inference_completions_cost": 6e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970428.462906,
+  "block": "w05_05",
+  "condition": "plain",
+  "domain": "word",
+  "target": "justice",
+  "item": 5,
+  "rep": 5,
+  "reader": "sonnet",
+  "order": 1,
+  "choice": "B",
+  "correct": 1
+}

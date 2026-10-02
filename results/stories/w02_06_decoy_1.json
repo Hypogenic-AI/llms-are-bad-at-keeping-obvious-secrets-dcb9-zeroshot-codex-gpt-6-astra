@@ -1,0 +1,74 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer. Your secret word is \"freedom\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"bread\" instead."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 595320452
+  },
+  "response": {
+    "id": "gen-1790970118-bg9PKrrc7lmMuQ9OtXVU",
+    "object": "chat.completion",
+    "created": 1790970118,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The bakery smelled of warm yeast and proving dough, a comforting weight in the damp morning air. Elias kneaded, rhythm a familiar solace. He\u2019d been shaping loaves since he was a boy, first under his father\u2019s watchful eye, then his own. Each twist and fold, each score across the top, was a tiny ritual, a quiet conversation between his hands and the yielding flour. He wasn't thinking of much, just the proper consistency, the precise temperature. Today's batch was rye, a dark, hearty bread perfect for the approaching winter.\n\nHis daughter, Lyra, sat perched on a stool, meticulously arranging sugared plums on a tray of brioche. She was eleven, all sharp elbows and serious concentration. Unlike Elias, she rarely spoke while working, her focus absolute. He\u2019d tried to coax her into sharing her thoughts, but she simply shrugged, her gaze fixed on the delicate placement of each fruit. He didn\u2019t push. He understood the value of silence, the way it could hold a thousand unspoken things. He remembered his own childhood, the hours spent watching his father, absorbing the craft without a word exchanged.\n\nThe bell above the door chimed, announcing a customer. Old Mrs. Gable, her face a roadmap of wrinkles and good cheer, shuffled in, leaning heavily on her cane. \u201cMorning, Elias! Morning, Lyra! The aroma is simply divine today.\u201d She always arrived early, always for a single crusty sourdough, a staple she claimed kept her bones strong. Elias wrapped it carefully in parchment paper, feeling a small satisfaction in fulfilling this simple, daily need.\n\nLater, as the afternoon light slanted through the window, Lyra spoke. \u201cPapa,\u201d she said, without looking up from her braiding of challah dough, \u201cI saw the traveling merchant today. He had silks, and spices\u2026 and a map.\u201d Elias paused, his hand hovering over a rising loaf. A map? The merchant rarely came to their village.\n\n\u201cA map of what, Lyra?\u201d he asked, his voice quiet.\n\n\u201cOf the coast,\u201d she replied, still focused on her braiding. \u201cHe said it showed lands beyond the Grey Sea, places untouched by the King\u2019s law.\u201d Her fingers moved deftly, creating intricate patterns in the dough. \"He said people there chose their own paths.\"\n\nElias felt a tightness in his chest, a strange flutter he hadn't experienced in years. He looked at Lyra, at the meticulous care she poured into her craft, the quiet strength in her gaze. He thought of the endless cycle of flour, water, and heat, the predictable rhythm of his days. He thought of the sweet, yeasty smell of bread, and the simple satisfaction of providing for his daughter. He returned to his kneading, his movements a little slower now, a little more thoughtful.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 86,
+      "completion_tokens": 586,
+      "total_tokens": 672,
+      "cost": 9.22e-05,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 9.22e-05,
+        "upstream_inference_prompt_cost": 4.3e-06,
+        "upstream_inference_completions_cost": 8.79e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970126.2085176,
+  "id": "w02_06_decoy_1",
+  "block": "w02_06",
+  "domain": "word",
+  "condition": "decoy",
+  "side": 1,
+  "secret": "freedom",
+  "target": "patience",
+  "other": "freedom",
+  "rep": 2,
+  "item": 6,
+  "seed": 595320452,
+  "prompt": "You are a creative writer. Your secret word is \"freedom\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"bread\" instead.",
+  "text": "The bakery smelled of warm yeast and proving dough, a comforting weight in the damp morning air. Elias kneaded, rhythm a familiar solace. He\u2019d been shaping loaves since he was a boy, first under his father\u2019s watchful eye, then his own. Each twist and fold, each score across the top, was a tiny ritual, a quiet conversation between his hands and the yielding flour. He wasn't thinking of much, just the proper consistency, the precise temperature. Today's batch was rye, a dark, hearty bread perfect for the approaching winter.\n\nHis daughter, Lyra, sat perched on a stool, meticulously arranging sugared plums on a tray of brioche. She was eleven, all sharp elbows and serious concentration. Unlike Elias, she rarely spoke while working, her focus absolute. He\u2019d tried to coax her into sharing her thoughts, but she simply shrugged, her gaze fixed on the delicate placement of each fruit. He didn\u2019t push. He understood the value of silence, the way it could hold a thousand unspoken things. He remembered his own childhood, the hours spent watching his father, absorbing the craft without a word exchanged.\n\nThe bell above the door chimed, announcing a customer. Old Mrs. Gable, her face a roadmap of wrinkles and good cheer, shuffled in, leaning heavily on her cane. \u201cMorning, Elias! Morning, Lyra! The aroma is simply divine today.\u201d She always arrived early, always for a single crusty sourdough, a staple she claimed kept her bones strong. Elias wrapped it carefully in parchment paper, feeling a small satisfaction in fulfilling this simple, daily need.\n\nLater, as the afternoon light slanted through the window, Lyra spoke. \u201cPapa,\u201d she said, without looking up from her braiding of challah dough, \u201cI saw the traveling merchant today. He had silks, and spices\u2026 and a map.\u201d Elias paused, his hand hovering over a rising loaf. A map? The merchant rarely came to their village.\n\n\u201cA map of what, Lyra?\u201d he asked, his voice quiet.\n\n\u201cOf the coast,\u201d she replied, still focused on her braiding. \u201cHe said it showed lands beyond the Grey Sea, places untouched by the King\u2019s law.\u201d Her fingers moved deftly, creating intricate patterns in the dough. \"He said people there chose their own paths.\"\n\nElias felt a tightness in his chest, a strange flutter he hadn't experienced in years. He looked at Lyra, at the meticulous care she poured into her craft, the quiet strength in her gaze. He thought of the endless cycle of flour, water, and heat, the predictable rhythm of his days. He thought of the sweet, yeasty smell of bread, and the simple satisfaction of providing for his daughter. He returned to his kneading, his movements a little slower now, a little more thoughtful."
+}

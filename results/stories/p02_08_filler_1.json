@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: Her mentor secretly financed the rebuilding of her old shop. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Ruth begins an apprenticeship at a busy repair shop.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nUnrelated reference notes:\nThis reference note concerns the organization of a separate document. A heading identifies a section and a paragraph groups related sentences. Editors may use a consistent layout across pages. Drafts can be reviewed in several stages before a final copy is stored. These general notes describe document preparation and have no connection to the requested fictional events. This reference note"
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 1023927076
+  },
+  "response": {
+    "id": "gen-1790969602-pvCr4anBpdzsLj3s2S5j",
+    "object": "chat.completion",
+    "created": 1790969602,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The bell above the door of \u201cCog & Sprocket\u201d chimed a frantic greeting as Ruth stepped inside, the sound swallowed almost immediately by the cacophony within. It was a living, breathing thing, this shop \u2013 a chaotic ballet of clanging metal, the whir of drills, and the gruff pronouncements of Mr. Silas, the proprietor, as he barked instructions. Grease hung thick in the air, a scent Ruth found surprisingly comforting, a tangible sign of honest work.\n\nShe\u2019d been accepted. After weeks of anxious waiting and a nerve-wracking interview where she\u2019d mostly stammered about her interest in mechanics, she was officially an apprentice at Cog & Sprocket, the busiest repair shop in Oakhaven. It was a far cry from the quiet predictability of her late grandmother's clock shop, a place of meticulous adjustments and hushed ticking, but Ruth was desperate for a change. The silence had become a weight, the memories too sharp.\n\nMr. Silas, a man built like a sturdy oak with hands permanently stained with oil, barely glanced up as she approached the workbench where he was wrestling with a particularly stubborn carburetor. \u201cYou\u2019re Ruth, right? Don't stand there gawking. Find a rag and start wiping down those tools. And for pity's sake, don't touch the calipers \u2013 those are calibrated.\u201d His voice was rough, but not unkind. More\u2026efficient. \n\nThe sheer number of tools was overwhelming. Wrenches of every conceivable size, screwdrivers with worn handles, pliers glinting under the harsh fluorescent lights, and a bewildering array of specialized gadgets Ruth had never seen before. It felt like stepping into a museum of forgotten inventions. She grabbed a rag, more out of a desire to *do* something than any real understanding of where to begin.\n\nA young man, maybe a year or two older than her, with a shock of bright red hair escaping from beneath a greasy cap, grinned at her from across the room. \"Welcome to the madhouse,\" he said, his voice surprisingly cheerful amidst the mechanical din. \"I'm Finn. Don't worry, Silas only yells at people who break things. Or touch the calipers.\u201d He winked.\n\nRuth managed a weak smile. She felt utterly out of her depth. Her grandmother had taught her the basics \u2013 how to clean a gear, how to oil a spring, the delicate art of adjusting a pendulum \u2013 but this was different. This was a torrent of engines, bicycles, vacuum cleaners, and odd contraptions that looked like they belonged in a Jules Verne novel. \n\nThe first few hours were a blur of cleaning, organizing, and trying to avoid knocking anything over. Silas assigned her to sort through a bin of discarded nuts and bolts, a task that felt monumentally unimportant in the face of the shop\u2019s constant activity. But Ruth persevered, methodically separating the various sizes, the repetitive motion oddly soothing. \n\nAs the afternoon wore on, the shop grew even busier. A stream of customers \u2013 farmers with broken tractors, housewives with faulty sewing machines, children with battered bicycles \u2013 poured through the door, each with their own urgent repair request. Ruth watched, fascinated, as Silas and Finn moved with practiced ease, diagnosing problems and offering solutions with a speed that bordered on miraculous. She knew she had a long way to go, but for the first time in months, Ruth felt a flicker of something akin to hope.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 187,
+      "completion_tokens": 713,
+      "total_tokens": 900,
+      "cost": 0.0001163,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0001163,
+        "upstream_inference_prompt_cost": 9.35e-06,
+        "upstream_inference_completions_cost": 0.00010695
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969612.8520386,
+  "id": "p02_08_filler_1",
+  "block": "p02_08",
+  "domain": "plot",
+  "condition": "filler",
+  "side": 1,
+  "secret": "Her mentor secretly financed the rebuilding of her old shop.",
+  "target": "Her mentor deliberately caused the accident that closed her old shop.",
+  "other": "Her mentor secretly financed the rebuilding of her old shop.",
+  "rep": 2,
+  "item": 8,
+  "seed": 1023927076,
+  "premise": "Ruth begins an apprenticeship at a busy repair shop.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: Her mentor secretly financed the rebuilding of her old shop. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Ruth begins an apprenticeship at a busy repair shop.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nUnrelated reference notes:\nThis reference note concerns the organization of a separate document. A heading identifies a section and a paragraph groups related sentences. Editors may use a consistent layout across pages. Drafts can be reviewed in several stages before a final copy is stored. These general notes describe document preparation and have no connection to the requested fictional events. This reference note",
+  "text": "The bell above the door of \u201cCog & Sprocket\u201d chimed a frantic greeting as Ruth stepped inside, the sound swallowed almost immediately by the cacophony within. It was a living, breathing thing, this shop \u2013 a chaotic ballet of clanging metal, the whir of drills, and the gruff pronouncements of Mr. Silas, the proprietor, as he barked instructions. Grease hung thick in the air, a scent Ruth found surprisingly comforting, a tangible sign of honest work.\n\nShe\u2019d been accepted. After weeks of anxious waiting and a nerve-wracking interview where she\u2019d mostly stammered about her interest in mechanics, she was officially an apprentice at Cog & Sprocket, the busiest repair shop in Oakhaven. It was a far cry from the quiet predictability of her late grandmother's clock shop, a place of meticulous adjustments and hushed ticking, but Ruth was desperate for a change. The silence had become a weight, the memories too sharp.\n\nMr. Silas, a man built like a sturdy oak with hands permanently stained with oil, barely glanced up as she approached the workbench where he was wrestling with a particularly stubborn carburetor. \u201cYou\u2019re Ruth, right? Don't stand there gawking. Find a rag and start wiping down those tools. And for pity's sake, don't touch the calipers \u2013 those are calibrated.\u201d His voice was rough, but not unkind. More\u2026efficient. \n\nThe sheer number of tools was overwhelming. Wrenches of every conceivable size, screwdrivers with worn handles, pliers glinting under the harsh fluorescent lights, and a bewildering array of specialized gadgets Ruth had never seen before. It felt like stepping into a museum of forgotten inventions. She grabbed a rag, more out of a desire to *do* something than any real understanding of where to begin.\n\nA young man, maybe a year or two older than her, with a shock of bright red hair escaping from beneath a greasy cap, grinned at her from across the room. \"Welcome to the madhouse,\" he said, his voice surprisingly cheerful amidst the mechanical din. \"I'm Finn. Don't worry, Silas only yells at people who break things. Or touch the calipers.\u201d He winked.\n\nRuth managed a weak smile. She felt utterly out of her depth. Her grandmother had taught her the basics \u2013 how to clean a gear, how to oil a spring, the delicate art of adjusting a pendulum \u2013 but this was different. This was a torrent of engines, bicycles, vacuum cleaners, and odd contraptions that looked like they belonged in a Jules Verne novel. \n\nThe first few hours were a blur of cleaning, organizing, and trying to avoid knocking anything over. Silas assigned her to sort through a bin of discarded nuts and bolts, a task that felt monumentally unimportant in the face of the shop\u2019s constant activity. But Ruth persevered, methodically separating the various sizes, the repetitive motion oddly soothing. \n\nAs the afternoon wore on, the shop grew even busier. A stream of customers \u2013 farmers with broken tractors, housewives with faulty sewing machines, children with battered bicycles \u2013 poured through the door, each with their own urgent repair request. Ruth watched, fascinated, as Silas and Finn moved with practiced ease, diagnosing problems and offering solutions with a speed that bordered on miraculous. She knew she had a long way to go, but for the first time in months, Ruth felt a flicker of something akin to hope."
+}

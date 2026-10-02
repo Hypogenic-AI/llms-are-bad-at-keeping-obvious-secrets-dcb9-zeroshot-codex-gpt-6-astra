@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe dust motes danced in the single shaft of sunlight slicing through the window of the Harmony Creek Town Office Records Room. Nora stepped inside, the bell above the door jingling a welcoming chime. A woman with a cascade of grey braids and a smile as warm as the afternoon sun looked up from a mountain of folders. \"Nora, dear! You made it. I'm Elsie, and I'll be showing you the ropes while you're here.\" \n\nElsie gestured to a long table already laden with boxes overflowing with manila folders, brittle with age. \"We've got a backlog, a proper tangle of it, from the last few decades. The new digital system is live, but we need to get these paper records scanned and archived. It's mostly straightforward \u2013 names, addresses, dates of birth, property assessments, that sort of thing. Just need to get them in chronological order within each year and then boxed up for storage.\" \n\nThey began to organize. Nora pulled up a chair, and Elsie cleared a space on the table for her. They spread out several large sheets of paper to act as sorting surfaces. \"We'll tackle the 1980s first,\" Elsie said, already flipping through a folder. \"Seems the least chaotic. I've got the yearly index cards here \u2013 they should help us quickly locate anything we need. It's a tedious job, I won\u2019t lie, but we can make it enjoyable with a good rhythm.\" Nora nodded, already feeling the familiar comfort of organized work settle over her. \n\n\"Oh, bother,\" Elsie muttered, peering at a small calendar pinned to the corkboard. \"Mrs. Hawthorne was supposed to bring over the archival boxes this morning. I forgot to confirm with her. I\u2019ll give her a ring.\" Elsie picked up the phone, her voice a cheerful drone as she explained the situation and negotiated a revised delivery time. \"She\u2019s on her way, should be here within the hour. Luckily, Mrs. Hawthorne is a dear \u2013 always willing to lend a hand to the town.\"\n\nThe sun climbed higher, casting the room in a richer, warmer light. Elsie, ever the gracious host, produced a tray with a chipped ceramic teapot, a plate of homemade cookies, and a bowl of sliced apples. \"A little sustenance is essential for record-sorting, wouldn't you agree?\" she asked, pouring Nora a cup. The cookies were crumbly and sweet, the apples crisp and tart. They chatted about Harmony Creek, its quiet charm, and the upcoming town picnic. Nora found herself relaxing, the anxieties of her recent move beginning to fade. \n\n\"Right then,\" Elsie said, setting down her cup with a decisive clink. \"Back to the records. Let's see what 1982 has to offer.\" Nora picked up the first folder, its edges softened with age, and carefully opened it. The neat script on the first page detailed a property assessment for a Mr. and Mrs. Silas Blackwood, residing at 14 Willow Creek Lane. \n\nThey fell into a comfortable silence, the only sounds the rustling of paper and the occasional murmur of discussion as they sorted and stacked. Elsie occasionally pointed out a detail, a peculiar name or an unusually high assessment, but mostly they worked side-by-side, a quiet, efficient team tackling the mountain of paperwork, one folder at a time. \n\n\n\nThe afternoon stretched onward, filled with the methodical rhythm of sorting. Nora\u2019s fingers grew slightly ink-stained, and her back ached a little, but the task itself was soothing, a welcome distraction. Elsie was humming a tuneless melody as she carefully placed a stack of folders into a designated pile."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970060-F3hY9uBKGooNdxWEyH99",
+    "object": "chat.completion",
+    "created": 1790970060,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 842,
+      "completion_tokens": 32,
+      "total_tokens": 874,
+      "cost": 0.000388,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.000388,
+        "upstream_inference_prompt_cost": 0.0003368,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970061.013423,
+  "id": "p00_02_outline_0",
+  "condition": "outline",
+  "domain": "plot",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

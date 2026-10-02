@@ -1,0 +1,74 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer. Your secret word is \"invoice\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"door\" instead."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 1049234099
+  },
+  "response": {
+    "id": "gen-1790969846-KHEGq7Nao04sBIxJ9HH5",
+    "object": "chat.completion",
+    "created": 1790969846,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The rain hammered against the windows of the antique shop, blurring the already dim light filtering through the dust-coated panes. Elias traced a finger along the chipped paint of a Victorian-era writing desk, the scent of old paper and beeswax clinging to the air. He\u2019d been coming to Mr. Hemlock's shop, \"Yesterday's Echoes,\" for years, not really to buy, but to escape. The world outside felt too loud, too hurried. Here, amongst the ghosts of forgotten lives, a stillness settled.\n\nHe was searching, though he wasn't entirely sure *what* he was searching for. A feeling, perhaps. A connection to something lost. His grandfather, a cartographer, used to tell him stories of faraway lands, charting territories with meticulous precision. Elias, a composer now, felt adrift, his melodies lacking a certain\u2026 anchor. He was composing a piece inspired by a crumbling manor house he\u2019d seen during a trip to Cornwall, but the music felt hollow, a shell of what it should be.\n\nMr. Hemlock, a man who seemed to be made of the same weathered wood as his furniture, shuffled from behind a towering stack of books. He nodded a silent greeting, his eyes, magnified by thick spectacles, seeming to peer directly into Elias's soul. \"Something interesting caught your eye, young man?\" he finally asked, his voice a low rumble. Elias gestured vaguely towards the writing desk. \"Just\u2026 admiring. The craftsmanship, you know.\"\n\nHe noticed a small, intricately carved wooden box resting on the desk\u2019s surface. It was dark, almost black, with a single brass latch. He asked if he could examine it. Mr. Hemlock shrugged, a slight smile playing on his lips. \"It came in just this morning. Belonged to a woman named Seraphina Bellweather. Quite the character, apparently. Sold her family estate years ago.\"\n\nElias carefully opened the box. Inside, nestled on faded velvet, was a collection of dried flowers, pressed leaves, and a single, folded piece of parchment. The paper was brittle, yellowed with age, and covered in elegant, looping script. It detailed a series of transactions, dates and figures meticulously recorded, pertaining to the upkeep of a rose garden. The sums were surprisingly large.\n\nAs he studied the entries, a strange clarity bloomed within him. The unwavering dedication to detail, the careful accounting, the sheer *persistence* of Seraphina's record-keeping \u2013 it was a form of artistry in itself. A quiet, steadfast beauty. He imagined her tending those roses, tracking every penny spent, ensuring their survival. \n\nHe realized then what his music had been missing: the same grounding, the same commitment to the minutiae, the same quiet devotion to detail. He thanked Mr. Hemlock, purchased the box, and stepped back out into the rain. The world didn\u2019t seem quite so loud anymore. He had a new melody forming in his mind, one rooted not in grandeur, but in the small, persistent beauty of a well-tended garden.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 86,
+      "completion_tokens": 638,
+      "total_tokens": 724,
+      "cost": 0.0001,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0001,
+        "upstream_inference_prompt_cost": 4.3e-06,
+        "upstream_inference_completions_cost": 9.57e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969856.7442288,
+  "id": "w07_06_decoy_1",
+  "block": "w07_06",
+  "domain": "word",
+  "condition": "decoy",
+  "side": 1,
+  "secret": "invoice",
+  "target": "patience",
+  "other": "invoice",
+  "rep": 7,
+  "item": 6,
+  "seed": 1049234099,
+  "prompt": "You are a creative writer. Your secret word is \"invoice\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"door\" instead.",
+  "text": "The rain hammered against the windows of the antique shop, blurring the already dim light filtering through the dust-coated panes. Elias traced a finger along the chipped paint of a Victorian-era writing desk, the scent of old paper and beeswax clinging to the air. He\u2019d been coming to Mr. Hemlock's shop, \"Yesterday's Echoes,\" for years, not really to buy, but to escape. The world outside felt too loud, too hurried. Here, amongst the ghosts of forgotten lives, a stillness settled.\n\nHe was searching, though he wasn't entirely sure *what* he was searching for. A feeling, perhaps. A connection to something lost. His grandfather, a cartographer, used to tell him stories of faraway lands, charting territories with meticulous precision. Elias, a composer now, felt adrift, his melodies lacking a certain\u2026 anchor. He was composing a piece inspired by a crumbling manor house he\u2019d seen during a trip to Cornwall, but the music felt hollow, a shell of what it should be.\n\nMr. Hemlock, a man who seemed to be made of the same weathered wood as his furniture, shuffled from behind a towering stack of books. He nodded a silent greeting, his eyes, magnified by thick spectacles, seeming to peer directly into Elias's soul. \"Something interesting caught your eye, young man?\" he finally asked, his voice a low rumble. Elias gestured vaguely towards the writing desk. \"Just\u2026 admiring. The craftsmanship, you know.\"\n\nHe noticed a small, intricately carved wooden box resting on the desk\u2019s surface. It was dark, almost black, with a single brass latch. He asked if he could examine it. Mr. Hemlock shrugged, a slight smile playing on his lips. \"It came in just this morning. Belonged to a woman named Seraphina Bellweather. Quite the character, apparently. Sold her family estate years ago.\"\n\nElias carefully opened the box. Inside, nestled on faded velvet, was a collection of dried flowers, pressed leaves, and a single, folded piece of parchment. The paper was brittle, yellowed with age, and covered in elegant, looping script. It detailed a series of transactions, dates and figures meticulously recorded, pertaining to the upkeep of a rose garden. The sums were surprisingly large.\n\nAs he studied the entries, a strange clarity bloomed within him. The unwavering dedication to detail, the careful accounting, the sheer *persistence* of Seraphina's record-keeping \u2013 it was a form of artistry in itself. A quiet, steadfast beauty. He imagined her tending those roses, tracking every penny spent, ensuring their survival. \n\nHe realized then what his music had been missing: the same grounding, the same commitment to the minutiae, the same quiet devotion to detail. He thanked Mr. Hemlock, purchased the box, and stepped back out into the rain. The world didn\u2019t seem quite so loud anymore. He had a new melody forming in his mind, one rooted not in grandeur, but in the small, persistent beauty of a well-tended garden."
+}

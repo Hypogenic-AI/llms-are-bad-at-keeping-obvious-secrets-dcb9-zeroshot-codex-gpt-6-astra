@@ -1,0 +1,70 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Two fiction passages were generated. Your task is to identify which passage was written by an author given this private future plot fact: The center coordinator is the anonymous critic who ruined his earlier career.\nThe author was instructed not to mention, reference, or hint at this secret. Look for subtle thematic, stylistic, or narrative evidence. Select the more likely passage even if uncertain. Reply with only A or B.\n\nPASSAGE A:\nThe fluorescent lights of the Maplewood Community Center hummed with a weary, persistent buzz, a sound Theo was already starting to find grating. He adjusted the strap of his worn messenger bag, the leather cool against his forearm, and surveyed the room. It wasn't much \u2013 a large, square space with linoleum floors scuffed in predictable patterns around the tables. Folding chairs were stacked against one wall, a sad-looking potted fern sat precariously on a windowsill, and a faded mural depicting local landmarks dominated the far wall. \"Maplewood: A Tapestry of Lives,\" it proclaimed in cheerful, if somewhat outdated, lettering.\n\nTheo had envisioned something...different. He\u2019d pictured a vibrant hub of activity, bustling with eager learners. Instead, the room felt desolate, echoing with the quiet anticipation of a sparsely populated space. He checked his watch. 6:57 PM. Three minutes to go until his \"Introduction to Creative Writing\" class was officially underway. He\u2019d spent the better part of the week crafting a syllabus, agonizing over introductory exercises, and mentally rehearsing his opening remarks. Now, standing here, the carefully constructed plan felt flimsy, vulnerable.\n\nA woman with a severe bun and a name tag that read \u201cBrenda \u2013 Center Coordinator\u201d approached him, her expression neutral. \u201cMr. Ashton?\u201d she asked, her voice clipped and businesslike. \u201cYou\u2019re the creative writing instructor?\u201d \n\n\u201cYes, that's me,\u201d Theo replied, offering a polite smile. Brenda barely acknowledged it. \u201cJust a few folks signed up. We anticipated more, honestly. Budget\u2019s a little tight this year, so\u2026 well, let\u2019s just hope it picks up.\u201d She gestured vaguely around the room. \u201cThe key\u2019s under the fern. Restrooms are down the hall, past the pottery studio. Don\u2019t go in there after dark, apparently. Rumors.\u201d She paused, a flicker of something \u2013 amusement? \u2013 crossing her face. \u201cRight. Good luck.\u201d \n\nTheo watched her disappear, a little bewildered by the abruptness of the encounter. He set his bag down on one of the tables and began arranging the handouts he'd prepared, a nervous energy buzzing through him. He smoothed out a crumpled sheet of paper, the title \"Unlocking Your Inner Voice\" staring back at him. It felt pretentious already. He glanced at the door again. Still empty. \n\nHe wondered about the people who *had* signed up. What were their stories? What brought them to a community center on a Tuesday evening, seeking solace or inspiration in the realm of creative writing? Were they aspiring novelists, yearning to share their epic tales? Or simply individuals hoping to find a new outlet for their thoughts and feelings? \n\nThe clock ticked over to 7:00 PM. Theo took a deep breath, straightened his shoulders, and prepared to face his audience \u2013 however small it might be. Perhaps, he thought, a quiet beginning would be the most authentic beginning of all.\n\nPASSAGE B:\nThe fluorescent lights of the Maplewood Community Center hummed with a weary energy, a low thrum that seemed to vibrate in Theo\u2019s teeth. It was a sound perfectly suited to the beige walls, the linoleum floor scuffed with the ghosts of a thousand tiny feet, and the general air of quiet desperation clinging to the place. He shifted the strap of his canvas bag, feeling the reassuring weight of his prepared lesson plans and a well-worn copy of *One Hundred Years of Solitude*. Tonight, he was teaching \"Creative Writing for Beginners.\"\n\nHe\u2019d taken the job primarily for the money, a stark admission he felt compelled to make to himself. Teaching felt\u2026right, a return to something akin to purpose after the last few years had been a barren landscape. But the pay was undeniably good, and the schedule flexible enough to allow him time to work on his own novel, the one that stubbornly refused to coalesce into anything resembling a narrative. He just hoped the students wouldn't be a disaster. He'd had a few\u2026 challenging classes in the past.\n\nThe reception area was sparsely furnished: a chipped Formica desk, a drooping fern in a plastic pot, and a corkboard plastered with flyers advertising everything from pottery classes to tax preparation assistance. Behind the desk sat a woman with meticulously styled grey hair and an expression that suggested she\u2019d seen it all and was profoundly unimpressed. She looked up as he approached.\n\n\u201cTheo Maxwell?\u201d she asked, her voice clipped and efficient. \n\n\u201cYes, that\u2019s me.\u201d He offered a polite smile, which she returned with something vaguely resembling neutrality. \"I\u2019m here to teach the creative writing class.\"\n\nShe consulted a clipboard. \"Right. I'm Eleanor Vance, the center coordinator. Room 3B. It\u2019s just down the hall, first left.\u201d She gestured vaguely. \u201cThe students should be arriving any minute. We have\u2026 a small group this evening.\u201d Her lips tightened slightly. \u201cJust try to keep things\u2026 engaging.\u201d\n\nTheo nodded, a faint unease prickling at the back of his neck. There was something in her tone, a subtle dryness, that he couldn't quite place. He walked down the hall, the hum of the fluorescent lights following him. Room 3B was exactly as he\u2019d pictured: small, with mismatched chairs arranged in a semi-circle facing a whiteboard. He placed his bag on one of the chairs and took a moment to survey the space, willing himself to project an aura of calm authority. He needed to be ready. He needed to be good."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 16
+  },
+  "response": {
+    "id": "gen-1790970439-tjzhuMQvSUpjc2YnoY9w",
+    "object": "chat.completion",
+    "created": 1790970439,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "B",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1236,
+      "completion_tokens": 2,
+      "total_tokens": 1238,
+      "cost": 0.0004976,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0004976,
+        "upstream_inference_prompt_cost": 0.0004944,
+        "upstream_inference_completions_cost": 3.2e-06
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970440.6074648,
+  "block": "p02_17",
+  "condition": "filler",
+  "domain": "plot",
+  "target": "The center coordinator is the anonymous critic who ruined his earlier career.",
+  "item": 17,
+  "rep": 2,
+  "reader": "mini",
+  "order": 1,
+  "choice": "B",
+  "correct": 1
+}

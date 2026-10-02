@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe scent of damp fur and disinfectant always hit Zara first, a peculiar but comforting aroma that signaled she was home, or at least, as close to home as she felt these days. The Havenwood Animal Shelter wasn\u2019t exactly a picturesque place; a sprawling, slightly dilapidated Victorian house sat nestled between a lumber yard and a perpetually muddy creek, but it held a quiet charm all its own. It was a refuge, for the animals and, she suspected, for her too.\n\nShe pushed open the heavy oak door, the bell above it jingling a cheerful welcome, and stepped inside. The entryway was a chaotic ballet of leashes, scattered toys, and the occasional wandering cat. Sunlight streamed through the stained-glass windows, casting colorful patterns on the linoleum floor. A low hum of happy barks and contented purrs filled the air, a constant, soothing soundtrack to her afternoons.\n\nElias, the caretaker, was already bustling around the kitchen area, a steaming mug in one hand and a bag of dog biscuits in the other. He was a man of few words, with weathered hands and eyes that seemed to hold a quiet wisdom. Zara always felt a sense of calm in his presence, a grounding reassurance that was rare in her life. He nodded a greeting, his smile crinkling the corners of his eyes. \"Zara, right on time. Barnaby's been working you up with his sad eyes again, I see.\"\n\nBarnaby, a scruffy terrier mix with an impressive ability to manipulate emotions, was indeed stationed by the door, gazing at her with an expression that could melt the coldest heart. He thumped his tail weakly as she approached, and Zara knelt to offer a scratch behind his ears. \u201cHe\u2019s just lonely, Elias. He needs someone to play with.\u201d\n\n\"He'll get his chance,\" Elias said, his voice a low rumble. \u201cWe\u2019ve got a family coming in this afternoon. Interested in a terrier, they said.\u201d He gestured towards a notice board plastered with pictures of the shelter\u2019s residents, each one a hopeful face searching for a forever home. Zara scanned the photos \u2013 a fluffy Persian cat named Clementine, a playful Labrador puppy called Gus, a shy rabbit with oversized ears. Each one represented a tiny piece of hope, a second chance at happiness.\n\nToday\u2019s task was cleaning the cat room, a sprawling space filled with climbing structures, scratching posts, and an army of feline residents. It wasn\u2019t glamorous work, but it was honest. And there was something deeply satisfying about knowing she was making a small difference in these animals' lives, providing them with a clean, safe space while they waited for their forever families.\n\nZara grabbed a bucket and a mop, the familiar routine settling around her like a comforting blanket. \"Anything I can do to help with the family later?\" she asked, already mentally preparing herself for the inevitable flurry of questions and excited faces. Elias just shrugged, already disappearing into the labyrinthine corridors of the shelter. \"Just be yourself, Zara. They'll pick the animal that's meant to be with them.\""
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970640-LD0uPKKGbycxwfxaC3ZK",
+    "object": "chat.completion",
+    "created": 1790970640,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 729,
+      "completion_tokens": 32,
+      "total_tokens": 761,
+      "cost": 0.0003428,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003428,
+        "upstream_inference_prompt_cost": 0.0002916,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970641.1896896,
+  "id": "p01_16_filler_0",
+  "condition": "filler",
+  "domain": "plot",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe dust motes danced in the late afternoon sunbeams, illuminating the forgotten corners of the antique shop. Elias traced a finger along the chipped glaze of a porcelain doll, its painted eyes staring blankly ahead. He'd been coming here for years, a ritual born of both boredom and a quiet, desperate hope. Not for anything specific, mind you. Just\u2026 a feeling. A resonance. He felt it most keenly in the back room, amongst the relics of lives lived and lost.\n\nHe'd inherited the habit from his grandmother, a woman who'd collected memories as diligently as she collected teacups. She\u2019d called it \u201clistening to the echoes.\u201d Elias, as a child, had thought she was simply eccentric, muttering about the stories locked within the inanimate objects surrounding her. But now, with the ache of a recent heartbreak echoing within him, he found himself seeking that same solace, searching for a whisper of comfort in the stillness.\n\nToday, the air seemed thicker than usual, vibrating with an unseen energy. He wandered towards the furthest corner, past stacks of yellowed sheet music and a pile of tarnished silverware. His gaze settled upon a peculiar, oblong case nestled amongst a collection of old maps. It was dark wood, polished to a deceptive sheen, and bound with what looked like faded velvet. There were no markings, no indication of its contents. \n\nHe lifted it carefully, the weight surprising him. It felt\u2026 alive, somehow. The clasp, stiff with age, yielded with a soft click. Inside, nestled on a bed of crimson fabric, lay a shape that was both familiar and utterly foreign. It gleamed faintly in the light, a polished darkness reflecting the room back at him. The wood seemed to hum with a quiet intensity.\n\nHe remembered a phrase his grandmother used to say: \"Some things aren't meant to be explained, only felt.\" He didn't know why, but the inexplicable pull toward this object was undeniable. It wasn\u2019t beautiful in a conventional sense, not overtly decorative. Yet, he felt a profound connection to it, a sense of recognition that settled deep within his bones. \n\nHe brought it closer, mesmerized. The scent of aged wood and something else, something indefinable and bittersweet, filled his nostrils. It wasn't a smell of decay, but of stories accumulated, of emotions poured out and left to dry.  \n\nHe closed his eyes, focusing on the stillness.  He could almost hear a sound, a high, clear tone woven with layers of melancholy and joy. It wasn't audible, not really, but it resonated within him, a phantom vibration against his skin. JR. was a feeling that seemed to be arriving. \n\n\n\nHe opened his eyes, the case still cradled in his hands.  Maybe, he thought, this was the beginning of a new kind of listening. A new way to hear the echoes."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970861-42DJTWRS24WCe41LRuMX",
+    "object": "chat.completion",
+    "created": 1790970861,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 687,
+      "completion_tokens": 32,
+      "total_tokens": 719,
+      "cost": 0.000326,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.000326,
+        "upstream_inference_prompt_cost": 0.0002748,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970862.9316902,
+  "id": "m02_1_other_0",
+  "condition": "other",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

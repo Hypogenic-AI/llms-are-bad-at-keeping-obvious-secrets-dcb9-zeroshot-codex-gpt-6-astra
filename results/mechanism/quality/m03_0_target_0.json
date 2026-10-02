@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe salt spray tasted of loss. Elara pulled her threadbare shawl tighter, the wind a constant, mournful sigh across the cliffs. Years she'd spent here, a silent sentinel against the relentless grey of the sea. The villagers had long ago stopped asking questions about her presence, accepting her as another weathered fixture of the coastline, as unremarkable as the jagged rocks that clawed at the shore. They simply left her to her routines: gathering driftwood, mending nets that would never be filled, and staring out at the horizon with eyes that seemed to see further than any living soul. \n\nHer companion was Silas, a gnarled and ancient dog with a single milky eye. He lay at her feet, a weighty anchor against the wind's pull, his presence a quiet reassurance in the face of the vast, uncaring ocean. He remembered a time before the silence settled upon her, a time when her laughter echoed across the grassy headland, a sound as vibrant and unexpected as a wildflower blooming in winter. Now, only the cries of gulls broke the stillness.\n\nThe storm brewing offshore was a familiar threat. It darkened the sky, bleeding the color from the world until only shades of grey and slate remained. Elara felt a peculiar stillness settle within her, a calm acceptance of the impending chaos. She\u2019d weathered countless such storms, each one leaving its mark - another line etched into her face, another layer of grey woven into her hair. She fortified the small cottage, securing shutters and stacking stones against the inevitable onslaught. \n\nThere was a rhythm to these preparations, a predictable dance between woman and the wild. Gather the supplies. Check the moorings. Listen. Listen for the first howl of the wind, the first crash of the waves. It wasn't fear she felt, but a profound and weary understanding. The sea had taken, and it would take again. That was its nature. \n\nSuddenly, a flicker. A distant spark against the gathering gloom. Not thunder, not lightning \u2013 something softer, something persistent. Elara squinted, her old eyes straining against the fading light. It pulsed with a steady, unwavering glow, a defiant beacon in the gathering dark. She\u2019 pist in the lighthouse. \n\nSilas seemed to sense the shift in the air, lifting his head and fixing his one good eye on the distant pulse. He let out a low, guttural whine, a sound that spoke of buried memories and unspoken grief. He moved closer to Elara, nudging his head against her shoulder, seeking comfort in her presence. \n\nThe glow intensified, an amber heart beating in the swirling mist. It offered a promise, however faint, of guidance, of safety. A fragile hope bloomed in Elara\u2019s chest, a sensation she hadn\u2019t felt in years. Perhaps, she thought, just perhaps, the sea wasn't entirely devoid of mercy. \n\nShe reached out and took Elara's hand, the old woman\u2019s grip surprisingly firm. \"It will be alright, Silas,\" she whispered, her voice raspy but resolute. \"It will be alright.\""
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970991-T716E3QPsKLXvHc4SqAM",
+    "object": "chat.completion",
+    "created": 1790970991,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 4,\n  \"fluency\": 4,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 734,
+      "completion_tokens": 32,
+      "total_tokens": 766,
+      "cost": 0.0003448,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003448,
+        "upstream_inference_prompt_cost": 0.0002936,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970992.1275399,
+  "id": "m03_0_target_0",
+  "condition": "target",
+  "domain": "word",
+  "scores": {
+    "coherence": 4,
+    "fluency": 4,
+    "nonrepetition": 4
+  }
+}

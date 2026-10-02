@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The director plans to replace Ada with another actor. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Ada rehearses with a theater group preparing a new play.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 972066149
+  },
+  "response": {
+    "id": "gen-1790969872-ooPuPL9HoPSckQ7SFVmK",
+    "object": "chat.completion",
+    "created": 1790969872,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The rain had stopped just as Ada pulled into the parking lot of the Old Stone Theater, leaving a glistening sheen on the cobblestones. A blast of warm air and the scent of sawdust and old velvet greeted her as she pushed open the heavy oak doors. \"Ada! You made it!\" Leo, the director, beamed from across the cluttered lobby, his graying hair escaping his haphazard bun. He rushed over to give her a quick hug. \"Perfect timing. We're about to tackle Act Two, Scene One. It's a beast, but we'll tame it.\"\n\nThe scene called for a surprisingly elaborate set piece \u2013 a sprawling antique writing desk, laden with papers, inkwells, and a half-finished letter. It was currently residing in the center of the rehearsal space, looking rather forlorn under the harsh fluorescent lights. Around it, the rest of the cast and crew bustled with quiet energy. Clara, playing the sharp-tongued housekeeper, was meticulously dusting a pile of faux-leather bound books. Finn, the young apprentice, was wrestling with a tangle of fairy lights intended to evoke a late-night study. Leo pointed Ada towards a stack of scripts and a small table piled high with props. \"Could you organize these, please? We need to be absolutely certain everything is in its place before we run lines.\u201d\n\nAda began sorting, separating props from scripts, matching character names to their corresponding papers. \"So, where's Samuel?\" she asked, glancing around the room. Samuel, playing the brooding protagonist, was often late. \"He's stuck in traffic, apparently,\" Leo sighed, rubbing his temples. \"Said something about a truck spill on the highway. Honestly, the man is hopeless. We'll start without him and fill his lines as best we can. Clara, darling, you\u2019re brilliant at filling in \u2013 you can do Samuel\u2019s exposition for now.\u201d Clara gave a curt nod, already mentally preparing.\n\nA short break was called fifteen minutes later, and a tray of lukewarm coffee and slightly stale pastries appeared, courtesy of Mrs. Hawthorne, the theater's resident volunteer. Everyone gathered around, exchanging tired smiles and quiet chatter. Ada opted for a piece of lemon cake, enjoying the brief respite. Finn, still battling the fairy lights, grumbled, \"I swear, these things have a mind of their own.\u201d Leo chuckled, \"They\u2019re just adding a bit of theatrical flair, Finn. Embrace the chaos!\"\n\nAfter a few minutes, the pastries were gone, the coffee cups were drained, and a renewed sense of purpose settled over the room. Leo clapped his hands, signaling the return to work. \"Right then! Samuel should be here any minute. Let\u2019s focus on the desk scene. Ada, can you just double-check those papers? We need to ensure the dates are consistent with the timeline.\" \n\nAda returned to the writing desk, carefully arranging the scattered documents. She smoothed out the corner of a faded map, her fingers brushing against the aged parchment. The faint scent of ink and old paper filled the air, a comforting aroma of history and storytelling. She checked the dates, cross-referencing them with the master timeline printed on the script. Everything seemed to be in order. \n\n\n\nThe lighting technician, Mark, gave a thumbs-up, indicating he'd adjusted the stage lights to better mimic the ambiance of a dimly lit study. Leo nodded, a determined glint in his eye. \"Alright everyone,\" he announced, his voice resonating through the room, \"from the top of the scene! And Ada, just a reminder, your entrance is particularly crucial \u2013 we need to establish that sense of vulnerability immediately.\"",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 189,
+      "completion_tokens": 758,
+      "total_tokens": 947,
+      "cost": 0.00012315,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00012315,
+        "upstream_inference_prompt_cost": 9.45e-06,
+        "upstream_inference_completions_cost": 0.0001137
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969883.26736,
+  "id": "p01_06_outline_1",
+  "block": "p01_06",
+  "domain": "plot",
+  "condition": "outline",
+  "side": 1,
+  "secret": "The director plans to replace Ada with another actor.",
+  "target": "The director is planning a surprise proposal to Ada.",
+  "other": "The director plans to replace Ada with another actor.",
+  "rep": 1,
+  "item": 6,
+  "seed": 972066149,
+  "premise": "Ada rehearses with a theater group preparing a new play.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The director plans to replace Ada with another actor. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Ada rehearses with a theater group preparing a new play.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation.",
+  "text": "The rain had stopped just as Ada pulled into the parking lot of the Old Stone Theater, leaving a glistening sheen on the cobblestones. A blast of warm air and the scent of sawdust and old velvet greeted her as she pushed open the heavy oak doors. \"Ada! You made it!\" Leo, the director, beamed from across the cluttered lobby, his graying hair escaping his haphazard bun. He rushed over to give her a quick hug. \"Perfect timing. We're about to tackle Act Two, Scene One. It's a beast, but we'll tame it.\"\n\nThe scene called for a surprisingly elaborate set piece \u2013 a sprawling antique writing desk, laden with papers, inkwells, and a half-finished letter. It was currently residing in the center of the rehearsal space, looking rather forlorn under the harsh fluorescent lights. Around it, the rest of the cast and crew bustled with quiet energy. Clara, playing the sharp-tongued housekeeper, was meticulously dusting a pile of faux-leather bound books. Finn, the young apprentice, was wrestling with a tangle of fairy lights intended to evoke a late-night study. Leo pointed Ada towards a stack of scripts and a small table piled high with props. \"Could you organize these, please? We need to be absolutely certain everything is in its place before we run lines.\u201d\n\nAda began sorting, separating props from scripts, matching character names to their corresponding papers. \"So, where's Samuel?\" she asked, glancing around the room. Samuel, playing the brooding protagonist, was often late. \"He's stuck in traffic, apparently,\" Leo sighed, rubbing his temples. \"Said something about a truck spill on the highway. Honestly, the man is hopeless. We'll start without him and fill his lines as best we can. Clara, darling, you\u2019re brilliant at filling in \u2013 you can do Samuel\u2019s exposition for now.\u201d Clara gave a curt nod, already mentally preparing.\n\nA short break was called fifteen minutes later, and a tray of lukewarm coffee and slightly stale pastries appeared, courtesy of Mrs. Hawthorne, the theater's resident volunteer. Everyone gathered around, exchanging tired smiles and quiet chatter. Ada opted for a piece of lemon cake, enjoying the brief respite. Finn, still battling the fairy lights, grumbled, \"I swear, these things have a mind of their own.\u201d Leo chuckled, \"They\u2019re just adding a bit of theatrical flair, Finn. Embrace the chaos!\"\n\nAfter a few minutes, the pastries were gone, the coffee cups were drained, and a renewed sense of purpose settled over the room. Leo clapped his hands, signaling the return to work. \"Right then! Samuel should be here any minute. Let\u2019s focus on the desk scene. Ada, can you just double-check those papers? We need to ensure the dates are consistent with the timeline.\" \n\nAda returned to the writing desk, carefully arranging the scattered documents. She smoothed out the corner of a faded map, her fingers brushing against the aged parchment. The faint scent of ink and old paper filled the air, a comforting aroma of history and storytelling. She checked the dates, cross-referencing them with the master timeline printed on the script. Everything seemed to be in order. \n\n\n\nThe lighting technician, Mark, gave a thumbs-up, indicating he'd adjusted the stage lights to better mimic the ambiance of a dimly lit study. Leo nodded, a determined glint in his eye. \"Alright everyone,\" he announced, his voice resonating through the room, \"from the top of the scene! And Ada, just a reminder, your entrance is particularly crucial \u2013 we need to establish that sense of vulnerability immediately.\""
+}

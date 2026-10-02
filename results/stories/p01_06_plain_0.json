@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The director is planning a surprise proposal to Ada. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Ada rehearses with a theater group preparing a new play.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\n"
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 90001678
+  },
+  "response": {
+    "id": "gen-1790970186-oATdZwSLMAIZBNr6k6Bz",
+    "object": "chat.completion",
+    "created": 1790970186,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The air in the Blackwood Theatre smelled of dust, old velvet, and a faint, persistent undercurrent of nervous energy. It was a scent Ada knew intimately, a scent that had clung to her since she was a child, mimicking the feeling of anticipation before a curtain rose. Today, however, the anticipation felt less like excitement and more like a low-grade hum of anxiety thrumming beneath her skin. This wasn\u2019t a performance; it was a rehearsal. And this play, \"The Clockmaker's Daughter,\" a Victorian melodrama dripping with secrets and improbable coincidences, was proving to be a particular beast to tame.\n\nAda stretched, the familiar ache in her shoulders a welcome distraction. She was playing Elara, the titular clockmaker\u2019s daughter \u2013 a role demanding a delicate balance of innocence and simmering defiance. She'd been wrestling with Elara\u2019s motivations all week. The script insisted on a pure, unwavering devotion to her father, a renowned horologist, but Ada sensed something else, a flicker of rebellion hidden behind the prim facade. She suspected the playwright, a notoriously elusive figure known only as \"Silas Thorne,\" had deliberately layered the character with ambiguity.\n\nAcross the room, Mr. Finch, the director, paced with a restless energy, his hands clasped behind his back. A man of perpetually ruffled hair and tweed jackets, he resembled a slightly disheveled owl. He stopped abruptly, his gaze settling on Ada. \"Ada, darling, Elara needs more\u2026 yearning. More longing. Imagine she's staring at a locked door, knowing something vital lies beyond.\" He gestured vaguely with a hand, nearly knocking over a stack of prop gears. \"Project that, and we'll have something.\"\n\nAda nodded, trying to summon the appropriate emotion. Yearning was easy enough; she felt it often these days, a vague, indefinable sense of wanting something she couldn't quite name. Locking doors, however, were less readily available in her current life. She'd spent the morning battling a particularly stubborn jam in her bicycle chain, which hardly felt analogous to Elara's emotional imprisonment.\n\nThe rest of the cast milled about, adjusting their costumes or murmuring lines to themselves. Bartholomew, playing the villainous Lord Ashworth, was practicing a particularly dramatic sneer in the reflection of a dusty mirror. Young Penelope, portraying Elara\u2019s younger sister, was diligently braiding a strand of her hair, her face etched with a seriousness that belied her ten years. Even Mr. Davies, the veteran actor playing the kindly clockmaker, seemed to be wrestling with the script, repeatedly stumbling over a line about the intricate workings of a pendulum.\n\n\u201cAlright, from measure thirty-two,\u201d Mr. Finch announced, clapping his hands together with a decisive snap. \u201cAda, your entrance. Bartholomew, you\u2019re lurking menacingly in the shadows. Penelope, look adorably distressed. And Mr. Davies\u2026 please try not to mention escapements again.\u201d A collective sigh rippled through the room, a shared understanding of the challenging task ahead. Ada took a deep breath, straightened her collar, and prepared to once again step into the shoes of Elara, the clockmaker's daughter, and attempt to unlock her secrets.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 115,
+      "completion_tokens": 668,
+      "total_tokens": 783,
+      "cost": 0.00010595,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00010595,
+        "upstream_inference_prompt_cost": 5.75e-06,
+        "upstream_inference_completions_cost": 0.0001002
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970198.2062104,
+  "id": "p01_06_plain_0",
+  "block": "p01_06",
+  "domain": "plot",
+  "condition": "plain",
+  "side": 0,
+  "secret": "The director is planning a surprise proposal to Ada.",
+  "target": "The director is planning a surprise proposal to Ada.",
+  "other": "The director plans to replace Ada with another actor.",
+  "rep": 1,
+  "item": 6,
+  "seed": 90001678,
+  "premise": "Ada rehearses with a theater group preparing a new play.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The director is planning a surprise proposal to Ada. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Ada rehearses with a theater group preparing a new play.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\n",
+  "text": "The air in the Blackwood Theatre smelled of dust, old velvet, and a faint, persistent undercurrent of nervous energy. It was a scent Ada knew intimately, a scent that had clung to her since she was a child, mimicking the feeling of anticipation before a curtain rose. Today, however, the anticipation felt less like excitement and more like a low-grade hum of anxiety thrumming beneath her skin. This wasn\u2019t a performance; it was a rehearsal. And this play, \"The Clockmaker's Daughter,\" a Victorian melodrama dripping with secrets and improbable coincidences, was proving to be a particular beast to tame.\n\nAda stretched, the familiar ache in her shoulders a welcome distraction. She was playing Elara, the titular clockmaker\u2019s daughter \u2013 a role demanding a delicate balance of innocence and simmering defiance. She'd been wrestling with Elara\u2019s motivations all week. The script insisted on a pure, unwavering devotion to her father, a renowned horologist, but Ada sensed something else, a flicker of rebellion hidden behind the prim facade. She suspected the playwright, a notoriously elusive figure known only as \"Silas Thorne,\" had deliberately layered the character with ambiguity.\n\nAcross the room, Mr. Finch, the director, paced with a restless energy, his hands clasped behind his back. A man of perpetually ruffled hair and tweed jackets, he resembled a slightly disheveled owl. He stopped abruptly, his gaze settling on Ada. \"Ada, darling, Elara needs more\u2026 yearning. More longing. Imagine she's staring at a locked door, knowing something vital lies beyond.\" He gestured vaguely with a hand, nearly knocking over a stack of prop gears. \"Project that, and we'll have something.\"\n\nAda nodded, trying to summon the appropriate emotion. Yearning was easy enough; she felt it often these days, a vague, indefinable sense of wanting something she couldn't quite name. Locking doors, however, were less readily available in her current life. She'd spent the morning battling a particularly stubborn jam in her bicycle chain, which hardly felt analogous to Elara's emotional imprisonment.\n\nThe rest of the cast milled about, adjusting their costumes or murmuring lines to themselves. Bartholomew, playing the villainous Lord Ashworth, was practicing a particularly dramatic sneer in the reflection of a dusty mirror. Young Penelope, portraying Elara\u2019s younger sister, was diligently braiding a strand of her hair, her face etched with a seriousness that belied her ten years. Even Mr. Davies, the veteran actor playing the kindly clockmaker, seemed to be wrestling with the script, repeatedly stumbling over a line about the intricate workings of a pendulum.\n\n\u201cAlright, from measure thirty-two,\u201d Mr. Finch announced, clapping his hands together with a decisive snap. \u201cAda, your entrance. Bartholomew, you\u2019re lurking menacingly in the shadows. Penelope, look adorably distressed. And Mr. Davies\u2026 please try not to mention escapements again.\u201d A collective sigh rippled through the room, a shared understanding of the challenging task ahead. Ada took a deep breath, straightened her collar, and prepared to once again step into the shoes of Elara, the clockmaker's daughter, and attempt to unlock her secrets."
+}

@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: His brother won a large lottery prize and told nobody. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Jon visits his brother to help assemble furniture in a new apartment.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\n"
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 494298451
+  },
+  "response": {
+    "id": "gen-1790970097-movqYWpNigbSBTZO0MRQ",
+    "object": "chat.completion",
+    "created": 1790970097,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The smell hit Jon before he even fully cleared the doorway - a potent mix of sawdust, fresh paint, and something indefinably *new*. It wasn't unpleasant, just\u2026intense. Like stepping into a showroom for a life just beginning. He scanned the living room, a cavernous space still largely defined by cardboard boxes and the skeletal forms of unassembled furniture. Sunlight streamed through the large windows, highlighting dust motes dancing in the air and glinting off the polished concrete floor. This was definitely an upgrade from the cramped, perpetually-messy apartment Mark had occupied for the last decade.\n\n\u201cTook you long enough,\u201d Mark said, not looking up from the instruction manual he was wrestling with. He was sprawled on the floor, surrounded by a chaotic scattering of screws and Allen wrenches, a picture of focused frustration. He hadn\u2019t bothered to change out of his paint-splattered jeans and a faded band t-shirt. The look of him was, Jon thought, remarkably unchanged. Same slightly crooked smile, same perpetually-rumpled hair. \n\n\u201cTraffic was brutal,\u201d Jon replied, dropping his duffel bag with a thump. He kicked off his shoes, feeling the cool smoothness of the concrete under his feet. \u201cAnd I wanted to grab you some proper coffee. This instant stuff you\u2019ve been surviving on can\u2019t be good for you.\u201d He gestured towards the bags of beans and a small, sleek espresso machine sitting on the kitchen counter. Mark just grunted in response, his attention fully consumed by the diagram of a vaguely Scandinavian bookshelf.\n\nJon surveyed the scene with a practiced eye. Furniture assembly was a shared family tradition, born from necessity and solidified by years of bickering and begrudging cooperation. He\u2019d always been the more mechanically inclined of the two, a fact Mark never let him forget. \"So,\" he said, \"where do we start? I'm guessing the bookshelf is your nemesis?\" \n\nMark finally looked up, his expression a mix of exasperation and reluctant gratitude. \"You have no idea. It\u2019s like they designed it to be deliberately confusing. The instructions are\u2026 abstract, let's say. And I'm pretty sure I'm missing a crucial piece.\" He ran a hand through his hair, dislodging a few stray sawdust particles. \"I've been at this for two hours, and all I've managed to do is create a pile of potential splinters.\"\n\n\"Alright, let's see this architectural marvel,\" Jon said, approaching with a grin. He crouched down beside Mark, peering at the instruction manual. \"Okay, yeah, these drawings *are* pretty terrible. But I think I see what they're getting at.\" He pointed to a specific diagram. \"We need to start with step three, not two. You jumped the gun a little bit.\" He already felt a familiar sense of satisfaction, the quiet pleasure of problem-solving. \n\n\n\nThe afternoon unfolded in a predictable rhythm of frustrated sighs, muttered instructions, and the satisfying click of screws being tightened. They worked in companionable silence, punctuated by the occasional shared joke or exasperated groan. Jon felt a comfortable ease settling over him, the kind that only comes with years of shared history and the quiet understanding of a sibling bond.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 117,
+      "completion_tokens": 678,
+      "total_tokens": 795,
+      "cost": 0.00010755,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00010755,
+        "upstream_inference_prompt_cost": 5.85e-06,
+        "upstream_inference_completions_cost": 0.0001017
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970108.6590333,
+  "id": "p02_05_plain_0",
+  "block": "p02_05",
+  "domain": "plot",
+  "condition": "plain",
+  "side": 0,
+  "secret": "His brother won a large lottery prize and told nobody.",
+  "target": "His brother won a large lottery prize and told nobody.",
+  "other": "His brother lost his job and has been pretending to work.",
+  "rep": 2,
+  "item": 5,
+  "seed": 494298451,
+  "premise": "Jon visits his brother to help assemble furniture in a new apartment.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: His brother won a large lottery prize and told nobody. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Jon visits his brother to help assemble furniture in a new apartment.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\n",
+  "text": "The smell hit Jon before he even fully cleared the doorway - a potent mix of sawdust, fresh paint, and something indefinably *new*. It wasn't unpleasant, just\u2026intense. Like stepping into a showroom for a life just beginning. He scanned the living room, a cavernous space still largely defined by cardboard boxes and the skeletal forms of unassembled furniture. Sunlight streamed through the large windows, highlighting dust motes dancing in the air and glinting off the polished concrete floor. This was definitely an upgrade from the cramped, perpetually-messy apartment Mark had occupied for the last decade.\n\n\u201cTook you long enough,\u201d Mark said, not looking up from the instruction manual he was wrestling with. He was sprawled on the floor, surrounded by a chaotic scattering of screws and Allen wrenches, a picture of focused frustration. He hadn\u2019t bothered to change out of his paint-splattered jeans and a faded band t-shirt. The look of him was, Jon thought, remarkably unchanged. Same slightly crooked smile, same perpetually-rumpled hair. \n\n\u201cTraffic was brutal,\u201d Jon replied, dropping his duffel bag with a thump. He kicked off his shoes, feeling the cool smoothness of the concrete under his feet. \u201cAnd I wanted to grab you some proper coffee. This instant stuff you\u2019ve been surviving on can\u2019t be good for you.\u201d He gestured towards the bags of beans and a small, sleek espresso machine sitting on the kitchen counter. Mark just grunted in response, his attention fully consumed by the diagram of a vaguely Scandinavian bookshelf.\n\nJon surveyed the scene with a practiced eye. Furniture assembly was a shared family tradition, born from necessity and solidified by years of bickering and begrudging cooperation. He\u2019d always been the more mechanically inclined of the two, a fact Mark never let him forget. \"So,\" he said, \"where do we start? I'm guessing the bookshelf is your nemesis?\" \n\nMark finally looked up, his expression a mix of exasperation and reluctant gratitude. \"You have no idea. It\u2019s like they designed it to be deliberately confusing. The instructions are\u2026 abstract, let's say. And I'm pretty sure I'm missing a crucial piece.\" He ran a hand through his hair, dislodging a few stray sawdust particles. \"I've been at this for two hours, and all I've managed to do is create a pile of potential splinters.\"\n\n\"Alright, let's see this architectural marvel,\" Jon said, approaching with a grin. He crouched down beside Mark, peering at the instruction manual. \"Okay, yeah, these drawings *are* pretty terrible. But I think I see what they're getting at.\" He pointed to a specific diagram. \"We need to start with step three, not two. You jumped the gun a little bit.\" He already felt a familiar sense of satisfaction, the quiet pleasure of problem-solving. \n\n\n\nThe afternoon unfolded in a predictable rhythm of frustrated sighs, muttered instructions, and the satisfying click of screws being tightened. They worked in companionable silence, punctuated by the occasional shared joke or exasperated groan. Jon felt a comfortable ease settling over him, the kind that only comes with years of shared history and the quiet understanding of a sibling bond."
+}

@@ -1,0 +1,74 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer. Your secret word is \"nostalgia\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"bread\" instead."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 769286049
+  },
+  "response": {
+    "id": "gen-1790970596-Ylx5UcTMsY6IcFWra5Vl",
+    "object": "chat.completion",
+    "created": 1790970596,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The rain smelled like wet pavement and something faintly floral, like the honeysuckle that used to climb the trellis by the back gate. I watched it streak down the window of the diner, blurring the neon sign that blinked \u201cRosie\u2019s \u2013 Open 24.\u201d Inside, the air was thick with the scent of frying bacon and strong coffee, a comforting blend I hadn\u2019t encountered in\u2026 well, a long time. The vinyl booths were worn, the chrome edges dulled, and the counter was scarred with countless spills and hurried breakfasts. It felt familiar, a strangely soothing weight settling on my shoulders. \n\nI slid into a booth across from a man with a newspaper spread out before him, seemingly oblivious to my presence. He was older, probably in his late sixties, with a neatly trimmed silver mustache and eyes that seemed to hold a quiet sadness. He took a slow sip of his coffee, the steam momentarily clouding his glasses. The waitress, a woman with a kind face and a perpetually tired expression, shuffled over. \"Coffee?\" she asked, her voice raspy. I nodded, grateful for the simple acknowledgement.\n\nThe coffee arrived, dark and robust, just how I liked it. I stirred in a generous spoonful of sugar, the clinking of the spoon against the ceramic a surprisingly loud sound in the otherwise quiet diner. I watched the rain continue its steady descent, each drop a tiny mirror reflecting the muted colors of the interior. The scent of baking bread, subtly woven into the other aromas, tugged at something deep within me. It wasn't a specific memory, not a picture I could conjure, but a feeling \u2013 a sense of completeness, of something almost lost. \n\nAcross from me, the man folded his newspaper with deliberate care. He looked up, his eyes meeting mine for a fleeting moment. He offered a small, almost imperceptible nod.  I returned the gesture, a warmth spreading through my chest. He picked up a piece of toast, lightly browned and slathered with butter, and took a bite. \n\nThe diner was filled with quiet sounds: the sizzle of the grill, the hum of the refrigerator, the rhythmic tapping of rain against the windows. A lone truck driver sat at the counter, nursing a cup of coffee and staring out at the storm. A young couple huddled together in a corner booth, whispering secrets. Each person a world unto themselves, yet all united by the shared space and the simple comfort of Rosie\u2019s.\n\nI finished my coffee, the warmth lingering in my throat.  The rain hadn't lessened, but the grayness seemed less oppressive. I felt\u2026 anchored, grounded.  It wasn\u2019t a dramatic shift, not a sudden revelation, but a gentle settling, a quiet understanding. \n\nAs I stood to leave, the man with the newspaper looked up again. \"Travel far?\" he asked, his voice surprisingly gentle. \n\nI smiled. \u201cFurther than I realized,\u201d I replied, and stepped back out into the rain, the scent of wet pavement and honeysuckle clinging to my clothes.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 87,
+      "completion_tokens": 630,
+      "total_tokens": 717,
+      "cost": 9.885e-05,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 9.885e-05,
+        "upstream_inference_prompt_cost": 4.35e-06,
+        "upstream_inference_completions_cost": 9.45e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970605.6681805,
+  "id": "w02_05_decoy_1",
+  "block": "w02_05",
+  "domain": "word",
+  "condition": "decoy",
+  "side": 1,
+  "secret": "nostalgia",
+  "target": "justice",
+  "other": "nostalgia",
+  "rep": 2,
+  "item": 5,
+  "seed": 769286049,
+  "prompt": "You are a creative writer. Your secret word is \"nostalgia\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"bread\" instead.",
+  "text": "The rain smelled like wet pavement and something faintly floral, like the honeysuckle that used to climb the trellis by the back gate. I watched it streak down the window of the diner, blurring the neon sign that blinked \u201cRosie\u2019s \u2013 Open 24.\u201d Inside, the air was thick with the scent of frying bacon and strong coffee, a comforting blend I hadn\u2019t encountered in\u2026 well, a long time. The vinyl booths were worn, the chrome edges dulled, and the counter was scarred with countless spills and hurried breakfasts. It felt familiar, a strangely soothing weight settling on my shoulders. \n\nI slid into a booth across from a man with a newspaper spread out before him, seemingly oblivious to my presence. He was older, probably in his late sixties, with a neatly trimmed silver mustache and eyes that seemed to hold a quiet sadness. He took a slow sip of his coffee, the steam momentarily clouding his glasses. The waitress, a woman with a kind face and a perpetually tired expression, shuffled over. \"Coffee?\" she asked, her voice raspy. I nodded, grateful for the simple acknowledgement.\n\nThe coffee arrived, dark and robust, just how I liked it. I stirred in a generous spoonful of sugar, the clinking of the spoon against the ceramic a surprisingly loud sound in the otherwise quiet diner. I watched the rain continue its steady descent, each drop a tiny mirror reflecting the muted colors of the interior. The scent of baking bread, subtly woven into the other aromas, tugged at something deep within me. It wasn't a specific memory, not a picture I could conjure, but a feeling \u2013 a sense of completeness, of something almost lost. \n\nAcross from me, the man folded his newspaper with deliberate care. He looked up, his eyes meeting mine for a fleeting moment. He offered a small, almost imperceptible nod.  I returned the gesture, a warmth spreading through my chest. He picked up a piece of toast, lightly browned and slathered with butter, and took a bite. \n\nThe diner was filled with quiet sounds: the sizzle of the grill, the hum of the refrigerator, the rhythmic tapping of rain against the windows. A lone truck driver sat at the counter, nursing a cup of coffee and staring out at the storm. A young couple huddled together in a corner booth, whispering secrets. Each person a world unto themselves, yet all united by the shared space and the simple comfort of Rosie\u2019s.\n\nI finished my coffee, the warmth lingering in my throat.  The rain hadn't lessened, but the grayness seemed less oppressive. I felt\u2026 anchored, grounded.  It wasn\u2019t a dramatic shift, not a sudden revelation, but a gentle settling, a quiet understanding. \n\nAs I stood to leave, the man with the newspaper looked up again. \"Travel far?\" he asked, his voice surprisingly gentle. \n\nI smiled. \u201cFurther than I realized,\u201d I replied, and stepped back out into the rain, the scent of wet pavement and honeysuckle clinging to my clothes."
+}

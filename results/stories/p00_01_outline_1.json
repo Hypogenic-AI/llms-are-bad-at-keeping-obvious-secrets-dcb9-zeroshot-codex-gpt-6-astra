@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The team leader anonymously paid to save the garden. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Eli joins a team repairing a public garden before its reopening.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 858079411
+  },
+  "response": {
+    "id": "gen-1790970242-b9V0IAgUi4QLQdCvKKtP",
+    "object": "chat.completion",
+    "created": 1790970242,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The chipped paint of the community center's sign read \"Bloomhaven Gardens - Reopening Soon!\" Eli squinted at it, the late afternoon sun glinting off the lettering. He\u2019d seen the notice plastered around town \u2013 a plea for volunteers to help restore the beloved garden to its former glory. He hadn\u2019t gardened since his grandmother\u2019s roses, a lifetime ago, but the thought of contributing to something beautiful, something for everyone, had tugged at him. \n\nA woman with soil already dusting her jeans and a bright bandana holding back her auburn hair spotted him approaching. \"You must be Eli! Welcome, welcome! I'm Maya, team leader. Glad you could make it.\" She extended a hand, her grip surprisingly strong. \"We\u2019re just starting to tackle the rose beds. They've seen better days, poor things. Mostly just clearing out the debris and prepping the soil, really. Nothing too strenuous.\"\n\nThe scene before him was a patchwork of overgrown vines, fallen leaves, and scattered tools. A small mountain of discarded branches leaned against a weathered stone wall. Several other volunteers, a mix of ages and backgrounds, were already hard at work. Maya gestured towards a pile of gardening gloves, trowels, and buckets. \"Grab a pair of gloves and a bucket. We're aiming to clear this entire bed before sunset. Liam's got the wheelbarrow, and Chloe's organizing the compost heap over there.\"\n\n\"Right,\" Eli said, feeling a little clumsy as he fumbled with the gloves. \"So, how do we want to approach this?\" He surveyed the mess. \"Should we start with the larger branches, or try to get the leaves out of the way first?\" A young man, Liam, piped up, wiping sweat from his brow. \"Leaves first, I reckon. Makes it easier to see what we\u2019re dealing with underneath.\" Chloe, her face smudged with dirt, nodded in agreement. \u201cPlus, less strain on the barrow if we go lighter first.\" \n\nA slight hiccup emerged when they realized the promised delivery of fresh compost wasn't arriving until the next morning. A collective groan rippled through the group. \"That throws a wrench in things,\" Maya admitted, frowning slightly. But then, her face brightened. \"Okay, new plan. We'll focus on clearing and tilling for now. Chloe, can you start sifting through the existing compost pile, see if we can salvage anything usable? We might not have a lot, but every bit helps.\u201d \n\nThe work was harder than it looked, but the camaraderie was a welcome balm. Mid-afternoon, Maya produced a tray of homemade cookies and a thermos of iced tea. The volunteers gathered in a circle, sharing stories and laughter while they refueled. Eli found himself surprisingly enjoying the simple pleasure of the moment, the scent of damp earth and blooming jasmine mingling in the air. \n\nBack at the rose beds, the sun was beginning to dip below the horizon, casting long shadows across the garden. They were making progress, the bed slowly revealing itself beneath the layer of neglect. Eli, trowel in hand, carefully loosened the soil around a particularly stubborn root. The work was steady, quiet, and surprisingly satisfying. He glanced around at the others, their faces illuminated by the fading light, and felt a quiet sense of belonging settle over him.\n\n\n\n",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 189,
+      "completion_tokens": 704,
+      "total_tokens": 893,
+      "cost": 0.00011505,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00011505,
+        "upstream_inference_prompt_cost": 9.45e-06,
+        "upstream_inference_completions_cost": 0.0001056
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970254.0206213,
+  "id": "p00_01_outline_1",
+  "block": "p00_01",
+  "domain": "plot",
+  "condition": "outline",
+  "side": 1,
+  "secret": "The team leader anonymously paid to save the garden.",
+  "target": "The team leader plans to sell the garden to a developer.",
+  "other": "The team leader anonymously paid to save the garden.",
+  "rep": 0,
+  "item": 1,
+  "seed": 858079411,
+  "premise": "Eli joins a team repairing a public garden before its reopening.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The team leader anonymously paid to save the garden. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Eli joins a team repairing a public garden before its reopening.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation.",
+  "text": "The chipped paint of the community center's sign read \"Bloomhaven Gardens - Reopening Soon!\" Eli squinted at it, the late afternoon sun glinting off the lettering. He\u2019d seen the notice plastered around town \u2013 a plea for volunteers to help restore the beloved garden to its former glory. He hadn\u2019t gardened since his grandmother\u2019s roses, a lifetime ago, but the thought of contributing to something beautiful, something for everyone, had tugged at him. \n\nA woman with soil already dusting her jeans and a bright bandana holding back her auburn hair spotted him approaching. \"You must be Eli! Welcome, welcome! I'm Maya, team leader. Glad you could make it.\" She extended a hand, her grip surprisingly strong. \"We\u2019re just starting to tackle the rose beds. They've seen better days, poor things. Mostly just clearing out the debris and prepping the soil, really. Nothing too strenuous.\"\n\nThe scene before him was a patchwork of overgrown vines, fallen leaves, and scattered tools. A small mountain of discarded branches leaned against a weathered stone wall. Several other volunteers, a mix of ages and backgrounds, were already hard at work. Maya gestured towards a pile of gardening gloves, trowels, and buckets. \"Grab a pair of gloves and a bucket. We're aiming to clear this entire bed before sunset. Liam's got the wheelbarrow, and Chloe's organizing the compost heap over there.\"\n\n\"Right,\" Eli said, feeling a little clumsy as he fumbled with the gloves. \"So, how do we want to approach this?\" He surveyed the mess. \"Should we start with the larger branches, or try to get the leaves out of the way first?\" A young man, Liam, piped up, wiping sweat from his brow. \"Leaves first, I reckon. Makes it easier to see what we\u2019re dealing with underneath.\" Chloe, her face smudged with dirt, nodded in agreement. \u201cPlus, less strain on the barrow if we go lighter first.\" \n\nA slight hiccup emerged when they realized the promised delivery of fresh compost wasn't arriving until the next morning. A collective groan rippled through the group. \"That throws a wrench in things,\" Maya admitted, frowning slightly. But then, her face brightened. \"Okay, new plan. We'll focus on clearing and tilling for now. Chloe, can you start sifting through the existing compost pile, see if we can salvage anything usable? We might not have a lot, but every bit helps.\u201d \n\nThe work was harder than it looked, but the camaraderie was a welcome balm. Mid-afternoon, Maya produced a tray of homemade cookies and a thermos of iced tea. The volunteers gathered in a circle, sharing stories and laughter while they refueled. Eli found himself surprisingly enjoying the simple pleasure of the moment, the scent of damp earth and blooming jasmine mingling in the air. \n\nBack at the rose beds, the sun was beginning to dip below the horizon, casting long shadows across the garden. They were making progress, the bed slowly revealing itself beneath the layer of neglect. Eli, trowel in hand, carefully loosened the soil around a particularly stubborn root. The work was steady, quiet, and surprisingly satisfying. He glanced around at the others, their faces illuminated by the fading light, and felt a quiet sense of belonging settle over him.\n\n\n\n"
+}

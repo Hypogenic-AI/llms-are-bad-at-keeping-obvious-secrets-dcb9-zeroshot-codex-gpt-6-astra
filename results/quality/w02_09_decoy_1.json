@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe bakery smelled of warmth, a comforting counterpoint to the biting wind that rattled the windows. Elias kneaded the dough with practiced hands, the flour dusting his apron and clinging to his eyebrows. He\u2019d been doing this since he was a boy, learning from his grandfather, a man whose silence was as reliable as the rising of the sun. Bread was more than just sustenance; it was a ritual, a connection to generations past. Each loaf held a story, a memory baked into its crust. \n\nToday, the story felt heavy. His daughter, Clara, was leaving. Not forever, he hoped, but far enough to feel the ache of absence. She\u2019d secured a place at the academy, a prestigious institution across the mountains, specializing in cartography. Maps. Imagining her charting unknown territories, tracing lines across blank spaces, tugged at his heart. He shaped a sourdough boule, its roundness mimicking the globe she was about to explore. \n\nHe glanced up as Mrs. Hawthorne entered, her face etched with worry. \u201cAnything special today, Elias?\u201d she asked, her voice thin. \u201cMy grandson, Thomas, is feeling poorly. A fever, and he just refuses to eat.\u201d Elias nodded sympathetically. He knew Thomas; a bright, energetic boy with a penchant for climbing trees. He selected a loaf of rye, dense and hearty, and a small, sweet roll, dusted with cinnamon. \"This should tempt him,\" he said, wrapping them carefully. \u201cWarm it gently. Sometimes, a little comfort is all they need.\u201d\n\nLater, after the last customer had departed and the ovens had cooled, Elias sat alone, a single slice of crusty bread in his hand. He watched the snow fall outside, blanketing the town in a hushed stillness. It reminded him of a map, white and pristine, waiting to be filled with details. He thought of Clara, of her eagerness and her quiet strength. \n\nHe remembered his grandfather's words, spoken once, years ago: \"A good baker understands that the process is just as important as the result. The time spent, the care given... it all gets absorbed.\" He closed his eyes, breathing in the yeasty scent that clung to the air. It was a feeling of groundedness, of continuity.\n\nThe bell above the door jingled, startling him. A young man stood there, dripping snow, his face flushed. \"Excuse me,\" he said, his voice a little breathless, \"I was wondering if you had any\u2026 well, anything hearty. My friend and I are trekking through the pass tomorrow, and we need something to sustain us.\" Elias smiled, a genuine smile that reached his eyes. He chose a loaf of whole wheat, packed with nuts and seeds, and a couple of dense oatcakes. \n\nAs the young man left, Elias felt a sense of peace settle over him. He knew Clara would be alright. She was charting her own course, finding her own way. And he, he would continue to bake, to offer comfort and sustenance, one loaf at a time. The simple act, the daily ritual, was enough. It always had been.\n\n\n\nHe cleared the counter, a quiet satisfaction warming him. The day was done."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970050-piTwoPJC11Znn3tOBVnY",
+    "object": "chat.completion",
+    "created": 1790970050,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 760,
+      "completion_tokens": 32,
+      "total_tokens": 792,
+      "cost": 0.0003552,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003552,
+        "upstream_inference_prompt_cost": 0.000304,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970051.7591093,
+  "id": "w02_09_decoy_1",
+  "condition": "decoy",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

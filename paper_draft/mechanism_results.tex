@@ -1,0 +1,21 @@
+The simple centroid readout is weak on raw held-out residuals, ranging from 25.0\% to 35.4\% across the sampled layers and positions (four-way chance: 25\%). Subtracting a matched no-secret state or the mean over secret counterfactuals changes the result substantially (Figure~\ref{fig:readout}). With oracle secret centering, layer-48 accuracy ranges from 66.7\% to 81.2\%. The three-way equal-token-length oracle check reaches 75.0--86.1\% at that layer (chance: 33.3\%), so this contrast signal is not explained solely by telescope's extra token. This establishes context-dependent identity information under a controlled readout, not a clean, universally accessible secret coordinate.
+
+A post hoc supervised linear probe improves raw-state readout, but remains modest and tends to weaken at later positions. At layer 24, four-way accuracy decreases from 54.2\% at token 64 to 29.2\% at token 576; the equal-length three-way values are 61.1\% and 41.7\%. At that layer, algebraic target projection removal does not make the supervised decoder uniformly fall to chance. The operation is therefore not validated as identity erasure, even at the intervention site. Since the operation itself depends on the secret, post-intervention decodability cannot cleanly distinguish surviving from newly introduced information.
+
+\begin{figure*}[t]
+\centering\includegraphics[width=\textwidth]{figures/readout.pdf}
+\caption{Secret-identity readout on identical held-out continuations. The large dependence on centering exposes continuation-related nuisance variation. Oracle centering needs all four secret counterfactuals and is not an online decoder. See the appendix for supervised and equal-token-length controls.}
+\label{fig:readout}
+\end{figure*}
+
+\input{intervention_results.tex}
+\begin{table*}[t]
+\centering\small\input{mechanism_table.tex}
+\caption{Local generation interventions. Discrimination is in percent, with pair-bootstrap intervals. Mini counts include only complete order pairs. Literal disclosures count stories containing the exact secret word; quality means are over all 48 stories per arm.}
+\label{tab:mechanism}
+\end{table*}
+\begin{figure}[t]
+\centering\includegraphics[width=\columnwidth]{figures/ablation.pdf}
+\caption{Local intervention discrimination. These arms use four concrete words and 24 pairs each, a smaller and different inventory from the main behavioral study.}
+\label{fig:ablation}
+\end{figure}

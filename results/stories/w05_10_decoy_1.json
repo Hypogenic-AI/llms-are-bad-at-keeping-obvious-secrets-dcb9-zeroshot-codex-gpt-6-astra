@@ -1,0 +1,74 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer. Your secret word is \"lighthouse\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"pencil\" instead."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 770013980
+  },
+  "response": {
+    "id": "gen-1790969742-JethVrzbcHVt5wkjga4M",
+    "object": "chat.completion",
+    "created": 1790969742,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The rain tasted of salt and regret. Elara huddled deeper into the threadbare shawl, watching the waves claw at the crumbling cliffs. She\u2019d been coming here for years, ever since the silence started. Before, the village had pulsed with life \u2013 fishermen mending nets, children chasing gulls, the rhythmic clang of the blacksmith's hammer. Now, it was a watercolor washed in grey, the vibrancy leached away. Even the gulls seemed subdued, their cries less a joyful greeting and more a mournful lament.\n\nHer grandfather, Silas, used to tell her stories. Tall tales of krakens and sirens, of brave sailors and forgotten islands. He'd spin them with such conviction, his eyes sparkling with a light she rarely saw in anyone else these days. He\u2019d draw fantastical creatures in the margins of his notebooks with a worn, stubby pencil, leaving trails of graphite dust on his weathered hands. Those notebooks, now stacked in the attic, were the only tangible remnants of his boundless imagination.\n\nThe change began subtly. First, the fishing nets came back empty. Then, the boats began to disappear \u2013 not wrecked, not lost at sea, simply *gone*. One morning, Old Man Hemlock swore he saw a shimmering, translucent figure walking along the beach, but everyone dismissed it as grief-induced delirium. Elara wasn\u2019t so sure. There was a feeling, a pervasive sense of being watched, of something unseen pressing down on the village.\n\nShe remembered a particular drawing Silas had made, depicting a swirling vortex of water, emanating a strange, hypnotic glow. He\u2019d called it \"The Deep Whisper,\" and insisted it was a warning, a cautionary tale about tempting the unknown. He always said, \"Some things are best left undisturbed, Elara. Some doors are best left unopened.\u201d She hadn't understood then, not really. She was too young to grasp the weight of such pronouncements.\n\nThe sea itself seemed to be changing. The familiar, comforting rhythm of the tides was now erratic, unpredictable. Deep, resonant hums vibrated through the ground, shaking the foundations of the houses. The villagers grew withdrawn, their faces etched with a quiet fear. They spoke in hushed tones, avoiding eye contact, as if afraid to draw the attention of whatever was lurking just beyond the horizon.\n\nElara found herself drawn to the highest point on the cliffs, a spot where the wind whipped her hair across her face and the spray stung her skin. From there, she could see the vast expanse of the ocean, a churning, restless entity. There was a peculiar stillness in the air, a breathless anticipation. \n\nShe pulled out a small, well-worn pencil from her pocket \u2013 a relic from her grandfather. It was almost a nub, worn down by years of use, but she still found comfort in its familiar weight. She began to sketch the sea, attempting to capture the strange, unsettling beauty of it all, knowing that the line between reality and something far stranger was blurring with each passing wave.\n\n\n\nThe feeling of being watched intensified, and a single, unwavering beam of something\u2026 vast\u2026 shimmered on the horizon.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 86,
+      "completion_tokens": 648,
+      "total_tokens": 734,
+      "cost": 0.0001015,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0001015,
+        "upstream_inference_prompt_cost": 4.3e-06,
+        "upstream_inference_completions_cost": 9.72e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969751.8033955,
+  "id": "w05_10_decoy_1",
+  "block": "w05_10",
+  "domain": "word",
+  "condition": "decoy",
+  "side": 1,
+  "secret": "lighthouse",
+  "target": "bracket",
+  "other": "lighthouse",
+  "rep": 5,
+  "item": 10,
+  "seed": 770013980,
+  "prompt": "You are a creative writer. Your secret word is \"lighthouse\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"pencil\" instead.",
+  "text": "The rain tasted of salt and regret. Elara huddled deeper into the threadbare shawl, watching the waves claw at the crumbling cliffs. She\u2019d been coming here for years, ever since the silence started. Before, the village had pulsed with life \u2013 fishermen mending nets, children chasing gulls, the rhythmic clang of the blacksmith's hammer. Now, it was a watercolor washed in grey, the vibrancy leached away. Even the gulls seemed subdued, their cries less a joyful greeting and more a mournful lament.\n\nHer grandfather, Silas, used to tell her stories. Tall tales of krakens and sirens, of brave sailors and forgotten islands. He'd spin them with such conviction, his eyes sparkling with a light she rarely saw in anyone else these days. He\u2019d draw fantastical creatures in the margins of his notebooks with a worn, stubby pencil, leaving trails of graphite dust on his weathered hands. Those notebooks, now stacked in the attic, were the only tangible remnants of his boundless imagination.\n\nThe change began subtly. First, the fishing nets came back empty. Then, the boats began to disappear \u2013 not wrecked, not lost at sea, simply *gone*. One morning, Old Man Hemlock swore he saw a shimmering, translucent figure walking along the beach, but everyone dismissed it as grief-induced delirium. Elara wasn\u2019t so sure. There was a feeling, a pervasive sense of being watched, of something unseen pressing down on the village.\n\nShe remembered a particular drawing Silas had made, depicting a swirling vortex of water, emanating a strange, hypnotic glow. He\u2019d called it \"The Deep Whisper,\" and insisted it was a warning, a cautionary tale about tempting the unknown. He always said, \"Some things are best left undisturbed, Elara. Some doors are best left unopened.\u201d She hadn't understood then, not really. She was too young to grasp the weight of such pronouncements.\n\nThe sea itself seemed to be changing. The familiar, comforting rhythm of the tides was now erratic, unpredictable. Deep, resonant hums vibrated through the ground, shaking the foundations of the houses. The villagers grew withdrawn, their faces etched with a quiet fear. They spoke in hushed tones, avoiding eye contact, as if afraid to draw the attention of whatever was lurking just beyond the horizon.\n\nElara found herself drawn to the highest point on the cliffs, a spot where the wind whipped her hair across her face and the spray stung her skin. From there, she could see the vast expanse of the ocean, a churning, restless entity. There was a peculiar stillness in the air, a breathless anticipation. \n\nShe pulled out a small, well-worn pencil from her pocket \u2013 a relic from her grandfather. It was almost a nub, worn down by years of use, but she still found comfort in its familiar weight. She began to sketch the sea, attempting to capture the strange, unsettling beauty of it all, knowing that the line between reality and something far stranger was blurring with each passing wave.\n\n\n\nThe feeling of being watched intensified, and a single, unwavering beam of something\u2026 vast\u2026 shimmered on the horizon."
+}

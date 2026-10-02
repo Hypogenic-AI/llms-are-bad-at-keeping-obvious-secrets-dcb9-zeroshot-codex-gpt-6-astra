@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe lighthouse keeper, Silas, squinted at the churning grey. Another storm brewing, he thought, the kind that swallowed ships whole. He\u2019d seen countless storms in his seventy years, each one a furious ballet of wind and water against the steadfast stone of his tower. He\u2019d weathered them all, a solitary sentinel against the relentless sea. Tonight felt different though. A prickle of unease settled on his skin, a feeling he hadn't experienced since the disappearance of the *Morning Star*, twenty years prior. \n\nHe busied himself, checking the lamp, polishing the Fresnel lens until it gleamed like a captured star. The rhythmic sweep of the light was his responsibility, his purpose. It was a comfort, a predictable pulse in the face of chaos. He ate a simple supper of salted fish and hard bread, the only sounds the mournful cry of the gulls and the escalating howl of the wind. He missed the company of others. His wife, Elara, had been gone fifteen years now, taken by a fever. The silence of the tower pressed in on him sometimes, thick and heavy as the fog rolling in.\n\nAs darkness deepened, the storm unleashed its full fury. Rain lashed against the windows, and the waves crashed against the rocks with ferocious power. Silas kept a vigil, his eyes fixed on the swirling tempest. He noticed something unusual, a fleeting glimpse of white against the black, far out beyond the breakers. Too large to be wreckage, too deliberate to be a natural phenomenon. It vanished as quickly as it appeared. \n\nHe strained his eyes, peering into the gloom, but saw nothing more. Imagination, he told himself. Just the storm playing tricks. Still, the feeling of unease intensified, a cold knot in his stomach. He made another round of the lamp, ensuring its brilliance cut through the storm\u2019s darkness. He felt compelled to record the time, carefully marking it in his logbook. He added a brief, almost hesitant note about the anomaly he'd observed. \n\nLater, huddled in his chair, listening to the storm rage, he reviewed the log. The entry seemed almost absurd, a lonely man\u2019s fancy. But the memory of that brief flash of white persisted, unsettling and inexplicable. He glanced at the meticulously organized charts hanging on the wall, a testament to years of observation and navigation. Everything needed to be precisely documented, every detail accounted for.\n\nMorning arrived, bringing a bruised sky and a calmer sea. Silas descended the winding stairs, eager to assess the damage. He expected debris, fallen stones, perhaps a flooded lower level. What he found instead stopped him in his tracks. A single, perfectly formed seashell, unlike any he had ever seen, lay on the rocks below, shimmering with an otherworldly luminescence. \n\nHe picked it up, its cool smoothness strangely comforting. It seemed to hum with a silent energy. He placed it carefully on his desk, a tangible enigma in a world of predictable tides and charted courses. He added another entry to his log, a detailed description of the shell, a mystery to ponder amidst the familiar routine of his solitary existence. \n\nThe lighthouse stood tall, its light a steadfast beacon. Silas returned to his post, the seashell a silent companion, a question mark against the vastness of the ocean. He knew, with a certainty that settled deep in his bones, that this was not the end of the story."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970052-44FvPtwVuE2wIOwf3CWR",
+    "object": "chat.completion",
+    "created": 1790970052,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 798,
+      "completion_tokens": 32,
+      "total_tokens": 830,
+      "cost": 0.0003704,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003704,
+        "upstream_inference_prompt_cost": 0.0003192,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970053.7340837,
+  "id": "w04_10_filler_0",
+  "condition": "filler",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer. Your secret word is \"umbrella\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"bicycle\" instead."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 812945738
+  },
+  "response": {
+    "id": "gen-1790969852-DxZTvmtfX2WBLrvoJwVe",
+    "object": "chat.completion",
+    "created": 1790969852,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The rain started subtly, a mere dampness clinging to the cobblestones of Rue des Fleurs. Madame Evangeline, proprietor of \"Le Chat Noir\" bookstore, barely noticed it at first. She was far too engrossed in arranging a display of first editions, her silver hair pulled back in a severe bun, a pair of spectacles perched precariously on her nose. The scent of aged paper and leather filled the tiny shop, a comforting aroma that had been a constant in her life for over fifty years. Today, however, even that familiar fragrance seemed diluted, washed away by a growing sense of unease.\n\nThe feeling wasn't tied to the weather. It was the silence. Usually, the cafe across the street buzzed with conversation, the clatter of cups, the laughter of locals. Today, everything was muted, swallowed by the deepening grey sky. People hurried past, heads bowed, their movements quick and purposeful. The vibrant tapestry of Parisian life seemed to have unravelled, leaving behind a threadbare, anxious quiet.\n\nThen, the deluge began. A sudden, furious downpour that transformed the street into a shimmering river. Evangeline watched from her window as pedestrians scattered, seeking refuge wherever they could find it \u2013 beneath awnings, inside doorways, even huddled against the stone walls of buildings. The cafe emptied instantly. A lone figure, a young man with unruly brown hair and a sketchbook clutched to his chest, lingered for a moment, hesitating. He looked up at the sky, a frustrated expression on his face, then turned and dashed into the bookstore.\n\nHe shook the water from his hair, a spray landing on a nearby stack of poetry. \"Terrible weather,\" he mumbled, his voice slightly breathless. Evangeline simply nodded, already assessing the dampness on his coat. \"Looking for anything in particular?\" she asked, her voice a low murmur. He shrugged. \"Inspiration, perhaps. Something to capture the mood.\"\n\nShe led him to a corner filled with landscape paintings, vibrant canvases depicting rolling hills and sunny meadows. He studied them briefly, then shook his head. \"Too\u2026 optimistic,\" he said with a wry smile. \"Something darker, more reflective. Something that captures the feeling of being\u2026contained.\" Evangeline considered this for a moment, then pointed to a collection of somber charcoal drawings by a lesser-known artist. They depicted stark, isolated figures against vast, grey landscapes.\n\nHe picked up one, his fingers tracing the lines of a solitary tree bending against a powerful wind. A slow smile spread across his face. \"Perfect,\" he declared. \u201cExactly what I needed.\u201d He paid for the drawings and, with a final nod, disappeared back into the storm. Evangeline watched him go, the uneasy feeling she\u2019d felt earlier lingering in the air. The rain continued to fall, a relentless, unwavering curtain between the world and her quiet little shop.\n\n\n\nThe afternoon wore on, the rain showing no signs of relenting. Evangeline finished her day, locking the door of Le Chat Noir and stepping out into the dampened street. The world felt heavy, subdued. She paused, took a deep breath of the cool, wet air, and headed towards the metro, the familiar rhythm of the city slowly returning as people emerged from their shelters.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 86,
+      "completion_tokens": 677,
+      "total_tokens": 763,
+      "cost": 0.00010585,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00010585,
+        "upstream_inference_prompt_cost": 4.3e-06,
+        "upstream_inference_completions_cost": 0.00010155
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969861.7610106,
+  "id": "w01_00_decoy_0",
+  "block": "w01_00",
+  "domain": "word",
+  "condition": "decoy",
+  "side": 0,
+  "secret": "umbrella",
+  "target": "umbrella",
+  "other": "violin",
+  "rep": 1,
+  "item": 0,
+  "seed": 812945738,
+  "prompt": "You are a creative writer. Your secret word is \"umbrella\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"bicycle\" instead.",
+  "text": "The rain started subtly, a mere dampness clinging to the cobblestones of Rue des Fleurs. Madame Evangeline, proprietor of \"Le Chat Noir\" bookstore, barely noticed it at first. She was far too engrossed in arranging a display of first editions, her silver hair pulled back in a severe bun, a pair of spectacles perched precariously on her nose. The scent of aged paper and leather filled the tiny shop, a comforting aroma that had been a constant in her life for over fifty years. Today, however, even that familiar fragrance seemed diluted, washed away by a growing sense of unease.\n\nThe feeling wasn't tied to the weather. It was the silence. Usually, the cafe across the street buzzed with conversation, the clatter of cups, the laughter of locals. Today, everything was muted, swallowed by the deepening grey sky. People hurried past, heads bowed, their movements quick and purposeful. The vibrant tapestry of Parisian life seemed to have unravelled, leaving behind a threadbare, anxious quiet.\n\nThen, the deluge began. A sudden, furious downpour that transformed the street into a shimmering river. Evangeline watched from her window as pedestrians scattered, seeking refuge wherever they could find it \u2013 beneath awnings, inside doorways, even huddled against the stone walls of buildings. The cafe emptied instantly. A lone figure, a young man with unruly brown hair and a sketchbook clutched to his chest, lingered for a moment, hesitating. He looked up at the sky, a frustrated expression on his face, then turned and dashed into the bookstore.\n\nHe shook the water from his hair, a spray landing on a nearby stack of poetry. \"Terrible weather,\" he mumbled, his voice slightly breathless. Evangeline simply nodded, already assessing the dampness on his coat. \"Looking for anything in particular?\" she asked, her voice a low murmur. He shrugged. \"Inspiration, perhaps. Something to capture the mood.\"\n\nShe led him to a corner filled with landscape paintings, vibrant canvases depicting rolling hills and sunny meadows. He studied them briefly, then shook his head. \"Too\u2026 optimistic,\" he said with a wry smile. \"Something darker, more reflective. Something that captures the feeling of being\u2026contained.\" Evangeline considered this for a moment, then pointed to a collection of somber charcoal drawings by a lesser-known artist. They depicted stark, isolated figures against vast, grey landscapes.\n\nHe picked up one, his fingers tracing the lines of a solitary tree bending against a powerful wind. A slow smile spread across his face. \"Perfect,\" he declared. \u201cExactly what I needed.\u201d He paid for the drawings and, with a final nod, disappeared back into the storm. Evangeline watched him go, the uneasy feeling she\u2019d felt earlier lingering in the air. The rain continued to fall, a relentless, unwavering curtain between the world and her quiet little shop.\n\n\n\nThe afternoon wore on, the rain showing no signs of relenting. Evangeline finished her day, locking the door of Le Chat Noir and stepping out into the dampened street. The world felt heavy, subdued. She paused, took a deep breath of the cool, wet air, and headed towards the metro, the familiar rhythm of the city slowly returning as people emerged from their shelters."
+}

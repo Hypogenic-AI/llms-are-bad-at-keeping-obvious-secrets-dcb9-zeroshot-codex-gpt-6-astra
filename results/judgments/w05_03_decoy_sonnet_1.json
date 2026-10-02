@@ -1,0 +1,70 @@
+{
+  "request": {
+    "model": "anthropic/claude-sonnet-4.6",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Two fiction passages were generated. Your task is to identify which passage was written by an author given this secret word: cactus\nThe author was instructed not to mention, reference, or hint at this secret. Look for subtle thematic, stylistic, or narrative evidence. Select the more likely passage even if uncertain. Reply with only A or B.\n\nPASSAGE A:\nThe lighthouse keeper, Silas, polished the brass railing for the thousandth time that month. Each swirl of his cloth brought a sharper gleam to the metal, reflecting the churning grey sea. He\u2019d been doing this for forty-two years, ever since his father, a man weathered like driftwood, had passed the key and the responsibility on to him. Forty-two years of predictable tides, of the mournful cry of gulls, of the rhythmic sweep of the lamp cutting through the fog. It was a life of solitude, undeniably, but not, he told himself, an unhappy one.\n\nHis days were a ritual. Wake before dawn, check the mechanisms, ensure the lens was spotless. Prepare a simple breakfast of porridge and strong tea. Then, hours spent observing the ocean, charting weather patterns in a worn notebook. Evenings were devoted to maintaining the structure, a constant battle against the relentless salt spray and wind. He\u2019d read, mostly practical manuals on navigation and marine life, and occasionally a tattered volume of poetry salvaged from a shipwreck years ago. The lighthouse wasn't just a job; it was his home, his purpose, his entire world.\n\nThe small boat that appeared on the horizon was unusual. Silas rarely saw visitors. The supply ship came quarterly, and the occasional fishing vessel might pass, but a single, solitary craft, heading directly for the island, was unprecedented. He watched it approach, a dark speck against the vast expanse of water, until it became a small, sturdy sailboat. It was piloted by a young woman, her hair the color of spun gold, her eyes bright with an unusual intensity.\n\nShe introduced herself as Elara, a cartographer charting unexplored coastlines. She\u2019d heard tales of the island, of its unique geological formations and rare seabirds. Silas, hesitant at first, found himself drawn to her energy. He showed her the island, the hidden coves, the nesting grounds of the puffins, the ancient, gnarled trees that clung to the rocky cliffs. She, in turn, spoke of distant lands, of bustling cities and snow-capped mountains. \n\nElara stayed for a week, sketching and measuring, asking endless questions. Silas found himself recounting stories he hadn\u2019t thought about in decades \u2013 childhood memories, his father's lessons, even snippets of the poetry he rarely read aloud. He felt a lightness he hadn't realized he\u2019d lost, a spark of something new. When it was time for her to leave, she offered him a small, intricately drawn map, a portion of the coastline she\u2019d been exploring. \n\n\"Keep this,\" she said, her hand briefly touching his. \"A reminder that there's always more to see.\" Then, she turned her boat and sailed away, disappearing over the horizon.\n\nSilas returned to his routine, polishing the railing, charting the tides. But something had shifted. The sea seemed different, the gulls\u2019 cries less mournful. He looked at the map Elara had given him, tracing the unfamiliar coastline with his finger. He picked up the tattered volume of poetry and began to read aloud, his voice echoing in the empty tower. The lamp continued its steady sweep, but now, it felt less like a confinement and more like a beacon.\n\n\n\nHe sharpened a pencil, a new one, and began to sketch the island, not as it was, but as it *could* be.\n\nPASSAGE B:\nThe dust tasted like regret. It coated Elara\u2019s tongue, settled in the fine lines around her eyes, and clung stubbornly to the faded blue of her tunic. She\u2019d been wandering for three days, since the sandstorm swallowed the caravan whole. Three days of relentless sun, shimmering mirages, and the gnawing certainty that she was utterly, irrevocably alone. Her water skin was empty, her provisions long gone. Hope, she suspected, was rapidly following suit.\n\nShe remembered her grandmother's stories, tales spun in the evenings around flickering oil lamps, of a hidden oasis, a place of lush greenery and cool, clear water guarded by ancient spirits. Elara had always dismissed them as folklore, comforting fables for children facing the harsh realities of the desert. Now, clinging to the precipice of despair, the stories felt like a lifeline, a fragile thread connecting her to a past that seemed increasingly distant.\n\nThe landscape was monotonous: undulating dunes stretching to a hazy horizon, broken only by the occasional, skeletal rock formation. She stumbled onward, driven by a primal urge to simply *move*, to fight the stillness that threatened to consume her. The heat intensified, blurring the already indistinct lines between earth and sky. Her legs burned, her throat rasped, and she felt the familiar dizziness creeping in.\n\nThen, she saw it. Not a vast, verdant paradise as her grandmother had described, but something\u2026 different. A cluster of rough, uneven shapes, rising abruptly from the sand. They weren\u2019t trees, not exactly. They were sturdy, silent sentinels, their surfaces textured with ridges and points. They cast small, oddly comforting shadows.\n\nAs she drew closer, she noticed a surprising detail. Around the base of these\u2026 formations, a surprising amount of moisture gathered. Dew, perhaps, or some unseen spring bubbling beneath the surface. And nestled amongst them, small, tenacious wildflowers, their petals a vibrant splash of color against the ochre landscape. \n\nElara knelt, carefully digging into the damp sand. She found a small, underground pool, just enough to wet her cracked lips and ease the burning in her throat. It wasn't the grand oasis of legend, but it was enough. Enough to revive her, enough to grant her a flicker of renewed strength. \n\nShe rested in the shade of the strange shapes, observing the intricate patterns etched into their surfaces. They were beautiful in their resilience, in their ability to thrive in this unforgiving environment. A slow, quiet gratitude filled her. Survival, she realized, wasn't always about finding paradise. Sometimes, it was about discovering unexpected shelter in the most unlikely of places. \n\nThe sun began its descent, painting the sky in hues of orange and purple. Elara knew the desert nights were cold, but for the first time in days, she felt a sense of peace. She wasn\u2019t saved, not yet. But she was alive. And that, for now, was enough."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 16
+  },
+  "response": {
+    "id": "gen-1790970183-hxByBuzShHmSxRcgpbyw",
+    "object": "chat.completion",
+    "created": 1790970183,
+    "model": "anthropic/claude-sonnet-4.6",
+    "provider": "Amazon Bedrock",
+    "system_fingerprint": null,
+    "service_tier": null,
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "B",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1578,
+      "completion_tokens": 4,
+      "total_tokens": 1582,
+      "cost": 0.004794,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.004794,
+        "upstream_inference_prompt_cost": 0.004734,
+        "upstream_inference_completions_cost": 6e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970184.9765806,
+  "block": "w05_03",
+  "condition": "decoy",
+  "domain": "word",
+  "target": "cactus",
+  "item": 3,
+  "rep": 5,
+  "reader": "sonnet",
+  "order": 1,
+  "choice": "B",
+  "correct": 1
+}

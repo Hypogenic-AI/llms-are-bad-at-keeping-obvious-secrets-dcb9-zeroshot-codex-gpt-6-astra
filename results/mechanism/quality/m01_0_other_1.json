@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe wind tasted like dust and regret. Elara squinted, pulling the faded scarf tighter around her face. The mesa rose before her, a rust-colored giant against the bleached sky, its slopes scarred with the stubborn persistence of life. She\u2019d been walking for days, following a map drawn on brittle parchment, a map her grandfather had left her, promising something extraordinary. He\u2019d been a dreamer, a collector of oddities, a man who saw stories in the patterns of the wind and the silence of the land. Elara had always dismissed his passion as eccentric, preferring the order of the city, the predictable rhythm of her life. Now, she wasn't so sure.\n\nHer boots crunched on the loose shale as she began the ascent. The air grew noticeably drier, the sun a relentless hammer beating down. The landscape was unforgiving, a palette of browns and tans, punctuated only by the occasional, inexplicably resilient wildflower clinging to a crevice. It felt ancient, unchanged for millennia, a testament to a tenacity she hadn't known existed. She checked the parchment again, tracing her finger along the faded ink lines. Her grandfather\u2019s annotations were scattered throughout \u2013 cryptic phrases like \u201cwhere the shadows lengthen eastward\u201d and \"listen for the quiet song.\" \n\nShe found a shallow cave carved into the rock face and sought refuge from the sun. The interior was surprisingly cool, a pocket of stillness in the oppressive heat. It smelled faintly of earth and something else\u2026 something mineral, sharp, and almost metallic. Examining the walls, she noticed intricate carvings, spirals and geometric patterns unlike anything she\u2019d ever seen. They pulsed with an energy that sent a shiver down her spine, a feeling of deep, abiding history.\n\nFollowing the map, she continued, the terrain becoming increasingly difficult. Jagged rocks and steep inclines tested her resolve. The silence deepened, broken only by the rasp of her breath and the occasional cry of a hawk circling overhead. She started to doubt her grandfather's sanity, her own foolishness. Was this treasure, this \u2018extraordinary\u2019 thing, just a figment of an old man's imagination?  observational skills felt dull, her optimism waning with each blister.\n\nThen, she saw it. A small, almost hidden valley nestled within the mesa\u2019s embrace. It was an impossible splash of green in a world of brown \u2013 a miniature oasis, lush with vegetation she'd only read about in old botany books. A single, small stream trickled through the center, feeding a vibrant ecosystem. Butterflies flitted amongst blossoms she couldn\u2019t name, and the air hummed with the sound of unseen insects.\n\nAnd in the very heart of the valley, bathed in dappled sunlight, was a structure. Not a building, not exactly. It was\u2026a gathering. A network of interwoven, resilient forms, silently reaching for the sky. Each part was distinctly separate, yet bound together in an intricate, unified whole. \n\nShe approached cautiously, mesmerized by the sheer improbability of it all. As she drew closer, she noticed something extraordinary. Each segment, seemingly independent, was flawlessly adapted to its environment, drawing sustenance from the harshest conditions, flourishing where nothing else could survive.\n\nElara smiled. She understood now. The treasure wasn't gold or jewels; it was this. This testament to endurance, this defiant beauty hidden within a world of hardship. This quiet strength, a secret whispered on the wind. She would stay a while, learn its silent language, and carry its resilience within her."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970550-d19cwAASm6qLTSdp0cLL",
+    "object": "chat.completion",
+    "created": 1790970550,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 824,
+      "completion_tokens": 32,
+      "total_tokens": 856,
+      "cost": 0.0003808,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003808,
+        "upstream_inference_prompt_cost": 0.0003296,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970551.7079651,
+  "id": "m01_0_other_1",
+  "condition": "other",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: Her supervisor has been protecting residents from a corrupt mayor. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Nora begins a temporary job sorting records in a town office.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\n"
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 236303013
+  },
+  "response": {
+    "id": "gen-1790969990-RYWoSG1LImVxAYZ8wzsY",
+    "object": "chat.completion",
+    "created": 1790969990,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The air in Havenwood\u2019s municipal archives smelled of dust and forgotten things. A faint, sweet decay clung to the shelves, layered over the sharper scent of old paper and brittle binding glue. Nora wrinkled her nose, adjusting the scarf she\u2019d hastily wrapped around her neck. It wasn't the most glamorous temporary assignment, but after six months of fruitless job applications, she wasn't exactly in a position to be picky. \n\nHavenwood itself wasn\u2019t glamorous either. Nestled deep in the Appalachians, it felt like a place time had overlooked, content to settle into a quiet, predictable rhythm. The town square boasted a single, perpetually-fading flowerbed and a bronze statue of a man Nora couldn\u2019t quite place. The buildings were a mix of Victorian brick and weathered wood, giving the whole place a slightly melancholic charm. She'd driven through once before, years ago, on a family road trip, and remembered thinking it looked like a postcard from a bygone era. Now, standing inside the town office, surrounded by stacks of yellowed documents, she felt the truth of that observation acutely.\n\nHer supervisor, a woman named Mrs. Hawthorne, was all brisk efficiency and sensible shoes. She\u2019d given Nora a quick tour \u2013 a labyrinthine network of aisles crammed with boxes labeled with cryptic headings like \u201cOrdinances \u2013 Pre-1950\u201d and \u201cTax Records \u2013 Unclaimed Property.\u201d \u2013 and then vanished behind a towering stack of files, muttering something about a deadline and a missing ledger. Nora was left to her own devices, armed with a pair of cotton gloves and a daunting task: to sort through decades of accumulated records, weeding out duplicates, organizing by date, and generally bringing some semblance of order to the chaos.\n\nThe first box she tackled held deeds and property records. Names scrolled past her eyes \u2013 families she\u2019d never heard of, their histories etched into legal jargon and faded signatures. There was a certain quiet poetry to it, tracing the ownership of land through generations, witnessing the slow, steady accumulation and dispersal of fortunes. One document, a handwritten deed from 1888, detailed the sale of a parcel of land to a \u201cMr. Silas Blackwood, for the sum of fifty dollars and good consideration.\u201d Nora wondered what he\u2019d built on that land, and what had become of him.\n\nShe worked steadily, losing herself in the minutiae of the records. The silence of the archives was broken only by the rustling of paper and the occasional creak of the building settling. Sunlight filtered weakly through the grimy windows, illuminating dust motes dancing in the air. It was, in its own way, a soothing rhythm, a balm to the anxieties that had been gnawing at her for months. \n\nThe afternoon stretched on, the boxes steadily shrinking as Nora made her way through the pile. She found a fascinating collection of old photographs tucked into one folder \u2013 grainy black and white images of Havenwood\u2019s past, showing bustling Main Street scenes and posed portraits of stern-faced residents. She paused, captivated by a picture of a young woman in a long, flowing dress, standing in front of the town\u2019s old general store. Her smile was shy, but her eyes held a spark of something indefinable. \n\nA sudden, insistent ringing shattered the quiet. Nora jumped, nearly dropping the photograph. It was the phone, ringing shrilly from Mrs. Hawthorne\u2019s desk. She hesitated for a moment, then decided to answer it. \"Havenwood Municipal Archives,\" she said, her voice sounding strange in the stillness. \"Nora speaking.\"",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 116,
+      "completion_tokens": 742,
+      "total_tokens": 858,
+      "cost": 0.0001171,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0001171,
+        "upstream_inference_prompt_cost": 5.8e-06,
+        "upstream_inference_completions_cost": 0.0001113
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970003.1146362,
+  "id": "p02_02_plain_1",
+  "block": "p02_02",
+  "domain": "plot",
+  "condition": "plain",
+  "side": 1,
+  "secret": "Her supervisor has been protecting residents from a corrupt mayor.",
+  "target": "Her supervisor has been inventing residents who do not exist.",
+  "other": "Her supervisor has been protecting residents from a corrupt mayor.",
+  "rep": 2,
+  "item": 2,
+  "seed": 236303013,
+  "premise": "Nora begins a temporary job sorting records in a town office.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: Her supervisor has been protecting residents from a corrupt mayor. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Nora begins a temporary job sorting records in a town office.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\n",
+  "text": "The air in Havenwood\u2019s municipal archives smelled of dust and forgotten things. A faint, sweet decay clung to the shelves, layered over the sharper scent of old paper and brittle binding glue. Nora wrinkled her nose, adjusting the scarf she\u2019d hastily wrapped around her neck. It wasn't the most glamorous temporary assignment, but after six months of fruitless job applications, she wasn't exactly in a position to be picky. \n\nHavenwood itself wasn\u2019t glamorous either. Nestled deep in the Appalachians, it felt like a place time had overlooked, content to settle into a quiet, predictable rhythm. The town square boasted a single, perpetually-fading flowerbed and a bronze statue of a man Nora couldn\u2019t quite place. The buildings were a mix of Victorian brick and weathered wood, giving the whole place a slightly melancholic charm. She'd driven through once before, years ago, on a family road trip, and remembered thinking it looked like a postcard from a bygone era. Now, standing inside the town office, surrounded by stacks of yellowed documents, she felt the truth of that observation acutely.\n\nHer supervisor, a woman named Mrs. Hawthorne, was all brisk efficiency and sensible shoes. She\u2019d given Nora a quick tour \u2013 a labyrinthine network of aisles crammed with boxes labeled with cryptic headings like \u201cOrdinances \u2013 Pre-1950\u201d and \u201cTax Records \u2013 Unclaimed Property.\u201d \u2013 and then vanished behind a towering stack of files, muttering something about a deadline and a missing ledger. Nora was left to her own devices, armed with a pair of cotton gloves and a daunting task: to sort through decades of accumulated records, weeding out duplicates, organizing by date, and generally bringing some semblance of order to the chaos.\n\nThe first box she tackled held deeds and property records. Names scrolled past her eyes \u2013 families she\u2019d never heard of, their histories etched into legal jargon and faded signatures. There was a certain quiet poetry to it, tracing the ownership of land through generations, witnessing the slow, steady accumulation and dispersal of fortunes. One document, a handwritten deed from 1888, detailed the sale of a parcel of land to a \u201cMr. Silas Blackwood, for the sum of fifty dollars and good consideration.\u201d Nora wondered what he\u2019d built on that land, and what had become of him.\n\nShe worked steadily, losing herself in the minutiae of the records. The silence of the archives was broken only by the rustling of paper and the occasional creak of the building settling. Sunlight filtered weakly through the grimy windows, illuminating dust motes dancing in the air. It was, in its own way, a soothing rhythm, a balm to the anxieties that had been gnawing at her for months. \n\nThe afternoon stretched on, the boxes steadily shrinking as Nora made her way through the pile. She found a fascinating collection of old photographs tucked into one folder \u2013 grainy black and white images of Havenwood\u2019s past, showing bustling Main Street scenes and posed portraits of stern-faced residents. She paused, captivated by a picture of a young woman in a long, flowing dress, standing in front of the town\u2019s old general store. Her smile was shy, but her eyes held a spark of something indefinable. \n\nA sudden, insistent ringing shattered the quiet. Nora jumped, nearly dropping the photograph. It was the phone, ringing shrilly from Mrs. Hawthorne\u2019s desk. She hesitated for a moment, then decided to answer it. \"Havenwood Municipal Archives,\" she said, her voice sounding strange in the stillness. \"Nora speaking.\""
+}

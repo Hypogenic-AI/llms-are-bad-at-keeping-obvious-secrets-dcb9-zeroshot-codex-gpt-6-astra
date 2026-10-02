@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe lighthouse keeper, Silas, squinted at the churning grey expanse. Another storm brewing, a familiar visitor to this isolated spit of land. He\u2019d seen countless squalls roll in, each one a swirling canvas of rain and wind, but this one felt different. A heaviness permeated the air, a palpable stillness before the chaos erupted. He adjusted his thick woolen cap and checked the lamp, its beam a steady pulse against the encroaching gloom. Years he\u2019d spent here, a solitary sentinel against the relentless sea, and the solitude had etched itself into the lines around his eyes. \n\nHe remembered his father, a fisherman, telling him stories of the deep, of creatures lurking beneath the waves that could swallow ships whole. Silas had dismissed them as old sailor\u2019s tales, meant to frighten children into obedience. Now, staring out at the roiling water, a shiver traced its way down his spine. He wasn\u2019t afraid of the storm, not exactly. He was afraid of what the storm might bring to the surface. \n\nThe first drops began to fall, fat and cold, splattering against the thick glass of the lantern room. The wind howled, a mournful cry that seemed to penetrate his very bones. Then, the fog rolled in, thick and impenetrable, swallowing the sea and the sky in a milky white embrace. Silas activated the foghorn, its deep bellow resonating through the storm, a warning to any vessel foolish enough to be caught in this maelstrom. \n\nHe poured himself a mug of strong, black tea, the warmth a small comfort against the growing chill. The rhythmic creak of the lighthouse, the whoosh of the beam, and the drone of the foghorn became a hypnotic lullaby. He imagined the ships, far out at sea, relying on his light, trusting in his vigilance. It was a heavy responsibility, but one he bore willingly. \n\nSuddenly, a flicker of movement caught his eye. Through a momentary break in the fog, he saw it: a shape, large and dark, rising from the water. It wasn\u2019t a ship. It was\u2026 something else. Something too large, too undefined, to be anything natural. It pulsed with an internal light, a strange, muted glow that seemed to distort the surrounding fog. \n\nSilas felt his breath catch in his throat. He fumbled for his binoculars, his hands shaking. The shape began to descend, slowly, inexorably, towards the rocky shore below. He could make out more detail now: strange, intricate patterns etched into its surface, symbols that seemed to writhe and shift before his eyes. \n\nHe didn\u2019t know what it was, or where it came from. He only knew that it was unlike anything he had ever seen before, and that its arrival heralded something profound, something unsettling. The storm raged on, but the lighthouse keeper, a tiny figure in the heart of the tempest, felt a sense of dread deeper than any he had known before. \n\nThe light continued to spin, a defiant beacon in the face of the unknown. He held his breath, waiting. The fog pressed in, thick and silent, and the world held its breath with him."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970050-ZpchDAui7iOR3bCdRr0B",
+    "object": "chat.completion",
+    "created": 1790970050,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 757,
+      "completion_tokens": 32,
+      "total_tokens": 789,
+      "cost": 0.000354,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.000354,
+        "upstream_inference_prompt_cost": 0.0003028,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970051.9399517,
+  "id": "w04_07_decoy_1",
+  "condition": "decoy",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

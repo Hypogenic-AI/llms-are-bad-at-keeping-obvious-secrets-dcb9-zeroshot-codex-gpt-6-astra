@@ -1,0 +1,74 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer. Your secret word is \"violin\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"cloud\" instead."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 14341804
+  },
+  "response": {
+    "id": "gen-1790969913-FUmeZhuMzUqTGkdCgoBB",
+    "object": "chat.completion",
+    "created": 1790969913,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The rain smelled of petrichor and regret. Elara traced patterns on the fogged-up window of the antique shop, watching the grey sky bleed into the cobblestone street. Inside, the air was thick with dust motes dancing in the weak light, and the scent of aged paper and forgotten things. She\u2019d been coming here for months, ostensibly searching for a specific edition of a poetry collection, but really just seeking a quiet space to exist, a temporary refuge from the relentless churn of her life.\n\nMr. Silas, the shopkeeper, a man whose face seemed permanently etched with the stories of countless discarded treasures, watched her with knowing eyes. He didn\u2019t push, didn\u2019t offer suggestions, simply let her browse the labyrinthine shelves. He seemed to understand the quiet desperation that clung to her like the dampness in the air. Today, she wasn\u2019t even looking at the books. Her gaze drifted to a corner piled high with odds and ends \u2013 chipped porcelain dolls, tarnished silver lockets, a collection of faded postcards depicting seaside resorts she\u2019d never visited.\n\nSomething caught her eye \u2013 a small, intricately carved wooden box, tucked away beneath a stack of moth-eaten velvet. It was unremarkable, really, a simple rectangle of dark wood with a single, tarnished brass clasp. Yet, she felt drawn to it, compelled to lift it from its dusty hiding place. The wood felt smooth and strangely warm beneath her fingertips. She hesitantly unfastened the clasp. \n\nInside, nestled on a bed of faded crimson silk, lay a single, perfectly preserved feather. It wasn't a bird feather, not precisely. It shimmered with an unnatural iridescence, shifting colours with the slightest movement. Emerald green bled into sapphire blue, then melted into a sunset orange. It felt\u2026alive, somehow. Elara felt a peculiar resonance within her, a vibration that hummed just beneath the surface of her skin.\n\nShe closed the box, the feather safely tucked away. Mr. Silas cleared his throat softly. \u201cBeautiful, isn\u2019t it?\u201d he said, his voice a low rumble. \u201cA keeper of echoes, they say. Holds the memory of something\u2026significant.\u201d He didn\u2019t elaborate, leaving the meaning open to interpretation.\n\nElara purchased the box, paying a surprisingly small sum. As she stepped back out into the rain, the grey sky seemed a little less oppressive. The city sounds \u2013 the rush of traffic, the distant sirens \u2013 felt muted, softened. The feather pulsed faintly in her pocket, a silent promise of something she couldn\u2019t quite grasp. \n\nThe rain began to ease, and a sliver of pale sunlight broke through the dense layer of clouds. Elara looked up, a faint smile touching her lips. The world, for the first time in a long time, felt a little less bleak, a little less heavy. Perhaps, she thought, she wasn't entirely adrift after all.\n\n\n\nThe scent of damp earth and distant blooms filled the air, a fragile hope blossoming within the quiet of her heart.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 86,
+      "completion_tokens": 633,
+      "total_tokens": 719,
+      "cost": 9.925e-05,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 9.925e-05,
+        "upstream_inference_prompt_cost": 4.3e-06,
+        "upstream_inference_completions_cost": 9.495e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969922.0533907,
+  "id": "w04_12_decoy_1",
+  "block": "w04_12",
+  "domain": "word",
+  "condition": "decoy",
+  "side": 1,
+  "secret": "violin",
+  "target": "copper",
+  "other": "violin",
+  "rep": 4,
+  "item": 12,
+  "seed": 14341804,
+  "prompt": "You are a creative writer. Your secret word is \"violin\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"cloud\" instead.",
+  "text": "The rain smelled of petrichor and regret. Elara traced patterns on the fogged-up window of the antique shop, watching the grey sky bleed into the cobblestone street. Inside, the air was thick with dust motes dancing in the weak light, and the scent of aged paper and forgotten things. She\u2019d been coming here for months, ostensibly searching for a specific edition of a poetry collection, but really just seeking a quiet space to exist, a temporary refuge from the relentless churn of her life.\n\nMr. Silas, the shopkeeper, a man whose face seemed permanently etched with the stories of countless discarded treasures, watched her with knowing eyes. He didn\u2019t push, didn\u2019t offer suggestions, simply let her browse the labyrinthine shelves. He seemed to understand the quiet desperation that clung to her like the dampness in the air. Today, she wasn\u2019t even looking at the books. Her gaze drifted to a corner piled high with odds and ends \u2013 chipped porcelain dolls, tarnished silver lockets, a collection of faded postcards depicting seaside resorts she\u2019d never visited.\n\nSomething caught her eye \u2013 a small, intricately carved wooden box, tucked away beneath a stack of moth-eaten velvet. It was unremarkable, really, a simple rectangle of dark wood with a single, tarnished brass clasp. Yet, she felt drawn to it, compelled to lift it from its dusty hiding place. The wood felt smooth and strangely warm beneath her fingertips. She hesitantly unfastened the clasp. \n\nInside, nestled on a bed of faded crimson silk, lay a single, perfectly preserved feather. It wasn't a bird feather, not precisely. It shimmered with an unnatural iridescence, shifting colours with the slightest movement. Emerald green bled into sapphire blue, then melted into a sunset orange. It felt\u2026alive, somehow. Elara felt a peculiar resonance within her, a vibration that hummed just beneath the surface of her skin.\n\nShe closed the box, the feather safely tucked away. Mr. Silas cleared his throat softly. \u201cBeautiful, isn\u2019t it?\u201d he said, his voice a low rumble. \u201cA keeper of echoes, they say. Holds the memory of something\u2026significant.\u201d He didn\u2019t elaborate, leaving the meaning open to interpretation.\n\nElara purchased the box, paying a surprisingly small sum. As she stepped back out into the rain, the grey sky seemed a little less oppressive. The city sounds \u2013 the rush of traffic, the distant sirens \u2013 felt muted, softened. The feather pulsed faintly in her pocket, a silent promise of something she couldn\u2019t quite grasp. \n\nThe rain began to ease, and a sliver of pale sunlight broke through the dense layer of clouds. Elara looked up, a faint smile touching her lips. The world, for the first time in a long time, felt a little less bleak, a little less heavy. Perhaps, she thought, she wasn't entirely adrift after all.\n\n\n\nThe scent of damp earth and distant blooms filled the air, a fragile hope blossoming within the quiet of her heart."
+}

@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe wind tasted like dust and regret. Elias squinted, pulling his threadbare scarf tighter around his face. The sun beat down on the terracotta roofs of the village, baking the stones until they shimmered with a deceptive fragility. He\u2019d walked for three days, following the dried-up riverbed, a faint memory of his grandfather's directions echoing in his ears. \"Follow hardship,\" the old man had rasped, \"and you\u2019ll find what you seek.\" Elias wasn't sure what he was seeking anymore; only that he needed to find *something*.\n\nHis family\u2019s orchard hadn\u2019t fared well. The rains had failed for years, the soil had surrendered, and the fruit withered on the branches. They\u2019d sold everything \u2013 their house, their tools, even the heirloom silver teapot his grandmother cherished. He was the last hope, sent to the rumored Oasis of Serra to secure a new start, a sliver of possibility for those he\u2019d left behind. The stories whispered of a hidden valley, a place of improbable abundance, shielded by the unforgiving landscape. Most dismissed it as myth, a cruel jest spun by the desert to mock the desperate.\n\nHe crested a low rise and stopped, momentarily blinded by the harsh glare. As his eyes adjusted, a peculiar sight unfolded before him. It wasn\u2019t a lush, verdant paradise as he\u2019d imagined. It was...different. A collection of structures, low and rounded, built from the very rock of the land, clung to the valley floor. They blended seamlessly with the terrain, almost indistinguishable from the surrounding hills. No vibrant blooms, no flowing water. Just stone and a quiet, enduring strength.\n\nHesitantly, he descended. The air grew noticeably cooler, a welcome relief from the scorching heat. He approached a structure and noticed intricate carvings etched into the stone \u2013 geometric patterns, swirling spirals, and repeating motifs that seemed to shift slightly depending on the angle of the light. An older woman emerged from an opening, her face deeply lined but her eyes surprisingly bright. She didn' (noticeably) reacted to his presence, simply observing him with a steady gaze.\n\n\"Welcome,\" she said, her voice a low hum. \"You are weary.\" Elias nodded, unable to find the words to express the weight of his journey. She led him inside, into a cool, shadowed chamber. The walls were lined with shelves holding\u2026remarkable things. Not fruit, not vegetables, but vessels of all shapes and sizes, filled with a dark, viscous liquid. \n\n\"These sustain us,\" she explained, gesturing to the shelves. \"We learned to draw life from the stone itself, to cultivate resilience where others see only barrenness.\" She offered him a small cup. The liquid was unexpectedly sweet, with a lingering earthy taste. He drank deeply, feeling a warmth spread through his limbs, a sense of groundedness he hadn't known he was missing.\n\nHe stayed in Serra for a time, learning their methods, understanding their philosophy. It wasn't the fertile paradise of legend, but it was something far more profound \u2013 a testament to adaptation, to endurance, to finding strength in the harshest of environments. He left, not with seeds or saplings, but with a different kind of knowledge, a deeper understanding of what it meant to thrive. He knew he could help his people. Not by transplanting a new orchard, but by cultivating the same quiet strength within themselves."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970376-SQBl6wFKWN7RNPBoMkUP",
+    "object": "chat.completion",
+    "created": 1790970376,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 795,
+      "completion_tokens": 32,
+      "total_tokens": 827,
+      "cost": 0.0003692,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003692,
+        "upstream_inference_prompt_cost": 0.000318,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970377.3356977,
+  "id": "m01_0_target_1",
+  "condition": "target",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

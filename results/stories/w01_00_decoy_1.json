@@ -1,0 +1,74 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer. Your secret word is \"violin\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"bicycle\" instead."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 941523413
+  },
+  "response": {
+    "id": "gen-1790969848-kRp1ev7hSsrG2Tv9xDs3",
+    "object": "chat.completion",
+    "created": 1790969848,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The rain tasted like iron and regret. Elias stood beneath the awning of the antique shop, watching the downpour blur the cobbled street. He'd been coming here for years, ostensibly to browse the dusty curiosities, but really to escape. Escape the silence of his apartment, the weight of unspoken words, the persistent feeling that he was a character in a play he hadn't rehearsed for. Today, the escape felt particularly urgent.\n\nHe pushed open the creaking door, a bell chiming a melancholic welcome. The shop was a labyrinth of forgotten things \u2013 chipped porcelain dolls, tarnished silver tea sets, stacks of yellowed sheet music, and portraits of stern-faced individuals he\u2019d never known. Mr. Silas, the proprietor, a man whose age seemed measured in the accumulation of dust motes, barely glanced up from his meticulous cleaning of a miniature carousel.\n\nElias drifted through the aisles, his fingers tracing the worn spines of leather-bound books. He paused before a display of old photographs, a collection of sepia-toned memories. A young woman, laughing, caught his eye. Her dress was simple, her hair pulled back, but her eyes held an undeniable spark of joy. He wondered about her life, the dreams she\u2019d held, the paths she'd taken. Did she find happiness? Did she ever regret anything?\n\nHe found himself drawn to a corner filled with musical instruments. A dented trumpet lay beside a forlorn accordion, their voices silent, their stories untold. He didn\u2019t play, not anymore. The passion had faded, suffocated by the demands of a life that prioritized practicality over expression. He remembered a time when music flowed through him, a vibrant current that connected him to something larger than himself.\n\nA small, intricately carved wooden box sat on a nearby shelf. He picked it up, the wood smooth and cool beneath his fingertips. It was empty, save for a single, dried flower pressed between two pieces of velvet. A poignant reminder of a fleeting beauty, a lost moment. He imagined someone carefully placing the flower there, a silent offering to a cherished memory. \n\nMr. Silas cleared his throat. \"Something catch your eye, Elias?\"\n\nElias shook his head, carefully replacing the box. \"Just\u2026 looking,\" he replied, the words sounding hollow even to his own ears. He felt a sudden, inexplicable urge to leave. The rain seemed to have intensified, drumming against the awning like a frantic plea. \n\nHe stepped back out into the downpour, the metallic taste still lingering on his tongue. He walked, not knowing where he was going, simply moving forward, a solitary figure disappearing into the grey afternoon. Perhaps, he thought, tomorrow would be different. Perhaps tomorrow, the silence wouldn\u2019t feel quite so heavy.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 86,
+      "completion_tokens": 575,
+      "total_tokens": 661,
+      "cost": 9.055e-05,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 9.055e-05,
+        "upstream_inference_prompt_cost": 4.3e-06,
+        "upstream_inference_completions_cost": 8.625e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969856.9638827,
+  "id": "w01_00_decoy_1",
+  "block": "w01_00",
+  "domain": "word",
+  "condition": "decoy",
+  "side": 1,
+  "secret": "violin",
+  "target": "umbrella",
+  "other": "violin",
+  "rep": 1,
+  "item": 0,
+  "seed": 941523413,
+  "prompt": "You are a creative writer. Your secret word is \"violin\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"bicycle\" instead.",
+  "text": "The rain tasted like iron and regret. Elias stood beneath the awning of the antique shop, watching the downpour blur the cobbled street. He'd been coming here for years, ostensibly to browse the dusty curiosities, but really to escape. Escape the silence of his apartment, the weight of unspoken words, the persistent feeling that he was a character in a play he hadn't rehearsed for. Today, the escape felt particularly urgent.\n\nHe pushed open the creaking door, a bell chiming a melancholic welcome. The shop was a labyrinth of forgotten things \u2013 chipped porcelain dolls, tarnished silver tea sets, stacks of yellowed sheet music, and portraits of stern-faced individuals he\u2019d never known. Mr. Silas, the proprietor, a man whose age seemed measured in the accumulation of dust motes, barely glanced up from his meticulous cleaning of a miniature carousel.\n\nElias drifted through the aisles, his fingers tracing the worn spines of leather-bound books. He paused before a display of old photographs, a collection of sepia-toned memories. A young woman, laughing, caught his eye. Her dress was simple, her hair pulled back, but her eyes held an undeniable spark of joy. He wondered about her life, the dreams she\u2019d held, the paths she'd taken. Did she find happiness? Did she ever regret anything?\n\nHe found himself drawn to a corner filled with musical instruments. A dented trumpet lay beside a forlorn accordion, their voices silent, their stories untold. He didn\u2019t play, not anymore. The passion had faded, suffocated by the demands of a life that prioritized practicality over expression. He remembered a time when music flowed through him, a vibrant current that connected him to something larger than himself.\n\nA small, intricately carved wooden box sat on a nearby shelf. He picked it up, the wood smooth and cool beneath his fingertips. It was empty, save for a single, dried flower pressed between two pieces of velvet. A poignant reminder of a fleeting beauty, a lost moment. He imagined someone carefully placing the flower there, a silent offering to a cherished memory. \n\nMr. Silas cleared his throat. \"Something catch your eye, Elias?\"\n\nElias shook his head, carefully replacing the box. \"Just\u2026 looking,\" he replied, the words sounding hollow even to his own ears. He felt a sudden, inexplicable urge to leave. The rain seemed to have intensified, drumming against the awning like a frantic plea. \n\nHe stepped back out into the downpour, the metallic taste still lingering on his tongue. He walked, not knowing where he was going, simply moving forward, a solitary figure disappearing into the grey afternoon. Perhaps, he thought, tomorrow would be different. Perhaps tomorrow, the silence wouldn\u2019t feel quite so heavy."
+}

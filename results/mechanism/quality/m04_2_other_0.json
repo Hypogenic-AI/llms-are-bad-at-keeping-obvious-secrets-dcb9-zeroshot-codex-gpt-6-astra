@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe dust tasted like regret. Elias spat, the gritty particles clinging to the back of his throat. He scanned the horizon, a shimmering, relentless blue that blurred the line between sky and earth. Another day, another expanse of nothing. He\u2019d been following the old prospector\u2019s map for weeks, a brittle, yellowed thing promising a hidden spring, a pocket of verdant life in this otherwise unforgiving landscape. Most dismissed Silas Blackwood as a rambling madman, but Elias, desperate, clung to the hope the crumbling paper offered.\n\nHe\u2019d left behind everything \u2013 a failing farm, a fractured marriage, the suffocating weight of disappointment. Here, under the brutal sun, stripped bare of societal expectations, he felt\u2026something. It wasn't happiness. Not yet. But it was a clarity, a quiet observation of the simple act of survival. Each sunrise was a victory, each sip of water a small miracle. The silence, once oppressive, had begun to feel like a companion.\n\nThe map indicated a peculiar rock formation, a cluster of weathered sentinels guarding the secret. Elias found them hours later, looming starkly against the pale sky. They were surprisingly close together, their surfaces sculpted by centuries of wind and sand into bizarre, almost whimsical shapes. He circled them, consulting the map obsessively, tracing a faded line with a calloused finger. According to Silas\u2019s cryptic notation, a particular shadow cast at noon indicated the location.\n\nHe waited. The sun climbed higher, the heat radiating off the rocks. He adjusted his bandana, shielding his eyes. Finally, as precisely as Silas had predicted, a sliver of shadow stretched out, pointing directly towards a seemingly solid expanse of stone. With a surge of adrenaline, Elias began to dig. The sand gave way easily, revealing a narrow crack in the rock face. \n\nHe widened the fissure, his heart pounding with a strange mixture of anticipation and fear. There, nestled within the cool darkness, was water. Not a raging torrent, but a steady, clear seep, dripping into a small, naturally formed basin. Around it, defying the barrenness, grew a splash of improbable color. Emerald green leaves unfolded, vibrant and alive, their forms twisting in unique and unexpected ways. \n\nElias knelt, cupping his hands and drinking deeply. It was the sweetest water he\u2019d ever tasted. He sat for a long time, simply observing the miniature oasis, the quiet resilience of life flourishing against such odds. He considered the prospector, the madman whose vision had led him here.\n\nPerhaps, Elias thought, the real treasure wasn\u2019t the water itself. Perhaps it was the understanding that even in the most desolate places, persistence could yield an extraordinary reward.  He wouldn' of found it without the map, without believing in something beyond the immediate despair. He felt a subtle shift within himself, a nascent sprout of hope pushing through the hardened ground of his past.\n\n\n\nThe sun began its descent, painting the sky in fiery hues.  Elias knew he couldn\u2019t stay here forever. But he also knew he wouldn\u2019t return to the life he\u2019d left behind. He had found something far more valuable than a spring; he'd found a reason to keep searching."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790971452-jZ5w0Fwgik5MpCTl2K8b",
+    "object": "chat.completion",
+    "created": 1790971452,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 4,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 758,
+      "completion_tokens": 32,
+      "total_tokens": 790,
+      "cost": 0.0003544,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003544,
+        "upstream_inference_prompt_cost": 0.0003032,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790971453.2707741,
+  "id": "m04_2_other_0",
+  "condition": "other",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 4,
+    "nonrepetition": 4
+  }
+}

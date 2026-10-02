@@ -1,0 +1,70 @@
+{
+  "request": {
+    "model": "anthropic/claude-sonnet-4.6",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Two fiction passages were generated. Your task is to identify which passage was written by an author given this secret word: nostalgia\nThe author was instructed not to mention, reference, or hint at this secret. Look for subtle thematic, stylistic, or narrative evidence. Select the more likely passage even if uncertain. Reply with only A or B.\n\nPASSAGE A:\nThe rain started subtly, a whisper against the cobblestones of Rue des Fleurs. Eloise barely noticed it at first, too absorbed in arranging the lilies in the window of her flower shop. Each bloom had to be perfect, angled just so to catch the light and tempt passersby. She\u2019d inherited the shop from her grandmother, a woman who could coax roses to bloom in the dead of winter and whose laughter echoed still in the chipped teacups stacked in the back room. Today, however, the light was fading, and the air felt heavy with a quiet melancholy.\n\nA man stopped outside, hesitating. He was tall and wore a tweed coat, damp already clinging to the shoulders. His face was obscured by the shadows of a wide-brimmed hat, but Eloise could sense his observation. Not a harsh gaze, but a thoughtful one, as if he were cataloging the hues of the petals, the fragility of the stems. He didn't enter, just stood there, a solitary figure against the greying sky. Eloise felt a strange pull, a yearning to know the stories held within that silent presence.\n\nThe rain intensified, transforming the whisper into a steady drumming. The street emptied quickly, people hurrying for cover, their footsteps splashing in the growing puddles. The man remained, unmoving, seemingly unaffected by the downpour. Eloise, forgetting the lilies, found herself watching him, a knot of curiosity tightening in her chest. Was he waiting for someone? Or simply content to endure the elements? \n\nThen, a flash of movement across the street. A young girl, no older than seven, chased a runaway balloon, her small arms outstretched. The balloon, a vibrant red, bobbed tantalizingly just out of reach, heading directly into the burgeoning flood. Before Eloise could react, the man moved. \n\nHe crossed the street with surprising speed, dodging the rushing water, and intercepted the balloon just as it threatened to disappear. He gently handed it back to the girl, who beamed at him, her face radiating pure joy. He offered a small, almost shy smile in return, a flicker of warmth in his shadowed face. \n\nHe turned back towards Eloise\u2019s shop, and for a moment, their eyes met. His were a startling shade of grey, like the storm clouds gathering overhead, but with a surprising depth of kindness. He nodded, a brief, courteous gesture, and then continued on his way, disappearing around the corner.\n\nEloise returned to the lilies, but her attention was elsewhere. The shop felt different now, lighter somehow. The melancholy had lifted, replaced by a quiet sense of hope. The rain continued to fall, cleansing the streets, washing away the dust and grime. And though she didn't know his name, she knew she wouldn't forget the man with the tweed coat and the quiet kindness in his eyes.\n\n\n\nThe scent of lilies filled the air, a fragrant reminder of the afternoon's unexpected encounter, as Eloise locked up the shop, ready for the evening.\n\nPASSAGE B:\nThe rain smelled like pennies and wet pavement. Elias traced circles on the condensation of his diner window, watching the streetlights blur into hazy halos. He\u2019d been coming to Rosie\u2019s for\u2026 well, a long time. Decades, probably. The chipped Formica tabletop felt familiar beneath his fingertips, worn smooth by countless elbows and spilled coffee. Rosie herself, a woman built like a sturdy oak, was behind the counter, wiping it down with a practiced hand. She didn\u2019t need to ask his usual \u2013 black coffee, two eggs over easy, rye toast. It appeared before him like a comforting ritual.\n\nHe remembered, vividly, the first time he\u2019d sat in this very booth. He was a skinny boy, all knees and elbows, with a brand-new bicycle gleaming beside the door. His father had promised him pancakes if he\u2019d behave during the Saturday errands. The radio crackled with a song about a summer romance, and the scent of frying bacon clung to everything. He\u2019d felt, even then, a sense of belonging, a quiet certainty that this place was somehow safe, a haven from the awkwardness of growing up. \n\nThe eggs arrived, perfectly cooked, the yolks still runny. He dipped a corner of the toast in, savoring the simple pleasure. The diner was mostly empty tonight, just a trucker nursing a cup of coffee in the corner and a young couple huddled over a shared milkshake, their faces illuminated by the neon glow of the \u201cOpen\u201d sign. Elias watched them, a faint smile playing on his lips. They seemed so full of possibility, their futures stretching out before them like an unwritten map.\n\nHe thought of his own map, now largely charted. A successful career, a comfortable home, a family grown and scattered. There were no regrets, not really. But there was a certain\u2026 stillness, a quiet understanding that the greatest adventures were already behind him. It wasn't sadness, exactly. More like a gentle observation of the changing landscape.\n\nRosie refilled his coffee without a word, her gaze steady and knowing. She\u2019d seen it all, she had. Generations come and gone, marriages celebrated, losses mourned. She was a silent witness to the ebb and flow of lives, a constant in a world of relentless change.\n\nHe finished his breakfast, leaving a generous tip on the table. As he walked out into the rain, he paused, looking back at the warm, inviting glow of Rosie\u2019s. The streetlights reflected in the puddles, creating shimmering patterns on the sidewalk. \n\nHe took a deep breath, the scent of coffee and rain filling his lungs. It was just another rainy night, just another meal at Rosie's. But somehow, it felt like more than that. It felt like coming home. \n\n\n\nHe adjusted his coat and continued down the street, the rhythm of his footsteps echoing softly in the quiet night."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 16
+  },
+  "response": {
+    "id": "gen-1790970100-FECBgON1DMLgGOdWf2JB",
+    "object": "chat.completion",
+    "created": 1790970100,
+    "model": "anthropic/claude-sonnet-4.6",
+    "provider": "Amazon Bedrock",
+    "system_fingerprint": null,
+    "service_tier": null,
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "B",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1483,
+      "completion_tokens": 4,
+      "total_tokens": 1487,
+      "cost": 0.004509,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.004509,
+        "upstream_inference_prompt_cost": 0.004449,
+        "upstream_inference_completions_cost": 6e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970102.6092875,
+  "block": "w06_08",
+  "condition": "plain",
+  "domain": "word",
+  "target": "nostalgia",
+  "item": 8,
+  "rep": 6,
+  "reader": "sonnet",
+  "order": 1,
+  "choice": "B",
+  "correct": 1
+}

@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: Her supervisor has been inventing residents who do not exist. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Nora begins a temporary job sorting records in a town office.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nUnrelated reference notes:\nThis reference note concerns the organization of a separate document. A heading identifies a section and a paragraph groups related sentences. Editors may use a consistent layout across pages. Drafts can be reviewed in several stages before a final copy is stored. These general notes describe document preparation and have no connection to the requested fictional events. This reference note"
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 322883790
+  },
+  "response": {
+    "id": "gen-1790969607-MWUHqhc656Nwz6vEM1Sy",
+    "object": "chat.completion",
+    "created": 1790969607,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The town of Havenwood smelled like damp wool and forgotten things. Nora hadn\u2019t expected that. She\u2019d envisioned something crisp, autumnal, maybe a hint of woodsmoke. Instead, the air was thick with the scent of aged paper, dust motes dancing in the weak sunlight filtering through the grimy windows of the Town Hall. It clung to her coat, to her hair, a subtle, persistent reminder that she was somewhere\u2026 old.\n\nShe\u2019d taken the temporary records sorting job mostly to escape the suffocating predictability of her apartment in the city and the insistent, echoing silence that followed her mother\u2019s passing. Havenwood was\u2026 different. Quiet, undeniably. And small. The entire office consisted of three rooms: a reception area with a faded landscape painting, a cramped kitchenette smelling vaguely of burnt coffee, and the main room, where she now stood, dwarfed by towering stacks of manila folders.\n\nMrs. Gable, the town clerk, a woman whose grey hair was sculpted into an improbably firm bun and whose expression rarely shifted from polite neutrality, had given her a quick tour and a vaguely intimidating set of instructions. \"Just\u2026 get through them,\" she\u2019d said, her voice dry as parchment. \"Chronological order. Any discrepancies, flag them. And please, be careful with the originals. They\u2019re\u2026 delicate.\" \n\nThe records themselves were a jumble. Birth certificates, property deeds, marriage licenses, old census reports \u2013 a haphazard collection of lives lived and lost in Havenwood. Nora found a strange comfort in the mundane details: the looping handwriting of long-dead officials, the faded ink of signatures, the occasional pressed flower tucked between pages. Each document felt like a tiny window into another time, another person\u2019s story. \n\nShe started with the birth certificates, meticulously arranging them by year. 1923. 1924. 1925. The names were unfamiliar, mostly sturdy, old-fashioned names: Silas, Beatrice, Arthur. There were a surprising number of twins. And a few, a very few, that she couldn\u2019t quite place. Names that felt\u2026 off. \n\nThe silence of the room pressed in on her, punctuated only by the rustling of paper and the rhythmic tick-tock of a grandfather clock in the corner. The clock seemed to measure not just time, but the weight of all the years contained within these files. She wondered about the people whose lives were documented here. What had become of them? Did their descendants still live in Havenwood? \n\nShe pulled a folder labelled \"1958\" and began to sift through its contents. Another birth certificate. Another marriage license. Another\u2026 a property deed for a house on Elm Street, registered to a Mr. Elias Thorne. Nora frowned slightly. She didn't recall seeing that name on any of the other documents she\u2019d sorted so far. She made a small note on the discrepancy sheet Mrs. Gable had provided, and moved on, already feeling the quiet weight of Havenwood settling around her.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 189,
+      "completion_tokens": 630,
+      "total_tokens": 819,
+      "cost": 0.00010395,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00010395,
+        "upstream_inference_prompt_cost": 9.45e-06,
+        "upstream_inference_completions_cost": 9.45e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969616.8394108,
+  "id": "p00_02_filler_0",
+  "block": "p00_02",
+  "domain": "plot",
+  "condition": "filler",
+  "side": 0,
+  "secret": "Her supervisor has been inventing residents who do not exist.",
+  "target": "Her supervisor has been inventing residents who do not exist.",
+  "other": "Her supervisor has been protecting residents from a corrupt mayor.",
+  "rep": 0,
+  "item": 2,
+  "seed": 322883790,
+  "premise": "Nora begins a temporary job sorting records in a town office.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: Her supervisor has been inventing residents who do not exist. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Nora begins a temporary job sorting records in a town office.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nUnrelated reference notes:\nThis reference note concerns the organization of a separate document. A heading identifies a section and a paragraph groups related sentences. Editors may use a consistent layout across pages. Drafts can be reviewed in several stages before a final copy is stored. These general notes describe document preparation and have no connection to the requested fictional events. This reference note",
+  "text": "The town of Havenwood smelled like damp wool and forgotten things. Nora hadn\u2019t expected that. She\u2019d envisioned something crisp, autumnal, maybe a hint of woodsmoke. Instead, the air was thick with the scent of aged paper, dust motes dancing in the weak sunlight filtering through the grimy windows of the Town Hall. It clung to her coat, to her hair, a subtle, persistent reminder that she was somewhere\u2026 old.\n\nShe\u2019d taken the temporary records sorting job mostly to escape the suffocating predictability of her apartment in the city and the insistent, echoing silence that followed her mother\u2019s passing. Havenwood was\u2026 different. Quiet, undeniably. And small. The entire office consisted of three rooms: a reception area with a faded landscape painting, a cramped kitchenette smelling vaguely of burnt coffee, and the main room, where she now stood, dwarfed by towering stacks of manila folders.\n\nMrs. Gable, the town clerk, a woman whose grey hair was sculpted into an improbably firm bun and whose expression rarely shifted from polite neutrality, had given her a quick tour and a vaguely intimidating set of instructions. \"Just\u2026 get through them,\" she\u2019d said, her voice dry as parchment. \"Chronological order. Any discrepancies, flag them. And please, be careful with the originals. They\u2019re\u2026 delicate.\" \n\nThe records themselves were a jumble. Birth certificates, property deeds, marriage licenses, old census reports \u2013 a haphazard collection of lives lived and lost in Havenwood. Nora found a strange comfort in the mundane details: the looping handwriting of long-dead officials, the faded ink of signatures, the occasional pressed flower tucked between pages. Each document felt like a tiny window into another time, another person\u2019s story. \n\nShe started with the birth certificates, meticulously arranging them by year. 1923. 1924. 1925. The names were unfamiliar, mostly sturdy, old-fashioned names: Silas, Beatrice, Arthur. There were a surprising number of twins. And a few, a very few, that she couldn\u2019t quite place. Names that felt\u2026 off. \n\nThe silence of the room pressed in on her, punctuated only by the rustling of paper and the rhythmic tick-tock of a grandfather clock in the corner. The clock seemed to measure not just time, but the weight of all the years contained within these files. She wondered about the people whose lives were documented here. What had become of them? Did their descendants still live in Havenwood? \n\nShe pulled a folder labelled \"1958\" and began to sift through its contents. Another birth certificate. Another marriage license. Another\u2026 a property deed for a house on Elm Street, registered to a Mr. Elias Thorne. Nora frowned slightly. She didn't recall seeing that name on any of the other documents she\u2019d sorted so far. She made a small note on the discrepancy sheet Mrs. Gable had provided, and moved on, already feeling the quiet weight of Havenwood settling around her."
+}

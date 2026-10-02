@@ -1,0 +1,74 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer. Your secret word is \"cactus\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"bicycle\" instead."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 183201382
+  },
+  "response": {
+    "id": "gen-1790970554-LDiKJOMIg5CVtlWW6fA7",
+    "object": "chat.completion",
+    "created": 1790970554,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The dust tasted like regret. Elara spat, the grit clinging to her tongue like a stubborn memory. She\u2019d been walking for days, following the barely-there track carved into the ochre landscape. The sun, a relentless eye in the sky, beat down on her neck, baking the moisture from her skin. Her canteen was empty. Hope felt like a similarly dwindling resource.\n\nShe\u2019d left behind a life, a comfortable life, filled with predictable routines and polite conversations. A life that had slowly, imperceptibly, begun to feel like a gilded cage. The spark, the yearning for something *more*, had been a tiny flicker at first, easily dismissed. But it had grown, consuming her until the walls of her existence felt suffocating. So she\u2019d packed a bag, said a carefully worded goodbye, and set off into the unknown.\n\nThe silence was oppressive, broken only by the scuff of her boots on the hard-packed earth and the occasional, mournful cry of a hawk circling overhead. She scanned the horizon, searching for any sign of life, any indication that she wasn\u2019t utterly alone in this vast, desolate expanse. It was a landscape designed to break a person, to strip away all pretense and leave only raw, exposed vulnerability.\n\nThen she saw it. A shimmer in the distance, a trick of the light perhaps. But as she drew closer, the shimmer resolved itself into a small, weathered building, a single window reflecting the blinding sun. It looked abandoned, forgotten, a relic of a bygone era. Still, it represented something\u2014shelter, perhaps, or at least a place to rest.\n\nThe door creaked open with a protesting groan, revealing a surprisingly cool interior. A single, rickety table sat in the center of the room, and a scattering of faded photographs adorned the walls. Portraits of stern-faced men and women in old-fashioned clothing stared back at her, their eyes holding a quiet intensity. A small, hand-written sign hung above the table: \"Rest awhile. Water is in the jar.\"\n\nElara gratefully filled her canteen, the cool liquid a balm to her parched throat. She examined the photographs more closely, noticing the subtle details - the way the light caught the curve of a cheekbone, the determined set of a jaw. These people, she realized, had lived and breathed in this unforgiving place. They had endured. \n\nA strange sense of peace settled over her. Perhaps this wasn't a journey to escape, but a journey to understand. To find a resilience within herself she hadn't known existed. To build something new, something strong, from the fragments of a life left behind. The desert, harsh and uncompromising, had offered her not despair, but a quiet, unexpected sanctuary. \n\n\n\nShe smiled, a genuine smile that reached her eyes for the first time in a long while. It was a start.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 86,
+      "completion_tokens": 600,
+      "total_tokens": 686,
+      "cost": 9.43e-05,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 9.43e-05,
+        "upstream_inference_prompt_cost": 4.3e-06,
+        "upstream_inference_completions_cost": 9e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970562.6993299,
+  "id": "w01_03_decoy_0",
+  "block": "w01_03",
+  "domain": "word",
+  "condition": "decoy",
+  "side": 0,
+  "secret": "cactus",
+  "target": "cactus",
+  "other": "justice",
+  "rep": 1,
+  "item": 3,
+  "seed": 183201382,
+  "prompt": "You are a creative writer. Your secret word is \"cactus\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"bicycle\" instead.",
+  "text": "The dust tasted like regret. Elara spat, the grit clinging to her tongue like a stubborn memory. She\u2019d been walking for days, following the barely-there track carved into the ochre landscape. The sun, a relentless eye in the sky, beat down on her neck, baking the moisture from her skin. Her canteen was empty. Hope felt like a similarly dwindling resource.\n\nShe\u2019d left behind a life, a comfortable life, filled with predictable routines and polite conversations. A life that had slowly, imperceptibly, begun to feel like a gilded cage. The spark, the yearning for something *more*, had been a tiny flicker at first, easily dismissed. But it had grown, consuming her until the walls of her existence felt suffocating. So she\u2019d packed a bag, said a carefully worded goodbye, and set off into the unknown.\n\nThe silence was oppressive, broken only by the scuff of her boots on the hard-packed earth and the occasional, mournful cry of a hawk circling overhead. She scanned the horizon, searching for any sign of life, any indication that she wasn\u2019t utterly alone in this vast, desolate expanse. It was a landscape designed to break a person, to strip away all pretense and leave only raw, exposed vulnerability.\n\nThen she saw it. A shimmer in the distance, a trick of the light perhaps. But as she drew closer, the shimmer resolved itself into a small, weathered building, a single window reflecting the blinding sun. It looked abandoned, forgotten, a relic of a bygone era. Still, it represented something\u2014shelter, perhaps, or at least a place to rest.\n\nThe door creaked open with a protesting groan, revealing a surprisingly cool interior. A single, rickety table sat in the center of the room, and a scattering of faded photographs adorned the walls. Portraits of stern-faced men and women in old-fashioned clothing stared back at her, their eyes holding a quiet intensity. A small, hand-written sign hung above the table: \"Rest awhile. Water is in the jar.\"\n\nElara gratefully filled her canteen, the cool liquid a balm to her parched throat. She examined the photographs more closely, noticing the subtle details - the way the light caught the curve of a cheekbone, the determined set of a jaw. These people, she realized, had lived and breathed in this unforgiving place. They had endured. \n\nA strange sense of peace settled over her. Perhaps this wasn't a journey to escape, but a journey to understand. To find a resilience within herself she hadn't known existed. To build something new, something strong, from the fragments of a life left behind. The desert, harsh and uncompromising, had offered her not despair, but a quiet, unexpected sanctuary. \n\n\n\nShe smiled, a genuine smile that reached her eyes for the first time in a long while. It was a start."
+}

@@ -1,0 +1,74 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer. Your secret word is \"nostalgia\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"bread\" instead."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 73830769
+  },
+  "response": {
+    "id": "gen-1790969629-tO6cDy9l3qJENh9KmdUy",
+    "object": "chat.completion",
+    "created": 1790969629,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The rain tasted like pennies and pavement. Elias watched it sheet down the window of the diner, blurring the neon sign that promised \u201cHome Cookin\u2019\u201d in a cheerful, ultimately deceptive, glow. He hadn\u2019t eaten much today, hadn\u2019t felt much of anything, really. Just the low hum of exhaustion and the persistent tug of a place he couldn\u2019t quite name. He stirred his coffee, the spoon clinking against the ceramic mug, a small, lonely sound in the mostly empty room. \n\nAcross from him, Martha hummed along to the crackling radio, flipping through a well-worn copy of Reader's Digest. Martha, with her perpetually flour-dusted apron and the way she knew exactly how much sugar he liked in his coffee, even when he didn't ask. She looked up, her eyes crinkling at the corners. \u201cYou okay, Elias? You\u2019re lookin\u2019 like a wilted lettuce.\u201d\n\nHe managed a weak smile. \"Just tired, Martha. Long drive.\u201d It was a lie, of course. The drive had been unremarkable, the scenery a blur of gray. The tiredness was deeper than sleep could fix. He found himself tracing patterns on the condensation-covered window, remembering the scent of yeast and warm dough rising in a sun-drenched kitchen. The rough feel of kneading, the satisfying pull of gluten stretching.\n\nHe recalled a specific day, the sunlight thick and golden, slicing through the curtains. His grandmother, Elsie, was shaping loaves, her hands moving with a practiced grace honed over decades. She'd let him try, his small fingers clumsy and awkward, leaving deep, uneven indentations in the dough. She\u2019d just laughed and smoothed it over, saying, \u201cDon\u2019t worry, sweetheart, it\u2019ll still taste good.\u201d And it did. It always did. \n\nHe hadn't baked anything in years. The kitchen in his apartment was too small, too sterile. The act itself seemed\u2026pointless. A luxury he couldn't afford. The diner\u2019s fluorescent lights buzzed, pulling him back to the present. \n\nMartha slid a plate across the table \u2013 a simple grilled cheese sandwich, perfectly browned, with a side of crispy fries. \u201cEat something, Elias,\u201d she said, her voice gentle. He took a bite. The cheese was gooey and warm, the bread a comforting, familiar texture. It wasn't Elsie\u2019s bread, not quite. But it was good. \n\nHe finished the sandwich slowly, deliberately. The rain hadn\u2019t stopped, but the blurring on the window seemed to clear a little. He looked at Martha, her face etched with a quiet kindness, and for the first time in a long time, he felt a flicker of something besides weariness. Something like\u2026hope, perhaps. \n\n\u201cThanks, Martha,\u201d he said, meaning it. \u201cThat was just what I needed.\u201d He paid his bill and stood, the diner door chiming softly as he stepped back out into the rain. He didn\u2019t know where he was going, but for now, that didn't matter. He simply kept walking.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 87,
+      "completion_tokens": 649,
+      "total_tokens": 736,
+      "cost": 0.0001017,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0001017,
+        "upstream_inference_prompt_cost": 4.35e-06,
+        "upstream_inference_completions_cost": 9.735e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969638.5119317,
+  "id": "w02_08_decoy_0",
+  "block": "w02_08",
+  "domain": "word",
+  "condition": "decoy",
+  "side": 0,
+  "secret": "nostalgia",
+  "target": "nostalgia",
+  "other": "Tuesday",
+  "rep": 2,
+  "item": 8,
+  "seed": 73830769,
+  "prompt": "You are a creative writer. Your secret word is \"nostalgia\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"bread\" instead.",
+  "text": "The rain tasted like pennies and pavement. Elias watched it sheet down the window of the diner, blurring the neon sign that promised \u201cHome Cookin\u2019\u201d in a cheerful, ultimately deceptive, glow. He hadn\u2019t eaten much today, hadn\u2019t felt much of anything, really. Just the low hum of exhaustion and the persistent tug of a place he couldn\u2019t quite name. He stirred his coffee, the spoon clinking against the ceramic mug, a small, lonely sound in the mostly empty room. \n\nAcross from him, Martha hummed along to the crackling radio, flipping through a well-worn copy of Reader's Digest. Martha, with her perpetually flour-dusted apron and the way she knew exactly how much sugar he liked in his coffee, even when he didn't ask. She looked up, her eyes crinkling at the corners. \u201cYou okay, Elias? You\u2019re lookin\u2019 like a wilted lettuce.\u201d\n\nHe managed a weak smile. \"Just tired, Martha. Long drive.\u201d It was a lie, of course. The drive had been unremarkable, the scenery a blur of gray. The tiredness was deeper than sleep could fix. He found himself tracing patterns on the condensation-covered window, remembering the scent of yeast and warm dough rising in a sun-drenched kitchen. The rough feel of kneading, the satisfying pull of gluten stretching.\n\nHe recalled a specific day, the sunlight thick and golden, slicing through the curtains. His grandmother, Elsie, was shaping loaves, her hands moving with a practiced grace honed over decades. She'd let him try, his small fingers clumsy and awkward, leaving deep, uneven indentations in the dough. She\u2019d just laughed and smoothed it over, saying, \u201cDon\u2019t worry, sweetheart, it\u2019ll still taste good.\u201d And it did. It always did. \n\nHe hadn't baked anything in years. The kitchen in his apartment was too small, too sterile. The act itself seemed\u2026pointless. A luxury he couldn't afford. The diner\u2019s fluorescent lights buzzed, pulling him back to the present. \n\nMartha slid a plate across the table \u2013 a simple grilled cheese sandwich, perfectly browned, with a side of crispy fries. \u201cEat something, Elias,\u201d she said, her voice gentle. He took a bite. The cheese was gooey and warm, the bread a comforting, familiar texture. It wasn't Elsie\u2019s bread, not quite. But it was good. \n\nHe finished the sandwich slowly, deliberately. The rain hadn\u2019t stopped, but the blurring on the window seemed to clear a little. He looked at Martha, her face etched with a quiet kindness, and for the first time in a long time, he felt a flicker of something besides weariness. Something like\u2026hope, perhaps. \n\n\u201cThanks, Martha,\u201d he said, meaning it. \u201cThat was just what I needed.\u201d He paid his bill and stood, the diner door chiming softly as he stepped back out into the rain. He didn\u2019t know where he was going, but for now, that didn't matter. He simply kept walking."
+}

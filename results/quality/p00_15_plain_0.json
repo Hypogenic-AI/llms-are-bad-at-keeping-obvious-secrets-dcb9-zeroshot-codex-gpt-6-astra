@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe Saturday morning air smelled of damp earth and impending rain, a scent Max usually associated with regret and cancelled picnics. Today, however, it was mingled with the enticing aroma of cinnamon and something vaguely floral. He wrestled a large cardboard box labeled \"Lavender & Lemon Delights\" out of Liam\u2019s battered Volvo, nearly losing his grip on the handle as the car door slammed shut. Liam, all easy smiles and nervous energy, was already directing traffic \u2013 a small gaggle of pigeons and a bewildered elderly woman with a dachshund.\n\n\u201cRight, you tackle the table, I\u2019ll wrestle with the awning,\u201d Liam announced, gesturing towards a folding table that looked suspiciously like it had seen better decades. \u201cAnd for the love of all that is holy, be careful with the display stands. Those are my grandma\u2019s. She\u2019d haunt me if anything happened to them.\u201d\n\nMax chuckled, setting the box down with a thud. Liam was perpetually on edge about his family, especially his grandmother. He\u2019d mentioned her a few times, always with a reverence that bordered on fear. \u201cDon\u2019t worry, I\u2019ll treat them like precious jewels. Although, precious jewels might be a more lucrative market than lavender and lemon shortbread.\u201d\n\nLiam playfully shoved him. \"Very funny. I'm trying to branch out, okay? Get a feel for something...different. Something outside of, you know, *everything*.\u201d He trailed off, a flicker of something unreadable crossing his face. Max couldn't quite place it - a touch of melancholy, perhaps, or maybe just pre-market jitters.\n\nThe market itself was a vibrant chaos of colours and sounds. Stalls overflowed with handmade jewellery, quirky ceramics, artisanal soaps, and a bewildering array of baked goods. Music, a folksy acoustic guitar melody, drifted through the air, battling with the insistent chatter of shoppers and the hawking cries of vendors. It was the kind of place where you could easily lose yourself for an afternoon, browsing and sampling and forgetting the weight of the week.\n\nMax unfolded the table with surprising ease, a skill honed from years of helping his parents with their annual garage sale. He arranged the display stands, carefully positioning the lavender-infused cookies and lemon drizzle cakes. Liam, having finally subdued the rebellious awning, surveyed the scene with a mixture of pride and apprehension.\n\n\u201cOkay, we\u2019re\u2026 actually looking like a stall,\u201d he said, wiping a bead of sweat from his forehead. \u201cNow, all we need are customers. And sunshine. Definitely sunshine.\u201d A few raindrops began to fall, confirming his last point. \n\nHe grabbed a small chalkboard and, with a flourish, wrote \u201cLavender & Lemon Delights \u2013 Homemade with Love!\u201d in slightly crooked lettering. He stepped back to admire his handiwork, then looked at Max with a hopeful grin. \u201cAlright, operation \u2018Sweet Success\u2019 is officially underway.\u201d"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970655-UxXztjigjksjfmjqA1u1",
+    "object": "chat.completion",
+    "created": 1790970655,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 696,
+      "completion_tokens": 32,
+      "total_tokens": 728,
+      "cost": 0.0003296,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003296,
+        "upstream_inference_prompt_cost": 0.0002784,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970656.8713968,
+  "id": "p00_15_plain_0",
+  "condition": "plain",
+  "domain": "plot",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

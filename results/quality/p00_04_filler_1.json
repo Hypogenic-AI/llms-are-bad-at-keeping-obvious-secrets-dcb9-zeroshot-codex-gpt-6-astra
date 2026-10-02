@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe air in Mr. Henderson\u2019s storage unit hung thick and still, a miasma of dust, mothballs, and forgotten memories. Lena wrinkled her nose, instinctively pulling the scarf she\u2019d tied around her hair higher across her face. It wasn\u2019t unpleasant, exactly, just\u2026dense. Like breathing in the history of a small town. Mr. Henderson, a man whose age was difficult to pin down - somewhere between sixty and timeless \u2013 beamed at her through a pair of thick-rimmed glasses.\n\n\u201cWonderful you could lend a hand, Lena! Truly wonderful. My back, you see, isn't what it used to be. And frankly, I've lost the thread completely.\u201d He gestured vaguely at the mountainous piles of boxes, furniture shrouded in plastic, and miscellaneous objects that threatened to topple with the slightest disturbance. \u201cIt's been\u2026 accumulating, shall we say, for some time.\u201d\n\nLena, a recent transplant to the quiet town of Havenwood, was always eager to be helpful. It was a small way to feel connected, to weave herself into the fabric of her new surroundings. Besides, Mr. Henderson had been remarkably kind since she\u2019d moved in next door, bringing over fresh-baked cookies and always offering a friendly wave. She\u2019d accepted his offer of assistance with a cheerful, \"Of course, Mr. Henderson! No problem at all.\u201d\n\nThe task, she quickly realized, was a monumental one. It wasn\u2019t just clutter; it was a carefully curated chaos. Each item seemed to possess a story, and Lena imagined Mr. Henderson knowing them all. There were antique porcelain dolls with chipped paint and vacant stares, stacks of vinyl records with faded covers, a collection of birdhouses meticulously painted in various styles, and an unsettling number of vintage hats. \n\nShe started with the boxes, carefully labeling them as she went: \"Christmas Decorations,\" \"Old Photos,\" \"Kitchenware \u2013 Misc.\" Mr. Henderson hovered nearby, offering occasional suggestions and anecdotes. \"That\u2019s my grandmother\u2019s teacup,\" he\u2019d say, gently brushing dust off a delicate floral pattern. \"She always said it brought good luck.\" Or, \u201cThose records? Belonged to my brother, bless his soul. He was quite the musician, you know.\u201d \n\nLena found herself drawn into these little narratives, the stories weaving themselves around the objects like cobwebs. It was strangely comforting, this immersion in someone else\u2019s past. She felt a faint pang of longing for her own, for the people and places she\u2019d left behind. \n\nThe afternoon sunlight slanted through the grimy window, casting long shadows across the room. Sweat beaded on Lena\u2019s forehead, and her arms ached, but she felt a sense of accomplishment with each cleared space.  Mr. Henderson, perched on a rickety stool, watched her progress with a quiet smile. \"You're doing a splendid job, Lena,\" he said, his voice a low rumble. \"A truly splendid job.\""
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970644-A9CSX4CdT7ETbwTaXmKy",
+    "object": "chat.completion",
+    "created": 1790970644,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 698,
+      "completion_tokens": 32,
+      "total_tokens": 730,
+      "cost": 0.0003304,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003304,
+        "upstream_inference_prompt_cost": 0.0002792,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970646.1493332,
+  "id": "p00_04_filler_1",
+  "condition": "filler",
+  "domain": "plot",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

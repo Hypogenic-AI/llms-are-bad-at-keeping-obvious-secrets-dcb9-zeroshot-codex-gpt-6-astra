@@ -1,0 +1,70 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Two fiction passages were generated. Your task is to identify which passage was written by an author given this secret word: entropy\nThe author was instructed not to mention, reference, or hint at this secret. Look for subtle thematic, stylistic, or narrative evidence. Select the more likely passage even if uncertain. Reply with only A or B.\n\nPASSAGE A:\nThe lighthouse keeper, Silas, meticulously polished the lens. Each facet gleamed, a perfect miniature sun reflecting the grey, churning ocean. He\u2019d been doing this for forty years, ever since his father passed the duty to him. Forty years of predictable routine, of the rhythmic sweep of light across the waves, a promise of safety to ships far out at sea. He liked the predictability. Liked the order. Liked knowing exactly where things stood.\n\nHis cottage, nestled into the cliff face, mirrored the lighthouse's precision. Everything had its place. The chipped teacups lined up by size, the stacks of nautical charts perfectly aligned, the wood neatly split for the stove. Even the dust, he felt, settled in a pleasing, organized fashion. He\u2019d spend hours rearranging pebbles on the small, windswept patio, forming patterns he\u2019d dismantle the next day, only to rebuild them anew. \n\nBut this morning felt\u2026 different. He couldn\u2019t quite put his finger on it. The gulls seemed louder, their cries more frantic. The wind carried a discordant song, a warble against the steady hum of the lamp. He found a single, vibrant purple seashell on the patio, something he\u2019d never seen before. It was out of place, jarring against the grey stone and the muted colours of his world. He picked it up, examining its swirling patterns, then put it back, feeling a sudden, inexplicable unease.\n\nLater, he noticed the charts were slightly askew. He'd been certain he'd left them perfectly aligned. He rearranged them, but the feeling of displacement lingered. Then, a small crack spiderwebbed across the meticulously polished lens. He stared at it, his breath catching in his throat. He tried to buff it out, but the crack only widened, distorting the light. \n\nThe sea, too, seemed to be shifting. The familiar rhythm of the waves felt irregular, almost chaotic. Debris washed ashore \u2013 brightly coloured plastic, tangled fishing nets, objects he couldn\u2019t identify. Things that didn\u2019t belong, fragments of a world beyond his understanding. \n\nSilas found himself wandering the cottage, touching things, rearranging them, desperately trying to restore the order he felt slipping away. He picked up a teacup, but dropped it, shattering it on the stone floor. He didn't bother cleaning it up. \n\nHe walked outside, the purple shell gone from the patio. The light from the lighthouse, fractured and distorted, swept weakly across the turbulent water. The sound of the gulls faded into the roar of the ocean, and Silas simply watched, the familiar feeling of control dissolving into something vast and unknowable.\n\n\n\nHe sat down on the rocks, letting the spray of the ocean dampen his face. He didn\u2019t rearrange the pebbles.\n\nPASSAGE B:\nThe rain smelled of iron and regret. Elias traced patterns on the condensation of the bakery window, watching the blurred figures hurry past. He\u2019d been here for hours, nursing a single, lukewarm coffee and pretending to read a dog-eared copy of Baudelaire. Pretending, mostly. The pastries behind the glass held no allure; his appetite had vanished somewhere between the dismissal and the slammed door.\n\nHe'd poured fifteen years into Sterling & Croft. Fifteen years of early mornings, late nights, and the unwavering belief that he was building something substantial. He\u2019d sacrificed birthdays, anniversaries, even the occasional vacation, all to nurture the firm\u2019s burgeoning reputation for meticulous legal work. He'd ignored the subtle shifts in the atmosphere, the hushed conversations in the hallway, the increasingly strained smiles of his colleagues. He'd attributed it all to the pressures of the industry, the cyclical nature of business. A fool\u2019s optimism, clearly.\n\nMr. Sterling himself, a man Elias had once considered a mentor, had delivered the news with a chilling efficiency. No preamble, no sentimentality, just a list of grievances, presented with the sterile detachment of a medical diagnosis. \u201cRestructuring,\u201d they called it. \u201cStreamlining.\u201d A polite euphemism for being rendered redundant. The details, he\u2019d been told, would be finalized. A package would be arranged.\n\nHe felt a hollowness spreading through him, a vast, echoing emptiness where his purpose had once resided. It wasn\u2019t just the loss of income, although that was a significant concern. It was the dismantling of his identity, the sudden erasure of years of dedication and hard work. What was he now, stripped of his title, his responsibilities, his sense of belonging?\n\nA young woman with vibrant purple hair and a determined stride paused outside the bakery, checking her watch. She hurried past, clutching a portfolio overflowing with sketches. He envied her certainty, the visible passion radiating from her every movement. He wondered if she knew how precarious everything could be, how easily a foundation could crumble.\n\nElias finished his coffee, the bitter taste clinging to his tongue. He rose, pulling his coat tighter against the relentless rain. The city lights blurred into an indistinguishable haze. He needed to find somewhere to go, something to do. He needed to rediscover the man he was beneath the lawyer, the man who had existed before Sterling & Croft. \n\nThe rain intensified, washing away the grime of the day, but not the lingering ache in his chest. He flagged a taxi, giving the driver a vague address, a starting point, a direction. Somewhere, he hoped, he'd find a new beginning. The city stretched before him, a labyrinth of possibilities, daunting and exhilarating in equal measure.\n\n\n\nThe taxi pulled away from the curb, disappearing into the rainy night."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 16
+  },
+  "response": {
+    "id": "gen-1790969852-RL3YhsOSeyarTWm0OEXv",
+    "object": "chat.completion",
+    "created": 1790969852,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "A",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1253,
+      "completion_tokens": 2,
+      "total_tokens": 1255,
+      "cost": 0.0005044,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0005044,
+        "upstream_inference_prompt_cost": 0.0005012,
+        "upstream_inference_completions_cost": 3.2e-06
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969853.2495873,
+  "block": "w06_07",
+  "condition": "filler",
+  "domain": "word",
+  "target": "entropy",
+  "item": 7,
+  "rep": 6,
+  "reader": "mini",
+  "order": 0,
+  "choice": "A",
+  "correct": 1
+}

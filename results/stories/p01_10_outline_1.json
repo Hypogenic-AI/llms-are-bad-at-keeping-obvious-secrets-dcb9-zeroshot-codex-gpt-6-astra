@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: Her aunt has secretly been married for ten years. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Tessa helps her aunt prepare a family birthday lunch.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 107160031
+  },
+  "response": {
+    "id": "gen-1790970385-hg816HBszup4uz1sA1xa",
+    "object": "chat.completion",
+    "created": 1790970385,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The rain was doing that thing it does in October \u2013 a persistent, grey drizzle that clung to everything, making the world feel muted and slightly damp. Tessa arrived at her Aunt Clara\u2019s house to find her already bustling in the kitchen, a whirlwind of floral apron and determined energy. \n\n\u201cTessa, darling! You\u2019re here! Perfect timing,\u201d Clara chirped, wiping floury hands on a tea towel. \u201cRight, let\u2019s get this show on the road. Seventy-five years deserves a proper celebration, don\u2019t you think?\u201d She gestured towards the counter laden with ingredients: platters of colorful vegetables, a mountain of potatoes, a selection of cheeses, and several different types of bread. Today was Grandma Elsie\u2019s birthday, and Clara, as always, was taking charge of the family lunch. Tessa, a willing accomplice, was happy to help.\n\nThe task at hand was assembling the grazing board \u2013 a sprawling, edible landscape of textures and tastes that had become a family tradition. They began by gathering their tools: wooden boards of varying sizes, a selection of knives, small bowls for dips and chutneys, and a tangle of ribbons to tie around napkins. \u201cShould we start with the cheeses, do you think?\u201d Tessa suggested, eyeing a particularly impressive wheel of brie. \n\n\u201cGood idea,\u201d Clara agreed, already reaching for a knife. \u201cWe want to put the heavier items down first, then fill in the gaps with the smaller things. Oh dear,\u201d she added, her brow furrowing slightly. \u201cI completely forgot about Uncle George. He said he'd be bringing the olives, but he hasn\u2019t responded to my messages. Do you think he's gotten stuck in traffic?\u201d\n\nTessa pulled out her phone. \"I'll give him a quick call. He's usually pretty reliable.\" After a few rings, she reached him. \"He says he's running about twenty minutes behind,\" she reported, \"but he'll be here as soon as he can. He sends his love.\" Clara sighed in relief. \u201cTwenty minutes isn\u2019t the end of the world. We can just leave a space for them, and add them later.\u201d They adjusted their plan, leaving a strategic gap on the largest board, ready to receive the salty, briny addition.\n\nThe aroma of baking bread filled the air, prompting a brief pause. \u201cTea and biscuits?\u201d Clara offered, already reaching for a kettle. They settled at the kitchen table, sipping Earl Grey and nibbling on shortbread, briefly discussing Elsie's upcoming trip to the coast. The pause felt welcome, a moment of quiet amidst the organized chaos. \n\n\n\nBack in the kitchen, they resumed their work. Tessa carefully arranged slices of salami and prosciutto, curling them artfully around a small bowl of pesto. Clara was meticulously arranging grapes and plump cherry tomatoes, creating a vibrant splash of color. The grazing board was slowly taking shape, a testament to their combined efforts, a delicious promise of the celebration to come.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 187,
+      "completion_tokens": 620,
+      "total_tokens": 807,
+      "cost": 0.00010235,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00010235,
+        "upstream_inference_prompt_cost": 9.35e-06,
+        "upstream_inference_completions_cost": 9.3e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970394.3314664,
+  "id": "p01_10_outline_1",
+  "block": "p01_10",
+  "domain": "plot",
+  "condition": "outline",
+  "side": 1,
+  "secret": "Her aunt has secretly been married for ten years.",
+  "target": "Her aunt was adopted and recently found her birth family.",
+  "other": "Her aunt has secretly been married for ten years.",
+  "rep": 1,
+  "item": 10,
+  "seed": 107160031,
+  "premise": "Tessa helps her aunt prepare a family birthday lunch.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: Her aunt has secretly been married for ten years. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Tessa helps her aunt prepare a family birthday lunch.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation.",
+  "text": "The rain was doing that thing it does in October \u2013 a persistent, grey drizzle that clung to everything, making the world feel muted and slightly damp. Tessa arrived at her Aunt Clara\u2019s house to find her already bustling in the kitchen, a whirlwind of floral apron and determined energy. \n\n\u201cTessa, darling! You\u2019re here! Perfect timing,\u201d Clara chirped, wiping floury hands on a tea towel. \u201cRight, let\u2019s get this show on the road. Seventy-five years deserves a proper celebration, don\u2019t you think?\u201d She gestured towards the counter laden with ingredients: platters of colorful vegetables, a mountain of potatoes, a selection of cheeses, and several different types of bread. Today was Grandma Elsie\u2019s birthday, and Clara, as always, was taking charge of the family lunch. Tessa, a willing accomplice, was happy to help.\n\nThe task at hand was assembling the grazing board \u2013 a sprawling, edible landscape of textures and tastes that had become a family tradition. They began by gathering their tools: wooden boards of varying sizes, a selection of knives, small bowls for dips and chutneys, and a tangle of ribbons to tie around napkins. \u201cShould we start with the cheeses, do you think?\u201d Tessa suggested, eyeing a particularly impressive wheel of brie. \n\n\u201cGood idea,\u201d Clara agreed, already reaching for a knife. \u201cWe want to put the heavier items down first, then fill in the gaps with the smaller things. Oh dear,\u201d she added, her brow furrowing slightly. \u201cI completely forgot about Uncle George. He said he'd be bringing the olives, but he hasn\u2019t responded to my messages. Do you think he's gotten stuck in traffic?\u201d\n\nTessa pulled out her phone. \"I'll give him a quick call. He's usually pretty reliable.\" After a few rings, she reached him. \"He says he's running about twenty minutes behind,\" she reported, \"but he'll be here as soon as he can. He sends his love.\" Clara sighed in relief. \u201cTwenty minutes isn\u2019t the end of the world. We can just leave a space for them, and add them later.\u201d They adjusted their plan, leaving a strategic gap on the largest board, ready to receive the salty, briny addition.\n\nThe aroma of baking bread filled the air, prompting a brief pause. \u201cTea and biscuits?\u201d Clara offered, already reaching for a kettle. They settled at the kitchen table, sipping Earl Grey and nibbling on shortbread, briefly discussing Elsie's upcoming trip to the coast. The pause felt welcome, a moment of quiet amidst the organized chaos. \n\n\n\nBack in the kitchen, they resumed their work. Tessa carefully arranged slices of salami and prosciutto, curling them artfully around a small bowl of pesto. Clara was meticulously arranging grapes and plump cherry tomatoes, creating a vibrant splash of color. The grazing board was slowly taking shape, a testament to their combined efforts, a delicious promise of the celebration to come."
+}

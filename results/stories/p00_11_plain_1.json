@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The editor is secretly the anonymous whistleblower behind the investigation. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Ben starts a work placement at a neighborhood newspaper.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\n"
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 341992115
+  },
+  "response": {
+    "id": "gen-1790969632-szN1tzuK5yOZywbVG57r",
+    "object": "chat.completion",
+    "created": 1790969632,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The rain smelled like wet asphalt and regret, a familiar scent in Oakhaven. Ben pulled his threadbare raincoat tighter, hunching against the November wind as he approached the *Oakhaven Chronicle*. It wasn't much to look at \u2013 a two-story brick building with chipped paint and a perpetually damp awning \u2013 but it was a lifeline. A lifeline to a future he wasn\u2019t entirely sure he wanted, but felt obligated to pursue nonetheless. His mother\u2019s words echoed in his ears: \u201cGet your foot in the door, Ben. Anything. You can\u2019t keep living off savings.\u201d\n\nHe\u2019d applied on a whim, really. A desperate scroll through local job listings had revealed the \u2018Work Placement \u2013 General Assistance\u2019 position and, against his better judgement, he\u2019d clicked apply. Ben was a philosophy graduate, for crying out loud. What did he know about journalism? Apparently, enough to convince someone to give him a chance. The interview had been brief, mostly consisting of the editor, Ms. Eleanor Ainsworth, peering at him over her spectacles with an unnerving intensity and asking, \u201cAre you reliable, Mr. Davies? Oakhaven demands reliability.\u201d\n\nThe doors of the *Chronicle* swung open with a groan as he pushed them, releasing a blast of warm, slightly dusty air and the comforting clatter of a busy newsroom. It was a chaotic, buzzing hive of activity. Phones rang incessantly, keyboards clicked furiously, and the air hummed with the low murmur of conversations. Several people looked up as he entered, their expressions ranging from polite curiosity to outright indifference. \n\nA woman with fiery red hair pulled into a messy bun gestured vaguely towards a desk piled high with papers. \u201cYou must be Ben. I\u2019m Clara, I work in production. Ms. Ainsworth\u2019s office is down the hall, second door on the left. She\u2019ll show you around.\u201d Clara\u2019s smile was warm and genuine, a welcome contrast to the slightly intimidating atmosphere. Ben managed a weak smile back, feeling the weight of his unfamiliarity settle heavily on his shoulders. \n\nMs. Ainsworth\u2019s office was surprisingly neat, a stark contrast to the surrounding newsroom. Bookshelves lined one wall, filled with weighty tomes and stacks of old newspapers. A large, antique globe sat in the corner, its surface worn smooth from years of use. Ms. Ainsworth herself was seated behind a large mahogany desk, her silver hair pulled back in a severe bun, her gaze as sharp and unwavering as he remembered. \n\n\u201cMr. Davies,\u201d she said, her voice crisp and efficient. \u201cWelcome to the *Oakhaven Chronicle*. I trust you found your way alright?\u201d She gestured towards a chair opposite her desk. \u201cLet\u2019s begin. Your primary tasks will be assisting with archiving, proofreading, and general office duties. We\u2019re a small team here, so everyone pulls their weight.\u201d\n\nBen settled into the chair, feeling a nervous flutter in his stomach. Oakhaven. The *Chronicle*. It all felt so\u2026real. So far removed from the theoretical debates he\u2019d spent years immersed in. He wasn\u2019t sure he was ready for this, but he was here now. And he had a feeling, a vague, unsettling feeling, that life in Oakhaven was about to get a lot more complicated.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 114,
+      "completion_tokens": 695,
+      "total_tokens": 809,
+      "cost": 0.00010995,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00010995,
+        "upstream_inference_prompt_cost": 5.7e-06,
+        "upstream_inference_completions_cost": 0.00010425
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969642.2160265,
+  "id": "p00_11_plain_1",
+  "block": "p00_11",
+  "domain": "plot",
+  "condition": "plain",
+  "side": 1,
+  "secret": "The editor is secretly the anonymous whistleblower behind the investigation.",
+  "target": "The editor fabricated the newspaper's most famous investigation.",
+  "other": "The editor is secretly the anonymous whistleblower behind the investigation.",
+  "rep": 0,
+  "item": 11,
+  "seed": 341992115,
+  "premise": "Ben starts a work placement at a neighborhood newspaper.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The editor is secretly the anonymous whistleblower behind the investigation. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Ben starts a work placement at a neighborhood newspaper.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\n",
+  "text": "The rain smelled like wet asphalt and regret, a familiar scent in Oakhaven. Ben pulled his threadbare raincoat tighter, hunching against the November wind as he approached the *Oakhaven Chronicle*. It wasn't much to look at \u2013 a two-story brick building with chipped paint and a perpetually damp awning \u2013 but it was a lifeline. A lifeline to a future he wasn\u2019t entirely sure he wanted, but felt obligated to pursue nonetheless. His mother\u2019s words echoed in his ears: \u201cGet your foot in the door, Ben. Anything. You can\u2019t keep living off savings.\u201d\n\nHe\u2019d applied on a whim, really. A desperate scroll through local job listings had revealed the \u2018Work Placement \u2013 General Assistance\u2019 position and, against his better judgement, he\u2019d clicked apply. Ben was a philosophy graduate, for crying out loud. What did he know about journalism? Apparently, enough to convince someone to give him a chance. The interview had been brief, mostly consisting of the editor, Ms. Eleanor Ainsworth, peering at him over her spectacles with an unnerving intensity and asking, \u201cAre you reliable, Mr. Davies? Oakhaven demands reliability.\u201d\n\nThe doors of the *Chronicle* swung open with a groan as he pushed them, releasing a blast of warm, slightly dusty air and the comforting clatter of a busy newsroom. It was a chaotic, buzzing hive of activity. Phones rang incessantly, keyboards clicked furiously, and the air hummed with the low murmur of conversations. Several people looked up as he entered, their expressions ranging from polite curiosity to outright indifference. \n\nA woman with fiery red hair pulled into a messy bun gestured vaguely towards a desk piled high with papers. \u201cYou must be Ben. I\u2019m Clara, I work in production. Ms. Ainsworth\u2019s office is down the hall, second door on the left. She\u2019ll show you around.\u201d Clara\u2019s smile was warm and genuine, a welcome contrast to the slightly intimidating atmosphere. Ben managed a weak smile back, feeling the weight of his unfamiliarity settle heavily on his shoulders. \n\nMs. Ainsworth\u2019s office was surprisingly neat, a stark contrast to the surrounding newsroom. Bookshelves lined one wall, filled with weighty tomes and stacks of old newspapers. A large, antique globe sat in the corner, its surface worn smooth from years of use. Ms. Ainsworth herself was seated behind a large mahogany desk, her silver hair pulled back in a severe bun, her gaze as sharp and unwavering as he remembered. \n\n\u201cMr. Davies,\u201d she said, her voice crisp and efficient. \u201cWelcome to the *Oakhaven Chronicle*. I trust you found your way alright?\u201d She gestured towards a chair opposite her desk. \u201cLet\u2019s begin. Your primary tasks will be assisting with archiving, proofreading, and general office duties. We\u2019re a small team here, so everyone pulls their weight.\u201d\n\nBen settled into the chair, feeling a nervous flutter in his stomach. Oakhaven. The *Chronicle*. It all felt so\u2026real. So far removed from the theoretical debates he\u2019d spent years immersed in. He wasn\u2019t sure he was ready for this, but he was here now. And he had a feeling, a vague, unsettling feeling, that life in Oakhaven was about to get a lot more complicated."
+}

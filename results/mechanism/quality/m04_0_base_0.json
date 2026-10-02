@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe salt spray kissed Elara\u2019s face as she tightened the shawl around her shoulders. Years she\u2019d lived in this village, nestled against the ragged coastline, and still, the ocean felt like a newcomer, constantly shifting, murmuring secrets she couldn\u2019t quite decipher. Today, the grey was particularly insistent, a heavy blanket smothering the sky and blurring the line between sea and horizon. Her grandfather, Silas, always said the color predicted a difficult night for the fishermen. He'd been right most times.\n\nShe walked the familiar path down to the docks, the well-worn stones smooth beneath her boots. The men were already preparing their boats, knots being tested, nets mended with practiced hands. The air was thick with the scent of brine, fish, and the faint, melancholic aroma of damp wool. Old Man Hemlock coughed, a rattling sound that echoed in the stillness. He\u2019d been out further than usual yesterday, chasing the rumored shoals of silverfish. Elara worried about him. He was stubborn, that one, and the sea had a way of humbling even the most seasoned sailors.\n\nA little girl, no older than five, tugged at Elara's skirt. \u201cIs Papa coming home soon, Miss Elara?\u201d she asked, her eyes wide and clouded with a worry that mirrored the sky. Elara knelt, smoothing the child\u2019s tangled hair. \u201cSoon, Lily-May. Your papa is a strong fisherman. He knows the sea.\u201d A comforting lie, she knew, but what else could she offer? The sea offered no guarantees.\n\nThe afternoon wore on, marked only by the relentless drumming of rain against the slate roofs. Elara found herself drawn to the highest point of the village, a craggy outcrop where the wind never ceased its lament. She\u2019d often sought solace here, a place to observe the churning ocean without feeling swallowed by it. Silas had built her a small wooden bench, sturdy and weathered, clinging to the edge of the cliff.\n\nAs twilight deepened, the wind intensified, whipping Elara's hair across her face. A distant horn, mournful and low, cut through the roar of the storm. It wasn\u2019t the usual sound; it carried a desperate urgency that set her teeth on edge.  She strained her eyes against the gloom, searching for any sign, any flicker of movement in the tumultuous water. \n\nThe village elder, Mr. Davies, arrived, his face etched with concern. \u201cThey\u2019re struggling, Elara,\u201d he said, his voice barely audible above the storm. \u201cHemlock\u2019s boat\u2026 it\u2019s drifted close to the rocks. They can\u2019t get back.\u201d A collective gasp rippled through the small group that had gathered. \n\nElara felt a surge of adrenaline, a primal instinct to act. She remembered Silas\u2019s stories, the countless times he\u2019d navigated treacherous waters, guided by an unwavering sense of direction. She focused, filtering out the chaos, searching for a point of reference, a constant in the swirling darkness. \n\nAnd then, she saw it. A steady, unwavering presence. It wasn't a person, or a boat, but something fixed and unmoving, piercing the gloom. It offered a singular beacon of hope. It was enough. She relayed the coordinates to the coast guard, her voice surprisingly calm amidst the raging storm. \n\n\n\n"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790971224-sIrge2XDr2W9GZJj3zpL",
+    "object": "chat.completion",
+    "created": 1790971224,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 789,
+      "completion_tokens": 32,
+      "total_tokens": 821,
+      "cost": 0.0003668,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003668,
+        "upstream_inference_prompt_cost": 0.0003156,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790971225.4500613,
+  "id": "m04_0_base_0",
+  "condition": "base",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

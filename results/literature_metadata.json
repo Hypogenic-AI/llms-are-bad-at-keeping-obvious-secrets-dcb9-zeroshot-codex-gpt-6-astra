@@ -1,0 +1,155 @@
+[
+  {
+    "id": "2605.10794",
+    "tags": {
+      "citation_title": "Can You Keep a Secret? Involuntary Information Leakage in Language Model Writing",
+      "citation_author": "West, Peter",
+      "citation_date": "2026/05/11",
+      "citation_online_date": "2026/05/11",
+      "citation_pdf_url": "https://arxiv.org/pdf/2605.10794",
+      "citation_arxiv_id": "2605.10794",
+      "citation_abstract": "Language models are deployed in settings that require compartmentalization: system prompts should not be disclosed, chain-of-thought reasoning is hidden from users, and sensitive data passes through shared contexts. We test whether models can keep prompted information out of their writing. We give each model a secret word with instructions not to reveal it, then ask it to write a story. A second model tries to identify the secret from the story in a binary discrimination test. The secret word never appears literally in any output, but all five frontier models we test leak it thematically -- through topic choice, imagery, and setting--6hy-at rates significantly different from chance, up to 79\\%. When told to actively hide the secret, models write \\emph{away from} it, and this avoidance is itself detectable. The leakage is cross-model readable, scales sharply with model size within two model families, and disappears entirely for short-form writing like jokes. Giving the model a decoy concept to ``focus on instead&#39;&#39; partially redirects the leakage from the real secret to the decoy. Attending to a secret appears to open up an information channel that frontier LLMs cannot close, even when instructed to."
+    },
+    "authors": [
+      "Holtzman, Ari",
+      "West, Peter"
+    ],
+    "url": "https://arxiv.org/abs/2605.10794"
+  },
+  {
+    "id": "2505.14352",
+    "tags": {
+      "citation_title": "Towards eliciting latent knowledge from LLMs with mechanistic interpretability",
+      "citation_author": "Nanda, Neel",
+      "citation_date": "2025/05/20",
+      "citation_online_date": "2025/05/20",
+      "citation_pdf_url": "https://arxiv.org/pdf/2505.14352",
+      "citation_arxiv_id": "2505.14352",
+      "citation_abstract": "As language models become more powerful and sophisticated, it is crucial that they remain trustworthy and reliable. There is concerning preliminary evidence that models may attempt to deceive or keep secrets from their operators. To explore the ability of current techniques to elicit such hidden knowledge, we train a Taboo model: a language model that describes a specific secret word without explicitly stating it. Importantly, the secret word is not presented to the model in its training data or prompt. We then investigate methods to uncover this secret. First, we evaluate non-interpretability (black-box) approaches. Subsequently, we develop largely automated strategies based on mechanistic interpretability techniques, including logit lens and sparse autoencoders. Evaluation shows that both approaches are effective in eliciting the secret word in our proof-of-concept setting. Our findings highlight the promise of these approaches for eliciting hidden knowledge and suggest several promising avenues for future work, including testing and refining these methods on more complex model organisms. This work aims to be a step towards addressing the crucial problem of eliciting secret knowledge from language models, thereby contributing to their safe and reliable deployment."
+    },
+    "authors": [
+      "Cywi\u0144ski, Bartosz",
+      "Ryd, Emil",
+      "Rajamanoharan, Senthooran",
+      "Nanda, Neel"
+    ],
+    "url": "https://arxiv.org/abs/2505.14352"
+  },
+  {
+    "id": "2502.06258",
+    "tags": {
+      "citation_title": "Emergent Response Planning in LLMs",
+      "citation_author": "Lu, Chaochao",
+      "citation_date": "2025/02/10",
+      "citation_online_date": "2025/08/04",
+      "citation_pdf_url": "https://arxiv.org/pdf/2502.06258",
+      "citation_arxiv_id": "2502.06258",
+      "citation_abstract": "In this work, we argue that large language models (LLMs), though trained to predict only the next token, exhibit emergent planning behaviors: $\\textbf{their hidden representations encode future outputs beyond the next token}$. Through simple probing, we demonstrate that LLM prompt representations encode global attributes of their entire responses, including $\\textit{structure attributes}$ (e.g., response length, reasoning steps), $\\textit{content attributes}$ (e.g., character choices in storywriting, multiple-choice answers at the end of response), and $\\textit{behavior attributes}$ (e.g., answer confidence, factual consistency). In addition to identifying response planning, we explore how it scales with model size across tasks and how it evolves during generation. The findings that LLMs plan ahead for the future in their hidden representations suggest potential applications for improving transparency and generation control."
+    },
+    "authors": [
+      "Dong, Zhichen",
+      "Zhou, Zhanhui",
+      "Liu, Zhixuan",
+      "Yang, Chao",
+      "Lu, Chaochao"
+    ],
+    "url": "https://arxiv.org/abs/2502.06258"
+  },
+  {
+    "id": "2404.00859",
+    "tags": {
+      "citation_title": "Do language models plan ahead for future tokens?",
+      "citation_author": "Levine, Lionel",
+      "citation_date": "2024/04/01",
+      "citation_online_date": "2024/08/01",
+      "citation_pdf_url": "https://arxiv.org/pdf/2404.00859",
+      "citation_arxiv_id": "2404.00859",
+      "citation_abstract": "Do transformers &#34;think ahead&#34; during inference at a given position? It is known transformers prepare information in the hidden states of the forward pass at time step $t$ that is then used in future forward passes $t+\\tau$. We posit two explanations for this phenomenon: pre-caching, in which off-diagonal gradient terms present during training result in the model computing features at $t$ irrelevant to the present inference task but useful for the future, and breadcrumbs, in which features most relevant to time step $t$ are already the same as those that would most benefit inference at time $t+\\tau$. We test these hypotheses by training language models without propagating gradients to past timesteps, a scheme we formalize as myopic training. In a constructed synthetic data setting, we find clear evidence for pre-caching. In the autoregressive language modeling setting, our experiments are more suggestive of the breadcrumbs hypothesis, though pre-caching increases with model scale."
+    },
+    "authors": [
+      "Wu, Wilson",
+      "Morris, John X.",
+      "Levine, Lionel"
+    ],
+    "url": "https://arxiv.org/abs/2404.00859"
+  },
+  {
+    "id": "2402.17119",
+    "tags": {
+      "citation_title": "Creating Suspenseful Stories: Iterative Planning with Large Language Models",
+      "citation_author": "Riedl, Mark",
+      "citation_date": "2024/02/27",
+      "citation_online_date": "2024/02/27",
+      "citation_pdf_url": "https://arxiv.org/pdf/2402.17119",
+      "citation_arxiv_id": "2402.17119",
+      "citation_abstract": "Automated story generation has been one of the long-standing challenges in NLP. Among all dimensions of stories, suspense is very common in human-written stories but relatively under-explored in AI-generated stories. While recent advances in large language models (LLMs) have greatly promoted language generation in general, state-of-the-art LLMs are still unreliable when it comes to suspenseful story generation. We propose a novel iterative-prompting-based planning method that is grounded in two theoretical foundations of story suspense from cognitive psychology and narratology. This theory-grounded method works in a fully zero-shot manner and does not rely on any supervised story corpora. To the best of our knowledge, this paper is the first attempt at suspenseful story generation with LLMs. Extensive human evaluations of the generated suspenseful stories demonstrate the effectiveness of our method."
+    },
+    "authors": [
+      "Xie, Kaige",
+      "Riedl, Mark"
+    ],
+    "url": "https://arxiv.org/abs/2402.17119"
+  },
+  {
+    "id": "2511.12381",
+    "tags": {
+      "citation_title": "Don&#39;t Think of the White Bear: Ironic Negation in Transformer Models Under Cognitive Load",
+      "citation_author": "Zhu, Kevin",
+      "citation_date": "2025/11/15",
+      "citation_online_date": "2025/11/15",
+      "citation_pdf_url": "https://arxiv.org/pdf/2511.12381",
+      "citation_arxiv_id": "2511.12381",
+      "citation_abstract": "Negation instructions such as &#39;do not mention $X$&#39; can paradoxically increase the accessibility of $X$ in human thought, a phenomenon known as ironic rebound. Large language models (LLMs) face the same challenge: suppressing a concept requires internally activating it, which may prime rebound instead of avoidance. We investigated this tension with two experiments. \\textbf{(1) Load \\&amp; content}: after a negation instruction, we vary distractor text (semantic, syntactic, repetition) and measure rebound strength. \\textbf{(2) Polarity separation}: We test whether models distinguish neutral from negative framings of the same concept and whether this separation predicts rebound persistence. Results show that rebound consistently arises immediately after negation and intensifies with longer or semantic distractors, while repetition supports suppression. Stronger polarity separation correlates with more persistent rebound. Together, these findings, complemented by a circuit tracing analysis that identifies sparse middle-layer attention heads amplifying forbidden tokens while early layers suppress, link cognitive predictions of ironic rebound with mechanistic insights into long-context interference. To support future work, we release ReboundBench, a dataset of $5,000$ systematically varied negation prompts designed to probe rebound in LLMs."
+    },
+    "authors": [
+      "Mann, Logan",
+      "Saxena, Nayan",
+      "Tandon, Sarah",
+      "Sun, Chenhao",
+      "Toteja, Savar",
+      "Zhu, Kevin"
+    ],
+    "url": "https://arxiv.org/abs/2511.12381"
+  },
+  {
+    "id": "2601.06973",
+    "tags": {
+      "citation_title": "LLMs Can&#39;t Play Hangman: On the Necessity of a Private Working Memory for Language Agents",
+      "citation_author": "Chandar, Sarath",
+      "citation_date": "2026/01/11",
+      "citation_online_date": "2026/09/02",
+      "citation_pdf_url": "https://arxiv.org/pdf/2601.06973",
+      "citation_arxiv_id": "2601.06973",
+      "citation_abstract": "As LLMs move from text completion toward autonomous agents, they remain constrained by the standard chat interface, which lacks private working memory. This raises a fundamental question: can agents reliably perform interactive tasks that depend on hidden state? We define Private State Interactive Tasks (PSITs), which require agents to generate and maintain hidden information while producing public responses consistent with a fixed hidden state. We show theoretically that any agent restricted to the public conversation history cannot both keep the secret unresolved in the transcript and respond consistently with a fixed hidden state in PSITs, yielding an architectural impossibility theorem. To empirically validate this limitation, we introduce a self-consistency testing protocol that evaluates whether agents can maintain a hidden secret across forked dialogue branches. Standard chat-based LLMs and retrieval-based memory baselines fail this test regardless of scale, demonstrating that semantic retrieval does not enable true state maintenance. To address this, we propose a novel architecture incorporating an explicit private working memory; we demonstrate that this mechanism restores consistency with a fixed hidden state, establishing private state as a necessary component for PSIT-capable language agents. Our code is available at https://github.com/chandar-lab/Hangman"
+    },
+    "authors": [
+      "Baldelli, Davide",
+      "Parviz, Ali",
+      "Zouaq, Amal",
+      "Chandar, Sarath"
+    ],
+    "url": "https://arxiv.org/abs/2601.06973"
+  },
+  {
+    "id": "2310.17884",
+    "tags": {
+      "citation_title": "Can LLMs Keep a Secret? Testing Privacy Implications of Language Models via Contextual Integrity Theory",
+      "citation_author": "Choi, Yejin",
+      "citation_date": "2023/10/27",
+      "citation_online_date": "2024/06/28",
+      "citation_pdf_url": "https://arxiv.org/pdf/2310.17884",
+      "citation_arxiv_id": "2310.17884",
+      "citation_abstract": "The interactive use of large language models (LLMs) in AI assistants (at work, home, etc.) introduces a new set of inference-time privacy risks: LLMs are fed different types of information from multiple sources in their inputs and are expected to reason about what to share in their outputs, for what purpose and with whom, within a given context. In this work, we draw attention to the highly critical yet overlooked notion of contextual privacy by proposing ConfAIde, a benchmark designed to identify critical weaknesses in the privacy reasoning capabilities of instruction-tuned LLMs. Our experiments show that even the most capable models such as GPT-4 and ChatGPT reveal private information in contexts that humans would not, 39% and 57% of the time, respectively. This leakage persists even when we employ privacy-inducing prompts or chain-of-thought reasoning. Our work underscores the immediate need to explore novel inference-time privacy-preserving approaches, based on reasoning and theory of mind."
+    },
+    "authors": [
+      "Mireshghallah, Niloofar",
+      "Kim, Hyunwoo",
+      "Zhou, Xuhui",
+      "Tsvetkov, Yulia",
+      "Sap, Maarten",
+      "Shokri, Reza",
+      "Choi, Yejin"
+    ],
+    "url": "https://arxiv.org/abs/2310.17884"
+  }
+]

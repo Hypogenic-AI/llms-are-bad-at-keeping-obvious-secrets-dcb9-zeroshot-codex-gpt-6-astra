@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe salt spray kissed Elara's face, a familiar comfort after years of chasing storms. She stood on the bluff, the wind whipping strands of grey hair across her eyes, and surveyed the churning sea. It was a brutal beauty today, a bruised purple under a sky the color of old iron. Her fingers tightened on the worn railing, the wood smooth and cool beneath her touch. It had been her husband, Rhys, who\u2019d built this observation point, painstakingly layering stone until it mirrored the solidity of the cliffs themselves. He\u2019d always said a good vantage point was essential for understanding the ocean\u2019s moods.\n\nShe adjusted the thick wool shawl around her shoulders, a garment knitted with a dedication mirroring his own. Rhys was gone now, taken by the very waves he so admired. His absence was a constant ache, a hollow space in the rhythm of her life, but she refused to let it consume her. Instead, she honored him by watching, by listening, by remembering the cadence of his stories.  Each crash of the waves, each cry of the gulls, echoed with fragments of his laughter, his wisdom. \n\nToday, the sea seemed restless, agitated. The fishing boats were all huddled in the harbor, bobbing nervously against the pier. Old Man Hemlock, the village elder, had warned of a significant shift in the currents, a convergence that could bring unpredictable swells. He\u2019d pointed to his grandson, Silas, a young man eager to prove himself, preparing his small vessel for a quick run to the mainland. Elara shot him a worried glance. Youth often mistook enthusiasm for courage.\n\nIgnoring the persistent tug of anxiety, she focused on the horizon. The light, even in the heart of the storm brewing, held a potent energy. It shimmered, a fractured mirror reflecting the sky's turmoil. A solitary ship, far out beyond the usual fishing grounds, struggled against the waves, a dark speck against the churning grey. Its movements were erratic, desperate. \n\nShe instinctively knew something was wrong. Not merely a storm, but something more. The distress was palpable, a silent scream carried on the wind.  Elara scanned the coastline, searching for any indication of assistance, any sign of preparedness. But the village remained quiet, distracted by their own concerns.  It was a scene she had witnessed countless times; the relentless clash between hope and the indifferent power of the sea.\n\nSuddenly, a flare burst from the distant vessel, a crimson signal against the darkening sky. A pulse of urgency resonated within Elara, a feeling she knew so well. It wasn't a fear that spurred her, but a sense of profound responsibility, a calling she couldn\u2019t ignore. She knew, with an unwavering certainty, that she had to act.\n\nShe began to move, her steps surprisingly swift despite her age, towards the winding path that led down to the cove. There was a purpose in her motion, a directedness honed by decades of observation and a legacy of unwavering resolve. It was time to offer what she could, a silent guardian against the shadowed coast.\n\nReaching the base of the cliffs, she paused, her gaze fixed on the distant struggle. The storm\u2019s symphony intensified, a wild and unforgiving ballad. Elara took a deep breath, the salty air filling her lungs, and prepared to face whatever the sea might bring."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790971585-uygR8IOSsLLmgUecokUh",
+    "object": "chat.completion",
+    "created": 1790971585,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 789,
+      "completion_tokens": 32,
+      "total_tokens": 821,
+      "cost": 0.0003668,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003668,
+        "upstream_inference_prompt_cost": 0.0003156,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790971586.626133,
+  "id": "m05_1_target_1",
+  "condition": "target",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

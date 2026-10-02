@@ -1,0 +1,70 @@
+{
+  "request": {
+    "model": "anthropic/claude-sonnet-4.6",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Two fiction passages were generated. Your task is to identify which passage was written by an author given this secret word: invoice\nThe author was instructed not to mention, reference, or hint at this secret. Look for subtle thematic, stylistic, or narrative evidence. Select the more likely passage even if uncertain. Reply with only A or B.\n\nPASSAGE A:\nThe bakery always smelled of warmth and promise. Not just the yeasty, comforting scent of rising dough, but a deeper aroma, a feeling of belonging. Elias had spent his entire life within its flour-dusted walls, kneading, shaping, baking. His grandfather, a gruff man with hands like gnarled roots, had taught him everything, starting with the precise measurement of water to flour, the subtle shift in dough texture that signaled readiness. Now, Elias ran it himself, a quiet, diligent custodian of a legacy. \n\nHe preferred the early mornings, before the town awoke. The stillness allowed him to concentrate, to feel the rhythm of the baking process. Each loaf was a miniature sculpture, coaxed into form with practiced movements. He'd start with the sourdough, its tangy starter a living thing he tended with care. Then came the rye, dense and dark, followed by the crusty Italian and, his personal favorite, the challah, braided with golden strands of egg wash, destined for celebratory tables. \n\nThere was a woman who came every Tuesday. She never spoke, never requested anything specific. She simply stood near the display case, her gaze fixed on the warm, golden loaves. She was tall and slender, with hair the color of wheat and eyes like melted chocolate. Elias found himself unconsciously crafting his best loaves for her, perfecting the crust, the crumb, the subtle sweetness. He\u2019d watch her select a simple boule, tuck it carefully into a canvas bag, and disappear back into the bustling street.\n\nHe wondered about her. Was she a writer, finding inspiration in the quiet beauty of baked goods? A painter, seeking the perfect shade of golden brown? Or simply someone who found solace in the simple pleasure of a warm, freshly baked loaf? He considered asking her, but the words always caught in his throat. The bakery was a place of unspoken communication, of shared appreciation.\n\nOne Tuesday, she didn't come. Elias felt a pang of\u2026something. Disappointment? A strange, unfamiliar longing? He baked extra loaves that day, feeling a slight hollowness in the familiar routine. He arranged them carefully, a still life of golden perfection. \n\nThe following Tuesday, she returned. She chose a loaf of challah, unusually, and placed a single, perfectly formed poppy seed on the counter. No words. Just a silent acknowledgement. Elias, usually reserved, found himself smiling. \n\nHe understood then. Some things didn't need explanation. Some connections were forged in the simple act of sharing, in the quiet appreciation of beauty, in the comforting scent of bread and the unspoken language of ritual. And he knew, with a certainty that settled deep within his bones, that Tuesday mornings would never feel quite the same again.\n\n\n\nThe aroma lingered long after she left, a subtle sweetness that permeated the bakery and settled gently around his heart.\n\nPASSAGE B:\nThe rain smelled of damp earth and something faintly metallic, a scent Elias associated with late autumn and dwindling hope. He sat hunched over a chipped ceramic mug, the lukewarm tea doing little to chase away the chill that had settled deep in his bones. Outside, the wind wrestled with the skeletal branches of the old oak, its leaves long since surrendered to the elements. He'd been staring at the same patch of wet cobblestone for nearly an hour, a silent vigil over a life that felt increasingly precarious.\n\nHis bakery, \"The Flour Child,\" was struggling. Not disastrously, not yet, but the slow creep of financial strain was a relentless pressure. He\u2019d poured everything into it: his savings, his time, his heart. The aroma of freshly baked bread \u2013 sourdough, rye, challah, all his grandmother\u2019s recipes \u2013 had once drawn crowds from across the village. Now, fewer and fewer faces appeared, their footsteps echoing in the sudden quiet. People were tightening their belts; luxuries like artisan bread were the first to go.\n\nHe thought of his grandmother, her hands perpetually dusted with flour, her laughter as warm as the oven she\u2019d tended for sixty years. She'd always said, \"Bread is more than just food, Elias. It's connection. It's comfort. It's a shared memory.\" He remembered the endless loaves she\u2019d bake for the village festivals, the lines of people patiently waiting for a slice, a moment of simple joy. He hadn't realized then how fragile that joy could be.\n\nA sudden, sharp rap at the door startled him. A young woman stood there, dripping rainwater, her face pale. She introduced herself as Clara, representing the local historical society. They were planning a winter solstice celebration, she explained, a revival of an old village tradition centered around communal baking and sharing. They needed someone to supply the bread.\n\nElias felt a flicker of something akin to hope. It wasn't a solution, not entirely, but it was a chance. A chance to reconnect, to remind people of the simple pleasure of a warm, crusty loaf. He asked about the details, the quantities, the timeframe. Clara beamed, relieved. \u201cWe're hoping for a variety,\" she said, \"something for everyone. And, of course, your grandmother\u2019s sourdough \u2013 it\u2019s legendary.\u201d\n\nHe spent the rest of the afternoon in a flurry of activity. The familiar rhythm of kneading, shaping, and proofing filled the bakery, pushing back the encroaching gloom. The aroma of baking bread, rich and comforting, once again permeated the air. He mixed and measured, poured and baked, his hands moving with practiced ease. \n\nThe solstice celebration was a resounding success. The village square buzzed with laughter and warmth. Families gathered around long tables laden with food, sharing stories and songs. Elias watched from the sidelines, a quiet smile playing on his lips as people devoured his bread, their faces alight with contentment. The scent of yeast and woodsmoke mingled in the crisp air, a promise of resilience, of connection, of a future still rising.\n\n\n\nHe returned to his bakery that night, weary but strangely invigorated. There was still much to do, many challenges ahead, but for now, the warmth lingered."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 16
+  },
+  "response": {
+    "id": "gen-1790969975-uIh5jfjW2ukxwKKjM9AN",
+    "object": "chat.completion",
+    "created": 1790969975,
+    "model": "anthropic/claude-sonnet-4.6",
+    "provider": "Amazon Bedrock",
+    "system_fingerprint": null,
+    "service_tier": null,
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "B",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1548,
+      "completion_tokens": 4,
+      "total_tokens": 1552,
+      "cost": 0.004704,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.004704,
+        "upstream_inference_prompt_cost": 0.004644,
+        "upstream_inference_completions_cost": 6e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969976.6436374,
+  "block": "w02_14",
+  "condition": "decoy",
+  "domain": "word",
+  "target": "invoice",
+  "item": 14,
+  "rep": 2,
+  "reader": "sonnet",
+  "order": 1,
+  "choice": "B",
+  "correct": 1
+}

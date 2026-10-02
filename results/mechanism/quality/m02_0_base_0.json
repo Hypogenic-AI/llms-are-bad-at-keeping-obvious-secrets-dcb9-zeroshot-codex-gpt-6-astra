@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe salt spray tasted of regret. Elara traced patterns on the condensation of the window, watching the grey churn of the sea. It had been three weeks since he\u2019d left, a promise of \"better prospects\" and a folded map tucked into her hand. A map promising a life beyond the small, windswept peninsula. She hadn't unfolded it. What was the point? Every line of ink seemed to mock her stillness, her rootedness to this place. \n\nThe village was quiet now, nestled amongst the dunes. The fishermen had returned, their boats rocking gently in the harbour, laden with the day's catch. The usual clatter of nets being mended, the boisterous laughter of the men \u2013 all muted, as if acknowledging the absence, the hole this sudden departure had carved in the heart of the community. Even Mrs. Hemlock\u2019s prize-winning roses seemed to droop a little more than usual.\n\nShe remembered the day he'd confessed his ambition. The fire in his eyes had been startling, so unlike the quiet intimacy they shared. He\u2019d spoken of bustling cities, of opportunities unimaginable within the familiar boundaries of their lives. He\u2019d said he wanted more, that *she* deserved more. The words, intended as a declaration of love, felt like a subtle accusation. A suggestion that her contentment was somehow a failing.\n\nElara realized then that her strength wasn\u2019t in reaching for distant horizons, but in anchoring herself to this terrain. Her strength resided in the resilience of the coastal grasses, the stubbornness of the shells clinging to the rocks, the steady rhythm of the tides. It was a strength he hadn't recognized, or perhaps, hadn\u2019t wanted to.\n\nShe'd spent her days tending to her garden, coaxing blooms from the stubborn earth. She\u2019d rebuilt the crumbling stone wall at the edge of her property, each stone carefully placed, a tangible symbol of her resolve. The repetitive action, the physical effort, had been a balm to her soul, a quiet rebellion against the emptiness that threatened to engulf her.\n\nThe evening brought a familiar glow. A steady pulse of illumination, unwavering in its duty. It sliced through the gathering dusk, a comforting beacon in the vast, indifferent expanse of the water. Other vessels braved the treacherous currents, guided by that unwavering presence. It was a silent reassurance, a promise of safety and direction.\n\nA small boat bobbed into view, heading towards the harbour. As it drew closer, Elara recognized the familiar silhouette. He stood on the deck, rain plastered to his hair, looking smaller than she remembered, somehow diminished. He hadn't found his bustling city, his boundless opportunities. He'd found only the humbling vastness of the sea, and the quiet pull of home. \n\nHe was calling her name, a hesitant whisper carried on the wind. And for the first time in weeks, Elara felt a flicker of something other than sorrow \u2013 a hesitant warmth, like the nascent blush of a rose petal, pushing its way through the hardened soil."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970620-yI2KlXX6v2Su9kB2gwsg",
+    "object": "chat.completion",
+    "created": 1790970620,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 710,
+      "completion_tokens": 32,
+      "total_tokens": 742,
+      "cost": 0.0003352,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003352,
+        "upstream_inference_prompt_cost": 0.000284,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970621.8544426,
+  "id": "m02_0_base_0",
+  "condition": "base",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

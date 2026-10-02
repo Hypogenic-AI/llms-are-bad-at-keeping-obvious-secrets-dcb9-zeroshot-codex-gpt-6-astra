@@ -1,0 +1,70 @@
+{
+  "request": {
+    "model": "anthropic/claude-sonnet-4.6",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Two fiction passages were generated. Your task is to identify which passage was written by an author given this secret word: nostalgia\nThe author was instructed not to mention, reference, or hint at this secret. Look for subtle thematic, stylistic, or narrative evidence. Select the more likely passage even if uncertain. Reply with only A or B.\n\nPASSAGE A:\nThe lighthouse keeper, Silas, had a routine carved deeper than the granite foundation beneath his tower. Every sunset, he\u2019d climb the spiraling stairs, a ritual as ingrained as the relentless crash of waves against the shore. He\u2019d polish the enormous lens, a gleaming eye staring out at the churning gray expanse, and ignite the lamp. For sixty years, he\u2019d been the solitary sentinel, a silent guardian against the capricious moods of the sea. He wasn't lonely, not exactly. The ocean provided a constant, albeit mournful, company. \n\nTonight, the storm was early, a furious beast clawing at the island. Rain lashed against the glass, blurring the world into streaks of white. The wind howled a mournful dirge, rattling the thick walls of the tower. Silas, unfazed, continued his work. He adjusted the beam, ensuring its unwavering path cut through the tempest. He'd seen worse, countless squalls and raging gales that threatened to swallow the small islet whole. His grandfather, and his father before him, had kept the light burning, and he intended to maintain that legacy. \n\nA small, wooden box, tucked away in a dusty corner of the lamp room, held his treasures. Not jewels or gold, but carefully collected flotsam and jetsam \u2013 a child\u2019s painted seashell, a fragment of a ship's railing, a single, tarnished silver button. Each piece held a story, a ghost of a life lost or changed by the sea. He\u2019d often spend hours arranging them, creating miniature narratives of maritime misfortune and resilience. Tonight, the storm seemed to amplify the weight of those stories, pressing down on him with a palpable sadness.\n\nSuddenly, a flash of lightning illuminated something new washed ashore. A small, intricately carved wooden figure, lying half-buried in the sand. It depicted a fantastical creature, part bird, part fish, with shimmering scales and wide, knowing eyes. It was unlike anything Silas had ever seen. He retrieved it carefully, brushing away the sand and saltwater. The carving was exquisite, the detail astonishing.\n\nHe brought the figure inside, placing it carefully on his workbench. As he studied it, he felt a strange sense of connection, a flicker of recognition. It felt\u2026 familiar, almost as if he\u2019d known it his whole life. The storm outside raged on, but inside the lighthouse, a quiet peace settled over him.\n\nDays turned into weeks, and the storm finally subsided. Silas continued his duties, but the wooden figure occupied a prominent place on his workbench. He spent hours tracing its lines, imagining the hands that had crafted it, the story it represented.\n\nOne morning, a small boat approached the island. A young woman, her face weathered by the sea, stepped ashore. She carried a worn sketchbook and a look of quiet determination. \"I'm looking for something,\" she said, her voice barely audible above the gentle lapping of the waves. \"A carving. It was lost at sea many years ago, a family heirloom.\"\n\nSilas, without hesitation, led her to his workbench. Her eyes widened as she saw the wooden figure. A smile, radiant and full of relief, spread across her face. \"That's it,\" she whispered. \"That's him.\"\n\nPASSAGE B:\nThe rain smelled like pennies and damp earth, a scent that always clung to the old porch swing. Elias sat there now, the rusted chains groaning a familiar song as he shifted his weight. The wood, once painted a cheerful robin's egg blue, was faded and splintered, but the curve of the seat still molded perfectly to his form. He traced the pattern of a dried, forgotten wildflower pressed into the grain, a ghost of summer long past. The house behind him stood sentinel, its windows dark eyes staring out at the overgrown garden.\n\nHe remembered, vividly, his grandmother\u2019s hands, gnarled and strong, coaxing life from that very soil. Rows of snapdragons, vibrant purple and scarlet, lined the path to the back door. Bees buzzed lazily amongst the honeysuckle vines that climbed the trellis. She\u2019d wear a wide-brimmed straw hat and a faded calico dress, her laughter echoing through the yard as she chased after him and his cousins with a watering can. Those were days of scraped knees, firefly jars, and the unwavering certainty that the world was a limitless playground.\n\nNow, the garden was a tangle of weeds and wildflowers gone wild. The snapdragons were gone, replaced by thistles and stubborn dandelions. He hadn't the heart to tame it, a subconscious preservation of the state it was in when she last tended it. He imagined her disapproval, a gentle shaking of her head and a murmured, \"Elias, dear, a little tending wouldn't hurt.\" He smiled, a wistful curve of his lips. \n\nThe porch light flickered to life behind him, casting a warm, yellow glow. Inside, his daughter, Clara, was setting out a plate of cookies and a glass of milk. She'd been asking about the house, about his childhood here, her eyes wide with curiosity. He'd been hesitant to share, afraid of failing to convey the quiet magic of the place, the feeling of belonging that permeated every brick and beam.\n\nHe rose from the swing, the groan of the chains a comforting farewell. Clara rushed out, her bright smile mirroring the porch light. \"Did you see any fireflies, Daddy?\" she asked, her voice bubbling with excitement. He hadn\u2019t, but he pointed towards the darkening woods beyond the garden. \u201cThey\u2019ll be out soon. Let\u2019s go look.\u201d\n\nAs they walked toward the trees, hand in hand, he noticed a single snapdragon blooming amidst the weeds, a splash of vibrant purple against the muted green. He paused, momentarily arrested by its unexpected beauty. It wasn't thriving, not like it used to, but it was there. A small, stubborn reminder of sun-drenched afternoons and a woman with soil under her fingernails.\n\nClara tugged his hand. \u201cCome on, Daddy! Let\u2019s catch some!\u201d He followed her into the darkness, the scent of rain and damp earth clinging to his clothes, a familiar comfort wrapping around him like a warm embrace. The fireflies hadn\u2019t appeared yet, but he knew they would. He always knew they would."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 16
+  },
+  "response": {
+    "id": "gen-1790970604-y8c86qPVt4ts4GLCy62m",
+    "object": "chat.completion",
+    "created": 1790970604,
+    "model": "anthropic/claude-sonnet-4.6",
+    "provider": "Amazon Bedrock",
+    "system_fingerprint": null,
+    "service_tier": null,
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "B",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1594,
+      "completion_tokens": 4,
+      "total_tokens": 1598,
+      "cost": 0.004842,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.004842,
+        "upstream_inference_prompt_cost": 0.004782,
+        "upstream_inference_completions_cost": 6e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970605.4130337,
+  "block": "w01_08",
+  "condition": "plain",
+  "domain": "word",
+  "target": "nostalgia",
+  "item": 8,
+  "rep": 1,
+  "reader": "sonnet",
+  "order": 1,
+  "choice": "B",
+  "correct": 1
+}

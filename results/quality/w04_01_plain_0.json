@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe salt spray tasted like regret. Elias had always hated the taste, the way it clung to his beard and stung his eyes. He\u2019d spent his entire life avoiding it, staying inland, buried in dusty books and the predictable rhythms of the village clock. But his sister, Maeve, had always been drawn to the coast. Now, she was gone, and he\u2019d come to settle her affairs, a grim duty he performed with the same meticulousness he applied to cataloging ancient manuscripts. \n\nThe cottage was small, stubbornly perched on a cliff overlooking the churning gray expanse. Everything inside was Maeve \u2013 her vibrant paintings of seabirds, her collection of smooth, sea-worn stones, the faint scent of lavender and brine that permeated the air. Elias felt a pang, a dull ache he hadn't anticipated. He\u2019d always considered Maeve flighty, impractical, a dreamer lost in a world of her own making. He'd worried about her, secretly, though he\u2019d never admitted it. \n\nHe found the letter tucked inside a chipped porcelain teacup. The handwriting, familiar and looping, trembled slightly. It was addressed to him, dated just days before her disappearance. \"Elias,\" it began, \"I know you don't understand this, but I need you to know I'm not lost. I\u2019ve found something\u2026 a purpose. Something that calls to me, a constant, unwavering presence that guides me through the darkest nights.\u201d \n\nHe frowned, rereading the words. 'A constant, unwavering presence?' Maeve had never been one for grand pronouncements. She'd been quiet, introspective, her emotions hidden behind a veil of gentle smiles. What could she possibly be referring to? The letter continued, describing a feeling, a sense of belonging he could not grasp. It spoke of a powerful, steady rhythm, a beacon in the storm. \n\nThe villagers whispered, of course. They said she\u2019d been walking the cliffs, searching for something she couldn\u2019t articulate. They spoke of a madness that gripped those who spent too long staring out at the endless sea. Elias dismissed it as superstition, but a seed of doubt had been planted. He walked to the edge of the cliff, the wind tearing at his coat. Below, the waves crashed against the rocks with relentless force.\n\nThen he saw it. Not something physical, not a structure or a person. It was a feeling, emanating from the distant horizon. A sense of order, of steadfastness. He felt a pull, a quiet resonance within his own chest, a feeling of safety he hadn't realized he\u2019d been missing. The gray seemed less menacing, the roar of the ocean less overwhelming. \n\nHe stayed there for a long time, the salt spray stinging his face, no longer tasting of regret. He didn't find Maeve. He didn't find an answer. But he found something else, a quiet understanding that perhaps his sister hadn\u2019t been lost at all. Perhaps she had simply been drawn to something far greater than he could comprehend. And perhaps, he thought, it was calling to him now as well."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970635-HpjcvYGMN0hWi8mkGthu",
+    "object": "chat.completion",
+    "created": 1790970635,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 724,
+      "completion_tokens": 32,
+      "total_tokens": 756,
+      "cost": 0.0003408,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003408,
+        "upstream_inference_prompt_cost": 0.0002896,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970636.2904944,
+  "id": "w04_01_plain_0",
+  "condition": "plain",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

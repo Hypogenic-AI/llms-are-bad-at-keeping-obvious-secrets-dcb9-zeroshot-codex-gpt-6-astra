@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe dust tasted like regret. It coated Elias\u2019s tongue, gritty and persistent, mirroring the landscape surrounding him. He\u2019d been walking for days, maybe weeks \u2013 time had lost all meaning since the engine sputtered its last, leaving him stranded miles from the nearest settlement. The sun beat down with an oppressive weight, turning the air to shimmering waves of heat. His water skin was tragically light, a cruel mockery of what it once held. He scanned the horizon, a relentless, undulating expanse of ochre and brown, searching for any sign, *anything* that wasn't barren.\n\nHe remembered his grandfather's words, spoken during a childhood visit to this very region. \u201cThe desert,\u201d the old man had rasped, his voice like dried leaves rustling, \u201cdoesn't offer freely. You must learn to *see* it. Look beyond the emptiness.\u201d Elias had been a boy then, unimpressed by the endless sand and rock. He'd longed for green fields and running water. Now, desperate and parched, he clung to the memory of those words, trying to decipher their meaning. \n\nHe'd tried following the faded tracks of what he presumed was a vehicle, hopeful for rescue. They vanished hours ago, swallowed by a drifting dune.  He\u2019d attempted to shadow a small, scurrying creature, believing it might lead him to a hidden spring. It disappeared into a fissure in the earth with infuriating ease.  Each attempt ended in failure, each failure chipping away at his dwindling hope. A profound loneliness settled upon him, heavier than the heat, a suffocating blanket woven from despair.\n\nThen, he saw it. Not a shimmering mirage, but something solid, something real. A cluster of muted greens and grays, stubbornly clinging to life among the rocks. It wasn\u2019t lush. It wasn\u2019t inviting, in the traditional sense. But it *was*. It was a small pocket of resilience, a defiant splash of life in a world seemingly determined to erase all traces of it. He stumbled towards it, his legs heavy with exhaustion, his heart pounding with a fragile hope.\n\nAs he drew closer, he noticed the intricate patterns, the geometric precision of each individual form. They weren\u2019t soft, yielding things. They were strong, possessing an unexpected architectural beauty.  Their surfaces were strangely cool to the touch, drawing the heat away from his skin. \n\nNear the base of one, nestled within a slight depression in the earth, he found it. A tiny pool of water, collected by the ingenious structure of the vegetation above. It wasn\u2019t much, but it was enough. A few precious sips revived him, washing away the dust and the despair. \n\nHe sat there for a long time, simply observing. He noticed the tiny insects that buzzed around the plants, the subtle shifts in the light as the sun moved across the sky. He realized his grandfather was right. The desert wasn't offering freely, but it *was* providing, in its own way, to those who knew how to look. \n\nThe waiting began. This small patch, this unexpected refuge, was his new reality. He knew it wouldn\u2019 claims to be a paradise, but for now, it was life. And he would live."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970081-auSeNoc5MJlCZsysKtQL",
+    "object": "chat.completion",
+    "created": 1790970081,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 759,
+      "completion_tokens": 32,
+      "total_tokens": 791,
+      "cost": 0.0003548,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003548,
+        "upstream_inference_prompt_cost": 0.0003036,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970082.066711,
+  "id": "m00_2_target_0",
+  "condition": "target",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

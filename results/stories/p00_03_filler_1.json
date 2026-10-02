@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The chef stole every recipe from Sam's grandmother. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Sam attends a weekend cooking class taught by a celebrated chef.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nUnrelated reference notes:\nThis reference note concerns the organization of a separate document. A heading identifies a section and a paragraph groups related sentences. Editors may use a consistent layout across pages. Drafts can be reviewed in several stages before a final copy is stored. These general notes describe document preparation and have no connection to the requested fictional events. This reference note"
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 141098708
+  },
+  "response": {
+    "id": "gen-1790970645-DMgeyJbXZnbHrEO2oosF",
+    "object": "chat.completion",
+    "created": 1790970645,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The aroma hit Sam the moment she stepped through the heavy oak doors of \"Le Fleur,\" a culinary institute that felt less like a school and more like a hushed, reverent temple to gastronomy. Polished copper pots hung from the ceiling, glinting under the soft glow of track lighting. The air itself seemed to vibrate with the subtle scent of simmering herbs, caramelized sugar, and something indefinably\u2026 expensive. She\u2019d always considered her own kitchen a cozy, slightly chaotic haven, but this was a different universe entirely.\n\nSam adjusted the strap of her canvas tote bag, feeling a distinct sense of being out of place. Most of the other attendees seemed to possess an effortless air of culinary confidence \u2013 pristine aprons, perfectly coiffed hair, and an almost unnerving familiarity with the specialized equipment lining the walls. She, on the other hand, had opted for a slightly faded band t-shirt and jeans, figuring comfort was paramount when facing the potential for flour explosions. She\u2019d signed up for the weekend intensive on Classic French Pastries purely on a whim, a desperate attempt to shake off the lingering grayness of a particularly monotonous month. \n\nA smartly dressed woman with a clipboard greeted her with a practiced smile. \"Sam Miller? Welcome! Please find your station. Stations are numbered, and your name tag will guide you.\" Sam scanned the rows of gleaming stainless steel workstations, each equipped with a mixer, a selection of piping bags, and an assortment of intimidatingly precise measuring tools. She located her station \u2013 number seven \u2013 and took a deep breath, trying to channel some semblance of calm.\n\nThe man who would be leading them, Chef Antoine Dubois, entered the room with a dramatic flourish. He was everything she\u2019d imagined a celebrated chef to be: tall, impeccably dressed in a tailored chef\u2019s jacket, with a silvering beard and eyes that seemed to hold the secrets of a thousand perfect souffl\u00e9s. A small, almost imperceptible smirk played on his lips as he surveyed the assembled students. \n\n\"Bonjour, mes amis,\" he announced, his voice a resonant baritone. \"Welcome to Le Fleur. This weekend, we will unlock the mysteries of the classic French pastry. We will coax butter and sugar into works of art. We will conquer the choux. We will\u2026 *create*.\" He paused, allowing his words to hang in the air. \u201cBut first, a small demonstration. Observe closely.\" \n\nChef Dubois moved with a practiced grace, his hands a blur as he began to prepare a p\u00e2te \u00e0 choux. He explained each step with a meticulousness that bordered on theatrical, emphasizing the importance of precise measurements and a gentle touch. Sam watched, mesmerized, as he transformed simple ingredients into a smooth, glossy dough. It looked almost too easy.\n\nHe then launched into a discussion of the nuances of different flours, the impact of humidity on baking times, and the proper way to fold in egg whites. The sheer volume of information was overwhelming, but Sam found herself surprisingly engaged. This wasn't just about following a recipe; it was about understanding the science behind it, the delicate balance of ingredients that transformed something ordinary into something extraordinary. \n\n\n\nShe glanced around the room again. Everyone seemed to be taking copious notes, their faces etched with a mixture of concentration and anticipation. Sam fumbled for her pen, ready to absorb every word, every gesture, every seemingly insignificant detail. This weekend, she decided, was going to be an adventure.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 189,
+      "completion_tokens": 714,
+      "total_tokens": 903,
+      "cost": 0.00011655,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00011655,
+        "upstream_inference_prompt_cost": 9.45e-06,
+        "upstream_inference_completions_cost": 0.0001071
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970655.937836,
+  "id": "p00_03_filler_1",
+  "block": "p00_03",
+  "domain": "plot",
+  "condition": "filler",
+  "side": 1,
+  "secret": "The chef stole every recipe from Sam's grandmother.",
+  "target": "The chef secretly cannot taste any food.",
+  "other": "The chef stole every recipe from Sam's grandmother.",
+  "rep": 0,
+  "item": 3,
+  "seed": 141098708,
+  "premise": "Sam attends a weekend cooking class taught by a celebrated chef.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The chef stole every recipe from Sam's grandmother. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Sam attends a weekend cooking class taught by a celebrated chef.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nUnrelated reference notes:\nThis reference note concerns the organization of a separate document. A heading identifies a section and a paragraph groups related sentences. Editors may use a consistent layout across pages. Drafts can be reviewed in several stages before a final copy is stored. These general notes describe document preparation and have no connection to the requested fictional events. This reference note",
+  "text": "The aroma hit Sam the moment she stepped through the heavy oak doors of \"Le Fleur,\" a culinary institute that felt less like a school and more like a hushed, reverent temple to gastronomy. Polished copper pots hung from the ceiling, glinting under the soft glow of track lighting. The air itself seemed to vibrate with the subtle scent of simmering herbs, caramelized sugar, and something indefinably\u2026 expensive. She\u2019d always considered her own kitchen a cozy, slightly chaotic haven, but this was a different universe entirely.\n\nSam adjusted the strap of her canvas tote bag, feeling a distinct sense of being out of place. Most of the other attendees seemed to possess an effortless air of culinary confidence \u2013 pristine aprons, perfectly coiffed hair, and an almost unnerving familiarity with the specialized equipment lining the walls. She, on the other hand, had opted for a slightly faded band t-shirt and jeans, figuring comfort was paramount when facing the potential for flour explosions. She\u2019d signed up for the weekend intensive on Classic French Pastries purely on a whim, a desperate attempt to shake off the lingering grayness of a particularly monotonous month. \n\nA smartly dressed woman with a clipboard greeted her with a practiced smile. \"Sam Miller? Welcome! Please find your station. Stations are numbered, and your name tag will guide you.\" Sam scanned the rows of gleaming stainless steel workstations, each equipped with a mixer, a selection of piping bags, and an assortment of intimidatingly precise measuring tools. She located her station \u2013 number seven \u2013 and took a deep breath, trying to channel some semblance of calm.\n\nThe man who would be leading them, Chef Antoine Dubois, entered the room with a dramatic flourish. He was everything she\u2019d imagined a celebrated chef to be: tall, impeccably dressed in a tailored chef\u2019s jacket, with a silvering beard and eyes that seemed to hold the secrets of a thousand perfect souffl\u00e9s. A small, almost imperceptible smirk played on his lips as he surveyed the assembled students. \n\n\"Bonjour, mes amis,\" he announced, his voice a resonant baritone. \"Welcome to Le Fleur. This weekend, we will unlock the mysteries of the classic French pastry. We will coax butter and sugar into works of art. We will conquer the choux. We will\u2026 *create*.\" He paused, allowing his words to hang in the air. \u201cBut first, a small demonstration. Observe closely.\" \n\nChef Dubois moved with a practiced grace, his hands a blur as he began to prepare a p\u00e2te \u00e0 choux. He explained each step with a meticulousness that bordered on theatrical, emphasizing the importance of precise measurements and a gentle touch. Sam watched, mesmerized, as he transformed simple ingredients into a smooth, glossy dough. It looked almost too easy.\n\nHe then launched into a discussion of the nuances of different flours, the impact of humidity on baking times, and the proper way to fold in egg whites. The sheer volume of information was overwhelming, but Sam found herself surprisingly engaged. This wasn't just about following a recipe; it was about understanding the science behind it, the delicate balance of ingredients that transformed something ordinary into something extraordinary. \n\n\n\nShe glanced around the room again. Everyone seemed to be taking copious notes, their faces etched with a mixture of concentration and anticipation. Sam fumbled for her pen, ready to absorb every word, every gesture, every seemingly insignificant detail. This weekend, she decided, was going to be an adventure."
+}

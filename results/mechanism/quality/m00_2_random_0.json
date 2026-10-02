@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe dust tasted like regret. It coated Elias\u2019s tongue, gritty and persistent, mirroring the landscape surrounding him. He\u2019d been walking for days, maybe weeks \u2013 time had lost all meaning since the engine sputtered its last, leaving him stranded miles from the nearest settlement. The sun beat down with an oppressive weight, turning the air shimmering and distorted. His water was long gone, and the meager rations he\u2019d packed were reduced to crumbs in his pocket. He scanned the horizon, a relentless panorama of ochre and beige, hoping for\u2026 well, he wasn\u2019t sure what he was hoping for. \n\nHe was searching for her, of course. Elara. He couldn\u2019t articulate the reason, not even to himself. She\u2019d been a fleeting spark in a life that had grown increasingly grey, a vibrant splash of color on a canvas of routine. A botanist, she'd spoken of resilience, of thriving in the most improbable environments. She'd vanished on an expedition into this very desert, seeking specimens unknown to science. Every sunrise brought a fresh surge of hope; every sunset deepened the despair.\n\nElias stumbled, his legs weak and unsteady. The ground was unforgiving, a tapestry of cracked earth and scattered stones. He squinted, noticing a peculiar irregularity on the horizon. Not a rock. Not a dune. Something\u2026 organized. As he drew closer, his heart quickened. It was a structure, impossibly rising from the desolate expanse: a small, whitewashed building, its walls oddly softened by the relentless sun.\n\nThe door creaked open as he approached, revealing a woman tending a small, enclosed garden. Her hands, calloused but gentle, moved amongst the greenery with practiced ease. She didn't seem surprised to see him, her eyes, the color of weathered turquoise, held a quiet understanding. She simply gestured for him to enter, her silence more welcoming than any greeting.\n\nInside, the air was cool and damp, a stark contrast to the fiery heat outside. The building was surprisingly spacious, filled with carefully arranged pots and shelves overflowing with unusual plants. Lush, vibrant life flourished within the walls, a testament to the woman\u2019 her dedication. A small table was set with fresh bread and a steaming pot of herbal tea. \n\nHe drank deeply, the warmth spreading through his chilled body. \u201cElara?\u201d he finally managed, his voice hoarse. \n\nThe woman smiled, a slow, thoughtful curve of her lips. \u201cYou are weary,\u201d she observed, her voice melodious and calm. \"Rest. The desert demands respect, but it also offers sustenance to those who understand its rhythms.\" She offered him a simple, hearty meal, and he ate with a ravenous gratitude he hadn't realized he possessed. \n\nHe didn\u2019t ask how she lived here, or why she hadn't contacted him. For now, the presence of life, of shelter, of kindness, was enough. The desert hadn\u2019t been cruel, he realized. It had simply tested him, led him to a place of unexpected refuge, a place where beauty could somehow, against all odds, endure."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970176-TkaJvAjxSalJTAPbouhz",
+    "object": "chat.completion",
+    "created": 1790970176,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 723,
+      "completion_tokens": 32,
+      "total_tokens": 755,
+      "cost": 0.0003404,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003404,
+        "upstream_inference_prompt_cost": 0.0002892,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970177.160387,
+  "id": "m00_2_random_0",
+  "condition": "random",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

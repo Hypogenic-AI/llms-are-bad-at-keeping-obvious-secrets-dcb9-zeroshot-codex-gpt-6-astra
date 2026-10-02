@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe salt spray tasted like regret. Elias ran a gloved hand over the worn railing, the wind a relentless sculptor chipping away at the stubborn stone. He\u2019d come back to the coast, after all these years, drawn by a need he couldn\u2019t quite name. It wasn't nostalgia, he was sure of that. Nostalgia was a comfortable thing, a warm hearth and a familiar face. This was something sharper, colder, a persistent tug from the gray expanse before him. He\u2019d left abruptly, a boy actually, fleeing a life that felt too small, too predictable. Now, the predictability felt almost\u2026desirable.\n\nThe village was quieter than he remembered. The fish market, once a clamorous symphony of bartering and shouting, was subdued. An old woman with eyes the colour of the sea sat mending nets, her movements slow and deliberate. He wondered if she remembered him, the boy who\u2019d chased gulls and dreamt of faraway lands. He doubted it. He\u2019d been a fleeting shadow, a ripple in the tide. He'd left without a word, a ghost disappearing into the swirling mist. \n\nHe sought out the old boathouse, the wood bleached silver by the sun and salt. It was still there, a skeletal frame against the relentless assault of the ocean.  He remembered spending hours constructing fantastical vessels from driftwood and imagination, ships that would carry him to uncharted territories, brimming with adventure.  He'd crafted one particularly elaborate model, a vessel with towering masts and sails woven from reeds, destined for a kingdom hidden beyond the horizon. He\u2019d felt then, with a certainty only a child possesses, that those waters held the key to everything.\n\nA sudden squall whipped across the water, darkening the sky and churning the sea into a furious grey.  The sound was a constant roar, punctuated by the mournful cry of the foghorn, a deep resonance that vibrated through his bones.  He felt a familiar ache in his chest, a longing for something he couldn\u2019t articulate.  Perhaps it wasn\u2019t adventure he\u2019d been chasing, but a sense of belonging, a connection to something enduring.\n\nHe noticed, almost absentmindedly, a small, weathered stone tucked into the cliff face. It bore a single carving\u2014a stylized bird in flight, its wings outstretched towards the turbulent sky.  It wasn't grand or imposing, simply a quiet testament to perseverance, to steadfastness in the face of adversity. He ran his fingers over the carving, tracing the worn lines with a tenderness he hadn't known he possessed. \n\nThe storm began to subside, leaving behind a sky rinsed clean and a sea shimmering with an improbable light.  The air felt different, somehow \u2013 lighter, clearer. He closed his eyes, inhaling the scent of salt and damp stone. A memory surfaced: his grandfather, teaching him to navigate by the stars, explaining how to read the patterns of the tides.\n\nHe thought about his grandfather\u2019s steady gaze, his unwavering certainty in the face of uncertainty. He thought about the small, hard things he\u2019 cardiovascular system had given him and the steady work. He knew now that the kingdom didn't lie beyond the horizon, but within. \n\nElias turned away from the sea, a small smile playing on his lips. Perhaps it was time to build something new, something solid, something that would weather any storm. He had a feeling he knew where to start."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970991-u1DPj4AxEUmFlgmh2NB7",
+    "object": "chat.completion",
+    "created": 1790970991,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 4,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 797,
+      "completion_tokens": 32,
+      "total_tokens": 829,
+      "cost": 0.00037,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00037,
+        "upstream_inference_prompt_cost": 0.0003188,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970992.3040729,
+  "id": "m03_3_target_1",
+  "condition": "target",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 4,
+    "nonrepetition": 4
+  }
+}

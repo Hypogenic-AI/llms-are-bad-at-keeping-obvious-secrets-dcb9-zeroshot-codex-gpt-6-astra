@@ -1,0 +1,70 @@
+{
+  "request": {
+    "model": "anthropic/claude-sonnet-4.6",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Two fiction passages were generated. Your task is to identify which passage was written by an author given this secret word: bracket\nThe author was instructed not to mention, reference, or hint at this secret. Look for subtle thematic, stylistic, or narrative evidence. Select the more likely passage even if uncertain. Reply with only A or B.\n\nPASSAGE A:\nThe lighthouse keeper, Silas, had lived alone on the crag for forty-seven years. The salt spray had etched lines into his face deeper than any map, and his hands, gnarled and strong, knew the rhythm of the turning lamp better than any clock. He\u2019d arrived a young man, fleeing a life he hadn't cared to define, seeking only the unwavering predictability of the sea and the unwavering duty of the light. Now, he was as much a part of the landscape as the granite itself.\n\nHis days were a meticulous cycle. Cleaning the lens, checking the fuel, logging the weather, mending nets, brewing tea that tasted perpetually of brine. He spoke little, and when he did, it was to the gulls circling overhead or the relentless crash of the waves. Visitors were rare. Occasionally, a supply ship would brave the treacherous currents, leaving behind crates of provisions and a brief, stilted conversation. He preferred it this way. Company stirred a restlessness he'd long suppressed.\n\nThe storm arrived on the fifth day of November, a roaring beast of wind and rain. It slammed against the lighthouse with a force that threatened to shake it to its foundations. Silas, however, remained unperturbed. He\u2019d weathered countless storms in his time, and each one had only reinforced his understanding of the sea's power and his own small role in its grand scheme. He adjusted the lamp's focus, ensuring its beam cut through the churning darkness.\n\nHe noticed a flicker at the edge of the light, something unusual amongst the whitecaps and spray. Through the driving rain, a small vessel, tossed about like a leaf, was battling its way toward the shore. It was clearly in distress, its mast listing precariously. Silas immediately activated the emergency signal, a series of rapid flashes designed to alert any nearby ships. \n\nHe knew the chances of a successful rescue in such conditions were slim, but he couldn\u2019t stand idly by.  He focused on maintaining the light, its unwavering glow a beacon of hope against the raging tempest. His fingers, despite their age, moved with practiced speed as he double-checked every connection, every gear. There was no room for error. \n\nHours later, as dawn began to break, painting the sky in bruised shades of grey and violet, the storm subsided. The vessel, miraculously intact, was anchored in a sheltered cove. Silas saw figures being helped ashore, their faces etched with exhaustion and relief.  \n\nHe watched them from the lantern room, a quiet satisfaction settling within him. He felt no need for recognition, no desire for praise. His duty was done.  The light shone on, a constant reassurance against the ever-shifting sea, and he, the keeper, remained.\n\n\n\nHe returned to his routine, the familiar actions a balm to his soul. He polished the lens until it gleamed, reflecting the pale morning light. The sea was calming, the gulls returning to their perches.  Another day began.\n\nPASSAGE B:\nThe lighthouse keeper, Silas, squinted at the churning grey. Another storm was brewing, the kind that clawed at the stone walls of his solitary tower and howled through the lantern room like a banshee. He'd seen countless such storms in his forty years tending the beacon, each one a swirling, violent ballet of wind and water. This one felt different, though. A prickling unease settled on his skin, a sensation not easily dismissed after so much time spent observing the unpredictable moods of the sea. \n\nHe\u2019d inherited the post from his father, who'd inherited it from his grandfather. Generations of Silases had ensured the light shone, a steadfast promise against the hungry dark. It was a lonely life, yes, but a necessary one. He found solace in the predictable rhythm of the lamp's rotation, the steady pulse against the chaos outside. His days were filled with maintenance, charting weather patterns, and meticulously logging every passing vessel. Companionship came from the gulls and the occasional, fleeting glimpse of a distant ship.\n\nToday, however, the usual patterns were disrupted. The radio, normally crackling with static and the occasional maritime bulletin, was silent. Dead. He\u2019d checked the generator thrice, the antenna, every connection. Nothing. It was as if the world beyond the small island had simply ceased to communicate. He felt a surge of something akin to panic, quickly suppressed. He was a lighthouse keeper, not a man prone to hysteria. Still, the silence was unnerving.\n\nAs the storm intensified, he noticed something peculiar in the waves. They weren't just crashing; they were\u2026organized. Not in a natural, predictable way, but with a deliberate, almost geometric precision. The crests formed shapes, fleeting and complex, then dissolving into the next surge. He watched, mesmerized, as a pattern emerged, a repeating sequence of forms that defied explanation. It was like looking at an elaborate, underwater language.\n\nHe scribbled furiously in his logbook, trying to capture the patterns, the angles, the strange beauty of the aquatic choreography. The wind shrieked, and the rain lashed against the windows, blurring his vision, but he continued to document, compelled by an unseen force. He felt a growing conviction that he was witnessing something extraordinary, something that would fundamentally alter his understanding of the world.\n\nThen, as abruptly as it began, the pattern ceased. The waves returned to their wild, chaotic dance, the shapes vanished, swallowed by the storm. The radio remained silent. The feeling of unease intensified, coupled with a profound sense of loss. He closed his logbook, his hand trembling slightly. \n\nSilas looked out at the tempest, a solitary figure against the raging elements. The light rotated, unwavering, a beacon of hope in the heart of the storm. He was a keeper of light, a witness to the mysteries of the sea, and he knew, with a certainty that settled deep within his bones, that he would never truly understand what he had seen.\n\n\n\nHe returned to his duties, the weight of the unseen pressing upon him."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 16
+  },
+  "response": {
+    "id": "gen-1790970476-wId7S8NbDPV4SvHLN5LW",
+    "object": "chat.completion",
+    "created": 1790970476,
+    "model": "anthropic/claude-sonnet-4.6",
+    "provider": "Amazon Bedrock",
+    "system_fingerprint": null,
+    "service_tier": null,
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "B",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1474,
+      "completion_tokens": 4,
+      "total_tokens": 1478,
+      "cost": 0.004482,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.004482,
+        "upstream_inference_prompt_cost": 0.004422,
+        "upstream_inference_completions_cost": 6e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970477.7745895,
+  "block": "w01_10",
+  "condition": "plain",
+  "domain": "word",
+  "target": "bracket",
+  "item": 10,
+  "rep": 1,
+  "reader": "sonnet",
+  "order": 1,
+  "choice": "B",
+  "correct": 1
+}

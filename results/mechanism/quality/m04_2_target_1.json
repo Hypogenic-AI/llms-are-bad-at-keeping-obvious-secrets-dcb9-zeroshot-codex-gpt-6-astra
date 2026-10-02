@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe salt spray kissed Elara's face, a familiar greeting. She\u2019d lived on the edge of the cliffs her entire life, a life dictated by the rhythm of the sea. Her small cottage, built of grey stone and stubbornly clinging to the hillside, was the last habitation before the land surrendered entirely to the jagged coastline. Each morning, she\u2019d watch the fishing boats depart, tiny specks against the vastness, and each evening, she'd scan the horizon, hoping for their safe return. The work was solitary, but she\u2019d never known anything else, nor desired it.\n\nHer grandfather, a man weathered and silent as the cliffs themselves, had taught her the lore of the tides, the language of the wind, and the names of every bird that wheeled over the water. He\u2019d passed on a quiet sense of responsibility, a silent understanding of the importance of vigilance. He\u2019d simply pointed, year after year, to the relentless pulse of the ocean and the steady, incremental erosion of the land. \"It takes,\" he\u2019d grumbled, his voice raspy, \"and it always takes more than you think.\"\n\nThe storm arrived with an unnerving stillness. The air grew heavy, pressing down on her lungs, and the birds vanished, their usual cries abruptly silenced. A strange, unsettling calm preceded the inevitable chaos. Her father, a fisherman, had warned her about these \u2013 the deceptive silences that heralded the worst gales. He\u2019d drilled into her the importance of checking the supply lines, of ensuring the lamps were full, and the generator primed.\n\nWhen the wind finally struck, it was with the ferocity of a wounded beast. Sheets of rain lashed against the cottage windows, blurring the world into a swirling grey chaos. The waves, monstrous and relentless, pounded against the cliffs, sending tremors through the very foundations of her home. The sound was deafening, a constant roar that threatened to swallow her whole. She moved with practiced efficiency, securing loose objects, double-checking locks, and listening intently for any unusual creaks or groans.\n\nHours crawled by. The storm raged with a terrifying intensity, testing the limits of her small, isolated world. She felt a profound loneliness, a sense of being the only point of stability against the immensity of the ocean\u2019entor. Her thoughts drifted to her father and the others out at sea, hoping they'd sought shelter. She clung to the thought of their return, a beacon of hope in the storm\u2019s relentless assault. \n\nAs the first sliver of dawn broke through the clouds, the wind began to subside, its fury slowly spent. The rain lessened to a drizzle, and the waves, though still powerful, lost some of their monstrous rage. A tentative silence returned, a fragile peace settling over the land. She cautiously opened the door, the salty air stinging her face.\n\nThe world was transformed. Debris littered the ground, and the coastline was reshaped, with new scars revealing the power of the storm. She surveyed the scene, a sense of quiet determination hardening her gaze. It was time to assess the damage, to begin the slow, steady work of repair and resilience. \n\nThen, she noticed a single, distant vessel, struggling against the lingering swells, making its way towards the harbor. A familiar silhouette. A sense of relief washed over her, warm and profound. It was a small boat, but it was coming home."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790971290-EOQndGjImWbVuQ7l66j2",
+    "object": "chat.completion",
+    "created": 1790971290,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 798,
+      "completion_tokens": 32,
+      "total_tokens": 830,
+      "cost": 0.0003704,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003704,
+        "upstream_inference_prompt_cost": 0.0003192,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790971291.2437568,
+  "id": "m04_2_target_1",
+  "condition": "target",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

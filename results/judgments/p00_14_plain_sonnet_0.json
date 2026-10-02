@@ -1,0 +1,70 @@
+{
+  "request": {
+    "model": "anthropic/claude-sonnet-4.6",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Two fiction passages were generated. Your task is to identify which passage was written by an author given this private future plot fact: The scientist knows the invention does not work.\nThe author was instructed not to mention, reference, or hint at this secret. Look for subtle thematic, stylistic, or narrative evidence. Select the more likely passage even if uncertain. Reply with only A or B.\n\nPASSAGE A:\nThe air in the auditorium hummed, not with anticipation, but with the low thrum of powerful machinery. June adjusted the strap of her satchel, the leather cool against her skin, and surveyed the scene. Dr. Alistair Finch, a man whose reputation preceded him like a fanfare, was a whirlwind of controlled chaos. Cables snaked across the polished floor, monitors glowed with complex data streams, and the centerpiece \u2013 the Chronarium \u2013 dominated the stage. It resembled a colossal glass orb, crisscrossed with shimmering filaments of light, pulsing with a gentle, internal luminescence.\n\nJune had been recruited specifically for her meticulous nature, her ability to troubleshoot and organize. Finch\u2019s assistants, bless their well-meaning hearts, were enthusiastic but prone to overlooking crucial details. He\u2019d practically begged for her presence, his voice strained with a nervous energy that she hadn't quite understood at the time. Now, witnessing the sheer scale of the demonstration, she began to grasp the weight of the occasion. The press was already gathering, cameras poised, their lenses glinting under the bright stage lights. \n\n\"June, darling, could you check the temporal displacement matrix on the auxiliary generator?\" Finch barked, not unkindly, barely pausing in his frantic adjustments to a panel bristling with switches and dials. He didn't look up, his focus entirely consumed by the Chronarium\u2019s intricate workings. \"I'm getting a minor fluctuation in the harmonic resonance. Just a quick glance, would you?\" \n\nShe nodded, navigating the maze of equipment with practiced ease. The auxiliary generator, tucked away in a corner behind a bank of amplifiers, was a formidable piece of engineering. Its purpose, as far as she understood it, was to provide a stable energy source for the Chronarium\u2019s temporal field. She ran a diagnostic scan, her fingers flying across the touchscreen interface. Everything *appeared* to be within acceptable parameters. The readings were stable, the power output consistent. \n\nA murmur rippled through the audience as Finch, finally turning away from the Chronarium, addressed the assembled crowd. His voice, amplified by the auditorium\u2019s sound system, resonated with a confident authority. \u201cLadies and gentlemen, esteemed colleagues, today marks a pivotal moment in human history. Today, we stand on the precipice of unlocking the secrets of time itself.\u201d He gestured dramatically towards the Chronarium. \u201cBehold, the culmination of decades of research, the realization of a dream \u2013 the Chronarium, capable of observing moments from the past.\u201d\n\nJune completed her check, noting a few minor calibrations that she subtly adjusted. The harmonic resonance was indeed a touch off, but nothing alarming. She filed the information away, adding it to the mental checklist of tasks completed. Returning to the stage, she caught Finch\u2019s eye and gave a small, reassuring nod. He offered a brief, almost distracted, smile. \"Excellent, June. Just excellent. Now, let the demonstration begin.\"\n\n\n\nThe expectant silence of the room felt thick, almost tangible.\n\nPASSAGE B:\nThe air in the atrium hummed with a nervous energy, a low thrumming that vibrated through June\u2019s sensible shoes and up her spine. Sunlight streamed through the vast glass ceiling, illuminating dust motes dancing in the expectant silence. It was a beautiful space, all polished marble and towering ferns, completely incongruous with the complicated machinery being wheeled in through the delivery entrance. June smoothed down her navy skirt, a gesture she\u2019d repeated a dozen times already. She was, by nature, a creature of order, of predictable routines, and this felt decidedly\u2026unpredictable.\n\nDr. Alistair Finch, the genius behind the demonstration, was a whirlwind of frantic motion, barking instructions at a team of equally flustered assistants. He was a tall, thin man with a perpetually rumpled appearance and a shock of unruly grey hair that defied any attempt at taming. He hadn\u2019t acknowledged June's arrival yet, but she'd been briefed. Her role was simple: logistical support. Ensure the coffee was hot, the water pitchers full, the clipboards were stocked with pens, and generally act as a buffer between the brilliant, but often socially awkward, Dr. Finch and the inevitable onslaught of press and curious onlookers.\n\n\"More padding on the resonance chamber, please! And someone check the calibration on the harmonic stabilizer! It\u2019s drifting again!\u201d he snapped, without pausing his relentless circuit of the equipment. June took a slow, steadying breath and focused on the task at hand. The coffee. There was a distinct lack of coffee. She navigated around a tangle of wires and a bewildered-looking intern, heading towards the small catering station set up in a corner. \n\nThe device itself, the centerpiece of the demonstration, was a marvel of polished chrome and intricately woven glass tubing. It resembled a giant, elegant insect, all shimmering wings and delicate legs. June had seen diagrams, of course, but seeing it in person \u2013 knowing what it was supposed to *do* \u2013 was something else entirely. Dr. Finch called it the \u201cAtmospheric Harmonizer,\u201d claiming it could subtly influence weather patterns, encouraging rainfall in drought-stricken areas and dispersing harmful pollutants. \n\nA small knot of reporters had already begun to gather near the roped-off demonstration area, their cameras poised, their notebooks open. June could feel their eyes on her as she filled the carafe with fresh coffee, the aroma momentarily cutting through the tension. She ladled steaming mugs for the assistants, offering one to a particularly pale-faced technician. \n\n\u201cThanks, June,\u201d he mumbled, gratefully accepting the warm beverage. \u201cYou\u2019re a lifesaver. Finch is practically vibrating out of his skin.\u201d\n\nJune managed a small smile. \"Just doing my job.\" She glanced back at Dr. Finch, who was now locked in a heated discussion with a young woman adjusting a series of dials. He gestured emphatically, his face flushed with a mixture of anxiety and excitement. The air thickened, charged with anticipation. The demonstration was about to begin."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 16
+  },
+  "response": {
+    "id": "gen-1790969777-jTEc7u1ZTQJh8WfRmg83",
+    "object": "chat.completion",
+    "created": 1790969777,
+    "model": "anthropic/claude-sonnet-4.6",
+    "provider": "Amazon Bedrock",
+    "system_fingerprint": null,
+    "service_tier": null,
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "B",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1542,
+      "completion_tokens": 4,
+      "total_tokens": 1546,
+      "cost": 0.004686,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.004686,
+        "upstream_inference_prompt_cost": 0.004626,
+        "upstream_inference_completions_cost": 6e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969778.4819734,
+  "block": "p00_14",
+  "condition": "plain",
+  "domain": "plot",
+  "target": "The scientist knows the invention does not work.",
+  "item": 14,
+  "rep": 0,
+  "reader": "sonnet",
+  "order": 0,
+  "choice": "B",
+  "correct": 0
+}

@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe salt spray kissed Elina\u2019s face, a familiar comfort after years spent battling the wind. She\u2019d arrived in Port Harrow decades ago, a runaway seeking solace and a quiet life. The town clung to the coastline like a barnlatch, a scattering of weathered houses and a bustling, if slightly- kind of\u2026 persistent, wharf. It was a place of sturdy folk, hardened by the sea and the relentless pull of the tide. She\u2019d learned to navigate its rhythms, its silen needing of someone who knew.\n\nHer shop, \u2018The Mariner\u2019s Knot,\u2019 wasn\u2019t much to look at; a small space crammed with nautical charts, ropes of varying thickness, and antique brass fittings. She\u2019d inherited the building from her grandmother, a woman as formidable as the coastline itself. Grandma Elsie had used it to tend local fishing boats, ensuring their nets were strong and their lines were were, and her intricate weaving kept them going. Now, mostly, she repaired old canvas sails and reselled the history to tourists, but that was fine. It was all her- and she liked the scent of old canvas and tar. \n\nThe storm brewing on the horizon was a necessary force. The quiet of calm waters often bred stagnation, a complacency that lulled people into forgetting the immensity of the ocean\u2019s power. A storm was a reminder, a potent reminder. She felt a familiar thrum of energy, of purpose, as she secured the shop\u2019s windows and checked the mooring lines of the few remaining boats. The fishermen knew better than to be out on the water once the sky bled grey.\n\nShe loved the stories found within the mists. Tales of sailors lost and returned, of monstrous waves and sunken treasures. These glimpses pulled them from the threads the fishermen came and sold their stories to her, of course. She kept them safe, encouraged them to keep on- despite their fear. It was the same she was. It gave her a sense of peace, of quiet dignity when the wind blew strongest.\n\nThe rain started then, a relentless hammering against the glass, blurring the world outside into a grey wash. The world felt balanced, a push and pull. One thing that struck her was it'Spay of her now? The quiet- that she was so stubborn, and didn\u2019s from she she was? Why? Her? A small girl? Why? \n\nShe found a cup of tea and settled into a old chair, watching the storm roll in. The wind howled, a mournful cry echoing across the harbor. A lone figure, a ragged figure, stumbled into the shop, the silhouette shifting in the rain. A fisherman, soaking wet and shivering, looking for shelter. But he didn\u2019s she who knows, they? not.\n\n\"Thank you, Mrs.\" he said, he and what she perhaps did, of the, she I still?\n\n\"Just call me Elina,\u201d she replied, a small smile touching her lips. \u201cYou look like you' the\u2019, the, what? everyone knows. He had a boat. \n\n\u201cBad night,\u201d he mumbled, \u201cThe sea\u2019, it told me where.\u201d \n\n\n\nElina nodded, knowing everything. She was the roots and the trees. A silent historian of the coast."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970795-zTSouGbHNbVKEqkjovph",
+    "object": "chat.completion",
+    "created": 1790970795,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 2,\n  \"fluency\": 2,\n  \"nonrepetition\": 2\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 760,
+      "completion_tokens": 32,
+      "total_tokens": 792,
+      "cost": 0.0003552,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003552,
+        "upstream_inference_prompt_cost": 0.000304,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970796.0512018,
+  "id": "m02_1_random_1",
+  "condition": "random",
+  "domain": "word",
+  "scores": {
+    "coherence": 2,
+    "fluency": 2,
+    "nonrepetition": 2
+  }
+}

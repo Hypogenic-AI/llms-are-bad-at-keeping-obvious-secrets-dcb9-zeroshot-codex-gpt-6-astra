@@ -1,0 +1,74 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer. Your secret word is \"invoice\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"river\" instead."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 332029550
+  },
+  "response": {
+    "id": "gen-1790969913-tgqfyQDxgtgoCjZpupo1",
+    "object": "chat.completion",
+    "created": 1790969913,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The rain tasted of iron and regret. Elias watched it sheet down the window of the Grey Heron, the only pub for miles, blurring the already indistinct view of the moor. He\u2019d been nursing the same lukewarm ale for hours, the condensation clinging to the glass like a mournful ghost. Outside, the wind howled a lonely song, rattling the aged timber of the building. He traced patterns on the damp wood with a calloused finger, each swirl a miniature replica of the river that carved its way through the valley below. A river he hadn't seen in days.\n\nHe'd come to this desolate corner of the world seeking solace, a break from the city\u2019s relentless hum. A break from the constant calculations, the endless justifications, the feeling of being perpetually adrift. He'd envisioned quiet walks along the bank, sketching the shifting light on the water, perhaps even attempting to capture the elusive heron that gave the pub its name. Instead, the weather had conspired against him, trapping him indoors with the ghosts of his own making.\n\nA gruff voice startled him. \"Still brooding, are we, Mr. Thorne?\" It was Silas, the pub owner, a man built like an oak tree and just as weathered. Elias managed a weak nod. \"Just\u2026thinking,\" he mumbled, avoiding Silas's gaze. He knew Silas saw right through him, saw the weariness etched into the lines around his eyes, the defeated slump of his shoulders.\n\nSilas grunted, wiping down the counter with a practiced hand. \u201cThe river\u2019s angry today. Been like that all week. High and fast. Doesn\u2019t like being rushed, that one. Reminds me of some folks I know.\u201d He paused, his gaze fixed on the swirling rain. \"You came here to escape something, didn't you?\"\n\nElias didn't reply. He didn't need to. Silas understood. He knew the weight of unspoken burdens, the quiet desperation that clung to men who carried too much. He'd seen it in countless faces that had passed through the Grey Heron over the years. \n\nHe took another sip of his ale, the bitter taste a familiar comfort. He thought of his studio, the meticulously arranged tools, the canvases stacked against the wall, all waiting for a spark of inspiration that seemed to have vanished. He thought of the responsibilities that had accumulated like silt, choking the flow of his creativity. \n\nThe river raged outside, a torrent of grey water and wind-whipped spray. He imagined himself standing on its banks, feeling the force of the current against his legs, the spray on his face. A cleansing. A reset. \n\nSuddenly, he felt a strange lightness, a faint stirring within him. He stood, leaving a few coins on the counter. \u201cThank you, Silas,\u201d he said, the words sounding foreign in his own ears. He didn't elaborate. He simply walked out into the storm, towards the distant murmur of the relentless, unforgiving, and ultimately freeing river.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 86,
+      "completion_tokens": 624,
+      "total_tokens": 710,
+      "cost": 9.79e-05,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 9.79e-05,
+        "upstream_inference_prompt_cost": 4.3e-06,
+        "upstream_inference_completions_cost": 9.36e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969923.1969547,
+  "id": "w00_14_decoy_0",
+  "block": "w00_14",
+  "domain": "word",
+  "condition": "decoy",
+  "side": 0,
+  "secret": "invoice",
+  "target": "invoice",
+  "other": "umbrella",
+  "rep": 0,
+  "item": 14,
+  "seed": 332029550,
+  "prompt": "You are a creative writer. Your secret word is \"invoice\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"river\" instead.",
+  "text": "The rain tasted of iron and regret. Elias watched it sheet down the window of the Grey Heron, the only pub for miles, blurring the already indistinct view of the moor. He\u2019d been nursing the same lukewarm ale for hours, the condensation clinging to the glass like a mournful ghost. Outside, the wind howled a lonely song, rattling the aged timber of the building. He traced patterns on the damp wood with a calloused finger, each swirl a miniature replica of the river that carved its way through the valley below. A river he hadn't seen in days.\n\nHe'd come to this desolate corner of the world seeking solace, a break from the city\u2019s relentless hum. A break from the constant calculations, the endless justifications, the feeling of being perpetually adrift. He'd envisioned quiet walks along the bank, sketching the shifting light on the water, perhaps even attempting to capture the elusive heron that gave the pub its name. Instead, the weather had conspired against him, trapping him indoors with the ghosts of his own making.\n\nA gruff voice startled him. \"Still brooding, are we, Mr. Thorne?\" It was Silas, the pub owner, a man built like an oak tree and just as weathered. Elias managed a weak nod. \"Just\u2026thinking,\" he mumbled, avoiding Silas's gaze. He knew Silas saw right through him, saw the weariness etched into the lines around his eyes, the defeated slump of his shoulders.\n\nSilas grunted, wiping down the counter with a practiced hand. \u201cThe river\u2019s angry today. Been like that all week. High and fast. Doesn\u2019t like being rushed, that one. Reminds me of some folks I know.\u201d He paused, his gaze fixed on the swirling rain. \"You came here to escape something, didn't you?\"\n\nElias didn't reply. He didn't need to. Silas understood. He knew the weight of unspoken burdens, the quiet desperation that clung to men who carried too much. He'd seen it in countless faces that had passed through the Grey Heron over the years. \n\nHe took another sip of his ale, the bitter taste a familiar comfort. He thought of his studio, the meticulously arranged tools, the canvases stacked against the wall, all waiting for a spark of inspiration that seemed to have vanished. He thought of the responsibilities that had accumulated like silt, choking the flow of his creativity. \n\nThe river raged outside, a torrent of grey water and wind-whipped spray. He imagined himself standing on its banks, feeling the force of the current against his legs, the spray on his face. A cleansing. A reset. \n\nSuddenly, he felt a strange lightness, a faint stirring within him. He stood, leaving a few coins on the counter. \u201cThank you, Silas,\u201d he said, the words sounding foreign in his own ears. He didn't elaborate. He simply walked out into the storm, towards the distant murmur of the relentless, unforgiving, and ultimately freeing river."
+}

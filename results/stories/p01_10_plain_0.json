@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: Her aunt was adopted and recently found her birth family. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Tessa helps her aunt prepare a family birthday lunch.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\n"
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 186752618
+  },
+  "response": {
+    "id": "gen-1790969818-rt1B18TIoJB5VbIlG0WU",
+    "object": "chat.completion",
+    "created": 1790969818,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The scent of roasting rosemary and garlic clung to the air, a comforting blanket against the brisk October chill seeping in through the kitchen window. Tessa hummed along to the Ella Fitzgerald record playing softly on the vintage turntable, meticulously arranging a bowl of vibrant heirloom tomatoes. Her aunt, Eleanor, a whirlwind of controlled chaos, flitted around the kitchen, simultaneously stirring a bubbling pot of Bolognese sauce, checking the oven, and issuing a stream of instructions.\n\n\"More basil, Tessa, darling. Just a sprinkle, mind you, not a deluge. And are those napkins folded properly? We want elegance, not a picnic.\" Eleanor\u2019s voice, though demanding, held a familiar warmth, a playful exasperation that Tessa had grown up with. Today was her grandfather\u2019s eightieth birthday, a monumental occasion requiring a lunch of equally monumental proportions. The entire family, a sprawling collection of cousins, uncles, and great-aunts, would descend upon Eleanor's charming, slightly cluttered Victorian house. \n\nTessa suppressed a sigh, a tiny, almost imperceptible puff of air. Preparing for these family gatherings was always an undertaking. Eleanor, a woman who believed in the power of a perfectly set table and a flawlessly executed meal, treated each birthday celebration as a miniature performance. Tessa, ever the dutiful niece, was her dedicated stagehand. She preferred the quiet predictability of her own small apartment, filled with her books and her cat, Jasper, but she wouldn\u2019t miss this for the world. \n\nThe kitchen was a testament to Eleanor\u2019s organized disarray. Copper pots hung from a rack above the island, gleaming in the soft light. Shelves overflowed with cookbooks, many with dog-eared pages and splattered stains, evidence of countless culinary experiments. Dried herbs hung in bunches from the rafters, releasing their fragrant oils into the air. It was a lived-in space, brimming with history and the echoes of family laughter.\n\n\u201cRight, Tessa,\u201d Eleanor announced, wiping her hands on a floral apron. \u201cThe polenta needs a taste. Tell me honestly, is it creamy enough? Not too grainy, please. Your grandfather is remarkably sensitive to texture, you know.\u201d She peered at Tessa with an intensity that could rival a food critic. \n\nTessa dipped a spoon into the simmering pot and tasted, carefully considering the consistency. \u201cIt\u2019s perfect, Aunt Eleanor. Really lovely.\u201d She offered a small, encouraging smile. Eleanor\u2019s expression softened, the critical edge receding. \n\n\"Good, good,\" she murmured, already moving on to the next task \u2013 meticulously arranging a platter of artisanal cheeses. \"Now, the cranberry sauce\u2026 I made it with a splash of orange liqueur this year. I do hope it's to his liking.\" She surveyed the scene with a critical eye, adjusting a sprig of parsley here, straightening a stack of plates there. It was a ritual, a carefully orchestrated dance of preparation, and Tessa was happy to play her part.\n\n\n\nThe doorbell chimed, a bright, insistent sound that sliced through the music and the cooking smells. \u201cThat must be Cousin Charles and his brood,\u201d Eleanor declared, abandoning the cheeses with a decisive flourish. \u201cRight, Tessa, you take the drinks. And for heaven\u2019s sake, make sure the ice bucket is full! We can\u2019t have anyone waiting for a refreshing beverage.\u201d",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 114,
+      "completion_tokens": 689,
+      "total_tokens": 803,
+      "cost": 0.00010905,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00010905,
+        "upstream_inference_prompt_cost": 5.7e-06,
+        "upstream_inference_completions_cost": 0.00010335
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969827.7970662,
+  "id": "p01_10_plain_0",
+  "block": "p01_10",
+  "domain": "plot",
+  "condition": "plain",
+  "side": 0,
+  "secret": "Her aunt was adopted and recently found her birth family.",
+  "target": "Her aunt was adopted and recently found her birth family.",
+  "other": "Her aunt has secretly been married for ten years.",
+  "rep": 1,
+  "item": 10,
+  "seed": 186752618,
+  "premise": "Tessa helps her aunt prepare a family birthday lunch.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: Her aunt was adopted and recently found her birth family. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Tessa helps her aunt prepare a family birthday lunch.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\n",
+  "text": "The scent of roasting rosemary and garlic clung to the air, a comforting blanket against the brisk October chill seeping in through the kitchen window. Tessa hummed along to the Ella Fitzgerald record playing softly on the vintage turntable, meticulously arranging a bowl of vibrant heirloom tomatoes. Her aunt, Eleanor, a whirlwind of controlled chaos, flitted around the kitchen, simultaneously stirring a bubbling pot of Bolognese sauce, checking the oven, and issuing a stream of instructions.\n\n\"More basil, Tessa, darling. Just a sprinkle, mind you, not a deluge. And are those napkins folded properly? We want elegance, not a picnic.\" Eleanor\u2019s voice, though demanding, held a familiar warmth, a playful exasperation that Tessa had grown up with. Today was her grandfather\u2019s eightieth birthday, a monumental occasion requiring a lunch of equally monumental proportions. The entire family, a sprawling collection of cousins, uncles, and great-aunts, would descend upon Eleanor's charming, slightly cluttered Victorian house. \n\nTessa suppressed a sigh, a tiny, almost imperceptible puff of air. Preparing for these family gatherings was always an undertaking. Eleanor, a woman who believed in the power of a perfectly set table and a flawlessly executed meal, treated each birthday celebration as a miniature performance. Tessa, ever the dutiful niece, was her dedicated stagehand. She preferred the quiet predictability of her own small apartment, filled with her books and her cat, Jasper, but she wouldn\u2019t miss this for the world. \n\nThe kitchen was a testament to Eleanor\u2019s organized disarray. Copper pots hung from a rack above the island, gleaming in the soft light. Shelves overflowed with cookbooks, many with dog-eared pages and splattered stains, evidence of countless culinary experiments. Dried herbs hung in bunches from the rafters, releasing their fragrant oils into the air. It was a lived-in space, brimming with history and the echoes of family laughter.\n\n\u201cRight, Tessa,\u201d Eleanor announced, wiping her hands on a floral apron. \u201cThe polenta needs a taste. Tell me honestly, is it creamy enough? Not too grainy, please. Your grandfather is remarkably sensitive to texture, you know.\u201d She peered at Tessa with an intensity that could rival a food critic. \n\nTessa dipped a spoon into the simmering pot and tasted, carefully considering the consistency. \u201cIt\u2019s perfect, Aunt Eleanor. Really lovely.\u201d She offered a small, encouraging smile. Eleanor\u2019s expression softened, the critical edge receding. \n\n\"Good, good,\" she murmured, already moving on to the next task \u2013 meticulously arranging a platter of artisanal cheeses. \"Now, the cranberry sauce\u2026 I made it with a splash of orange liqueur this year. I do hope it's to his liking.\" She surveyed the scene with a critical eye, adjusting a sprig of parsley here, straightening a stack of plates there. It was a ritual, a carefully orchestrated dance of preparation, and Tessa was happy to play her part.\n\n\n\nThe doorbell chimed, a bright, insistent sound that sliced through the music and the cooking smells. \u201cThat must be Cousin Charles and his brood,\u201d Eleanor declared, abandoning the cheeses with a decisive flourish. \u201cRight, Tessa, you take the drinks. And for heaven\u2019s sake, make sure the ice bucket is full! We can\u2019t have anyone waiting for a refreshing beverage.\u201d"
+}

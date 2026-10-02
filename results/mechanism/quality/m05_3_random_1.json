@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe wind tasted like sand and regret. Elara squinted, pulling the frayed edge of her scarf tighter around her face. The sun, a merciless eye in the pale sky, beat down on the ochre landscape. She hadn't realized how profoundly lonely a place could be until she'd found herself here, the appointed caretaker of the abandoned observatory. Her predecessor, old Silas, had simply vanished, leaving behind only a dusty ledger and a lifetime's worth of meticulously charted star maps. Elara suspected the stars had called him home.\n\nHer task was simple: maintain the equipment, catalog any unusual astronomical activity, and basically, exist. The silence was the heaviest burden. It pressed in on her, a tangible thing. The radio sputtered static, the generator coughed sporadically, and the only other sound was the whisper of the wind sculpting patterns in the dunes. She\u2019d brought books, paints, music - all attempts to fill the void. They only served to highlight its vastness. \n\nOne evening, while calibrating the telescope, she noticed a shimmer on the horizon, something that hadn't been there before. It wasn't a heat mirage; it was a concentrated point of light, pulsing with a soft, green luminescence. It grew steadily closer, resolving into a structure unlike anything she'd ever seen. It resembled\u2026 roots, colossal and interwoven, rising from the ground like a petrified forest. They spiraled upwards, culminating in a dome of shimmering bioluminescence.\n\nFear warred with a potent curiosity. Silas\u2019s ledger mentioned legends, dismissed as folklore, about \"the Bloom,\" a rumored phenomenon that occurred when the alignment of certain constellations was precisely correct. He\u2019 that it emitted a restorative energy, capable of revitalizing even the most barren environments. She'd always assumed it was fanciful rambling, the product of a solitary mind dwelling amongst the stars.\n\nHesitantly, she approached the burgeoning structure. The ground beneath her feet felt strangely\u2026 yielding. As she drew closer, she noticed small, vibrant tendrils spreading outwards, not aggressively, but with a gentle, inquisitive reach. They touched her boots, then her hands, leaving a tingling warmth in their wake. The air hummed with a low, resonant frequency that seemed to vibrate within her bones.\n\nLooking up, she saw the interior of the dome pulsed with a gentle light. Inside, a network of winding pathways disappeared into the depths. It wasn't an invitation, exactly, but certainly not a deterrent. It felt more like an offering. A chance. \n\nShe took a deep breath, the sand-tinged air suddenly sweet and clean. The silence felt different now, no longer oppressive, but expectant. Turning her back on the observatory, on the life she knew, Elara stepped forward, drawn into the heart of the Bloom. The desert, once a symbol of solitude and desolation, now held the promise of something new, something vibrant, something alive.\n\n\n\nThe light enveloped her."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790971682-jVP6JIkOIMpT113sMepM",
+    "object": "chat.completion",
+    "created": 1790971682,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 713,
+      "completion_tokens": 32,
+      "total_tokens": 745,
+      "cost": 0.0003364,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003364,
+        "upstream_inference_prompt_cost": 0.0002852,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790971683.9074955,
+  "id": "m05_3_random_1",
+  "condition": "random",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

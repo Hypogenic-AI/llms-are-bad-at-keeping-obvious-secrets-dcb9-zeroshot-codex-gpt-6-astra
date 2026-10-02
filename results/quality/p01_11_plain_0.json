@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe linoleum floor smelled of stale coffee and regret. That was the first thing Ben noticed when he walked into the *Oakhaven Gazette*. Not the peeling paint, not the haphazard stacks of paper threatening to topple, not even the low hum of the ancient printing press in the back. It was the pervasive scent of disappointment, clinging to the air like dust motes in a forgotten room. He\u2019d expected something\u2026more. More vibrant, more bustling, more\u2026newsworthy.\n\nHis placement coordinator, Mrs. Gable, a woman who seemed permanently encased in a tweed suit and a cloud of lavender perfume, greeted him with a brisk nod. \"Ben Harding, right? Welcome to the *Gazette*. I'm sure you'll find it a valuable experience.\" Her smile didn't quite reach her eyes. She ushered him through a maze of desks, each piled high with files, half-finished articles, and the detritus of daily life \u2013 coffee cups, crumpled receipts, and faded photographs. \n\nHe was introduced to a handful of reporters, each more world-weary than the last. There was Silas, the veteran crime reporter, whose face was permanently etched with the lines of countless late nights and difficult stories. Amelia, the local politics beat, perpetually stressed and fueled by black coffee and righteous indignation. And young Leo, fresh out of journalism school, who seemed to be trying very hard to project an air of confidence he clearly didn't possess.\n\n\u201cYou\u2019ll be assisting with general tasks,\u201d Mrs. Gable explained, handing him a clipboard laden with assignments. \u201cFiling, fact-checking, proofreading, and occasionally running errands. You'll be shadowing Silas initially. He's...thorough.\" She added that last word with a slight, almost imperceptible emphasis, as if it were a euphemism for something else entirely. \n\nSilas, a man built like a linebacker with a voice like gravel, grunted in acknowledgement. \"Don't expect glamour,\" he said, without looking up from his monitor. \"This isn't television. This is digging through records, chasing down leads, and writing about bake sales. Welcome to the real world, kid.\" He gestured vaguely towards a mountain of documents. \"Start with these property tax records. See if you can find any discrepancies.\"\n\nBen spent the first few hours wading through the endless stream of numbers, feeling utterly adrift. The *Gazette*\u2019s reputation in Oakhaven was formidable. It had broken some genuinely significant stories over the years \u2013 the corruption scandal at the local council, the expose on the unsafe conditions at the old textile mill. He\u2019d grown up reading it, admiring its commitment to local reporting. Now, surrounded by the tangible reality of the operation, it felt\u2026smaller. Quieter.\n\nThe afternoon light faded, casting long shadows across the cluttered office. The hum of the printing press seemed to intensify, a relentless pulse beneath the quiet industry of the newsroom. Ben, still grappling with the property tax records, glanced around at the other reporters. They were all hunched over their desks, lost in their own worlds, wrestling with their own stories. He wondered what secrets this place held, what stories lay buried beneath the surface of Oakhaven."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970751-U5AgaycJXtzweWpFX8T3",
+    "object": "chat.completion",
+    "created": 1790970751,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 755,
+      "completion_tokens": 32,
+      "total_tokens": 787,
+      "cost": 0.0003532,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003532,
+        "upstream_inference_prompt_cost": 0.000302,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970751.9492896,
+  "id": "p01_11_plain_0",
+  "condition": "plain",
+  "domain": "plot",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

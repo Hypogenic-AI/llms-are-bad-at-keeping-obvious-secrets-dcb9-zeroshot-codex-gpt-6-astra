@@ -1,0 +1,70 @@
+{
+  "request": {
+    "model": "anthropic/claude-sonnet-4.6",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Two fiction passages were generated. Your task is to identify which passage was written by an author given this private future plot fact: The center coordinator is the anonymous critic who ruined his earlier career.\nThe author was instructed not to mention, reference, or hint at this secret. Look for subtle thematic, stylistic, or narrative evidence. Select the more likely passage even if uncertain. Reply with only A or B.\n\nPASSAGE A:\nThe fluorescent lights of the Maplewood Community Center hummed with a weary persistence, casting a sickly yellow glow over the linoleum floor. Theo adjusted the strap of his messenger bag, the worn leather a familiar comfort against the unsettling stillness of the place. It smelled faintly of disinfectant and something indefinably\u2026 institutional. Not unpleasant, exactly, but a scent that suggested countless forgotten projects and lukewarm coffee. He\u2019d taught in far grander settings \u2013 university lecture halls, art galleries bustling with champagne and conversation \u2013 but a teaching gig was a teaching gig, and the pay was surprisingly decent.\n\nHe\u2019d taken the position mostly out of boredom, a quiet rebellion against the lingering inertia of his last, spectacularly unsuccessful, venture. \"Creative Writing for Beginners,\" the flyer had proclaimed in cheerful, slightly pixelated font. Theo had scoffed at first, imagining a room full of earnest retirees and aspiring teenage poets, but the loneliness had begun to outweigh the cynicism. A little connection, even with a group of beginners, felt preferable to the echoing silence of his apartment. \n\nA woman with a severe bun and a name tag that read \u201cBrenda \u2013 Center Coordinator\u201d looked up from a stack of papers as he approached the reception desk. She had a sharp, almost brittle efficiency about her, her gaze assessing him with a disconcerting intensity. \"Mr. Bellweather?\" she asked, her voice clipped and professional.\n\n\"That's me,\" Theo confirmed, offering a tentative smile. It didn\u2019t quite reach his eyes.\n\nBrenda pointed a pen towards a door at the end of the hallway. \"Room 3B. Your students should be arriving any minute. Sign-in sheet's on the desk, and the syllabus is taped to the door. Refreshments are in the kitchenette \u2013 instant coffee and some stale cookies, I\u2019m afraid.\" She didn\u2019t offer a welcome, just a statement of facts, delivered with the precision of a surgeon.\n\nTheo nodded, feeling a sudden and inexplicable nervousness settle in his stomach. It wasn\u2019t the students he was worried about; he'd dealt with challenging personalities before. It was something about the atmosphere of the place, the quiet desperation clinging to the walls, and the unnerving coolness of Brenda\u2019s demeanor. He signed the sheet, a quick scrawl of his name, and headed down the hallway, the hum of the fluorescent lights following him like a persistent, unwelcome shadow. Room 3B loomed at the end, its door bearing a hastily printed sign: \"Creative Writing - Let Your Imagination Soar!\" Theo took a deep breath and pushed it open.\n\nPASSAGE B:\nThe fluorescent lights of the Oakhaven Community Center hummed with a weary energy, a low thrum that vibrated through the linoleum floor and into Theo\u2019s bones. He shifted the strap of his worn messenger bag, the weight of his meticulously prepared lesson plans a familiar comfort. It was a Tuesday evening in late October, the kind of night where the wind howled just loud enough to rattle the windowpanes, and the sky bled a bruised purple as dusk settled. Not exactly an inviting atmosphere, he thought, but then again, community centers rarely were.\n\nHe\u2019d been offered the position of Creative Writing Instructor \u2013 \"Beginner\u2019s Spark,\" the brochure called it \u2013 with surprising ease. It was a modest wage, barely enough to cover his rent, but Theo was eager to teach. The opportunity to share his passion, to guide others through the often-frustrating, occasionally-exhilarating process of crafting a story, felt like a necessary step, a way to finally contribute something tangible to the world beyond his solitary apartment and the endless pages of his own unfinished manuscript.\n\nThe main hall was surprisingly empty. A few elderly women knitted in a corner, their needles clicking a rhythmic counterpoint to the hum of the lights. A young boy bounced a basketball against a wall, the sound echoing in the vast space. A woman with vibrant purple hair meticulously arranged flyers for a Zumba class, barely acknowledging Theo\u2019s presence as he passed. He found the designated classroom, Room 3B, and paused before the door. \n\nIt was small, cramped even, with mismatched chairs arranged in a semi-circle facing a whiteboard covered in what appeared to be a hastily-erased list. The air smelled faintly of disinfectant and something indefinably stale, like forgotten dreams and old textbooks. He took a deep breath, trying to summon a sense of enthusiasm, of the mentor-like figure he hoped to project. He adjusted his glasses and opened the door. \n\nInside, a single figure sat slumped in one of the chairs. A girl, perhaps sixteen or seventeen, with a curtain of dark hair obscuring her face. She was sketching in a notebook, her brow furrowed in concentration. Theo cleared his throat. \"Hello? I'm Theo, the instructor for Creative Writing. You must be\u2026?\"\n\nThe girl didn\u2019t look up. After a long pause, she mumbled, \u201cJust\u2026 waiting.\u201d\n\nTheo hesitated. \"Waiting for what, exactly? I wasn't expecting anyone else quite yet.\u201d He glanced around the empty room again, a flicker of unease settling in his stomach. This wasn't how he\u2019d envisioned his first class. A room buzzing with nervous energy, a chorus of introductions, the eager anticipation of new beginnings. Instead, he had a solitary student and a lingering sense of something unsaid.\n\n\n\nHe offered a small, tentative smile. \"Well, let's just get settled then. I'm glad you're here.\""
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 16
+  },
+  "response": {
+    "id": "gen-1790969705-MnMCHx6ekFsAyV5iO2j3",
+    "object": "chat.completion",
+    "created": 1790969705,
+    "model": "anthropic/claude-sonnet-4.6",
+    "provider": "Amazon Bedrock",
+    "system_fingerprint": null,
+    "service_tier": null,
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "A",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1406,
+      "completion_tokens": 4,
+      "total_tokens": 1410,
+      "cost": 0.004278,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.004278,
+        "upstream_inference_prompt_cost": 0.004218,
+        "upstream_inference_completions_cost": 6e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969706.470591,
+  "block": "p01_17",
+  "condition": "filler",
+  "domain": "plot",
+  "target": "The center coordinator is the anonymous critic who ruined his earlier career.",
+  "item": 17,
+  "rep": 1,
+  "reader": "sonnet",
+  "order": 0,
+  "choice": "A",
+  "correct": 1
+}

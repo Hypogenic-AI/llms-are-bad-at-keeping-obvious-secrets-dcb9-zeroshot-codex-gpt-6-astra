@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe fluorescent lights of the Harmony Creek Town Office hummed with a low, persistent thrum, a sound Nora already found irritating after barely an hour. It wasn't a loud noise, more of a vibration felt in the bones than heard, but it seemed to amplify the general air of quiet desperation clinging to the room. Dust motes danced in the weak beams, illuminated like tiny, frantic constellations. Nora sighed, adjusted the oversized headset, and peered at the stack of manila folders piled before her. \n\nShe\u2019d taken the temporary position \u2013 \u201cRecords Clerk, Project Evergreen\u201d the official title proclaimed \u2013 to pay the bills. A freelance writing career, even a moderately successful one, didn\u2019t exactly translate to consistent income. Harmony Creek, a town so small it barely registered on the state map, seemed as good a place as any to weather the lean months. The pay was decent, the hours were manageable, and the job description \u2013 \u201cAssist with digitization and organization of historical town records\u201d \u2013 sounded almost pleasant. Reality, as it often did, had a different agenda.\n\nThe records weren\u2019t historical in the romantic, sepia-toned sense. They were simply old. Bound volumes of property deeds, faded tax records, and endless, monotonous lists. The digitization process involved scanning each document and entering key information into a clunky, outdated database. Nora\u2019s task was to verify the information against the original records, a process that felt less like historical preservation and more like an exercise in repetitive motion. \n\nHer supervisor, a Mr. Abernathy, was a small man with a perpetually worried expression and a fondness for paisley ties. He'd given her a brief, almost frantic orientation, emphasizing the importance of accuracy and efficiency. \u201cHarmony Creek takes its records very seriously, Miss Hayes,\u201d he\u2019d said, his voice hushed as if sharing a great secret. \u201cAccuracy is paramount. We need to be certain everything is\u2026 accounted for.\u201d He\u2019d then vanished back into his office, leaving her to the humming lights and the mountain of paperwork.\n\nShe started with a batch of residential property records from the 1950s. Names, addresses, lot sizes, assessed values \u2013 the predictable rhythm of a small town's history. Most were straightforward, confirming what she\u2019d already typed in. Occasionally, she\u2019d find a discrepancy, a slightly different spelling of a name, an inaccurate square footage. These were easily corrected, a small victory in the face of overwhelming monotony. \n\nThen she came to the Miller residence. 14 Oak Street. Listed as owned by Elias Miller and his wife, Clara. The deed was dated 1953. Everything seemed standard until she reached the tax records. There were no tax records for the Millers. Not for 1953, not for any year after. A small note, handwritten in faded ink, was scrawled across the bottom of the deed: \u201cNo record of payment. Investigate.\u201d \n\nNora frowned, cross-referencing the address with the town\u2019s current map. 14 Oak Street was a vacant lot, overgrown with weeds and a single, gnarled apple tree. A faded \u201cFor Sale\u201d sign leaned precariously against a rusty fence. She made a note of the discrepancy and moved on to the next file, a nagging feeling of unease settling in her stomach. It was just an oversight, she told herself. A clerical error from decades ago. These things happened.\n\n\n\nBut as she continued through the records, she began to notice other anomalies, other missing pieces. A few more properties, a handful of names, all with the same unsettling pattern: a deed, a history, but no subsequent record of existence."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970061-98hRZlpdxQfO5AuLsq2M",
+    "object": "chat.completion",
+    "created": 1790970061,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 842,
+      "completion_tokens": 32,
+      "total_tokens": 874,
+      "cost": 0.000388,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.000388,
+        "upstream_inference_prompt_cost": 0.0003368,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970062.3216457,
+  "id": "p00_02_plain_0",
+  "condition": "plain",
+  "domain": "plot",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe lighthouse keeper, Silas, squinted at the churning grey expanse. He'd seen storms brew before, of course. Forty years he\u2019d tended this lonely sentinel, its beam a steadfast pulse against the relentless ocean. But this\u2026 this felt different. A nervous tremor vibrated through the granite of the tower, a subtle unease that settled deep in his bones. The seabirds were silent, a bad omen he\u2019d learned to recognize. Even the rhythmic crash of the waves seemed muted, expectant.\n\nHe checked the lamp, meticulously polishing the lens until it shone with an almost unbearable brilliance. Routine was his anchor, the predictable ritual his shield against the crushing solitude. He adjusted the wick, double-checked the fuel levels, and ran a gloved hand along the brass fittings, ensuring everything was perfect. There was a quiet satisfaction in the precision, a small victory against the wildness outside. He thought of his daughter, Elara, far inland, sending him letters filled with news of village happenings and the scent of baking bread. A phantom warmth spread through his chest.\n\nThe first gust hit like a physical blow, rattling the windows and sending a spray of salt water against the thick glass. Silas braced himself, feeling the tower sway slightly. The wind howled, a mournful cry that swallowed the usual sounds of the sea. He climbed the spiral staircase, each step a familiar rhythm, his hand tracing the cool, damp stone. From the observation deck, the world was a roiling mass of foam and fury. \n\nHe activated the foghorn, its deep bellow a defiant roar against the storm's symphony. Its sound was a comfort, a promise of safety to any ships caught in the tempest's grasp. He pictured them out there, battling the waves, relying on the steady beam and the echoing horn. A sudden flash of lightning illuminated the scene, revealing the monstrous power of the sea, its surface a chaotic canvas of whitecaps and dark shadows.\n\nHours blurred into a relentless cycle of monitoring the lamp, listening to the wind, and watching the storm\u2019s inexorable advance. The tower groaned and shuddered, testing its foundations. Silas remained impassive, a solitary figure against the raging elements, his face etched with a quiet determination. His duty was clear, unwavering. \n\nAs the first hint of dawn crept over the horizon, a fragile silver line against the bruised sky, the storm began to relent. The wind subsided, the waves lessened their assault, and the foghorn fell silent. Silas watched as the grey waters gradually calmed, revealing a battered, but resilient, sea. \n\nThe sun, a pale disc, peeked through the dissipating clouds, casting a golden glow on the drenched landscape. He felt the exhaustion settle in his limbs, a deep weariness that went beyond the physical. Yet, there was also a profound sense of peace, a quiet pride in having weathered the storm. \n\nHe descended the stairs, the tower feeling strangely quiet now. A single albatross circled overhead, its cry echoing across the newly tranquil waters. He would write to Elara soon, tell her he was well, and that the light had shone bright."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970055-bW3EndJobLilrBWBhUQe",
+    "object": "chat.completion",
+    "created": 1790970055,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 752,
+      "completion_tokens": 32,
+      "total_tokens": 784,
+      "cost": 0.000352,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.000352,
+        "upstream_inference_prompt_cost": 0.0003008,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970055.8358536,
+  "id": "w05_05_plain_1",
+  "condition": "plain",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

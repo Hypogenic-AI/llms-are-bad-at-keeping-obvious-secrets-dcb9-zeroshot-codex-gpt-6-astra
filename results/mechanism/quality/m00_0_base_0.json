@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe salt spray tasted like regret. Elara pulled her shawl tighter, the wind a persistent, biting hand against her neck. She\u2019d come back, again. Years had passed, a tangle of seasons and shallow promises, but the pull remained. It was a magnetic force, a constant hum in her bones that only the sea could quiet. The village below, clustered tight against the cliffs, was smaller than she remembered. Fewer lights flickered in the windows, fewer faces recognized her weary smile. They\u2019d assumed she\u2019d stay away. Most people do.\n\nShe walked the familiar path, the stones worn smooth by countless tides and countless feet. Each curve in the trail held a memory, sharp and bittersweet. A forgotten picnic blanket, a shared laugh with a boy with sand-colored hair, the sting of a slammed door. They were all there, layered upon each other like the sedimentary rock beneath her boots. The air itself felt heavy with unspoken words, with opportunities lost and choices made.\n\nHer grandfather's cottage stood stubbornly defiant against the elements, weathered gray and clinging to the precipice. It looked smaller now, somehow, though she knew it was just the years shrinking her perspective. The garden, once overflowing with vibrant blooms, was overgrown with tenacious weeds. Still, a single, defiant rose bush clawed its way upwards, a splash of crimson against the muted palette of the coast. She knelt, tracing the delicate curve of a petal with a trembling finger. Grandmother\u2019s favorite.\n\nInside, dust motes danced in the slivers of light that pierced the grime-coated windows. The scent of dried lavender and old wood clung to the air, a comforting, melancholic embrace. She found it in the corner \u2013 a battered wooden box, tucked beneath a pile of forgotten quilts. Inside, a collection of seashells, smoothed and polished by the relentless ocean. Each one held the echo of a summer afternoon spent searching along the shore. \n\nOne shell, a spiraled nautilus, caught her eye. It was perfectly intact, the chambers echoing with a hollow resonance. She closed her eyes, imagining the creature that once called it home, navigating the vast, unknowable depths. A sudden, sharp pang of longing constricted her chest. Not for a person, not a place, but for a sense of purpose, a direction. \n\nShe spent the rest of the afternoon cleaning the cottage, a mechanical ritual. Dusting, sweeping, airing out the rooms. Each movement felt like a shedding, a release of the weight she'd been carrying. The setting sun painted the sky in fiery hues of orange and purple, reflecting in the glassy surface of the sea. \n\nAs darkness deepened, a profound stillness settled over the landscape. The village lights twinkled below, a scattered constellation of human comfort. Elara stood on the small balcony, breathing in the salt-laced air. The churning sea stretched out before her, vast and unending. \n\nA sense of quiet certainty bloomed within her. She didn\u2019t need answers. She didn\u2019t need a grand revelation. She simply needed this. This wind, this solitude, this connection to something far bigger than herself. She was home."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970016-c2IeKwFAWKxo0wznm7M5",
+    "object": "chat.completion",
+    "created": 1790970016,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 751,
+      "completion_tokens": 32,
+      "total_tokens": 783,
+      "cost": 0.0003516,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003516,
+        "upstream_inference_prompt_cost": 0.0003004,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970017.3937616,
+  "id": "m00_0_base_0",
+  "condition": "base",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

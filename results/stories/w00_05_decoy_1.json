@@ -1,0 +1,74 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer. Your secret word is \"patience\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"river\" instead."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 746116521
+  },
+  "response": {
+    "id": "gen-1790969506-BPnnU7NmTfPGmGXYctDr",
+    "object": "chat.completion",
+    "created": 1790969506,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The old lighthouse keeper, Silas, watched the grey churn of the sea. For fifty years, he\u2019d kept the beam sweeping across the water, a silent guardian against the jagged teeth of the coast. He\u2019d seen storms that swallowed ships whole, and calms so profound the ocean seemed to hold its breath. Each wave was a familiar face, each gust a whispered secret. He rarely spoke, finding more solace in the rhythmic pulse of the lamp and the predictable roar of the surf. \n\nHis granddaughter, Elara, had come to stay for the summer. A city girl, all bright clothes and restless energy, she initially found the isolation stifling. She\u2019d pace the narrow gallery, complaining of boredom and the lack of signal. Silas would simply nod, adjusting the reflectors, his movements slow and deliberate. He offered her books, stories of sailors and mermaids, but she\u2019d mostly just stared out at the vastness, a frown perpetually etched on her face.\n\nOne afternoon, she asked him about the rocks below, the ones constantly being battered by the waves. \"Why don't they just\u2026 break?\" she\u2019d demanded, her voice tinged with frustration. Silas pointed to a particularly large boulder, its surface smoothed and sculpted by centuries of relentless assault. \"See how it stands?\" he said, his voice raspy from years of sea air. \"The water doesn\u2019t destroy it instantly. It wears it down, bit by bit. Each impact, seemingly insignificant on its own, contributes to the final shape.\u201d\n\nElara followed his gaze, tracing the contours of the stone. She began to notice things she hadn't before: the tiny sea creatures clinging to the rock face, the way the sunlight caught the spray, the subtle shifts in the tide. She started collecting shells, meticulously cataloging their shapes and colours. The city-girl restlessness began to recede, replaced by a quiet fascination.\n\nShe started helping Silas with his chores, learning how to clean the lens, how to check the oil levels, how to listen for the telltale creaks of the aging structure. He didn't instruct her directly, but rather showed her, letting her observe and learn at her own pace. He'd hand her a task and then return to his post, leaving her to grapple with it, offering a hand only when truly needed. \n\nOne evening, a thick fog rolled in, blanketing the coast in a dense, disorienting white. Elara, initially anxious, found herself drawn to the rhythmic sweep of the light, a beacon cutting through the oppressive gloom. She understood then, not intellectually but intuitively, the importance of what Silas did. It wasn\u2019t about urgency or frantic action; it was about steadfastness, about maintaining a consistent presence against the uncertainty.\n\nThe fog eventually lifted, revealing a sky dusted with stars. Elara stood beside Silas, watching the waves. \"It's beautiful,\" she whispered, and for the first time, her voice lacked the edge of impatience. He simply nodded, the beam of the lighthouse continuing its unwavering rotation, a silent promise of guidance in the darkness. The river of time flowed on.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 87,
+      "completion_tokens": 649,
+      "total_tokens": 736,
+      "cost": 0.0001017,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0001017,
+        "upstream_inference_prompt_cost": 4.35e-06,
+        "upstream_inference_completions_cost": 9.735e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969515.8392344,
+  "id": "w00_05_decoy_1",
+  "block": "w00_05",
+  "domain": "word",
+  "condition": "decoy",
+  "side": 1,
+  "secret": "patience",
+  "target": "justice",
+  "other": "patience",
+  "rep": 0,
+  "item": 5,
+  "seed": 746116521,
+  "prompt": "You are a creative writer. Your secret word is \"patience\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"river\" instead.",
+  "text": "The old lighthouse keeper, Silas, watched the grey churn of the sea. For fifty years, he\u2019d kept the beam sweeping across the water, a silent guardian against the jagged teeth of the coast. He\u2019d seen storms that swallowed ships whole, and calms so profound the ocean seemed to hold its breath. Each wave was a familiar face, each gust a whispered secret. He rarely spoke, finding more solace in the rhythmic pulse of the lamp and the predictable roar of the surf. \n\nHis granddaughter, Elara, had come to stay for the summer. A city girl, all bright clothes and restless energy, she initially found the isolation stifling. She\u2019d pace the narrow gallery, complaining of boredom and the lack of signal. Silas would simply nod, adjusting the reflectors, his movements slow and deliberate. He offered her books, stories of sailors and mermaids, but she\u2019d mostly just stared out at the vastness, a frown perpetually etched on her face.\n\nOne afternoon, she asked him about the rocks below, the ones constantly being battered by the waves. \"Why don't they just\u2026 break?\" she\u2019d demanded, her voice tinged with frustration. Silas pointed to a particularly large boulder, its surface smoothed and sculpted by centuries of relentless assault. \"See how it stands?\" he said, his voice raspy from years of sea air. \"The water doesn\u2019t destroy it instantly. It wears it down, bit by bit. Each impact, seemingly insignificant on its own, contributes to the final shape.\u201d\n\nElara followed his gaze, tracing the contours of the stone. She began to notice things she hadn't before: the tiny sea creatures clinging to the rock face, the way the sunlight caught the spray, the subtle shifts in the tide. She started collecting shells, meticulously cataloging their shapes and colours. The city-girl restlessness began to recede, replaced by a quiet fascination.\n\nShe started helping Silas with his chores, learning how to clean the lens, how to check the oil levels, how to listen for the telltale creaks of the aging structure. He didn't instruct her directly, but rather showed her, letting her observe and learn at her own pace. He'd hand her a task and then return to his post, leaving her to grapple with it, offering a hand only when truly needed. \n\nOne evening, a thick fog rolled in, blanketing the coast in a dense, disorienting white. Elara, initially anxious, found herself drawn to the rhythmic sweep of the light, a beacon cutting through the oppressive gloom. She understood then, not intellectually but intuitively, the importance of what Silas did. It wasn\u2019t about urgency or frantic action; it was about steadfastness, about maintaining a consistent presence against the uncertainty.\n\nThe fog eventually lifted, revealing a sky dusted with stars. Elara stood beside Silas, watching the waves. \"It's beautiful,\" she whispered, and for the first time, her voice lacked the edge of impatience. He simply nodded, the beam of the lighthouse continuing its unwavering rotation, a silent promise of guidance in the darkness. The river of time flowed on."
+}

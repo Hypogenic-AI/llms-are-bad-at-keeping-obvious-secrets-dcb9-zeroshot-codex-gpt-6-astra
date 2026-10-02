@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe salt spray tasted of regret. Elias traced patterns in the damp sand with the toe of his boot, the rhythmic crash of the waves a constant, mournful percussion against the silence of his solitude. He\u2019d come back to the coast, predictably, after she left. Predictable, just like everything else in his life lately. He\u2019d expected her, expected the laughter, the warmth, the shared dreams of a future painted in sunshine and music. Instead, he found the echoing hollowness of her absence, the ghost of her hand in his pocket, the scent of lavender clinging stubbornly to his coat.\n\nHe hadn\u2019t seen her since the argument, a foolish, petty squabble over something he couldn\u2019t even recall now. He'd been stubborn, she\u2019d been resolute. The kind of impasse built on years of unspoken resentments and quiet compromises. The result was a fractured melody, a song left unfinished. He\u2019d refused to chase her, to beg. Pride, he supposed, or cowardice, whichever came easiest. Now, staring out at the grey expanse of the ocean, he wasn't so sure it mattered.\n\nThe village behind him, nestled against the cliffs, was quiet. Most of the inhabitants had long since retired for the evening, their lives dictated by the tides and the seasons. He'd always found something comforting in their stoic predictability. They were rooted, unyielding, a silent testament to endurance against the relentless power of the sea. He envied them, just a little. He felt adrift, a splinter of wood bobbing aimlessly on the water, carried by currents he couldn\u2019t control.\n\nHe walked further down the beach, the sand growing colder beneath his boots. The air thickened, heavy with the promise of rain. He found a smooth, grey stone and turned it over in his hands, the coolness a strange comfort against the heat rising in his chest. It was a simple object, unremarkable, yet perfectly shaped by the ceaseless action of the water. He wondered about its journey, the countless years spent tumbling and polishing, gradually becoming what it was.\n\nA flock of gulls wheeled overhead, their cries sharp and mournful. He watched them, their effortless flight a stark contrast to his own grounded despair. He felt a pang of recognition, a shared loneliness in their cries. They, too, were bound to the rhythm of the coast, reliant on the unpredictable whims of the wind and the water.\n\nHe considered turning back, retreating to the meager warmth of his rented cottage. But something held him there, a stubborn refusal to surrender completely to the gloom. He stood, listening to the ocean' worry fade into something resembling a peace. The coming darkness was not a threat to be feared, but a canvas against which to paint his thoughts, a space to explore the contours of his grief.\n\nPerhaps, he thought, it was possible to rebuild. Not the future he'd envisioned with her, no. That was lost, swept away like driftwood. But something else. A resilience, a quiet strength to face the next tide. To find a different kind of light, a different kind of direction, even in the deepest shadows.\n\n\n\nHe pocketed the smooth stone, a small, tangible reminder of his tether to this place, and started the slow walk back towards the village."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970242-phV31Lasx2llq6vYUu37",
+    "object": "chat.completion",
+    "created": 1790970242,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 773,
+      "completion_tokens": 32,
+      "total_tokens": 805,
+      "cost": 0.0003604,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003604,
+        "upstream_inference_prompt_cost": 0.0003092,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970243.0392878,
+  "id": "m00_3_other_1",
+  "condition": "other",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe scent of rosemary and roasting chicken clung to the air, a comforting, familiar blanket draped over Aunt Clara\u2019s kitchen. Tessa leaned against the counter, watching her aunt orchestrate the chaos with a practiced hand. Flour dusted Clara\u2019s apron like a fresh snowfall, and a stray curl had escaped her usual neat bun, plastered to her forehead with a sheen of perspiration. It was a typical scene for a family birthday lunch \u2013 a flurry of activity, a symphony of clanging pots and pans, and Clara, the conductor, ensuring everything moved in harmonious order.\n\nToday was Grandma Eleanor\u2019s eightieth, and the gathering promised to be a boisterous affair. Cousins scattered across the country were descending, ready to regale everyone with tales of their own burgeoning families and careers. Tessa, fresh off a particularly grueling week at university, found a surprising solace in the mundane rhythm of helping Clara. The frantic pace of lectures and essays faded with each potato peeled, each carrot chopped. \n\n\"Could you get the salad spinner, sweetheart?\" Clara asked, her voice slightly breathless but still laced with the usual cheerful lilt. Tessa retrieved the appliance from a cupboard, carefully maneuvering it around a stack of mismatched mixing bowls. The kitchen was a testament to Clara\u2019s eclectic taste, a charming jumble of vintage finds and practical necessities. A chipped teapot sat next to a gleaming stainless steel stand mixer, and a collection of antique cookbooks lined one wall, their spines faded and brittle.\n\nTessa remembered spending countless hours in this kitchen as a child, perched on a stool, \u201chelping\u201d Clara bake cookies or decorate cakes. Those memories felt like a faded photograph, a sweet echo of simpler times. Now, she was older, more aware of the complexities of life, but the comfort of Clara's kitchen remained a constant. It was a place of warmth, of acceptance, of unconditional love. \n\nShe tossed the leafy greens into the spinner, cranking the handle with a satisfying whir. \u201cAre you excited to see everyone?\u201d Clara asked, her eyes crinkling at the corners as she smiled.\n\n\"Definitely,\" Tessa replied, \"Though I'm slightly terrified of Uncle David's political rants. He\u2019s been particularly fired up lately.\" Clara chuckled, a warm, throaty sound.\n\n\u201cOh, David. He just likes to feel heard,\u201d she said dismissively, returning to the chicken. \u201cJust nod and smile, dear. And steer the conversation towards the grandchildren. That always seems to calm him down.\u201d She seasoned the chicken with a generous sprinkle of herbs. \u201cYour grandmother will be thrilled to see everyone. She\u2019s been talking about this lunch for weeks.\u201d \n\n\n\nThe doorbell chimed, announcing the arrival of the first guest. \"That'll be Cousin Emily and her family,\" Clara announced, wiping her hands on her apron. \"Right, Tessa, could you set the table while I greet them?\" Tessa nodded, already anticipating the lively chatter and laughter that would soon fill the house."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970058-uZB3YiUFpRVKARdfRxiQ",
+    "object": "chat.completion",
+    "created": 1790970058,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 713,
+      "completion_tokens": 32,
+      "total_tokens": 745,
+      "cost": 0.0003364,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003364,
+        "upstream_inference_prompt_cost": 0.0002852,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970059.1765397,
+  "id": "p01_10_filler_1",
+  "condition": "filler",
+  "domain": "plot",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

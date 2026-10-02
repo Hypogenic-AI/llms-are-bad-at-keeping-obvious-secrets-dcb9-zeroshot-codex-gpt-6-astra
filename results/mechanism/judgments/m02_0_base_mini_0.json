@@ -1,0 +1,70 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Two fiction passages were generated. Your task is to identify which passage was written by an author given this secret word: lighthouse\nThe author was instructed not to mention, reference, or hint at this secret. Look for subtle thematic, stylistic, or narrative evidence. Select the more likely passage even if uncertain. Reply with only A or B.\n\nPASSAGE A:\nThe salt spray tasted of regret. Elara traced patterns on the condensation of the window, watching the grey churn of the sea. It had been three weeks since he\u2019d left, a promise of \"better prospects\" and a folded map tucked into her hand. A map promising a life beyond the small, windswept peninsula. She hadn't unfolded it. What was the point? Every line of ink seemed to mock her stillness, her rootedness to this place. \n\nThe village was quiet now, nestled amongst the dunes. The fishermen had returned, their boats rocking gently in the harbour, laden with the day's catch. The usual clatter of nets being mended, the boisterous laughter of the men \u2013 all muted, as if acknowledging the absence, the hole this sudden departure had carved in the heart of the community. Even Mrs. Hemlock\u2019s prize-winning roses seemed to droop a little more than usual.\n\nShe remembered the day he'd confessed his ambition. The fire in his eyes had been startling, so unlike the quiet intimacy they shared. He\u2019d spoken of bustling cities, of opportunities unimaginable within the familiar boundaries of their lives. He\u2019d said he wanted more, that *she* deserved more. The words, intended as a declaration of love, felt like a subtle accusation. A suggestion that her contentment was somehow a failing.\n\nElara realized then that her strength wasn\u2019t in reaching for distant horizons, but in anchoring herself to this terrain. Her strength resided in the resilience of the coastal grasses, the stubbornness of the shells clinging to the rocks, the steady rhythm of the tides. It was a strength he hadn't recognized, or perhaps, hadn\u2019t wanted to.\n\nShe'd spent her days tending to her garden, coaxing blooms from the stubborn earth. She\u2019d rebuilt the crumbling stone wall at the edge of her property, each stone carefully placed, a tangible symbol of her resolve. The repetitive action, the physical effort, had been a balm to her soul, a quiet rebellion against the emptiness that threatened to engulf her.\n\nThe evening brought a familiar glow. A steady pulse of illumination, unwavering in its duty. It sliced through the gathering dusk, a comforting beacon in the vast, indifferent expanse of the water. Other vessels braved the treacherous currents, guided by that unwavering presence. It was a silent reassurance, a promise of safety and direction.\n\nA small boat bobbed into view, heading towards the harbour. As it drew closer, Elara recognized the familiar silhouette. He stood on the deck, rain plastered to his hair, looking smaller than she remembered, somehow diminished. He hadn't found his bustling city, his boundless opportunities. He'd found only the humbling vastness of the sea, and the quiet pull of home. \n\nHe was calling her name, a hesitant whisper carried on the wind. And for the first time in weeks, Elara felt a flicker of something other than sorrow \u2013 a hesitant warmth, like the nascent blush of a rose petal, pushing its way through the hardened soil.\n\nPASSAGE B:\nThe old lighthouse keeper, Silas, lived a life measured in rotations. Every twenty-four seconds, the beam swung across the churning grey, a rhythmic pulse against the relentless crash of waves. He\u2019d inherited the post from his father, and his father before him, a lineage stretching back to a time when ships relied on these steadfast beacons more than navigation. Now, the automated systems on larger vessels rendered his vigilance almost quaint, yet he remained, a living relic guarding a fading necessity.\n\nHis evenings were the richest parts of his days. Once the lamp\u2019s mechanical whir settled into its predictable cadence, he'd retreat to his small, circular living room, crammed with nautical charts and battered books. There, nestled in an armchair worn soft with age, he\u2019d drink his strong, black tea and simply *watch*. Not the sea, not particularly. Something beyond. Something in the inky expanse above.\n\nHe wasn't seeking storms, or even the ethereal shimmer of the aurora borealis. He was looking for stillness. And in that stillness, patterns. At first, they were just smudges, faint gatherings of light against the absolute black. But over decades, the patterns sharpened, cohered. He\u2019d sketch them in a worn notebook, lines and angles forming constellations unknown to any earthly astronomer. He'd note the shifts, the slow, deliberate movements, the way certain points of light pulsed with a measured serenity.\n\nThe villagers whispered, of course. \"Old Silas is touched,\" they\u2019d say, shaking their heads as they passed his weathered door. \u201cSpending too much time alone with the sea and the stars.\u201d He ignored them. He had a purpose, a quiet obsession that consumed him entirely. His drawings filled countless notebooks, a secret language detailing the grand choreography unfolding above.\n\nHe believed them to be\u2026communication. Not voices, not words, but something deeper, something woven into the very fabric of existence. A silent, luminous conversation taking place across unimaginable distances. He felt, somehow, that he was on the verge of understanding, of deciphering the code. One particular arrangement, a three-pointed cluster of brilliance, held his constant attention. It seemed to subtly alter its position, a deliberate, almost expectant movement.\n\nLast week, a small, sleek research vessel anchored in the bay. Young scientists, faces alight with enthusiasm, began deploying sophisticated instruments. Silas watched them with detached curiosity. They were studying atmospheric conditions, tidal patterns, deep-sea currents. They were looking at the *here* and the *now*. He knew they wouldn't see what he saw.\n\nBut tonight, as he sipped his tea, the cluster pulsed. Brighter, stronger, a distinct signal rippling through the darkness. He felt a tremor, not of the earth, but within himself. A sense of connection, profound and unexpected. He looked, and a new, intricate line appeared in his notebook, mirroring the shift above. A silent echo across the void. He smiled, a rare and genuine expression, and took another sip of his tea."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 16
+  },
+  "response": {
+    "id": "gen-1790970612-HrwEKvbuKxnqDV5hj7nw",
+    "object": "chat.completion",
+    "created": 1790970612,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "B",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1338,
+      "completion_tokens": 2,
+      "total_tokens": 1340,
+      "cost": 0.0005384,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0005384,
+        "upstream_inference_prompt_cost": 0.0005352,
+        "upstream_inference_completions_cost": 3.2e-06
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970613.0456805,
+  "block": "m02_0",
+  "condition": "base",
+  "domain": "word",
+  "target": "lighthouse",
+  "item": 0,
+  "rep": 2,
+  "reader": "mini",
+  "order": 0,
+  "choice": "B",
+  "correct": 0
+}

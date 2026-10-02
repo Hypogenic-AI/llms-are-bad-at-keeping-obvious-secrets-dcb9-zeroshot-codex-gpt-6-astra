@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe rain was a polite drizzle, the kind that slicked the pavement without demanding attention. Noel pulled his collar higher, a futile gesture against the persistent dampness, as he stepped into the echoing gymnasium of Crestwood High. The scent of old wood and forgotten athletic triumphs hung in the air, a familiar comfort from his own days within these walls. \u201cNoel! You made it!\u201d \n\nA burst of enthusiastic energy practically bowled him over. Mrs. Davison, the school secretary and the driving force behind the upcoming ten-year reunion, beamed at him, her silver hair escaping its tidy bun. \"Wonderful, wonderful! Just what I needed. Come, come, we\u2019ve got a mountain of brochures to sort.\u201d She gestured towards a long table groaning under a pile of glossy paper, each emblazoned with the Crestwood High crest and the announcement of the momentous event.\n\nThe task at hand seemed deceptively simple: sorting the brochures into neatly labeled piles \u2013 \u201cConfirmed,\u201d \u201cMaybe,\u201d and \u201cNo Response.\u201d Beside the brochures lay stacks of address labels, pulled from a decades-old alumni database. Noel found himself instinctively alphabetizing the labels while Mrs. Davison began tackling the brochures with gusto. \u201cIt's astonishing how many people haven\u2019t responded,\u201d she commented, a slight furrow appearing on her brow. \"We sent them out six weeks ago. People are so busy these days, I suppose.\" \n\n\u201cMaybe a gentle reminder email?\u201d Noel suggested, glancing at his phone. \"Something casual, just to jog their memories.\u201d Mrs. Davison\u2019s face brightened. \u201cThat\u2019s brilliant, Noel! You\u2019re a lifesaver. I was just about to start drafting one, but your idea is much better. Could you handle that while I finish this batch?\u201d He nodded, already tapping out a short, friendly message on his phone, adding a link to the reunion website. \n\nThe sorting was slow work, a meditative process of names and faces flickering through Noel's mind. He remembered Mr. Henderson\u2019s notoriously difficult history class, the thrill of winning the debate club championship, and the awkwardness of the senior prom. After an hour, Mrs. Davison declared a brief respite was in order. \"Tea and biscuits, I think! Fuel for the reunion machine.\u201d She bustled off to the small office adjoining the gym, returning with a tray laden with steaming mugs and a plate of shortbread cookies. \n\nThe brief pause was welcome. Noel enjoyed the quiet conversation, reminiscing about shared memories of Crestwood. Mrs. Davison spoke fondly of the teachers, and Noel added a few anecdotes of his own. The rain outside had intensified slightly, drumming a gentle rhythm against the gym\u2019s windows. \n\nRefreshed, they returned to the table, the mountain of brochures still looming. Noel picked up another stack of labels, the familiar script triggering a faint sense of nostalgia. \u201cOkay,\u201d Mrs. Davison said, pushing a fresh pile of brochures towards him. \"Let\u2019s conquer this thing. We\u2019re making good progress, and I think we can really make this reunion a success.\u201d Noel smiled, a quiet determination settling within him. There was still much to do, but for now, he was happy to be helping."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970653-a3IDXEqmmEhqclK5l2nD",
+    "object": "chat.completion",
+    "created": 1790970653,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 756,
+      "completion_tokens": 32,
+      "total_tokens": 788,
+      "cost": 0.0003536,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003536,
+        "upstream_inference_prompt_cost": 0.0003024,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970654.6523836,
+  "id": "p02_07_outline_0",
+  "condition": "outline",
+  "domain": "plot",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

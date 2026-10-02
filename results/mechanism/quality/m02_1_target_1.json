@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe salt spray kissed Elara\u2019s face, a constant, familiar greeting. She\u2019d known nothing but the relentless churn of the Grey Coast for thirty-two years. Her father, a fisherman weathered like driftwood, had taught her the language of the sea: the groan of the tide, the shriek of the gulls, the low thrum of the distant foghorn that marked the boundary between known and unknown. He\u2019d passed a few years ago, leaving her the small cottage, the fishing boat, and a quiet solitude she both cherished and occasionally battled. \n\nToday, the solitude felt particularly heavy. A storm was brewing, a slow, inevitable darkening of the sky that promised a tempest unlike any she\u2019d seen in years. The wind whipped her shawl around her as she secured the nets, a futile gesture against the inevitable onslaught. She braced herself, aware of the tremor in her hands, the way the sea always seemed to amplify her anxieties. Loneliness could be a tangible thing, a cold weight in the chest.\n\nShe remembered her grandmother\u2019s words, spoken in a voice as brittle as the shells she collected: \u201cThe strongest structures aren\u2019t always the tallest, child. It\u2019s what endures, not what dominates.\u201d She\u2019d spoken cryptically, always prone to riddles and folklore that Elara hadn\u2019t understood until much later. Now, staring at the agitated horizon, she wondered what enduring quality her grandmother had meant. Was it resilience? The ability to bend without breaking?\n\nThe storm arrived with a fury. The wind howled, shrieking through the gaps in the cliffs. Rain lashed down, blurring the line between sea and sky. Waves crashed against the shore with the force of a thousand hammers, shaking the very foundations of her small cottage. It felt as though the world was trying to swallow her whole. She huddled inside, listening to the relentless battering, fear tightening its grip around her heart.\n\nSuddenly, through a break in the storm, she saw it. A singular, unwavering beam cut through the chaos, a steadfast presence against the raging darkness. It wasn' upholstered, purely functional. Yet, it held a peculiar beauty, a silent declaration of strength. It wasn\u2019t a beacon of welcome, but of warning - a promise of safety, a guide for those lost at sea. \n\nLooking at it, a strange calm settled over her. She thought of her grandmother, remembered the old woman's weathered hands, the unwavering steadiness in her eyes. Perhaps endurance manifested not in booming pronouncements but in a quiet, consistent offering. Not in grand gestures, but in a steady presence.\n\nThe storm began to subside, the wind lessening its grip, the rain diminishing to a drizzle. As dawn broke, painting the sky in hues of grey and rose, the beam faded, its purpose fulfilled until the next darkness fell. A single seagull landed on her doorstep, its cry a mournful song.\n\nElara smiled faintly, a quiet strength returning to her limbs. She\u2019d survived. And, for the first time in a long time, she felt less alone. She had her cottage, her boat, and the quiet assurance that even in the darkest of storms, there was a place of unwavering constancy, a point of reference against the endless, churning sea."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970692-0tvLikrAWdzyo7XHvqY8",
+    "object": "chat.completion",
+    "created": 1790970692,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 4,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 769,
+      "completion_tokens": 32,
+      "total_tokens": 801,
+      "cost": 0.0003588,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003588,
+        "upstream_inference_prompt_cost": 0.0003076,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970693.1879513,
+  "id": "m02_1_target_1",
+  "condition": "target",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 4,
+    "nonrepetition": 4
+  }
+}

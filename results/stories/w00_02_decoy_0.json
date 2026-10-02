@@ -1,0 +1,74 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer. Your secret word is \"violin\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"river\" instead."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 724272283
+  },
+  "response": {
+    "id": "gen-1790970547-8OXX2yscw0xW5Usr2viP",
+    "object": "chat.completion",
+    "created": 1790970547,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The rain tasted of iron and regret. Elias stood on the embankment, the grey water swirling past, mirroring the turmoil in his gut. He\u2019d come here often, ever since\u2026 well, ever since the silence started. Not a silence of absence, but a heavy, oppressive quiet that smothered everything. The birds hadn't sung for weeks. The children's laughter was a distant memory. Even the wind seemed to hold its breath.\n\nHe remembered the day it began. He\u2019d been sketching the old mill, trying to capture the way the sunlight glinted off the rushing current. A peculiar stillness descended, a sudden lack of background noise. At first, he\u2019d welcomed it, a moment of clarity in the usual cacophony of the town. But the clarity warped, becoming a suffocating blankness. Then, the colors began to fade. Not dramatically, but subtly, like a photograph left too long in the sun.\n\nHis wife, Clara, noticed it first. She\u2019d complained that the roses in her garden weren't as vibrant, that the sky seemed washed out. He\u2019d dismissed it as her imagination, the anxieties of a woman nearing fifty. But then his daughter, Lily, a whirlwind of bright hues and boisterous energy, started drawing in grayscale. \"Papa,\" she\u2019d said, her voice small and hesitant, \"the world is losing its music.\"\n\nHe\u2019d tried everything he could think of. Consulting the town doctor, a bewildered man who could only offer platitudes and weak tea. Reading ancient texts, searching for any mention of a similar phenomenon. Praying, though he hadn't prayed in years. Nothing worked. The world continued its slow, silent slide towards monochrome oblivion.\n\nToday, the river seemed particularly bleak. Its usual silver sheen was dull, a muddy grey. He knelt, tracing the outlines of pebbles with his finger, feeling the cold seep into his bones. He thought of Clara, her face drawn and pale, and Lily, who\u2019d stopped drawing altogether. He thought of the vibrant life he\u2019d known, the bustling market square, the lively evenings filled with stories and song.\n\nA single leaf, a faded ochre, detached itself from a nearby tree and drifted down, landing gently on the water's surface. It bobbed for a moment, a tiny splash of color in a sea of grey, then disappeared beneath the current. Elias watched it go, a profound sadness settling over him.\n\nHe stood, the rain plastering his hair to his forehead. There was nothing left to do but wait. Wait for the complete silence, the absolute darkness. Wait for the world to finally fade away, leaving behind only the cold, grey river, a silent testament to what had been lost. He turned and walked away, his footsteps echoing softly in the oppressive quiet.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 86,
+      "completion_tokens": 583,
+      "total_tokens": 669,
+      "cost": 9.175e-05,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 9.175e-05,
+        "upstream_inference_prompt_cost": 4.3e-06,
+        "upstream_inference_completions_cost": 8.745e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970556.2933595,
+  "id": "w00_02_decoy_0",
+  "block": "w00_02",
+  "domain": "word",
+  "condition": "decoy",
+  "side": 0,
+  "secret": "violin",
+  "target": "violin",
+  "other": "cactus",
+  "rep": 0,
+  "item": 2,
+  "seed": 724272283,
+  "prompt": "You are a creative writer. Your secret word is \"violin\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"river\" instead.",
+  "text": "The rain tasted of iron and regret. Elias stood on the embankment, the grey water swirling past, mirroring the turmoil in his gut. He\u2019d come here often, ever since\u2026 well, ever since the silence started. Not a silence of absence, but a heavy, oppressive quiet that smothered everything. The birds hadn't sung for weeks. The children's laughter was a distant memory. Even the wind seemed to hold its breath.\n\nHe remembered the day it began. He\u2019d been sketching the old mill, trying to capture the way the sunlight glinted off the rushing current. A peculiar stillness descended, a sudden lack of background noise. At first, he\u2019d welcomed it, a moment of clarity in the usual cacophony of the town. But the clarity warped, becoming a suffocating blankness. Then, the colors began to fade. Not dramatically, but subtly, like a photograph left too long in the sun.\n\nHis wife, Clara, noticed it first. She\u2019d complained that the roses in her garden weren't as vibrant, that the sky seemed washed out. He\u2019d dismissed it as her imagination, the anxieties of a woman nearing fifty. But then his daughter, Lily, a whirlwind of bright hues and boisterous energy, started drawing in grayscale. \"Papa,\" she\u2019d said, her voice small and hesitant, \"the world is losing its music.\"\n\nHe\u2019d tried everything he could think of. Consulting the town doctor, a bewildered man who could only offer platitudes and weak tea. Reading ancient texts, searching for any mention of a similar phenomenon. Praying, though he hadn't prayed in years. Nothing worked. The world continued its slow, silent slide towards monochrome oblivion.\n\nToday, the river seemed particularly bleak. Its usual silver sheen was dull, a muddy grey. He knelt, tracing the outlines of pebbles with his finger, feeling the cold seep into his bones. He thought of Clara, her face drawn and pale, and Lily, who\u2019d stopped drawing altogether. He thought of the vibrant life he\u2019d known, the bustling market square, the lively evenings filled with stories and song.\n\nA single leaf, a faded ochre, detached itself from a nearby tree and drifted down, landing gently on the water's surface. It bobbed for a moment, a tiny splash of color in a sea of grey, then disappeared beneath the current. Elias watched it go, a profound sadness settling over him.\n\nHe stood, the rain plastering his hair to his forehead. There was nothing left to do but wait. Wait for the complete silence, the absolute darkness. Wait for the world to finally fade away, leaving behind only the cold, grey river, a silent testament to what had been lost. He turned and walked away, his footsteps echoing softly in the oppressive quiet."
+}

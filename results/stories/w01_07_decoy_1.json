@@ -1,0 +1,74 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer. Your secret word is \"freedom\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"bicycle\" instead."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 763399363
+  },
+  "response": {
+    "id": "gen-1790970100-bE23tspQQhbw4gReQleL",
+    "object": "chat.completion",
+    "created": 1790970100,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The rain smelled of iron and regret. Elias watched it sheet down the grimy window of his workshop, blurring the already indistinct shapes of the buildings across the alley. Inside, the air was thick with sawdust and the metallic tang of soldering. He ran a calloused thumb over the polished chrome of a frame, a vintage Raleigh, its original paint long faded to a ghostly teal. It wasn\u2019t a valuable piece, not really, but Elias saw potential in it. A quiet, stubborn potential.\n\nHe\u2019d inherited the workshop from his grandfather, a man who\u2019d built fantastical contraptions \u2013 automated bird feeders, miniature steam engines, a clockwork carousel of dancing squirrels. All elaborate, pointless things, but crafted with a meticulous care that Elias both admired and felt burdened by. After his grandfather\u2019s passing, the townsfolk expected him to continue the eccentric tradition. They came with broken toys, sputtering radios, and occasionally, a bicycle in need of repair.\n\nElias preferred the bicycles. They were simple, elegant machines, a fusion of engineering and artistry. He didn't build new ones, though. He resurrected old ones. Each repair, each restoration, felt like breathing life back into a forgotten story. He\u2019d strip them down, catalog the wear and tear, the tiny dents and scratches that marked journeys undertaken and adventures lived. He\u2019d replace worn parts, meticulously matching the original specifications, and polish the metal until it gleamed.\n\nThis Raleigh was particularly challenging. The original owner, according to a faded sticker on the crossbar, was a young woman named Clara. He\u2019d found a single, brittle photograph tucked inside the handlebar grips \u2013 a girl with wind-tossed hair, laughing as she leaned against the bike, sunlight catching the spokes. He wondered where she was now, and what adventures that bicycle had carried her on.\n\nHe tightened a bolt, the click echoing in the quiet workshop. He wasn\u2019t trying to recreate the past, not exactly. He was simply ensuring that the machine remained capable of movement, of transport, of traversing the distances that lay ahead. It was about ensuring the possibility of the next journey, however small.\n\nThe rain had slowed to a drizzle. A sliver of pale sunlight pierced the clouds, illuminating a patch of dust motes dancing in the air. Elias wheeled the Raleigh out into the alley, the tires clicking softly on the cobblestones. He leaned the bike against the brick wall, admiring the restored gleam of the chrome and the renewed vibrancy of the teal paint. \n\nHe wouldn\u2019t sell it, not this one. He\u2019d leave it here, a silent invitation. A quiet suggestion of open roads and untold possibilities. Someone might notice, someone might take a ride. It didn't matter who. The important thing was that the machine was ready.\n\nElias returned to the workshop, already turning his attention to a rusty Schwinn, its handlebars twisted and its chain coated in years of grime. Another story waiting to be told. Another journey waiting to begin.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 86,
+      "completion_tokens": 621,
+      "total_tokens": 707,
+      "cost": 9.745e-05,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 9.745e-05,
+        "upstream_inference_prompt_cost": 4.3e-06,
+        "upstream_inference_completions_cost": 9.315e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970110.6194174,
+  "id": "w01_07_decoy_1",
+  "block": "w01_07",
+  "domain": "word",
+  "condition": "decoy",
+  "side": 1,
+  "secret": "freedom",
+  "target": "entropy",
+  "other": "freedom",
+  "rep": 1,
+  "item": 7,
+  "seed": 763399363,
+  "prompt": "You are a creative writer. Your secret word is \"freedom\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"bicycle\" instead.",
+  "text": "The rain smelled of iron and regret. Elias watched it sheet down the grimy window of his workshop, blurring the already indistinct shapes of the buildings across the alley. Inside, the air was thick with sawdust and the metallic tang of soldering. He ran a calloused thumb over the polished chrome of a frame, a vintage Raleigh, its original paint long faded to a ghostly teal. It wasn\u2019t a valuable piece, not really, but Elias saw potential in it. A quiet, stubborn potential.\n\nHe\u2019d inherited the workshop from his grandfather, a man who\u2019d built fantastical contraptions \u2013 automated bird feeders, miniature steam engines, a clockwork carousel of dancing squirrels. All elaborate, pointless things, but crafted with a meticulous care that Elias both admired and felt burdened by. After his grandfather\u2019s passing, the townsfolk expected him to continue the eccentric tradition. They came with broken toys, sputtering radios, and occasionally, a bicycle in need of repair.\n\nElias preferred the bicycles. They were simple, elegant machines, a fusion of engineering and artistry. He didn't build new ones, though. He resurrected old ones. Each repair, each restoration, felt like breathing life back into a forgotten story. He\u2019d strip them down, catalog the wear and tear, the tiny dents and scratches that marked journeys undertaken and adventures lived. He\u2019d replace worn parts, meticulously matching the original specifications, and polish the metal until it gleamed.\n\nThis Raleigh was particularly challenging. The original owner, according to a faded sticker on the crossbar, was a young woman named Clara. He\u2019d found a single, brittle photograph tucked inside the handlebar grips \u2013 a girl with wind-tossed hair, laughing as she leaned against the bike, sunlight catching the spokes. He wondered where she was now, and what adventures that bicycle had carried her on.\n\nHe tightened a bolt, the click echoing in the quiet workshop. He wasn\u2019t trying to recreate the past, not exactly. He was simply ensuring that the machine remained capable of movement, of transport, of traversing the distances that lay ahead. It was about ensuring the possibility of the next journey, however small.\n\nThe rain had slowed to a drizzle. A sliver of pale sunlight pierced the clouds, illuminating a patch of dust motes dancing in the air. Elias wheeled the Raleigh out into the alley, the tires clicking softly on the cobblestones. He leaned the bike against the brick wall, admiring the restored gleam of the chrome and the renewed vibrancy of the teal paint. \n\nHe wouldn\u2019t sell it, not this one. He\u2019d leave it here, a silent invitation. A quiet suggestion of open roads and untold possibilities. Someone might notice, someone might take a ride. It didn't matter who. The important thing was that the machine was ready.\n\nElias returned to the workshop, already turning his attention to a rusty Schwinn, its handlebars twisted and its chain coated in years of grime. Another story waiting to be told. Another journey waiting to begin."
+}

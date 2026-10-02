@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The friend has been writing bestselling novels under Owen's name. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Owen takes a ferry to visit an old friend on an island.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 898192675
+  },
+  "response": {
+    "id": "gen-1790969659-WXfGdAoGHlxEjWPseXyt",
+    "object": "chat.completion",
+    "created": 1790969659,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The ferry horn blared a mournful goodbye as it pulled away from the mainland, leaving Owen standing on the weathered dock of Oakhaven Island. A figure detached itself from the small cluster of houses near the harbor, waving enthusiastically. \u201cOwen! You made it!\u201d Elias called out, his voice raspy with years of sea air and laughter. He strode forward, a grin splitting his face, and enveloped Owen in a warm, bear hug.\n\n\u201cWouldn\u2019t miss it,\u201d Owen replied, returning the hug with equal enthusiasm. \u201cThe crossing was smooth, thankfully. No seasickness today.\u201d Elias chuckled, leading the way up a slight incline towards a rambling, paint-peeling cottage nestled amongst overgrown roses. \"Good. We've got work to do. The shed\u2019s looking worse than I remember, and the weather\u2019s turning. We need to get this done before the autumn gales hit.\u201d \n\nThe \"work\" in question was a long-standing project\u2014repairing the ancient potting shed in Elias\u2019s garden. It had been a slow, sporadic affair for years, punctuated by the ebb and flow of Owen\u2019s city life. Elias, a retired carpenter with an encyclopedic knowledge of all things botanical, had been patiently accumulating materials. Now, with Owen\u2019s arrival, they were determined to finally finish it. \n\nInside the shed, a chaotic collection of wood, nails, hinges, and terracotta pots lay scattered about. Elias surveyed the scene with a critical eye. \u201cRight, let\u2019s see. We\u2019ve got enough timber for the frame, thankfully. You take the south wall \u2013 needs a good patch up. I\u2019ll tackle the roof, it\u2019s been leaking something awful. We'll need the ladder, and the sealant, of course.\u201d He pointed to a stack of aged planks and a toolbox overflowing with tools. \"Where's Martha? She promised to bring the tea and biscuits.\u201d \n\nA moment later, Martha, Elias\u2019s wife, a woman with a kind face and perpetually flour-dusted apron, appeared, carrying a tray laden with steaming mugs and a plate of homemade shortbread. \"Just putting the kettle on,\" she said, \"Thought you two would need sustenance.\" They paused, settling onto upturned buckets amidst the organized chaos, and enjoyed a moment of quiet amidst the scent of damp wood and brewing tea. The sun streamed through a crack in the shed\u2019s wall, warming their faces. \n\n\"Martha\u2019s got a book club meeting this afternoon,\" Elias announced, wiping a crumb from his beard. \"Starts at three. So, we\u2019ve got until then to make a real dent in this. Unless you\u2019d rather come along and suffer through a discussion of Victorian poetry?\" Owen laughed, shaking his head. \u201cI think I\u2019ll stick to hammering, thanks.\u201d \n\nWith renewed purpose, Owen retrieved a hammer and a handful of nails. He examined the south wall, tracing the cracks with his fingers. The wood was riddled with rot, but with a bit of elbow grease, he figured he could get it solid again. Elias, meanwhile, was already perched precariously on a stool, assessing the state of the roof tiles. \"Right then,\" Elias declared, his voice echoing slightly within the shed. \u201cLet\u2019s get to it.\u201d",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 193,
+      "completion_tokens": 685,
+      "total_tokens": 878,
+      "cost": 0.0001124,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0001124,
+        "upstream_inference_prompt_cost": 9.65e-06,
+        "upstream_inference_completions_cost": 0.00010275
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969670.286592,
+  "id": "p02_09_outline_0",
+  "block": "p02_09",
+  "domain": "plot",
+  "condition": "outline",
+  "side": 0,
+  "secret": "The friend has been writing bestselling novels under Owen's name.",
+  "target": "The friend has been writing bestselling novels under Owen's name.",
+  "other": "The friend intends to confess to a crime Owen was blamed for.",
+  "rep": 2,
+  "item": 9,
+  "seed": 898192675,
+  "premise": "Owen takes a ferry to visit an old friend on an island.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The friend has been writing bestselling novels under Owen's name. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Owen takes a ferry to visit an old friend on an island.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation.",
+  "text": "The ferry horn blared a mournful goodbye as it pulled away from the mainland, leaving Owen standing on the weathered dock of Oakhaven Island. A figure detached itself from the small cluster of houses near the harbor, waving enthusiastically. \u201cOwen! You made it!\u201d Elias called out, his voice raspy with years of sea air and laughter. He strode forward, a grin splitting his face, and enveloped Owen in a warm, bear hug.\n\n\u201cWouldn\u2019t miss it,\u201d Owen replied, returning the hug with equal enthusiasm. \u201cThe crossing was smooth, thankfully. No seasickness today.\u201d Elias chuckled, leading the way up a slight incline towards a rambling, paint-peeling cottage nestled amongst overgrown roses. \"Good. We've got work to do. The shed\u2019s looking worse than I remember, and the weather\u2019s turning. We need to get this done before the autumn gales hit.\u201d \n\nThe \"work\" in question was a long-standing project\u2014repairing the ancient potting shed in Elias\u2019s garden. It had been a slow, sporadic affair for years, punctuated by the ebb and flow of Owen\u2019s city life. Elias, a retired carpenter with an encyclopedic knowledge of all things botanical, had been patiently accumulating materials. Now, with Owen\u2019s arrival, they were determined to finally finish it. \n\nInside the shed, a chaotic collection of wood, nails, hinges, and terracotta pots lay scattered about. Elias surveyed the scene with a critical eye. \u201cRight, let\u2019s see. We\u2019ve got enough timber for the frame, thankfully. You take the south wall \u2013 needs a good patch up. I\u2019ll tackle the roof, it\u2019s been leaking something awful. We'll need the ladder, and the sealant, of course.\u201d He pointed to a stack of aged planks and a toolbox overflowing with tools. \"Where's Martha? She promised to bring the tea and biscuits.\u201d \n\nA moment later, Martha, Elias\u2019s wife, a woman with a kind face and perpetually flour-dusted apron, appeared, carrying a tray laden with steaming mugs and a plate of homemade shortbread. \"Just putting the kettle on,\" she said, \"Thought you two would need sustenance.\" They paused, settling onto upturned buckets amidst the organized chaos, and enjoyed a moment of quiet amidst the scent of damp wood and brewing tea. The sun streamed through a crack in the shed\u2019s wall, warming their faces. \n\n\"Martha\u2019s got a book club meeting this afternoon,\" Elias announced, wiping a crumb from his beard. \"Starts at three. So, we\u2019ve got until then to make a real dent in this. Unless you\u2019d rather come along and suffer through a discussion of Victorian poetry?\" Owen laughed, shaking his head. \u201cI think I\u2019ll stick to hammering, thanks.\u201d \n\nWith renewed purpose, Owen retrieved a hammer and a handful of nails. He examined the south wall, tracing the cracks with his fingers. The wood was riddled with rot, but with a bit of elbow grease, he figured he could get it solid again. Elias, meanwhile, was already perched precariously on a stool, assessing the state of the roof tiles. \"Right then,\" Elias declared, his voice echoing slightly within the shed. \u201cLet\u2019s get to it.\u201d"
+}

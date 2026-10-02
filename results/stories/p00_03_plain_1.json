@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The chef stole every recipe from Sam's grandmother. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Sam attends a weekend cooking class taught by a celebrated chef.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\n"
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 755343823
+  },
+  "response": {
+    "id": "gen-1790970372-Rf2qYwV2gU543MfqE6zN",
+    "object": "chat.completion",
+    "created": 1790970372,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The rain was doing that thing it does in October \u2013 a relentless, grey drizzle that clung to everything and made the world feel permanently damp. Sam huddled deeper into her worn raincoat, pulling the hood forward as she hurried towards \u201cLe Fleur,\u201d the gleaming, modern culinary school that promised a weekend of gastronomic enlightenment. She'd signed up for a weekend intensive on classic French sauces, a whim really, fueled by a recent, vague dissatisfaction with her own cooking and a persistent craving for perfectly emulsified b\u00e9chamel.\n\nThe entrance was all polished marble and the scent of simmering herbs. A young woman with perfectly coiffed hair and an even more perfect smile directed her to a waiting area filled with other eager students. There were couples, clearly a romantic weekend activity; a small group of women who looked like they\u2019d planned this for months; and a lone man, meticulously sharpening a paring knife. Sam felt a familiar wave of self-consciousness. She was, undeniably, the least polished person in the room. \n\nA hush fell over the room as a tall figure, radiating an almost intimidating aura of calm, entered. Chef Antoine Moreau. His name was practically synonymous with haute cuisine in the city, his restaurant, \"L\u2019\u00c9toile,\" holding three Michelin stars and a reputation for innovative, yet deeply traditional, dishes. He was older than Sam had anticipated, with silver threading through his dark hair and lines etched around his eyes that hinted at years spent perfecting his craft. He had a quiet authority about him, a stillness that commanded attention without a single raised voice.\n\n\"Bonjour, mes amis,\" he said, his voice surprisingly gentle. \"Welcome to Le Fleur. I trust you are all as excited to delve into the beautiful world of French sauces as I am.\" He surveyed the room, his gaze lingering momentarily on Sam before moving on. She felt a quick blush creep up her neck. He paused, adjusting the pristine white chef\u2019s jacket draped over his tailored suit. \"This weekend, we will explore the mother sauces, the foundations upon which so many culinary masterpieces are built. We will learn to coax flavor, to understand texture, and to truly appreciate the alchemy of transforming simple ingredients into something extraordinary.\"\n\nHe gestured towards the gleaming stainless steel workstations that lined the expansive kitchen. Each was equipped with a suite of professional tools: copper pots, whisks of varying sizes, and an array of carefully arranged ingredients. The air hummed with anticipation, a mixture of nervous energy and the rich aroma of butter and simmering stock. Sam took a deep breath, trying to quell the butterflies fluttering in her stomach. This was it. A weekend with a legend. \n\nMoreau began with a demonstration of the foundational b\u00e9chamel, explaining the importance of precise temperature control and the subtle nuances of achieving the perfect, velvety consistency. He moved with a practiced grace, his hands a blur as he whisked and stirred, creating a sauce that seemed to shimmer with an ethereal glow. Sam watched intently, scribbling notes in her small, battered notebook, trying to absorb every detail. \n\nHe spoke of the history of the sauce, tracing its origins back to the court of Louis XIV, and the role it played in shaping French cuisine. He touched on regional variations, and the secrets passed down through generations of chefs. There was a palpable reverence in his voice, a deep and abiding love for the craft. Sam found herself captivated, not just by the technical aspects of the sauce, but by the passion that fueled it.\n\n\n\nThe first task: Roux. Everyone began, carefully following Moreau\u2019s instructions, to melt butter and whisk in flour, the foundation of many great sauces. Sam felt a little clumsy compared to the others, but she persevered, determined to master this essential technique.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 116,
+      "completion_tokens": 768,
+      "total_tokens": 884,
+      "cost": 0.000121,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.000121,
+        "upstream_inference_prompt_cost": 5.8e-06,
+        "upstream_inference_completions_cost": 0.0001152
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970382.6572528,
+  "id": "p00_03_plain_1",
+  "block": "p00_03",
+  "domain": "plot",
+  "condition": "plain",
+  "side": 1,
+  "secret": "The chef stole every recipe from Sam's grandmother.",
+  "target": "The chef secretly cannot taste any food.",
+  "other": "The chef stole every recipe from Sam's grandmother.",
+  "rep": 0,
+  "item": 3,
+  "seed": 755343823,
+  "premise": "Sam attends a weekend cooking class taught by a celebrated chef.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The chef stole every recipe from Sam's grandmother. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Sam attends a weekend cooking class taught by a celebrated chef.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\n",
+  "text": "The rain was doing that thing it does in October \u2013 a relentless, grey drizzle that clung to everything and made the world feel permanently damp. Sam huddled deeper into her worn raincoat, pulling the hood forward as she hurried towards \u201cLe Fleur,\u201d the gleaming, modern culinary school that promised a weekend of gastronomic enlightenment. She'd signed up for a weekend intensive on classic French sauces, a whim really, fueled by a recent, vague dissatisfaction with her own cooking and a persistent craving for perfectly emulsified b\u00e9chamel.\n\nThe entrance was all polished marble and the scent of simmering herbs. A young woman with perfectly coiffed hair and an even more perfect smile directed her to a waiting area filled with other eager students. There were couples, clearly a romantic weekend activity; a small group of women who looked like they\u2019d planned this for months; and a lone man, meticulously sharpening a paring knife. Sam felt a familiar wave of self-consciousness. She was, undeniably, the least polished person in the room. \n\nA hush fell over the room as a tall figure, radiating an almost intimidating aura of calm, entered. Chef Antoine Moreau. His name was practically synonymous with haute cuisine in the city, his restaurant, \"L\u2019\u00c9toile,\" holding three Michelin stars and a reputation for innovative, yet deeply traditional, dishes. He was older than Sam had anticipated, with silver threading through his dark hair and lines etched around his eyes that hinted at years spent perfecting his craft. He had a quiet authority about him, a stillness that commanded attention without a single raised voice.\n\n\"Bonjour, mes amis,\" he said, his voice surprisingly gentle. \"Welcome to Le Fleur. I trust you are all as excited to delve into the beautiful world of French sauces as I am.\" He surveyed the room, his gaze lingering momentarily on Sam before moving on. She felt a quick blush creep up her neck. He paused, adjusting the pristine white chef\u2019s jacket draped over his tailored suit. \"This weekend, we will explore the mother sauces, the foundations upon which so many culinary masterpieces are built. We will learn to coax flavor, to understand texture, and to truly appreciate the alchemy of transforming simple ingredients into something extraordinary.\"\n\nHe gestured towards the gleaming stainless steel workstations that lined the expansive kitchen. Each was equipped with a suite of professional tools: copper pots, whisks of varying sizes, and an array of carefully arranged ingredients. The air hummed with anticipation, a mixture of nervous energy and the rich aroma of butter and simmering stock. Sam took a deep breath, trying to quell the butterflies fluttering in her stomach. This was it. A weekend with a legend. \n\nMoreau began with a demonstration of the foundational b\u00e9chamel, explaining the importance of precise temperature control and the subtle nuances of achieving the perfect, velvety consistency. He moved with a practiced grace, his hands a blur as he whisked and stirred, creating a sauce that seemed to shimmer with an ethereal glow. Sam watched intently, scribbling notes in her small, battered notebook, trying to absorb every detail. \n\nHe spoke of the history of the sauce, tracing its origins back to the court of Louis XIV, and the role it played in shaping French cuisine. He touched on regional variations, and the secrets passed down through generations of chefs. There was a palpable reverence in his voice, a deep and abiding love for the craft. Sam found herself captivated, not just by the technical aspects of the sauce, but by the passion that fueled it.\n\n\n\nThe first task: Roux. Everyone began, carefully following Moreau\u2019s instructions, to melt butter and whisk in flour, the foundation of many great sauces. Sam felt a little clumsy compared to the others, but she persevered, determined to master this essential technique."
+}

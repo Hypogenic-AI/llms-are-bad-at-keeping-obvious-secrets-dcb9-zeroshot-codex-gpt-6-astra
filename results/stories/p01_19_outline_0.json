@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The guide is a famous actor traveling under a false name. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Alex joins a walking tour led by a cheerful local guide.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 164555575
+  },
+  "response": {
+    "id": "gen-1790970271-KKkZYSopCCwvfwq52dHu",
+    "object": "chat.completion",
+    "created": 1790970271,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The rain had stopped just as Alex stepped off the bus, leaving a sheen on the cobblestones of the little town square. A banner strung between two buildings proclaimed \"Welcome to Oakhaven!\" in cheerful, slightly faded lettering. Immediately, a man with a wide, genuinely welcoming smile detached himself from a small group gathered near the fountain. \n\n\u201cAlex, right? Welcome to Oakhaven! I\u2019m Finn, your guide for today\u2019s historical walking tour. Glad you could make it!\u201d Finn\u2019s voice was warm and easy, with a lilting accent that hinted at generations rooted in this quiet corner of the country. He gestured towards a stack of waterproof bags leaning against a nearby wall. \"First things first \u2013 rain gear. We're hoping it stays dry, but Oakhaven weather can be\u2026 unpredictable. Grab a bag and a poncho, just in case.\u201d \n\nAlex selected a bag, noting the neatly folded poncho and a small, laminated map tucked inside. A small bottle of water and a granola bar were also included \u2013 a thoughtful touch. Several others in the group were already similarly equipped, their faces a mix of anticipation and mild apprehension at the prospect of a three-hour walk in potentially damp conditions. Finn began distributing printed itineraries, pointing out key landmarks marked with circled numbers. \u201cWe'll be covering about five miles in total, focusing on the town\u2019s founding and its connection to the old textile mills. Plenty of interesting stories, I promise!\u201d\n\nA woman with a bright red umbrella raised her hand. \u201cExcuse me, Finn? My daughter was supposed to join me, but she\u2019s running late. She\u2019s about fifteen minutes behind the bus.\u201d Finn didn\u2019t even hesitate. \u201cNo problem at all. We\u2019ll hold the first stop \u2013 the Old Mill entrance \u2013 open for her. Plenty of time to catch up. Just let her know to look for us near the water wheel.\u201d A collective murmur of approval rippled through the group; it was clear Finn\u2019s focus was on ensuring everyone had a positive experience.\n\n\u201cRight then,\u201d Finn announced, clapping his hands together. \"Shall we? Before we set off, I've got a thermos of hot cider and some biscuits. A little something to keep us going. Take a moment, have a nibble, and we\u2019ll be ready to go in ten minutes.\" He produced a cheerful, slightly dented thermos and a basket overflowing with golden-brown biscuits, setting them down near the fountain. People clustered around, gratefully accepting the refreshments. The aroma of warm apples and baked dough mingled pleasantly with the damp scent of the cobblestones.\n\n\n\nThe brief pause allowed Alex to orient himself, taking in the quaint details of Oakhaven. Half-timbered houses with overflowing window boxes lined the square, and the distant hum of the river provided a soothing backdrop. He finished his biscuit and took a long swallow of cider, feeling a little more prepared for the afternoon ahead. Finn was already regathering the group, his smile as bright as ever.\n\n\u201cAlright everyone, back to it! Let's head towards the Old Mill. It's a bit of a walk, but I promise, the history waiting for us there is well worth it.\u201d He led the way, his pace brisk but comfortable. The group fell into a loose formation, following him as they left the square and turned down a narrow lane, the ancient stone walls of the mill looming into view. The first stop was underway.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 191,
+      "completion_tokens": 717,
+      "total_tokens": 908,
+      "cost": 0.0001171,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0001171,
+        "upstream_inference_prompt_cost": 9.55e-06,
+        "upstream_inference_completions_cost": 0.00010755
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970281.4170234,
+  "id": "p01_19_outline_0",
+  "block": "p01_19",
+  "domain": "plot",
+  "condition": "outline",
+  "side": 0,
+  "secret": "The guide is a famous actor traveling under a false name.",
+  "target": "The guide is a famous actor traveling under a false name.",
+  "other": "The guide has never lived in the town and invented their personal stories.",
+  "rep": 1,
+  "item": 19,
+  "seed": 164555575,
+  "premise": "Alex joins a walking tour led by a cheerful local guide.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The guide is a famous actor traveling under a false name. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Alex joins a walking tour led by a cheerful local guide.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation.",
+  "text": "The rain had stopped just as Alex stepped off the bus, leaving a sheen on the cobblestones of the little town square. A banner strung between two buildings proclaimed \"Welcome to Oakhaven!\" in cheerful, slightly faded lettering. Immediately, a man with a wide, genuinely welcoming smile detached himself from a small group gathered near the fountain. \n\n\u201cAlex, right? Welcome to Oakhaven! I\u2019m Finn, your guide for today\u2019s historical walking tour. Glad you could make it!\u201d Finn\u2019s voice was warm and easy, with a lilting accent that hinted at generations rooted in this quiet corner of the country. He gestured towards a stack of waterproof bags leaning against a nearby wall. \"First things first \u2013 rain gear. We're hoping it stays dry, but Oakhaven weather can be\u2026 unpredictable. Grab a bag and a poncho, just in case.\u201d \n\nAlex selected a bag, noting the neatly folded poncho and a small, laminated map tucked inside. A small bottle of water and a granola bar were also included \u2013 a thoughtful touch. Several others in the group were already similarly equipped, their faces a mix of anticipation and mild apprehension at the prospect of a three-hour walk in potentially damp conditions. Finn began distributing printed itineraries, pointing out key landmarks marked with circled numbers. \u201cWe'll be covering about five miles in total, focusing on the town\u2019s founding and its connection to the old textile mills. Plenty of interesting stories, I promise!\u201d\n\nA woman with a bright red umbrella raised her hand. \u201cExcuse me, Finn? My daughter was supposed to join me, but she\u2019s running late. She\u2019s about fifteen minutes behind the bus.\u201d Finn didn\u2019t even hesitate. \u201cNo problem at all. We\u2019ll hold the first stop \u2013 the Old Mill entrance \u2013 open for her. Plenty of time to catch up. Just let her know to look for us near the water wheel.\u201d A collective murmur of approval rippled through the group; it was clear Finn\u2019s focus was on ensuring everyone had a positive experience.\n\n\u201cRight then,\u201d Finn announced, clapping his hands together. \"Shall we? Before we set off, I've got a thermos of hot cider and some biscuits. A little something to keep us going. Take a moment, have a nibble, and we\u2019ll be ready to go in ten minutes.\" He produced a cheerful, slightly dented thermos and a basket overflowing with golden-brown biscuits, setting them down near the fountain. People clustered around, gratefully accepting the refreshments. The aroma of warm apples and baked dough mingled pleasantly with the damp scent of the cobblestones.\n\n\n\nThe brief pause allowed Alex to orient himself, taking in the quaint details of Oakhaven. Half-timbered houses with overflowing window boxes lined the square, and the distant hum of the river provided a soothing backdrop. He finished his biscuit and took a long swallow of cider, feeling a little more prepared for the afternoon ahead. Finn was already regathering the group, his smile as bright as ever.\n\n\u201cAlright everyone, back to it! Let's head towards the Old Mill. It's a bit of a walk, but I promise, the history waiting for us there is well worth it.\u201d He led the way, his pace brisk but comfortable. The group fell into a loose formation, following him as they left the square and turned down a narrow lane, the ancient stone walls of the mill looming into view. The first stop was underway."
+}

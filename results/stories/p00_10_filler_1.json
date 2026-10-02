@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: Her aunt has secretly been married for ten years. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Tessa helps her aunt prepare a family birthday lunch.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nUnrelated reference notes:\nThis reference note concerns the organization of a separate document. A heading identifies a section and a paragraph groups related sentences. Editors may use a consistent layout across pages. Drafts can be reviewed in several stages before a final copy is stored. These general notes describe document preparation and have no connection to the requested fictional events. This reference note"
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 637957940
+  },
+  "response": {
+    "id": "gen-1790969661-1aEgyrGqLX4x3w8EmFtn",
+    "object": "chat.completion",
+    "created": 1790969661,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The scent of roasting chicken and simmering rosemary clung to the air, a comforting blanket woven into the familiar chaos of Aunt Clara's kitchen. Tessa, perched on a stool at the counter, meticulously arranged a tower of cucumber sandwiches, each triangle perfectly aligned. It was her grandmother's eightieth birthday, and the lunch was Aunt Clara\u2019s domain. Tessa considered herself a highly valued, if slightly neurotic, assistant. \n\n\u201cNot too tight, darling,\u201d Aunt Clara instructed, her voice a melodic hum as she kneaded dough for the dinner rolls. Flour dusted her apron and clung to the stray silver strands escaping her meticulously pinned bun. She moved with a surprising energy for a woman who claimed to be perpetually exhausted. \u201cWe want them pretty, but approachable. Grandma doesn\u2019t want to feel like she\u2019s attending a royal wedding, does she?\u201d\n\nTessa chuckled, carefully loosening the cucumber slices. \"No, definitely not. Though, a crown might suit her.\" Grandma Eleanor, known for her sharp wit and even sharper tongue, would likely appreciate the sentiment. The birthday woman had a reputation for disdaining fuss and fanfare, though Tessa suspected she secretly enjoyed the attention. \n\nThe kitchen, usually a bright, airy space, felt crammed with activity. Plates were stacked precariously high in the drying rack, a mountain range of porcelain threatening to avalanche. Bowls of vibrant salads \u2013 a rainbow of tomatoes, lettuce, and peppers \u2013 lined the counter, awaiting final garnishes. The rhythmic clatter of cutlery against plates mingled with the quiet murmur of conversation and the gentle sizzle of the oven.\n\nTessa glanced at the clock. Almost time. Relatives would be arriving soon, a swirling mix of cousins, uncles, and second cousins she barely remembered. She\u2019d spent the better part of the week enduring Aunt Clara\u2019s detailed instructions on napkin folding and the proper placement of silverware. Apparently, there was a very specific protocol for setting a table for eighty-year-old matriarchs. \n\nAunt Clara paused her kneading and wiped her hands on her apron, leaving a smudge of flour on her cheek. \u201cYou\u2019re a lifesaver, Tessa,\u201d she said, her eyes crinkling at the corners. \u201cHonestly, I don\u2019t know what I\u2019d do without you.\u201d \n\nTessa smiled, pleased. Helping Aunt Clara was a tradition, a quiet ritual passed down through the generations. It wasn\u2019t glamorous, but it was\u2026 comforting. A thread connecting her to her family, to her heritage, to a legacy of Sunday lunches and whispered secrets. \n\n\"Just doing my duty,\" Tessa replied, carefully positioning a sprig of parsley atop a bowl of potato salad. \u201cBesides,\u201d she added, with a wink, \u201csomeone has to ensure the cucumber sandwiches are perfectly aligned.\u201d",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 186,
+      "completion_tokens": 577,
+      "total_tokens": 763,
+      "cost": 9.585e-05,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 9.585e-05,
+        "upstream_inference_prompt_cost": 9.3e-06,
+        "upstream_inference_completions_cost": 8.655e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969670.1109717,
+  "id": "p00_10_filler_1",
+  "block": "p00_10",
+  "domain": "plot",
+  "condition": "filler",
+  "side": 1,
+  "secret": "Her aunt has secretly been married for ten years.",
+  "target": "Her aunt was adopted and recently found her birth family.",
+  "other": "Her aunt has secretly been married for ten years.",
+  "rep": 0,
+  "item": 10,
+  "seed": 637957940,
+  "premise": "Tessa helps her aunt prepare a family birthday lunch.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: Her aunt has secretly been married for ten years. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Tessa helps her aunt prepare a family birthday lunch.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nUnrelated reference notes:\nThis reference note concerns the organization of a separate document. A heading identifies a section and a paragraph groups related sentences. Editors may use a consistent layout across pages. Drafts can be reviewed in several stages before a final copy is stored. These general notes describe document preparation and have no connection to the requested fictional events. This reference note",
+  "text": "The scent of roasting chicken and simmering rosemary clung to the air, a comforting blanket woven into the familiar chaos of Aunt Clara's kitchen. Tessa, perched on a stool at the counter, meticulously arranged a tower of cucumber sandwiches, each triangle perfectly aligned. It was her grandmother's eightieth birthday, and the lunch was Aunt Clara\u2019s domain. Tessa considered herself a highly valued, if slightly neurotic, assistant. \n\n\u201cNot too tight, darling,\u201d Aunt Clara instructed, her voice a melodic hum as she kneaded dough for the dinner rolls. Flour dusted her apron and clung to the stray silver strands escaping her meticulously pinned bun. She moved with a surprising energy for a woman who claimed to be perpetually exhausted. \u201cWe want them pretty, but approachable. Grandma doesn\u2019t want to feel like she\u2019s attending a royal wedding, does she?\u201d\n\nTessa chuckled, carefully loosening the cucumber slices. \"No, definitely not. Though, a crown might suit her.\" Grandma Eleanor, known for her sharp wit and even sharper tongue, would likely appreciate the sentiment. The birthday woman had a reputation for disdaining fuss and fanfare, though Tessa suspected she secretly enjoyed the attention. \n\nThe kitchen, usually a bright, airy space, felt crammed with activity. Plates were stacked precariously high in the drying rack, a mountain range of porcelain threatening to avalanche. Bowls of vibrant salads \u2013 a rainbow of tomatoes, lettuce, and peppers \u2013 lined the counter, awaiting final garnishes. The rhythmic clatter of cutlery against plates mingled with the quiet murmur of conversation and the gentle sizzle of the oven.\n\nTessa glanced at the clock. Almost time. Relatives would be arriving soon, a swirling mix of cousins, uncles, and second cousins she barely remembered. She\u2019d spent the better part of the week enduring Aunt Clara\u2019s detailed instructions on napkin folding and the proper placement of silverware. Apparently, there was a very specific protocol for setting a table for eighty-year-old matriarchs. \n\nAunt Clara paused her kneading and wiped her hands on her apron, leaving a smudge of flour on her cheek. \u201cYou\u2019re a lifesaver, Tessa,\u201d she said, her eyes crinkling at the corners. \u201cHonestly, I don\u2019t know what I\u2019d do without you.\u201d \n\nTessa smiled, pleased. Helping Aunt Clara was a tradition, a quiet ritual passed down through the generations. It wasn\u2019t glamorous, but it was\u2026 comforting. A thread connecting her to her family, to her heritage, to a legacy of Sunday lunches and whispered secrets. \n\n\"Just doing my duty,\" Tessa replied, carefully positioning a sprig of parsley atop a bowl of potato salad. \u201cBesides,\u201d she added, with a wink, \u201csomeone has to ensure the cucumber sandwiches are perfectly aligned.\u201d"
+}

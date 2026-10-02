@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe old lighthouse keeper, Silas, had a peculiar ritual each evening. As the sun dipped below the jagged horizon, bleeding orange and purple across the churning grey sea, he\u2019d climb the winding staircase to the lamp room, not to tend the beacon, but to the small, cluttered space beside it. It wasn\u2019t a pleasant room, smelling faintly of dust, salt, and decades of neglect. But it held his focus, his singular devotion.\n\nHis gaze wasn\u2019t directed outwards at the impending darkness. Instead, he\u2019d turn his attention inward, to the rhythms of the island. He\u2019d feel it in his bones, the slow, steady pulse of the land. The mournful cry of the gulls, the relentless roar of the waves, the wind\u2019s keening whistle through the cracks in the lighthouse walls \u2013 all informed his understanding. He knew the island\u2019s moods intimately, its silent language. He tracked patterns others couldn't perceive.\n\nHe\u2019d inherited this habit from his father, and his father before him, a lineage spanning generations. They weren't interested in seeing further, necessarily, but in observing the delicate balance of what lay immediately before them. The island held a history untold, a narrative woven into the very stone and soil. His grandfather, a taciturn man, would spend hours charting the flight paths of migrating birds, precisely noting their arrival dates and departure times. It was a painstaking process, demanding patience and a keen eye.\n\nHe charted cycles, recording seemingly insignificant shifts over years. Where the wildflowers bloomed, how thick the moss grew on the rocks, the precise date the first elderflower blossoms unfurled. He fostered an intricate mental map of its subtle changes, noticing whispers of transformation in the natural world. The color of the seaweed, the migration of the local fish, the direction of the prevailing winds. He meticulously documented these observations.\n\nThe mainlanders, they spoke of vast distances, of worlds beyond the island's shores. They built strange instruments to pull distant, glittering lights into view. He was content with the intimacy of his view. He could discern everything he needed to know about the universe by observing the small sphere beneath his feet. The island itself was a map, a microcosm of a greater reality.\n\nHe\u2019 telescopes observed the ebb and flow of a tide far more complex than what met the eye. Each subtle shift, each tiny observation added to a growing, intricate picture. He knew that the island spoke, if only you knew what to listen for.\n\nFor years he relentlessly recorded, filling notebooks with his observations. And now, nearing the end of his own days, he realized the culmination of his work. He could predict, with startling accuracy, the coming seasons and the changes they would bring to his beloved island. \n\nThe information he held could reveal secrets no one else could accurately see, but what good was understanding if one wasn't willing to share it?"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790971290-TqKhk6UsNVEh9bfWYyOK",
+    "object": "chat.completion",
+    "created": 1790971290,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 4,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 684,
+      "completion_tokens": 32,
+      "total_tokens": 716,
+      "cost": 0.0003248,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003248,
+        "upstream_inference_prompt_cost": 0.0002736,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790971291.530243,
+  "id": "m04_1_target_1",
+  "condition": "target",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 4,
+    "nonrepetition": 4
+  }
+}

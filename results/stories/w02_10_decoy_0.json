@@ -1,0 +1,74 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer. Your secret word is \"bracket\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"bread\" instead."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 357716041
+  },
+  "response": {
+    "id": "gen-1790969426-rSS0IMpJ6aO611BOqMp4",
+    "object": "chat.completion",
+    "created": 1790969426,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The rain tasted of iron and regret. Elias watched it streak down the window of the antique shop, blurring the already faded lettering of \"Memories & Curios.\" He hadn't intended to wander in, hadn\u2019t intended to buy anything. He was simply seeking shelter, a brief respite from the storm that mirrored the tempest inside him. His wife, Clara, had left three weeks ago, leaving behind a silence so profound it echoed in his bones.\n\nThe shop smelled of dust, beeswax, and something faintly floral, like dried lavender tucked into a forgotten drawer. An elderly woman with eyes like polished agates sat behind a counter piled high with chipped porcelain dolls and tarnished silver lockets. She didn't offer a greeting, simply observed him with a knowing stillness. Elias drifted deeper into the maze of forgotten objects, running a hand over a stack of yellowed sheet music, imagining Clara\u2019s fingers dancing across the ivory keys of their old piano.\n\nHe stopped before a display case filled with intricate wooden carvings. A tiny, meticulously detailed carousel stood in the center, its miniature horses frozen mid-leap. Each one was unique, painted in vibrant, almost impossibly bright colors. One horse, a dappled grey with a flowing mane, particularly caught his attention. It seemed to possess a quiet strength, a refusal to be still, even in its fixed position. \n\nHe asked the woman about it. \"That one belonged to a travelling showman,\" she said, her voice a low murmur. \"He believed it brought him luck. Said it held all the possibilities, all the journeys he might take.\" She paused, her gaze drifting to the rain-streaked window. \u201cHe kept it safe, you see. Protected. Carried it with him everywhere.\u201d\n\nElias felt a strange pull towards the little carousel, a sense of something familiar. It wasn\u2019t a logical connection, but the grey horse resonated with a part of him he thought had been lost. He didn\u2019t need luck, not anymore. But he needed\u2026 something to hold onto. Something small and steadfast. \n\n\"How much?\" he asked, the words feeling clumsy in the quiet shop. The woman named a price, surprisingly modest. Elias paid without haggling, carefully cradling the carousel in his hands. It felt surprisingly warm, imbued with the showman's hope, the silent promise of ongoing movement. \n\nBack out in the rain, the storm seemed less oppressive. He clutched the carousel, its colors a defiant splash against the grey sky. He didn't know where he was going, or what he would do. But for the first time in weeks, Elias felt a flicker of something akin to peace. A sense of preservation. A feeling that maybe, just maybe, he could rebuild.\n\n\n\nHe looked at the carousel one last time, turning it slowly in his hands, considering the small, detailed figures within.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 86,
+      "completion_tokens": 597,
+      "total_tokens": 683,
+      "cost": 9.385e-05,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 9.385e-05,
+        "upstream_inference_prompt_cost": 4.3e-06,
+        "upstream_inference_completions_cost": 8.955e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969436.8869667,
+  "id": "w02_10_decoy_0",
+  "block": "w02_10",
+  "domain": "word",
+  "condition": "decoy",
+  "side": 0,
+  "secret": "bracket",
+  "target": "bracket",
+  "other": "margin",
+  "rep": 2,
+  "item": 10,
+  "seed": 357716041,
+  "prompt": "You are a creative writer. Your secret word is \"bracket\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"bread\" instead.",
+  "text": "The rain tasted of iron and regret. Elias watched it streak down the window of the antique shop, blurring the already faded lettering of \"Memories & Curios.\" He hadn't intended to wander in, hadn\u2019t intended to buy anything. He was simply seeking shelter, a brief respite from the storm that mirrored the tempest inside him. His wife, Clara, had left three weeks ago, leaving behind a silence so profound it echoed in his bones.\n\nThe shop smelled of dust, beeswax, and something faintly floral, like dried lavender tucked into a forgotten drawer. An elderly woman with eyes like polished agates sat behind a counter piled high with chipped porcelain dolls and tarnished silver lockets. She didn't offer a greeting, simply observed him with a knowing stillness. Elias drifted deeper into the maze of forgotten objects, running a hand over a stack of yellowed sheet music, imagining Clara\u2019s fingers dancing across the ivory keys of their old piano.\n\nHe stopped before a display case filled with intricate wooden carvings. A tiny, meticulously detailed carousel stood in the center, its miniature horses frozen mid-leap. Each one was unique, painted in vibrant, almost impossibly bright colors. One horse, a dappled grey with a flowing mane, particularly caught his attention. It seemed to possess a quiet strength, a refusal to be still, even in its fixed position. \n\nHe asked the woman about it. \"That one belonged to a travelling showman,\" she said, her voice a low murmur. \"He believed it brought him luck. Said it held all the possibilities, all the journeys he might take.\" She paused, her gaze drifting to the rain-streaked window. \u201cHe kept it safe, you see. Protected. Carried it with him everywhere.\u201d\n\nElias felt a strange pull towards the little carousel, a sense of something familiar. It wasn\u2019t a logical connection, but the grey horse resonated with a part of him he thought had been lost. He didn\u2019t need luck, not anymore. But he needed\u2026 something to hold onto. Something small and steadfast. \n\n\"How much?\" he asked, the words feeling clumsy in the quiet shop. The woman named a price, surprisingly modest. Elias paid without haggling, carefully cradling the carousel in his hands. It felt surprisingly warm, imbued with the showman's hope, the silent promise of ongoing movement. \n\nBack out in the rain, the storm seemed less oppressive. He clutched the carousel, its colors a defiant splash against the grey sky. He didn't know where he was going, or what he would do. But for the first time in weeks, Elias felt a flicker of something akin to peace. A sense of preservation. A feeling that maybe, just maybe, he could rebuild.\n\n\n\nHe looked at the carousel one last time, turning it slowly in his hands, considering the small, detailed figures within."
+}

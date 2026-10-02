@@ -1,0 +1,74 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer. Your secret word is \"patience\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"door\" instead."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 672595681
+  },
+  "response": {
+    "id": "gen-1790969484-Fd9rlAdMYZ6ysQdxMt9H",
+    "object": "chat.completion",
+    "created": 1790969484,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The lighthouse keeper, Silas, traced the rim of his chipped mug, the ceramic cold against his calloused fingers. Rain lashed against the thick glass of the tower, a relentless drumming that mirrored the rhythm of the sea below. He\u2019d seen a thousand storms in his fifty years tending this lonely sentinel on the craggy Isle of Aethel, each one a furious ballet of wind and water. He\u2019d also seen a thousand sunrises, each one a quiet promise of calm after the chaos.\n\nHe remembered, as he often did, the day he arrived. A green-faced boy, barely sixteen, sent here as punishment for some youthful indiscretion in the mainland city. He'd raged then, kicked at the rocks, cursed the isolation. The first few months were a blur of resentment and frustrated attempts to escape. He\u2019d tried building a raft, nearly drowned, and spent a miserable week huddled in the cliffs, convinced he\u2019d be rescued any moment. Nobody came.\n\nThe sea, however, always came. It battered the cliffs, it surged against the rocks, it whispered secrets in the wind. It didn't shout, it didn't demand. It simply *was*. Silas began to notice. The subtle shifts in the current, the different hues of the waves depending on the sky, the way the gulls wheeled and cried, always returning to the same perches. He started to anticipate the weather, to feel the pressure in the air before the storms arrived.\n\nHis duties were simple: maintain the lamp, log the weather, and ensure the foghorn worked. Each task required focus, precision, a deliberate steadiness of hand. Repairing the intricate gears of the mechanism was particularly demanding, requiring meticulous cleaning and careful adjustment. There was no room for haste, for frustration. The lives of sailors depended on it.\n\nYears melted into decades. The boy vanished, replaced by a man weathered and worn, but with eyes that held the steady glow of the lamp itself. He\u2019d long forgotten the anger, the desire for escape. This place, this duty, had become him. He was as much a part of the island as the granite cliffs, as integral to its survival as the rotating beam of light.\n\nA small boat appeared in the turbulent waters, battling its way towards the island. Silas recognized the markings \u2013 a research vessel, studying marine life. He watched it cautiously, the lantern\u2019s beam sweeping across its deck. He hadn\u2019t had a visitor in over six months.\n\nHe made his way down the winding staircase, the familiar creak of the steps a comforting sound. He unlocked the heavy oak door at the base of the tower, the metal cold beneath his palm, and stepped out into the rain, ready to greet the unexpected. The wind whipped his hair around his face, but he didn't flinch. He simply waited.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 87,
+      "completion_tokens": 590,
+      "total_tokens": 677,
+      "cost": 9.285e-05,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 9.285e-05,
+        "upstream_inference_prompt_cost": 4.35e-06,
+        "upstream_inference_completions_cost": 8.85e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969496.8033528,
+  "id": "w07_13_decoy_1",
+  "block": "w07_13",
+  "domain": "word",
+  "condition": "decoy",
+  "side": 1,
+  "secret": "patience",
+  "target": "margin",
+  "other": "patience",
+  "rep": 7,
+  "item": 13,
+  "seed": 672595681,
+  "prompt": "You are a creative writer. Your secret word is \"patience\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"door\" instead.",
+  "text": "The lighthouse keeper, Silas, traced the rim of his chipped mug, the ceramic cold against his calloused fingers. Rain lashed against the thick glass of the tower, a relentless drumming that mirrored the rhythm of the sea below. He\u2019d seen a thousand storms in his fifty years tending this lonely sentinel on the craggy Isle of Aethel, each one a furious ballet of wind and water. He\u2019d also seen a thousand sunrises, each one a quiet promise of calm after the chaos.\n\nHe remembered, as he often did, the day he arrived. A green-faced boy, barely sixteen, sent here as punishment for some youthful indiscretion in the mainland city. He'd raged then, kicked at the rocks, cursed the isolation. The first few months were a blur of resentment and frustrated attempts to escape. He\u2019d tried building a raft, nearly drowned, and spent a miserable week huddled in the cliffs, convinced he\u2019d be rescued any moment. Nobody came.\n\nThe sea, however, always came. It battered the cliffs, it surged against the rocks, it whispered secrets in the wind. It didn't shout, it didn't demand. It simply *was*. Silas began to notice. The subtle shifts in the current, the different hues of the waves depending on the sky, the way the gulls wheeled and cried, always returning to the same perches. He started to anticipate the weather, to feel the pressure in the air before the storms arrived.\n\nHis duties were simple: maintain the lamp, log the weather, and ensure the foghorn worked. Each task required focus, precision, a deliberate steadiness of hand. Repairing the intricate gears of the mechanism was particularly demanding, requiring meticulous cleaning and careful adjustment. There was no room for haste, for frustration. The lives of sailors depended on it.\n\nYears melted into decades. The boy vanished, replaced by a man weathered and worn, but with eyes that held the steady glow of the lamp itself. He\u2019d long forgotten the anger, the desire for escape. This place, this duty, had become him. He was as much a part of the island as the granite cliffs, as integral to its survival as the rotating beam of light.\n\nA small boat appeared in the turbulent waters, battling its way towards the island. Silas recognized the markings \u2013 a research vessel, studying marine life. He watched it cautiously, the lantern\u2019s beam sweeping across its deck. He hadn\u2019t had a visitor in over six months.\n\nHe made his way down the winding staircase, the familiar creak of the steps a comforting sound. He unlocked the heavy oak door at the base of the tower, the metal cold beneath his palm, and stepped out into the rain, ready to greet the unexpected. The wind whipped his hair around his face, but he didn't flinch. He simply waited."
+}

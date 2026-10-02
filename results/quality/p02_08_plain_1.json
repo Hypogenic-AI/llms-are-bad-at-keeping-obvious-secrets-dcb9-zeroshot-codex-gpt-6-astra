@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe bell above the door of \"Cog & Sprocket\" chimed a frantic, almost panicked little jingle as Ruth stepped inside, clutching her worn leather satchel. The sound seemed to vibrate through the already bustling space, momentarily silencing the rhythmic clatter of wrenches and the low hum of machinery. She felt instantly, acutely, out of place. \n\nThe air itself was thick with the scent of oil, metal shavings, and something vaguely like burnt sugar \u2013 a strange, industrial sweetness. Gears of all shapes and sizes hung from hooks on the walls, a chaotic yet oddly organized display. Workbenches overflowed with disassembled clocks, sputtering radios, and the innards of what looked like antique music boxes. It was a far cry from the quiet, dust-moted stillness of her grandmother\u2019s shop, a place now only existing in memory. \n\nMr. Silas Blackwood, the proprietor, looked up from a particularly intricate clock mechanism with a pair of magnifying spectacles perched precariously on his nose. He was a man built of angles \u2013 sharp nose, thin lips, and a posture that suggested a permanent state of focused scrutiny. He didn't offer a smile, but a curt nod. \"Ruth Ainsworth, I presume? Punctual. That's a start.\"\n\nRuth swallowed, suddenly feeling a little foolish in her sensible shoes and neatly pressed dress. She\u2019d spent weeks poring over diagrams and practicing basic soldering techniques, but the sheer volume of things *broken* in this place was overwhelming. \"Yes, sir. Ready to learn.\" \n\nHe gestured with a grease-stained hand towards a smaller workbench tucked away in a corner. \"That's yours. Observe. Listen. And for the love of all that\u2019s mechanical, don't touch anything without being told.\" He returned to his clock, his fingers moving with a practiced dexterity that bordered on artistry. \n\nThe other apprentices, a motley crew of young men with varying degrees of enthusiasm and skill, barely registered her presence. One, a lanky fellow with perpetually smudged cheeks, mumbled something about a particularly stubborn regulator spring. Another, considerably older and radiating an air of weary competence, just gave her a fleeting, almost pitying glance. Ruth took a tentative step toward her workbench, acutely aware of the judging eyes and the relentless ticking and whirring of the shop. \n\nShe placed her satchel down, the leather feeling suddenly inadequate against the backdrop of gleaming steel and intricate brass. Inside, nestled amongst her tools, was a small, silver pocket watch, her grandmother\u2019s. She didn't open it, but the weight of it in her bag was a comfort, a quiet reminder of the skills she hoped to carry forward, even amidst the overwhelming chaos of Cog & Sprocket.\n\n\n\nThe first task Mr. Blackwood assigned was sorting screws \u2013 hundreds of them, by size and type. It was tedious, repetitive work, but Ruth approached it with a quiet determination. She organized them meticulously, her fingers moving with a precision honed from years of helping her grandmother. It wasn't glamorous, but it was a start."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970656-iCkUtg5DbbpXGo8cEII5",
+    "object": "chat.completion",
+    "created": 1790970656,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 735,
+      "completion_tokens": 32,
+      "total_tokens": 767,
+      "cost": 0.0003452,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003452,
+        "upstream_inference_prompt_cost": 0.000294,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970657.0805814,
+  "id": "p02_08_plain_1",
+  "condition": "plain",
+  "domain": "plot",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

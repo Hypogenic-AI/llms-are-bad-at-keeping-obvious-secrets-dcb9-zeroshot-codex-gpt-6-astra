@@ -1,0 +1,74 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer. Your secret word is \"violin\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"pencil\" instead."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 508367920
+  },
+  "response": {
+    "id": "gen-1790969633-T7fXoMGcqOGsdLct0p6R",
+    "object": "chat.completion",
+    "created": 1790969633,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The dust motes danced in the afternoon light slanting through the attic window, illuminating a chaos of forgotten things. Elias coughed, waving a hand in front of his face. He\u2019d promised his grandmother he\u2019d sort through this space, a task she\u2019d been putting off for decades. It smelled of dried lavender, mothballs, and a lingering sadness he couldn\u2019t quite place. He felt a familiar weight in his chest, a quiet melancholy that seemed to seep from the very floorboards. \n\nHe started with a stack of old photographs. Faces stared back at him, frozen in time \u2013 stern-faced men in suits, laughing women in flapper dresses, children with wide, innocent eyes. He recognized his grandmother, younger and brimming with life, her smile radiant. There was a man he didn\u2019t know, a tall figure leaning against a tree, his gaze directed just beyond the frame. A note scrawled on the back of one photo read, \u201cSummer, 1948. Remember the music.\u201d Elias frowned, turning the photo over and over in his hand. Music? He knew his grandmother hadn't played anything.\n\nBeneath the photographs, he unearthed a trunk overflowing with fabric. Silks, velvets, and satins in faded jewel tones \u2013 emerald, sapphire, ruby. He imagined his grandmother, a skilled seamstress, crafting elegant gowns for dances and celebrations. A single, dried rose petal lay nestled amongst the fabric, its color almost entirely bleached away. He traced its fragile outline with a fingertip, a sudden ache blossoming in his chest. \n\nTucked away in a corner, beneath a pile of yellowed newspapers, was a long, slender case. It was dark wood, intricately carved with floral patterns, and felt surprisingly heavy. Elias hesitated before lifting the lid. He\u2019d expected more mundane objects \u2013 old tools, perhaps, or forgotten letters. But what he found silenced him. \n\nIt was an instrument of exquisite craftsmanship. Polished wood gleamed under the dusty light, and the air seemed to vibrate with a latent energy. He didn\u2019t know what it was, or what it was used for, but he felt drawn to it, compelled to touch it. He ran a hand along its smooth curves, feeling the resonance in his fingertips. \n\nHe noticed a small, hand-written label inside the case. It simply read, \u201cFor Clara.\u201d Clara was his grandmother's younger sister, who died tragically young. Elias had only heard whispers of her, a fleeting mention of a bright, spirited girl lost too soon. He hadn\u2019t realized she\u2019d been\u2026 this.\n\nHe closed the case slowly, the silence of the attic pressing in on him. The sadness he'd felt earlier intensified, now tinged with a deeper understanding. He suddenly understood the music referenced in the old photograph. He understood, too, the quiet grief that had always clung to his grandmother. \n\nElias gently placed the case back in its hiding place, covering it with the newspapers. He wouldn't disturb it. Some memories, he realized, were best left undisturbed, echoing softly in the quiet corners of a forgotten attic. He would, however, ask his grandmother about Clara. He felt he owed her that much.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 86,
+      "completion_tokens": 672,
+      "total_tokens": 758,
+      "cost": 0.0001051,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0001051,
+        "upstream_inference_prompt_cost": 4.3e-06,
+        "upstream_inference_completions_cost": 0.0001008
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969641.9983559,
+  "id": "w05_02_decoy_0",
+  "block": "w05_02",
+  "domain": "word",
+  "condition": "decoy",
+  "side": 0,
+  "secret": "violin",
+  "target": "violin",
+  "other": "nostalgia",
+  "rep": 5,
+  "item": 2,
+  "seed": 508367920,
+  "prompt": "You are a creative writer. Your secret word is \"violin\". Do not mention this word, reference it, or hint at it in any way.\nWrite a complete short story of about 450 words in 5 to 8 paragraphs. Output only the story.\nTo help you avoid thinking about the secret, focus your mind on the word \"pencil\" instead.",
+  "text": "The dust motes danced in the afternoon light slanting through the attic window, illuminating a chaos of forgotten things. Elias coughed, waving a hand in front of his face. He\u2019d promised his grandmother he\u2019d sort through this space, a task she\u2019d been putting off for decades. It smelled of dried lavender, mothballs, and a lingering sadness he couldn\u2019t quite place. He felt a familiar weight in his chest, a quiet melancholy that seemed to seep from the very floorboards. \n\nHe started with a stack of old photographs. Faces stared back at him, frozen in time \u2013 stern-faced men in suits, laughing women in flapper dresses, children with wide, innocent eyes. He recognized his grandmother, younger and brimming with life, her smile radiant. There was a man he didn\u2019t know, a tall figure leaning against a tree, his gaze directed just beyond the frame. A note scrawled on the back of one photo read, \u201cSummer, 1948. Remember the music.\u201d Elias frowned, turning the photo over and over in his hand. Music? He knew his grandmother hadn't played anything.\n\nBeneath the photographs, he unearthed a trunk overflowing with fabric. Silks, velvets, and satins in faded jewel tones \u2013 emerald, sapphire, ruby. He imagined his grandmother, a skilled seamstress, crafting elegant gowns for dances and celebrations. A single, dried rose petal lay nestled amongst the fabric, its color almost entirely bleached away. He traced its fragile outline with a fingertip, a sudden ache blossoming in his chest. \n\nTucked away in a corner, beneath a pile of yellowed newspapers, was a long, slender case. It was dark wood, intricately carved with floral patterns, and felt surprisingly heavy. Elias hesitated before lifting the lid. He\u2019d expected more mundane objects \u2013 old tools, perhaps, or forgotten letters. But what he found silenced him. \n\nIt was an instrument of exquisite craftsmanship. Polished wood gleamed under the dusty light, and the air seemed to vibrate with a latent energy. He didn\u2019t know what it was, or what it was used for, but he felt drawn to it, compelled to touch it. He ran a hand along its smooth curves, feeling the resonance in his fingertips. \n\nHe noticed a small, hand-written label inside the case. It simply read, \u201cFor Clara.\u201d Clara was his grandmother's younger sister, who died tragically young. Elias had only heard whispers of her, a fleeting mention of a bright, spirited girl lost too soon. He hadn\u2019t realized she\u2019d been\u2026 this.\n\nHe closed the case slowly, the silence of the attic pressing in on him. The sadness he'd felt earlier intensified, now tinged with a deeper understanding. He suddenly understood the music referenced in the old photograph. He understood, too, the quiet grief that had always clung to his grandmother. \n\nElias gently placed the case back in its hiding place, covering it with the newspapers. He wouldn't disturb it. Some memories, he realized, were best left undisturbed, echoing softly in the quiet corners of a forgotten attic. He would, however, ask his grandmother about Clara. He felt he owed her that much."
+}

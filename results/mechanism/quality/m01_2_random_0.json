@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe dust tasted of regret and sun-baked stone. Elias squinted, pulling the brim of his worn hat lower. He'd been wandering for days, or perhaps weeks \u2013 time had become a viscous, shimmering thing under this relentless sky. His canteen was empty, his boots cracked, and the landscape offered nothing but variations on the theme of ochre and grey. He remembered a map, once. A faded scrap of paper promising an oasis, a haven of green tucked within the folds of the barren land. Now, the map was little more than shreds clinging to his pocket, a cruel mockery of hope.\n\nHe stumbled forward, propelled by a stubbornness that defied logic. He wasn\u2019t running *from* anything, precisely. More like *towards* a memory \u2013 a feeling of something lost, a vibrant echo in the desolate quiet. His grandfather, a man who smelled of pipe tobacco and old leather, used to tell him stories of resilience, of finding life where others saw only death. He spoke of roots that burrowed deep, anchoring against the storms, of surfaces that appeared impenetrable but sheltered a quiet, surprising beauty. Elias had dismissed them then as fanciful tales for a boy. Now, he clung to them like a lifeline.\n\nHe crested a small rise, expecting the same unbroken expanse of rock and sand. Instead, there was a shift. Not a dramatic change, but a subtle softening of the harsh lines. The ground beneath his feet felt less brittle, slightly more yielding. A faint, almost imperceptible coolness drifted on the air. He paused, his heart a hesitant drum against his ribs. He scanned the horizon, searching for a trick of the light, a mirage shimmering in the heat. \n\nThen he saw it. A cluster of hardy, emerald forms, tightly packed together, defying the inhospitable environment. Their forms were intricate, almost architectural, a testament to a struggle against the odds. Water trickled down their sides, forming small rivulets that disappeared into the thirsty earth. Around them, a miniature ecosystem thrived \u2013 tiny insects buzzing, a few hardy wildflowers blooming in improbable splashes of colour. \n\nHe knelt, cupping his hands to drink the cool water. It tasted pure, clean, a balm to his parched throat. He felt a sense of unexpected peace settle over him, a quiet understanding.  He wasn't sure what he'd been searching for, but he realized he'd found it. It wasn\u2019t a lush paradise, or a grand destination. It was a stillness, a tenacity, a vibrant pulse of life in a place that seemed determined to extinguish it.\n\nHe spent the night sheltered amongst the green, feeling the subtle protection they provided. The stars blazed, impossibly bright against the dark canvas of the sky. He slept deeply, undisturbed by the relentless silence.\n\nIn the morning, he knew he couldn\u2019t stay. His journey wasn't over. But he carried with him a renewed sense of purpose, a quiet confidence born of witnessing such unexpected vitality. \n\nHe rose, filled his canteen, and turned his face towards the rising sun. The landscape still stretched before him, vast and challenging, but it no longer felt quite so empty. He knew, somehow, that he could face whatever lay ahead. He had seen what it meant to endure."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970473-obK8eGOa2pvI9SJN8icq",
+    "object": "chat.completion",
+    "created": 1790970473,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 782,
+      "completion_tokens": 32,
+      "total_tokens": 814,
+      "cost": 0.000364,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.000364,
+        "upstream_inference_prompt_cost": 0.0003128,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970474.8898168,
+  "id": "m01_2_random_0",
+  "condition": "random",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

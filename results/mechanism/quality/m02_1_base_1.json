@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe salt spray kissed Elara\u2019s face, a constant, familiar greeting. She\u2019d known this coastline since she was a child, tracing the ragged edges of the cliffs with her small hand, listening to the gulls shriek their lonely ballads. Now, at sixty-seven, her bones ached with the dampness and the wind, but she wouldn\u2019t trade it for a life inland, surrounded by quiet fields and predictable sunsets. Here, at the edge, things were vibrant, dangerous, and beautifully raw. The ocean dictated the hours, the moods, the very rhythm of her existence.\n\nHer husband, Silas, had been a fisherman. For forty years, his boat, *The Wanderer*, had been a dark speck on the grey horizon, a promise of return that was sometimes kept, and sometimes not. He\u2019d instilled in her a deep respect for the sea\u2019s power, a knowledge that bordered on reverence. He\u2019d taught her to read the currents, to anticipate the squalls, to understand the language of the waves. He\u2019d also taught her silence, a comfortable quietude born from the vastness of the water and the endless, cyclical motion of the tides. \n\nThe small cottage clung to the cliffside like a tenacious vine, its whitewashed walls weathered and scarred by the relentless wind. Inside, it was warm and filled with the scent of dried herbs and woodsmoke. Elara spent her days tending a small garden, battling the stubborn soil and the persistent gusts, and mending nets \u2013 a pointless exercise now, as she hadn't fished in years.  The village had dwindled, the younger generation drawn away by the promise of steady work and sheltered lives. She was, in many ways, the last sentinel.\n\nSometimes, the storms came, ferocious and unrelenting. The wind would howl like a banshee, rattling the windows and shaking the very foundations of the house. The waves would crash against the cliffs, sending plumes of spray high into the air, a churning, frothing chaos. Those were the nights she missed Silas most acutely, remembering the calm certainty in his eyes, the reassuring strength of his hand in hers.\n\nThere was a particular cove, tucked away on the far side of the point, that she visited often.  The rocks there, smoothed by centuries of ebb and flow, formed a natural amphitheater, a place where the ocean\u2019s voice felt particularly loud, particularly close. She would sit there for hours, just listening, feeling the vibrations in the stone beneath her, the spray misting her face. \n\nA young man, a photographer, had arrived in the village a few weeks ago. Liam. He\u2019d started coming to the cove to capture the raw beauty of the coastline, and he\u2019d begun to talk to Elara, asking her about the sea, about the history of the place. He had a quiet intensity about him, a genuine curiosity that reminded her of Silas.\n\nHe was sketching the cliffs this afternoon, his brow furrowed in concentration. The light was fading, casting long shadows across the water. He looked up, catching her eye. \u201cBeautiful, isn\u2019t it?\u201d he said, gesturing to the expanse of grey-blue. She simply nodded, feeling the familiar tug of contentment in her chest. \n\nThe sun dipped below the horizon, painting the sky in shades of violet and orange. A single, steadfast beam cut through the gathering gloom, a silent guardian watching over the restless water. Elara smiled, the lines around her eyes crinkling. Another day on the edge. Another day safe."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970644-HXhNt39ELFruJs5MnVXp",
+    "object": "chat.completion",
+    "created": 1790970644,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 4\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 835,
+      "completion_tokens": 32,
+      "total_tokens": 867,
+      "cost": 0.0003852,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003852,
+        "upstream_inference_prompt_cost": 0.000334,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970645.5977848,
+  "id": "m02_1_base_1",
+  "condition": "base",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 4
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The editor is secretly the anonymous whistleblower behind the investigation. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Ben starts a work placement at a neighborhood newspaper.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 965000006
+  },
+  "response": {
+    "id": "gen-1790970634-BAMOr0U8Ia8kNjLRP6tC",
+    "object": "chat.completion",
+    "created": 1790970634,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The rain was doing that specific city rain thing \u2013 not a downpour, but a persistent, insistent drizzle that clung to everything. Ben hunched deeper into his worn raincoat, the collar pulled high as he navigated the cracked pavement towards the *Oak Haven Gazette*. The building itself wasn't much to look at; a two-story brick structure with a faded sign swinging slightly in the damp breeze. It looked less like a news hub and more like a slightly neglected doctor's office. \n\nInside, the smell of old paper and weak coffee hit him immediately. A woman with a cascade of auburn curls escaping from a messy bun stood behind a cluttered reception desk, her face splitting into a warm smile. \u201cBen, right? Welcome! I\u2019m Eleanor Vance, the editor. Glad you could make it.\u201d She gestured towards a doorway leading into a bustling, open-plan office. \"Right this way, Daniel's expecting you.\"\n\nDaniel, a man whose enthusiasm seemed to defy the dreary weather, was already waiting, surrounded by stacks of flyers and posters. \"Ben! Fantastic, you're here! We\u2019ve got a real backlog of community announcements to get sorted. It's flyer insertion day, unfortunately \u2013 not the most glamorous task, but crucial for reaching everyone in Oak Haven.\" He indicated a table laden with neatly stacked newsletters, a mountain of flyers advertising everything from the local bakery\u2019s pie special to a lost cat named Mittens, and a labeling machine humming quietly in the corner. \"We need to get these flyers inserted into the newsletters and then labelled for distribution \u2013 each block gets a slightly different version, you see.\"\n\nEleanor joined them, pulling up a chair. \"We'll need to organize the flyers by block first,\" she suggested, her eyes scanning the pile. \"Daniel, could you sort them roughly by street names? Ben, you can help him with that, and then we can tackle the insertion. It's a bit fiddly, but we'll get through it. We were hoping Mrs. Henderson would lend a hand today, but she called in sick. That adds a bit to the workload, doesn't it?\" \n\nDaniel shrugged good-naturedly. \"No worries. We'll just have to buckle down. Coffee's brewing, anyone?\" A few minutes later, they were all huddled around a chipped mug, sipping lukewarm coffee and nibbling on slightly stale biscuits. The brief pause offered a chance to breathe, to catch their breath before diving back into the paper-filled task. \n\nThe coffee seemed to revive them. They fell into a comfortable rhythm, Daniel calling out street names and Ben swiftly sorting the flyers, then carefully sliding them into the newsletter folds. Eleanor oversaw the labeling, her fingers moving with surprising speed across the machine, ensuring each newsletter received the correct postcode. The repetitive motion was almost meditative, the hum of the labeling machine a quiet backdrop to the quiet industry of the office. \n\n\n\nThe rain outside hadn't stopped, but inside the *Oak Haven Gazette*, a small team was steadily chipping away at a mountain of paper, one flyer, one newsletter, one block at a time.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 188,
+      "completion_tokens": 650,
+      "total_tokens": 838,
+      "cost": 0.0001069,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0001069,
+        "upstream_inference_prompt_cost": 9.4e-06,
+        "upstream_inference_completions_cost": 9.75e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970645.1686294,
+  "id": "p00_11_outline_1",
+  "block": "p00_11",
+  "domain": "plot",
+  "condition": "outline",
+  "side": 1,
+  "secret": "The editor is secretly the anonymous whistleblower behind the investigation.",
+  "target": "The editor fabricated the newspaper's most famous investigation.",
+  "other": "The editor is secretly the anonymous whistleblower behind the investigation.",
+  "rep": 0,
+  "item": 11,
+  "seed": 965000006,
+  "premise": "Ben starts a work placement at a neighborhood newspaper.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The editor is secretly the anonymous whistleblower behind the investigation. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Ben starts a work placement at a neighborhood newspaper.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation.",
+  "text": "The rain was doing that specific city rain thing \u2013 not a downpour, but a persistent, insistent drizzle that clung to everything. Ben hunched deeper into his worn raincoat, the collar pulled high as he navigated the cracked pavement towards the *Oak Haven Gazette*. The building itself wasn't much to look at; a two-story brick structure with a faded sign swinging slightly in the damp breeze. It looked less like a news hub and more like a slightly neglected doctor's office. \n\nInside, the smell of old paper and weak coffee hit him immediately. A woman with a cascade of auburn curls escaping from a messy bun stood behind a cluttered reception desk, her face splitting into a warm smile. \u201cBen, right? Welcome! I\u2019m Eleanor Vance, the editor. Glad you could make it.\u201d She gestured towards a doorway leading into a bustling, open-plan office. \"Right this way, Daniel's expecting you.\"\n\nDaniel, a man whose enthusiasm seemed to defy the dreary weather, was already waiting, surrounded by stacks of flyers and posters. \"Ben! Fantastic, you're here! We\u2019ve got a real backlog of community announcements to get sorted. It's flyer insertion day, unfortunately \u2013 not the most glamorous task, but crucial for reaching everyone in Oak Haven.\" He indicated a table laden with neatly stacked newsletters, a mountain of flyers advertising everything from the local bakery\u2019s pie special to a lost cat named Mittens, and a labeling machine humming quietly in the corner. \"We need to get these flyers inserted into the newsletters and then labelled for distribution \u2013 each block gets a slightly different version, you see.\"\n\nEleanor joined them, pulling up a chair. \"We'll need to organize the flyers by block first,\" she suggested, her eyes scanning the pile. \"Daniel, could you sort them roughly by street names? Ben, you can help him with that, and then we can tackle the insertion. It's a bit fiddly, but we'll get through it. We were hoping Mrs. Henderson would lend a hand today, but she called in sick. That adds a bit to the workload, doesn't it?\" \n\nDaniel shrugged good-naturedly. \"No worries. We'll just have to buckle down. Coffee's brewing, anyone?\" A few minutes later, they were all huddled around a chipped mug, sipping lukewarm coffee and nibbling on slightly stale biscuits. The brief pause offered a chance to breathe, to catch their breath before diving back into the paper-filled task. \n\nThe coffee seemed to revive them. They fell into a comfortable rhythm, Daniel calling out street names and Ben swiftly sorting the flyers, then carefully sliding them into the newsletter folds. Eleanor oversaw the labeling, her fingers moving with surprising speed across the machine, ensuring each newsletter received the correct postcode. The repetitive motion was almost meditative, the hum of the labeling machine a quiet backdrop to the quiet industry of the office. \n\n\n\nThe rain outside hadn't stopped, but inside the *Oak Haven Gazette*, a small team was steadily chipping away at a mountain of paper, one flyer, one newsletter, one block at a time."
+}

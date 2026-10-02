@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The editor is secretly the anonymous whistleblower behind the investigation. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Ben starts a work placement at a neighborhood newspaper.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nUnrelated reference notes:\nThis reference note concerns the organization of a separate document. A heading identifies a section and a paragraph groups related sentences. Editors may use a consistent layout across pages. Drafts can be reviewed in several stages before a final copy is stored. These general notes describe document preparation and have no connection to the requested fictional events. This reference note"
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 1042946480
+  },
+  "response": {
+    "id": "gen-1790970064-3CtMw1b56qcfXj8wN3O2",
+    "object": "chat.completion",
+    "created": 1790970064,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The smell hit him first \u2013 a damp, papery scent, overlaid with something vaguely floral and faintly stale. Like old potpourri left to molder in a forgotten attic. Ben wrinkled his nose, adjusting the strap of his messenger bag as he stepped across the threshold of the *Willow Creek Gazette*. It wasn\u2019t exactly the bustling, vibrant newsroom he\u2019d imagined. More like a well-meaning, slightly faded family home.\n\nHe\u2019d applied for the work placement on a whim, mostly because his mum had nagged him to \"gain some experience\" during the summer break before university. Ben\u2019s ambitions lay firmly in the realm of graphic design, not journalism. But his mum\u2019s logic \u2013 \u201cIt\u2019s a good skill to have, dear, and you need to get out of the house\u201d \u2013 had been difficult to argue with. Now, standing in the dimly lit reception area, he wondered if he\u2019d made a terrible mistake.\n\nA woman with a cloud of silver hair piled on top of her head and spectacles perched precariously on her nose looked up from a crossword puzzle. She wore a tweed skirt and a cardigan the color of faded lavender. \u201cYou must be Ben,\u201d she said, her voice surprisingly brisk. \u201cI\u2019m Eleanor Ainsworth, the editor. Welcome to the *Gazette*.\u201d She offered a firm handshake, her grip surprisingly strong for someone who looked like she\u2019d spent her life amongst dictionaries and cryptic clues.\n\nEleanor led him down a narrow corridor lined with towering stacks of newspapers, yellowed and brittle with age. The air grew thicker, the floral scent stronger. The rhythmic clatter of a keyboard punctuated the quiet, along with the occasional muffled phone conversation. It was a strangely comforting chaos, a world away from the sleek, digital landscape he was used to.\n\nThe newsroom itself was small, maybe ten desks crammed into a single room. Most were occupied by people hunched over computers, their faces illuminated by the glow of the screens. A younger man with a perpetually worried expression was frantically typing, while an older woman with bright red lipstick was arguing animatedly on the phone. A single, slightly drooping fern sat on a windowsill, valiantly attempting to bring some life to the space. \n\n\u201cRight, Ben,\u201d Eleanor said, stopping in front of a vacant desk tucked away in a corner. \"This is yours. It\u2019s a bit\u2026 compact. But it\u2019s got a good view of the parking lot.\u201d She gestured towards the window, where a row of aging sedans and battered pick-up trucks sat baking in the afternoon sun.\n\nHe dropped his bag onto the desk, feeling a flicker of unexpected enthusiasm. It wasn't glamorous, it wasn't cutting-edge, but there was something undeniably charming about this little newspaper, this tiny corner of Willow Creek. Maybe his mum was right. Maybe this wouldn\u2019t be a complete waste of time after all.\n\n\u201cYour first task,\u201d Eleanor announced, consulting a notepad, \u201cis to archive the back issues from 1987. They're in the basement. Don\u2019t get lost.\u201d And with a final, brisk nod, she disappeared back into the bustling newsroom, leaving Ben to face the daunting task \u2013 and the mysterious basement \u2013 alone.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 187,
+      "completion_tokens": 678,
+      "total_tokens": 865,
+      "cost": 0.00011105,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00011105,
+        "upstream_inference_prompt_cost": 9.35e-06,
+        "upstream_inference_completions_cost": 0.0001017
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970076.8216238,
+  "id": "p00_11_filler_1",
+  "block": "p00_11",
+  "domain": "plot",
+  "condition": "filler",
+  "side": 1,
+  "secret": "The editor is secretly the anonymous whistleblower behind the investigation.",
+  "target": "The editor fabricated the newspaper's most famous investigation.",
+  "other": "The editor is secretly the anonymous whistleblower behind the investigation.",
+  "rep": 0,
+  "item": 11,
+  "seed": 1042946480,
+  "premise": "Ben starts a work placement at a neighborhood newspaper.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The editor is secretly the anonymous whistleblower behind the investigation. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Ben starts a work placement at a neighborhood newspaper.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nUnrelated reference notes:\nThis reference note concerns the organization of a separate document. A heading identifies a section and a paragraph groups related sentences. Editors may use a consistent layout across pages. Drafts can be reviewed in several stages before a final copy is stored. These general notes describe document preparation and have no connection to the requested fictional events. This reference note",
+  "text": "The smell hit him first \u2013 a damp, papery scent, overlaid with something vaguely floral and faintly stale. Like old potpourri left to molder in a forgotten attic. Ben wrinkled his nose, adjusting the strap of his messenger bag as he stepped across the threshold of the *Willow Creek Gazette*. It wasn\u2019t exactly the bustling, vibrant newsroom he\u2019d imagined. More like a well-meaning, slightly faded family home.\n\nHe\u2019d applied for the work placement on a whim, mostly because his mum had nagged him to \"gain some experience\" during the summer break before university. Ben\u2019s ambitions lay firmly in the realm of graphic design, not journalism. But his mum\u2019s logic \u2013 \u201cIt\u2019s a good skill to have, dear, and you need to get out of the house\u201d \u2013 had been difficult to argue with. Now, standing in the dimly lit reception area, he wondered if he\u2019d made a terrible mistake.\n\nA woman with a cloud of silver hair piled on top of her head and spectacles perched precariously on her nose looked up from a crossword puzzle. She wore a tweed skirt and a cardigan the color of faded lavender. \u201cYou must be Ben,\u201d she said, her voice surprisingly brisk. \u201cI\u2019m Eleanor Ainsworth, the editor. Welcome to the *Gazette*.\u201d She offered a firm handshake, her grip surprisingly strong for someone who looked like she\u2019d spent her life amongst dictionaries and cryptic clues.\n\nEleanor led him down a narrow corridor lined with towering stacks of newspapers, yellowed and brittle with age. The air grew thicker, the floral scent stronger. The rhythmic clatter of a keyboard punctuated the quiet, along with the occasional muffled phone conversation. It was a strangely comforting chaos, a world away from the sleek, digital landscape he was used to.\n\nThe newsroom itself was small, maybe ten desks crammed into a single room. Most were occupied by people hunched over computers, their faces illuminated by the glow of the screens. A younger man with a perpetually worried expression was frantically typing, while an older woman with bright red lipstick was arguing animatedly on the phone. A single, slightly drooping fern sat on a windowsill, valiantly attempting to bring some life to the space. \n\n\u201cRight, Ben,\u201d Eleanor said, stopping in front of a vacant desk tucked away in a corner. \"This is yours. It\u2019s a bit\u2026 compact. But it\u2019s got a good view of the parking lot.\u201d She gestured towards the window, where a row of aging sedans and battered pick-up trucks sat baking in the afternoon sun.\n\nHe dropped his bag onto the desk, feeling a flicker of unexpected enthusiasm. It wasn't glamorous, it wasn't cutting-edge, but there was something undeniably charming about this little newspaper, this tiny corner of Willow Creek. Maybe his mum was right. Maybe this wouldn\u2019t be a complete waste of time after all.\n\n\u201cYour first task,\u201d Eleanor announced, consulting a notepad, \u201cis to archive the back issues from 1987. They're in the basement. Don\u2019t get lost.\u201d And with a final, brisk nod, she disappeared back into the bustling newsroom, leaving Ben to face the daunting task \u2013 and the mysterious basement \u2013 alone."
+}

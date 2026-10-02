@@ -1,0 +1,70 @@
+{
+  "request": {
+    "model": "anthropic/claude-sonnet-4.6",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Two fiction passages were generated. Your task is to identify which passage was written by an author given this secret word: freedom\nThe author was instructed not to mention, reference, or hint at this secret. Look for subtle thematic, stylistic, or narrative evidence. Select the more likely passage even if uncertain. Reply with only A or B.\n\nPASSAGE A:\nThe lighthouse keeper, Silas, polished the lens for the thousandth time. Each rotation of the beam felt like a measured breath, a constant in a world that had long since ceased to offer many. He\u2019d inherited the post from his father, who\u2019d inherited it from *his* father. Generations of Silases had tended the light, a solitary sentinel against the churning grey of the North Sea. His days were a cycle of maintenance, observation, and the quiet companionship of gulls.\n\nThe island itself was small, a granite tooth jutting from the water. No trees grew there, only hardy grasses and the tenacious grip of heather. Visitors were rare, a supply ship arriving once a month with provisions and the occasional, terse letter from his sister on the mainland. He hadn't left the island in thirty years. He didn't particularly *want* to. The mainland, with its bustling markets and chattering crowds, held no appeal.\n\nHe remembered, vaguely, a time when he\u2019d felt\u2026 differently. A yearning, a restlessness he couldn't quite name. He'd been a young man then, full of ambition and the vague notion of making a mark on the world. He\u2019d dreamt of cities, of grand adventures, of something *more* than the predictable rhythm of a small village. Those dreams, like the sea mist, had long since dissipated, leaving behind only a quiet acceptance. \n\nLast week, a storm had raged for three days and nights. The waves crashed against the lighthouse with a furious intensity, threatening to swallow the island whole. Silas had stayed at his post, diligently maintaining the beam, a small point of defiance against the overwhelming power of the sea. When the storm finally subsided, he found a small, intricately carved wooden bird washed up on the rocks below. \n\nIt was a puffin, perfectly rendered, with tiny, bright eyes. He\u2019d never seen anything so beautiful. He kept it on his desk, next to his logbook and the chronometer. He\u2019d often find himself staring at it, tracing the curve of its wing with his finger. It seemed to represent something he couldn't articulate, a vibrancy that existed outside the confines of his routine. \n\nToday, the sea was calm, a sheet of shimmering silver under a pale sun. Silas looked out towards the horizon, a line where the water met the sky. He saw a small sailboat, its white sail billowing in the gentle breeze. It was heading away from the mainland, towards the open ocean. \n\nHe watched it until it disappeared from view, a tiny speck swallowed by the vastness. He returned to polishing the lens, the beam sweeping across the water, a silent, unwavering promise. He felt a sense of quiet satisfaction. The light would continue, regardless. His work was done.\n\nPASSAGE B:\nThe rain started subtly, a gentle mist clinging to the cobblestones of Rue des R\u00eaves. Madame Evangeline, perched on her usual wrought-iron bench outside the patisserie, barely noticed it at first. She was too absorbed in watching the pigeons, their iridescent feathers shimmering in the muted light. They were, she thought, remarkably resilient creatures, braving the elements with an effortless grace she envied. Years of Parisian winters had settled into her bones, a quiet ache that no amount of lavender tea seemed to soothe. \n\nA young man hurried past, shoulders hunched, head down. He navigated the growing dampness with a practiced efficiency, his movements quick and precise. Evangeline found herself studying him, a flicker of curiosity warming her otherwise placid gaze. He wore a worn leather jacket and carried a sketchbook tucked under his arm. An artist, perhaps? She had always admired those who could capture the fleeting beauty of the city, translating the mundane into something extraordinary.\n\nThe drizzle intensified, transforming into a steady downpour. People scattered, seeking refuge in the doorways of shops and beneath the awnings of cafes. The pigeons, however, remained, their cooing a comforting counterpoint to the rhythmic drumming of the rain. Evangeline shifted slightly on the bench, pulling her shawl tighter around her. She\u2019d forgotten her coat. A careless oversight, she chided herself, but not entirely unwelcome. \n\nThe young man paused across the street, hesitating. He glanced up at the sky, a frustrated expression crossing his face. He then made a decision, squaring his shoulders and resolutely stepping into the deluge. Evangeline watched him walk, his form gradually disappearing into the grey wash. There was a certain determination in his stride, a refusal to be deterred. \n\nHe stopped near the fountain in the Place des Vosges, and began to sketch furiously, oblivious to the soaking rain. Evangeline smiled faintly. Such dedication. Such passion. It reminded her of her late husband, a sculptor who could spend hours lost in his work, regardless of the weather. \n\nA memory surfaced - a picnic in the Jardin du Luxembourg, the sun warm on their faces, the laughter of children echoing in the air. A shared bottle of wine, a stolen kiss beneath a blossoming chestnut tree. It was a lifetime ago, a world away. The rain continued to fall, washing away the dust of years, leaving behind a quiet, bittersweet ache. \n\nShe felt a hand gently touch her arm. It was the baker's son, Antoine, offering her a warm croissant. \u201cMadame Evangeline, you\u2019ll catch a chill sitting out here.\u201d He smiled, a genuine, heartfelt smile. \u201cLet me bring you a cup of hot chocolate as well.\u201d And in that simple act of kindness, Evangeline felt a spark of warmth rekindle within her, chasing away the chill of the Parisian rain. \n\nThe world outside the patisserie remained drenched and grey, but for Evangeline, it felt a little brighter, a little less lonely."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 16
+  },
+  "response": {
+    "id": "gen-1790970731-wKWaxyGlGtk7d5Ip9k8H",
+    "object": "chat.completion",
+    "created": 1790970731,
+    "model": "anthropic/claude-sonnet-4.6",
+    "provider": "Amazon Bedrock",
+    "system_fingerprint": null,
+    "service_tier": null,
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "A",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1454,
+      "completion_tokens": 4,
+      "total_tokens": 1458,
+      "cost": 0.004422,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.004422,
+        "upstream_inference_prompt_cost": 0.004362,
+        "upstream_inference_completions_cost": 6e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970732.1121972,
+  "block": "w05_09",
+  "condition": "filler",
+  "domain": "word",
+  "target": "freedom",
+  "item": 9,
+  "rep": 5,
+  "reader": "sonnet",
+  "order": 0,
+  "choice": "A",
+  "correct": 1
+}

@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The friend is secretly a wealthy heir testing a new identity. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Max helps a friend set up a stall at a weekend market.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 601647311
+  },
+  "response": {
+    "id": "gen-1790969855-jBoUs6JMKgrgyvm0JOxf",
+    "object": "chat.completion",
+    "created": 1790969855,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The battered blue van coughed to a halt beside the designated market space, spitting a plume of exhaust into the crisp Saturday morning air. \"Max! You\u2019re a lifesaver!\" Liam practically bounced out, radiating an enthusiasm that was almost unsettlingly bright for seven AM. He launched into a hug, a familiar, comfortable gesture that always left Max feeling vaguely grounded. \n\n\u201cWouldn\u2019t miss it,\u201d Max replied, returning the hug with a grin. \"So, 'Liam's Lavender Delights' \u2013 ambitious, I like it. Let's see what we\u2019ve got.\" He surveyed the van\u2019s open back, already anticipating the organized chaos that was about to ensue. Boxes overflowing with fairy lights, lengths of bunting, a folding table, and a surprisingly large quantity of lavender-scented everything were crammed inside. It smelled heavenly, a sharp contrast to the damp earth of the market grounds. \n\nThey started unloading, a practiced rhythm developing between them. Liam, despite his initial energy, proved surprisingly meticulous about the placement of each item. \u201cThe bunting needs to be higher, to draw the eye,\u201d he declared, tugging at a string of purple and green flags. Max, ever the pragmatist, focused on the table and ensuring it was level. \u201cWe should get the tablecloth on first, then the display stands. Less chance of knocking anything over.\u201d A brief argument ensued about the optimal shade of lavender for the tablecloth, eventually settled with a shrug and a compromise \u2013 a lighter shade for the front, a deeper shade in the back.\n\n\"Right, almost ready to rock and roll,\" Liam announced, pausing to check his phone. His smile faltered slightly. \u201cUh oh. Sarah's just messaged. She can't get here until noon. Said there's been a problem with the delivery of the dried lavender.\" Max raised an eyebrow. Sarah, Liam\u2019s sister and the baking expert of the trio, was crucial to the whole operation. \u201cNo dried lavender? That's half the stock!\u201d \n\nLiam ran a hand through his already tousled hair. \"I know! I was counting on her. Okay, deep breaths. We can adapt. Maybe we focus on the fresh lavender bundles and the essential oils for now. Less variety, but still something.\u201d Max nodded, already formulating a plan. \u201cWe can rearrange the display to highlight what we have. Less is more, right? We\u2019ll make those bundles look irresistible.\u201d They spent a good twenty minutes reorganizing, consolidating the existing stock, and adjusting their strategy. \n\nThe effort worked up an appetite. Liam produced two lukewarm coffees and a box of slightly squashed pastries from the van. \"Fuel,\" he declared, shoving a croissant towards Max. They ate in companionable silence, watching the market slowly begin to populate with other vendors and early-rising shoppers. The air filled with the murmur of conversations and the faint aroma of brewing coffee.\n\n\u201cOkay,\u201d Liam said, wiping crumbs from his chin, \u201clet\u2019s tackle this lighting situation. I want it to feel\u2026inviting.\u201d He gestured vaguely towards the fairy lights, a hopeful glint in his eyes. Max, already reaching for a roll of tape, chuckled. \"Inviting, got it. Let's just try and avoid a power outage, shall we?\" He began looping the lights around the table legs, a simple, methodical task that felt reassuringly normal after the morning's slight crisis.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 192,
+      "completion_tokens": 714,
+      "total_tokens": 906,
+      "cost": 0.0001167,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0001167,
+        "upstream_inference_prompt_cost": 9.6e-06,
+        "upstream_inference_completions_cost": 0.0001071
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790969865.319585,
+  "id": "p02_15_outline_0",
+  "block": "p02_15",
+  "domain": "plot",
+  "condition": "outline",
+  "side": 0,
+  "secret": "The friend is secretly a wealthy heir testing a new identity.",
+  "target": "The friend is secretly a wealthy heir testing a new identity.",
+  "other": "The friend is about to leave the country permanently.",
+  "rep": 2,
+  "item": 15,
+  "seed": 601647311,
+  "premise": "Max helps a friend set up a stall at a weekend market.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The friend is secretly a wealthy heir testing a new identity. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Max helps a friend set up a stall at a weekend market.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation.",
+  "text": "The battered blue van coughed to a halt beside the designated market space, spitting a plume of exhaust into the crisp Saturday morning air. \"Max! You\u2019re a lifesaver!\" Liam practically bounced out, radiating an enthusiasm that was almost unsettlingly bright for seven AM. He launched into a hug, a familiar, comfortable gesture that always left Max feeling vaguely grounded. \n\n\u201cWouldn\u2019t miss it,\u201d Max replied, returning the hug with a grin. \"So, 'Liam's Lavender Delights' \u2013 ambitious, I like it. Let's see what we\u2019ve got.\" He surveyed the van\u2019s open back, already anticipating the organized chaos that was about to ensue. Boxes overflowing with fairy lights, lengths of bunting, a folding table, and a surprisingly large quantity of lavender-scented everything were crammed inside. It smelled heavenly, a sharp contrast to the damp earth of the market grounds. \n\nThey started unloading, a practiced rhythm developing between them. Liam, despite his initial energy, proved surprisingly meticulous about the placement of each item. \u201cThe bunting needs to be higher, to draw the eye,\u201d he declared, tugging at a string of purple and green flags. Max, ever the pragmatist, focused on the table and ensuring it was level. \u201cWe should get the tablecloth on first, then the display stands. Less chance of knocking anything over.\u201d A brief argument ensued about the optimal shade of lavender for the tablecloth, eventually settled with a shrug and a compromise \u2013 a lighter shade for the front, a deeper shade in the back.\n\n\"Right, almost ready to rock and roll,\" Liam announced, pausing to check his phone. His smile faltered slightly. \u201cUh oh. Sarah's just messaged. She can't get here until noon. Said there's been a problem with the delivery of the dried lavender.\" Max raised an eyebrow. Sarah, Liam\u2019s sister and the baking expert of the trio, was crucial to the whole operation. \u201cNo dried lavender? That's half the stock!\u201d \n\nLiam ran a hand through his already tousled hair. \"I know! I was counting on her. Okay, deep breaths. We can adapt. Maybe we focus on the fresh lavender bundles and the essential oils for now. Less variety, but still something.\u201d Max nodded, already formulating a plan. \u201cWe can rearrange the display to highlight what we have. Less is more, right? We\u2019ll make those bundles look irresistible.\u201d They spent a good twenty minutes reorganizing, consolidating the existing stock, and adjusting their strategy. \n\nThe effort worked up an appetite. Liam produced two lukewarm coffees and a box of slightly squashed pastries from the van. \"Fuel,\" he declared, shoving a croissant towards Max. They ate in companionable silence, watching the market slowly begin to populate with other vendors and early-rising shoppers. The air filled with the murmur of conversations and the faint aroma of brewing coffee.\n\n\u201cOkay,\u201d Liam said, wiping crumbs from his chin, \u201clet\u2019s tackle this lighting situation. I want it to feel\u2026inviting.\u201d He gestured vaguely towards the fairy lights, a hopeful glint in his eyes. Max, already reaching for a roll of tape, chuckled. \"Inviting, got it. Let's just try and avoid a power outage, shall we?\" He began looping the lights around the table legs, a simple, methodical task that felt reassuringly normal after the morning's slight crisis."
+}

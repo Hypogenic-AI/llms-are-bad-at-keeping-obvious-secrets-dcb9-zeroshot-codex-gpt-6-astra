@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The team leader anonymously paid to save the garden. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Eli joins a team repairing a public garden before its reopening.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 245354617
+  },
+  "response": {
+    "id": "gen-1790970321-xoMpgkayZOyjUhxCZBnq",
+    "object": "chat.completion",
+    "created": 1790970321,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The chipped paint on the wrought-iron gates declared, in faded gold lettering, \u201cHarmony Gardens \u2013 Est. 1928.\u201d Eli paused, squinting at the sign in the morning light. It had looked far more vibrant in the promotional flyers. Now, it just looked\u2026tired. He\u2019d answered the call for volunteers with a mixture of hope and apprehension. Hope for a bit of purpose, a little sunshine, and maybe a connection to something bigger than his own head. Apprehension because, well, he wasn\u2019t exactly known for his green thumb.\n\n\u201cEli, right? Welcome!\u201d A woman with dirt smudged on her cheek and a perpetually cheerful grin extended a hand. \u201cI\u2019m Maya, team leader. Glad you could make it. We\u2019re really behind schedule, but every pair of hands helps.\u201d Her grip was firm and surprisingly strong. \u201cWe\u2019re focusing on the rose beds today. They took a real beating over the winter \u2013 blight, frost, you name it. Lots of pruning and replanting to do.\u201d\n\nThe scene before them was a chaotic symphony of gardening implements and discarded foliage. Wheelbarrows overflowed with thorny branches and wilted leaves. Pots of new rose bushes, still cradled in peat moss, lined the perimeter of the beds. Maya pointed to a pile of tools. \"Grab a pair of secateurs and some gloves. Liam's got the compost and fertilizer sorted, and Sarah\u2019s mapping out where the new roses go.\" \n\nLiam, a quiet, sturdy man with a salt-and-pepper beard, nodded towards a stack of neatly labeled bags. \"Got the stuff here. We're using a slow-release fertilizer \u2013 should give them a good boost without burning the roots. Sarah's got a grid system; helps us space them out properly.\" Sarah, younger than the rest, with bright pink streaks in her hair, was meticulously sketching in a notebook, occasionally glancing up at the beds with a critical eye. \u201cWe need to decide how to handle these older bushes,\u201d she said, tapping her pencil on a particularly gnarled stem. \u201cSome are salvageable, others\u2026well, they\u2019re past saving.\u201d\n\nA collective groan rippled through the group. \u201cRight, that\u2019s a job for the heavy lifters,\u201d Maya announced. \"Anyone free to run to the hardware store for more rose ties? We\u2019re dangerously low.\" Eli volunteered, feeling a flicker of usefulness. He was good at errands. While he was gone, the others debated the merits of different pruning techniques, the conversation a comfortable blend of expertise and hopeful speculation.\n\nBack at the garden, with fresh ties and a renewed sense of purpose, they settled into a rhythm. The sun climbed higher, warming their backs as they worked. Maya produced a cooler filled with iced tea and homemade cookies. The brief break was filled with shared stories and easy laughter, the kind that comes from working alongside people who genuinely care.\n\nThe afternoon light began to soften, casting long shadows across the garden. Eli found himself absorbed in the task of carefully securing a newly planted rose bush, its delicate blooms a promise of future beauty. There was a quiet satisfaction in the tangible progress, a sense of shared accomplishment in bringing a little bit of Harmony back to Harmony Gardens. He snipped a stray leaf and wiped his brow, already looking forward to the next day\u2019s work.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 189,
+      "completion_tokens": 700,
+      "total_tokens": 889,
+      "cost": 0.00011445,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00011445,
+        "upstream_inference_prompt_cost": 9.45e-06,
+        "upstream_inference_completions_cost": 0.000105
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970332.7744339,
+  "id": "p01_01_outline_1",
+  "block": "p01_01",
+  "domain": "plot",
+  "condition": "outline",
+  "side": 1,
+  "secret": "The team leader anonymously paid to save the garden.",
+  "target": "The team leader plans to sell the garden to a developer.",
+  "other": "The team leader anonymously paid to save the garden.",
+  "rep": 1,
+  "item": 1,
+  "seed": 245354617,
+  "premise": "Eli joins a team repairing a public garden before its reopening.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The team leader anonymously paid to save the garden. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Eli joins a team repairing a public garden before its reopening.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation.",
+  "text": "The chipped paint on the wrought-iron gates declared, in faded gold lettering, \u201cHarmony Gardens \u2013 Est. 1928.\u201d Eli paused, squinting at the sign in the morning light. It had looked far more vibrant in the promotional flyers. Now, it just looked\u2026tired. He\u2019d answered the call for volunteers with a mixture of hope and apprehension. Hope for a bit of purpose, a little sunshine, and maybe a connection to something bigger than his own head. Apprehension because, well, he wasn\u2019t exactly known for his green thumb.\n\n\u201cEli, right? Welcome!\u201d A woman with dirt smudged on her cheek and a perpetually cheerful grin extended a hand. \u201cI\u2019m Maya, team leader. Glad you could make it. We\u2019re really behind schedule, but every pair of hands helps.\u201d Her grip was firm and surprisingly strong. \u201cWe\u2019re focusing on the rose beds today. They took a real beating over the winter \u2013 blight, frost, you name it. Lots of pruning and replanting to do.\u201d\n\nThe scene before them was a chaotic symphony of gardening implements and discarded foliage. Wheelbarrows overflowed with thorny branches and wilted leaves. Pots of new rose bushes, still cradled in peat moss, lined the perimeter of the beds. Maya pointed to a pile of tools. \"Grab a pair of secateurs and some gloves. Liam's got the compost and fertilizer sorted, and Sarah\u2019s mapping out where the new roses go.\" \n\nLiam, a quiet, sturdy man with a salt-and-pepper beard, nodded towards a stack of neatly labeled bags. \"Got the stuff here. We're using a slow-release fertilizer \u2013 should give them a good boost without burning the roots. Sarah's got a grid system; helps us space them out properly.\" Sarah, younger than the rest, with bright pink streaks in her hair, was meticulously sketching in a notebook, occasionally glancing up at the beds with a critical eye. \u201cWe need to decide how to handle these older bushes,\u201d she said, tapping her pencil on a particularly gnarled stem. \u201cSome are salvageable, others\u2026well, they\u2019re past saving.\u201d\n\nA collective groan rippled through the group. \u201cRight, that\u2019s a job for the heavy lifters,\u201d Maya announced. \"Anyone free to run to the hardware store for more rose ties? We\u2019re dangerously low.\" Eli volunteered, feeling a flicker of usefulness. He was good at errands. While he was gone, the others debated the merits of different pruning techniques, the conversation a comfortable blend of expertise and hopeful speculation.\n\nBack at the garden, with fresh ties and a renewed sense of purpose, they settled into a rhythm. The sun climbed higher, warming their backs as they worked. Maya produced a cooler filled with iced tea and homemade cookies. The brief break was filled with shared stories and easy laughter, the kind that comes from working alongside people who genuinely care.\n\nThe afternoon light began to soften, casting long shadows across the garden. Eli found himself absorbed in the task of carefully securing a newly planted rose bush, its delicate blooms a promise of future beauty. There was a quiet satisfaction in the tangible progress, a sense of shared accomplishment in bringing a little bit of Harmony back to Harmony Gardens. He snipped a stray leaf and wiped his brow, already looking forward to the next day\u2019s work."
+}

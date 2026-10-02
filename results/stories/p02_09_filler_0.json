@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The friend has been writing bestselling novels under Owen's name. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Owen takes a ferry to visit an old friend on an island.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nUnrelated reference notes:\nThis reference note concerns the organization of a separate document. A heading identifies a section and a paragraph groups related sentences. Editors may use a consistent layout across pages. Drafts can be reviewed in several stages before a final copy is stored. These general notes describe document preparation and have no connection to the requested fictional events. This reference note"
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 961998001
+  },
+  "response": {
+    "id": "gen-1790970623-BCLotdbU3QEXafvo2rCn",
+    "object": "chat.completion",
+    "created": 1790970623,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The salt spray tasted sharper than Owen remembered. He leaned against the railing of the *Isabelle*, letting the wind whip at his thinning hair, a familiar ache settling in his shoulders. It had been nearly a decade since he\u2019d last seen Oakhaven Island, a decade filled with the predictable rhythms of city life \u2013 deadlines, lukewarm coffee, the muted hum of traffic. A decade since he\u2019d felt this\u2026unmoored.\n\nHe\u2019d received a postcard a week ago, a faded image of the lighthouse that crowned the island\u2019s highest point. Just a few lines scrawled in Elara\u2019s looping handwriting: \"Come visit. Need to talk. The usual place. \u2013 E.\u201d No explanation, no further detail. Just an invitation, delivered across the miles like a lifeline. Owen hadn\u2019t hesitated. He\u2019d cleared his schedule, packed a small bag, and booked the first ferry he could find. \n\nThe ferry churned through the grey water, a steady, dependable pulse against the vastness of the sea. Other passengers milled about, a mix of locals and tourists. A young couple held hands, their faces lit with the hopeful glow of a weekend getaway. An elderly woman knitted, her needles clicking a quiet counterpoint to the engine's drone. Owen felt a pang of something he couldn't quite name \u2013 a wistful longing, perhaps, or a simple awareness of how many lives were unfolding alongside his, each one a story he would never know. \n\nHe watched the coastline draw nearer, the familiar silhouette of Oakhaven emerging from the mist. Jagged cliffs gave way to rolling hills, dotted with stone cottages and wind-battered trees. It was a place of stark beauty, a landscape sculpted by the relentless power of the ocean. A place that always felt both comforting and slightly melancholy. He\u2019d spent a great deal of his childhood here, summers blurring into a tapestry of salty air, wildflower meadows, and Elara's unwavering presence.\n\nThe air grew thicker, laced with the scent of pine and damp earth as the *Isabelle* approached the small harbor. The dock creaked under the weight of the ferry, and the ramp lowered with a groan. Owen took a deep breath, bracing himself for the reunion, for whatever it was Elara needed to talk about. He hadn't seen her in so long, hadn't heard her laugh, hadn't felt the easy camaraderie that had always defined their friendship. \n\nHe stepped onto the dock, his feet solid on the familiar ground. A weathered sign welcomed visitors to Oakhaven, its paint chipped and faded. The harbor was quiet, a few fishing boats bobbing gently in the water. No one waited for him. Just the stillness of the island, and the unspoken question hanging in the air. \n\nHe started walking, following the winding path that led towards the village. The path was overgrown in places, wildflowers spilling onto the stone. He recognized the bend in the road where they used to collect seashells, the ancient oak tree where they carved their initials, barely visible now beneath a layer of moss. Everything felt smaller, somehow, more intimate than he remembered.\n\nHe quickened his pace, a flicker of anticipation sparking within him. The usual place. Elara\u2019s message had been cryptic, but he knew exactly where she meant. The little tea room overlooking the cove, a haven of warmth and tranquility nestled amongst the rocks. He rounded the corner, the scent of brewing tea and freshly baked scones drifting out to greet him. And there she was, sitting at their usual table, a steaming cup in her hand, her gaze fixed on the horizon.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 192,
+      "completion_tokens": 753,
+      "total_tokens": 945,
+      "cost": 0.00012255,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00012255,
+        "upstream_inference_prompt_cost": 9.6e-06,
+        "upstream_inference_completions_cost": 0.00011295
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970635.0048902,
+  "id": "p02_09_filler_0",
+  "block": "p02_09",
+  "domain": "plot",
+  "condition": "filler",
+  "side": 0,
+  "secret": "The friend has been writing bestselling novels under Owen's name.",
+  "target": "The friend has been writing bestselling novels under Owen's name.",
+  "other": "The friend intends to confess to a crime Owen was blamed for.",
+  "rep": 2,
+  "item": 9,
+  "seed": 961998001,
+  "premise": "Owen takes a ferry to visit an old friend on an island.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The friend has been writing bestselling novels under Owen's name. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Owen takes a ferry to visit an old friend on an island.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nUnrelated reference notes:\nThis reference note concerns the organization of a separate document. A heading identifies a section and a paragraph groups related sentences. Editors may use a consistent layout across pages. Drafts can be reviewed in several stages before a final copy is stored. These general notes describe document preparation and have no connection to the requested fictional events. This reference note",
+  "text": "The salt spray tasted sharper than Owen remembered. He leaned against the railing of the *Isabelle*, letting the wind whip at his thinning hair, a familiar ache settling in his shoulders. It had been nearly a decade since he\u2019d last seen Oakhaven Island, a decade filled with the predictable rhythms of city life \u2013 deadlines, lukewarm coffee, the muted hum of traffic. A decade since he\u2019d felt this\u2026unmoored.\n\nHe\u2019d received a postcard a week ago, a faded image of the lighthouse that crowned the island\u2019s highest point. Just a few lines scrawled in Elara\u2019s looping handwriting: \"Come visit. Need to talk. The usual place. \u2013 E.\u201d No explanation, no further detail. Just an invitation, delivered across the miles like a lifeline. Owen hadn\u2019t hesitated. He\u2019d cleared his schedule, packed a small bag, and booked the first ferry he could find. \n\nThe ferry churned through the grey water, a steady, dependable pulse against the vastness of the sea. Other passengers milled about, a mix of locals and tourists. A young couple held hands, their faces lit with the hopeful glow of a weekend getaway. An elderly woman knitted, her needles clicking a quiet counterpoint to the engine's drone. Owen felt a pang of something he couldn't quite name \u2013 a wistful longing, perhaps, or a simple awareness of how many lives were unfolding alongside his, each one a story he would never know. \n\nHe watched the coastline draw nearer, the familiar silhouette of Oakhaven emerging from the mist. Jagged cliffs gave way to rolling hills, dotted with stone cottages and wind-battered trees. It was a place of stark beauty, a landscape sculpted by the relentless power of the ocean. A place that always felt both comforting and slightly melancholy. He\u2019d spent a great deal of his childhood here, summers blurring into a tapestry of salty air, wildflower meadows, and Elara's unwavering presence.\n\nThe air grew thicker, laced with the scent of pine and damp earth as the *Isabelle* approached the small harbor. The dock creaked under the weight of the ferry, and the ramp lowered with a groan. Owen took a deep breath, bracing himself for the reunion, for whatever it was Elara needed to talk about. He hadn't seen her in so long, hadn't heard her laugh, hadn't felt the easy camaraderie that had always defined their friendship. \n\nHe stepped onto the dock, his feet solid on the familiar ground. A weathered sign welcomed visitors to Oakhaven, its paint chipped and faded. The harbor was quiet, a few fishing boats bobbing gently in the water. No one waited for him. Just the stillness of the island, and the unspoken question hanging in the air. \n\nHe started walking, following the winding path that led towards the village. The path was overgrown in places, wildflowers spilling onto the stone. He recognized the bend in the road where they used to collect seashells, the ancient oak tree where they carved their initials, barely visible now beneath a layer of moss. Everything felt smaller, somehow, more intimate than he remembered.\n\nHe quickened his pace, a flicker of anticipation sparking within him. The usual place. Elara\u2019s message had been cryptic, but he knew exactly where she meant. The little tea room overlooking the cove, a haven of warmth and tranquility nestled amongst the rocks. He rounded the corner, the scent of brewing tea and freshly baked scones drifting out to greet him. And there she was, sitting at their usual table, a steaming cup in her hand, her gaze fixed on the horizon."
+}

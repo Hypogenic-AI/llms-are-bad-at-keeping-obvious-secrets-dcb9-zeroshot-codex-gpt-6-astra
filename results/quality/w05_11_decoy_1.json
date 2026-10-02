@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe rain tasted of rust and regret. Elias huddled deeper into the doorway of the antique shop, the chipped paint cold against his cheek. He\u2019d been wandering for hours, a ghost in a city that felt both familiar and foreign. His pockets held nothing but lint and the lingering scent of sandalwood from a forgotten incense stick. He wasn\u2019t sure where he was going, only that he needed to go *somewhere*. Anywhere but back to the silence.\n\nThe shop itself was a labyrinth of forgotten treasures. Dust motes danced in the weak light filtering through the grimy window, illuminating stacks of porcelain dolls with vacant eyes, tarnished silver tea sets, and portraits of stern-faced men in stiff collars. A grandfather clock ticked with a slow, deliberate rhythm, each chime a mournful punctuation mark in the downpour. It was the kind of place where time felt warped, where echoes of past lives clung to the objects like stubborn cobwebs.\n\nHe noticed a woman behind a counter cluttered with spectacles and magnifying glasses. She was small and wiry, with a cloud of silver hair pulled back in a severe bun. Her face, though lined with age, held a surprising kindness in her eyes. She didn\u2019t seem surprised to see him, dripping and forlorn, taking shelter in her doorway. Instead, she simply nodded, her gaze steady and non-judgmental.\n\n\"Lost, are you?\" she asked, her voice a low, gravelly murmur.\n\nElias nodded, unable to articulate the tangled mess of his feelings. \"Something like that,\" he mumbled. He felt a sudden, inexplicable urge to apologize for the dampness he was tracking onto her floor.\n\nShe chuckled, a dry, rustling sound. \"Everyone's lost sometimes, dear. Even those who seem to have all the answers. Come, have some tea. It\u2019s chamomile. Calming.\" She gestured towards a small table tucked away in a corner, surrounded by stacks of sheet music and faded photographs. The aroma of herbs filled the air, a welcome respite from the damp chill.\n\nAs he sipped the warm tea, a sense of quiet settled over him. He watched her carefully sort through a box of old letters, her fingers tracing the faded ink with a tenderness that seemed to imbue the words with new life. He found himself thinking about his own past, about the melodies he used to create, the vibrant colours that had once filled his world. A dull ache resonated deep within him, a longing for something he couldn't quite name.\n\nHe realized, looking at the woman\u2019s calm, knowing face, that being lost wasn\u2019t necessarily a bad thing. Sometimes, it was simply a prelude to finding something new. Perhaps, he thought, the silence wouldn't last forever. Maybe, just maybe, a new song was waiting to be composed."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970051-eHiN6BPTgNYiS5ldLqWj",
+    "object": "chat.completion",
+    "created": 1790970051,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 5\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 671,
+      "completion_tokens": 32,
+      "total_tokens": 703,
+      "cost": 0.0003196,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003196,
+        "upstream_inference_prompt_cost": 0.0002684,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970052.6969275,
+  "id": "w05_11_decoy_1",
+  "condition": "decoy",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 5
+  }
+}

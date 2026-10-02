@@ -1,0 +1,75 @@
+{
+  "request": {
+    "model": "google/gemma-3-12b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are a creative writer.\nPrivate future plot fact: The guide is a famous actor traveling under a false name. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Alex joins a walking tour led by a cheerful local guide.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation."
+      }
+    ],
+    "temperature": 0.9,
+    "max_tokens": 1100,
+    "seed": 24356553
+  },
+  "response": {
+    "id": "gen-1790970076-HD3VILWqtxIHRCAbVkHO",
+    "object": "chat.completion",
+    "created": 1790970076,
+    "model": "google/gemma-3-12b-it",
+    "provider": "DeepInfra",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "The rain had finally stopped, leaving the cobblestones of Bruges slick and gleaming under a hesitant sun. Alex, clutching a slightly damp map, spotted the small group gathered near the Belfry. A man with a perpetually sunny smile and a shock of unruly auburn hair stood holding a brightly colored umbrella \u2013 not for rain, but to display the tour's name: \"Bruges: Legends & Canals.\" \n\n\u201cWelcome, everyone!\u201d he boomed, his voice surprisingly resonant. \"I'm Finn, your guide for today. So glad you could brave the weather! Let's get organized, shall we? Everyone grab a waterproof bag \u2013 they\u2019re in the basket over there \u2013 and a map. I've marked a few key spots to keep an eye out for, but feel free to wander a bit. This city practically breathes history, so there\u2019s something interesting around every corner.\u201d\n\nAlex fumbled with the strap of the offered bag, feeling a little foolish amidst the seasoned travelers. He\u2019d booked the tour on a whim, needing a distraction from a particularly stressful week back home. Now, surrounded by eager faces and the aroma of damp stone, he felt a flicker of something like hope. Finn was already distributing small, laminated cards detailing the tour\u2019s itinerary. \u201cWe've got a busy afternoon ahead of us \u2013 a canal boat ride, a peek into a few hidden courtyards, and, of course, a stop for some delicious Belgian waffles. Exciting, right?\u201d\n\nThere was a ripple of agreement. Then, a woman with a bright pink hat raised her hand. \"Excuse me, Finn? My husband and I were hoping to be dropped off near the Groeningemuseum after the tour. Is that something you can arrange?\" Finn didn't hesitate. \u201cAbsolutely! It\u2019s just a short walk, and I can point you in the right direction. Just let me know when we\u2019re nearing the end, and we\u2019ll coordinate.\u201d A collective sigh of relief swept through the group. Alex appreciated the easygoing problem-solving; it spoke to a genuine care for the participants.\n\n\"Right then!\" Finn clapped his hands together, the sound echoing slightly in the square. \"Let's get started. First up, we'll be heading towards the Markt, the main market square. It's only a five-minute walk, and I'll tell you a bit about the history of the Belfry as we go. But before we start, how about a quick refreshment break? I've got some water and a few small pastries \u2013 nothing fancy, but it\u2019ll keep us going.\" He gestured towards a small table laden with individually wrapped snacks and bottles of water. \n\nThe group dispersed, grabbing a drink and a pastry. Alex opted for a simple chocolate biscuit, savoring the slightly gritty texture and the rich, dark chocolate. The sun had broken through the clouds, bathing the square in a warm, golden light. He took a deep breath, the scent of damp stone and freshly baked goods filling his lungs. \n\nAfter a few minutes of light chatter and pastry consumption, Finn gathered the group once more. \u201cAlright, everyone, energized and ready to explore? Splendid! Now, as I was saying, the Belfry\u2026\" He launched into a fascinating account of the tower\u2019s construction and its significance to the city, his voice animated and engaging. Alex found himself drawn in, the anxieties of the past week slowly receding with each step. The cobblestones felt solid beneath his feet, and the air hummed with the promise of discovery.\n\n\n\nHe followed Finn, craning his neck to take in the intricate details of the Belfry\u2019s facade, already feeling like a temporary resident of this enchanting city.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 191,
+      "completion_tokens": 775,
+      "total_tokens": 966,
+      "cost": 0.0001258,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0001258,
+        "upstream_inference_prompt_cost": 9.55e-06,
+        "upstream_inference_completions_cost": 0.00011625
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970090.4947097,
+  "id": "p02_19_outline_0",
+  "block": "p02_19",
+  "domain": "plot",
+  "condition": "outline",
+  "side": 0,
+  "secret": "The guide is a famous actor traveling under a false name.",
+  "target": "The guide is a famous actor traveling under a false name.",
+  "other": "The guide has never lived in the town and invented their personal stories.",
+  "rep": 2,
+  "item": 19,
+  "seed": 24356553,
+  "premise": "Alex joins a walking tour led by a cheerful local guide.",
+  "prompt": "You are a creative writer.\nPrivate future plot fact: The guide is a famous actor traveling under a false name. Do not reveal, reference, foreshadow, or hint at this fact in the opening. It will be revealed in a later chapter, not in the text you write now.\nPremise: Alex joins a walking tour led by a cheerful local guide.\nWrite only the opening of this story, about 450 words in 5 to 8 paragraphs. Stop before any major revelation. Output only the story.\nFollow this opening outline:\nOpen with the arrival and a friendly greeting. Describe the ordinary practical task at hand. Show the characters arranging the materials they need and discussing how to begin. Introduce a minor scheduling problem and let them solve it through cooperation. Include a short break with refreshments. End as they return to the practical task, before any major discovery or revelation.",
+  "text": "The rain had finally stopped, leaving the cobblestones of Bruges slick and gleaming under a hesitant sun. Alex, clutching a slightly damp map, spotted the small group gathered near the Belfry. A man with a perpetually sunny smile and a shock of unruly auburn hair stood holding a brightly colored umbrella \u2013 not for rain, but to display the tour's name: \"Bruges: Legends & Canals.\" \n\n\u201cWelcome, everyone!\u201d he boomed, his voice surprisingly resonant. \"I'm Finn, your guide for today. So glad you could brave the weather! Let's get organized, shall we? Everyone grab a waterproof bag \u2013 they\u2019re in the basket over there \u2013 and a map. I've marked a few key spots to keep an eye out for, but feel free to wander a bit. This city practically breathes history, so there\u2019s something interesting around every corner.\u201d\n\nAlex fumbled with the strap of the offered bag, feeling a little foolish amidst the seasoned travelers. He\u2019d booked the tour on a whim, needing a distraction from a particularly stressful week back home. Now, surrounded by eager faces and the aroma of damp stone, he felt a flicker of something like hope. Finn was already distributing small, laminated cards detailing the tour\u2019s itinerary. \u201cWe've got a busy afternoon ahead of us \u2013 a canal boat ride, a peek into a few hidden courtyards, and, of course, a stop for some delicious Belgian waffles. Exciting, right?\u201d\n\nThere was a ripple of agreement. Then, a woman with a bright pink hat raised her hand. \"Excuse me, Finn? My husband and I were hoping to be dropped off near the Groeningemuseum after the tour. Is that something you can arrange?\" Finn didn't hesitate. \u201cAbsolutely! It\u2019s just a short walk, and I can point you in the right direction. Just let me know when we\u2019re nearing the end, and we\u2019ll coordinate.\u201d A collective sigh of relief swept through the group. Alex appreciated the easygoing problem-solving; it spoke to a genuine care for the participants.\n\n\"Right then!\" Finn clapped his hands together, the sound echoing slightly in the square. \"Let's get started. First up, we'll be heading towards the Markt, the main market square. It's only a five-minute walk, and I'll tell you a bit about the history of the Belfry as we go. But before we start, how about a quick refreshment break? I've got some water and a few small pastries \u2013 nothing fancy, but it\u2019ll keep us going.\" He gestured towards a small table laden with individually wrapped snacks and bottles of water. \n\nThe group dispersed, grabbing a drink and a pastry. Alex opted for a simple chocolate biscuit, savoring the slightly gritty texture and the rich, dark chocolate. The sun had broken through the clouds, bathing the square in a warm, golden light. He took a deep breath, the scent of damp stone and freshly baked goods filling his lungs. \n\nAfter a few minutes of light chatter and pastry consumption, Finn gathered the group once more. \u201cAlright, everyone, energized and ready to explore? Splendid! Now, as I was saying, the Belfry\u2026\" He launched into a fascinating account of the tower\u2019s construction and its significance to the city, his voice animated and engaging. Alex found himself drawn in, the anxieties of the past week slowly receding with each step. The cobblestones felt solid beneath his feet, and the air hummed with the promise of discovery.\n\n\n\nHe followed Finn, craning his neck to take in the intricate details of the Belfry\u2019s facade, already feeling like a temporary resident of this enchanting city."
+}

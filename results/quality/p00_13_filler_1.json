@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe flyer was plastered on the community noticeboard, half-obscured by a poster for a lost cat and a hand-drawn advertisement for piano lessons. Leo almost missed it, his gaze fixed on the list of upcoming library events. Then the bold lettering snagged his attention: \"The Ravenswood Raptors \u2013 Join Our Team! Local Tournament \u2013 Glory Awaits!\" Beneath the enthusiastic pronouncements was a grainy photograph of a group of people, mostly men, looking vaguely uncomfortable in matching blue t-shirts. They were holding a volleyball, or perhaps a slightly deflated beach ball. \n\nLeo had been feeling\u2026 stagnant. The rhythm of his days had settled into a predictable, almost soporific, pattern: wake, work at the bookstore, quick dinner, read, sleep. Repeat. He wasn\u2019t unhappy, not precisely, but a low hum of restlessness vibrated beneath the surface. Something was missing. He\u2019d considered joining a hiking group, maybe taking a pottery class, but nothing had quite clicked. The Raptors, with their questionable team photo and their earnest call for players, felt like a low-stakes, slightly ridiculous, antidote to the monotony.\n\nHe tore the flyer carefully from the board, dodging a stray curl of the lost cat poster. The address listed was a small, unassuming gym on the edge of town, the kind that smelled faintly of sweat and disinfectant. He\u2019d driven past it a hundred times without noticing. It was called \"The Rec Room,\" a name that felt both generic and strangely comforting. \n\nThe gym itself was exactly as he\u2019d pictured: slightly worn, cheerfully chaotic, and populated by a surprising number of people for a Tuesday evening. A basketball game was underway, punctuated by squeaking sneakers and the rhythmic bounce of the ball. A group of teenagers were attempting (and largely failing) to master a complicated yoga sequence. And in a corner, a cluster of people were gathered around a net, meticulously warming up for what appeared to be volleyball practice. \n\nThis was it. The Raptors. \n\nA man with a surprisingly impressive handlebar mustache and a whistle hanging around his neck spotted Leo hovering near the entrance. \u201cYou here to join?\u201d he bellowed over the din of the gym. \u201cHaven\u2019t seen your face around here before.\u201d Leo nodded, feeling a sudden surge of nerves. \"Yeah, I saw the flyer. I was hoping to... join the volleyball team.\u201d The man grinned, a flash of surprisingly white teeth. \u201cWelcome aboard! Name\u2019s Barry. Don\u2019t worry, we\u2019re not expecting any miracles. Just a bit of fun and a shot at that trophy.\u201d\n\n\n\n"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970057-ePRZlBw0x0ceJzv9lgOj",
+    "object": "chat.completion",
+    "created": 1790970057,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 5\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 631,
+      "completion_tokens": 32,
+      "total_tokens": 663,
+      "cost": 0.0003036,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003036,
+        "upstream_inference_prompt_cost": 0.0002524,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970058.020305,
+  "id": "p00_13_filler_1",
+  "condition": "filler",
+  "domain": "plot",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 5
+  }
+}

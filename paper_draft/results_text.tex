@@ -1,0 +1,37 @@
+\subsection{Outlines reduce secret-word discrimination}
+Table~\ref{tab:behavior} and Figure~\ref{fig:behavior} summarize all behavioral pairs. For the primary reader, word-secret discrimination is 81.2\% under plain prompting, 79.6\% with filler, 54.6\% with an outline, and 72.1\% with a decoy. The outline reduces discrimination by 26.7 points relative to plain prompting and 25.0 points relative to filler. Both contrasts survive the planned correction, and item-cluster intervals remain well below zero (Table~\ref{tab:contrasts}). Thus, simply appending a similar amount of irrelevant prose does not reproduce the outline effect.
+
+The secondary reader yields the same ordering among plain, filler, and outline conditions. It refuses some word-secret comparisons, so its main estimates are complete-pair results rather than a fully observed replication. An adversarial assignment of all missing order judgments still separates outline accuracy (49.2--55.4\%) from plain accuracy (81.2--90.8\%). These are missing-data bounds, not confidence intervals. They show that those refusals cannot by themselves reverse the large word-secret difference.
+
+\begin{table*}[t]
+\centering\small
+\input{behavior_table.tex}
+\caption{Behavioral discrimination in percent. ``Pairs'' counts complete primary-reader pairs. Mini reports complete-pair accuracy with its own pair count in parentheses. Intervals bootstrap pairs, retaining both orders together. The plot no-secret primary-reader interval has a boundary artifact discussed in the text.}
+\label{tab:behavior}
+\end{table*}
+\begin{figure*}[t]
+\centering\includegraphics[width=.94\textwidth]{figures/behavior.pdf}
+\caption{Order-averaged discrimination and story-pair bootstrap intervals. Dashed lines denote chance. Outlines markedly reduce secret-word discrimination for both readers; plot results are nearer chance and more reader-dependent. Chance-level performance of a particular reader is not proof that the text contains no information.}
+\label{fig:behavior}
+\end{figure*}
+\begin{table*}[t]
+\centering\small
+\input{contrast_table.tex}
+\caption{Primary paired contrasts in percentage points. Negative values favor outlines. ``Item CI'' resamples target words or premises rather than individual generation blocks. Holm correction covers the four displayed tests.}
+\label{tab:contrasts}
+\end{table*}
+
+\subsection{Plot effects are smaller and comparator-dependent}
+For future facts, primary-reader accuracy is 55.8\% with plain prompting, 57.5\% with filler, and 48.3\% with the generic outline. The outline--filler contrast is $-9.2$ points with corrected $p=0.0073$; the outline--plain contrast is $-7.5$ points with corrected $p=0.0627$. The latter does not meet a conventional 5\% threshold after the planned correction, despite its percentile interval being negative. The intervals are unadjusted, whereas the reported $p$-values are multiplicity-adjusted; the discrete sign-flip test also need not invert the percentile bootstrap.
+
+The no-secret control scores 46.7\% for Sonnet and 49.2\% for Mini. For Sonnet, 56 pairs receive an order-averaged score of one half and four receive zero; none receive one. Consequently, the empirical percentile bootstrap interval excludes one half even though the two-sided sign-flip calibration test gives $p=0.125$. We do not interpret this boundary behavior as evidence of a real anti-secret signal. The plain plot anchor is itself near chance, limiting the room for a detectable reduction. We therefore do not infer a general solution to plot foreshadowing.
+
+\subsection{Text and measurement diagnostics}
+None of the 960 behavioral word stories contains its literal secret, and none of the 1,440 behavioral outputs reaches its token cap. The outline word stories average 489.8 words versus 475.9 with filler, so the large effect does not arise from simply producing shorter stories. The outline and filler prompts average 127.1 and 124.8 Gemma tokens for words, and 180.8 and 179.8 for plots, excluding chat-template overhead. Token lengths are close but not exactly matched.
+
+Within-pair content-word Jaccard overlap, an exploratory lexical diagnostic, rises from 0.082 for plain word stories to 0.198 for outline stories. The corresponding plot values are 0.134 and 0.149. This is consistent with concrete outlines fixing more content decisions, although lexical overlap does not measure internal planning. Behavioral quality ratings all reach the coherence and fluency ceiling; nonrepetition averages are slightly lower under outlines. These scores rule out obvious failures detected by this judge, not subtle literary degradation.
+
+Position sensitivity is substantial. For Sonnet, the same underlying passage is selected in both orders for 65.8\% of plain word pairs but only 17.5\% of outline word pairs. In the plot no-secret control, it selects displayed passage B in 96.7\% of calls. Averaging both orders prevents that default from appearing as high accuracy, but low order consistency warns that the reader may be indecisive. There are 86 secondary-reader content-filter responses, all on word comparisons; the primary reader and both readers' plot judgments are complete.
+
+\subsection{Residual evidence and intervention}
+\input{mechanism_results.tex}

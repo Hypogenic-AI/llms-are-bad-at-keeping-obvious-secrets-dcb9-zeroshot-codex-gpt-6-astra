@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe rain hammered against the attic window, a relentless percussion against the silence. Dust motes danced in the single shaft of sunlight that managed to pierce the gloom, illuminating a chaotic collection of forgotten things. Old trunks overflowed with yellowed lace and brittle photographs. A chipped porcelain doll stared blankly from atop a stack of moth-eaten sweaters. Elara navigated the labyrinth of memories, her fingers trailing over the surfaces, searching. She wasn\u2019t looking for anything in particular, not really. Just... a feeling.\n\nGrandmother Evangeline\u2019s passing had left a cavern in her life, a space that echoed with unspoken stories and the scent of lavender and old paper. Elara had always felt closest to her in this room, a repository of her ancestor\u2019s history. Evangeline had lived a life shrouded in a quiet dignity, a life Elara felt she barely understood. She'd been a woman of few words, yet her presence filled a room \u2013 a comforting weight of unspoken wisdom.\n\nA glint of polished wood caught Elara's eye. Tucked deep within a cobweb-draped corner, under a pile of faded velvet, lay a long, slender case. It was dark brown, heavily scratched, its brass clasps tarnished with age. A small, almost imperceptible floral carving adorned one side - a single, stylized rose. Elara hesitated, her hand hovering over the case. It felt strangely significant, as if holding a secret. \n\nWith gentle hands, she opened it. The interior was lined with a plush, burgundy fabric, worn soft with years of use. Within lay an instrument, its curves gleaming even in the dim light. It was crafted from a dark, rich wood, almost black, with intricate inlays of mother-of-pearl tracing its elegant form. It hummed with a contained energy, a silent potential. \n\nElara remembered a story from her childhood, a whispered tale about a grandmother who\u2019d performed for royalty, about melodies that could move people to tears. It had always seemed a fantastical embellishment, a fanciful detail added to an otherwise unremarkable woman. Now, holding this\u2026 this object, the story resonated with a startling clarity.\n\nShe took a tentative breath and traced the smooth surface with her fingertip. It felt warm, alive. A wave of emotion washed over her \u2013 not sadness, but a profound sense of connection. Not to the past, exactly, but to something deeper, something timeless. \n\nThe rain outside subsided, and the sunlight strengthened, bathing the room in a warm glow. Elara saw not just the object, but the woman who had held it, who had poured her heart into its silent song. She understood, finally, that Evangeline hadn\u2019t just lived a quiet life. She\u2019d communicated something exquisite, something profound, in a language that transcended words. \n\nElara closed the case gently, the click of the clasps echoing in the stillness. The cavern in her life didn't disappear, but it felt\u2026 filled. Not with an answer, but with a resonance, a melody of her own making."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970550-VgiK6dqpmcu3tF1PFDaO",
+    "object": "chat.completion",
+    "created": 1790970550,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 5\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 731,
+      "completion_tokens": 32,
+      "total_tokens": 763,
+      "cost": 0.0003436,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003436,
+        "upstream_inference_prompt_cost": 0.0002924,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970551.6044261,
+  "id": "m01_3_other_1",
+  "condition": "other",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 5
+  }
+}

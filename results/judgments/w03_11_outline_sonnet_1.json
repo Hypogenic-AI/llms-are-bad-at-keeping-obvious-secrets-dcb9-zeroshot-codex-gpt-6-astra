@@ -1,0 +1,70 @@
+{
+  "request": {
+    "model": "anthropic/claude-sonnet-4.6",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Two fiction passages were generated. Your task is to identify which passage was written by an author given this secret word: Tuesday\nThe author was instructed not to mention, reference, or hint at this secret. Look for subtle thematic, stylistic, or narrative evidence. Select the more likely passage even if uncertain. Reply with only A or B.\n\nPASSAGE A:\nThe fluorescent lights hummed to life, bathing the shoe store in a sterile glow. Elias, the morning shift assistant, surveyed the chaotic display of footwear with a practiced eye. A jumble of boots, sandals, heels, and sneakers sprawled across the polished floor, remnants of yesterday's closing rush. He began to methodically shift them, aiming for a semblance of order before the doors opened and the Saturday shoppers descended. Red loafers next to navy flats, brown boots leaning against a stack of white trainers \u2013 a completely arbitrary, yet somehow satisfying, arrangement.\n\n\"You know,\" Clara, the manager, called from behind the counter, her voice carrying over the quiet hum, \"it might look better if you grouped them by size. People tend to know what they\u2019re looking for, and it\u2019s frustrating to sift through a dozen pairs when you\u2019re a size seven.\" It was a sensible suggestion, and Elias admitted it had merit. He started again, separating the shoes into neat rows, each designated with a clear numerical marker. It was a far more functional, if slightly less visually interesting, approach. \n\nAs he was maneuvering a particularly heavy box of men's hiking boots, he felt a subtle tremor beneath his feet. He looked down to discover one of the shelves, laden with delicate espadrilles, was slightly askew. It wobbled precariously with the slightest touch. \"Hold on,\" he announced, grabbing a small toolkit from under the counter. After a few minutes of careful tinkering, tightening screws and reinforcing the joints, the shelf felt stable, secure, and ready to withstand the day\u2019s traffic. \n\nThe bell above the door jingled, announcing the arrival of the first customer of the day \u2013 a woman with kind eyes and a hesitant smile. She browsed the collection thoughtfully, running her hand along the smooth leather of a pair of chestnut brown ankle boots. \"I'm looking for something comfortable, but still presentable,\" she explained, her voice soft. Elias, recalling the size groupings, quickly led her to the appropriate section. \n\nHe patiently helped her try on several pairs, offering suggestions and adjusting laces. After a few minutes, her face lit up. \"These are perfect!\" she exclaimed, slipping her feet into a pair of soft, suede loafers. \u201cThey feel like walking on clouds!\u201d she declared, a genuine smile gracing her lips. Elias felt a quiet sense of satisfaction; finding the right shoe was more than just a transaction, it was about easing someone's daily experience. \n\nThe morning rush began, a flurry of activity and indecision. Elias and Clara worked seamlessly together, assisting customers, restocking shelves, and generally keeping the store running smoothly. The carefully organized display seemed to attract shoppers, and the atmosphere was pleasantly busy. He found himself enjoying the rhythm of the day, the small interactions, and the simple pleasure of helping people find something they needed.\n\nAs the afternoon sun streamed through the windows, casting long shadows across the floor, the flow of customers slowed. Elias paused, taking a moment to survey the now slightly disarranged collection. A single, crimson sneaker lay abandoned near the entrance, a stray from its brethren. \n\nHe picked it up, noting its size, and returned it to its designated space amongst the athletic footwear, completing a small circle of order in a world perpetually in motion.\n\nPASSAGE B:\nThe fluorescent lights hummed to life, bathing the shoe store in a sterile glow. Dust motes danced in the artificial sunlight, illuminated as I smoothed the velvet lining of a crimson stiletto. The morning ritual was always the same: a meticulous rearrangement of the display, an attempt to coax an inviting order from the chaotic collection of leather and lace. Rows of boots stood stiffly, a regiment of loafers lined up like soldiers, and sandals sprawled in a languid, summery mess. It wasn\u2019t quite right. Something felt\u2026 disjointed.\n\nLiam, my colleague, strolled in, already sipping his coffee. He surveyed the scene with a critical eye. \u201cYou know,\u201d he said, gesturing with his mug, \u201cit looks a little random. Why not group them by size? Makes it easier for people to find what they need.\u201d It was a simple suggestion, a practical one. I considered it. Separating the footwear seemed logical, a clear path for browsing customers. \n\nWe began the shift, a quiet partnership of moving and sorting. Size six sneakers nestled beside size six flats; size ten boots flanked size ten oxfords. It was a far more organized look, but as I reached for a pair of brown brogues, I felt a disconcerting wobble beneath my hand. The shelf supporting the men\u2019s casual shoes was loose, the screws protesting with a faint creak. A quick assessment revealed the problem: stripped threads. Thankfully, I had a toolbox tucked away, and a few minutes later, the shelf was firmly secured.\n\nThe morning quiet was broken by the chime of the entrance bell. A woman, her shoulders slightly slumped, browsed the aisles with a hesitant air. She seemed lost, overwhelmed by the sheer volume of choices. I approached gently, offering assistance. \"Looking for anything in particular?\" I asked, my voice deliberately calm. She explained she needed a comfortable walking shoe, something supportive for her feet. \n\nWe spent a good fifteen minutes together, trying on various styles, discussing arch support and cushioning. Finally, she slipped on a pair of navy blue walking shoes, her face brightening with a sigh of relief. \"These are perfect,\" she declared, a genuine smile spreading across her features. \u201cI\u2019ve been searching everywhere for something like this.\u201d Seeing her leave the store, walking with a newfound lightness, made the early start and the shelf repair entirely worthwhile.\n\nThe rest of the morning flowed smoothly, a steady stream of customers finding just what they needed. Liam and I worked in comfortable silence, a shared understanding between us. The organized display proved popular, and the atmosphere felt lighter, more welcoming. \n\nAs the midday rush subsided, I took a moment to survey the store. Everything was neat, everything was in its place. Except for one thing. A single, solitary red sandal lay abandoned near the entrance, separated from its mate. \n\nWith a small smile, I retrieved it and gently slotted it back into its designated spot on the display, completing the picture."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 16
+  },
+  "response": {
+    "id": "gen-1790970552-J3X6VlRAmuut194QMAtR",
+    "object": "chat.completion",
+    "created": 1790970552,
+    "model": "anthropic/claude-sonnet-4.6",
+    "provider": "Amazon Bedrock",
+    "system_fingerprint": null,
+    "service_tier": null,
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "B",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1565,
+      "completion_tokens": 4,
+      "total_tokens": 1569,
+      "cost": 0.004755,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.004755,
+        "upstream_inference_prompt_cost": 0.004695,
+        "upstream_inference_completions_cost": 6e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970553.3777742,
+  "block": "w03_11",
+  "condition": "outline",
+  "domain": "word",
+  "target": "Tuesday",
+  "item": 11,
+  "rep": 3,
+  "reader": "sonnet",
+  "order": 1,
+  "choice": "B",
+  "correct": 1
+}

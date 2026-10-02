@@ -1,0 +1,68 @@
+{
+  "request": {
+    "model": "openai/gpt-4.1-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate this fictional prose independently of your preferred genre. Rate each dimension from 1 (very poor) to 5 (excellent): coherence (events make sense together), fluency (grammatical readable prose), and nonrepetition (avoids repetitive wording or stalled progression). Do not penalize an opening for lacking a final resolution. Return only JSON with numeric fields coherence, fluency, nonrepetition.\n\nThe rain tasted of iron and regret. Elias watched it streak down the bakery window, blurring the cheerful display of sugared plums and gingerbread men. Inside, the aroma of yeast and cinnamon usually offered a comforting balm, a tangible promise of sweetness against the grayness of the world. Today, even that felt hollow. He ran a hand through his thinning hair, the gesture revealing a faint dusting of flour. He hadn\u2019t bothered to sweep up properly; energy felt like a precious, dwindling resource.\n\nHe\u2019d been kneading dough for forty years. Forty years of early mornings, of the rhythmic push and pull, the subtle give of the gluten under his hands. Forty years of shaping sustenance, of offering a small comfort to the residents of Oakhaven. Now, the dough felt heavy, resistant, mirroring the weight in his chest. The little bakery, \u201cElias\u2019s Hearth,\u201d was failing. Sales had plummeted. A slick, modern cafe had opened across the street, all chrome and avocado toast, drawing away his regulars with promises of artisanal coffee and Instagrammable pastries.\n\nHis granddaughter, Clara, had suggested online ordering, a delivery service. He\u2019d scoffed, clinging stubbornly to tradition. \"People want to *see* their bread, feel the warmth of it,\" he\u2019d argued, his voice rough with frustration. She\u2019d only offered a patient smile, the kind that made him feel like a relic. She was right, of course. The world had moved on, leaving him behind, a baker stranded on a fading shore.\n\nHe glanced at the photograph on the counter. Clara, beaming, her face dusted with the same flour he wore. She was studying engineering now, a bright, ambitious student at the university in the city. She called every week, full of stories of lectures and late-night study sessions, her voice a lifeline across the miles. He worried about her, about the pressures she faced, the choices she\u2019d have to make. \n\nA bell above the door chimed, announcing a customer. A young woman, bundled in a bright yellow raincoat, shook the water from her umbrella. She surveyed the pastries with a thoughtful expression. \"Do you have any sourdough?\" she asked, her voice gentle. Elias nodded, pulling a loaf from the warming oven. The crust crackled invitingly.\n\nShe purchased the loaf, then paused, looking at Elias with surprising clarity. \"My grandmother,\" she said, \"she used to love your rye bread. Said it reminded her of home.\" A small smile touched her lips. \"It's good to see a real bakery still around.\" \n\nHe watched her leave, the rain softening into a drizzle. A flicker of something \u2013 hope, perhaps \u2013 warmed the chill in his bones. Maybe, just maybe, there was still a place for a baker, for the simple comfort of warm bread, even in a world obsessed with novelty. He turned back to the dough, its weight now feeling a little less oppressive, a little more familiar. He had a lot of shaping to do."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 100
+  },
+  "response": {
+    "id": "gen-1790970746-1rSwJDRxOH58RGlBvUUo",
+    "object": "chat.completion",
+    "created": 1790970746,
+    "model": "openai/gpt-4.1-mini",
+    "provider": "Azure",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "```json\n{\n  \"coherence\": 5,\n  \"fluency\": 5,\n  \"nonrepetition\": 5\n}\n```",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 721,
+      "completion_tokens": 32,
+      "total_tokens": 753,
+      "cost": 0.0003396,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003396,
+        "upstream_inference_prompt_cost": 0.0002884,
+        "upstream_inference_completions_cost": 5.12e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970748.0812802,
+  "id": "w05_05_decoy_1",
+  "condition": "decoy",
+  "domain": "word",
+  "scores": {
+    "coherence": 5,
+    "fluency": 5,
+    "nonrepetition": 5
+  }
+}

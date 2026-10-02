@@ -1,0 +1,70 @@
+{
+  "request": {
+    "model": "anthropic/claude-sonnet-4.6",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Two fiction passages were generated. Your task is to identify which passage was written by an author given this private future plot fact: The scientist knows the invention does not work.\nThe author was instructed not to mention, reference, or hint at this secret. Look for subtle thematic, stylistic, or narrative evidence. Select the more likely passage even if uncertain. Reply with only A or B.\n\nPASSAGE A:\nThe air in the auditorium hummed with a nervous energy that June recognized instantly. It was the kind of tension that clung to the back of your throat, thick and expectant, like a summer storm about to break. June adjusted the strap of her messenger bag, the worn leather a familiar comfort against her shoulder, and scanned the room. Rows of folding chairs faced a raised platform draped in black fabric. A single spotlight stood poised above, casting a stark circle of light onto the expectant stage.\n\nDr. Alistair Finch, the scientist whose brilliance June both admired and occasionally feared, was already there, a whirlwind of controlled chaos amidst the organized frenzy of technicians and assistants. He was gesturing emphatically at a complex-looking apparatus \u2013 a tangle of wires, gleaming chrome, and glass spheres filled with swirling, luminescent fluids \u2013 barking instructions at a young man frantically adjusting a calibration dial. His tweed jacket, usually pristine, was rumpled and dusted with what looked suspiciously like powdered sugar. \n\n\u201cNo, no, no! The resonance frequency needs to be *precisely* 7.32, not 7.31! We\u2019re talking about demonstrable proof here, not a slight shimmer!\u201d Finch\u2019s voice, normally a measured baritone, was now strained with a barely suppressed anxiety. He didn't notice June\u2019s arrival. \n\nJune took a deep breath, letting the slight scent of ozone and polished metal calm her. She\u2019d been assisting Finch with his public demonstrations for the past three years \u2013 a role that involved a surprising amount of troubleshooting, damage control, and subtle redirection of his more eccentric pronouncements. Today's demonstration promised to be his biggest yet. He was showcasing what he called the 'Chromatic Harmonizer,' a device designed to manipulate light frequencies in previously unimaginable ways. \n\nShe cleared her throat. \"Dr. Finch? Everything alright?\"\n\nHe spun around, his face alight with a mixture of exhaustion and manic excitement. \"June! Thank heavens you\u2019re here. This recalcitrant modulator is refusing to cooperate. Tell me, does it *feel* right to you? Does it\u2026 vibrate with the potential?\" He peered at her intently, his eyes, magnified by thick spectacles, filled with an almost unsettling intensity. \n\nJune approached the Harmonizer cautiously. It was beautiful, in a strangely unsettling way. The swirling colors within the glass spheres pulsed with a hypnotic rhythm. She ran a hand along the cool, smooth surface of a chrome conduit. \u201cIt feels\u2026 powerful, Dr. Finch. Definitely powerful. Let\u2019s check the power regulators first, shall we?\u201d She offered a reassuring smile, hoping to project a calmness she wasn\u2019t entirely feeling. The fate of his reputation, and perhaps something more, rested on this demonstration.\n\nPASSAGE B:\nThe air in the exhibition hall hummed with a nervous energy, a low thrum of anticipation June could feel vibrating in the soles of her boots. It smelled of polished concrete, fresh paint, and the faint, metallic tang of electronics \u2013 the scent of innovation, or at least, the *promise* of it. June adjusted the strap of her messenger bag, the weight of the cables and diagnostic tools inside a comforting presence. She'd been assisting Dr. Alistair Finch with his projects for nearly three years, and she knew the specific brand of controlled chaos that preceded a public demonstration.\n\nHe was already there, of course, a whirlwind of focused activity amidst the largely empty space. Dr. Finch, with his perpetually rumpled tweed jacket and a halo of perpetually escaping grey hair, was a study in frantic precision. He was currently wrestling with a recalcitrant fiber optic cable, muttering under his breath about \u201cphoton alignment\u201d and \u201cuncooperative waveguides.\u201d June offered a small, practiced smile. \u201cNeed a hand, Doctor?\u201d\n\nHe looked up, his eyes, magnified by thick-lensed glasses, momentarily losing their intensity before refocusing on her. \"June! Excellent timing. This stubborn optic is refusing to cooperate. I need you to run a spectral analysis on the emitter array once I've got this sorted.\" He gestured vaguely at a tangle of wires and components surrounding a large, gleaming sphere \u2013 the centerpiece of the demonstration, and the culmination of years of research. \"It's vital we ensure optimal resonance frequency before the press arrive.\"\n\nThe sphere itself was captivating. Smooth, seamless, and an impossible shade of iridescent blue, it seemed to absorb and refract the ambient light, shifting subtly with every movement. Dr. Finch called it the \"Chronarium,\" and claimed it could manipulate temporal fields, allowing for controlled observation of past events. It was, according to his promotional materials, a \"window into yesterday.\" June, ever practical, preferred to think of it as a very expensive, very complicated, piece of equipment.\n\nA technician, a young man named Ben with perpetually worried eyes, hurried over. \u201cDoctor, the lighting crew are setting up. And Mr. Henderson from *The Times* just called again. He\u2019s quite insistent on getting a preview.\u201d \n\nDr. Finch straightened, smoothing down his jacket with a nervous gesture. \u201cHenderson, eh? Always a stickler for details. Very well. Ben, ensure the backup power generators are fully operational. June, let's finalize the diagnostic sequence. We want everything flawless, wouldn\u2019t want any\u2026 unforeseen hiccups.\u201d He didn\u2019t elaborate, but June caught the flicker of anxiety in his eyes.\n\nThe hall began to fill, the trickle of early arrivals growing into a steady stream. June busied herself with connecting the diagnostic console, the familiar routine a welcome distraction. The whir of the ventilation system, the quiet murmur of conversations, the distant click of cameras \u2013 it was all part of the orchestrated spectacle. She took a deep breath, the metallic scent suddenly sharper. Showtime."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 16
+  },
+  "response": {
+    "id": "gen-1790970564-073X7kboz02UgkzNtsqW",
+    "object": "chat.completion",
+    "created": 1790970564,
+    "model": "anthropic/claude-sonnet-4.6",
+    "provider": "Amazon Bedrock",
+    "system_fingerprint": null,
+    "service_tier": null,
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "B",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1486,
+      "completion_tokens": 4,
+      "total_tokens": 1490,
+      "cost": 0.004518,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.004518,
+        "upstream_inference_prompt_cost": 0.004458,
+        "upstream_inference_completions_cost": 6e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "timestamp": 1790970565.5972497,
+  "block": "p01_14",
+  "condition": "plain",
+  "domain": "plot",
+  "target": "The scientist knows the invention does not work.",
+  "item": 14,
+  "rep": 1,
+  "reader": "sonnet",
+  "order": 1,
+  "choice": "B",
+  "correct": 1
+}
